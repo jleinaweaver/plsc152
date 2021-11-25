@@ -1,0 +1,379 @@
+---
+output:
+  xaringan::moon_reader:
+    css: ["default", "extra.css"]
+    lib_dir: libs
+    seal: false
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+      ratio: '16:9'
+---
+
+```{r, echo = FALSE, warning = FALSE, message = FALSE}
+##xaringan::inf_mr()
+## For offline work: https://bookdown.org/yihui/rmarkdown/some-tips.html#working-offline
+## Images not appearing? Put images folder inside the libs folder as that is the main data directory
+
+library(tidyverse)
+library(readxl)
+library(stargazer)
+##library(kableExtra)
+##library(modelr)
+
+knitr::opts_chunk$set(echo = FALSE,
+                      eval = TRUE,
+                      error = FALSE,
+                      message = FALSE,
+                      warning = FALSE,
+                      comment = NA)
+```
+
+class: slideblue
+
+.size80[**Today's Agenda**]
+
+<br>
+
+.size50[
+.center[
+Thinking Like a Political Scientist: 
+
+Interests, Institutions and Interactions
+]
+]
+
+<br>
+
+.center[.size40[
+  Justin Leinaweaver (Spring 2022)
+]]
+
+???
+
+The big over-arching goal for today is to practice thinking like a political scientist.
+
+At times this is going to feel very abstract and theoretical, but the time we spend practicing these abstractions today will help you A TON next week when we begin exploring cutting-edge political science research.
+
+Think of this like learning the alphabet of social science.
+
+
+
+---
+
+class: middle, slideblue
+
+.size50[**A Prisoner's Dilemma**]
+
+.size30[
++ Each round your group must choose to cooperate or defect.
++ Your reward depends on the choice made by the other group.
+]
+
+```{r, fig.align='right', out.width='95%'}
+knitr::include_graphics("libs/Images/04_1-PD_Table.png")
+```
+
+???
+
+I asked each of you to reflect on that game both in terms of what you might have learned about yourself and and what you learned about your classmates.
+
+<br>
+
+LET'S START WITH THIS, CAN WE ALL AGREE ON WHAT HAPPENED?
+- GIVE ME A SHORT DESCRIPTION OF THE "EVENT."
+
+* Encourage a few different stabs at this *
+
+DOES EVERYBODY AGREE WITH THAT?
+
+---
+
+class: middle, center, slidegreen
+
+.size80[**What did you learn about yourself from the game?**]
+
+???
+
+DID ANYBODY LEARN ANYTHING INTERESTING ABOUT THEMSELVES FROM THE GAME?
+
+- ANYTHING ABOUT HOW YOU WORK IN A GROUP?
+
+- ANYTHING ABOUT HOW YOU WEIGH RISK AND REWARD?
+
+- ANYTHING ABOUT HOW YOU MAKE DECISIONS?
+
+<br>
+
+WAS THIS A USEFUL SIMULATION FOR LEARNING ABOUT YOURSELF AS A POLITICAL DECISION-MAKER? 
+- WHY OR WHY NOT?
+
+<br>
+
+As a budding social scientist I hope you are always on the lookout for opportunities to connect your lived experience in the world with ideas for how the world works.
+
+---
+
+class: middle, center, slidegreen
+
+.size80[**What did you learn about your classmates from the game?**]
+
+???
+
+DID ANYBODY LEARN ANYTHING INTERESTING ABOUT THEIR CLASSMATES?
+
+- DO YOU HAVE A GOOD SENSE OF WHO THEY ARE AND WHAT THEY VALUE?
+
+- HOW ABOUT THEIR DECISION-MAKING PROCESSES?
+
+<br>
+
+OUT OF CURIOSITY, DO YOU BELIEVE THIS SIMULATION IS A GOOD TEST OF A PERSON'S CHARACTER? WHY OR WHY NOT?
+
+
+
+
+---
+
+class: middle, slidegreen
+
+.pull-left[
+
+```{r, fig.align='left', out.width='80%'}
+knitr::include_graphics("libs/Images/02_2-drury_map.jpg")
+```
+
+]
+
+.pull-right[
+
+<br>
+<br>
+
+.center[
+.size50[**Building a Model of the Prisoner's Dilemma**]
+
+<br>
+<br>
+<br>
+
+.size40[**Outcomes to Explain?**]
+]]
+
+???
+
+Remember, a scientific model is like a map.
+
+It is a simplification of the world that allows us to better understand causality.
+
+In other words, why things happen they way they do and what we can do to manipulate those things.
+
+Let's start by figuring out the output of our model.
+
+* ON BOARD *
+
+Help me brainstorm the different outcomes of our game we could use a model to explain.
+
+- Think about the big decision moments in the game and what happened after them.
+
+(- coop in first round, total uncertainty)
+(- coop after first round, less uncertainty?)
+(- coop after being "betrayed")
+(- the actual final outcome we reached)
+(- etc.)
+
+(- Choosing to cooperate or defect in the 1st round)
+(- Choosing to cooperate after the other side defects)
+(- Choosing to cooperate after the other side defects repeatedly)
+(- Choosing to cooperate after the other side breaks their word)
+(- Choosing to cooperate in the final round)
+
+<br>
+
+ANY NON-POINTS BASED OUTCOMES YOU WANT TO CONSIDER?
+* A complex idea, but can be super important *
+
+(Internal group dynamics?)
+- How did you decide how to decide?
+- How did you decide when to speak up or not?
+
+(- Cross-group dynamics?)
+
+<br>
+
+Ok, now we have our outcomes to explain.
+
+
+---
+
+class: middle, slideblue
+
+.size50[**Frieden, Lake and Schultz (2016)**]
+
+.size30[
+**Interests**
+
+"…[The] preferences of actors over the possible outcomes that might result from their political choices" (45).
+
+**Interactions**
+
+"The ways in which the choices of two or more actors combine to produce political outcomes" (51).
+
+**Institutions**
+
+"A set of rules, known and shared by the community, that structure political interactions in particular ways" (67).
+]
+
+???
+
+Here are the three key concepts from the reading for this week and how the authors, Frieden, Lake and Schultz, define them.
+
+Think of interests, interactions and institutions as a shortcut to designing a model of political behavior.
+
+ANY QUESTIONS ON THESE THREE CONCEPTS?
+
+DO WE UNDERSTAND HOW THESE HELP US DESIGN A MODEL OF BEHAVIOR OR DECISION-MAKING?
+
+The interests tell us who is making the decisions and what they want.
+
+The institutions tell us what are the rules that matter.
+
+The interactions tells us what happens when these different interests collide.
+
+
+
+
+---
+
+class: middle, slideblue
+
+.size50[.center[**Building a Model of the Prisoner's Dilemma**]]
+
+<br>
+
+.size40[
+Make a list of the ways each of these impacted the outcome of our PD game.
+
++ Interests
+
++ Interactions
+
++ Institutions
+]
+
+???
+
+Working on your own, make a list of the ways each of these impacted the outcome of our PD game.
+
+<br>
+
+Compare your list to the people around you (small groups of 3).
+
+<br>
+
+* ON BOARD * Make three lists
+
+
+---
+
+class: middle, slideblue
+
+.size50[.center[**Building a Model of the Prisoner's Dilemma**]]
+
+<br>
+
+.size40[
+Propose a change to one of these that would alter the outcomes in a predictable way.
+
++ Interests
+
++ Interactions
+
++ Institutions
+]
+
+???
+
+Now, working in small groups I want you to propose a change to one of these that would alter the outcomes in a predictable way.
+
+MAKE SENSE?
+
+Get to it!
+
+<br>
+
+* Share examples *
+
+
+
+---
+
+class: middle, slideblue
+
+.size50[**A Prisoner's Dilemma**]
+
+.size30[
++ Each round your group must choose to cooperate or defect.
++ Your reward depends on the choice made by the other group.
+]
+
+```{r, fig.align='right', out.width='95%'}
+knitr::include_graphics("libs/Images/04_1-PD_Table.png")
+```
+
+???
+
+Bottom line, my hope is that this work today has helped you think about our simulation more deeply.
+
+Building models requires breaking complex situations down into their component pieces and thinking carefully about how each piece works on its own and when colliding with the other pieces.
+
+GIVEN YOUR WORK TODAY, HOW CONFIDENT ARE YOU THAT YOU COULD TWEAK THE PD GAME WE PLAYED TO ENCOURAGE CERTAIN SPECIFIC OUTCOMES?
+
+- e.g. FORCE THE PLAYERS TO DO SOMETHING YOU WANT THEM TO DO...
+
+<br>
+
+More important than that, I hope you are starting to see how these skills connect to the real world.
+
+If you can get specific about the thing you are trying to explain (the outcome), thinking about the interests, institutions and interactions will help you structure ANY investigation.
+
+Why do wars happen?
+
+Can we stop international terrorism?
+
+What should we do about famine and global poverty?
+
+<br>
+
+Huge questions have to be broken down into smaller pieces.
+
+We can then carefully examine these smaller pieces that explain some part of the outcome.
+
+Once we identify these causal mechanisms we can then try to alter the outcomes we care about on the global stage.
+
+<br>
+
+IN OTHER WORDS, ARE YOU STARTING TO SEE HOW MODELS CAN BE USED TO MANIPULATE COMPLEX SOCIAL SYSTEMS?
+
+Scary powerful once you see the world this way...
+
+ANY QUESTIONS ON THIS?
+
+
+
+---
+
+class: middle, center, slidepurple
+
+.size50[**For Friday**]
+
+<br>
+<br>
+
+.size40[
+**Writing Workshop for your first paper**
+
+Bring a rough draft to class to get feedback from your classmates!
+]
+

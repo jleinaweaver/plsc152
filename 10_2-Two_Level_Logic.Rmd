@@ -1,0 +1,767 @@
+---
+output:
+  xaringan::moon_reader:
+    css: ["default", "extra.css"]
+    lib_dir: libs
+    seal: false
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+      ratio: '16:9'
+---
+
+```{r, echo = FALSE, warning = FALSE, message = FALSE}
+##xaringan::inf_mr()
+## For offline work: https://bookdown.org/yihui/rmarkdown/some-tips.html#working-offline
+## Images not appearing? Put images folder inside the libs folder as that is the main data directory
+
+library(tidyverse)
+library(readxl)
+library(stargazer)
+##library(kableExtra)
+##library(modelr)
+
+knitr::opts_chunk$set(echo = FALSE,
+                      eval = TRUE,
+                      error = FALSE,
+                      message = FALSE,
+                      warning = FALSE,
+                      comment = NA)
+```
+
+class: slideblue
+
+.size80[**Today's Agenda**]
+
+<br>
+
+.size70[.center[
+
+Explore the logic of a two-level bargaining game
+
+]]
+
+<br>
+
+.center[.size40[
+  Justin Leinaweaver (Spring 2022)
+]]
+
+???
+
+## Prep for Class
+1. ...
+
+<br>
+
+* WHEN POSSIBLE, make the groups sit together *
+
+
+
+---
+
+background-image: url('libs/Images/09_1-patronage.jpg')
+background-size: 83%
+background-position: center
+
+???
+
+On Monday we re-played our prisoners' dilemma from earlier in the semester with a few added wrinkles.
+
+Before we dig into what happened, the leader has a job to do.
+
+Leader, please come to the front of the room and announce your decision.
+
+* After announcement *
+
+OK, ARE WE ALL DONE?
+
+ANYBODY IN THE WINNING GROUP WANT TO CALL FOR AN IMMEDIATE ELECTION?
+- WHY OR WHY NOT?
+
+ANYBODY WITH AN ALTERNATIVE PROPOSAL?
+- WHY OR WHY NOT?
+
+
+
+---
+
+background-image: url('libs/Images/09_1-PD_Table2.png')
+background-size: 100%
+background-position: bottom
+
+.size50[.center[**A Competitive Prisoner's Dilemma**]]
+
+???
+
+Let's start discussing your experience of the game.
+
+#### Relative vs absolute gains
+
+1. DO WE THINK THIS VERSION OF THE GAME GOT US CLOSER TO REAL-WORLD NEGOTIATIONS? WHY OR WHY NOT?
+
+DO WE TEND TO THINK OF INTERNATIONAL NEGOTIATIONS AS ZERO-SUM AFFAIRS LIKE THIS WAS?
+
+WERE YOU PLAYING TO WIN OR TO PREVENT THE OTHER SIDE FROM WINNING? IS THERE A DIFFERENCE?
+
+<br>
+
+#### The role of trust
+
+2. DID YOU FIND ADDING THE NEGOTIATOR AND NEGOTIATING BETWEEN ROUNDS HELPFUL? WHY OR WHY NOT?
+
+DID YOU TRUST THE OTHER TEAM'S NEGOTIATOR?
+
+DID YOU TRUST YOUR OWN NEGOTIATOR?
+
+<br>
+
+#### Within vs Across group dynamics
+3. DID YOU FIND IT HARDER TO NEGOTIATE WITHIN YOUR GROUP OR WITH THE OTHER GROUP? WHY?
+
+<br>
+
+#### Power of the leader
+4. HOW POWERFUL WAS THE LEADER OF EACH SIDE IN THIS GAME?
+
+DID EITHER SIDE ELECT A NEW LEADER DURING THE GAME? WHY OR WHY NOT?
+
+LEADERS, DID YOU FEEL THAT THE THREAT OF ELECTIONS CHANGED YOUR BEHAVIOR? WHY OR WHY NOT?
+
+WINNING LEADER, WHY DID YOU DISTRIBUTE THE POINTS AS YOU DID?
+
+<br>
+
+#### Our Takeaway
+
+HOW DID THAT PLAY OF THE GAME INFLUENCE THE WAY YOU THINK ABOUT THE IMPACT OF DOMESTIC POLITICS ON INTERNATIONAL POLITICAL OUTCOMES?
+
+ANYBODY MORE CONVINCED THAT DOMESTIC POLITICS MATTERS?
+- WHY OR WHY NOT?
+
+
+
+---
+
+background-image: url('libs/Images/10_2-nyt_uk_fr2.png')
+background-size: 67%
+background-position: right
+
+.pull-left[
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+```{r, fig.retina=3, fig.align='left', out.width='100%'}
+knitr::include_graphics("libs/Images/10_2-nyt_uk_fr.png")
+```
+
+]
+
+???
+
+Ok, talk to me about the spat between the UK and France described in our NYT article.
+
+WHAT IS THE INTERNATIONAL POLITICAL EVENT HERE?
+
+<br>
+
+WHAT DOES MACRON ACTUALLY WANT FROM THIS INTERACTION?
+
+- IS IT ABOUT FISH? NUCLEAR SUBS? OR SOMETHING ELSE?
+
+<br>
+
+WHAT DOES BORIS JOHNSON WANT?
+
+
+
+
+---
+
+background-image: url('libs/Images/10_2-FP_Iran2.png')
+background-size: 60%
+background-position: right
+
+.pull-left[
+
+<br>
+
+<br>
+
+```{r, fig.retina=3, fig.align='left', out.width='90%'}
+knitr::include_graphics("libs/Images/10_2-FP_Iran.png")
+```
+
+]
+
+???
+
+Ok, let's shift to the FP article about Iran.
+
+WHAT IS THE INTERNATIONAL POLITICAL EVENT HERE?
+
+<br>
+
+
+---
+
+background-image: url('libs/Images/09_2-chess.png')
+background-size: 100%
+background-position: center
+
+???
+
+Robert Putnam is a political scientist who wrote a great deal about modeling international negotiations.
+
+In a 1988 paper he introduced the concept of a two level game.
+
+Putnam argued that we could think usefully about international negotiations as a two level game.
+
+TELL ME ABOUT THE TWO LEVELS
+
+- WHAT DOES THE FIRST REPRESENT?
+(On the first level, leaders negotiated with each other.)
+
+- AND THE SECOND?
+(On the second level, leaders are negotiating with their supporters to stay in power.)
+
+- WHICH "LEVEL" HAPPENS FIRST?
+(They happen simultaneously!)
+
+- HOW DO THE TWO LEVELS INTERACT?
+(Moves made on one game board can move the pieces on the other board.)
+(Moves that make no sense on one level might make perfect sense on the other.)
+
+<br>
+
+The takeaway is that domestic politics influences international outcomes in a fundamental and inseparable way.
+
+Let's look at an example of this dynamic in play.
+
+
+
+---
+
+background-image: url('libs/Images/09_2-kim_jong_un_war_plans.jpg')
+background-size: 100%
+background-position: center
+
+???
+
+In April a few years back (2013) the North Korean news service released a series of photos showing Kim Jong Un preparing war plans for the US.
+
+The US is on many of the maps with missile targets painted on some of our cities.
+
+<br>
+
+DOES ANYBODY THINK NORTH KOREA IS ABOUT TO ATTACK THE US MAINLAND? WHY NOT?
+
+Important to keep in mind, often world leaders are playing multiple games simultaneously.
+
+Kim Jong Un had only been leader for a short time and we believe he was struggling to keep the military on his side.
+
+This photo op and series of belligerent statements sent a signal of strength to his domestic audience.
+- Show the military he is not weak
+- Remind his people to support him against a worse enemy e.g. the US.
+
+This is one way the two level game helps us navigate international politics.
+- It's important to remember that there are mutliple games being played simulatenously and not all of them are meant for us.
+
+
+---
+
+background-image: url('libs/Images/09_2-chess.png')
+background-size: 100%
+background-position: center
+
+???
+
+THINK BACK TO OUR GAME ON MONDAY, IN WHAT WAYS DID THAT GAME REFLECT TWO LEVEL DYNAMICS?
+
+
+ANY EFFORTS BY LEADERS TO APPEASE DOMSTIC INTERESTS?
+
+
+ANY EFFORTS BY NEGOTIATORS TO MOVE THE NEGOTIATION BASED ON THE THREAT OF DOMESTIC POLITICS?
+
+
+ANY EVIDENCE THAT THE FLOW OF THE NEGOTIATION CHANGED THE SUPPORT FOR THE LEADER?
+
+
+
+---
+
+class: middle
+
+.size80[.center[**The Schelling Conjecture**]]
+
+???
+
+As we discovered when talking about the bargaining model of war, Thomas Schelling has done a lot of useful work in this area.
+
+HAS ANYBODY EVER HEARD OF THE SCHELLING CONJECTURE?
+
+THINKING BACK TO WEEK 6, WHAT DO YOU REMEMBER FROM SCHELLING'S APPROACH TO DIPLOMACY?
+
+<br>
+
+- HOW DOES SCHELLING DEFINE "DIPLOMACY"?
+(bargaining where two sides agree a deal in which they both lose something to avoid a much worse outcome.)
+
+- WHERE DOES BARGAINING POWER COME FROM?
+(The "power to hurt.")
+- "The power to hurt" means the threat of pain, shock, loss and grief, privation and horror to motivate others to do what we want.
+- All about the threat, not the action
+
+- AND HOW DOES SCHELLING SUGGEST YOU PUT THIS PLAN INTO ACTION DURING A NEGOTIATION?
+(1. Know what your adversary treasures and what scares them.)
+(2. Communicate what they must do to avoid this "hurt.")
+
+<br>
+
+Here's the ironic twist to all those arguments.
+
+The Schelling conjecture is the idea that you can get more of what you want in a negotiation by making yourself weaker.
+
+In other words, reducing your power before the negotiation can allow you to better define the outcome of the negotiation.
+
+DOES THAT MAKE SENSE?
+
+Of course it doesn't, it's deeply counter-intuitive.
+
+
+---
+
+background-image: url('libs/Images/09_2-child_labor.jpg')
+background-size: 100%
+background-position: center
+
+.pull-right[
+
+<br>
+
+```{r, fig.retina=3, fig.align='right', out.width='85%'}
+knitr::include_graphics("libs/Images/09_2-moneybags.png")
+```
+
+]
+
+???
+
+On the one side is the billionaire factory owner and on the other his workforce of children making 10 cents an hour.
+
+Imagine it is time for these workers to renegotiate their contracts with the big boss.
+
+WHICH ACTOR HAS MORE POWER BEFORE THE NEGOTIATION BEGINS? WHY?
+
+WHO HAS MORE POWER IN THIS SPECIFIC BARGAINING SITUATION? WHY?
+
+* Encourage each side get presented *
+
+Big boss:
+(- Has all the money)
+(- Workers can be easily divided, picked off one-by-one)
+(- Appears to be low-skill work so they can be replaced)
+
+Workers:
+(- Not so much, they are literally children in this example.)
+
+<br>
+
+WHAT CAN THE WORKERS DO TO TRY AND STRENGTHEN THEIR POSITION IN THE NEGOTIATION?
+
+
+
+
+---
+
+background-image: url('libs/Images/09_2-child_protest.jpg')
+background-size: 100%
+background-position: center
+
+???
+
+WHY DOES UNIONIZING STRENGTHEN THE WORKERS POSITION IN THE BARGAINING?
+
+(IFF they can stay organized:)
+(- Much harder to replace everyone all at once)
+(- All workers together can do some real harms to profits if they want to)
+(- Training a brand new workforce is costly and time consuming)
+
+<br>
+
+So, the workers elect a single representative to go negotiate with the boss.
+
+WHAT FACTORS DETERMINE THE POWER OF THE WORKERS' REPRESENTATIVE?
+
+(Depends on two things:)
+(- How much support she has from the workers)
+(- How much discretion she has to negotiate)
+
+<br>
+
+1. WHY IS SUPPORT IMPORTANT TO BARGAINING POWER?
+(If the boss knows the leader is not fully supported, he doesn't have to take him seriously)
+(- Also may be possible to break the union into pieces)
+
+<br>
+
+2. WHY IS DISCRETION LINKED TO BARGAINING POWER? WHAT DOES THAT MEAN?
+(How much room you have to negotiate.)
+(- How wide is your "win-set"?)
+
+Having wide discretion means you are trusted by the union members.
+
+<br>
+
+We discussed win-sets a bit when we explored Fearon's bargaining model of war.
+
+CAN ANYBODY DEFINE THE WIN-SET FOR US?
+
+(A "win-set" is an important concept in models of bargaining.)
+
+(It is the range of possible outcomes you would find acceptable.)
+
+
+
+---
+
+```{r, fig.retina=3, fig.align='center', fig.width = 8, fig.asp = 0.618, out.width = '100%'}
+## GGPLOT Experiment
+## Baseline plot
+## d <- tibble(
+##     x = 1:10,
+##     y = 1:10
+## )
+
+## ggplot(data = d, aes(x = x, y = y)) +
+##     labs(x = "", y = "") +
+##     ggthemes::theme_tufte() +
+##     annotate("segment", x = 0, xend = 9, y = 2, yend = 2, arrow = arrow(ends = "both", angle = 45, length = unit(.3,"cm"))) +
+##     coord_cartesian(xlim = c(0,9), ylim = c(2,9)) +
+##     scale_x_continuous(breaks = 1:8, labels = str_c("$0.", 1:8, "0")) +
+##     scale_y_continuous(breaks = NULL)
+
+# Baseline plot 700x400
+x <- 1:10
+y <- 1:10
+
+plot(x,y, xlab = '', ylab = '', type = 'n', xaxt = 'n', yaxt = 'n', bty = 'n')
+
+# The number line / bargaining space
+arrows(x0 = 1, y0 = 2, x1 = 10, y1 = 2, length = .1, code = 3)
+segments(x0 = 2:9, y0 = 1.9, x1 = 2:9, y1 = 2.1)
+text(x = 2:9, y = 1.5, labels = str_c('$', seq(.1,.8,.1), 0))
+
+# Current salary
+arrows(x0 = 2, y0 = 2.5, x1 = 2, y1 = 3.5, length = .1, code = 1, col = 'red')
+text(x = 2, y = 4, labels = "Current Salary", col = "red")
+```
+
+???
+
+In a simplified, economic sense, we can think about this upcoming negotiation between the boss and the child workers as happening along a two dimensional line of possible salaries.
+
+The workers currently earn 10 cents an hour and would like more.
+
+
+---
+
+```{r, fig.retina=3, fig.align='center', fig.width = 8, fig.asp = 0.618, out.width = '100%'}
+# Win set for the boss 700x400
+x <- 1:10
+y <- 1:10
+
+plot(x,y, xlab = '', ylab = '', type = 'n', xaxt = 'n', yaxt = 'n', bty = 'n')
+
+# The number line / bargaining space
+arrows(x0 = 1, y0 = 2, x1 = 10, y1 = 2, length = .1, code = 3)
+segments(x0 = 2:9, y0 = 1.9, x1 = 2:9, y1 = 2.1)
+text(x = 2:9, y = 1.5, labels = str_c('$', seq(.1,.8,.1), 0))
+
+# The Boss
+arrows(x0 = 2, y0 = 8, x1 = 4, y1 = 8, length = .05, angle = 90, code = 3)
+text(x = 1.5, y = 8, labels = "Boss")
+text(x = 2, y = 9, labels = "$0.10")
+text(x = 4, y = 9, labels = "$0.30")
+
+# Current salary
+arrows(x0 = 2, y0 = 2.5, x1 = 2, y1 = 3.5, length = .1, code = 1, col = 'red')
+text(x = 2, y = 4, labels = "Current Salary", col = "red")
+```
+
+???
+
+The boss would be happy paying any amount between 10 and 30 cents per hour.
+
+He'd prefer the low end of this range but anywhere in it is still more profitable than a general strike.
+
+LET'S SAY YOU ARE THE BIG BOSS, WHAT SHOULD YOUR OPENING POSITION BE? WHY?
+
+Remember, you don't know the win-set for the workers!
+
+* Encourage this discussion *
+
+<br>
+
+AND HOW WOULD THE WORKERS RESPOND TO THIS OFFER?
+
+---
+
+```{r, fig.retina=3, fig.align='center', fig.width = 8, fig.asp = 0.618, out.width = '100%'}
+# Win set for both 700x400
+x <- 1:10
+y <- 1:10
+
+par(mar = c(2,2,2,2)) # BLTR
+plot(x,y, xlab = '', ylab = '', type = 'n', xaxt = 'n', yaxt = 'n', bty = 'n')
+
+# The number line / bargaining space
+arrows(x0 = 1, y0 = 2, x1 = 10, y1 = 2, length = .1, code = 3)
+segments(x0 = 2:9, y0 = 1.9, x1 = 2:9, y1 = 2.1)
+text(x = 2:9, y = 1.5, labels = str_c('$', seq(.1,.8,.1), 0))
+
+# The Boss
+arrows(x0 = 2, y0 = 8, x1 = 4, y1 = 8, length = .05, angle = 90, code = 3)
+text(x = 1.5, y = 8, labels = "Boss")
+text(x = 2, y = 9, labels = "$0.10")
+text(x = 4, y = 9, labels = "$0.30")
+
+# The Workers
+arrows(x0 = 3.5, y0 = 5, x1 = 10, y1 = 5, length = .1, code = 2)
+arrows(x0 = 3.5, y0 = 5, x1 = 10, y1 = 5, length = .05, angle = 90, code = 1)
+text(x = 1.5, y = 5, labels = "Workers")
+text(x = 3.5, y = 6, labels = "$0.25")
+```
+
+???
+
+Depends on their win-set!
+
+Here we can see both sides' hypothetical win-sets.
+
+The workers would be happy earning any salary over 25 cents per hour.
+
+<br>
+
+SO, HOW DOES A WIN-SET DIAGRAM HELP US TO THINK ABOUT BARGAINING?
+
+- HOW CAN THIS HELP US PREDICT WHAT WILL HAPPEN?
+
+(- Agreement can only happen where the two line segments overlap)
+
+(- The wider the area of overlap, the greater the likelihood of agreement)
+
+(- Both sides incentivized to misrepresent the size of their win-set to the other side)
+
+<br>
+
+IF YOU ARE THE UNION REP, WHAT'S YOUR OPENING PROPOSAL? WHY?
+
+* Encourage this discussion *
+
+<br>
+
+Now, this is where the Schelling Conjecture comes into play.
+
+Schelling argued that wide discretion made a deal more likely, but the terms of that deal would be less likely to be in your favor.
+
+Per this overlap a deal is entirely possible although neither side will be very happy.
+
+It would be at the top of the boss's range and the bottom of the workers'.
+
+
+
+
+
+---
+
+```{r, fig.retina=3, fig.align='center', fig.width = 8, fig.asp = 0.618, out.width = '100%'}
+# $.30 announcement 700x400
+x <- 1:10
+y <- 1:10
+
+par(mar = c(2,2,2,2)) # BLTR
+plot(x,y, xlab = '', ylab = '', type = 'n', xaxt = 'n', yaxt = 'n', bty = 'n')
+
+# The number line / bargaining space
+arrows(x0 = 1, y0 = 2, x1 = 10, y1 = 2, length = .1, code = 3)
+segments(x0 = 2:9, y0 = 1.9, x1 = 2:9, y1 = 2.1)
+text(x = 2:9, y = 1.5, labels = str_c('$', seq(.1,.8,.1), 0))
+
+# The Boss
+arrows(x0 = 2, y0 = 8, x1 = 4, y1 = 8, length = .05, angle = 90, code = 3)
+text(x = 1.5, y = 8, labels = "Boss")
+text(x = 2, y = 9, labels = "$0.10")
+text(x = 4, y = 9, labels = "$0.30")
+
+# Representative
+arrows(x0 = 4, y0 = 5, x1 = 10, y1 = 5, length = .1, code = 2)
+arrows(x0 = 4, y0 = 5, x1 = 10, y1 = 5, length = .05, angle = 90, code = 1)
+text(x = 1.5, y = 5, labels = "Union Rep")
+text(x = 4, y = 6, labels = "$0.30")
+```
+
+???
+
+Schelling argued that a smart union rep would limit her own discretion and use that to push for a better deal.
+
+SLIDE
+
+So, right before the negotiation the rep stands in front of the crowd and pledges, "I would NEVER accept a deal of less than 30 cents per hour!"
+
+HOW DOES THIS ALTER THE BARGAINING WITH THE BIG BOSS?
+
+- BEST CASE SCENARIO?
+(Only one deal is possible and it would make the workers happier than $.25.)
+
+- WORST CASE SCENARIO? WHY IS THIS A RISKY GAMBLE?
+
+
+
+---
+
+```{r, fig.retina=3, fig.align='center', fig.width = 8, fig.asp = 0.618, out.width = '100%'}
+# $.30 announcement but you misread the boss! 700x400
+x <- 1:10
+y <- 1:10
+
+par(mar = c(2,2,2,2)) # BLTR
+plot(x,y, xlab = '', ylab = '', type = 'n', xaxt = 'n', yaxt = 'n', bty = 'n')
+
+# The number line / bargaining space
+arrows(x0 = 1, y0 = 2, x1 = 10, y1 = 2, length = .1, code = 3)
+segments(x0 = 2:9, y0 = 1.9, x1 = 2:9, y1 = 2.1)
+text(x = 2:9, y = 1.5, labels = str_c('$', seq(.1,.8,.1), 0))
+
+# The Boss
+arrows(x0 = 2, y0 = 8, x1 = 3, y1 = 8, length = .05, angle = 90, code = 3)
+text(x = 1.5, y = 8, labels = "Boss")
+text(x = 2, y = 9, labels = "$0.10")
+text(x = 3, y = 9, labels = "$0.20")
+
+# Representative
+arrows(x0 = 4, y0 = 5, x1 = 10, y1 = 5, length = .1, code = 2)
+arrows(x0 = 4, y0 = 5, x1 = 10, y1 = 5, length = .05, angle = 90, code = 1)
+text(x = 1.5, y = 5, labels = "Union Rep")
+text(x = 4, y = 6, labels = "$0.30")
+```
+
+???
+
+What if you estimate the other side's win set incorrectly.
+
+Here a demand for anything above 20 cents makes a deal impossible.
+
+1. Limits your room for compromise.
+
+2. Rep doesn't know the boss win-set, what if you guess wrong?
+
+<br>
+
+DOES EVERYBODY UNDERSTAND THE SCHELLING CONJECTURE?
+- HOW WEAKNESS CAN CREATE STRENGTH?
+
+
+---
+
+background-image: url('libs/Images/09_2-obama_g20.jpg')
+background-size: 100%
+background-position: center
+
+???
+
+Let's look at an example in international politics.
+
+SLIDE
+Not too long ago, Pres. Obama went to an international conference to convince the world to help in the fight against ISIS.
+
+A group of states refused to help until the US closes the prison at Guantanamo Bay in Cuba.
+- They say it is a violation of international law and a major recruiting tool for terrorist groups.
+
+<br>
+
+HOW DID OBAMA RESPOND? WHAT IS HIS STATED POSITION ON GITMO?
+
+
+---
+
+background-image: url('libs/Images/09_2-obama_mccain.png')
+background-size: 100%
+background-position: center
+
+???
+
+(Obama tried repeatedly to close the prison but Congress stopped him every time.)
+
+So, he was able to say to those countries, I'd love to help on this but my hands are tied.
+
+For the purposes of this negotiation, the issue of Guantanamo must come off the table or the negotiation is over.
+
+<br>
+
+DOES EVERYONE UNDERSTAND HOW THIS ILLUSTRATES THE SCHELLING CONJECTURE?
+
+Being constrained domestically can make you more powerful during international negotiations.
+
+Of course, Obama would rather not be constrained in this way but the effect was helpful to him.
+
+
+
+
+---
+
+background-image: url('libs/Images/09_2-obama_copenhagen.jpg')
+background-size: 100%
+background-position: center
+
+???
+
+There are also situations where, as in a good marriage, sometimes we use our partner to get more of what we want in a bargain.
+
+This kind of dynamic happens and sometimes we don't realize it.
+
+During the negotiations over the Copenhagen Accord to fight climate change Obama frequently used the threat of a Republican Congress to extract better terms for the US.
+
+He could credibly claim that they would only ratify deals they loved so better give him what he wants.
+
+Of course, all of this invites the question of whether or not the president fighting with Congress is real vs a bit of theater to get better international deals...
+
+This means that sometimes Congress and the President may be fighting with each other but the intended audience is international and not domestic!
+
+It also means it is extra challenging for us as social scientists to understand if the signals sent by world leaders are meant for their domestic game, the international game or both.
+
+MAKE SENSE?
+
+<br>
+
+ANY QUESTIONS ON THE TWO LEVEL GAME MODEL OR THE SCHELLING CONJECTURE?
+
+
+
+---
+
+background-image: url('libs/Images/10_1-French_Ambassador1.png')
+background-size: 60%
+background-position: left
+
+.pull-right[
+
+<br>
+
+<br>
+
+<br>
+
+```{r, fig.retina=3, fig.align='right', out.width='100%'}
+knitr::include_graphics("libs/Images/10_1-French_Ambassador2.png")
+```
+
+]

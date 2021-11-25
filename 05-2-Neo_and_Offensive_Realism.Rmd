@@ -1,0 +1,723 @@
+---
+output:
+  xaringan::moon_reader:
+    css: ["default", "extra.css"]
+    lib_dir: libs
+    seal: false
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+      ratio: '16:9'
+---
+
+```{r, echo = FALSE, warning = FALSE, message = FALSE}
+##xaringan::inf_mr()
+## For offline work: https://bookdown.org/yihui/rmarkdown/some-tips.html#working-offline
+## Images not appearing? Put images folder inside the libs folder as that is the main data directory
+
+library(tidyverse)
+library(readxl)
+library(stargazer)
+##library(kableExtra)
+##library(modelr)
+
+knitr::opts_chunk$set(echo = FALSE,
+                      eval = TRUE,
+                      error = FALSE,
+                      message = FALSE,
+                      warning = FALSE,
+                      comment = NA)
+```
+
+class: slideblue
+
+.size70[**Today's Agenda**]
+
+<br>
+
+.size50[.center[
+
+Evaluate two modern iterations of the Realist model in International Relations
+]
+
++ Neorealism (Waltz)
++ Offensive Realism (Mearsheimer)
+
+]
+
+<br>
+
+.center[.size40[
+  Justin Leinaweaver (Spring 2022)
+]]
+
+???
+
+## Prep for Class
+1. ...
+
+On Monday we diagrammed and discussed what can be referred to as a "classical" realist model of international relations.
+
+To be honest, no modern theorists insist that the model we diagrammed on Monday is the most useful one.
+
+However, I think it's super useful for our understanding to start with those classical roots.
+
+SO, TALK TO ME ABOUT THE CLASSICAL MODEL?
+
+- WHAT ARE ITS KEY SIMPLIFICATIONS OF REALITY?
+
+(SLIDE)
+
+
+
+
+---
+
+class: middle, slidepurple
+
+.size50[.center[**"Classical" Realism**]]
+
+### Interests
+.size35[
++ Men who want things
+]
+
+### Institutions
+.size35[
++ Rules written by the strong
+]
+
+### Interactions
+.size35[
++ Characterized by violence
+    + Badly designed rules, not enough stuff or show signs of weakness = violence
+]
+
+???
+
+STRENGTHS AND WEAKNESSES OF THIS AS OUR MODEL OF INTERNATIONAL POLITICS?
+
+ANY CURRENT EVENTS WE COULD CONNECT TO THIS?
+
+
+
+---
+
+background-image: url('libs/Images/05_2-putin_with_gun.png')
+background-size: 100%
+background-position: center
+
+.right[.content-box-grey[.size40[**Neorealism vs Offensive Realism**]]]
+
+???
+
+Today I want us to leap into the present day of realism.
+
+From those classical roots have been developed a series of models that remain an important piece of the modern toolbox for IR scholars.
+
+<br>
+
+Today we'll dig into both of these models in order to:
+
+1. keep practicing the exercise of diagramming and evaluating a scientific model, and 
+
+2. expose you to two strands of modern thought that frequently come up in discussions of international politics.
+
+<br>
+
+* Split class in half, assign one half to each *
+
+* Split half class into pairs to start *
+
+SLIDE
+
+
+---
+
+class: slideblue
+
+.size50[.center[**Neorealism vs Offensive Realism**]]
+
+<br>
+<br>
+
+.size50[Let's diagram the revised models]
+
+.size50[
++ Who are the key interests?
+
++ What are the key institutions?
+
++ What are the primary interactions that matter?
+]
+
+???
+
+Ok, pairs build your diagram.
+
+<br>
+
+Now each half of the class, consolidate your diagrams and put them on the board.
+
+<br>
+
+Let's start with the neorealist model.
+
+
+---
+
+class: middle, slidepink
+
+.size50[.center[**Neorealism**]]
+
+### Interests
+.size35[
++ Unitary states want security, not power
+]
+
+### Institutions
+.size35[
++ International anarchy
+]
+
+### Interactions
+.size35[
++ You must fend for yourself (threats are everywhere)
++ Security dilemmas dominate
+]
+
+???
+
+WHAT DOES 'SECURITY, NOT POWER' MEAN?
+(Power is the means to the end, not the end.)
+- The end is survival
+
+WHAT IS THE COUNTERINTUITIVE CONCLUSION ABOUT POWER RAISED BY WALTZ?
+(Too much power makes you a threat to everyone else!)
+
+ACCORDING TO WALTZ, DO MEN PURSUE POWER BECAUSE THEY ARE EVIL?
+(No! It's because they want things and things are scarce.)
+
+<br>
+
+WHAT IS MEANT BY A UNITARY STATE? ANYBODY EVER HEARD THAT ASSUMPTION BEFORE?
+
+DOES IT HELP IF I TELL YOU THIS IS OFTEN REFERRED TO AS THE BLACK BOX ASSUMPTION?
+
+(By unitary, we mean forming a single entity.)
+
+The black box assumption.
+- All of the characteristics of the state (e.g. wealth, regime type, voting system) go inside the box and the lid is closed.
+
+SINCE WE CANNOT SEE INSIDE THE BOX, SHOULD WE SPEND TIME MEASURING OR DEBATING WHAT IS INSIDE?
+(Nope.)
+
+<br>
+
+Neorealists focus on states as the key units embedded in the international system.
+
+HOWEVER, what they care about is the placement of units in the system, NOT by reference to their internal qualities themselves.
+
+Neorealism as a view of international politics with black boxes of different sizes running into each other on a map of the world.
+
+<br>
+
+WHAT IS MEANT BY ANARCHY?
+(“...absence of a central monopoly of legitimate force.”)
+
+WHAT DOES THAT MEAN?
+(No world police.)
+- monopoly: exclusive control of
+- legitimate force: legal / allowable violence
+
+<br>
+
+So, unitary states who want to survive in a world of anarchy must view everyone and everything as a threat!
+
+MAKE SENSE?
+
+
+
+---
+
+background-image: url('libs/Images/02_3-neighbors.png')
+background-size: 100%
+background-position: center
+
+.center[.content-box-red[.size40[**The Security Dilemma**]]]
+
+???
+
+Let's talk for a sec about the security dilemma because this is a SUPER important prediction about how states interact in the neorealist model of the world.
+
+Just because it makes me deeply happy, let me briefly illustrate the security dilemma.
+
+Imagine new neighbors move in next door to you.
+
+You don't know them and you're not sure what they are up to so you decide to build a fence.
+
+
+---
+
+class: middle, slidepink
+
+.size60[.center[**The Security Dilemma**]]
+
+.pull-left[
+
+```{r, fig.align='left', out.width='90%'}
+knitr::include_graphics("libs/Images/02_3-Wilson.jpg")
+```
+
+]
+
+.pull-right[
+
+]
+
+???
+
+That seems eminently reasonable, right?
+
+From your new neighbors perspective, they just bought their dream house and the day after they moved in their new neighbors build a fence and start watching them suspiciously.
+
+How would you react to that?
+
+
+
+---
+
+class: middle, slidepink
+
+.size60[.center[**The Security Dilemma**]]
+
+.pull-left[
+
+```{r, fig.align='left', out.width='90%'}
+knitr::include_graphics("libs/Images/02_3-Wilson.jpg")
+```
+
+]
+
+.pull-right[
+
+<br>
+
+```{r, fig.align='right', out.width='100%'}
+knitr::include_graphics("libs/Images/02_3-dog_hatchet.png")
+```
+
+]
+
+???
+
+Of course, you buy a guard dog to protect you.
+
+The big, mean guard dog makes you feel much safer.
+
+No one can get near your house or your family without you knowing about it.
+
+<br>
+
+Unfortunately, your neighbor is terrified of dogs.
+
+He didn’t like you but had no intention of ever going near your house.
+
+He starts having nightmares about the dog, so...
+
+
+---
+
+class: middle, slidepink
+
+.size60[.center[**The Security Dilemma**]]
+
+.pull-left[
+
+<br>
+<br>
+
+```{r, fig.align='left', out.width='100%'}
+knitr::include_graphics("libs/Images/02_3-handgun.jpg")
+```
+
+]
+
+.pull-right[
+
+<br>
+
+```{r, fig.align='right', out.width='100%'}
+knitr::include_graphics("libs/Images/02_3-dog_hatchet.png")
+```
+
+]
+
+???
+
+He buys himself a gun to feel safe.
+
+You are now living next to a guy you don’t know very well who has been acting strangely since you moved in and has now bought a gun.
+
+Your dog stands no chance against a gun and now you are having nightmares about being unsafe.
+
+You decide the only solution is to up your security!
+
+If one dog made you feel safe, then...
+
+
+---
+
+class: middle, slidepink
+
+.size60[.center[**The Security Dilemma**]]
+
+.pull-left[
+
+<br>
+<br>
+
+```{r, fig.align='left', out.width='100%'}
+knitr::include_graphics("libs/Images/02_3-handgun.jpg")
+```
+
+]
+
+.pull-right[
+
+<br>
+
+```{r, fig.align='right', out.width='100%'}
+knitr::include_graphics("libs/Images/02_3-wolves.jpg")
+```
+
+]
+
+???
+
+A pack of ravenous wolves will make you feel safer!
+
+<br>
+
+This makes your neighbor absolutely crap himself in terror.
+
+His small gun will be useless against a pack of wolves so he ups his own security...
+
+
+
+---
+
+class: middle, slidepink
+
+.size60[.center[**The Security Dilemma**]]
+
+.pull-left[
+
+<br>
+<br>
+
+```{r, fig.align='left', out.width='100%'}
+knitr::include_graphics("libs/Images/02_3-tank.jpg")
+```
+
+]
+
+.pull-right[
+
+<br>
+
+```{r, fig.align='right', out.width='100%'}
+knitr::include_graphics("libs/Images/02_3-wolves.jpg")
+```
+
+]
+
+???
+
+
+
+
+---
+
+class: middle, slidepink
+
+.size60[.center[**The Security Dilemma**]]
+
+.pull-left[
+
+<br>
+<br>
+
+```{r, fig.align='left', out.width='100%'}
+knitr::include_graphics("libs/Images/02_3-tank.jpg")
+```
+
+]
+
+.pull-right[
+
+<br>
+
+```{r, fig.align='right', out.width='100%'}
+knitr::include_graphics("libs/Images/02_3-shark_laser.jpg")
+```
+
+]
+
+???
+
+This forces you to do the only logical thing you can.
+
+Install a moat and fill it with sharks...
+
+<br>
+
+This is an example of an arms race created by the security dilemma.
+
+EVERYBODY CLEAR ON THE BASICS OF A SECURITY DILEMMA?
+
+- WHAT IS THE FUNDAMENTAL LESSON HERE?
+
+(Purely defensive moves look threatening in a world of uncertainty and anarchy.)
+
+- At no point did either you or your neighbor act with the intention of attacking the other person.
+
+- These were entirely defensive moves only and they still spiral out of control!
+
+<br>
+
+DO WE BUY THIS?
+
+- IS THIS DYNAMIC A GOOD PREDICTION FOR THE WORLD AS YOU UNDERSTAND IT? WHY OR WHY NOT?
+
+
+
+---
+
+class: middle, slidepink
+
+.size50[.center[**Neorealism**]]
+
+### Interests
+.size35[
++ Unitary states want security, not power
+]
+
+### Institutions
+.size35[
++ International anarchy
+]
+
+### Interactions
+.size35[
++ You must fend for yourself (threats are everywhere)
++ Security dilemmas dominate
+]
+
+???
+
+OK, summarize this all for me.
+
+PER THE NEOREALIST MODEL, HOW LIKELY IS COOPERATION?
+(1. Cooperation super unlikely)
+- Cooperation hard to start and even harder to maintain.
+
+<br>
+
+WHAT SHOULD BE THE MOST IMPORTANT PART OF EVERY STATE'S BUDGET?
+(Defense!)
+2. States should actively seek to build up their own protections
+
+<br>
+
+HOW SHOULD A STATE REACT WHEN A NATURAL DISASTER STRIKES IN A FARAWAY LAND? SEND AID?
+(3. Aid to people in desperate places unlikely, unless...)
+
+<br>
+
+AS A "MAP" OF INTERNATIONAL POLITICS DOES THIS LEAVE ANYTHING IMPORTANT OUT?
+
+Let's talk offensive realism!
+
+
+
+---
+
+class: middle, slidegreen
+
+.size45[.center[**Offensive Realism**]]
+
+### Interests
+.size35[
++ Great powers focused on survival
+]
+
+### Institutions
+.size35[
++ International anarchy
+]
+
+### Interactions
+.size35[
++ Great powers have offensive military capacity
++ Attack may come at any time (uncertain intentions)
++ Weakness invites attack (rational opponents)
+]
+
+???
+
+ANY QUESTIONS ON THE KEY ASSUMPTIONS IN OFFENSIVE REALISM?
+
+<br>
+
+Clearly the big distinction here focuses on "greatness".
+
+* ON BOARD *
+
+LET'S BRAINSTORM, WHAT ARE THE CHARACTERISTICS OF A “GREAT POWER”?
+(pop size, nukes, etc)
+
+<br>
+
+COULD WE RANK THESE BY IMPORTANCE?
+
+WHAT DOES THIS RANKING EXERCISE MAKE CLEAR?
+
+(Importance depends on context.)
+
+- e.g. military strength in war, economic size in trade?
+
+
+
+---
+
+background-image: url('libs/Images/05_2-justice-league2.png')
+background-size: 80%
+background-position: right
+
+<br>
+<br>
+<br>
+<br>
+
+.size45[**Criteria to be a Great Power (Waltz 1979)**]
+
+.size40[
++ **Size of population & territory**
+
++ **Resource endowment**
+
++ **Economic capability**
+
++ **Military strength**
+
++ **Political stability and competence**
+]
+
+???
+
+Here is Kenneth Waltz’s criteria for qualifying as a "great power."
+
+WHOSE LIST IS BETTER, HIS OR OURS? WHY?
+
+<br>
+
+CAN EVERYBODY SEE HOW THIS IS A HUGE PROBLEM FOR THIS THEORY?
+(No single definition of “great” or “powerful” will be appropriate in all contexts.)
+
+GIVEN THAT DEFINING A "GREAT POWER" IS SO PROBLEMATIC, WHY IN THE WORLD MIGHT SOMEONE PREFER OFFENSIVE TO NEOREALISM?
+
+(1. Simpler models are better (assuming they are logical and consistent with the evidence).)
+
+- Fewer moving parts means easier to apply.
+- Need less information / time to make predictions
+- Less room for measurement error to mess up how your model works
+
+<br>
+
+(2. The "great powers" aren't really that hard to define.)
+
+- If you expand the list enough it gets hazy, but identifying the absolutely most powerful states isn't that hard to do.
+
+<br>
+
+(3. Offensive allows us to make different predictions than the others)
+
+WHAT KINDS OF DIFFERENT PREDICTIONS WOULD OFFENSIVE REALISM GIVE US?
+
+Offensive realism covers essentially the same ground as neorealism.
+
+- Makes sense given the shared assumptions.
+
+HOWEVER, it emphasizes "power maximization" as an expectation rather than just stopping with the security dilemma.
+
+Remember, neorealists believe that accumulating too much power is risky because it makes you look like a threat!
+
+<br>
+
+So, offensive realism adds a concern with power maximization to our explanations of international politics.
+
+WHAT IS POWER MAXIMIZATION AND WHY DOES IT FOLLOW FROM THESE ASSUMPTIONS?
+(The ultimate goal of every great power is hegemony.)
+
+WHAT IS HEGEMONY?
+(Mearsheimer defines hegemony as a state of total domination.)
+
+So, according to Mearsheimer, every great power should pursue hegemony.
+
+WHY DOES MEARSHEIMER ARGUE THAT THIS COMPELS THEM FORWARD?
+
+- WHY NOT STOP WHEN YOU FEEL SAFE?
+
+(1. Hard to assess relative power.)
+
+- WHAT DOES THAT MEAN? 
+(I can’t tell precisely by how much I am stronger or weaker than you.)
+
+(2. Even harder to project into the future.)
+
+- WHAT DOES THAT MEAN? 
+(Across time I can’t know how our powers’ will change.)
+
+DOES THAT MAKE SENSE?
+
+And I just want to show you, Mearsheimer understands the implications of his theory.
+
+
+
+---
+
+background-image: url('libs/Images/05_2-mearsheimer-quote.jpg')
+background-size: 100%
+background-position: center
+
+???
+
+This dude is hard core.
+
+
+
+---
+
+class: middle, slideblue
+
+.size60[**For Friday**]
+
+.size40[
+Bring to class a recent international political event we can use as evidence to help us test the Realist models of IR.
+
+Be ready to explain the event and make an argument about which version "best" explains what happened.
+
++ Classical
++ Neo
++ Offensive
+]
+
+
+
+
+
+
+
+

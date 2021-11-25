@@ -1,0 +1,166 @@
+---
+output:
+  xaringan::moon_reader:
+    css: ["default", "extra.css"]
+    lib_dir: libs
+    seal: false
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+      ratio: '16:9'
+---
+
+```{r, echo = FALSE, warning = FALSE, message = FALSE}
+##xaringan::inf_mr()
+## For offline work: https://bookdown.org/yihui/rmarkdown/some-tips.html#working-offline
+## Images not appearing? Put images folder inside the libs folder as that is the main data directory
+
+library(tidyverse)
+library(readxl)
+library(stargazer)
+##library(kableExtra)
+##library(modelr)
+
+knitr::opts_chunk$set(echo = FALSE,
+                      eval = TRUE,
+                      error = FALSE,
+                      message = FALSE,
+                      warning = FALSE,
+                      comment = NA)
+```
+
+class: slideblue
+
+.size80[**Today's Agenda**]
+
+<br>
+
+.size45[
+Brainstorm answers to our second paper prompt
+]
+
+<br>
+
+.center[.size40[
+  Justin Leinaweaver (Spring 2022)
+]]
+
+???
+
+## Prep for class
+1. Prep Google Doc for collecting citations (prompt and names)
+
+2. Send email with link for the class
+
+
+
+---
+
+class: middle, slideblue
+
+.size60[**For Today**]
+
+<br>
+
+.size35[.center[**Should the US use force (military or economic) to compel other states to behave in line with our interests?**]]
+
+.size35[
+Bring one piece of .textred[**HIGH QUALITY**] published evidence you can use to answer the question.
+
+Be ready to provide the class with a correctly formatted, .textred[**APA style citation**] for your piece of evidence (see the Purdue OWL for guidance).
+]
+
+???
+
+We had an assignment for today.
+
+Everybody submit your citation to the shared document.
+
+Link in your email.
+
+<br>
+
+HAS EVERYONE SUBMITTED THEIR CITATION TO THE SHARED GOOGLE DOC?
+
+
+
+---
+
+class: middle, slidegreen
+
+.size50[**APA Style (Source: Purdue OWL)**]
+
+### Books
+.size30[Author, A. A. (Year of publication). *Title of work: Capital letter also for subtitle*. Publisher Name. DOI]
+
+### Journals, Magazines, Newspapers
+.size30[Author, A. A., Author, B. B., & Author, C. C. (Year). Title of article. *Title of Periodical*, volume number(issue number), pages. DOI]
+
+### Webpage / Online Content
+.size30[Lastname, F. M. (Year, Month Date). *Title of page*. Site name. URL]
+
+???
+
+Ok, take a few minutes and review all of the sources.
+
+ARE ALL OF THESE FORMATTED CORRECTLY?
+
+Remember, the goal here is to help each other.
+- You're not calling anybody out!
+- We want everyone to format correctly!
+
+<br>
+
+**Incorrect citations must be corrected by that student.**
+
+ANY QUESTIONS ON APA FORMATTING OF CITATIONS?
+
+<br>
+
+ARE ALL OF THESE EXAMPLES OF EVIDENCE THAT IS HIGH ENOUGH QUALITY? WHY OR WHY NOT?
+
+
+
+
+---
+
+class: middle, center, slideblue
+
+.size60[**Should the US use force (military or economic) to compel other states to behave in line with our interests?**]
+
+<br>
+<br>
+
+.size50[Discuss the options in our cases.]
+
+???
+
+Let's hear our options!
+
+Go around the room and give us your proposed answer to the question.
+
+
+
+---
+
+class: middle, slideblue
+
+.size70[**For Wednesday**]
+
+<br>
+
+.size50[
+1. Pick a single answer for your paper, 
+
+2. Brainstorm 8-10 reasons you picked this answer.
+
+]
+
+???
+
+I know this sounds like a lot of reasons, but I want you to push yourself to build a big lost of possible premises.
+
+You're going to narrow down to three or four in the end, but we want to intentionally start very broadly.
+
+QUESTIONS ON THE ASSIGNMENT?

@@ -1,0 +1,84 @@
+---
+output:
+  beamer_presentation:
+    theme: "CambridgeUS"
+    colortheme: "dolphin"
+    fonttheme: "structurebold"
+fontsize: 14pt
+classoption: "aspectratio=169"
+header-includes:
+- \usepackage{caption}
+- \captionsetup[figure]{labelformat=empty}
+- \captionsetup[table]{labelformat=empty}
+- \setbeamertemplate{page number in head/foot}[]{}
+editor_options: 
+  chunk_output_type: console
+---
+
+```{r, echo = FALSE, warning = FALSE, message = FALSE}
+## Render the pdf
+##rmarkdown::render(input = "./04_3-Exploring_PD_Strategies.Rmd", output_file = "./04_3-Exploring_PD_Strategies.pdf")
+
+library(tidyverse)
+library(readxl)
+library(stargazer)
+##library(kableExtra)
+library(modelr)
+
+knitr::opts_chunk$set(echo = FALSE,
+                      eval = TRUE,
+                      error = FALSE,
+                      message = FALSE,
+                      warning = FALSE,
+                      comment = NA)
+```
+
+
+## Today's Agenda
+\Large
+
+Thinking Like a Political Scientist: Interests, Institutions and Interactions
+
+\vspace{.5in}
+
+\begin{center}
+Justin Leinaweaver (Fall 2021)
+\end{center}
+
+
+## {.plain}
+\textbf{A Prisoner's Dilemma}
+
++ Each round your group must choose to cooperate or defect.
++ Your reward depends on the choice made by the other group.
+
+\begin{center}
+\includegraphics[keepaspectratio=true,width=.92\paperwidth]{Images/04_1-PD_Table.png}
+\end{center}
+
+
+## Prisoner's Dilemma Strategies
+\LARGE
+
++ Unconditional Cooperator (UC)
++ Unconditional Defector (UD)
++ Probability p Cooperator (PC)
++ Tit for Tat (TT)
++ Grim Trigger (GT)
+
+
+
+
+## For Today
+\Large
+
+Bring to class a current international political event that illustrates the logic of the PD game or the role of interests, institutions and interactions in action.
+
+
+
+## {.plain}
+\begin{center}
+\includegraphics[keepaspectratio=true,width=.92\paperwidth]{Images/04_3-intro_fuhrmann_kreps.png}
+\end{center}
+
+

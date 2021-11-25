@@ -1,0 +1,94 @@
+---
+output:
+  beamer_presentation:
+    theme: "CambridgeUS"
+    colortheme: "dolphin"
+    fonttheme: "structurebold"
+fontsize: 14pt
+classoption: "aspectratio=169"
+header-includes:
+- \usepackage{caption}
+- \captionsetup[figure]{labelformat=empty}
+- \captionsetup[table]{labelformat=empty}
+- \setbeamertemplate{page number in head/foot}[]{}
+editor_options: 
+  chunk_output_type: console
+---
+
+```{r, echo = FALSE, warning = FALSE, message = FALSE}
+## Render the pdf
+##rmarkdown::render(input = "./OMIT-01_2-Defining_Terms.Rmd", output_file = "./OMIT-01_2-Defining_Terms.pdf")
+
+library(tidyverse)
+library(readxl)
+library(stargazer)
+##library(kableExtra)
+library(modelr)
+
+knitr::opts_chunk$set(echo = FALSE,
+                      eval = TRUE,
+                      error = FALSE,
+                      message = FALSE,
+                      warning = FALSE,
+                      comment = NA)
+```
+
+
+## Today's Agenda
+\LARGE
+
+\textbf{Defining our terms:}
+
+\vspace{.15in}
+
+International political events
+
+\vspace{.5in}
+
+\begin{center}
+Justin Leinaweaver (Fall 2021)
+\end{center}
+
+
+
+## {.plain}
+\begin{center}
+\includegraphics[keepaspectratio=true,width=.95\paperwidth]{Images/01_2-syllabus.png}
+\end{center}
+
+
+
+## {.plain}
+\begin{center}
+\includegraphics[keepaspectratio=true,width=.95\paperwidth]{Images/01_2-syllabus2.png}
+\end{center}
+
+
+
+## For Today
+\Large
+
+Bring to class a news article that describes \textbf{a current, international political event}. 
+
+\vspace{.2in}
+
+Be ready to explain the \textbf{background} of the event and the characteristics of the event that make it \textbf{international} and \textbf{political}.
+
+
+
+## {.plain}
+\begin{center}
+\includegraphics[keepaspectratio=true,width=.95\paperwidth]{Images/01_2-IR_Defined.png}
+\end{center}
+
+
+
+
+## For Friday
+\Large
+
+1. Labossiere (2008): Making logical arguments
+
+2. (2021, Jan 9): The crying pity on the hill: The Capitol riot is a godsend for America's critics. The Economist.
+
+3. Repnikova, M. (2021, Jan 15). No, the Chaos in America Is Not a Gift to China and Russia.

@@ -1,0 +1,386 @@
+---
+output:
+  xaringan::moon_reader:
+    css: ["default", "extra.css"]
+    lib_dir: libs
+    seal: false
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+      ratio: '16:9'
+---
+
+```{r, echo = FALSE, warning = FALSE, message = FALSE}
+##xaringan::inf_mr()
+## For offline work: https://bookdown.org/yihui/rmarkdown/some-tips.html#working-offline
+## Images not appearing? Put images folder inside the libs folder as that is the main data directory
+
+library(tidyverse)
+library(readxl)
+library(stargazer)
+##library(kableExtra)
+##library(modelr)
+
+knitr::opts_chunk$set(echo = FALSE,
+                      eval = TRUE,
+                      error = FALSE,
+                      message = FALSE,
+                      warning = FALSE,
+                      comment = NA)
+```
+
+class: slideblue
+
+.size80[**Today's Agenda**]
+
+<br>
+
+.size50[.center[
+
+Building models in International Relations
+
+What is our first assumption?
+
+]]
+
+<br>
+
+.center[.size40[
+  Justin Leinaweaver (Spring 2022)
+]]
+
+???
+
+## Prep for Class
+1. ...
+
+
+
+---
+
+class: middle, slidegreen
+
+.pull-left[
+.size40[
+
+.center[**Science is the search for verifiable answers.**]
+
+1. Inference is the goal
+
+2. Procedures are public
+
+3. Conclusions are uncertain
+
+4. Content is method
+
+]]
+
+.pull-right[
+
+<br>
+
+```{r, fig.align='right', out.width='100%'}
+knitr::include_graphics("libs/Images/02_3-einstein-meme.jpg")
+```
+
+]
+
+
+
+---
+
+class: middle, slideblue
+
+.size60[.center[**The Outcomes to Explain**]]
+
+.pull-left[
+
+.size30[
+.textblack[**International**]
+
++ .textblack[Global impact or]
++ .textblack[Involving > 1 state]
+
+.textblack[**Political**]
+
++ .textblack[Who gets what, when and how?]
+
+.textblack[**Event**]
+
++ .textblack[A thing or happening]
+
+]]
+
+.pull-right[
+
+```{r, fig.align='right', out.width='100%'}
+knitr::include_graphics("libs/Images/02_1-word_cloud.jpg")
+```
+
+]
+
+
+
+
+
+---
+
+class: middle, slideblue
+
+.pull-left[
+
+<br>
+<br>
+
+.size40[
+.center[**Assumption Defined:**
+
+"A thing that is accepted as true or as certain to happen, without
+proof..." (Google Dictionary).
+
+]]]
+
+.pull-right[
+
+<br>
+
+```{r, fig.align='right', out.width='85%'}
+knitr::include_graphics("libs/Images/02_3-globe-blocks.jpg")
+```
+
+]
+
+
+
+---
+
+class: middle, slidepurple
+
+.size60[.center[**What is the "right" first assumption? (Waltz 1959)**]]
+
+<br>
+
+.size50[
++ The First Image
+
++ The Second Image
+
++ The Third Image
+]
+
+???
+
+What Waltz is doing here is organizing the theories of war into groups based on their first assumptions.
+
+Each image starts with a VERY different assumption and builds from there.
+
+
+
+---
+
+class: middle, slidepurple
+
+.size50[
+**From the perspective of your image:**
+
+1. What is the main cause of war?
+
+2. Assuming this is correct, how do we prevent war?
+]
+
+???
+
+**1st image**
+
+Human behavior drives international outcomes 
+
+"...the locus of important causes of war is found in the nature and behavior of man."
+
+1. People are good, but war is caused by “false leaders” misleading a gullible public.
+
+Real-world: Some have argued that GWB misled the American people into invading Iraq. Everybody remember the Colin Powell speech to the UNSC? The allegation about WMDs?
+
+2. Man is inherently bellicose, war can only be prevented by distracting him.
+
+Real-world: Maybe this is why we have the olympics? World cup?
+
+<br>
+
+**2nd image**
+
+Domestic politics / internal organization of the state drives international events
+
+"...the internal organization of states is the key to understanding war and peace."
+
+1. Some states are “bad” and wars are used to relieve the domestic tension.
+
+Real-world: North Korea getting belligerent to distract its unhappy people from threatening the leadership.
+
+2. “Good” government but bad policy or constraints push them into war.
+
+Real-world: Hypothetical: US voters demand an end to NSA domestic spying which prevents the NSA from averting a terrorist attack. US responds by invading the country the terrorists came from.
+
+3. State with some vague sense of being depraved economically or geographically may use war to fix it.
+
+Real-world: Hitler’s pursuit of lebensraum (living space) involved invading his neighbors to claim territory for his own expansion.
+
+<br>
+
+**3rd image**
+
+Characteristics of international system drive international events.
+
+WHAT DOES WALTZ MEAN WHEN HE WRITES THAT “IN ANARCHY THERE IS NO AUTOMATIC HARMONY”?
+
+(The absence of a world police force to protect you means each state is entirely its own boss.)
+
+- If you must live in a world where anyone can attack you at any time and no one will come to your rescue, you may indeed become a scaredy cat.
+
+"Because each state is the final judge of its own cause, any state may at any time use force to implement its policies. Because any state may at any time use force, all states must constantly be ready either to counter force with force or to pay the cost of weakness."
+
+
+
+---
+
+background-image: url('libs/Images/02_3-china_taiwan_cartoon.jpg')
+background-size: 100%
+background-position: center
+
+???
+
+For today I gave you a series of news articles discussing China's increasing moves to threaten Taiwanese independence.
+
+Groups, use your image to analyze what is going on in this case.
+
+Get ready to help us understand what is REALLY going on here (according to your assigned image)!
+
+
+---
+
+class: center, middle
+
+.center[.size60[**First Image**]]
+
+<iframe width="900" height="550" src="libs/Images/02_3-China_propaganda_against_Taiwan.mp4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+???
+
+First Image
+
+Propaganda meant to "misdirect the people's aggression"
+
+Focused on people as impulsive actors (e.g. selfishness, misdirected aggressive impulses, stupidity)
+
+Case: China's propaganda videos against taiwan (e.g. attempts to misdirect aggressive impulses) 
+
+
+---
+
+background-image: url('libs/Images/china-map.gif')
+background-size: 75%
+background-position: left
+
+.right[.size50[**Second**]]
+
+.right[.size50[**Image**]]
+
+???
+
+Focused on domestic politics (e.g. bad governments, good government constrained by limits on its power (protect our civil liberties) that prevents it from acting as it needs to on the world stage, or states reacting to "geographic or economic deprivations" as in, it's what we are owed, it's ours!)
+
+Case: "Those who forget their heritage, betray their motherland and seek to split the country will come to no good," Xi said." 
+
+https://www.cnn.com/2021/10/08/china/xi-jinping-taiwan-reunification-intl-hnk/index.html
+
+Official maps of China always include Taiwan
+
+
+
+---
+
+background-image: url('libs/Images/02_3-china_taiwan_US_cartoon.jpg')
+background-size: 90%
+background-position: center
+
+.right[.size60[**Third Image**]]
+
+???
+
+Image 3: Focused on the international system (anarchy)
+
+Case: The US is talking defense but would we really fight? 
+
+https://www.nytimes.com/2021/10/22/us/politics/biden-taiwan-defense-china.html
+
+
+
+
+---
+
+class: middle, slideblue
+
+.size60[.center[**The "best" first assumption is:**]]
+
+.pull-left[
+.size45[
+
++ The First Image
+
++ The Second Image
+
++ The Third Image
+
+]]
+
+.pull-right[
+
+```{r, fig.align='right', out.width='72%'}
+knitr::include_graphics("libs/Images/02_3-globe-blocks.jpg")
+```
+
+]
+
+???
+
+COMPARE AND CONTRAST PLANS
+
+- WHICH HAVE THE BEST SHOT OF WORKING? WHY?
+
+- WHICH HAVE THE LEAST CHANCE OF WORKING? WHY?
+
+- IS ONE IMAGE CLEARLY BETTER THAN THE OTHERS? WHY OR WHY NOT?
+
+<br>
+
+OUT OF CURIOSITY, COULD WE CONSTRUCT A SINGLE THEORY OF WAR THAT USES ALL THREE IMAGES?
+
+We can’t blend them because they are fundamentally incompatible.
+
+They assume that international events are explained by fundamentally different causes!
+
+Either international events are driven by human behavior or by the state or by the system.
+
+Can’t be all three at once and still be a logically coherent argument.
+
+MAKE SENSE?
+
+
+
+---
+
+class: middle, slidegreen
+
+.size70[**For Monday**]
+
+<br>
+
+.size40[.center[**Who or what is currently the biggest international threat to the United States?**]]
+
+.size40[
+Bring one piece of .textred[**HIGH QUALITY**] published evidence you can use to answer the question.
+
+Be ready to provide the class with a correctly formatted, .textred[**APA style citation**] for your piece of evidence (see the Purdue OWL for guidance).
+]
+
+

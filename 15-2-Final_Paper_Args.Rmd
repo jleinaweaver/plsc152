@@ -1,0 +1,181 @@
+---
+output:
+  xaringan::moon_reader:
+    css: ["default", "extra.css"]
+    lib_dir: libs
+    seal: false
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+      ratio: '16:9'
+---
+
+```{r, echo = FALSE, warning = FALSE, message = FALSE}
+##xaringan::inf_mr()
+## For offline work: https://bookdown.org/yihui/rmarkdown/some-tips.html#working-offline
+## Images not appearing? Put images folder inside the libs folder as that is the main data directory
+
+library(tidyverse)
+library(readxl)
+library(stargazer)
+##library(kableExtra)
+##library(modelr)
+
+knitr::opts_chunk$set(echo = FALSE,
+                      eval = TRUE,
+                      error = FALSE,
+                      message = FALSE,
+                      warning = FALSE,
+                      comment = NA)
+```
+
+class: slideblue
+
+.size70[**Today's Agenda**]
+
+<br>
+
+.size40[
+
+Final Exam Paper
+
++ Explore and clarify the possible mechanisms
+]
+
+<br>
+
+.center[.size40[
+  Justin Leinaweaver (Fall 2021)
+]]
+
+???
+
+## Prep for class
+
+1. Update the following and slides with actual mechanisms chosen by the class
+
+
+
+---
+
+class: middle, slidegreen
+
+.size50[**Final Exam (Due Dec 13th, 3pm)**]
+
+.size40[
+How can a person, like you, influence international politics in .textred[**specific and important**] ways?
+
++ Make a convincing argument
+	+ (e.g. logical, clear, credible and critical)
+
+<br>	
+
++ Evidence: Class material and beyond
+]
+
+???
+
+This week we continue building up to your final exam paper.
+
+WITH A COUPLE DAYS TO THINK ABOUT IT, ANY QUESTIONS ON THIS PROMPT?
+
+
+
+---
+
+class: middle, center, slideblue
+
+.size60[**Assignment for Today**]
+
+.size50[
+Find one piece of evidence for each of the mechanisms we selected today.
+
+<br>
+
+Submit each APA citation to our shared document.
+]
+
+???
+
+HAS EVERYBODY SUBMITTED THEIR EVIDENCE TO THE SHARED DOCUMENT?
+
+<br>
+
+* split class into four groups, assign each mechanism to one group *
+
+Go and sit with your group.
+
+Groups you have 25 minutes to work together on your assigned mechanism.
+
+
+
+---
+
+class: middle, slideblue
+
+.size50[**Possible Mechanisms**]
+
+.size40[
+1. Social Media &#8594; Social Pressure
+2. Defiance of Authority (with risk)
+3. Lobbying Government
+4. Active Participation (organization)
+]
+
+.size50[**Groups**]
+
+.size40[
++ Clear: How specifically does it work?
++ Credible: Best evidence to support it?
++ Critical: Problems that must be considered / addressed?
+]
+
+???
+
+Get ready to present your more detailed analysis of the mechanism to the class.
+
+Be sure to cover the elements of clarity, credibility and critical analysis.
+
+- Clear: How specifically does it work? 
+- Credible: Best evidence to support it?
+- Critical: Problems that must be considered / addressed?
+
+<br>
+
+PRESENT each and DISCUSS
+
+<br>
+
+ON REFLECTION, HOW ARE WE FEELING ABOUT THESE FOUR MECHANISMS?
+
+- ANY STRONGER OPTIONS THAN THE OTHERS?
+
+
+---
+
+class: middle, slidegreen
+
+.size60[**Friday: Outline your Paper**]
+
+.size40[Outline must include:
+
++ A thesis statement
+
++ Three (or four) fully explained premises, and
+
++ Specific evidence for each premise
+]
+
+???
+
+Assignment for Friday, outline your final paper!
+
+Outline must include:
+- A thesis statement
+- Three fully explained premises, and
+- Specific evidence for each premise
+
+Your list of mechanisms from today IS your list of premises!
+
+ANY QUESTIONS ON THE ASSIGNMENT FOR FRIDAY?

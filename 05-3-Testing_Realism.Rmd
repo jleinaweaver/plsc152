@@ -1,0 +1,138 @@
+---
+output:
+  xaringan::moon_reader:
+    css: ["default", "extra.css"]
+    lib_dir: libs
+    seal: false
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+      ratio: '16:9'
+---
+
+```{r, echo = FALSE, warning = FALSE, message = FALSE}
+##xaringan::inf_mr()
+## For offline work: https://bookdown.org/yihui/rmarkdown/some-tips.html#working-offline
+## Images not appearing? Put images folder inside the libs folder as that is the main data directory
+
+library(tidyverse)
+library(readxl)
+library(stargazer)
+##library(kableExtra)
+##library(modelr)
+
+knitr::opts_chunk$set(echo = FALSE,
+                      eval = TRUE,
+                      error = FALSE,
+                      message = FALSE,
+                      warning = FALSE,
+                      comment = NA)
+```
+
+class: slideblue
+
+.size70[**Today's Agenda**]
+
+<br>
+
+.size50[.center[
+
+Evaluate our three models of realism using current events
+
+]]
+
+<br>
+
+.center[.size40[
+  Justin Leinaweaver (Spring 2022)
+]]
+
+
+
+---
+
+class: middle, slideblue
+
+.size60[**For Today**]
+
+.size40[
+Bring to class a recent international political event we can use as evidence to help us test the Realist models of IR.
+
+Be ready to explain the event and make an argument about which version "best" explains what happened.
+
++ Classical
++ Neo
++ Offensive
+]
+
+
+
+---
+
+class: middle, slidepurple
+
+.size50[.center[**"Classical" Realism**]]
+
+### Interests
+.size35[
++ Men who want things
+]
+
+### Institutions
+.size35[
++ Rules written by the strong
+]
+
+### Interactions
+.size35[
++ Characterized by violence
+    + Badly designed rules, not enough stuff or show signs of weakness = violence
+]
+
+
+---
+
+class: middle, slidepink
+
+.size50[.center[**Neorealism**]]
+
+### Interests
+.size35[
++ Unitary states want security, not power
+]
+
+### Institutions
+.size35[
++ International anarchy
+]
+
+### Interactions
+.size35[
++ You must fend for yourself (threats are everywhere)
++ Security dilemmas dominate
+]
+
+
+---
+
+class: middle, slidegreen
+
+.size45[.center[**Offensive Realism**]]
+
+### Interests
+.size35[
++ Great powers focused on survival
+]
+
+### Institutions
+.size35[
++ International anarchy
+]
+
+### Interactions
+.size35[
++ Great powers have offensive military capacity
++ Attack may come at any time (uncertain intentions)
++ Weakness invites attack (rational opponents)
+]

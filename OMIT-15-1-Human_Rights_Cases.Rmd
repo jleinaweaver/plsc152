@@ -1,0 +1,322 @@
+---
+output:
+  xaringan::moon_reader:
+    css: ["default", "extra.css"]
+    lib_dir: libs
+    seal: false
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+      ratio: '16:9'
+---
+
+```{r, echo = FALSE, warning = FALSE, message = FALSE}
+##xaringan::inf_mr()
+## For offline work: https://bookdown.org/yihui/rmarkdown/some-tips.html#working-offline
+## Images not appearing? Put images folder inside the libs folder as that is the main data directory
+
+library(tidyverse)
+library(readxl)
+library(stargazer)
+##library(kableExtra)
+##library(modelr)
+
+knitr::opts_chunk$set(echo = FALSE,
+                      eval = TRUE,
+                      error = FALSE,
+                      message = FALSE,
+                      warning = FALSE,
+                      comment = NA)
+```
+
+class: slideblue
+
+.size80[**Today's Agenda**]
+
+<br>
+
+.size40[
+
+Explore the current state of human rights violations by states around the world.
+
+]
+
+<br>
+<br>
+
+.center[.size40[
+  Justin Leinaweaver (Fall 2021)
+]]
+
+???
+
+## Prep for Class
+1. Google doc with country sign-ups
+- https://docs.google.com/spreadsheets/d/1aAYanwRF-6B5DsXQRr_uBDB6Wz7r5QktduIfqesBJZI/edit?usp=sharing
+
+2. Data: Consider a few slides presenting data on their chosen cases to aid discussion of the sample
+
+3. Spreadsheet with CIRIGHTS data for selected countries
+
+<br>
+
+COURSE EVALS DAY
+
+- Grab direct link and email to class on Nov 29th
+
+
+
+
+
+---
+
+class: middle, slidegreen
+
+.size50[.center[**For Monday after Thanksgiving**]]
+
+.size35[Choose two countries: a democracy and a dictatorship (claim yours on Google Sheet, first-come, first-served). 
+
+Review the current human rights record for both countries using all three sources below. 
+
+1. The country reports by the US Department of State
+2. The country reports by Amnesty International
+3. The country reports by Human Rights Watch
+
+Be ready to provide us an overview in class.
+]
+
+???
+
+For today I asked each of you to perform two case studies that would help us think about the state of human rights in the world.
+
+EVERYBODY READY TO GO?
+
+
+
+---
+
+class: middle, center, slidepurple
+
+.size60[**A Case Study**]
+
+.size40[
+"A case study is an in-depth examination, often undertaken over time, of a single case – such as a policy, programme, intervention site, implementation process or participant" (Goodrick 2014, 1).
+]
+
+???
+
+Your work for today is what we refer to as a "case study."
+
+Although, to be fair to what we did, we did a very brief case study at a single moment in recent time...
+
+Still, I think you get the gist.
+
+
+
+
+---
+
+class: middle, center, slidepurple
+
+.size60[**A Comparative Case Study**]
+
+.size40[
+"Comparative case studies involve the analysis and synthesis of the similarities, differences and patterns across two or more cases that share a common focus or goal in a way that produces knowledge that is easier to generalize about causal questions – how and why particular programmes or policies work or fail to work" (Goodrick 2014).
+]
+
+???
+
+Thanks to all of your work before class, we can now use our time in class to perform a comparative case analysis.
+
+Gathering cases and then exploring them in a comparative fashion is an excellent method for:
+
+- learning about the world,
+- identifying puzzles you'd like to understand, and
+- for developing new research projects or papers.
+
+I'm hoping we can do a bit of all three of those things today.
+
+
+---
+
+background-image: url('libs/Images/15_1-Sources.png')
+background-size: 100%
+background-position: center
+
+???
+
+* NOTE TO YOU: Shorten discussion of bias in the sources *
+
+Before we dig into the cases, let's talk about our data sources.
+
+Heading into areas we know nothing about puts even more pressure on us to build knowledge using "high quality" sources.
+
+SO, HOW DO WE USE THESE THREE SOURCES TO ESTABLISH THE HIGH CONFIDENCE FACTS?
+
+* force discussion *
+
+<br>
+
+(Most confident where all three reports agree with each other?)
+- This assumes all three asking the same question, right?
+
+(Least confident when:)
+- only one mentions something,
+- when a "fact" lies at the heart of the source's bias,
+
+<br>
+
+TO WHAT DEGREE SHOULD WE ASSUME THAT THESE THREE SOURCES ARE INDEPENDENT FROM EACH OTHER?
+- DOES EACH ADD SOMETHING NEW OR ARE THEY JUST PARROTING THE WORK OF THE OTHERS?
+
+<br>
+
+* Split into groups of four *
+
+Try to work with new people!
+
+
+---
+
+class: middle, slidepurple
+
+.size50[.center[**Compare and contrast the democracy cases**]]
+
+.size30[
++ In general, how good is the respect for human rights in these cases?
+	+ Excellent
+	+ Very good
+	+ Good
+	+ Fair
+	+ Poor
+
++ Most targeted groups?
+
++ Most violated rights?
+]
+
+???
+
+* Report Back and Discuss *
+
+OK, ANY EARLY CONCLUSIONS WE CAN DRAW AT THIS POINT ABOUT HUMAN RIGHTS PRACTICES IN DEMOCRACIES?
+
+* DISCUSS *
+
+- MOST COMMON "HUMAN RIGHTS" VIOLATIONS?
+
+- WHO SPECIFICALLY IN THE COUNTRY IS DOING THE HARMS?
+(Government? Rebels? Terrorists?)
+
+- HOW ARE VICTIMS BEING TARGETED?
+(how identified? race, class, ethnicity, immigration status)
+
+- ANY EVIDENCE OF HARMS BEING ADDRESSED?
+
+
+
+
+---
+
+class: middle, slidepurple
+
+.size50[.center[**Compare and contrast the dictatorship cases**]]
+
+.size30[
++ In general, how good is the respect for human rights in these cases?
+	+ Excellent
+	+ Very good
+	+ Good
+	+ Fair
+	+ Poor
+
++ Most targeted groups?
+
++ Most violated rights?
+]
+
+???
+
+* Report Back and Discuss *
+
+WHAT IS THE RECENT STATE OF HUMAN RIGHTS IN YOUR CHOSEN DICTATORSHIP?
+
+Make clear for us which conclusions of yours are high confidence and which are lower confidence.
+
+
+
+OK, ANY EARLY CONCLUSIONS WE CAN DRAW AT THIS POINT ABOUT HUMAN RIGHTS PRACTICES IN DICTATORSHIPS?
+
+* DISCUSS *
+
+- MOST COMMON "HUMAN RIGHTS" VIOLATIONS?
+
+- WHO SPECIFICALLY IN THE COUNTRY IS DOING THE HARMS?
+(Government? Rebels? Terrorists?)
+
+- HOW ARE VICTIMS BEING TARGETED?
+(how identified? race, class, ethnicity, immigration status)
+
+- ANY EVIDENCE OF HARMS BEING ADDRESSED?
+
+
+
+
+---
+
+background-image: url('libs/Images/15_1-human_rights_map.png')
+background-size: 80%
+background-position: center
+
+???
+
+Ok, that said, let's compare and contrast across our cases.
+
+BASED ON THIS COMPARATIVE CASE STUDY HOW COMFORTABLE ARE YOU IN ASSERTING THAT REGIME TYPE IS A PREDICTOR OF HUMAN RIGHTS BEHAVIOR?
+
+- WHY OR WHY NOT?
+
+<br>
+
+DO THE REGIME TYPES DIFFER SIGNIFICANTLY IN TERMS OF:
+
+- MOST COMMON "HUMAN RIGHTS" VIOLATIONS?
+
+- WHO SPECIFICALLY IN THE COUNTRY IS DOING THE HARMS?
+(Government? Rebels? Terrorists?)
+
+- HOW ARE VICTIMS BEING TARGETED?
+(how identified? race, class, ethnicity, immigration status)
+
+- ANY EVIDENCE OF HARMS BEING ADDRESSED?
+
+<br>
+
+Last big question for us today.
+
+DO YOU THINK HUMAN RIGHTS VIOLATIONS SHOULD COMPEL AMERICAN ACTION? WHY OR WHY NOT?
+
+- SHOULD WE BE THE WORLD'S POLICEMAN WHEN HUMAN RIGHTS ARE UNDER ASSAULT?
+
+
+---
+
+background-image: url('libs/Images/15_1-fragile_states.png')
+background-size: 100%
+background-position: center
+
+???
+
+Here we see the Fragile States Index.
+
+If human rights violations are a prelude to state failure and state failure is a prelude to wider war then maybe we need to be more proactive on this?
+
+YOU BUY THAT? WHY OR WHY NOT?
+
+<br>
+
+On Wednesday we'll dig into a research article that aims to measure if these kinds of reports make peoples' lives better or if they don't matter....
+
+
+

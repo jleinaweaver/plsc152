@@ -1,0 +1,320 @@
+---
+output:
+  xaringan::moon_reader:
+    css: ["default", "extra.css"]
+    lib_dir: libs
+    seal: false
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+      ratio: '16:9'
+---
+
+```{r, echo = FALSE, warning = FALSE, message = FALSE}
+##xaringan::inf_mr()
+## For offline work: https://bookdown.org/yihui/rmarkdown/some-tips.html#working-offline
+## Images not appearing? Put images folder inside the libs folder as that is the main data directory
+
+library(tidyverse)
+library(readxl)
+library(stargazer)
+##library(kableExtra)
+##library(modelr)
+
+knitr::opts_chunk$set(echo = FALSE,
+                      eval = TRUE,
+                      error = FALSE,
+                      message = FALSE,
+                      warning = FALSE,
+                      comment = NA)
+```
+
+class: slideblue
+
+.size80[**Today's Agenda**]
+
+<br>
+
+.size50[
+
+Come to class ready to evaluate the UN's Universal Declaration of Human Rights
+
+]
+
+<br>
+<br>
+
+.center[.size40[
+  Justin Leinaweaver (Fall 2021)
+]]
+
+???
+
+### Prep for Class
+
+1) Google Form
+
+How well does the US meet the standards established by the UN's Universal Declaration of Human Rights?
+
+Options: Does not meet the standard, Somewhat meets the standard, Meets the standard
+
+https://forms.gle/i2wygGbDF7pY3SNu8
+
+2) Email 1: Google Form Link
+
+3) Email 2: Google Sheet to claim countries: Name, Country, Year of each report
+
+https://docs.google.com/spreadsheets/d/1aAYanwRF-6B5DsXQRr_uBDB6Wz7r5QktduIfqesBJZI/edit?usp=sharing
+
+
+
+---
+
+background-image: url('libs/Images/13_3-Roosevelt.png')
+background-size: 100%
+class: center
+
+???
+
+The UDHR was adopted by the UN General Assembly on December 10, 1948.
+
+#### Anybody recognize this incredibly famous person?
+(Eleanor Roosevelt!)
+
+<br>
+
+#### Had anybody ever read this before?
+
+#### How widely do you think this document and its ideas have spread around the country?
+- e.g. Is the UNDHR a norm entrepreneur?
+
+
+
+
+---
+
+class: middle, slidepurple
+
+.size60[.center[**Evaluate US Performance on the UN DHR**]]
+
+.size40[
++ Does not meet the standard
+
++ Somewhat meets the standard
+
++ Meets the standard
+]
+
+???
+
+Let's explore these "human rights".
+
+I'm sending out a Google Form that asks you to evaluate the US according to each of the 29 main rights.
+
+For each I want you to choose, The US:
+- Does not meet the standard,
+- Somewhat meets the standard, or
+- Meets the standard
+
+Let's see where we stand.
+
+Also, don't worry, these will be anonymous responses.
+
+* Send link *
+
+* when they're done, download the data, update the slides and refresh *
+
+
+
+---
+
+```{r, fig.retina=3, fig.align='center', out.width='100%', fig.asp=0.618, fig.width=6}
+## Load packages
+library(tidyverse)
+library(readxl)
+library(DT)
+
+## Download responses from Google Form
+d <- read_csv("13-3-UDHR_Data.csv")
+
+# Clean up the data
+d2 <- d %>%
+  pivot_longer(cols = `Article 1. All human beings are born free and equal in dignity and rights. They are endowed with reason and conscience and should act towards one another in a spirit of brotherhood.`:`Article 29. (1) Everyone has duties to the community in which alone the free and full development of his personality is possible.(2) In the exercise of his rights and freedoms, everyone shall be subject only to such limitations as are determined by law solely for the purpose of securing due recognition and respect for the rights and freedoms of others and of meeting the just requirements of morality, public order and the general welfare in a democratic society.(3) These rights and freedoms may in no case be exercised contrary to the purposes and principles of the United Nations.`, names_to = "Articles", values_to = "Results") %>%
+  mutate(
+    Article_num = str_sub(Articles, start = 1, end = 11)
+  )
+
+# Table of results
+d3 <- d2 %>%
+    mutate(
+        #Proportion = n / nrow(d),
+        Article2 = str_extract(Article_num, pattern = "[0-9]."),
+        Article2 = as.numeric(Article2)
+    ) %>%
+    group_by(Article2) %>%
+    count(Results) %>%
+    ungroup %>%
+  mutate(
+      Results = case_when(
+          Results == "Does not meet the standard" ~ "No",
+          Results == "Somewhat meets the standard" ~ "Somewhat",
+          Results == "Meets the standard" ~ "Yes")
+  ) %>%
+  pivot_wider(names_from = Results, values_from = n, values_fill = 0) %>%
+  select(Article = Article2, Yes, Somewhat, No) %>%
+  mutate(
+      Total = Yes + Somewhat + No,
+      Yes_prop = round(Yes / Total, 2),
+      Somewhat_prop = round(Somewhat / Total, 2),
+      No_prop = round(No / Total, 2)
+  ) %>%
+  select(-Total)
+  #select(Article, Yes, Yes_prop, Somewhat, Somewhat_prop, No, No_prop)
+
+# d3 |>
+#   select(Article, Yes_prop:No_prop) |>
+#   datatable(rownames = FALSE)
+
+# Visualize
+d3 |>
+    select(Article:No) |>
+    pivot_longer(cols = Yes:No, names_to = "Response", values_to = "Counts") |>
+  mutate(
+    Article = as.character(Article)
+  ) |>
+    ggplot(aes(x = Article, y = Counts, fill = Response)) +
+    geom_col(position = "fill") +
+    coord_flip() +
+    scale_x_discrete(limits = 1:29) +
+    scale_y_continuous(labels = scales::percent_format()) +
+    scale_fill_manual(values = c("red2", "yellow1", "green2")) +
+    labs(x = "UN DHR Articles", y = "") +
+    guides(fill = "none") +
+    theme_bw()
+```
+
+???
+
+This plot shows us our results per UNDHR Article.
+
+Green is "meets the standard", yellow is "somewhat meets the standard" and red is "does not meet the standard."
+
+The x-axis is the proportion of the class picking each option.
+
+So, rows with more green are the articles the US is doing well on.
+
+More red is bad.
+
+(SLIDE: reorders rows by Yes %)
+
+<br>
+
+#### WHERE IS THE US DOING WELL ON THIS METRIC AND WHERE ARE WE NOT?
+- ANY SURPRISES HERE?
+
+<br>
+
+#### WHICH OF THE ARTICLES ARE MOST PROBLEMATIC FOR SEEING THE UDHR BE ADOPTED IN THE US?
+
+<br>
+
+#### DO WE AGREE THAT ALL OF THESE SHOULD BE ENSHRINED IN US LAW?
+- MOST VS LEAST CONTROVERSIAL RIGHTS?
+
+<br>
+
+#### DEBATE: AS AN EXERCISE IN NORM ENTREPRENEURSHIP HOW EFFECTIVE IS THE UDHR LIKELY TO BE?
+
+<br>
+
+#### SO, HOW FAR HAS THE UDHR SPREAD AROUND THE WORLD IN THE LAST 72 YEARS?
+- WHICH ARTICLES HAVE SUCCEEDED MOST AT BECOMING GLOBAL NORMS?
+- WHICH THE LEAST?
+
+
+---
+
+
+```{r, fig.retina=3, fig.align='center', out.width='100%', fig.asp=0.618}
+## Re-order by Yes %
+order1 <- d3 %>%
+    arrange(Yes, Somewhat) %>%
+    select(Article)
+
+d3 %>%
+    select(Article:No) %>%
+    mutate(
+        Article = as.character(Article)
+        ) %>%
+    pivot_longer(cols = Yes:No, names_to = "Response", values_to = "Counts") %>%
+    ggplot(aes(x = Article, y = Counts, fill = Response)) +
+    geom_col(position = "fill") +
+    coord_flip() +
+    #scale_x_discrete(limits = 1:29) +
+    scale_x_discrete(limits = as.character(order1[[1]])) +
+    scale_y_continuous(labels = scales::percent_format()) +
+    scale_fill_manual(values = c("red2", "yellow1", "green2")) +
+    labs(x = "UN DHR Articles", y = "") +
+    guides(fill = "none") +
+    theme_minimal()
+```
+
+???
+
+Same questions repeated depending on which slide
+
+#### WHERE IS THE US DOING WELL ON THIS METRIC AND WHERE ARE WE NOT?
+- ANY SURPRISES HERE?
+
+<br>
+
+#### WHICH OF THE ARTICLES ARE MOST PROBLEMATIC FOR SEEING THE UDHR BE ADOPTED IN THE US?
+
+<br>
+
+#### DO WE AGREE THAT ALL OF THESE SHOULD BE ENSHRINED IN US LAW?
+- MOST VS LEAST CONTROVERSIAL RIGHTS?
+
+<br>
+
+#### DEBATE: AS AN EXERCISE IN NORM ENTREPRENEURSHIP HOW EFFECTIVE IS THE UDHR LIKELY TO BE?
+
+<br>
+
+#### SO, HOW FAR HAS THE UDHR SPREAD AROUND THE WORLD IN THE LAST 72 YEARS?
+- WHICH ARTICLES HAVE SUCCEEDED MOST AT BECOMING GLOBAL NORMS?
+- WHICH THE LEAST?
+
+
+
+---
+
+class: middle, slidegreen
+
+.size50[.center[**For Monday**]]
+
+.size35[Choose two countries: a democracy and a dictatorship (claim yours on Google Sheet, first-come, first-served). 
+
+Review the current human rights record for both countries using all three sources below. 
+
+1. The country reports by the US Department of State
+2. The country reports by Amnesty International
+3. The country reports by Human Rights Watch
+
+Be ready to provide us an overview in class.
+]
+
+???
+
+After Thanksgiving we explore the power of publicity to reduce human rights violations.
+
+To get us ready for that, I want to get you some practice with some of the key pieces of evidence that research draws on.
+
+Choose two countries: a democracy and a dictatorship (claim yours on Google Sheet, first-come, first-served). Review the current human rights record for both countries using all three sources below. Be ready to provide us an overview in class.
+
+1. The country reports by the US Department of State
+2. The country reports by Amnesty International
+3. The country reports by Human Rights Watch
+
+Next week we're reading a different article, so we'll pick up this exercise after the break!

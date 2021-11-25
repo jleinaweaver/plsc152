@@ -1,0 +1,288 @@
+---
+output:
+  xaringan::moon_reader:
+    css: ["default", "extra.css"]
+    lib_dir: libs
+    seal: false
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+      ratio: '16:9'
+---
+
+```{r, echo = FALSE, warning = FALSE, message = FALSE}
+##xaringan::inf_mr()
+## For offline work: https://bookdown.org/yihui/rmarkdown/some-tips.html#working-offline
+## Images not appearing? Put images folder inside the libs folder as that is the main data directory
+
+library(tidyverse)
+library(readxl)
+library(stargazer)
+##library(kableExtra)
+##library(modelr)
+
+knitr::opts_chunk$set(echo = FALSE,
+                      eval = TRUE,
+                      error = FALSE,
+                      message = FALSE,
+                      warning = FALSE,
+                      comment = NA)
+```
+
+class: slideblue
+
+.size70[**Today's Agenda**]
+
+<br>
+
+.size35[
+
+Hultman, Kathman & Shannon (2016). United Nations Peacekeeping Dynamics and the Duration of Post-Civil Conflict Peace. *Conflict Management and Peace Science*. 33(3): 231–49.
+
++ Critically analyze the conclusions
+
+]
+
+<br>
+
+.center[.size40[
+  Justin Leinaweaver (Spring 2022)
+]]
+
+???
+
+## Prep for class
+1. 
+
+
+
+---
+
+class: middle, slidegreen
+
+.size45[.center[**Hultman, Kathman and Shannon (2016)**]]
+
+<br>
+
+## Diagram the Model
+
+.size40[
++ Who are the key **Interests**?
+
++ What are the key **Institutions**?
+
++ What are the key **Interactions**?
+]
+
+
+
+---
+
+background-image: url('libs/Images/06_3-diplomacy1.png')
+background-size: 50%
+background-position: right
+
+.pull-left[
+
+<br>
+
+<br>
+
+<br>
+
+.size50[
+.center[
+**Is this paper a "good" test of the bargaining model of war?**
+]]]
+
+
+
+---
+
+class: middle, slidegreen
+
+.size50[.center[**How confident should we be in the conclusions of the paper?**]]
+
+.size40[
+1. Identify the key conclusions, and
+
+2. Evaluate each based on its:
+  + Data Sources
+  + Case Selection
+  + Operationalizations and Measurement
+  + Analyses
+]
+
+
+
+---
+
+class: middle, slidegreen
+
+.size50[.center[**Conclusion: The UN succeeds when...**]]
+
+.size40[
+1. Successful UN peacekeeping missions address "the security challenges to former belligerents" by providing "a greater number of troops" on the ground (246).
+
+2. "...increasing the deployment of observer and police personnel is not likely to yield positive outcomes" (246).
+]
+
+
+
+---
+
+class: middle, slidegreen
+
+.size50[.center[**High, Low or No Confidence?**]]
+
+.size40[
+1. Successful UN peacekeeping missions address "the security challenges to former belligerents" by providing "a greater number of troops" on the ground (246).
+
+2. "...increasing the deployment of observer and police personnel is not likely to yield positive outcomes" (246).
+]
+
+--
+
+.center[.size50[.textred[**Data Sources and Case Selection?**]]]
+
+
+
+---
+
+class: middle, slidegreen
+
+.size50[.center[**High, Low or No Confidence?**]]
+
+.size40[
+1. Successful UN peacekeeping missions address "the security challenges to former belligerents" by providing "a greater number of troops" on the ground (246).
+
+2. "...increasing the deployment of observer and police personnel is not likely to yield positive outcomes" (246).
+]
+
+.center[.size50[.textred[**Concepts and Measurement?**]]]
+
+
+
+---
+
+class: middle, slidegreen
+
+.size50[.center[**High, Low or No Confidence?**]]
+
+.size40[
+1. Successful .textblue[**UN peacekeeping missions**] address "the security challenges to former belligerents" by providing "a greater number of .textblue[**troops**]" on the ground (246).
+
+2. "...increasing the deployment of .textblue[**observer and police personnel**] is not likely to yield .textblue[**positive outcomes**]" (246).
+]
+
+.center[.size50[.textred[**Concepts and Measurement?**]]]
+
+
+
+---
+
+background-image: url('libs/Images/07_3-Table1.png')
+background-size: 92%
+background-position: center
+
+
+
+---
+
+background-image: url('libs/Images/07_3-table2.png')
+background-size: 40%
+background-position: right
+
+.pull-left[
+
+<br>
+
+<br>
+
+<br>
+
+.center[.size50[**Analyses**]]
+
+<br>
+
+<br>
+
+<br>
+
+.center[.size50[**High, Low or No Confidence?**]]
+
+]
+
+
+
+---
+
+background-image: url('libs/Images/07_3-table2-1.png')
+background-size: 100%
+background-position: center
+
+???
+
+Analyses: High, Low or No Confidence?
+
+
+
+---
+
+background-image: url('libs/Images/07_3-table2-2.png')
+background-size: 100%
+background-position: center
+
+
+
+---
+
+background-image: url('libs/Images/07_3-Figure2.png')
+background-size: 82%
+background-position: center
+
+
+
+---
+
+class: middle, slidegreen
+
+.size50[.center[**High, Low or No Confidence?**]]
+
+.size40[
+1. Successful UN peacekeeping missions address "the security challenges to former belligerents" by providing "a greater number of troops" on the ground (246).
+
+2. "...increasing the deployment of observer and police personnel is not likely to yield positive outcomes" (246).
+]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

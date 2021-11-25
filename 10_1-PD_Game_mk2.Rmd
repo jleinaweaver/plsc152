@@ -1,0 +1,251 @@
+---
+output:
+  xaringan::moon_reader:
+    css: ["default", "extra.css"]
+    lib_dir: libs
+    seal: false
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+      ratio: '16:9'
+---
+
+```{r, echo = FALSE, warning = FALSE, message = FALSE}
+##xaringan::inf_mr()
+## For offline work: https://bookdown.org/yihui/rmarkdown/some-tips.html#working-offline
+## Images not appearing? Put images folder inside the libs folder as that is the main data directory
+
+library(tidyverse)
+library(readxl)
+library(stargazer)
+##library(kableExtra)
+##library(modelr)
+
+knitr::opts_chunk$set(echo = FALSE,
+                      eval = TRUE,
+                      error = FALSE,
+                      message = FALSE,
+                      warning = FALSE,
+                      comment = NA)
+```
+
+class: slideblue
+
+.size80[**Today's Agenda**]
+
+<br>
+
+.size70[.center[
+
+Welcome to the prisoner's dilemma (mark 2)
+
+]]
+
+<br>
+
+.center[.size40[
+  Justin Leinaweaver (Spring 2022)
+]]
+
+???
+
+## Prep for Class
+1. Reserve the extra room(s)
+
+2. Print
+
+- Game table handout
+- Recording sheets handout (if no chalk board for the group)
+- Tracking sheet for you
+- Final tracking sheet for winning leader, all students listed by group
+
+3. Calculate reward
+
+- Enough so majority of winning group can get 5 or whole group gets fewer
+
+Number in class / 2 = Group size
+(Group size / 2) + 1 = Group majority
+Group majority * 5 = Game reward
+
+<br>
+
+
+
+---
+
+class: middle, slideblue
+
+.size50[.center[**A Competitive Prisoner's Dilemma**]]
+
+<br>
+
+.size40[
++ A single game played across multiple rounds.
+
++ Each round your group must choose whether to cooperate or defect.
+
++ Your reward depends on the choice made by the other group.
+]
+
+???
+
+Today we replay our prisoners' dilemma game from week four but with a few newly added wrinkles.
+
+Just like last time we have three basic rules:
+
+- A single game played across multiple rounds.
+
+- Each round your group must choose whether to cooperate or defect.
+
+- Your reward depends on the choice made by the other group.
+
+<br>
+
+* split the class in half *
+
+Stand up and move to the opposite sides of the room.
+
+
+
+---
+
+background-image: url('libs/Images/09_1-PD_Table2.png')
+background-size: 100%
+background-position: bottom
+
+.size50[.center[**A Competitive Prisoner's Dilemma**]]
+
+???
+
+Now, today's PD game has been modified slightly.
+
+SLIDE
+
+First, we are now playing to reach a target.
+
+Each round your team will choose whether to cooperate or defect and the points will be allocated as per this table.
+
+Your goal is to be the first team to reach 300 points.
+
+<br>
+
+EVERYBODY STILL CLEAR ON HOW TO READ THIS GAME BOARD?
+
+The table shows four possible outcomes for each round based on the choice made by each group.
+
+Group 1's results are underlined to be helpful.
+
+ANY QUESTIONS ON THE GAME BOARD?
+
+<br>
+
+The Reward: Bonus points on the final
+
+The winning team will receive X bonus points to distribute in the group.
+
+<br>
+
+There are two additional tweaks to our game.
+
+1. After each round we will have an international negotiation.
+
+Your group will send someone to negotiate with the other team on your behalf.
+
+
+
+
+---
+
+background-image: url('libs/Images/09_1-skipper.jpg')
+background-size: 35%
+background-position: right
+
+.pull-left[
+.size45[.center[**Your Fearless Leader**]]
+
+.size40[
+1. Selects your negotiator,
+
+2. Chooses to cooperate or defect each round, and
+
+3. On the winning team, distributes the bonus points.
+]]
+
+???
+
+2. Each group is now an explicitly democratic state.
+
+The leader has three responsibilities:
+
+1. Selects a single negotiator to represent your state in negotiations,
+
+2. Makes the ultimate decision each round as to whether to cooperate or defect, and
+
+3. On the winning team, distributes the bonus points to his or her constituents however they choose.
+
+ANY QUESTIONS ON THE POWERS OF THE LEADER?
+
+
+
+---
+
+background-image: url('libs/Images/09_1-voting.png')
+background-size: 93%
+background-position: bottom
+
+.size45[.center[**Your Fearless (and TEMPORARY) Leader**]]
+
+???
+
+As I said, you are each a democracy.
+
+Your first job will be to elect a leader using a simple majority rule (50% + 1).
+
+And because you are a democracy, you may replace the leader by a simple vote at any point during the game.
+
+ANY QUESTIONS ON THIS?
+
+
+---
+
+background-image: url('libs/Images/09_1-PD_Table2.png')
+background-size: 100%
+background-position: bottom
+
+.size50[.center[**A Competitive Prisoner's Dilemma**]]
+
+???
+
+ANY QUESTIONS BEFORE WE START PLAYING?
+
+Ok, group A to 307, group B to 313 down the hall.
+
+When you get there pick your leader and get ready for round 1.
+
+<br>
+
+* Negotiate after each round. *
+
+* Play until a winner. *
+
+<br>
+
+ALL back to room 301
+
+* give list of team members to the leader *
+
+
+---
+
+background-image: url('libs/Images/09_1-patronage.jpg')
+background-size: 83%
+background-position: center
+
+???
+
+Leader, this list includes everybody in class.
+
+On Monday when we get back I want you to announce how you will be distributing the spoils.
+
+Next week we divy up the prizes and explore the two-level games model of international politics.

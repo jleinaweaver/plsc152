@@ -1,0 +1,463 @@
+---
+output:
+  xaringan::moon_reader:
+    css: ["default", "extra.css"]
+    lib_dir: libs
+    seal: false
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+      ratio: '16:9'
+---
+
+```{r, echo = FALSE, warning = FALSE, message = FALSE}
+##xaringan::inf_mr()
+## For offline work: https://bookdown.org/yihui/rmarkdown/some-tips.html#working-offline
+## Images not appearing? Put images folder inside the libs folder as that is the main data directory
+
+library(tidyverse)
+library(readxl)
+library(stargazer)
+##library(kableExtra)
+##library(modelr)
+
+knitr::opts_chunk$set(echo = FALSE,
+                      eval = TRUE,
+                      error = FALSE,
+                      message = FALSE,
+                      warning = FALSE,
+                      comment = NA)
+```
+
+class: slideblue
+
+.size70[**Today's Agenda**]
+
+<br>
+
+.size50[.center[
+
+Explore economic liberalism as a model of international politics 
+
+]]
+
+<br>
+
+<br>
+
+<br>
+
+.center[.size40[
+  Justin Leinaweaver (Spring 2022)
+]]
+
+???
+
+So far this semester we've explored a number of different models of international politics.
+
+This week we're going to explore a series of mechanisms that all fit under the broad label of liberalism.
+
+This isn't liberal like the term is used in American politics and it's not liberal like economists use it.
+
+I don't know why this word is used so many different ways, but it certainly keeps us on our toes.
+
+
+
+---
+
+background-image: url('libs/Images/02_2-theory_brief_liberalism.png')
+background-size: 77%
+background-position: center
+
+???
+
+Here's the table from the reading you did at the beginning of the semester.
+
+Liberalism, in broad strokes, is an argument that even though it'll be REALLY hard, it IS possible for countries and people to cooperate.
+
+This runs counter to the arguments of realists who argue that meaningful cooperation is basically impossible.
+
+This maps nicely onto the development of IR as a subfield of Poli Sci.
+- WW1 and WW2 devastate the world, hence realism
+- Post-war reconstruction and institution building not quite as terrifying as feared.
+- The question was, why not?
+
+<br>
+
+The thing is, various scholars have advanced different mechanisms to explain how states can achieve cooperation.
+
+The excerpt from the Joseph Nye book you read for today introduces you to three strands of liberal IR theory.
+
+We will spend the next two weeks exploring the first one: Economic Liberalism.
+
+
+
+---
+
+class: middle, slideblue
+
+.center[.size60[**Economic Liberalism**]]
+
+<br>
+
+.size40[
++ Interests?
+  
++ Institutions?
+  
++ Interactions?
+  
+Therefore, increasing trade should reduce the occurrence of war.
+]
+
+???
+
+To start, everybody focus on the Nye reading to diagram this argument.
+
+Take 5 minutes on your own.
+
+Remember, our models are built on interests, institutions and interactions.
+
+Focus on clarifying those three pieces of the model.
+
+<br>
+
+Now combine diagrams with the person next to you (small groups).
+
+- Consolidate to a single argument.
+
+<br>
+
+* ON BOARD *
+
+OK, GIVE ME PREMISES, LET'S DIAGRAM THIS VERSION OF THE ARGUMENT.
+
+(Interests)
+- States want to grow
+
+(Institutions)
+- States may choose to start wars or to seek trade (international anarchy). International anarchy means it's basically up to them.
+
+(Interactions)
+- War is risky (you may lose)
+- The returns to trade grow over time
+- Increasing trade transforms the state's "social structure"
+
+
+
+
+---
+
+class: middle, slideblue
+
+### Interests
+.size30[
++ States want growth
+]
+
+### Institutions
+.size30[
++ States may choose to start wars or seek trade (anarchy)
+]
+
+### Interactions
+.size30[
++ War is risky
++ The returns to trade grow over time
++ Increasing trade transforms the state's "social structure"
+]
+
+<br>
+
+.size30[Therefore, increasing trade should reduce the occurrence of war.]
+
+???
+
+My version of the diagram.
+
+Therefore, increasing trade should reduce the likelihood of war.
+
+Very much still in line with the realists view of institutions, right?
+
+<br>
+
+IS THIS A LOGICAL ARGUMENT? WHY OR WHY NOT?
+
+<br>
+
+Let's talk about whether or not this is convincing.
+
+WHAT ARE THE STRONGEST AND WEAKEST PARTS OF THIS MODEL?
+
+<br>
+
+WHAT EVIDENCE COULD I SHOW YOU TO CONVINCE YOU OF EACH PREMISE?
+
+(Fourth premise is too vague to be evaluated with evidence.)
+
+
+
+---
+
+class: middle, slideblue
+
+### Interests
+.size30[
++ States want growth
+]
+
+### Institutions
+.size30[
++ States may choose to start wars or seek trade (anarchy)
+]
+
+### Interactions
+.size30[
++ War is risky
++ The returns to trade grow over time
++ .textred[**...?**]
+]
+
+<br>
+
+.size30[Therefore, increasing trade should reduce the occurrence of war.]
+
+???
+
+We need more detail about the mechanism itself in order to be convinced.
+
+WITH THE PERSON NEXT TO YOU, USE THE ROSECRANCE EXCERPT TO MODIFY AND CLARIFY THIS MODEL OF INTERNATIONAL POLITICS.
+
+- Focus on his description of "the trading world."
+
+<br>
+
+OK, GIVE ME OPTIONS?
+
+DISCUSS EXAMPLES
+
+
+
+---
+
+class: middle, slideblue
+
+### Interests
+.size30[
++ States want growth
+]
+
+### Institutions
+.size30[
++ States may choose to start wars or seek trade (anarchy)
+]
+
+### Interactions
+.size30[
++ War is risky .textred[**and disrupts trade**]
++ The returns to trade grow over time
++ .textred[**Specialized economies are dependent on trade for growth**]
+]
+
+.size30[Therefore, increasing trade should reduce the occurrence of war.]
+
+???
+
+Here is one version.
+
+* Add: War disrupts trade AND Specialized economies are dependent on trade for growth *
+
+<br>
+
+WHAT IS ECONOMIC SPECIALIZATION?
+
+
+
+
+---
+
+background-image: url('libs/Images/11_1-vineyard.jpg')
+background-size: 100%
+background-position: center
+
+???
+
+The idea is that the world economy grows best when everyone focuses on doing the things they are best at.
+
+- You then buy the other stuff you need from the rest of the world.
+
+<br>
+
+If you have hundreds of years of experience making wine and all the facilities to do it efficiently, then you should do that.
+
+- You should not replace one of your fields in order to also make cars.
+
+
+
+---
+
+background-image: url('libs/Images/11_1-honda.jpg')
+background-size: 100%
+background-position: center
+
+???
+
+If you were to try and also make cars to compete with Honda your wine would suffer and you'd never get good enough at making cars to succeed.
+
+- Everyone worse off.
+
+<br>
+
+MAKE SENSE?
+
+
+
+---
+
+class: middle, slideblue
+
+### Interests
+.size30[
++ States want growth
+]
+
+### Institutions
+.size30[
++ States may choose to start wars or seek trade (anarchy)
+]
+
+### Interactions
+.size30[
++ War is risky and disrupts trade
++ The returns to trade grow over time
++ Specialized economies are dependent on trade for growth
+]
+
+.size30[Therefore, increasing trade should reduce the occurrence of war.]
+
+???
+
+WHAT IS THE ADVANTAGE OF THIS VERSION OF THE ARGUMENT OVER THE EARLIER VERSION PROPOSED BY NYE?
+
+(We can test it much more easily!)
+
+- WHAT EVIDENCE COULD WE LOOK FOR TO EVALUATE THE SPECIALIZATION ASSUMPTION?
+(Examine countries over time, have those who increased their trade also reduced the number of areas they work in?)
+
+- WHAT EVIDENCE COULD WE LOOK FOR TO EVALUATE THE 'WAR DISRUPTS TRADE' PREMISE?
+(Cases where war breaks out between two states and trade continues at same level as before.)
+
+<br>
+
+IS EVERYBODY CLEAR ON THE BASICS OF WHAT IS OFTEN CALLED ECONOMIC LIBERALISM?
+
+- WHY DO WE DESCRIBE THIS ARGUMENT AS A TYPE OF LIBERAL IR THEORY?
+(Anarchy creates uncertainty but conflict is not inevitable.)
+- In fact, trade makes conflict less likely even in an anarchic world.
+
+<br>
+
+Now, Rosecrance tells us not to get ahead of ourselves with this.
+
+ACCORDING TO ROSECRANCE, UNDER WHAT CONDITIONS DOES TRADE NOT LEAD TO PEACE?
+
+(1. Where states are self-sufficient they will not be transformed by trade and therefore might still view war as a means to grow economically.)
+
+
+
+---
+
+background-image: url('libs/Images/11_1-usa_protectionism.png')
+background-size: 90%
+background-position: center
+
+???
+
+IF THIS IS TRUE, WHAT DOES THAT TELL US ABOUT THE IMPACT OF "BUY AMERICAN" PROMOTIONS?
+
+Likely created by well-intentioned people trying to protect jobs.
+- But does it also make for states that are more likely to go to war?
+
+Unlikely a problem for US because we still trade a TON with the world.
+
+<br>
+
+DOES THIS MEAN WE SHOULD OPPOSE "BUY AMERICAN" PROMOTIONS? WHY OR WHY NOT?
+
+<br>
+
+WHAT IS THE SECOND CASE IN WHICH TRADE DOES NOT LEAD TO PEACE?
+(2. Where resources are limited and rules do not exist, conflict over those resources is still likely.)
+
+
+---
+
+background-image: url('libs/Images/11_1-cartoon.png')
+background-size: 80%
+background-position: center
+
+???
+
+HOW DOES A MELTING ICE CAP IN THE ARCTIC MAKE FOR A DANGEROUS WORLD ACCORDING TO ROSECRANCE?
+
+As the ice melts it is getting MUCH easier for states to see the Arctic seabed as a profitable resource.
+- According to economic liberal theory, the arctic may be a profound source of international instability given that no one "officially" owns it.
+
+<br>
+
+EVERYBODY CLEAR ON THESE TWO EXCEPTIONS?
+
+
+---
+
+class: middle, slideblue
+
+### Interests
+.size30[
++ States want growth
+]
+
+### Institutions
+.size30[
++ States may choose to start wars or seek trade (anarchy)
+]
+
+### Interactions
+.size30[
++ War is risky and disrupts trade
++ The returns to trade grow over time
++ Specialized economies are dependent on trade for growth
+]
+
+.size30[Therefore, increasing trade should reduce the occurrence of war.]
+
+???
+
+OK, AT THIS POINT, HOW CONVINCING DO YOU FIND THIS MODEL OF INTERNATIONAL POLITICS?
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

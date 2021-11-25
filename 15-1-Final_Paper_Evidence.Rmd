@@ -1,0 +1,253 @@
+---
+output:
+  xaringan::moon_reader:
+    css: ["default", "extra.css"]
+    lib_dir: libs
+    seal: false
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+      ratio: '16:9'
+---
+
+```{r, echo = FALSE, warning = FALSE, message = FALSE}
+##xaringan::inf_mr()
+## For offline work: https://bookdown.org/yihui/rmarkdown/some-tips.html#working-offline
+## Images not appearing? Put images folder inside the libs folder as that is the main data directory
+
+library(tidyverse)
+library(readxl)
+library(stargazer)
+##library(kableExtra)
+##library(modelr)
+
+knitr::opts_chunk$set(echo = FALSE,
+                      eval = TRUE,
+                      error = FALSE,
+                      message = FALSE,
+                      warning = FALSE,
+                      comment = NA)
+```
+
+class: slideblue
+
+.size70[**Today's Agenda**]
+
+<br>
+
+.size40[
+
+Final Exam Paper
+
+1. Introduce the prompt
+
+2. Review the evidence
+
+3. Brainstorm possible mechanisms
+]
+
+<br>
+
+.center[.size40[
+  Justin Leinaweaver (Fall 2021)
+]]
+
+???
+
+## Prep for class
+1. Google shared document for collecting citations
+- https://docs.google.com/document/d/1YGAQeF1ZFGs8C0Zs5gDDMgekL5Ak3RmVEI7o0JA8p6c/edit?usp=sharing
+
+2. End of class: Add a page for each mechanism to collect the new evidence 
+
+
+
+
+---
+
+class: middle, slidegreen
+
+.size50[**Final Exam (Due Dec 13th, 3pm)**]
+
+.size40[
+How can a person, like you, influence international politics in .textred[**specific and important**] ways?
+
++ Make a convincing argument
+	+ (e.g. logical, clear, credible and critical)
+
+<br>	
+
++ Evidence: Class material and beyond
+]
+
+???
+
+This week we start working on your final exams!
+
+In your final paper for this class you will be expected to draw on all of our class material in order to make an argument that people like you can influence international politics in specific and important ways.
+
+QUESTIONS ON THE ASSIGNMENT?
+
+- Due by end of final exam window (Dec 13, 3pm)
+
+- Bibliography
+
+
+
+
+---
+
+class: middle, slidegreen
+
+.size60[**Assignment for Today**]
+
+.size40[
+Bring to class a piece of evidence describing a .textred[**private individual**] impacting international politics in a .textred[**measurable**] and .textred[**significant**] way.
+
+<br>
+
+Note: We are looking for people like us so skip the examples that depend on personal wealth or brilliant new inventions.
+]
+
+???
+
+Assignment for today
+
+Bring to class a piece of evidence describing a private individual impacting international politics in a measurable and significant way.
+
+Note: We are looking for people like us so skip the examples that depend on personal wealth or brilliant new inventions.
+
+HAS EVERYBODY SUBMITTED THEIR APA CITATION TO THE SHARED DOCUMENT?
+
+Everybody skim through them and make sure all are properly formatted.
+
+Just flag any citations that might need cleaning up.
+
+* Submitters must correct any errors *
+
+
+
+---
+
+class: middle, slidegreen
+
+.size70[**Introduce the Cases**]
+
+.size60[
+1. Who is the .textred[individual]?
+
+2. What was their .textred[goal]?
+
+3. .textred[How] did they succeed?
+]
+
+???
+
+Ok, let's hear about our cases.
+
+I'll ask each of you to present your case as an answer to three questions:
+
+1. Who is the individual?
+
+2. What was their goal?
+
+3. How SPECIFICALLY did they succeed?
+
+This is about the mechanism that they used.
+
+* Present each and discuss *
+
+
+
+
+---
+
+class: middle, center, slidegreen
+
+.size60[**Use the Cases:** 
+
+**Brainstorm Mechanisms**]
+
+.size50[
+What specific mechanisms can a private individual, like you or I, use to impact international politics?
+]
+
+???
+
+Everybody take five minutes on your own to think about all the cases we just heard and brainstorm a list of mechanisms.
+
+Don't edit yourself, just write!
+
+<br>
+
+* ON BOARD *
+
+* From SP21 class *
+- Popularity
+- Social media
+- Social pressure
+- Rhetoric/Discourse
+- Traveling to get your message out
+- Diplomacy
+- Inventions
+- Defiance of authority at some personal risk
+- Personal sacrifice
+- Research
+- Start an organization
+- Be an active participant in an organization
+- Raise $ for a good cause
+- Target government for policy change (lobbying)
+- Voting / Organizing support for candidate or issue
+
+<br>
+
+OK, OF EVERYTHING ON THE BOARD WHICH PREMISES SEEM THE MOST PROMISING?
+
+- WHICH DO WE WANT TO EXPLORE MORE DEEPLY? e.g. FIND EVIDENCE FOR?
+
+<br>
+
+** Class selected
+1. Social media / social pressure / Discourse
+2. Defiance of authority at some personal risk
+3. Targeting government with lobbying
+4. Being an active participant in an organization
+
+
+
+
+---
+
+class: middle, center, slideblue
+
+.size60[**Assignment for Wednesday**]
+
+.size50[
+Find one piece of evidence for each of the mechanisms we selected today.
+
+<br>
+
+Submit each APA citation to our shared document.
+]
+
+???
+
+Assignment for Wednesday
+
+Find one piece of evidence for each of the mechanisms we selected today.
+
+Submit each APA citation to our shared document.
+
+QUESTIONS ON THE ASSIGNMENT FOR WEDNESDAY?
+
+
+
+** End of class: Add a page for each mechanism to collect the new evidence  **
+
+
+
+
+
+
+

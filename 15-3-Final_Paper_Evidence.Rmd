@@ -1,0 +1,115 @@
+---
+output:
+  xaringan::moon_reader:
+    css: ["default", "extra.css"]
+    lib_dir: libs
+    seal: false
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+      ratio: '16:9'
+---
+
+```{r, echo = FALSE, warning = FALSE, message = FALSE}
+##xaringan::inf_mr()
+## For offline work: https://bookdown.org/yihui/rmarkdown/some-tips.html#working-offline
+## Images not appearing? Put images folder inside the libs folder as that is the main data directory
+
+library(tidyverse)
+library(readxl)
+library(stargazer)
+##library(kableExtra)
+##library(modelr)
+
+knitr::opts_chunk$set(echo = FALSE,
+                      eval = TRUE,
+                      error = FALSE,
+                      message = FALSE,
+                      warning = FALSE,
+                      comment = NA)
+```
+
+class: slideblue
+
+.size70[**Today's Agenda**]
+
+<br>
+
+.size40[
+Final writing workshop
+]
+
+<br>
+
+.center[.size40[
+  Justin Leinaweaver (Fall 2021)
+]]
+
+
+
+
+---
+
+class: middle, slidegreen
+
+.size50[**Final Exam (Due Dec 13th, 3pm)**]
+
+.size40[
+How can a person, like you, influence international politics in .textred[**specific and important**] ways?
+
++ Make a convincing argument
+	+ (e.g. logical, clear, credible and critical)
+
+<br>	
+
++ Evidence: Class material and beyond
+]
+
+???
+
+This week we continue building up to your final exam paper.
+
+ANY QUESTIONS ON THE PROMPT?
+
+
+
+---
+
+class: middle, slidegreen
+
+.size60[**Assignment for Today**]
+
+.size50[Outline must include:
+
++ A thesis statement
+
++ Three (or four) fully explained premises, and
+
++ Specific evidence for each premise
+]
+
+???
+
+DOES EVERYBODY HAVE THEIR OUTLINE?
+
+Get feedback from AT LEAST TWO PEOPLE and then start writing!
+
+
+
+---
+
+class: middle, slidegreen
+
+.size30[
+
+To be convincing an argument should be logical, clear, credible and critical
+
+1. .textred[**Logical arguments**] support their conclusion with well specified premises.
+
+2. .textred[**Clear arguments**] are easy to read & understand.
+
+3. .textred[**Credible arguments**] use high quality evidence and include proper citations.
+
+4. .textred[**Critical arguments**] acknowledge the limitations of our logic/evidence and address counter-arguments.
+]

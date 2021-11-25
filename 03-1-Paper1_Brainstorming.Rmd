@@ -1,0 +1,228 @@
+---
+output:
+  xaringan::moon_reader:
+    css: ["default", "extra.css"]
+    lib_dir: libs
+    seal: false
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+      ratio: '16:9'
+---
+
+```{r, echo = FALSE, warning = FALSE, message = FALSE}
+##xaringan::inf_mr()
+## For offline work: https://bookdown.org/yihui/rmarkdown/some-tips.html#working-offline
+## Images not appearing? Put images folder inside the libs folder as that is the main data directory
+
+library(tidyverse)
+library(readxl)
+library(stargazer)
+##library(kableExtra)
+##library(modelr)
+
+knitr::opts_chunk$set(echo = FALSE,
+                      eval = TRUE,
+                      error = FALSE,
+                      message = FALSE,
+                      warning = FALSE,
+                      comment = NA)
+```
+
+class: slideblue
+
+.size80[**Today's Agenda**]
+
+<br>
+
+.size45[
+1. Review APA citation format
+
+2. What makes evidence high quality?
+
+3. Brainstorm answers to our paper prompt
+]
+
+<br>
+
+.center[.size40[
+  Justin Leinaweaver (Spring 2022)
+]]
+
+???
+
+## Prep for class
+1. Prep Google Doc for collecting citations (prompt and names)
+
+2. Send email with link for the class
+
+https://docs.google.com/document/d/1abEx0dYki6yiFvJ1FE7SCBwNiBWzi0tOk8DEfUEN-Q8/edit?usp=sharing
+
+
+
+
+
+---
+
+class: middle, center, slideblue
+
+.size60[**Who or what is currently the biggest international threat to the United States?**]
+
+.size40[
+Bring one piece of .textred[**HIGH QUALITY**] published evidence you can use to answer the question.
+
+Be ready to provide the class with a correctly formatted, .textred[**APA style citation**] for your piece of evidence (see the Purdue OWL for guidance).
+]
+
+???
+
+We had an assignment for today.
+
+Everybody submit your citation to the shared document.
+
+Link in your email.
+
+<br>
+
+HAS EVERYONE SUBMITTED THEIR CITATION TO THE SHARED GOOGLE DOC?
+
+
+
+---
+
+class: middle, slidegreen
+
+.size50[**APA Style (Source: Purdue OWL)**]
+
+### Books
+.size30[Author, A. A. (Year of publication). *Title of work: Capital letter also for subtitle*. Publisher Name. DOI]
+
+### Journals, Magazines, Newspapers
+.size30[Author, A. A., Author, B. B., & Author, C. C. (Year). Title of article. *Title of Periodical*, volume number(issue number), pages. DOI]
+
+### Webpage / Online Content
+.size30[Lastname, F. M. (Year, Month Date). *Title of page*. Site name. URL]
+
+???
+
+The Purdue OWL is a super handy reference for formatting questions.
+
+Please get comfortable doing this by hand BEFORE you start relying on automated software to do it for you.
+
+If you do use a web service, YOU MUST review your citations to make sure they are correct!
+
+Web services are handy but they make LOTS of mistakes.
+
+<br>
+
+Ok, take a few minutes and review all of the sources.
+
+ARE ALL OF THESE FORMATTED CORRECTLY?
+
+Remember, the goal here is to help each other.
+- You're not calling anybody out!
+- We want everyone to format correctly!
+
+<br>
+
+**Incorrect citations must be corrected by that student.**
+
+ANY QUESTIONS ON APA FORMATTING OF CITATIONS?
+
+
+---
+
+class: middle, center, slidegreen
+
+.size50[**What is .textred[**HIGH QUALITY**] evidence?**]
+
+<br>
+<br>
+
+```{r, fig.align='center', out.width='100%'}
+knitr::include_graphics("libs/Images/03_1-engle2018.png")
+```
+
+???
+
+Now let's talk high quality evidence.
+
+WHAT DOES IT MEAN TO SAY A SOURCE OR PIECE OF EVIDENCE IS HIGH QUALITY?
+
+(- Focus on the "initial appraisal" section from the "Critically Analyzing Information Sources" reading.)
+
+(High quality evidence:)
+- Author: Credentials, Affiliation, Frequently cited by experts
+- Date: Up-to-date is preferred
+- Edition or revision: Multiple editions imply demand; Revisions imply being kept up-to-date
+- Publisher (if book): University press
+- Title of journal: Scholarly journal
+
+"Scholarly or peer-reviewed journal articles are written by scholars or professionals who are experts in their fields. In the sciences and social sciences, they often publish research results."
+
+<br>
+
+Keep in mind, the quality of the evidence at least partially depends on what you are using it to do.
+
+Establishing basic facts? Newspaper is probably sufficient.
+
+Using someone else's argument? Better be built on peer-reviewed research.
+
+<br>
+
+Ok, let's now take a few minutes to review all of the submitted citations to evaluate the quality of the sources.
+
+Again, the goal here is to ensure everyone writes a convincing argument in their first paper and that requires high quality evidence!
+
+ARE ALL OF THESE EXAMPLES OF EVIDENCE THAT IS HIGH ENOUGH QUALITY? WHY OR WHY NOT?
+
+<br>
+
+ANY QUESTIONS ON TYPES OF EVIDENCE AND WHAT WE MEAN BY HIGH QUALITY?
+
+
+
+---
+
+class: middle, center, slideblue
+
+.size60[**Who or what is currently the biggest international threat to the United States?**]
+
+<br>
+<br>
+
+.size50[Discuss the options in our cases.]
+
+???
+
+Let's hear our options!
+
+Go around the room and give us your proposed answer to the question.
+
+
+
+---
+
+class: middle, slidepurple
+
+.size70[**For Wednesday**]
+
+<br>
+
+.size50[
+1. Read Farrell (2010),
+
+2. Pick a single answer for your paper, 
+
+3. Brainstorm 8-10 reasons you picked this answer.
+
+]
+
+???
+
+I know this sounds like a lot of reasons, but I want you to push yourself to build a big lost of possible premises.
+
+You're going to narrow down to three or four in the end, but we want to intentionally start very broadly.
+
+QUESTIONS ON THE ASSIGNMENT?

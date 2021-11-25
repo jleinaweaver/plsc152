@@ -1,0 +1,33 @@
+To see live preview, run xaringan::inf_mr()
+
+Output as pdf
+pagedown::chrome_print(input = "File.html")
+
+Consider hosting on github
+
+For offline work 
+https://bookdown.org/yihui/rmarkdown/some-tips.html#working-offline
+
+Images not appearing? 
+- Put images folder inside the libs folder as that is the main data directory
+
+All kinds of tweaks possible using css
+- Save in extra.css
+
+Text color
+.color[text here]
+e.g. .grey, .charcoal, .purple, .black, .red, .blue, .green, .yellow, .orange
+
+Background images (code at top of new slide)
+background-image: url('libs/Images/01_1-Height_technique.jpg')
+background-size: 100%
+background-position: center
+
+```{r, fig.retina=3, fig.align='center'}
+knitr::include_graphics("libs/Images/15_3-Table1.png")
+```
+
+
+TO DO
+- gganimate maps across time
+- DT table when showing new data with filter = "top"

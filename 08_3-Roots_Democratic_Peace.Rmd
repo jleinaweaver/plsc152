@@ -1,0 +1,373 @@
+---
+output:
+  xaringan::moon_reader:
+    css: ["default", "extra.css"]
+    lib_dir: libs
+    seal: false
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+      ratio: '16:9'
+---
+
+```{r, echo = FALSE, warning = FALSE, message = FALSE}
+##xaringan::inf_mr()
+## For offline work: https://bookdown.org/yihui/rmarkdown/some-tips.html#working-offline
+## Images not appearing? Put images folder inside the libs folder as that is the main data directory
+
+library(tidyverse)
+library(readxl)
+library(stargazer)
+##library(kableExtra)
+##library(modelr)
+
+knitr::opts_chunk$set(echo = FALSE,
+                      eval = TRUE,
+                      error = FALSE,
+                      message = FALSE,
+                      warning = FALSE,
+                      comment = NA)
+```
+
+class: slideblue
+
+.size70[**Today's Agenda**]
+
+<br>
+
+.size50[
+
+Explore the debate over the liberal peace
+
++ Kant (1798)
++ Doyle (1983)
+
+]
+
+.center[.size40[
+  Justin Leinaweaver (Spring 2022)
+]]
+
+???
+
+Today we explore one of the biggest implications of many liberal models of international relations.
+
+The existence, or not, of a liberal peace.
+
+The fundamental idea here is that the spread of democratic institutions and economic exchange leads us to a more peaceful world.
+
+Interestingly, this is an argument with very, very old roots.
+
+<br>
+
+Let's start with the excerpt from Immanuel Kant.
+
+WHAT IS KANT'S GOAL IN THIS ARTICLE?
+(Help the world achieve perpetual peace)
+
+AND WHAT DOES PERPETUAL PEACE MEAN?
+(Never ending)
+
+
+---
+
+class: middle, slidered
+
+.size40[.center[**Kant (1798) vs Doyle (1983): Perpetual Peace**]]
+
+<br>
+
+### The First Definitive Article for Perpetual Peace
+.size30["The Civil Constitution of Every State Should Be Republican"]
+
+### The Second Definitive Article for Perpetual Peace
+.size30["The Law of Nations Shall be Founded on a Federation of Free States"]
+
+### The Third Definitive Article for Perpetual Peace
+.size30["The Law of World Citizenship Shall Be Limited to Conditions of Universal Hospitality"]
+
+???
+
+Kant argues that adopting these three principles will eventually lead us to a world of perpetual peace.
+
+I think we'd all agree that everlasting peace is a nice goal.
+
+The question is, how close does Kant get us to achieving that goal?
+
+The Doyle (1983) article presents counter-arguments to each of these.
+
+Let's dig into them.
+
+<br>
+
+* split class into three groups (one per article) *
+
+Groups, you have 20 minutes to define and evaluate your definitive article.
+
+Work directly on the board to make two lists, Pro vs Con, on whether adopting this article would advance the cause of global peace.
+
+* Make sure they work directly on the board so you can push them *
+
+* If one group finishes too quick, send them to help another group *
+
+
+
+---
+
+class: middle, slidered
+
+.size40[.center[**Kant (1798) vs Doyle (1983): Perpetual Peace**]]
+
+<br>
+
+### The First Definitive Article for Perpetual Peace
+.size30["The Civil Constitution of Every State Should Be Republican"]
+
+???
+
+Ok, Group 1, define the article for us.
+
+BROAD STROKES, DEFINE THIS TYPE OF CONSTITUTION FOR ME.
+
+(Government in two dimensions)
+1. Who holds sovereign power?
+- Autocracy (held by one) vs Aristocracy (held by a few) vs Democracy (sovereignty held by all in society)
+
+2. Two possible forms of government: Republican vs Despotic
+- Republican: Separates the executive from the legislative power
+- Despotic: Government makes and enforces its own laws
+
+<br>
+
+Ok, everybody take some time to review the Kant argument and the Doyle counter-argument on only the first definitive article.
+
+In a few minutes we'll make a pro vs con list on the board.
+
+
+* ON BOARD *
+
+(PRO:)
+1. Organized well to meet threats; unity; 
+2. Separation of powers tames the ambitions of selfish and aggressive individuals.; 
+3. Consent of the people to war is hard to win because they themselves must pay the costs of war themselves.; 
+4. Prevents despotism.
+5. (Doyle's idea) Regular rotation of office prevents personal animosities between heads of state from escalating across time.
+
+(Con:)
+1. At best, creates "caution" not "peace."; 
+2. "organized well" can lead to constant preparation for war that can enhance military institutions to the point they take over a society
+3. Indistinct argument; the logic is very general; 
+4. Contradictory evidence; Some security obsessed states adopt liberal constraints over time.
+
+<br>
+
+WHAT IS DESPOTISM AND WHY DO WE WANT TO AVOID IT?
+(``...the exercise of absolute power, especially in a cruel and oppressive way.'')
+
+HOW IS A DIRECT DEMOCRACY DESPOTIC LIKE A DICTATORSHIP?
+(Majority holds all of the power (exec and leg), can tyrannize over any minority)
+
+DO WE BUY THIS? IS DIRECT DEMOCRACY LIKELY TO BECOME DESPOTIC?
+
+
+
+---
+
+class: middle, slidered
+
+.size40[.center[**Kant (1798) vs Doyle (1983): Perpetual Peace**]]
+
+<br>
+
+### The Second Definitive Article for Perpetual Peace
+.size30["The Law of Nations Shall be Founded on a Federation of Free States"]
+
+???
+
+BROAD STROKES, DEFINE THIS FEDERATION FOR ME.
+
+<br>
+
+* ON BOARD *
+
+(PRO:)
+1. Cooperation begets cooperation;
+2. "League" not a "treaty" ends all wars not just one without imposing new civil laws on the powers of a state, just maintains peace between them
+3. NOT a world state, that is tyranny
+4. Demonstrated success will lead other states to join, widening the league
+5. Encourage diplomacy
+
+(Con:)
+1. Liberalism is not inherently peace-loving; free states will not necessarily be restrained or act in pursuit of peace
+2. Liberal states may, in fact, be more aggressive toward nonliberal states. 
+
+
+
+---
+
+class: middle, slidered
+
+.size40[.center[**Kant (1798) vs Doyle (1983): Perpetual Peace**]]
+
+<br>
+
+### The Third Definitive Article for Perpetual Peace
+.size30["The Law of World Citizenship Shall Be Limited to Conditions of Universal Hospitality"]
+
+???
+
+DEFINE THIS FOR ME.
+
+<br>
+
+* ON BOARD *
+
+(PRO:)
+1. More interactions, more communication should equal greater levels of peacefulness and comity.
+2. NOT a right to settle or plunder, more about allowing voluntary exchanges of goods and ideas
+
+(Con:)
+1. How does universal hospitality not create powerful identity crises?
+2. Voiceless minority in each country (no say in government as a long-term visitor) is approaching despotism for that government, right?
+
+<br>
+
+Generally speaking, Doyle seems enthusiastic when reframing the third article to be more about cosmopolitan law.
+
+WHAT IS COSMPOLITAN LAW AND WHY IS HE ENTHUSIASTIC ABOUT ITS CAPACITY TO FOSTER PEACE?
+
+(Every state embracing a "spirit of commerce" adds material incentives to the need to avoid war.)
+
+- Trade means the greatest benefit comes from working together
+- States no longer have to meddle in production and distribution questions, leave it to the businesses!
+
+
+
+---
+
+class: middle, slidered
+
+.size40[.center[**Kant (1798) vs Doyle (1983): Perpetual Peace**]]
+
+<br>
+
+### The First Definitive Article for Perpetual Peace
+.size30["The Civil Constitution of Every State Should Be Republican"]
+
+### The Second Definitive Article for Perpetual Peace
+.size30["The Law of Nations Shall be Founded on a Federation of Free States"]
+
+### The Third Definitive Article for Perpetual Peace
+.size30["The Law of World Citizenship Shall Be Limited to Conditions of Universal Hospitality"]
+
+???
+
+ALL IN ALL, WHICH SIDE DO YOU FIND MORE CONVINCING? WHY?
+
+<br>
+
+WHAT ARE THE STRONGEST PART'S OF KANT'S ARGUMENT?
+
+- WHICH WOULD BE THE EASIEST ONE TO IMPLEMENT? WHY?
+
+<br>
+
+WHAT ARE THE WEAKEST PARTS?
+
+- WHICH WOULD BE THE HARDEST TO IMPLEMENT? WHY?
+
+
+
+
+---
+
+class: middle, slidered
+
+.size25[
+1. No secret treaty of peace shall be held valid in which there is tacitly reserved matter for a future war
+
+2. No independent states, large or small, shall come under the dominion of another state by inheritance, exchange, purchase, or donation
+
+3. Standing armies shall in time be totally abolished
+
+4. National debts shall not be contracted with a view to the external friction of states
+
+5. No state shall by force interfere with the constitution or government of another state
+
+6. No state shall, during war, permit such acts of hostility which would make mutual confidence in the subsequent peace impossible: such are the employment of assassins (percussores), poisoners (venefici), breach of capitulation, and incitement to treason (perduellio) in the opposing state
+]
+
+???
+
+So, here's the deal, in Kant's full essay he proposes six preliminary articles that must be adopted in order for his main three articles to achieve peace.
+
+Notes on 1) No reservations or agreements to decide contentious issues later. Settle everything now.
+
+Notes on 2) A state is not property, it is a society of men who no one outside their state has a right to command or dispose of.
+
+Notes on 3) Also applies to bulding up of massive treasuries, building up these resources is a threat to others.
+
+Notes on 4) Trade built on credit systems (blames England explicitly) leads to amassing treasure and seeking war
+
+Notes on 5) However, you can jump in and pick sides in a civil war. For some reason that's not a problem.
+
+Notes on 6) ?
+
+<br>
+
+DO YOU THINK ADDING THESE PRELIMINARY ARTICLES MAKE THE PLAN STRONGER OR WEAKER? WHY?
+
+- WHICH WOULD BE THE EASIEST ONES TO IMPLEMENT? WHY?
+
+- WHICH WOULD BE THE HARDEST TO IMPLEMENT? WHY?
+
+<br>
+
+OVERALL, HAS KANT GIVEN US A PLAN THAT, IF IMPLEMENTED, IS LIKELY TO SUCCEED? WHY OR WHY NOT?
+
+<br>
+
+HAS KANT GIVEN US A PLAN THAT IS IMPOSSIBLE TO IMPLEMENT? WHY OR WHY NOT?
+
+<br>
+
+IN WHAT WAYS IS THIS SIMILAR TO INSTITUTIONALISM?
+
+<br>
+
+IN WHAT WAYS IS THIS SIMILAR TO ECONOMIC LIBERALISM?
+
+
+
+---
+
+class: middle, slideblue
+
+.size60[**For Monday**]
+
+<br>
+
+.size35[.center[**Should the US use force (military or economic) to compel other states to behave in line with our interests?**]]
+
+.size35[
+Bring one piece of .textred[**HIGH QUALITY**] published evidence you can use to answer the question.
+
+Be ready to provide the class with a correctly formatted, .textred[**APA style citation**] for your piece of evidence (see the Purdue OWL for guidance).
+]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
