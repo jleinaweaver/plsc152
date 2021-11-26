@@ -56,7 +56,7 @@ Krain, M. (2012). J’accuse! Does Naming and Shaming Perpetrators Reduce the Se
 ## Prep for Class
 
 1. Google shared document for collecting citations
-- https://docs.google.com/document/d/1YGAQeF1ZFGs8C0Zs5gDDMgekL5Ak3RmVEI7o0JA8p6c/edit?usp=sharing
+- ?
 
 2. Email link to class (at end of class)
 
@@ -669,19 +669,23 @@ class: slidegreen, middle
 .size60[**Assignment for Monday**]
 
 .size40[
-Bring to class a piece of evidence describing a .textred[private individual] impacting international politics in a .textred[measurable] and .textred[significant] way.
-
-Note: We are looking for people like us so skip the examples that depend on personal wealth or brilliant new inventions.
+Bring to class a current, or recent, international event that explicitly deals with gender issues or that is framed as an issue that impacts the genders differently.
 ]
 
 ???
 
+Over the next two weeks we'll be exploring some new territory for me.
+
+Next week we explore the interaction of gender and international politics.
+
+The week after we'll do the same with race.
+
+I am not an expert in either subject and am really looking forward to our readings and discussions.
+
+<br>
+
 Assignment for Monday
 
-Bring to class a piece of evidence describing a private individual impacting international politics in a measurable and significant way.
-
-Note: We are looking for people like us so skip the examples that depend on personal wealth or brilliant new inventions.
-
-Submit your evidence to the Google Drive sheet in yor email.
+Submit your evidence to the Google Drive sheet in your email.
 
 Try not to overlap!

@@ -1,0 +1,64 @@
+---
+output:
+  xaringan::moon_reader:
+    css: ["default", "extra.css"]
+    lib_dir: libs
+    seal: false
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+      ratio: '16:9'
+---
+
+```{r, echo = FALSE, warning = FALSE, message = FALSE}
+##xaringan::inf_mr()
+## For offline work: https://bookdown.org/yihui/rmarkdown/some-tips.html#working-offline
+## Images not appearing? Put images folder inside the libs folder as that is the main data directory
+
+library(tidyverse)
+library(readxl)
+library(stargazer)
+##library(kableExtra)
+##library(modelr)
+
+knitr::opts_chunk$set(echo = FALSE,
+                      eval = TRUE,
+                      error = FALSE,
+                      message = FALSE,
+                      warning = FALSE,
+                      comment = NA)
+```
+
+class: slideblue
+
+.size70[**Today's Agenda**]
+
+<br>
+
+.size35[
+
+Zvobgo, K. and Loken, M. (2020, Jun 19). "Why Race Matters in International Relations." *Foreign Policy*.
+
+Henderson, E. A. (2013). Hidden in plain sight: Racism in international relations theory. *Cambridge Review of International Affairs*.
+
+
+]
+
+<br>
+
+.center[.size30[
+  Justin Leinaweaver (Fall 2021)
+]]
+
+???
+
+## Prep for Class
+
+1. 
+
+???
+
+
+
+

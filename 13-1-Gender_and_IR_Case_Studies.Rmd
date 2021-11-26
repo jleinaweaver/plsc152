@@ -1,0 +1,82 @@
+---
+output:
+  xaringan::moon_reader:
+    css: ["default", "extra.css"]
+    lib_dir: libs
+    seal: false
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+      ratio: '16:9'
+---
+
+```{r, echo = FALSE, warning = FALSE, message = FALSE}
+##xaringan::inf_mr()
+## For offline work: https://bookdown.org/yihui/rmarkdown/some-tips.html#working-offline
+## Images not appearing? Put images folder inside the libs folder as that is the main data directory
+
+library(tidyverse)
+library(readxl)
+library(stargazer)
+##library(kableExtra)
+##library(modelr)
+
+knitr::opts_chunk$set(echo = FALSE,
+                      eval = TRUE,
+                      error = FALSE,
+                      message = FALSE,
+                      warning = FALSE,
+                      comment = NA)
+```
+
+class: slideblue
+
+.size70[**Today's Agenda**]
+
+<br>
+
+.size40[
+
+Case Studies: The interaction of gender and international politics
+
+]
+
+<br>
+<br>
+
+.center[.size40[
+  Justin Leinaweaver (Fall 2021)
+]]
+
+???
+
+## Prep for Class
+
+1. 
+
+???
+
+Over the next two weeks we'll be exploring some new territory for me.
+
+Next week we explore the interaction of gender and international politics.
+
+The week after we'll do the same with race.
+
+I am not an expert in either subject and am really looking forward to our readings and discussions.
+
+I am confident we are going to dive into some awkward traps so let's make sure to engage with this material in thoughtful ways and to be sure to extend a generosity to each other as we do this.
+
+
+
+---
+
+class: slidegreen, middle
+
+.size60[**Assignment for Today**]
+
+.size40[
+Bring to class a current, or recent, international event that explicitly deals with gender issues or that is framed as an issue that impacts the genders differently.
+]
+
+???
