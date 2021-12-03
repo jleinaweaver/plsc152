@@ -62,6 +62,67 @@ Krain, M. (2012). J’accuse! Does Naming and Shaming Perpetrators Reduce the Se
 
 <br>
 
+
+
+---
+
+background-image: url('libs/Images/15_3-Post_Article.png')
+background-size: 40%
+background-position: left
+class: middle, slideblue
+
+.right-column[
+
+```{r, fig.retina=3, fig.align='right', out.width='80%'}
+knitr::include_graphics("libs/Images/15_3-Post_Article2.png")
+```
+]
+
+???
+
+A highly relevant article in the Washington Post this week.
+
+DID ANYBODY SEE THIS?
+
+OUT OF CURIOSITY, AND RELEVANT TO THE KRAIN ARTICLE, DO WE COUNT THIS NEWSPAPER REPORT AS A "WIN" FOR HUMAN RIGHTS WATCH? WHY OR WHY NOT?
+
+*DISCUSS*
+
+
+
+
+---
+
+background-image: url('libs/Images/15_3-NYT_UN.png')
+background-size: 40%
+background-position: left
+class: middle, slideblue
+
+.right-column[
+
+```{r, fig.retina=3, fig.align='right', out.width='80%'}
+knitr::include_graphics("libs/Images/15_3-NYT_UN2.png")
+```
+]
+
+???
+
+Well, let's now consider this in the context of a different news item from this week.
+
+DID ANYBODY SEE THIS?
+
+ONE HELL OF A COINCIDENCE, NO?
+
+<br>
+
+WHAT EVIDENCE WOULD YOU NEED TO SEE TO CONVINCE YOU THAT THESE TWO EVENTS ARE CONNECTED?
+
+- THAT HUMAN RIGHTS WATCH SUCCEEDED IN STOPPING THE UN FROM RECOGNIZING THE TALIBAN?
+
+*DISCUSS*
+
+<br>
+
 This week we've been exploring research by Matt Krain (2012).
 
 WHAT IS THE RESEARCH QUESTION IN THE PAPER?
@@ -69,6 +130,7 @@ WHAT IS THE RESEARCH QUESTION IN THE PAPER?
 
 AND WHAT'S THE DIFFERENCE BETWEEN GENOCIDE AND POLITICIDE?
 (Both are mass killings, one targeting a "communal" group, the other political enemies)
+
 
 
 
@@ -85,8 +147,8 @@ class: middle, slideblue
 + Global norm: Genocide / Politicide is not legitimate
 ]
 
-.size30[**Interactions**
-+ Naming and Shaming (N&S):
+.size30[**Interactions**, Naming and Shaming (N&S):
+
 + Exposes the crimes (public not private)
 + Raises the profile of the crimes (global not domestic)
 + May change perpetrators' self-perceptions

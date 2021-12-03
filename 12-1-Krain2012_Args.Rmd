@@ -283,8 +283,8 @@ class: middle, slidegreen
 + Global norm: Genocide / Politicide is not legitimate
 ]
 
-.size30[**Interactions**
-+ Naming and Shaming (N&S):
+.size30[**Interactions**, e.g. Naming and Shaming (N&S):
+
 + Exposes the crimes (public not private)
 + Raises the profile of the crimes (global not domestic)
 + May change perpetrators' self-perceptions
