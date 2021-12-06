@@ -46,7 +46,7 @@ Let's dig into one of these issues more deeply.
 <br>
 
 .center[.size40[
-  Justin Leinaweaver (Fall 2021)
+  Justin Leinaweaver (Spring 2022)
 ]]
 
 ???

@@ -46,7 +46,7 @@ Final Exam Paper
 <br>
 
 .center[.size40[
-  Justin Leinaweaver (Fall 2021)
+  Justin Leinaweaver (Spring 2022)
 ]]
 
 ???
@@ -54,6 +54,9 @@ Final Exam Paper
 ## Prep for class
 
 1. Update the following and slides with actual mechanisms chosen by the class
+
+2. Link with evidence
+- https://docs.google.com/document/d/1YGAQeF1ZFGs8C0Zs5gDDMgekL5Ak3RmVEI7o0JA8p6c/edit?usp=sharing
 
 
 
@@ -88,17 +91,17 @@ class: middle, center, slideblue
 
 .size60[**Assignment for Today**]
 
+<br>
+
 .size50[
 Find one piece of evidence for each of the mechanisms we selected today.
-
-<br>
 
 Submit each APA citation to our shared document.
 ]
 
 ???
 
-HAS EVERYBODY SUBMITTED THEIR EVIDENCE TO THE SHARED DOCUMENT?
+HAS EVERYONE SUBMITTED THEIR EVIDENCE TO THE SHARED DOCUMENT?
 
 <br>
 
@@ -108,27 +111,29 @@ Go and sit with your group.
 
 Groups you have 25 minutes to work together on your assigned mechanism.
 
+(SLIDE)
+
 
 
 ---
 
 class: middle, slideblue
 
-.size50[**Possible Mechanisms**]
+.size45[**Possible Mechanisms**]
 
 .size40[
-1. Social Media &#8594; Social Pressure
-2. Defiance of Authority (with risk)
-3. Lobbying Government
-4. Active Participation (organization)
+1. Organize protests
+2. Found an activist group
+3. Disseminate information
+4. Build connections between domestic interests and international problems
 ]
 
-.size50[**Groups**]
+.size45[**Groups**]
 
 .size40[
 + Clear: How specifically does it work?
 + Credible: Best evidence to support it?
-+ Critical: Problems that must be considered / addressed?
++ Critical: Problems to be addressed?
 ]
 
 ???
@@ -154,15 +159,17 @@ ON REFLECTION, HOW ARE WE FEELING ABOUT THESE FOUR MECHANISMS?
 
 ---
 
-class: middle, slidegreen
+class: middle, slideblue
 
 .size60[**Friday: Outline your Paper**]
+
+<br>
 
 .size40[Outline must include:
 
 + A thesis statement
 
-+ Three (or four) fully explained premises, and
++ Three fully explained premises, and
 
 + Specific evidence for each premise
 ]
@@ -176,6 +183,6 @@ Outline must include:
 - Three fully explained premises, and
 - Specific evidence for each premise
 
-Your list of mechanisms from today IS your list of premises!
+(?) Your list of mechanisms from today IS your list of premises!
 
 ANY QUESTIONS ON THE ASSIGNMENT FOR FRIDAY?

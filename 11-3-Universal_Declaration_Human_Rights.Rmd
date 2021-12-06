@@ -46,7 +46,7 @@ Come to class ready to evaluate the UN's Universal Declaration of Human Rights
 <br>
 
 .center[.size40[
-  Justin Leinaweaver (Fall 2021)
+  Justin Leinaweaver (Spring 2022)
 ]]
 
 ???
@@ -136,7 +136,7 @@ library(readxl)
 library(DT)
 
 ## Download responses from Google Form
-d <- read_csv("13-3-UDHR_Data.csv")
+d <- read_csv("11-3-UDHR_Data.csv")
 
 # Clean up the data
 d2 <- d %>%
