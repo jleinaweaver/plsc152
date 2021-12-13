@@ -53,32 +53,36 @@ Bhambra, G., Bouka, Y., Persaud, R., Rutazibwa, O., Thakur, V., Bell, D., Smith,
 
 ## Prep for Class
 
-1. 
+1. Prep email link to Google sheet to collect citations.
 
+<br>
 
+Discuss each argument / idea proposed in the readings
+
+- DO WE UNDERSTAND THE ARGUMENT?
+
+- IS IT CONVINCING?
+
+- HOW WELL DO OUR OTHER THEORIES FROM THIS TERM COVER THIS GROUND?
+
+- WHAT DOES THIS IMPLY ABOUT OUR UNDERSTANDING OF INTERNATIONAL POLITICAL EVENTS?
 
 
 
 ---
 
-class: slidegreen, middle
+class: slidegreen, middle, center
 
-.size60[**Assignment for Monday**]
+.size60[**Assignment for Friday**]
 
-.size40[
-Bring to class a piece of evidence describing a .textred[private individual] impacting international politics in a .textred[measurable] and .textred[significant] way.
+<br>
 
-Note: We are looking for people like us so skip the examples that depend on personal wealth or brilliant new inventions.
+.size45[
+Bring to class a current event that will allow us to continue exploring the role of race in international political events.
+
+Submit it to our shared document before class on Friday.
 ]
 
 ???
 
-Assignment for Monday
-
-Bring to class a piece of evidence describing a private individual impacting international politics in a measurable and significant way.
-
-Note: We are looking for people like us so skip the examples that depend on personal wealth or brilliant new inventions.
-
-Submit your evidence to the Google Drive sheet in yor email.
-
-Try not to overlap!
+Assignment for Friday
