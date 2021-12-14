@@ -40,7 +40,7 @@ class: slideblue
 
 Final Exam Paper
 
-+ Explore and clarify the possible mechanisms
++ Get feedback on your outlines
 ]
 
 <br>
@@ -53,28 +53,23 @@ Final Exam Paper
 
 ## Prep for class
 
-1. Update the following and slides with actual mechanisms chosen by the class
-
-2. Link with evidence
-- https://docs.google.com/document/d/1YGAQeF1ZFGs8C0Zs5gDDMgekL5Ak3RmVEI7o0JA8p6c/edit?usp=sharing
+1. ...
 
 
 
 ---
 
-class: middle, slidegreen
+class: middle, slideblue
 
-.size50[**Final Exam (Due Dec 13th, 3pm)**]
+.size50[**Final Exam (Due ???)**]
 
 .size40[
-How can a person, like you, influence international politics in .textred[**specific and important**] ways?
+Analyze a recent international political event using three of the theories, models or causal mechanisms we've studied in class this term. 
 
 + Make a convincing argument
 	+ (e.g. logical, clear, credible and critical)
 
-<br>	
-
-+ Evidence: Class material and beyond
++ Evidence: Class material and beyond (as needed)
 ]
 
 ???
@@ -93,101 +88,40 @@ class: middle, center, slideblue
 
 <br>
 
-.size50[
-Find one piece of evidence for each of the mechanisms we selected today.
+.size45[
+Review your class notes and identify three theories, models or mechanisms we studied this term that could each provide a useful explanation of your event. 
 
-Submit each APA citation to our shared document.
+Come to class with your three choices (e.g. premises) an an outline for your final paper.
 ]
 
 ???
 
-HAS EVERYONE SUBMITTED THEIR EVIDENCE TO THE SHARED DOCUMENT?
+DOES EVERYBODY HAVE THEIR OUTLINE?
 
-<br>
+Get feedback from AT LEAST TWO PEOPLE and then start writing!
 
-* split class into four groups, assign each mechanism to one group *
+Small groups present and discuss each outline. 
 
-Go and sit with your group.
+Get feedback. 
 
-Groups you have 25 minutes to work together on your assigned mechanism.
-
-(SLIDE)
+- Did you pick good premises? 
+- Do you need help finding other options?
 
 
 
 ---
 
-class: middle, slideblue
+class: middle, center, slideblue
 
-.size40[**Mechanisms to Consider**]
+.size60[**Assignment for Friday**]
 
-.size40[
-1. Organize protests
-2. Found an activist group
-3. Disseminate information
-4. Build connections between domestic interests and international problems
-]
+.size45[
+Revise your outline based on the class feedback.
 
-.size40[**Groups**
-+ How does this make an international impact?
-+ Best evidence to support it?
-+ Problems to be addressed?
+Bring a rough draft of your paper to class.
 ]
 
 ???
 
-Get ready to present your more detailed analysis of the mechanism to the class.
-
-Be sure to cover the elements of clarity, credibility and critical analysis.
-
-Clear: How does this mechanism make an international impact?
-
-- How specifically does it work? 
-
-Credible: Best evidence to support it?
-
-Critical: Problems that must be considered / addressed?
-
-- Why might this not work?
-- Why should I not choose this mechanism?
-
-<br>
-
-PRESENT each and DISCUSS
-
-<br>
-
-ON REFLECTION, HOW ARE WE FEELING ABOUT THESE FOUR MECHANISMS?
-
-- ANY STRONGER OPTIONS THAN THE OTHERS?
 
 
----
-
-class: middle, slideblue
-
-.size60[**Friday: Outline your Paper**]
-
-<br>
-
-.size40[Outline must include:
-
-+ A thesis statement
-
-+ Three fully explained premises, and
-
-+ Specific evidence for each premise
-]
-
-???
-
-Assignment for Friday, outline your final paper!
-
-Outline must include:
-- A thesis statement
-- Three fully explained premises, and
-- Specific evidence for each premise
-
-(?) Your list of mechanisms from today IS your list of premises!
-
-ANY QUESTIONS ON THE ASSIGNMENT FOR FRIDAY?

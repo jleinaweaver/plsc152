@@ -63,19 +63,17 @@ class: slidegreen, middle
 
 .size60[**Assignment for Monday**]
 
-.size40[
-Bring to class a piece of evidence describing a .textred[private individual] impacting international politics in a .textred[measurable] and .textred[significant] way.
+.size45[
+Bring to class a recent international political event we have not explored in class. 
 
-Note: We are looking for people like us so skip the examples that depend on personal wealth or brilliant new inventions.
+Find something you think is interesting and be ready to explain to the class why you picked it.
 ]
 
 ???
 
 Assignment for Monday
 
-Bring to class a piece of evidence describing a private individual impacting international politics in a measurable and significant way.
-
-Note: We are looking for people like us so skip the examples that depend on personal wealth or brilliant new inventions.
+Bring to class a recent international political event we have not explored in class. Find something you think is interesting and be ready to explain to the class why you picked it.
 
 Submit your evidence to the Google Drive sheet in yor email.
 
