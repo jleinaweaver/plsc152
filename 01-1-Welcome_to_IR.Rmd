@@ -532,25 +532,30 @@ Let's make sure we always have current events we can draw on in our discussions!
 
 ---
 
-class: middle, center, slidepurple
+class: middle, center
 
 .size60[**Course Grade**]
 
-<br>
+```{css, echo=F}
+/* Change the background color to white for shaded rows (even rows) */
+.remark-slide thead, .remark-slide tr:nth-child(2n) {
+      background-color: white;
+}
+```
 
-.size40[
+```{r}
+tibble(
+  col1 = c("Participation", "Argument Paper 1", "Argument Paper 2", "Final Exam", "Total"),
+  col2 = c("", "(Feb 11)", "(Apr 1)", "", ""),
+  col3 = c(rep(20, 4), 100)
+) |>
+  kableExtra::kbl(align = c("l", "c", "c"), col.names = c("", "", "%")) |>
+  kableExtra::kable_styling(font_size = 50) |>
+  kableExtra::column_spec(1, width = "11em") |>
+  kableExtra::column_spec(2, width = "7em") |>
+  kableExtra::row_spec(c(0, 5), bold = TRUE, background = "#b3ccff")
 
-|      |      |%|
-|:-----|:----:|:----:|
-|Participation||20|
-|Paper 1: Making an Argument|(Sep 19)|20|
-|Paper 2: Piazza and Choi (2018) |(Oct 24)|20|
-|Paper 3: Young and Carpenter (2018) |(Nov 21)|20|
-|Final Exam||20|
-||||
-|TOTAL||100|
-
-]
+```
 
 
 

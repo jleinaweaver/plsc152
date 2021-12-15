@@ -18,8 +18,8 @@ output:
 
 library(tidyverse)
 library(readxl)
-library(stargazer)
-##library(kableExtra)
+##library(stargazer)
+library(kableExtra)
 ##library(modelr)
 
 knitr::opts_chunk$set(echo = FALSE,
@@ -53,22 +53,20 @@ Welcome to the prisoner's dilemma (mark 2)
 ## Prep for Class
 1. Reserve the extra room(s)
 
-2. Print
+2. Print your notes
 
-- Game table handout
-- Recording sheets handout (if no chalk board for the group)
-- Tracking sheet for you
-- Final tracking sheet for winning leader, all students listed by group
+- Game table and tracking sheet
+- Have leaders make a list of all members of their group at beginning of exercise (that will be what they use for distributing benefits)
 
-3. Calculate reward
+<br> 
 
-- Enough so majority of winning group can get 5 or whole group gets fewer
+### Old Approach
+Enough so majority of winning group can get 5 or whole group gets fewer
 
-Number in class / 2 = Group size
-(Group size / 2) + 1 = Group majority
-Group majority * 5 = Game reward
+- Number in class / 2 = Group size
+- (Group size / 2) + 1 = Group majority
+- Group majority * 5 = Game reward
 
-<br>
 
 
 
@@ -110,81 +108,113 @@ Stand up and move to the opposite sides of the room.
 
 ---
 
-background-image: url('libs/Images/09_1-PD_Table2.png')
-background-size: 100%
-background-position: bottom
+background-image: url('libs/Images/10_1-Switzerland_Biden_Putin.jpg')
+background-size: 90%
+background-position: center
 
-.size50[.center[**A Competitive Prisoner's Dilemma**]]
+.center[.size45[.content-box-red[**Prisoner's Dilemma (v2)**]]]
 
 ???
 
-Now, today's PD game has been modified slightly.
+Today's PD game has been updated to add additional elements that are crucial to thinking about international political events.
 
-SLIDE
+Each group is a democratic country with a soon to be elected leader.
 
-First, we are now playing to reach a target.
+Each round of the game is a negotiation between the two leaders with a goal of bringing points back to their groups.
 
-Each round your team will choose whether to cooperate or defect and the points will be allocated as per this table.
-
-Your goal is to be the first team to reach 300 points.
-
-<br>
-
-EVERYBODY STILL CLEAR ON HOW TO READ THIS GAME BOARD?
-
-The table shows four possible outcomes for each round based on the choice made by each group.
-
-Group 1's results are underlined to be helpful.
-
-ANY QUESTIONS ON THE GAME BOARD?
-
-<br>
-
-The Reward: Bonus points on the final
-
-The winning team will receive X bonus points to distribute in the group.
-
-<br>
-
-There are two additional tweaks to our game.
-
-1. After each round we will have an international negotiation.
-
-Your group will send someone to negotiate with the other team on your behalf.
-
+MAKE SENSE SO FAR?
 
 
 
 ---
 
-background-image: url('libs/Images/09_1-skipper.jpg')
-background-size: 35%
-background-position: right
+class: middle, center
+
+.size50[.center[.content-box-blue[**Prisoner's Dilemma (v2)**]]]
+
+<br>
+
+```{css, echo=F}
+/* Change the background color to white for shaded rows (even rows) */
+.remark-slide thead, .remark-slide tr:nth-child(2n) {
+      background-color: white;
+}
+```
+
+```{r}
+tibble(
+  col1 = c("Group 1", ""),
+  col2 = c("Cooperate", "Defect"),
+  Cooperate = c("+3, +3", "+5, -2"),
+  Defect = c("-2, +5", "-1, -1")
+) |>
+  kbl(align = c("l", "l", "c", "c"), col.names = c("", "", "Cooperate", "Defect")) |>
+  add_header_above(c(" " = 2, "Group 2" = 2)) |>
+  column_spec(column = 1:2, bold = TRUE, width = "20em") |>
+  column_spec(column = 3:4, background = "#b3ccff", width = "20em") |>
+  kable_styling(font_size = 40, bootstrap_options = "basic")
+```
+
+???
+
+Here you can see I've updated the outcomes table since the last time we played.
+
+EVERYBODY STILL CLEAR ON HOW TO READ THIS GAME BOARD?
+
+The table shows four possible outcomes for each round based on the choice made by each group.
+
+ANY QUESTIONS ON THE GAME BOARD?
+
+<br>
+
+The reward: Bonus points on the final exam
+
+We will play seven rounds.
+
+<br>
+
+Let's talk about the leaders.
+
+
+
+---
+
+class: middle, slideblue
 
 .pull-left[
 .size45[.center[**Your Fearless Leader**]]
 
 .size40[
-1. Selects your negotiator,
++ Elected (50% + 1)
 
-2. Chooses to cooperate or defect each round, and
++ Negotiates
 
-3. On the winning team, distributes the bonus points.
++ Distributes Rewards
+
++ Personal benefits
 ]]
+
+.pull-right[
+```{r, fig.align='right', fig.retina=3}
+knitr::include_graphics('libs/Images/09_1-skipper.jpg')
+```
+]
 
 ???
 
-2. Each group is now an explicitly democratic state.
+Elected by a simple majority,
 
-The leader has three responsibilities:
+Empowered to negotiate with the other leader (if they choose),
 
-1. Selects a single negotiator to represent your state in negotiations,
+Distributes all points received by the country, and
 
-2. Makes the ultimate decision each round as to whether to cooperate or defect, and
+Receives a personal benefit for being the leader.
 
-3. On the winning team, distributes the bonus points to his or her constituents however they choose.
++ Every two rounds you survive as leader you will receive +3 points all for you (cannot be redistributed)
 
 ANY QUESTIONS ON THE POWERS OF THE LEADER?
+
+It's good to be the king.
 
 
 
@@ -209,11 +239,32 @@ ANY QUESTIONS ON THIS?
 
 ---
 
-background-image: url('libs/Images/09_1-PD_Table2.png')
-background-size: 100%
-background-position: bottom
+class: middle, center
 
-.size50[.center[**A Competitive Prisoner's Dilemma**]]
+.size50[.center[.content-box-blue[**Prisoner's Dilemma (v2)**]]]
+
+<br>
+
+```{css, echo=F}
+/* Change the background color to white for shaded rows (even rows) */
+.remark-slide thead, .remark-slide tr:nth-child(2n) {
+      background-color: white;
+}
+```
+
+```{r}
+tibble(
+  col1 = c("Group 1", ""),
+  col2 = c("Cooperate", "Defect"),
+  Cooperate = c("+3, +3", "+5, -2"),
+  Defect = c("-2, +5", "-1, -1")
+) |>
+  kbl(align = c("l", "l", "c", "c"), col.names = c("", "", "Cooperate", "Defect")) |>
+  add_header_above(c(" " = 2, "Group 2" = 2)) |>
+  column_spec(column = 1:2, bold = TRUE, width = "20em") |>
+  column_spec(column = 3:4, background = "#b3ccff", width = "20em") |>
+  kable_styling(font_size = 40, bootstrap_options = "basic")
+```
 
 ???
 
@@ -221,19 +272,24 @@ ANY QUESTIONS BEFORE WE START PLAYING?
 
 Ok, group A to 307, group B to 313 down the hall.
 
-When you get there pick your leader and get ready for round 1.
+When you get there:
+
+1. pick your leader,
+
+2. Leaders make a list of all citizens in your country, and 
+
+3. Get ready for round 1 of 7.
 
 <br>
 
-* Negotiate after each round. *
+*Leaders negotiate together privately*
 
-* Play until a winner. *
+*At end of game return to 301*
 
 <br>
 
 ALL back to room 301
 
-* give list of team members to the leader *
 
 
 ---
@@ -244,8 +300,7 @@ background-position: center
 
 ???
 
-Leader, this list includes everybody in class.
+Alright leaders, you have a list of your citizens and the points you received from the negotiation.
 
-On Monday when we get back I want you to announce how you will be distributing the spoils.
+On Wednesday I want you to announce how you will be distributing the spoils.
 
-Next week we divy up the prizes and explore the two-level games model of international politics.
