@@ -1,0 +1,366 @@
+---
+output:
+  xaringan::moon_reader:
+    css: ["default", "extra.css"]
+    lib_dir: libs
+    seal: false
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+      ratio: '16:9'
+---
+
+```{r, echo = FALSE, warning = FALSE, message = FALSE}
+##xaringan::inf_mr()
+## For offline work: https://bookdown.org/yihui/rmarkdown/some-tips.html#working-offline
+## Images not appearing? Put images folder inside the libs folder as that is the main data directory
+
+library(tidyverse)
+library(readxl)
+library(stargazer)
+##library(kableExtra)
+##library(modelr)
+
+knitr::opts_chunk$set(echo = FALSE,
+                      eval = TRUE,
+                      error = FALSE,
+                      message = FALSE,
+                      warning = FALSE,
+                      comment = NA)
+```
+
+class: slideblue
+
+.size70[**Today's Agenda**]
+
+<br>
+
+.size40[
+
+Puechguirbal, N. (2010). Discourses on Gender, Patriarchy and Resolution 1325: A Textual Analysis of UN Documents. *International Peacekeeping*. 17(2), 172–187.
+
+]
+
+<br>
+<br>
+
+.center[.size40[
+  Justin Leinaweaver (Spring 2022)
+]]
+
+???
+
+## Prep for Class
+
+1. See reading notes txt file in this folder
+- 13-3-Puechguirbal2010_Notes.txt
+
+2. Pronounce author's name: Pweesh-gwhere-bal
+
++ Introduced on [podcast](https://www.gcsp.ch/digital-hub/tea-1325-bonus-episode)
+
+???
+
+For today I wanted to find us a research article that applies the ideas and tools we've been considering this week.
+
+I like this article for a number of reasons:
+
+1. It's a qualitative analysis and I never want you to think that all political science research has to have numbers and statistics in it,
+
+2. It allows us to evaluate a specific action by the UN that many framed as a huge policy accomplishment (Resolution 1325), and
+
+3. Because I'm still thinking about the article's argument and I'm keen to see how you react to it.
+
+
+
+
+---
+
+background-image: url('libs/Images/13-3-author_photo.jpg')
+background-size: 40%
+background-position: left
+class: middle
+
+.pull-right[
+.size30[
+**Nadine Puechguirbal, PhD**
+
+Field practitioner with the International Movement of the Red Cross serving in Somalia, Former Yugoslavia, Kenya, Malaysia and Rwanda
+
+Senior Gender Advisor to the UN's OCHA and DPKO serving in Haiti, the DRC, Chad and Laos
+
+Coordinated the work of 14 UN entities on conflict-related sexual violence and gender-based violence in emergencies.
+]]
+
+???
+
+Let's start with our author.
+
+The first reason I was eager to read this article is that Dr. Puechguirbal (Pweesh-gwhere-bal) has extensive on-the-ground experience with these issues.
+
++ Over a 20+ year career she has worked on gender issues related to peacekeeping in some of the toughest places on the planet.
+
++ The United Nations Office for the Coordination of Humanitarian Affairs (OCHA) and the United Nations Department of Peacekeeping Operations (DPKO) )
+
++ In other words, she knows a TON about this topic and has extensive experience with these issues on the ground.
+
+<br>
+
+A second reason I was eager to read this article is that research articles written by practitioners can be doubly fascinating.
+
++ On one level we can diagram and evaluate the key argument itself, while also, ...
+
++ On a second level we get to learn a ton about how their organization frames the concepts and problems they are dealing with.
+
+In a sense, this makes her article a research article AND a primary source document for thinking about a practitioner's view of gender and security.
+
+<br>
+
+## Notes cribbed from her syllabus
+[Link](https://genderandsecurity.org/sites/default/files/Gender%20Mainstreaming%20in%20Peacekeeping%20Operations-Nadine%20Puechguirbal%20%28University%20of%20Peace%29.pdf)
+
+Nadine Puechguirbal (puechguirbal@un.org) has been working as the Senior Gender Advisor for the UN Mission of Stabilisation in Haiti (MINUSTAH) since June 2004.
+
+She has acquired extended field experience over the years, first with the International Movement of the Red Cross (in Somalia, Former Yugoslavia, Kenya, Malaysia, Rwanda), later with the United Nations (in Haiti, Laos and the Democratic Republic of Congo).
+
+From 2000 to 2003, she worked for UN Office for the Coordination of Humanitarian Affairs (OCHA) and the UN Department of Peacekeeping Operations (DPKO) at the headquarters in New York. In 2003, she was seconded as the Deputy Gender Advisor to the UN Organization Mission in the Democratic Republic of the Congo (MONUC).
+
+In October 2006, Ms. Puechguirbal received her PhD on the subject “Gender
+perspectives in post conflict: comparative study between Somalia, Rwanda and Eritrea” at the Department of Political Sciences, University La Sorbonne, Paris, France.
+
+
+---
+
+background-image: url('libs/Images/13-3-unsc_r_1325.png')
+background-size: 100%
+background-position: center
+
+???
+
+Last detour!
+
+Before we shift to the article let's talk about the UN Resolution at the heart of the analysis.
+
+I asked each of you to read it before class.
+
+I know you don't have a lot of experience reading international law, but...
+
+WHAT DID YOU THINK OF IT? ANY FIRST IMPRESSIONS?
+
+<br>
+
+Skip past the very long preamble to the part of the resolution that is numbered.
+
+That's where the meat in the meal really begins.
+
+WHAT WOULD YOU SAY ARE THE "STRONGEST" OBLIGATIONS IN THE RESOLUTION? e.g. RULES THAT SHOULD IMPACT STATE BEHAVIOR THE MOST?
+
+(SLIDE)
+
+
+
+---
+
+background-image: url('libs/Images/13-3-unsc_r_1325_described2.png')
+background-size: 80%
+background-position: center
+class: slidepurple
+
+???
+
+Most references to the resolution point to these elements.
+
+They sound important and determinitive, BUT the language in the resolution implementing each of these provisions is weak.
+
+In terms of international law, and domestic law really, rules using words like "must" and "shall" carry the most weight.
+
++ Although, "shall" is being replaced by "must" in domestic US law because "shall" can sometimes be taken as "may" and that gets confusing...
+
+HOW MANY INSTANCES OF "SHALL" OR "MUST" DO WE SEE IN RESOLUTION 1325?
+
+<br>
+
+WHAT ACTION OR OBLIGATION WORDS DOES THE RESOLUTION PREFER?
+
+(Instead this resolution uses a whole lot of "urges", "expresses" and "calls on" parties to behave in certain ways.)
+
+<br>
+
+Why does this matter?
+
+SLIDE
+
+
+
+---
+
+background-image: url('libs/Images/13-3-sponge_bob-only-if-you-ask-nicely.jpg')
+background-size: 63%
+background-position: center
+class: slideblue
+
+???
+
+Imagine if we wrote domestic laws this way.
+
++ Springfield PD **urges** you to stop at red lights.
+
++ The IRS **calls on** all citizens to pay their taxes.
+
+Those are word choices that reflect a staggeringly low level of obligation.
+
+No concrete explanations of what will happen if you don't comply.
+
+MAKE SENSE?
+
+
+
+---
+
+background-image: url('libs/Images/13-3-Abstract.png')
+background-size: 90%
+background-position: center
+
+???
+
+So, why take this detour into a legal analysis of the UN Resolution before
+discussing the article?
+
+Dr. Puechguirbal (Pweesh-gwhere-bal) is making an important argument rooted in her deep experience about the way power is defined and applied in UN Peacekeeping.
+
+These are tough concepts to define and measure so identifying the causal mechanism here is going to be hard.
+
+I just want us to keep in mind what Resolution 1325 sets out to do and the weight it applies to those obligations as we think about why it doesn't seem to be transforming UN peacekeeping.
+
+MAKE SENSE?
+
+<br>
+
+Everybody turn to the conclusion of the article on p184.
+
+SUMMARIZE THIS FOR ME.
+
++ WHAT IS THE BIG CONCLUSION SHE WANTS US TO ACCEPT?
+
+(SLIDE)
+
+
+
+---
+
+class: center, middle, slideblue
+
+.size55[**Puechguirbal's (2010) Argument**]
+
+<br>
+
+.size50[
+Therefore, and despite the high hopes attached to it, Resolution 1325 has failed to meaningfully incorporate gender issues into UN peace operations.
+]
+
+???
+
+I know there's a lot going on in the conclusion, but I think this is the bottom line.
+
+EVERYBODY SEE HOW I'M PULLING THIS OUT?
+
+<br>
+
+IS MY SUMMARY MISSING ANY KEY PIECES YOU WANT TO ADD?
+
+
+
+
+---
+
+class: middle, slideblue
+
+.size55[**Puechguirbal's (2010) Argument**]
+
+<br>
+
+.size40[
++ ?
+
++ ?
+
++ ?
+
+Therefore, and despite the high hopes attached to it, Resolution 1325 has failed to meaningfully incorporate gender issues into UN peace operations.
+]
+
+???
+
+Ok, everybody take a few minutes on your own to pull out what you think are the key premises in this argument.
+
+What are the most important pieces we need to identify and examine in order to evaluate this conclusion.
+
+<br>
+
+*Compare and consolidate notes with person next to you*
+
+<br>
+
+*ON BOARD*
+
+Ok, what do we have?
+
+- ?
+- ?
+- ?
+
+
+
+---
+
+background-image: url('libs/Images/13-3-Abstract.png')
+background-size: 90%
+background-position: center
+
+???
+
+SO, BOTTOM LINE, HOW CONVINCED ARE YOU BY THE ARGUMENT?
+
+(Personally speaking, I'm fairly persuaded here)
+
+- Post-conflict scenarios that don't include a serious consideration of the viewpoint of 50+% of the population seem like a terrible idea.
+
+- The obligations language in the resolution itself seems far more aspirational than it does in creating meaningful new rules.
+
+<br>
+
+IS THIS ARGUMENT COMPATIBLE WITH OUR ANALYSIS OF THE OBLIGATIONS IN RESOLUTION 1325?
+
+- IN OTHER WORDS, DOES ACKNOWLEDGING THE WEAKNESS IN THE RESOLUTION CONTRADICT DR. PUECHGUIRBAL? WHY OR WHY NOT?
+
+<br>
+
+I don't think it does at all.
+
+In fact, I think her article would be stronger if it addressed this aspect.
+
+Assuming she is right about the entrenched nature of masculine power dynamics in the UN then "soft" international law will never work.
+
+The harder the obstacles in the organization the greater the need for rules with teeth or this is the only outcome we should expect!
+
+<br>
+
+BASED ON OUR WORK THIS WEEK (OR ACROSS THE SEMESTER), DO WE HAVE ANY SENSE OF WHAT MIGHT ACCOMPLISH THE GOALS DR. PUECHGUIRBAL ARGUES WE NEED TO AIM FOR?
+
+- e.g. MAINTSTREAMING GENDER ISSUES IN PEACEKEEPING
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -53,7 +53,7 @@ Final writing workshop
 
 class: middle, slideblue
 
-.size50[**Final Exam (Due ???)**]
+.size50[**Final Exam (Due May 11, 3pm)**]
 
 .size40[
 Analyze a recent international political event using three of the theories, models or causal mechanisms we've studied in class this term. 

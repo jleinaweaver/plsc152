@@ -730,28 +730,21 @@ WOULD YOU BE WILLING TO SEND THEM MONEY OR SUPPORT THEIR WORK IN OTHER WAYS BASE
 
 ---
 
-class: slidegreen, middle
-
-.size60[**Assignment for Monday**]
-
-.size40[
-Bring to class a current, or recent, international event that explicitly deals with gender issues or that is framed as an issue that impacts the genders differently.
-]
+background-image: url('libs/Images/12-2-feminist_revolution.png')
+background-size: 92%
+background-position: center
 
 ???
 
 Over the next two weeks we'll be exploring some new territory for me.
 
-Next week we explore the interaction of gender and international politics.
+A number of critical theories of international relations are doing some incredibly interesting work and I'd like to start exploring them.
+
+Next week we explore feminist IR which can be oversimplified to mean the interaction of gender and international politics.
+
+Although, as we'll see, it is so much more than that.
 
 The week after we'll do the same with race.
 
 I am not an expert in either subject and am really looking forward to our readings and discussions.
 
-<br>
-
-Assignment for Monday
-
-Submit your evidence to the Google Drive sheet in your email.
-
-Try not to overlap!

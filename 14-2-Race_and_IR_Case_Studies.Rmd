@@ -1,0 +1,129 @@
+---
+output:
+  xaringan::moon_reader:
+    css: ["default", "extra.css"]
+    lib_dir: libs
+    seal: false
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+      ratio: '16:9'
+---
+
+```{r, echo = FALSE, warning = FALSE, message = FALSE}
+##xaringan::inf_mr()
+## For offline work: https://bookdown.org/yihui/rmarkdown/some-tips.html#working-offline
+## Images not appearing? Put images folder inside the libs folder as that is the main data directory
+
+library(tidyverse)
+library(readxl)
+library(stargazer)
+##library(kableExtra)
+##library(modelr)
+
+knitr::opts_chunk$set(echo = FALSE,
+                      eval = TRUE,
+                      error = FALSE,
+                      message = FALSE,
+                      warning = FALSE,
+                      comment = NA)
+```
+
+class: slideblue
+
+.size70[**Today's Agenda**]
+
+.size40[
+Exploring real-world, current events cases to illustrate, extend or challenge the arguments made by Vucetic and Persaud (2018)
+
++ Help us examine the intersection of race and ethnicity with international politics.
+]
+
+<br>
+
+.center[.size40[
+  Justin Leinaweaver (Spring 2022)
+]]
+
+???
+
+## Prep for Class
+
+1. Review cases submitted to Google doc
+
+2. You brought examples too!
+
+How the coronavirus pandemic is fueling ethnic hatred: The economic crisis is pushing megacities’ dominant groups to be less tolerant and more resentful of outsiders
+
+https://www.washingtonpost.com/politics/2020/09/18/megacities-pandemics-economic-crisis-is-fueling-ethnic-hatred/
+
+Bhambra, G., Bouka, Y., Persaud, R., Rutazibwa, O., Thakur, V., Bell, D., Smith, K., Haastrup, T. and Adem, S. (2020, Jul 3). Why Is Mainstream International Relations Blind to Racism? Foreign Policy.
+
+https://foreignpolicy.com/2020/07/03/why-is-mainstream-international-relations-ir-blind-to-racism-colonialism/
+
+<br>
+
+Over the last two weeks we've begun exploring critical theories of international relations.
+
+Last week we explored a feminist lens and this week what is sometimes referred to as a postcolonialist or race-based lens.
+
+Today I want to hear about the real-world cases you each brought to class and see how they help us think about the usefulness of this approach to explaining international politics.
+
+<br>
+
+Let's start by going around the room to introduce your cases.
+
+Briefly tell us what you picked and either why it interests you or why you think it speaks to the arguments from Monday.
+
+
+
+---
+
+background-image: url('libs/Images/14-2-blank-venn-diagram.webp')
+background-size: 100%
+background-position: center
+class: middle
+
+???
+
+Let's compare and contrast the cases
+
+- WHAT CHARACTERIZES OUR CASES?
+
+- WHAT DO WE LEARN FROM THE SIMILARITIES?
+
+- WHAT DO WE LEARN FROM THE DIFFERENCES?
+
+
+
+---
+
+background-image: url('libs/Images/14-2-research_cartoon.jpg')
+background-size: 100%
+background-position: center
+class: middle
+
+???
+
+SO, IF WE COULD GO BACK TO THE START OF THE SEMESTER WOULD YOU PREFER WE HAD ATTACKED THE FIRST 13 WEEKS OF MATERIAL FROM A CRITICAL IR THEORY LENS? WHY OR WHY NOT?
+
+- e.g. post-colonialist or feminist perspectives?
+
+
+
+---
+
+background-image: url('libs/Images/14-3-rwanda_photo.webp')
+background-size: 100%
+background-position: top center
+class: bottom
+
+```{r, out.width='80%', fig.align='center'}
+knitr::include_graphics('libs/Images/14-3-Banality_title.png')
+```
+
+???
+
+On Friday we'll dig into a research article that brings the idea of race as a social construct to bear.
+

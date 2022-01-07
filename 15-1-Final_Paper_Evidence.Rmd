@@ -117,7 +117,7 @@ Alright, we have our cases, now let's talk about the final exam prompt.
 
 class: middle, slideblue
 
-.size50[**Final Exam (Due ???)**]
+.size50[**Final Exam (Due May 11, 3pm)**]
 
 .size40[
 Analyze a recent international political event using three of the theories, models or causal mechanisms we've studied in class this term. 
@@ -132,7 +132,7 @@ Analyze a recent international political event using three of the theories, mode
 
 QUESTIONS ON THE ASSIGNMENT?
 
-- Due by end of final exam window (???)
+- Due by end of final exam window (May 11, 3pm)
 
 - Bibliography
 

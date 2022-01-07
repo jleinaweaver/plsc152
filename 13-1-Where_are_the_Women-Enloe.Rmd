@@ -1,0 +1,293 @@
+---
+output:
+  xaringan::moon_reader:
+    css: ["default", "extra.css"]
+    lib_dir: libs
+    seal: false
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+      ratio: '16:9'
+---
+
+```{r, echo = FALSE, warning = FALSE, message = FALSE}
+##xaringan::inf_mr()
+## For offline work: https://bookdown.org/yihui/rmarkdown/some-tips.html#working-offline
+## Images not appearing? Put images folder inside the libs folder as that is the main data directory
+
+library(tidyverse)
+library(readxl)
+library(stargazer)
+##library(kableExtra)
+##library(modelr)
+
+knitr::opts_chunk$set(echo = FALSE,
+                      eval = TRUE,
+                      error = FALSE,
+                      message = FALSE,
+                      warning = FALSE,
+                      comment = NA)
+```
+
+class: slideblue
+
+.size70[**Today's Agenda**]
+
+<br>
+
+.size55[.center[
+Exploring Critical Theories of IR
+
+Feminist Approaches
+]]
+
+<br>
+<br>
+
+.center[.size40[
+  Justin Leinaweaver (Spring 2022)
+]]
+
+???
+
+## Prep for Class
+1. Prep email with link to Google Doc for collecting citations
+
+???
+
+Over the next two weeks we'll be exploring some new territory for me.
+
+A series of "critical theories" of international relations are doing some incredibly interesting work and I'd like to start exploring them.
+
+This week we'll explore some of the feminist IR literature and next week some of the critical work on race and international politics.
+
+
+
+
+---
+
+background-image: url('libs/Images/13-1-Enloe_Book_Cover.jpg')
+background-size: 38%
+background-position: left
+class: middle, slideblue
+
+.pull-right[.center[
+.size55[
+**For Today**
+
+Chapter 1
+
+"Gender Makes the World Go Round: Where are the women?"
+]]]
+
+???
+
+Today I want us to discuss the first chapter in Cynthia Enloe's book that explores this topic using an academic's lens.
+
+Bananas, Beaches and Bases: Making Feminist Sense of International Politics
+
+<br>
+
+Our aim this semester remains focused on trying to better understand and explain international political events. 
+
+My hope is that we can extract new tools / perspectives / models from the Enloe chapter that will allow us to do this better. 
+
+So, what are the big ideas from the chapter that we need to grapple with if our goal is to better explain international politics?
+
+I have a series of prompts for us to explore together that map on the sections in the chapter.
+
+
+
+---
+
+background-image: url('libs/Images/background-blue_cubes_lighter.png')
+background-size: 100%
+background-position: center
+class: middle, inverse
+
+.center[.size55[How, and in what specific ways, does Feminist IR theory take power more seriously than the other approaches we have studied this term?]]
+
+???
+
+## Chapter Notes
+
+Making feminist sense of international politics takes curiosity and imagination. It requires us to make a serious effort to view the world through the eyes of diverse women in spheres typically considered "private", "domestic", "local" or "trivial" (p3)
+
+Example: Feminist scholars have learned much about the "behind the curtain" workings of foreign policy making by studying and taking seriously the role of the women working as secretaries in foreign affairs ministries. "Devoting attention to women who are government secretaries, for instance, exposes the far-reaching political consequences of feminized loyalty, feminized record -keeping, feminized routine, masculinized status, and masculinized control" (4).
+
+What do we mean by "gendered causes and consequences"? Examples as thought experiment (p6-7): the woman tourist and the chambermaid, the schoolteacher and her students, the film star, her studio owners, the banana company executives, ...
+
+"If one fails to pay close attention to women--all sorts of women--one will miss who wields power and for what ends" (9).
+
+The international political impacts of marriage example is super fascinating (to me at least)
+
+Is it possible feminist IR theory takes power more seriously than any of the other standard models (realism included!)? (p10)
+
+EVERYTHING has been made (e.g. receding glacier, low-cost sweatshirt, heavily weaponized police force, masculinized peace negotiation, the romantic marriage, the all-male Joint Chiefs of Staff) and that means we have to think about: Who made it and how does it sustain or reflect their power?
+
+Where Does Power Operate?
+
+- Feminist gender analysis requires going beyond asking what masculinity and femininity mean to a gendered analysis of power: "What forms does it take? Who wields it? How are some gendered wieldings of power camouflaged so they do not even look like power?" AND "Who gains what from wielding a particular form of gender-infused power? What do challenges to those wieldings of that form of power look like? When do those challenges succeed? When are they stymied?" (8-9)
+
+"Power, taste, attraction, and desire are not mutually exclusive" (9)
+
+- Corporate execs choose certain logos to appeal to consumer stereotypes of femininity, government officials may market their women's alleged beauty or deferential nature to attract tourism revenue, elected legislators may make some sexual attractions legal and others illegal as it suits them.
+
+"Power operates across borders" (9) Example of the power dynamics of marriage as both political and international. 
+
+- Who has the power to confer citizenship on outsiders? Are the laws easier to navigate for men bringing women to their countries than for women bringing men into theirs? What about same-sex marriages? All of this is tied up into transnational immigration flows, the provision of state sponsored benefits, colonial rule, new international norms of human rights, transnational religious evangelizing, etc.
+
+Feminist IR theory's guidance to take seriously women's roles in the world (how did they get where they are and what do they think about it?) forces us to recognize that power operates in way more places / aspects of our lives than we might have realized.
+
+- There are more types of power and wielders of power than we might have assumed (11)
+- Too often incurious commentators deny women agency in their own lives and "attribute women's roles in international affairs to tradition, cultural preferences, and timeless norms... What sacrifices a woman as a mother should make, what priorities a woman as a wife should embrace, what sexualized approaches in public a woman should consider innocent or flattering... in reality, all of these are shaped by the exercise of power by people who believe that their own local and international interests depend on women and girls internalizing these particular feminized expectations."
+- This is why women's movements around the world (for suffrage, political office, career advancement, etc) are so frequently met with such harsh resistance. The current global system is built on the acceptance of these gendered norms and challenges to them threaten those who benefit from the system currently. (12)
+- EVERYTHING has been made (e.g. receding glacier, low-cost sweatshirt, heavily weaponized police force, masculinized peace negotiation, the romantic marriage, the all-male Joint Chiefs of Staff) and that means we have to think about: Who made it and how does it sustain or reflect their power?
+
+
+
+
+---
+
+background-image: url('libs/Images/background-blue_cubes_lighter.png')
+background-size: 100%
+background-position: center
+class: middle, inverse
+
+.center[.size55[Do we observe women's perspectives (and the voices of activist groups focused on gender issues) being taken seriously in the media?]]
+
+???
+
+## Chapter Notes
+
+Who Takes seriously the Ideas of Transnational Feminists? (13-20)
+
+- Large growth in feminist activists organizing into groups BUT not a monolith. Much debate across groups about most important issues / goals, however, much coordination also
+
+- Why do we not hear the names of these groups or their research product on the nightly news? Power sustaining itself on the back of three arguments: 1) They are "special interests" and not general experts (Messed up because: womens' interests equated to any other special interest like a "logging company" or "soccer club"), 2) These groups focused on the power dynamics and important public dimensions of interests / problems that are typically classified as belonging in the private sphere (Messed up because: our public discussions of security, stability, crisis and development are WAY too narrowly defined and seem to omit the experiences of, and issues important to, women), 3) Women's campaigns are viewed as "lost causes" focused naively on changing things that can never be changed, "masculinized privileges and practices" (Messed up because: This is both ahistorical and insane)
+
+- Media is super guilty of illustrating troubling events with images of suffering women but only interviewing "experts" who are men. Major media conglomerates have come to represent a barrier to any story or movement that doesn't meet their definition of "international", "political" and "significant".
+
+- Women have long had to create their own information dissemination channels in order to get their messages out (suffragists in the early 1900s setting up their own pamphlet printing presses)
+
+
+
+---
+
+background-image: url('libs/Images/background-blue_cubes_lighter.png')
+background-size: 100%
+background-position: center
+class: middle, inverse
+
+.center[.size55[What did you think of the brief case studies in the chapter? Persuasive arguments that ignoring women's roles matters? Why or why not?]]
+
+???
+
+**And can we please discuss the role of the Vatican in allying itself with Iran, Syria and North Korea to prevent "gender-based violence" from being a binding criteria! WTF?**
+
+<br>
+
+## Chapter Notes
+
+What We Miss: Two Brief Case Studies (21-)
+
+First Case: The transatlantic antislavery movement
+
+- Why have the massive contributions of women been omitted from the history of this movement?
+1) "...we grossly underestimate how much racialized gendered power it took for proslavery advocates to sustain the slave trade and systems of slave labor for as long as they did." 2) Ignoring the women means underestimating the internal tensions that marked the movement, 3) ignoring the women means missing the roots of the suffrage movement to come.
+- How can we ignore women's roles and power in any course that purports to "make reliable sense of democratization, political mobilization, and international politics?" (22)
+
+Second Case: The international Arms Trade Treaty
+
+- Art 7, para 4 includes "gender-based violence" which is a HUGE accomplishment for women's activists and groups like WILPF, IANSA, Women's Network and Global Action to Prevent War and Armed Conflict
+- Unlike the other governments and groups lobbying to influence the treaty's terms in broader ways, these groups were bringing the research to bear showing the gendered effects of arms and violence. Interviews with women around the world discussing what guns in the home did to the dynamics of their home life, even when they weren't being used to fire a shot were powerful messages.
+- Surprising opposition from the Vatican! It wanted to remove "gender-based violence" and preferred the patriarchal "violence against women and children" as a part of the preamble and not a binding obligation. Their allies were Syria, Iran and North Korea!
+- Women's activists lobbied hard and expertly and ultimately prevailed. Failing to ask, "Where were the women?" would miss this and many other huge elements of the treaty's design and future functioning.
+
+
+
+
+---
+
+background-image: url('libs/Images/background-blue_cubes_lighter.png')
+background-size: 100%
+background-position: center
+class: middle, inverse
+
+.center[.size55[How does the section "Where Are the Men? (28-31)" aim to help us explain international politics?]]
+
+???
+
+## Chapter Notes
+
+In a funny way, we come to better understand politics using a gender lens even when our focus is on the behavior of men!
+
+Where Are the Men? (28-31)
+
+- What does masculinity refer to?
+- Why does referring to the world as "dangerous" after 9/11 matter? Frames men as protectors, women as needing protection. Defines women's role as "in the home" thus making them non-expert in what is happening "out there." 
+- Why did Margaret Thatcher have to be presented as "the toughest man in the room"?
+- Why do some men try to weaken others by feminizing them? "Consequently, rival men are prone to try and tar each other with the allegedly damning brush of femininity." Why should that work?
+
+
+
+
+---
+
+background-image: url('libs/Images/background-blue_cubes_lighter.png')
+background-size: 100%
+background-position: center
+class: middle, inverse
+
+.center[.size55[What is the hugely empowering message of the section "Beyond the Global Victim (32-36)" and how does that impact how we think about international politics?]]
+
+???
+
+## Chapter Notes
+
+Beyond the Global Victim (32-36)
+
+- The "women-need-to-learn-more-about-foreign-affairs" perspective is problematic because it keeps women as objects the world is doing things to, not as thinkers and actors actively shaping the world.
+- Funnily enough, standard treatments of international politics that present things as hopelessly complicated make us all feel disempowered and helpless!
+- We need to "remap the boundaries" of "international" and "political" so that we can see "how one's family dynamics, consumer behaviors, travel choices, relationships with others, and ways of thinking about the world actually help shape that world. We are not just acted upon; we are actors. ... One discovers that one is often complicit in creating the very world that one finds so dismaying." (35)
+
+
+
+
+---
+
+background-image: url('libs/Images/background-swirls.jpg')
+background-size: 100%
+background-position: center
+
+class: middle
+
+.size60[**Assignment for Wednesday**]
+
+.size40[
+Let's find real-world, current events cases to illustrate, extend or challenge the arguments made by Enloe (2014)!
+
++ Look for issues of unexamined power, femininity/masculinity in action, or transnational groups working on gender issues
+]
+
+???
+
+Submit your evidence to the Google Drive sheet in your email.
+
+
+
+<br>
+
+## Chapter Notes
+
+
+
+
+
+
+
+
+
+
+
