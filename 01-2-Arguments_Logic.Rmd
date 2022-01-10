@@ -58,13 +58,13 @@ class: slideblue
 
 <br>
 
-* Opening Discussion *
+*Opening Discussion*
 
-ANYTHING INTERESTING GOING ON IN WORLD POLITICS AT THE MOMENT?
+### Anything interesting going on in world politics at the moment?
 
 <br>
 
-EVERYBODY HAVE THE READINGS FOR TODAY?
+### Everybody have the readings for today?
 
 
 
@@ -80,22 +80,20 @@ Let's start by talking about argument quality.
 
 Bad arguments are everywhere and are common in the political arena.
 
-HOW DO EACH OF YOU JUDGE WHETHER AN ARGUMENT IS "GOOD" OR "BAD"?
-(Ultimately, the judge of an argument's quality is whether or not it convinces people of its thesis.)
+### How do each of you judge whether an argument is "good" or "bad"?
++ (Ultimately, the judge of an argument's quality is whether or not it convinces people of its thesis.)
 
-WHAT IS A THESIS?
-(The central idea of your argument.)
-- The thing you want people to take away from it.
+### What is a thesis?
++ (The central idea of your argument.)
++ The thing you want people to take away from it.
 
 <br>
 
-WHEN WAS THE LAST TIME IN YOUR LIFE SOMEONE CHANGED YOUR MIND ABOUT SOMETHING WITH AN ARGUMENT?
+### When was the last time in your life someone changed your mind about something with an argument?
 
-- EXAMPLES?
+#### - Examples?
 
-- HOW SPECIFICALLY DID THEY DO IT? CERTAIN STRATEGIES EMPLOYED?
-
-* ON BOARD? *
+#### - How specifically did they do it? certain strategies employed?
 
 <br>
 
@@ -116,15 +114,13 @@ class: middle, center
 
 ???
 
-In academic terms, "being convincing" means being logical, clear, credible and critical.
-
 For the important arguments in our lives, concerning the issues we care most about, people demand you put in some serious work to shift their position.
 
 <br>
 
 Let's talk through each of these elements.
 
-This is the rubric I use when grading argument papers in my classes.
+FYI this is the rubric I use when grading argument papers in my classes.
 
 
 
@@ -151,18 +147,21 @@ class: middle
 
 ???
 
-Everybody take a moment to read this.
+The rubric is in the syllabus so you can consult it as you write and revise for this class.
 
-These details are in the syllabus.
-
-Please keep these elements in mind as you write for this class.
+The key is, a convincing academic argument must do ALL FOUR OF THESE THINGS well.
 
 <br>
 
-WHAT QUESTIONS DO YOU HAVE ABOUT THIS RUBRIC?
+### What questions do you have about this rubric?
 
-WHICH ELEMENTS NEED MORE EXPLANATION?
+#### - Which elements need more explanation?
 
+<br>
+
+During the course of the semester we will spend time exploring each of these criteria.
+
+For today our focus is primarily on logic and clarity.
 
 
 
@@ -181,47 +180,89 @@ knitr::include_graphics("libs/Images/01_2-Labossiere-header.png")
 
 <br>
 
-.size60[Conclusion?]
+.size50[
++ Conclusion
+]
 
 ???
-
-During the course of the semester we will spend time exploring each of these criteria.
-
-For today our focus is primarily on logic and clarity.
-
-SLIDE
 
 Open up the Labossiere reading and tell me:
 
-1. WHAT IS A CONCLUSION?
-(This is the claim that is supposed to be supported by the premises.)
+### According to Labossiere (2008), what is a conclusion?
++ (This is the claim that is supposed to be supported by the premises.)
+
+
+
 
 --
 
-.size60[Premises?]
+.size50[
++ Premise
+]
 
 ???
-
-2. WHAT IS A PREMISE?
-(A premise is a claim given as evidence or a reason for accepting the conclusion.)
-
---
-
-.size60[Inductive arguments?]
-
-???
-
-In this class, and throughout the social sciences, we tend to rely on inductive rather than deductive validity as our test of logic.
-
-3. HOW DO I KNOW IF AN INDUCTIVE ARGUMENT IS LOGICAL?
-(If we accept the premises as true then the conclusion is likely to be true.)
-(- By these terms, inductive arguments are either strong or weak.)
 
 <br>
 
-For the rest of today we're going to explore an important question AND practice two skills we will use a TON this semester.
+### What is a premise?
++ (A premise is a claim given as evidence or a reason for accepting the conclusion.)
 
-1. Diagramming arguments and 2. evaluating the strength of their logic
+--
+
+.size50[
++ Inductive argument
+]
+
+???
+
+<br>
+
+In this class, and throughout the social sciences, we tend to rely on inductive rather than deductive validity as our test of logic.
+
+### How do I know if an inductive argument is logical?
++ (If we accept the premises as true then the conclusion is likely to be true.)
++ (By these terms, inductive arguments are either strong or weak.)
+
+<br>
+
+### Questions on the parts of an argument or our test of inductive validity?
+
+We'll spend the rest of today exploring and applying these elements to make sure you're clear on them.
+
+
+
+---
+
+background-image: url('libs/Images/background-slate_v2.png')
+background-size: 100%
+background-position: center
+class: middle, center
+
+```{r, fig.align='center', out.width='95%'}
+knitr::include_graphics("libs/Images/01-2-FP_oped_1.png")
+```
+
+???
+
+Ok, the first argument we need to evaluate was written by Russia's ambassador to the United States.
+
+Let's start by talking motivation.
+
+Now that you've read the piece tell me:
+
+### Why do you think he's publicly publishing this op-ed? 
+
+<br>
+
+### What's the conclusion of his argument?
+#### - What is he trying to convince us to believe?
++ (Therefore, ...)
+
+Tough to disentangle...
+
++ Sub-header: What happens next in Ukraine depends on the West's readiness for dialogue
++ The text reads more like: Therefore, peace and security with Russia requires a stop to Western provocations and threats
+
 
 
 
@@ -238,65 +279,35 @@ knitr::include_graphics("libs/Images/01-2-FP_oped_1.png")
 
 <br>
 
-.size50[Identify the .textblue[**four most important premises**] in this argument.]
+.size50[Identify the .textblue[**three most important premises**] in this argument.]
 
 ???
 
-Let's start with the argument from Mike Hayes in Time Magazine.
+Now, take a few minutes on your own to identify the three most important premises (e.g. reasons for the conclusion) in the article.
 
-* ON 1/2 BOARD *
-
-WHAT'S THE CONCLUSION TO THIS ARGUMENT?
-(Therefore, Biden's withdrawal, no matter how messy, is the right choice)
++ Think about each paragraph in the argument being used to advance a premise
 
 <br>
 
-EVERYBODY TAKE A FEW MINUTES ON YOUR OWN TO IDENTIFY THE KEY PREMISES IN THIS ARTICLE.
-
-One way to think about finding the premises is to look at the structure of the article itself. 
-
-Each paragraph should advance the argument in a useful way.
-
-Describing the aim of the paragraph is one way to identify what the author thinks is important to her argument.
+Compare your list of three premises to the person next to you's list.
 
 <br>
 
-COMPARE ARGUMENT DIAGRAMS WITH THE PERSON NEXT TO YOU.
+Alright, let's get ideas up *ON THE BOARD*
+
+*Call on people, chance to learn names*
+
++ ?
 
 <br>
 
-TIME FOR PREMISES!
+### Let's tighten this up, any premises we can combine? Any we should remove?
 
-* Call on people, chance to learn names *
+### Are we happy with this diagram of the argument? Have we covered the main points?
 
-(- Wars always require some political settlement to end them)
-(- Combat in Afghanistan has been going on for a long time at significant cost)
-(- HUGE investment means the Afghan military is far more capable than when we got there and the region is less threatening to the Afghan government)
-(- Huge opportunity costs to remaining, we need our flexibility and prep time for the newer and bigger threats.)
-(- Keeping even a small force in Afghanistan is way more costly than you'd think)
-(- We must fight against the sunk costs fallacy)
-(- The Afghan government won't do what is necessary as long as we are there running things)
-(- The Taliban is not a regional threat)
-(- We face serious transnational threats elsewhere)
+### If these are the most important premises, are we convinced we got the conclusion right?
 
-<br>
-
-LET'S TIGHTEN THIS UP, ANY PREMISES WE CAN COMBINE? ANY WE SHOULD REMOVE?
-
-ARE WE HAPPY WITH THIS DIAGRAM OF THE ARGUMENT?
-- HAVE WE COVERED THE MAIN POINTS?
-
-ARE WE CONVINCED WE GOT THE CONCLUSION RIGHT?
-
-<br>
-
-Time to analyze the logic!
-- BY THE TERMS OF INDUCTIVE REASONING, IS THIS A STRONG OR WEAK ARGUMENT?
-- MAKE YOUR CASE!
-
-Remember, this is different from asking if it is convincing.
-- Not about evidence, just logic!
-
+### By the terms of inductive reasoning, is this a strong or weak argument?
 
 
 
@@ -313,56 +324,69 @@ knitr::include_graphics("libs/Images/01-2-FP_oped_2.png")
 
 <br>
 
-.size50[Identify the .textblue[**four most important premises**] in this argument.]
+.size50[What is the .textblue[**conclusion**] in this argument?]
 
 ???
 
-Let's repeat this exercise on The Washington Post opinion argument by Max Boot.
+Ok, switch articles.
 
-* ON 1/2 BOARD *
+Eugene Chausovsky is a global security consultant. 
 
-WHAT'S THE CONCLUSION TO THE ARGUMENT?
-(Therefore, Pres Biden must rapidly send US forces back into Afghanistan)
+### What is the conclusion to this argument?
+#### - What is he trying to convince us to believe?
++ (Therefore, Russia is unlikely to launch a large-scale invasion of Ukraine.)
 
-EVERYBODY TAKE 5 MINUTES ON YOUR OWN TO DIAGRAM THE REST OF THE ARGUMENT.
 
-<br>
+---
 
-COMPARE ARGUMENT DIAGRAMS WITH THE PERSON BESIDE YOU.
+background-image: url('libs/Images/background-slate_v2.png')
+background-size: 100%
+background-position: center
+class: middle, center
 
-<br>
-
-* On 1/2 the board *
-
-TIME FOR PREMISES!
-* Call on people, chance to learn names *
-
-(- The situation in Afghanistan is bad and getting worse)
-(- Taliban targeting government officials)
-(- Civilian casualties on the rise, refugee numbers increasing)
-(- Biden administration making delusional arguments to do nothing)
-(- Taliban doesn't care about international legitimacy or making peace with neighbors)
-(- Taliban not even respecting the terrible deal negotiated by Trump's team)
-(- Afghan forces cannot stand on their own.)
+```{r, fig.align='center', out.width='95%'}
+knitr::include_graphics("libs/Images/01-2-FP_oped_2.png")
+```
 
 <br>
 
-LET'S TIGHTEN THIS UP, ANY PREMISES WE CAN COMBINE? ANY WE SHOULD REMOVE?
+.size50[Identify the .textblue[**three most important premises**] in this argument.]
 
-ARE WE HAPPY WITH THIS DIAGRAM OF THE ARGUMENT?
-- HAVE WE COVERED THE MAIN POINTS?
+???
 
-ARE WE CONVINCED WE GOT THE CONCLUSION RIGHT?
-
-<br>
-
-Time to analyze the logic!
-- BY THE TERMS OF INDUCTIVE REASONING, IS THIS A STRONG OR WEAK ARGUMENT?
-- MAKE YOUR CASE!
+Now, take a few minutes on your own to identify the three most important premises (e.g. reasons for the conclusion) in the article.
 
 <br>
 
-ON BALANCE, WHICH ARGUMENT DO YOU FIND MORE CONVINCING? WHY?
+Compare your list of three premises to the person next to you's list.
+
+<br>
+
+Alright, let's get ideas up *ON THE BOARD*
+
++ ?
+
+<br>
+
+### Are we happy with this diagram of the argument? Have we covered the main points?
+
+### If these are the most important premises, are we convinced we got the conclusion right?
+
+### By the terms of inductive reasoning, is this a strong or weak argument?
+
+
+
+---
+
+background-image: url('libs/Images/01-2-russian_forces_ukraine_border.webp')
+background-size: 86%
+background-position: center
+
+???
+
+### If you were being asked to give advice to President Biden, how would you tell him to handle the threat of Russian forces amassing on Ukraine's border?
+
+*Discuss*
 
 
 
