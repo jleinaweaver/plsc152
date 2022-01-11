@@ -196,7 +196,7 @@ d |> ggplot(aes(x = x, y = y)) +
 
 Both players ante up 1 "penny" into the pot, and draw four cards from their deck.
 
-** covid: ** So, on your piece of paper subtract one from your total at the start of the game.
+**covid:** So, on your piece of paper subtract one from your total at the start of the game.
 
 
 ---
@@ -225,7 +225,7 @@ d |> ggplot(aes(x = x, y = y)) +
 
 - If P1 demands the pot (war), P2 gets a choice...
 
-MAKE SENSE?
+### Make sense?
 
 
 
@@ -260,7 +260,7 @@ d |> ggplot(aes(x = x, y = y)) +
 
 - If P2 resists, you go to war!
 
-MAKE SENSE?
+### Make sense?
 
 
 
@@ -296,19 +296,19 @@ Both players declare war
 
 Cost of war: One penny is lost in the fighting.
 
-** covid: ** So, on your piece of paper subtract one from your total.
+**covid:** So, on your piece of paper subtract one from your total.
 
 You have to pay for the tanks and losses to your economy!
 
 Show your cards, stronger side wins
 
-MAKE SENSE?
+### Make sense?
 
 <br>
 
 Each round you'll alternate being P1 and we'll play five rounds.
 
-ANY QUESTION ON HOW THE GAME WORKS?
+### Any question on how the game works?
 
 <br>
 
@@ -322,17 +322,17 @@ Ok, both of you ante up one penny so you are down to 9 total.
 
 Now draw three cards.
 
-* You pick P1 *
+*You pick P1*
 
 Ok, P1 what do you want to do?
 
-* Push them to war so we can see it all the way through *
+*Push them to war so we can see it all the way through*
 
-* Play it out *
+*Play it out*
 
 <br>
 
-EVERYBODY CLEAR ON HOW TO PLAY THE GAME?
+### Everybody clear on how to play the game?
 
 
 
@@ -359,17 +359,17 @@ class: slideorange, middle
 
 Alternate who is P1 each round and keep score.
 
-* COVID * To maintain social distancing, please also use the hallway.
+*COVID* To maintain social distancing, please also use the hallway.
 
 <br>
 
 Ok, play the game.
 
-* Back to our seats! *
+*Back to our seats!*
 
 Each pair tell us your final score and how many wars you fought.
 
-* YOU RECORD ON NOTES, not the board yet: sum of all wars in class that round
+*YOU RECORD ON NOTES, not the board yet: sum of all wars in class that round
 
 <br>
 
@@ -400,17 +400,17 @@ Change partners and get ready to play again.
 
 THIS TIME, Keep ONE card face up each round.
 
-EVERYBODY CLEAR ON THE RULE CHANGE?
+### Everybody clear on the rule change?
 
 Start of game: Pay the ante, draw your cards and reveal one of them to your opponent.
 
 Go!
 
-* Back to our seats! *
+*Back to our seats!*
 
 Each pair tell us your final score and how many wars you fought.
 
-* YOU RECORD ON NOTES, not the board yet: sum of all wars in class that round 
+*YOU RECORD ON NOTES, not the board yet: sum of all wars in class that round 
 
 
 
@@ -434,7 +434,7 @@ class: slideorange, middle
 
 Do it again BUT this time you have to keep TWO of your cards face up the whole time.
 
-EVERYBODY CLEAR ON THE RULE CHANGE?
+### Everybody clear on the rule change?
 
 Go!
 
@@ -466,7 +466,7 @@ class: slideorange, middle
 
 Last time, BUT now you have to keep ALL of your cards face up the whole time.
 
-EVERYBODY CLEAR ON THE RULE CHANGE?
+### Everybody clear on the rule change?
 
 Go!
 
@@ -495,23 +495,19 @@ background-position: bottom
 
 Alright, let's talk about what just happened.
 
-WHAT DO WE LEARN FROM THIS SIMULATION?
+### What do we learn from this simulation?
 
 
-TALK TO ME ABOUT HOW YOU PLAYED.
-- WHY DID YOU PLAY THE WAY YOU DID?
+### Talk to me about how you played.
+#### - Why did you play the way you did?
 
+### Anybody try bluffing? Why or why not?
 
-ANYBODY TRY BLUFFING? WHY OR WHY NOT?
+### Did anybody go to war with a weak hand? Why?
 
+### In what ways is this a useful model of war?
 
-DID ANYBODY GO TO WAR WITH A WEAK HAND? WHY?
-
-
-IN WHAT WAYS IS THIS A USEFUL MODEL OF WAR?
-
-
-IN WHAT WAYS DO YOU THINK IT IS A PROBLEMATIC MODEL OF WAR?
+### In what ways do you think it is a problematic model of war?
 
 
 

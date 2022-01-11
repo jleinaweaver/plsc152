@@ -59,11 +59,11 @@ What is our first assumption?
 
 * Opening Discussion *
 
-ANYTHING INTERESTING GOING ON IN WORLD POLITICS AT THE MOMENT?
+### Anything interesting going on in world politics at the moment?
 
 <br>
 
-EVERYBODY HAVE THE READINGS FOR TODAY?
+### Everybody have the readings for today?
 
 
 
@@ -241,7 +241,7 @@ Real-world: Hitler’s pursuit of lebensraum (living space) involved invading hi
 
 Characteristics of international system drive international events.
 
-WHAT DOES WALTZ MEAN WHEN HE WRITES THAT “IN ANARCHY THERE IS NO AUTOMATIC HARMONY”?
+### What does waltz mean when he writes that “in anarchy there is no automatic harmony”?
 
 (The absence of a world police force to protect you means each state is entirely its own boss.)
 
@@ -353,17 +353,17 @@ knitr::include_graphics("libs/Images/02_3-globe-blocks.jpg")
 
 ???
 
-COMPARE AND CONTRAST PLANS
+### Compare and contrast plans
 
-- WHICH HAVE THE BEST SHOT OF WORKING? WHY?
+#### - Which have the best shot of working? Why?
 
-- WHICH HAVE THE LEAST CHANCE OF WORKING? WHY?
+#### - Which have the least chance of working? Why?
 
-- IS ONE IMAGE CLEARLY BETTER THAN THE OTHERS? WHY OR WHY NOT?
+#### - Is one image clearly better than the others? Why or why not?
 
 <br>
 
-OUT OF CURIOSITY, COULD WE CONSTRUCT A SINGLE THEORY OF WAR THAT USES ALL THREE IMAGES?
+### Out of curiosity, could we construct a single theory of war that uses all three images?
 
 We can’t blend them because they are fundamentally incompatible.
 
@@ -373,7 +373,7 @@ Either international events are driven by human behavior or by the state or by t
 
 Can’t be all three at once and still be a logically coherent argument.
 
-MAKE SENSE?
+### Make sense?
 
 
 

@@ -59,11 +59,11 @@ Explore the tactic of bluffing in international politics.
 
 * Opening Discussion *
 
-ANYTHING INTERESTING GOING ON IN WORLD POLITICS AT THE MOMENT?
+### Anything interesting going on in world politics at the moment?
 
 <br>
 
-EVERYBODY HAVE THE READINGS FOR TODAY?
+### Everybody have the readings for today?
 
 
 
@@ -88,16 +88,16 @@ class: middle, slidegreen
 
 For today I asked you to come to class ready to make an argument about bluffing in international politics.
 
-FIRST, CAN WE DEFINE THE CONCEPT?
-- ACCORDING TO THESE READINGS, WHAT IS BLUFFING IN FOREIGN POLICY?
+### First, can we define the concept?
+#### - According to these readings, what is bluffing in foreign policy?
 
 (* ON BOARD *)
 
 <br>
 
-HOW EASY OR DIFFICULT IS IT TO IDENTIFY BLUFFING IN FOREIGN POLICY? WHY?
+### How easy or difficult is it to identify bluffing in foreign policy? Why?
 
-- HOW CAN WE DISTINGUISH IT FROM CHANGING YOUR MIND OR CHANGING CIRCUMSTANCES?
+#### - How can we distinguish it from changing your mind or changing circumstances?
 
 
 
@@ -127,21 +127,21 @@ Let's now map out the pros and cons of bluffing as a tactic in international pol
 
 SLIDE
 
-* ON BOARD *
+*ON BOARD*
 
 On one side, list the characteristics of a situation where bluffing is a smart tactic.
 
 On the other, list the characteristics of a situation where bluffing is a bad tactic.
 
-* Build lists as a group *
+*Build lists as a group*
 
 <br>
 
 Before we shift our focus more fully to current events I want to introduce one other set of ideas that tie nicely into the bargaining model.
 
-WHEN I SAY THE WORD "DIPLOMACY," WHAT DO YOU THINK OF?
+### When i say the word "diplomacy," what do you think of?
 
-- WHAT DOES IT MEAN TO BEHAVE "DIPLOMATICALLY"?
+#### - What does it mean to behave "diplomatically"?
 
 (SLIDE)
 
@@ -210,7 +210,7 @@ It's about getting some BUT NOT ALL of what you want in order to avoid the stuff
 
 This means that Schelling defines bargaining as a process in which BOTH sides lose something.
 
-DO WE THINK THAT'S A PROBLEMATIC WAY TO DEFINE BARGAINING? WHY OR WHY NOT?
+### Do we think that's a problematic way to define bargaining? Why or why not?
 
 <br>
 
@@ -241,11 +241,11 @@ Your aim should be coercion
 - The threat of damage that makes others comply with your demands.
 - It is the threat of violence or pain that changes behavior.
 
-EVERYBODY CLEAR ON THE DISTINCTION AND WHY THREAT IS A MORE POWERFUL TOOL?
+### Everybody clear on the distinction and why threat is a more powerful tool?
 
 <br>
 
-IN THESE TERMS, HOW DO WE GAIN THE UPPER HAND IN A BARGAIN?
+### In these terms, how do we gain the upper hand in a bargain?
 
 (SLIDE)
 
@@ -297,9 +297,9 @@ The winner is the one most able to threaten "hurt" on the other and most willing
 
 <br>
 
-WHAT ARE THE STRENGTHS AND WEAKNESSES OF THIS APPROACH TO UNDERSTANDING DIPLOMACY?
+### What are the strengths and weaknesses of this approach to understanding diplomacy?
 
-IS THIS A USEFUL WAY TO THINK ABOUT WAR? WHY OR WHY NOT?
+### Is this a useful way to think about war? Why or why not?
 
 - Too cynical?
 - Assumes actual violence underpins every negotiation?
@@ -314,14 +314,15 @@ background-position: center
 
 ???
 
-HOW DOES SCHELLING'S WORK ON DIPLOMACY HELP US THINK ABOUT FEARON'S BARGAINING GAME?
-- WHAT IS SCHELLING TRYING TO HELP US THINK ABOUT?
+### How does Schelling's work on diplomacy help us think about Fearon's bargaining game?
+
+#### - WHAT IS SCHELLING TRYING TO HELP US THINK ABOUT?
 
 (Schelling wants us to think about how states can try to shift the win-set of their opponent.)
 
 - Threats of violence, targeted smartly, have the capability to move the bargaining process in your favor!
 
-DOES THAT MAKE SENSE?
+### Does that make sense?
 
 
 ---
@@ -332,13 +333,13 @@ background-position: center
 
 ???
 
-GIVEN ALL OF THIS, WHERE DO WE STAND ON PRESIDENT TRUMP'S USE OF THREATS AND BLUFFING TO ACHIEVE WHAT HE WANTS FROM INTERNATIONAL POLITICS?
+### Given all of this, where do we stand on President Trump's use of threats and bluffing to achieve what he wants from international politics?
 
 
-- ARE WE CONVINCED TRUMP USED BLUFFING AS A TACTIC? WHY OR WHY NOT? 
+#### - Are we convinced trump used bluffing as a tactic? Why or why not? 
 
 
-- WOULD YOU SAY TRUMP WAS GOOD AT BLUFFING? WHY OR WHY NOT?
+#### - Would you say Trump was good at bluffing? Why or why not?
 
 
 
@@ -350,7 +351,7 @@ background-position: center
 
 ???
 
-IN WHAT WAYS DO WE THINK TRUMP'S BLUFFING IMPACTS THE WORLD THAT JOE BIDEN MUST NOW NAVIGATE? 
+### In what ways do we think Trump's bluffing impacts the world that Joe Biden must now navigate? 
 
 
 

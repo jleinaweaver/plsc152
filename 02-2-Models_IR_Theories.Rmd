@@ -59,11 +59,11 @@ class: slideblue
 
 * Opening Discussion *
 
-ANYTHING INTERESTING GOING ON IN WORLD POLITICS AT THE MOMENT?
+### Anything interesting going on in world politics at the moment?
 
 <br>
 
-EVERYBODY HAVE THE READINGS FOR TODAY?
+### Everybody have the readings for today?
 
 <br>
 
@@ -71,7 +71,7 @@ For today I gave you a chapter from an IR textbook that introduced you to the bi
 
 My hope is that this chapter gives you a sense of the scope of international relations and gives us a good path into using theories and models in IR.
 
-LET'S START WITH THIS, HOW DOES THE DEFINITION OF "THEORY" IN THIS CHAPTER COMPARE TO THE DEFINITION FROM HOOVER AND DONOVAN WE DISCUSSED ON MONDAY?
+### Let's start with this, how does the definition of "theory" in this chapter compare to the definition from Hoover and Donovan we discussed on Monday?
 
 
 
@@ -95,9 +95,9 @@ class: middle, slideblue
 
 ???
 
-WHAT THEORIES DOES THIS CHAPTER INTRODUCE?
+### What theories does this chapter introduce?
 
-ANY OF THE NAMES STICK WITH YOU?
+### Any of the names stick with you?
 
 
 
@@ -155,12 +155,12 @@ class: center
 
 ???
 
-ANYBODY RECOGNIZE WHAT'S IN THIS PHOTO?
+### Anybody recognize what's in this photo?
 (Drury's campus!)
 
-HOW COULD I USE THIS PHOTO TO FIND MY WAY FROM BURNHAM HALL TO SUNDERLAND?
+### How could i use this photo to find my way from Burnham Hall to Sunderland?
 
-IS THERE A TOOL, PERHAPS, BETTER SUITED TO THIS QUESTION?
+### Is there a tool, perhaps, better suited to this question?
 
 (SLIDE)
 
@@ -178,11 +178,11 @@ A map!
 
 I'm assuming all of you have some experience using this map.
 
-HAS IT BEEN USEFUL?
+### Has it been useful?
 
-WHAT DOES IT DO WELL?
+### What does it do well?
 
-WHAT DOES IT NOT DO WELL?
+### What does it not do well?
 
 <br>
 
@@ -220,7 +220,7 @@ Your map must do two things:
 2. Rank them from most to least important.
 - Make clear how those places rank against each other (most to least important).
 
-WHAT QUESTIONS DO YOU HAVE ABOUT THE ASSIGNMENT?
+### What questions do you have about the assignment?
 
 <br>
 
@@ -238,7 +238,7 @@ Go!
 
 <br>
 
-NOW, WHICH MAP IS THE BEST ONE? WHY?
+### Now, which map is the best one? why?
 
 <br>
 
@@ -246,9 +246,9 @@ A trick question, right?
 
 Let's take a step back and just try to define the concept.
 
-BASED ON THESE EXAMPLES, CAN SOMEONE DEFINE A MAP FOR US?
+### Based on these examples, can someone define a map for us?
 
-- ASSUMING THESE ARE ALL EXAMPLES OF THE CONCEPT, WHAT DO THEY HAVE IN COMMON?
+#### - Assuming these are all examples of the concept, what do they have in common?
 
 * ON BOARD *
 
@@ -318,7 +318,7 @@ If you tried to use the T map to navigate by foot or car you would get incredibl
 
 <br>
 
-SO, WHICH IS THE MORE ACCURATE MAP? WHY?
+### So, which is the more accurate map? Why?
 
 * DISCUSS *
 
@@ -408,15 +408,15 @@ So, keep in mind:
 
 <br>
 
-DOES THIS LIST FIT FOR ALL THE MAPS YOU'VE USED IN YOUR LIFE?
+### Does this list fit for all the maps you've used in your life?
 
 <br>
 
-ARE ALL OF THESE THINGS TRUE FOR THE MAPS WE'VE MADE IN CLASS TODAY?
+### Are all of these things true for the maps we've made in class today?
 
 <br>
 
-SO, IF I ASK, WHICH OF THE MAPS YOU MADE IN CLASS IS "BEST" WHAT WOULD YOU SAY?
+### So, if i ask, which of the maps you made in class is "best" what would you say?
 
 (It depends!)
 
@@ -481,7 +481,7 @@ class: center
 
 ???
 
-ANYBODY RECOGNIZE THIS MODEL? WHAT IS IT?
+### Anybody recognize this model? what is it?
 
 (Testing designs for airplane wings using an airfoil model)
 
@@ -489,9 +489,9 @@ Airfoil: a structure with curved surfaces designed to give the most favorable ra
 
 <br>
 
-WHO HERE HAS FLOWN ON AN AIRPLANE?
+### Who here has flown on an airplane?
 
-DO YOU LIKE FLYING?
+### Do you like flying?
 
 Aerospace engineers test plane designs using a model that includes the assumption that air is a continuum.
 
@@ -499,7 +499,7 @@ Represented here by long, straight lines.
 
 <br>
 
-ANYBODY KNOW WHAT IS WRONG WITH THIS ASSUMPTION?
+### Anybody know what is wrong with this assumption?
 
 ---
 
@@ -535,7 +535,7 @@ This model allows for the MUCH easier design of new airplanes.
 
 In other words, sometimes air behaves like a continuum and that sometimes is what flying a plane is like.
 
-DOES THAT MAKE SENSE?
+### Does that make sense?
 
 The "model" is absolutely wrong, but useful!
 
@@ -572,7 +572,7 @@ The goal of the wind tunnel is to accurately predict flight NOT to precisely rep
 
 The theory of the wind tunnel is inaccurate but very useful SO LONG AS THE ASSUMPTIONS ARE MET.
 
-DOES THAT MAKE SENSE?
+### Does that make sense?
 
 
 ---
@@ -612,7 +612,7 @@ class: middle, slideblue
 
 Ok, so for today you got a crash course in three broad approaches to modeling or theorizing about international politics.
 
-WHICH OF THE THEORIES IN THE CHAPTER IS THE RIGHT ONE?
+### Which of the theories in the chapter is the right one?
 
 (Trick question, right?)
 
@@ -622,7 +622,7 @@ WHICH OF THE THEORIES IN THE CHAPTER IS THE RIGHT ONE?
 
 Let's briefly just talk about each of these as models (e.g. as maps).
 
-HOW IS REALISM LIKE A MAP FOR INTERNATIONAL POLITICS?
+### How is realism like a map for international politics?
 
 
 
@@ -634,17 +634,17 @@ class: center
 
 ???
 
-- WHAT DOES IT TELL ME TO FOCUS ON WHEN EXPLAINING THE WORLD?
+#### - What does it tell me to focus on when explaining the world?
 
-- WHAT DOES IT EXCLUDE?
+#### - What does it exclude?
 
-- WHAT ARE THE KEY ASSUMPTIONS THAT MAKE IT USEFUL?
+#### - What are the key assumptions that make it useful?
 
-- WHAT WOULD THIS MAP BE REALLY UNHELPFUL TO EXPLAIN?
+#### - What would this map be really unhelpful to explain?
 
 <br>
 
-CAN ANYBODY GIVE US A BIT OF CURRENT EVENTS THAT THE REALISM MAP WOULD BE USEFUL FOR EXPLAINING?
+### Can anybody give us a bit of current events that the realism map would be useful for explaining?
 
 <br>
 
@@ -656,7 +656,7 @@ CAN ANYBODY GIVE US A BIT OF CURRENT EVENTS THAT THE REALISM MAP WOULD BE USEFUL
 
 <br>
 
-HOW IS LIBERALISM LIKE A MAP FOR INTERNATIONAL POLITICS?
+### How is Liberalism like a map for international politics?
 
 
 ---
@@ -667,17 +667,17 @@ class: center
 
 ???
 
-- WHAT DOES IT TELL ME TO FOCUS ON WHEN EXPLAINING THE WORLD?
+#### - What does it tell me to focus on when explaining the world?
 
-- WHAT DOES IT EXCLUDE?
+#### - What does it exclude?
 
-- WHAT ARE THE KEY ASSUMPTIONS THAT MAKE IT USEFUL?
+#### - What are the key assumptions that make it useful?
 
-- WHAT WOULD THIS MAP BE REALLY UNHELPFUL TO EXPLAIN?
+#### - What would this map be really unhelpful to explain?
 
 <br>
 
-AND HOW WOULD LIBERALISM TRY TO EXPLAIN THAT SAME CURRENT EVENT?
+### And how would liberalism try to explain that same current event?
 
 ## If needed ##
 - Weakness of international institutions?
@@ -689,9 +689,9 @@ Now, as I've said, scientific models are like maps.
 
 But maps can be compared and we can prefer some maps to others.
 
-SO, HOW DO WE PICK BETWEEN COMPETING MODELS IF BOTH ARE AT LEAST SOMEWHAT WRONG?
+### So, how do we pick between competing models if both are at least somewhat wrong?
 
-- ANY IDEAS?
+#### - Any ideas?
 
 
 ---
@@ -708,7 +708,7 @@ class: slidegreen, middle
 
 ???
 
-REMIND ME, WHAT IS OUR TEST OF LOGIC IN HERE?
+### Remind me, what is our test of logic in here?
 (Inductive arguments evaluated by strength of the argument.
 ("A strong argument is such that if the premises were true, then the conclusion is likely to be true.")
 ("A weak argument is such that if the premises were true, then the conclusion is not likely to be true.")
@@ -725,7 +725,7 @@ Each theory makes assumptions (e.g. our premises) and we expect that those assum
 
 ???
 
-HOW DO WE TEST THIS ONE?
+### How do we test this one?
 (Examine the world! Find some evidence!)
 
 --
@@ -747,8 +747,8 @@ It is way more powerful!
 
 ???
 
-HAS ANYBODY EVER HEARD OF OCCAM'S RAZOR?
-- WHAT IS IT?
+### Has anybody ever heard of Occam's Razor?
+#### - What is it?
 
 (Technically: "entities should not be multiplied without necessity.")
 - More popularly: "the simplest explanation is most likely the right one".
@@ -778,4 +778,4 @@ The big lesson for today is about the nature of theories and models.
 
 - How do we evaluate them?
 
-ANY QUESTIONS ON THIS?
+### Any questions on this?

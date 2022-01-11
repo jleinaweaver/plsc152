@@ -100,7 +100,7 @@ Just like last time we have three basic rules:
 
 <br>
 
-* split the class in half *
+*split the class in half*
 
 Stand up and move to the opposite sides of the room.
 
@@ -122,7 +122,7 @@ Each group is a democratic country with a soon to be elected leader.
 
 Each round of the game is a negotiation between the two leaders with a goal of bringing points back to their groups.
 
-MAKE SENSE SO FAR?
+### Make sense so far?
 
 
 
@@ -159,11 +159,11 @@ tibble(
 
 Here you can see I've updated the outcomes table since the last time we played.
 
-EVERYBODY STILL CLEAR ON HOW TO READ THIS GAME BOARD?
+### Everybody still clear on how to read this game board?
 
 The table shows four possible outcomes for each round based on the choice made by each group.
 
-ANY QUESTIONS ON THE GAME BOARD?
+### Any questions on the game board?
 
 <br>
 
@@ -212,7 +212,7 @@ Receives a personal benefit for being the leader.
 
 + Every two rounds you survive as leader you will receive +3 points all for you (cannot be redistributed)
 
-ANY QUESTIONS ON THE POWERS OF THE LEADER?
+### Any questions on the powers of the leader?
 
 It's good to be the king.
 
@@ -234,7 +234,7 @@ Your first job will be to elect a leader using a simple majority rule (50% + 1).
 
 And because you are a democracy, you may replace the leader by a simple vote at any point during the game.
 
-ANY QUESTIONS ON THIS?
+### Any questions on this?
 
 
 ---
@@ -268,7 +268,7 @@ tibble(
 
 ???
 
-ANY QUESTIONS BEFORE WE START PLAYING?
+### Any questions before we start playing?
 
 Ok, group A to 307, group B to 313 down the hall.
 

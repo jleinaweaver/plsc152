@@ -56,20 +56,20 @@ Explore the power of norms to shape international politics
 
 <br>
 
-* Opening Discussion *
+*Opening Discussion*
 
-ANYTHING INTERESTING GOING ON IN WORLD POLITICS AT THE MOMENT?
-
-<br>
-
-EVERYBODY HAVE THE READINGS FOR TODAY?
+### Anything interesting going on in world politics at the moment?
 
 <br>
 
-On Monday we discussed Hopf’s take on constructivism.
+### Everybody have the readings for today?
 
-AS A CONSTRUCTIVIST, HOW WOULD YOU SELL YOUR THEORY TO PEOPLE WHO JUST WANTED TO UNDERSTAND HOW INTERNATIONAL POLITICS WORKS?
-]
+<br>
+
+On Monday we discussed Hopf’s take on Constructivism.
+
+### As a Constructivist, how would you sell your theory to people who just wanted to understand how international politics works?
+
 
 
 ---
@@ -94,15 +94,14 @@ class: slideblue, middle
 
 ???
 
-.size20[
 Think about the elements we explored on Monday.
 
-WHAT STRENGTHS WOULD YOU EMPHASIZE AND HOW WOULD YOU KEEP IT SIMPLE?
+### What strengths would you emphasize and how would you keep it simple?
 
 <br>
 
-COULD YOU USE A REAL-WORLD EXAMPLE TO DRIVE HOME THE BENEFIT OF THE APPROACH? WHY?
-]
+### Could you use a real-world example to drive home the benefit of the approach? Why?
+
 
 
 ---
@@ -113,25 +112,23 @@ class: center
 
 ???
 
-.size20[
 My approach would be to tell them that Constructivism offers the most direct guidance for how YOU can change the world.
 
-There is no fixed meaning to anything.
++ There is no fixed meaning to anything.
 
-Your actions shape the world and personal identities.
++ Your actions shape the world and personal identities.
 
-Change is a constant and you can use that!
++ Change is a constant and you can use that!
 
-Thinking like a constructivist encourages individuals to claim power over the world they live in.
++ Thinking like a Constructivist encourages individuals to claim power over the world they live in.
 
-MAKE SENSE?
+### Make sense?
 
 <br>
 
 Finnemore and Sikkink want to help us deepen our understanding of how constructivists think about the rules of the game.
 
-ACCORDING TO THESE AUTHORS, WHAT IS THE DIFFERENCE BETWEEN A NORM AND AN INSTITUTION?
-]
+### According to these authors, what is the difference between a norm and an institution?
 
 
 ---
@@ -142,11 +139,12 @@ class: center
 
 ???
 
-.size30[
-A norm is "...a standard of appropriate behavior for actors with a given identity" (p108).
+**A norm** is "...a standard of appropriate behavior for actors with a given identity" (p108).
 
-A sociological view of institutions is that they aggregate many rules and practices.
-]
+<br>
+
+A sociological view of **institutions** is that they aggregate many rules and practices.
+
 
 ---
 
@@ -158,29 +156,32 @@ class: center
 
 This is a rough example, but bear with me here for a sec.
 
-FOR EXAMPLE, WAS SLAVERY IN EARLY AMERICA AN INSTITUTION OR A NORM? WHY?
+### For example, was slavery in early america an institution or a norm? Why?
 
 (Slavery was an institution.)
 
 Within the institution of slavery there were many, many "rules."
+
 - Who can be thought of as property and who cannot?
 - How slaves were to be valued and sold.
 - How slaves could be controlled or treated.
 
 <br>
 
-FIRST, DO WE UNDERSTAND THE CONCEPTUAL DISTINCTION HERE BETWEEN A NORM AND AN INSTITUTION ACCORDING TO CONSTRUCTIVISTS?
+### First, do we understand the conceptual distinction here between a norm and an institution according to Constructivists?
 
 <br>
 
-OK THEN, WHAT IS THE BENEFIT OF MAKING THIS DISTINCTION? HOW DOES THIS DISTINCTION HELP US?
+### Ok then, what is the benefit of making this distinction? how does this distinction help us?
 
 For the most part we live in a world of institutions.
+
 - And some, like slavery, are incredibly objectionable.
 
 The problem is that challenging institutions is REALLY, REALLY hard.
 
 HOWEVER, individual norms can be challenged much more easily.
+
 - Still hard, but doable.
 
 And if you alter enough of the underlying norms, the institution changes (or disappears).
@@ -214,12 +215,12 @@ class: center
 
 ???
 
-WHAT ARE SOME OF THE NORMS EXPECTED OF PEOPLE LIVING IN THE US?
+### What are some of the norms expected of people living in the US?
 
-(We get mad if you cut in line e.g. at an atm)
-(If you bump into someone as you pass by we expect you to say "excuse me")
-(We like our personal space when it comes to strangers)
-(Tipping at restaurants)
++ (We get mad if you cut in line e.g. at an atm)
++ (If you bump into someone as you pass by we expect you to say "excuse me")
++ (We like our personal space when it comes to strangers)
++ (Tipping at restaurants)
 
 
 
@@ -234,11 +235,13 @@ class: center
 I went to FSU for my undergrad.
 
 At football games, if you were in the student section there were important norms to follow:
+
 1. Everyone stands the entire game!
 2. You must do the "chop"
 3. You must sing the fight song after we score.
 
 Rules not written down, but powerfully effect all students' behavior.
+
 - Want to belong to the group!
 
 
@@ -250,17 +253,17 @@ class: center
 
 ???
 
-ARE THERE ANY "NORMS" RELATED TO BEING A DRURY STUDENT?
+### Are there any "norms" related to being a Drury student?
 
 <br>
 <br>
 
 Constructivists want us to organize our thinking about norms by their type.
 
-WHAT IS THE DIFFERENCE BETWEEN A REGULATIVE AND A CONSTITUTIVE NORM?
+### What is the difference between a regulative and a constitutive norm?
 
-(constitutive: creates new actors, interests, or categories of action)
-(regulative: order and constrain behavior)
++ (constitutive: creates new actors, interests, or categories of action)
++ (regulative: order and constrain behavior)
 
 
 
@@ -272,7 +275,7 @@ class: center
 
 ???
 
-IS SCORING A TD IN FOOTBALL A CONSTITUTIVE OR REGULATIVE NORM?
+### Is scoring a td in football a constitutive or regulative norm?
 (constitutive: The activity itself cannot exist without these rules.)
 
 
@@ -284,13 +287,13 @@ class: center
 
 ???
 
-IS THE RULE AGAINST TAUNTING A CONSTITUTIVE OR REGULATIVE NORM?
+### Is the rule against taunting a constitutive or regulative norm?
 (Regulative: Regulates a pre-existing activity whose existence is independent of this rule.)
 
 <br>
 <br>
 
-GIVE ME AN EXAMPLE OF A CONSTITUTIVE NORM IN INTERNATIONAL POLITICS.
+### Give me an example of a constitutive norm in international politics.
 
 
 ---
@@ -302,18 +305,17 @@ class: center
 ???
 
 (SLIDE)
+
 Don't invade other countries! Borders are inviolable
 
 Remember, this doesn't mean it cannot happen, just that "appropriate" behavior is defined as one who doesn't.
 
-WHAT MAKES THIS A CONSTITUTIVE NORM?
+### What makes this a constitutive norm?
 (Without respected state borders the current system lacks definition.)
 
-
-<br>
 <br>
 
-EXAMPLE OF A REGULATIVE NORM AT THE INTERNATIONAL LEVEL?
+### Example of a regulative norm at the international level?
 
 
 
@@ -326,23 +328,22 @@ class: center
 ???
 
 (SLIDE)
+
 All states apply tariffs to goods made in other countries but sold in theirs.
 
-
-<br>
 <br>
 
-DOES THE DISTINCTION BETWEEN A CONSTITUTIVE AND REGULATIVE NORM MAKE SENSE?
+### Does the distinction between a constitutive and regulative norm make sense?
 
 <br>
 
-BRAINSTORM
+## BRAINSTORM
 
-HOW DOES THINKING ABOUT DIFFERENT TYPES OF NORM HELP US UNDERSTAND INTERNATIONAL POLITICS BETTER?
+### How does thinking about different types of norm help us understand international politics better?
 
 <br>
 
-1. WHICH TYPE OF NORM IS HARDER TO CHANGE? WHY?
+### 1. Which type of norm is harder to change? Why?
 
 Much harder to change a constitutive norm as it is fundamental to an activity.
 - Regulative norms are made to be tweaked...
@@ -351,7 +352,7 @@ We can change the taunting penalty to be 5 or 20 yards but altering what a touch
 
 <br>
 
-2. WHICH TYPE OF NORM CARRIES A BIGGER STIGMA WHEN YOU VIOLATE IT?
+### 2. Which type of norm carries a bigger stigma when you violate it?
 (Constitutive!)
 - Violate the rules that make up the heart of the system and people will notice.
 
@@ -371,7 +372,7 @@ SLIDE
 
 Hitler and the Nazis adopted and tried to spread some incredibly offensive norms regarding racial superiority.
 
-WHAT DO FINNEMORE AND SIKKINK MEAN WHEN THEY WRITE THAT THESE RACIST NORMS WEREN'T "BAD"?
+### What do Finnemore and Sikkink mean when they write that these racist norms weren't "bad"?
 
 <br>
 
@@ -399,8 +400,8 @@ class: center
 
 Finnemore and Sikkink tell us that norms are created as a product of the norm "life cycle."
 
-WHY SHOULD WE CARE ABOUT THIS?
-- HOW CAN IT HELP US?
+### Why should we care about this?
+#### - How can it help us?
 
 <br>
 
@@ -410,11 +411,11 @@ This means that if we can control or modify societal norms, we can control the b
 
 <br>
 
-WHAT HAPPENS IN STAGE 1? WHAT IS "NORM EMERGENCE"?
+### What happens in stage 1? What is "norm emergence"?
 
 <br>
 
-1. WHO ARE THE "NORM ENTREPRENEURS" AND WHAT DO THEY DO? 
+### 1. Who are the "norm entrepreneurs" and what do they do? 
 (They actively try to convince their community that some behavior is either desirable and should be required OR undesirable and should be stopped.)
 
 A very important idea.
@@ -423,11 +424,13 @@ A very important idea.
 
 <br>
 
-2. ACCORDING TO FINNEMORE AND SIKKINK, HOW DO NORM ENTREPRENEURS CONVINCE SOCIETY TO ADOPT THEIR NORM?
+### 2. According to Finnemore and Sikkink, how do norm entrepreneurs convince society to adopt their norm?
 (Issue framing)
 
-- WHAT DOES THAT MEAN? WHAT IS FRAMING?
+#### - What does that mean? what is framing?
 (Use language that names, interprets and dramatizes an issue.)
+
+
 
 
 ---
@@ -444,7 +447,7 @@ SLIDE
 
 Let's say it is 1915, and you believe women should have the right to vote.
 
-AS A NORM ENTREPRENEUR, HOW COULD WE FRAME WOMEN'S SUFFRAGE IN A WAY THAT CONVINCES THE REST OF SOCIETY?
+### As a norm entrepreneur, how could we frame women's suffrage in a way that convinces the rest of society?
 
 
 
@@ -456,16 +459,15 @@ class: center
 
 ???
 
-ARE THESE EXAMPLES OF EFFECTIVE FRAMING? WHY OR WHY NOT?
+### Are these examples of effective framing? Why or why not?
 
 Some very clever framing here.
 - Liberty for all appeals to Constitutive American norms
 - No taxation without representation (powerful historical analogy)
 
 <br>
-<br>
 
-IMAGINE YOU ARE A NORM ENTREPRENEUR FOR THE OTHER SIDE, DEFEND THE STATUS QUO!
+### Imagine you are a norm entrepreneur for the other side, defend the status quo!
 
 Just kidding, don't shout out ideas for that!
 
@@ -493,7 +495,7 @@ knitr::include_graphics("libs/Images/13_2-no_votes_for_women2.jpg")
 
 Arguments aimed at husbands.
 
-WHAT CAN WE LEARN ABOUT THE "NO" SIDE FROM THESE POSTERS?
+### What can we learn about the "no" side from these posters?
 
 
 
@@ -533,9 +535,10 @@ BECAUSE it is unwise to risk the good we already have for the evil which may occ
 
 Anti-vote Arguments for Men
 
-WHAT CAN WE LEARN ABOUT THE "NO" SIDE FROM THIS PAMPHLET?
+### What can we learn about the "no" side from this pamphlet?
 
 (A direct appeal to men of the time.)
+
 - Invokes sexist beliefs about competency and presents women's voting as a threat to men's influence.
 
 
@@ -564,11 +567,9 @@ Anti-vote Arguments for Women
 
 Arguments aimed at women.
 
-IS THE AUTHOR DOING A GOOD JOB REACHING OUT TO THE OTHER SIDE HERE?
+### Is the author doing a good job reaching out to the other side here?
 
-
-
-
+<br>
 
 Ok, what’s the point of this exercise?
 
@@ -576,13 +577,13 @@ Ok, what’s the point of this exercise?
 
 <br>
 
-- PRO-CHOICE PEOPLE DON’T DEFEND ABORTION CLINICS, THEY DEFEND…? 
+#### - Pro-choice people don’t defend abortion clinics, they defend…? 
 (Family Planning Clinics)
 
-- THOSE OPPOSED TO ABORTION DO NOT DESCRIBE THEMSELVES AS ANTI-CHOICE, THEY ARE…? 
+#### - Those opposed to abortion do not describe themselves as anti-choice, they are…? 
 (pro-life!)
 
-- OIL COMPANIES DO NOT PUSH FOR MORE DRILLING, THEY PUSH FOR EXPANDED…? 
+#### - Oil companies do not push for more drilling, they push for expanded…? 
 (Exploration)
 
 We strategically frame our positions to make our preferred norm appeal to more people.
@@ -607,15 +608,15 @@ class: center
 
 For today I gave you a New York Times article on Putin's rationale for annexing Crimea.
 
-WHAT WAS PUTIN'S RATIONALE FOR ANNEXING CRIMEA? WHAT FRAMINGS DID HE UTILIZE?
+### What was Putin's rationale for annexing crimea? what framings did he utilize?
 
-* ON BOARD *
+*ON BOARD*
 
-WHAT ARE THE KEY PREMISES IN HIS ARGUMENT?
+### What are the key premises in his argument?
 
 <br>
 
-IS THIS A CONVINCING ARGUMENT? WHY OR WHY NOT?
+### Is this a convincing argument? Why or why not?
 
 <br>
 
@@ -627,7 +628,7 @@ Russian citizens lived there and were in danger.
 
 <br>
 
-HOW DID THE WESTERN POWERS FRAME IT?
+### How did the western powers frame it?
 
 
 
@@ -646,13 +647,13 @@ class: center
 
 Both sides tried to invoke widely accepted norms as justification for their behavior.
 
-- WHICH SIDE WON THE DEBATE?
+#### - Which side won the debate?
 
-- WHICH SIDE WON THE CONFLICT?
+#### - Which side won the conflict?
 
 <br>
 
-EVERYBODY CLEAR ON THE IMPORTANCE AND POWER OF FRAMING?
+### Everybody clear on the importance and power of framing?
 
 
 
@@ -666,21 +667,23 @@ class: center
 
 The Norm Life Cycle
 
-WHAT HAPPENS IN STAGE 3? WHAT IS INTERNALIZATION?
+### What happens in stage 3? What is internalization?
 (The norm becomes a part of an actor's identity)
+
 - Once internalized the norm is taken for granted
 
 <br>
 
-WHY IS AN INTERNALIZED NORM SO VERY POWERFUL?
+### Why is an internalized norm so very powerful?
 (This means that, at this point, we don't even realize we are obeying a rule!)
+
 - It is now part of how we think and therefore how we act.
 
 Very, very hard to dislodge.
 
 <br>
 
-CAN EVERYBODY SEE WHY BEING ABLE TO CONTROL SOCIETAL NORMS IS INCREDIBLY POWERFUL?
+### Can everybody see why being able to control societal norms is incredibly powerful?
 
 
 ---

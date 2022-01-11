@@ -59,13 +59,13 @@ Explore economic liberalism as a model of international politics
 
 <br>
 
-* Opening Discussion *
+*Opening Discussion*
 
-ANYTHING INTERESTING GOING ON IN WORLD POLITICS AT THE MOMENT?
+### Anything interesting going on in world politics at the moment?
 
 <br>
 
-EVERYBODY HAVE THE READINGS FOR TODAY?
+### Everybody have the readings for today?
 
 <br>
 
@@ -144,17 +144,17 @@ Now combine diagrams with the person next to you (small groups).
 
 <br>
 
-* ON BOARD *
+*ON BOARD*
 
-OK, GIVE ME PREMISES, LET'S DIAGRAM THIS VERSION OF THE ARGUMENT.
+### Ok, give me premises, let's diagram this version of the argument.
 
-(Interests)
+##### (Interests)
 - States want to grow
 
-(Institutions)
+##### (Institutions)
 - States may choose to start wars or to seek trade (international anarchy). International anarchy means it's basically up to them.
 
-(Interactions)
+##### (Interactions)
 - War is risky (you may lose)
 - The returns to trade grow over time
 - Increasing trade transforms the state's "social structure"
@@ -197,17 +197,17 @@ Very much still in line with the realists view of institutions, right?
 
 <br>
 
-IS THIS A LOGICAL ARGUMENT? WHY OR WHY NOT?
+### Is this a logical argument? Why or why not?
 
 <br>
 
 Let's talk about whether or not this is convincing.
 
-WHAT ARE THE STRONGEST AND WEAKEST PARTS OF THIS MODEL?
+### What are the strongest and weakest parts of this model?
 
 <br>
 
-WHAT EVIDENCE COULD I SHOW YOU TO CONVINCE YOU OF EACH PREMISE?
+### What evidence could i show you to convince you of each premise?
 
 (Fourth premise is too vague to be evaluated with evidence.)
 
@@ -242,15 +242,15 @@ class: middle, slideblue
 
 We need more detail about the mechanism itself in order to be convinced.
 
-WITH THE PERSON NEXT TO YOU, USE THE ROSECRANCE EXCERPT TO MODIFY AND CLARIFY THIS MODEL OF INTERNATIONAL POLITICS.
+### With the person next to you, use the rosecrance excerpt to modify and clarify this model of international politics.
 
 - Focus on his description of "the trading world."
 
 <br>
 
-OK, GIVE ME OPTIONS?
+### Ok, give me options?
 
-DISCUSS EXAMPLES
+*DISCUSS EXAMPLES*
 
 
 
@@ -285,7 +285,7 @@ Here is one version.
 
 <br>
 
-WHAT IS ECONOMIC SPECIALIZATION?
+### What is economic specialization?
 
 
 
@@ -324,7 +324,7 @@ If you were to try and also make cars to compete with Honda your wine would suff
 
 <br>
 
-MAKE SENSE?
+### Make sense?
 
 
 
@@ -353,21 +353,21 @@ class: middle, slideblue
 
 ???
 
-WHAT IS THE ADVANTAGE OF THIS VERSION OF THE ARGUMENT OVER THE EARLIER VERSION PROPOSED BY NYE?
+### What is the advantage of this version of the argument over the earlier version proposed by Nye?
 
 (We can test it much more easily!)
 
-- WHAT EVIDENCE COULD WE LOOK FOR TO EVALUATE THE SPECIALIZATION ASSUMPTION?
+#### - What evidence could we look for to evaluate the specialization assumption?
 (Examine countries over time, have those who increased their trade also reduced the number of areas they work in?)
 
-- WHAT EVIDENCE COULD WE LOOK FOR TO EVALUATE THE 'WAR DISRUPTS TRADE' PREMISE?
+#### - What evidence could we look for to evaluate the 'war disrupts trade' premise?
 (Cases where war breaks out between two states and trade continues at same level as before.)
 
 <br>
 
-IS EVERYBODY CLEAR ON THE BASICS OF WHAT IS OFTEN CALLED ECONOMIC LIBERALISM?
+### Is everybody clear on the basics of what is often called Economic Liberalism?
 
-- WHY DO WE DESCRIBE THIS ARGUMENT AS A TYPE OF LIBERAL IR THEORY?
+#### - Why do we describe this argument as a type of liberal ir theory?
 (Anarchy creates uncertainty but conflict is not inevitable.)
 - In fact, trade makes conflict less likely even in an anarchic world.
 
@@ -375,7 +375,7 @@ IS EVERYBODY CLEAR ON THE BASICS OF WHAT IS OFTEN CALLED ECONOMIC LIBERALISM?
 
 Now, Rosecrance tells us not to get ahead of ourselves with this.
 
-ACCORDING TO ROSECRANCE, UNDER WHAT CONDITIONS DOES TRADE NOT LEAD TO PEACE?
+### According to Rosecrance, under what conditions does trade not lead to peace?
 
 (1. Where states are self-sufficient they will not be transformed by trade and therefore might still view war as a means to grow economically.)
 
@@ -389,7 +389,7 @@ background-position: center
 
 ???
 
-IF THIS IS TRUE, WHAT DOES THAT TELL US ABOUT THE IMPACT OF "BUY AMERICAN" PROMOTIONS?
+### If this is true, what does that tell us about the impact of "buy american" promotions?
 
 Likely created by well-intentioned people trying to protect jobs.
 - But does it also make for states that are more likely to go to war?
@@ -398,11 +398,11 @@ Unlikely a problem for US because we still trade a TON with the world.
 
 <br>
 
-DOES THIS MEAN WE SHOULD OPPOSE "BUY AMERICAN" PROMOTIONS? WHY OR WHY NOT?
+### Does this mean we should oppose "buy american" promotions? Why or why not?
 
 <br>
 
-WHAT IS THE SECOND CASE IN WHICH TRADE DOES NOT LEAD TO PEACE?
+### What is the second case in which trade does not lead to peace?
 (2. Where resources are limited and rules do not exist, conflict over those resources is still likely.)
 
 
@@ -414,14 +414,14 @@ background-position: center
 
 ???
 
-HOW DOES A MELTING ICE CAP IN THE ARCTIC MAKE FOR A DANGEROUS WORLD ACCORDING TO ROSECRANCE?
+### How does a melting ice cap in the Arctic make for a dangerous world according to Rosecrance?
 
 As the ice melts it is getting MUCH easier for states to see the Arctic seabed as a profitable resource.
 - According to economic liberal theory, the arctic may be a profound source of international instability given that no one "officially" owns it.
 
 <br>
 
-EVERYBODY CLEAR ON THESE TWO EXCEPTIONS?
+### Everybody clear on these two exceptions?
 
 
 ---
@@ -449,30 +449,5 @@ class: middle, slideblue
 
 ???
 
-OK, AT THIS POINT, HOW CONVINCING DO YOU FIND THIS MODEL OF INTERNATIONAL POLITICS?
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+### Ok, at this point, how convincing do you find this model of international politics?
 

@@ -70,11 +70,11 @@ Update with class notes from trying to define our concepts
 
 Welcome back everybody!
 
-ANYTHING INTERESTING GOING ON IN WORLD POLITICS AT THE MOMENT?
+### Anything interesting going on in world politics at the moment?
 
 <br>
 
-EVERYBODY HAVE THE READINGS FOR TODAY?
+### Everybody have the readings for today?
 
 <br>
 
@@ -114,9 +114,9 @@ Let's make sure it was clear.
 
 Here is a picture of a chair and a very wealthy duck.
 
-BASED ON THE READING, WHICH OF THESE TWO THINGS ARE CONCEPTS? 
+### Based on the reading, which of these two things are concepts? 
 
-- MAKE YOUR CASE!
+#### - Make your case!
 
 
 
@@ -164,9 +164,9 @@ class: center
 
 Where this gets complicated is when we disagree about the meaning of a specific concept.
 
-IS WEALTH A CONTESTED CONCEPT? 
+### Is wealth a contested concept? 
 
-HOW COULD THE DEFINITION OF WEALTH BE UP FOR DEBATE?
+### How could the definition of wealth be up for debate?
 
 
 
@@ -200,10 +200,11 @@ class: center
 
 ???
 
-IS A CHAIR A CONTESTED CONCEPT?
+### Is a chair a contested concept?
 
+<br>
 
-IF YOU ARGUE WE ALL MAY HAVE DIFFERENT DEFINITIONS OF "CHAIR", ARE THE DIFFERENCES SUFFICIENT TO IMPACT OUR LIVES? WHY OR WHY NOT?
+### If you argue we all may have different definitions of "chair", are the differences sufficient to impact our lives? Why or why not?
 
 
 ---
@@ -226,7 +227,7 @@ This small child will clearly be impacted if we all decide to accept the dog's d
 
 <br>
 
-GIVE ME SOME EXAMPLES OF OTHER FIGHTS WE ARE HAVING IN SOCIETY RIGHT NOW THAT ARE, AT THE CORE, FIGHTS ABOUT DEFINING A CONCEPT.
+### Give me some examples of other fights we are having in society right now that are, at the core, fights about defining a concept.
 
 
 
@@ -274,7 +275,7 @@ class: center
 
 2. The fight to define government assistance
 
-WHEN YOU THINK OF THE PROPER ROLE OF GOVERNMENT IN PROTECTING ITS CITIZENS, WHAT DO YOU THINK OF?
+### When you think of the proper role of government in protecting its citizens, what do you think of?
 
 
 
@@ -289,7 +290,7 @@ class: center
 
 I think most people would agree protection from violence is absolutely part of the definition.
 
-BUT WHERE IS OUR LINE BETWEEN VIOLENCE TO BE ENDED WITH FORCE AND LEGITIMATE PROTEST?
+### But where is our line between violence to be ended with force and legitimate protest?
 
 
 
@@ -303,11 +304,11 @@ class: center
 
 What about protection from poverty or a lack of opportunity to succeed?
 
-SHOULD THIS BE PART OF GOVERNMENT'S PROTECTIVE PURPOSE?
+### Should this be part of government's protective purpose?
 
 <br>
 
-QUESTIONS ON THE IMPORTANCE AND POWER OF DEFINING CONCEPTS?
+### Questions on the importance and power of defining concepts?
 
 
 
@@ -354,11 +355,12 @@ Our job is to agree on a shared definition we can use to begin exploring the wor
 
 <br>
 
-LET'S START WITH WHAT IS HOPEFULLY THE EASIEST ONE, HOW DO WE DEFINE AN EVENT?
+### Let's start with what is hopefully the easiest one, how do we define an event?
 
 OR
 
-BASED ON OUR CASE STUDIES FROM LAST WEEK, WHAT DEFINITION OF "EVENT" DID WE COME UP WITH?
+### Based on our case studies from last week, what definition of "event" did we come up with?
+
 
 
 ---
@@ -394,11 +396,11 @@ knitr::include_graphics("libs/Images/02_1-word_cloud.jpg")
 
 ???
 
-OK, WHEN YOU HEAR THE WORD INTERNATIONAL, WHAT DO YOU THINK OF?
+### Ok, when you hear the word international, what do you think of?
 
 OR
 
-AGAIN, BASED ON OUR CASE STUDIES FROM LAST WEEK, WHAT DEFINITION OF "INTERNATIONAL" DID WE COME UP WITH?
+### Again, based on our case studies from last week, what definition of "international" did we come up with?
 
 
 
@@ -437,11 +439,11 @@ knitr::include_graphics("libs/Images/02_1-word_cloud.jpg")
 
 Alright, now it's time for the hard one.
 
-WHEN YOU THINK OF THE WORD "POLITICAL" WHAT DO YOU THINK OF?
+### When you think of the word "political" what do you think of?
 
 OR
 
-BASED ON OUR CASE STUDIES FROM LAST WEEK, WHAT DEFINITION OF "POLITICAL" DID WE COME UP WITH?
+### Based on our case studies from last week, what definition of "political" did we come up with?
 
 * DISCUSS *
 
@@ -512,7 +514,7 @@ Jot down some notes you could use to explain what just happened.
 
 <br>
 
-OK, WHAT JUST HAPPENED?
+### Ok, what just happened?
 
 - How was it played?
 - What was your experience?
@@ -554,7 +556,7 @@ In various textbooks you'll see politics defined as:
 
 In essence, anytime a group of people have to come together to make a decision, a political scientist can be found who is interested in the process.
 
-ANY QUESTIONS ON THIS BROAD DEFINITION OF THE POLITICS CONCEPT?
+### Any questions on this broad definition of the politics concept?
 
 <br>
 
@@ -574,7 +576,7 @@ class: center
 
 ???
 
-ACCORDING TO THE CHAPTER, WHAT DO WE HAVE TO DO IN ORDER TO STUDY POLITICS SCIENTIFICALLY?
+### According to the chapter, what do we have to do in order to study politics scientifically?
 
 * Force this discussion *
 
@@ -582,8 +584,8 @@ ACCORDING TO THE CHAPTER, WHAT DO WE HAVE TO DO IN ORDER TO STUDY POLITICS SCIEN
 
 Sub-questions:
 
-1. CAN SOCIAL SCIENTISTS FOLLOW THE SCIENTIFIC METHOD? WHY OR WHY NOT?
-("The point is that the scientific method seeks to test thoughts against observable evidence in a disciplined manner, with each step in the process made explicit" (H&D old p24))
+### 1. Can social scientists follow the scientific method? Why or why not?
++ ("The point is that the scientific method seeks to test thoughts against observable evidence in a disciplined manner, with each step in the process made explicit" (H&D old p24))
 
 (p29: One version of the scientific method)
 1. Identify the concepts / variables to be studied
@@ -594,7 +596,7 @@ Sub-questions:
 
 <br>
 
-2. WHAT DOES IT MEAN TO SAY POLITICAL SCIENTISTS SEARCH FOR VERIFIABLE ANSWERS?
+### 2. What does it mean to say political scientists search for verifiable answers?
 (Science is NEVER just about taking someone’s word for something.)
 - Knowledge that cannot be independently confirmed is not useful.
 - We rely only on “observable evidence”
@@ -608,7 +610,7 @@ Science is a process for generating knowledge, not a bucket of facts about the n
 
 You can study anything "scientifically."
 
-MAKE SENSE?
+### Make sense?
 
 
 
@@ -624,7 +626,7 @@ I also want to introduce the idea of theory today.
 
 "...a set of related propositions that suggest why events occur in the manner that they do" (p32).
 
-ANY FAMOUS THEORIES COME TO MIND?
+### Any famous theories come to mind?
 
 (- Relativity?)
 (- Gravity?)
@@ -656,13 +658,13 @@ What I'd like to know is what the expected outcome of their game will be.
 
 ** ON BOARD **
 
-1. WHAT INFORMATION ABOUT THAT CLASS WOULD YOU WANT IF I ASKED YOU TO PREDICT THE OUTCOME OF THEIR GAME?
+### 1. What information about that class would you want if i asked you to predict the outcome of their game?
 
-- CAN WE PHRASE THESE AS THEORIES OR HYPOTHESES?
+#### - Can we phrase these as theories or hypotheses?
 
 <br>
 
-2. WHAT SPECIFIC RULES CHANGES COULD WE PROPOSE THAT WOULD INFLUENCE THE OUTCOME OF THE GAME?
+### 2. What specific rules changes could we propose that would influence the outcome of the game?
 
 
 ---
