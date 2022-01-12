@@ -57,13 +57,13 @@ Krain, M. (2012). J’accuse! Does Naming and Shaming Perpetrators Reduce the Se
 
 <br>
 
-* Opening Discussion *
+*Opening Discussion*
 
-ANYTHING INTERESTING GOING ON IN WORLD POLITICS AT THE MOMENT?
+### Anything interesting going on in world politics at the moment?
 
 <br>
 
-EVERYBODY HAVE THE READINGS FOR TODAY?
+### Everybody have the readings for today?
 
 <br>
 
@@ -94,7 +94,7 @@ What do we learn about human rights violations in the world today?
 
 On Monday we explored a series of case studies describing human rights abuses around the world and the naming and shaming efforts made by certain NGOs to stop them.
 
-WHAT CONCLUSIONS DID WE DRAW FROM COMPARING AND CONTRASTING THOSE CASES?
+### What conclusions did we draw from comparing and contrasting those cases?
 
 
 ---
@@ -107,22 +107,22 @@ background-position: center
 
 Today we shift our focus to a research article that hopefully advances our knowledge about the topic.
 
-WHAT IS THE RESEARCH QUESTION IN THE KRAIN (2012) PAPER?
+### What is the research question in the Krain (2012) paper?
 
 The title is a big hint, right?
 - Does Naming and Shaming Perpetrators Reduce the Severity of Genocides or Politicides?
 
 <br>
 
-BASED ONLY ON THE INTRODUCTION OF THIS ARTICLE, HOW HAVE THE AUTHORS TRIED TO CONVINCE YOU THAT THIS IS A CLEAR AND IMPORTANT QUESTION?
+### Based only on the introduction of this article, how has the author tried to convince you that this is a clear and important question?
 
-* Force this discussion *
+*Force this discussion*
 
 <br>
 
 Let's clarify a few elements of this before diagramming the model in this paper.
 
-FIRST, WHY IS THIS PAPER A GOOD TEST OF CONSTRUCTIVISM AS WE BEGAN EXPLORING IT LAST WEEK?
+### First, why is this paper a good test of constructivism as we began exploring it last week?
 
 
 ---
@@ -135,9 +135,10 @@ background-position: center
 
 1. Discourse as a form of power
 
-REMIND ME, WHAT DOES THIS MEAN?
+### Remind me, what does this mean?
 
 (Hopf (1988) and the power of discourse!)
+
 - Ideas and the framing of issues as a source of power as important, if not more important, than tanks, bombs or wealth.
 
 
@@ -163,19 +164,20 @@ They acknowledge the "relevant" "international practices" and the "rights of cou
 
 So, Krain (2012) is playing with mechanisms that constructivism makes clear should be very important for explaining international political outcomes. 
 
-ANY QUESTIONS ON THIS?
+### Any questions on this?
 
 <br>
 
 Let's also clarify the central outcome concepts in the paper.
 
-WHAT ARE THE SPECIFIC INTERNATIONAL VIOLATIONS KRAIN (2012) IS FOCUSED ON?
-- WHAT IS THE OUTCOME VARIABLE IN THE STUDY?
+### What are the specific international violations Krain (2012) is focused on?
+
+#### - What is the outcome variable in the study?
 (Genocide and politicide)
 
 <br>
 
-HOW DOES KRAIN DEFINE A "GENOCIDE" AND A "POLITICIDE"?
+### How does Krain define a "genocide" and a "politicide"?
 
 
 
@@ -199,7 +201,7 @@ Both are lethal policies carried out by the state or some sovereign nonstate act
 
 <br>
 
-WHY DO WE NEED BOTH CONCEPTS? DOESN'T GENOCIDE COVER IT ALL?
+### Why do we need both concepts? Doesn't genocide cover it all?
 
 (Krain not super interested in litigating the specific form of objectionable murder.)
 
@@ -221,7 +223,7 @@ class: middle, center, slidegreen
 
 Here is the hypothesis in the paper.
 
-ONE MORE TIME, REMIND ME, HOW DO THE HYPOTHESES RELATE TO THE MODEL?
+### One more time, remind me, how do the hypotheses relate to the model?
 
 (The hypotheses represent the testable implications of a model)
 
@@ -261,21 +263,21 @@ Focus on the theory section of the paper and make a list of the key interests, i
 
 <br>
 
-PAIRS: Now take five minutes to share your lists with the person next to you.
+**PAIRS**: Now take five minutes to share your lists with the person next to you.
 
 Combine and consolidate your lists.
 
 <br>
 
-GROUPS: Finally, take 5-7 minutes to discuss your lists with a nearby pair.
+**GROUPS**: Finally, take 5-7 minutes to discuss your lists with a nearby pair.
 
 Combine and consolidate your lists.
 
 <br>
 
-OK, WHAT HAVE WE GOT?
+### Ok, what have we got?
 
-** ON BOARD **
+**ON BOARD**
 
 
 
@@ -309,10 +311,10 @@ Alright, let's evaluate this model of politics.
 
 Remember, models are like maps.
 
-WHAT IS THIS MAP SUPPOSED TO HELP US FIND?
+### What is this map supposed to help us find?
 (The key outcome of interest...)
 
-DOES THIS MODEL FOCUS LOGICALLY ON THIS OUTCOME?
+### Does this model focus logically on this outcome?
 
 
 ---
@@ -327,24 +329,24 @@ class: middle, center, slidegreen
 
 ???
 
-AND, DO THESE PREDICTIONS FOLLOW LOGICALLY FROM THIS MODEL?
+### And, do these predictions follow logically from this model?
 
 <br>
 
 So, we want our model, the map, to logically connect both to the outcome we are trying to explain AND the predictions made by the authors.
 
-DOES THAT MAKE SENSE?
+### Does that make sense?
 
-SO, IS THIS A LOGICAL MODEL? WHY OR WHY NOT?
-
-<br>
-
-WHAT ARE THE STRENGTHS OF THIS AS A MODEL OF POLITICS?
+### So, is this a logical model? Why or why not?
 
 <br>
 
-WHAT ARE THE WEAKNESSES OF THIS AS A MODEL OF POLITICS?
-- WHAT POSSIBLY IMPORTANT THINGS DOES IT IGNORE?
+### What are the strengths of this as a model of politics?
+
+<br>
+
+### What are the weaknesses of this as a model of politics?
+#### - What possibly important things does it ignore?
 
 
 
