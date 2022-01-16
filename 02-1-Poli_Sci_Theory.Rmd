@@ -57,14 +57,10 @@ class: slideblue
 ## Prep for Class
 1. Get out of jail free cards for our distribution game (print from GDrive)
 
-<br>
-
-Update with class notes from trying to define our concepts
-- International: Involves the actions of more than one country
-
-- Political: * we didn't really get to this *
-
-- Event: A thing that happened
+2. Update with class notes from trying to define our concepts
+    - International: Involves the actions of more than one country
+    - Political: *we didn't really get to this*
+    - Event: A thing that happened
 
 <br>
 
@@ -88,6 +84,10 @@ We need to make sure we're clear on what we're exploring and how we explore it.
 
 ---
 
+background-image: url('libs/Images/background-cloth_v2.png')
+background-size: 100%
+class: center
+
 .pull-left[
 
 <br>
@@ -100,7 +100,7 @@ knitr::include_graphics("libs/Images/02_1-chair.jpg")
 
 .pull-right[
 
-```{r, fig.align='center'}
+```{r, fig.align='center', out.width='95%'}
 knitr::include_graphics("libs/Images/02_1-scrooge.jpg")
 ```
 
@@ -110,7 +110,9 @@ knitr::include_graphics("libs/Images/02_1-scrooge.jpg")
 
 For today you read Hoover and Donovan on "The Elements of Science."
 
-Let's make sure it was clear.
++ Let's make sure it was clear.
+
+<br>
 
 Here is a picture of a chair and a very wealthy duck.
 
@@ -122,6 +124,10 @@ Here is a picture of a chair and a very wealthy duck.
 
 ---
 
+background-image: url('libs/Images/background-cloth_v2.png')
+background-size: 100%
+class: center
+
 .pull-left[
 
 <br>
@@ -134,7 +140,7 @@ knitr::include_graphics("libs/Images/02_1-chair.jpg")
 
 .pull-right[
 
-```{r, fig.align='center', out.width='70%'}
+```{r, fig.align='center', out.width='65%'}
 knitr::include_graphics("libs/Images/02_1-scrooge.jpg")
 ```
 
@@ -142,15 +148,15 @@ knitr::include_graphics("libs/Images/02_1-scrooge.jpg")
 
 <br>
 
-.center[.size30[Concepts are "names for things, feelings and ideas generated or acquired by people in the course of relating to each other and to their environment" (13).]]
+.center[.size30[**Concepts are "names for things, feelings and ideas generated or acquired by people in the course of relating to each other and to their environment" (13).**]]
 
 ???
 
-Concepts are "names for things, feelings and ideas generated or acquired by people in the course of relating to each other and to their environment" (13).
+...
 
 So, both of these are concepts.
 
-They are names for things / ideas that allow us to communicate about the world.
++ They are names for things / ideas that allow us to communicate about the world.
 
 
 
@@ -164,9 +170,10 @@ class: center
 
 Where this gets complicated is when we disagree about the meaning of a specific concept.
 
-### Is wealth a contested concept? 
+### How can "wealth" be a contested concept?
 
-### How could the definition of wealth be up for debate?
+#### - What are the different ways we could define "wealth" that might conflict with each other?
+
 
 
 
@@ -184,11 +191,16 @@ class: center
 People are free to define wealth for themselves and those definitions will almost certainly conflict.
 
 - Wealth is family and friends?
+
 - Wealth is love?
+
 - Wealth is a fancy house and car?
+
 - Wealth is power?
 
-One of the roots for much societal conflict is this difference in definitions.
+<br>
+
+**The key here is to recognize that fights over defining concepts are at the root for much societal conflict.**
 
 
 
@@ -200,42 +212,81 @@ class: center
 
 ???
 
-### Is a chair a contested concept?
+### Ok, tougher test, how can a "chair" be a contested concept?
 
-<br>
+#### Not just defined differently but in ways where those definitions conflict with each other!
 
-### If you argue we all may have different definitions of "chair", are the differences sufficient to impact our lives? Why or why not?
++ (Examples?)
+
 
 
 ---
 
 background-image: url('libs/Images/02_1-dog_toddler.png')
 background-size: 50%
-class: center
+class: center, slideblue
 
 ???
 
-Of course, society may privilege some definitions over others...
+I know this seems silly, but clearly these two members of society define a chair differently.
 
-A "chair" is also just as much a concept.
+### What are the stakes of this conflict?
+#### - Is there anything we can learn from this photo about concepts and society?
 
-What I really like about this picture is that it encourages us to think about how defining concepts is a tool of power.
++ Never forget, defining a concept is an expression of your power!
 
-Getting others to accept your definition for a basic concept means you have the ability to frame our use and understanding of that thing.
-
-This small child will clearly be impacted if we all decide to accept the dog's defintion of a chair.
++ Get others to accept your definition means you have the ability to frame our use and understanding of that thing.
 
 <br>
 
-### Give me some examples of other fights we are having in society right now that are, at the core, fights about defining a concept.
+This small child will clearly be impacted if we all decide to accept the dog's definition of a chair.
+
++ And the parents were persuaded enough to stage and take the photo!
+
+<br>
+
+Big point: Fights over defining concrete objects are not just silly!
+
 
 
 
 ---
 
-class: middle, slidegreen
+background-image: url('libs/Images/01-1-segregated_water_fountains.jpeg')
+background-size: 100%
+class: center
 
-.size40[.center[**Should the undocumented have the same rights as citizens in our society?**]]
+???
+
+### What are we looking at here?
+
++ (An illustration of the government policy "separate but equal" and an example of why it didn't work in practice.)
+
+<br>
+
+Institutionalized racism as a government policy was very often a fight over how to define very concrete things, like water fountains, train cars and schools.
+
+<br>
+
+**Let's bring this up to today.**
+
+### Give me some examples of fights we are having in society right now that are, at their core, fights about defining a concept.
+
++ (SLIDE: What are the rights of the undocumented?)
++ (SLIDE: What is legitimate government assistance?)
++ (SLIDE: What is a protest?)
+
+
+
+
+---
+
+background-image: url('libs/Images/background-cloth_v2.png')
+background-size: 100%
+background-position: center
+class: middle, center
+
+.size40[.center[**What rights should the undocumented have in our society?**]]
 
 .pull-left[
 
@@ -247,7 +298,7 @@ knitr::include_graphics("libs/Images/02_1-No_human_being_is_illegal.jpg")
 
 .pull-right[
 
-```{r, fig.align='center', out.width='100%'}
+```{r, fig.align='center', out.width='90%'}
 knitr::include_graphics("libs/Images/02_1-anti_immigrant.jpg")
 ```
 
@@ -269,13 +320,14 @@ Citizens, legal immigrants, illegal immigrants, children regardless of immigrati
 
 background-image: url('libs/Images/02_1-us_capitol.jpg')
 background-size: 100%
-class: center
+background-position: center
+class: center, inverse
+
+.textwhite[.size50[.center[**What kinds of government action are legitimate to protect us and what are not?**]]]
 
 ???
 
-2. The fight to define government assistance
-
-### When you think of the proper role of government in protecting its citizens, what do you think of?
+*Discuss*
 
 
 
@@ -284,13 +336,18 @@ class: center
 
 background-image: url('libs/Images/02_1-riot_police.jpg')
 background-size: 100%
-class: center
+background-position: center
+class: center, inverse
+
+.textwhite[.size50[.center[**What is a legitimate use of violence by the police?**]]]
 
 ???
 
 I think most people would agree protection from violence is absolutely part of the definition.
 
-### But where is our line between violence to be ended with force and legitimate protest?
+### How do we draw the line between protests that should be shut down by the government and those that should not be?
+
+#### - When is police violence acceptable?
 
 
 
@@ -298,7 +355,10 @@ I think most people would agree protection from violence is absolutely part of t
 
 background-image: url('libs/Images/02_1-welfare.jpg')
 background-size: 86%
-class: center
+background-position: center
+class: center, bottom, inverse
+
+.textwhite[.size45[.center[**Is a protection from poverty a legitimate responsibility of government?**]]]
 
 ???
 
