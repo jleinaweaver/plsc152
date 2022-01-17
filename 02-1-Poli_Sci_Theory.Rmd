@@ -245,7 +245,7 @@ This small child will clearly be impacted if we all decide to accept the dog's d
 
 <br>
 
-Big point: Fights over defining concrete objects are not just silly!
+**Big point: Fights over defining concrete objects are not just silly!**
 
 
 
@@ -258,9 +258,11 @@ class: center
 
 ???
 
-### What are we looking at here?
+### What are we looking at here? How does this represent a political fight over defining a concept?
 
-+ (An illustration of the government policy "separate but equal" and an example of why it didn't work in practice.)
++ (How did we as a society define the treatment of citizens)
+
++ (The government policy "separate but equal" in practice)
 
 <br>
 
@@ -268,9 +270,9 @@ Institutionalized racism as a government policy was very often a fight over how 
 
 <br>
 
-**Let's bring this up to today.**
+Let's bring this idea about conceptual fights to the current day.
 
-### Give me some examples of fights we are having in society right now that are, at their core, fights about defining a concept.
+### Give me some examples of political fights we are having in society right now that are, at their core, fights about defining a concept.
 
 + (SLIDE: What are the rights of the undocumented?)
 + (SLIDE: What is legitimate government assistance?)
@@ -286,7 +288,7 @@ background-size: 100%
 background-position: center
 class: middle, center
 
-.size40[.center[**What rights should the undocumented have in our society?**]]
+.size40[.center[**How should we define "the rights" of the undocumented?**]]
 
 .pull-left[
 
@@ -306,13 +308,12 @@ knitr::include_graphics("libs/Images/02_1-anti_immigrant.jpg")
 
 ???
 
-1. The fight to define immigration
+What rights should the undocumented have in our society?
 
-Who deserves to be protected in our society?
++ Who is entitled to protection in our society?
 
-Who is a human being and who is a criminal?
-
-Citizens, legal immigrants, illegal immigrants, children regardless of immigration status, asylum seekers?
++ Who is a human being and who is a criminal?
+    + Citizens, legal immigrants, illegal immigrants, children regardless of immigration status, asylum seekers?
 
 
 
@@ -323,11 +324,15 @@ background-size: 100%
 background-position: center
 class: center, inverse
 
-.textwhite[.size50[.center[**What kinds of government action are legitimate to protect us and what are not?**]]]
+.textwhite[.size50[.center[**How should we define a "legitimate government action"?**]]]
 
 ???
 
-*Discuss*
+What kinds of government action are legitimate to protect us and what are not?
+
++ Protection against invasion by a foreign army?
+
++ What if that foreign army is a disease and the protection is a vaccination?
 
 
 
@@ -339,36 +344,33 @@ background-size: 100%
 background-position: center
 class: center, inverse
 
-.textwhite[.size50[.center[**What is a legitimate use of violence by the police?**]]]
+.textwhite[.size50[.center[**How should we define a "legitimate use of force"?**]]]
 
 ???
 
 I think most people would agree protection from violence is absolutely part of the definition.
 
-### How do we draw the line between protests that should be shut down by the government and those that should not be?
+### What is a legitimate use of violence by the police?
 
-#### - When is police violence acceptable?
++ (When their lives are threatened?)
++ (When the lives of non-involved persons are threatened?)
++ (To protect private property?)
 
+<br>
 
+### What is a legitimate use of violence by protestors?
 
----
-
-background-image: url('libs/Images/02_1-welfare.jpg')
-background-size: 86%
-background-position: center
-class: center, bottom, inverse
-
-.textwhite[.size45[.center[**Is a protection from poverty a legitimate responsibility of government?**]]]
-
-???
-
-What about protection from poverty or a lack of opportunity to succeed?
-
-### Should this be part of government's protective purpose?
++ (None?)
++ (When their lives are threatened?)
++ (When their rights are being denied?)
 
 <br>
 
 ### Questions on the importance and power of defining concepts?
+
+<br>
+
+For the purposes of this class we really can't accomplish much if we don't first define a few key concepts!
 
 
 
@@ -405,11 +407,9 @@ knitr::include_graphics("libs/Images/02_1-word_cloud.jpg")
 
 ???
 
-The very organization of this class and IR as a subfield of political science hinges on us being able to define these three concepts.
-
 Remember, our aim is not to create the perfect definition.
 
-That's practically impossible.
++ That's practically impossible.
 
 Our job is to agree on a shared definition we can use to begin exploring the world.
 
@@ -417,9 +417,13 @@ Our job is to agree on a shared definition we can use to begin exploring the wor
 
 ### Let's start with what is hopefully the easiest one, how do we define an event?
 
-OR
+*Discuss*
 
-### Based on our case studies from last week, what definition of "event" did we come up with?
+<br>
+
+*ONLY In semesters with time in week 1 for a case study exercise*
+
++ *Based on our case studies from last week, what definition of "event" did we come up with?*
 
 
 
@@ -458,9 +462,13 @@ knitr::include_graphics("libs/Images/02_1-word_cloud.jpg")
 
 ### Ok, when you hear the word international, what do you think of?
 
-OR
+*Discuss*
 
-### Again, based on our case studies from last week, what definition of "international" did we come up with?
+<br>
+
+*ONLY in semesters with time in week 1 for a case study exercise*
+
++ *Again, based on our case studies from last week, what definition of "international" did we come up with?*
 
 
 
@@ -501,13 +509,16 @@ Alright, now it's time for the hard one.
 
 ### When you think of the word "political" what do you think of?
 
-OR
+*Discuss* and then *segue to the game*
 
-### Based on our case studies from last week, what definition of "political" did we come up with?
 
-* DISCUSS *
+<br>
 
-Segue to the game.
+*ONLY in semesters with time in week 1 for a case study exercise*
+
++ *Based on our case studies from last week, what definition of "political" did we come up with?*
+
+
 
 
 
@@ -520,24 +531,24 @@ class: center
 
 ???
 
-# Notes on the game FOR YOU
-+ Class must distribute X "Get out of jail free" cards in ten minutes
+Ok, let me see if I can help you get to how political scientists define "politics."
 
-+ Each card is worth a free excused absence OR a two day extension to a paper deadline (not the final)
+Let's play a game!
 
-+ Number of cards: Approx 25% of the class?
++ Here's the deal, it's pretty simple
 
-+ You keep all of the "get out of jail free" cards in hand until the end of the game. No one can just claim them by walking up and taking it. Students must make an affirmative case why they should get one. I like this! A literal government hand out!
++ As a class you have to distribute a couple of index cards.
 
 <br>
 
-Ok, let me see if I can help you get to how political scientists think about politics.
+## Notes on the game FOR YOU
++ Class must distribute X "Get out of jail free" cards in ten minutes
 
-Let's play a game.
++ Each card is worth a free excused absence, a two day extension to a paper deadline (not the final) OR 1/3 letter grade bump on any paper
 
-Here's the deal.
++ Number of cards: Approx 25% of the class?
 
-As a class you have to distribute a couple of index cards.
++ You keep all of the "get out of jail free" cards in hand until the end of the game. **No one can just claim them by walking up and taking it. Students must make an affirmative case why they should get one**. I like this! A literal government hand out!
 
 
 ---
@@ -550,17 +561,23 @@ class: center
 
 Each of these is a "get out of jail free" card.
 
-You can use one of these to help yourself out of a jam in this class this semester.
+- You can use one of these to help yourself out of a jam in this class this semester.
 
 - Miss a paper deadline? Add two days!
 
 - Miss a class? Get an excused absence!
+
+- Need to bump a paper result by 1/3 of a letter grade? Done!
+
+<br>
 
 Exceptions?
 
 - Class policies, not university policies (e.g. plagiarism) or laws (e.g. no murder)
 
 - Can't apply to the final exam
+
+<br>
 
 **That's it, that's the game. Go!**
 
@@ -636,7 +653,7 @@ class: center
 
 ???
 
-### According to the chapter, what do we have to do in order to study politics scientifically?
+### According to the chapter, what do we have to do in order to study "politics" "scientifically"?
 
 * Force this discussion *
 
@@ -687,10 +704,11 @@ I also want to introduce the idea of theory today.
 "...a set of related propositions that suggest why events occur in the manner that they do" (p32).
 
 ### Any famous theories come to mind?
++ (Relativity?)
++ (Gravity?)
++ (The big bang?)
 
-(- Relativity?)
-(- Gravity?)
-(- the big bang?)
+<br>
 
 In simple terms, theories are the arguments we use to explain why things happen.
 
@@ -704,6 +722,7 @@ The bottom-line at this point is that thinking theoretically makes you a much sm
 
 background-image: url('libs/Images/02_1-politics_game_2.png')
 background-size: 100%
+background-position: center
 class: center
 
 ???
@@ -714,31 +733,42 @@ Let's end today by applying a scientific perspective to our distribution game.
 
 Imagine I'm about to bring you to a place where you can observe a different class play the distribution game with the same rules I gave you today.
 
-What I'd like to know is what the expected outcome of their game will be.
+### Prediction Time! If I asked you to predict who in that class would end up with the cards, what information would you want about the students? Why?
 
-** ON BOARD **
-
-### 1. What information about that class would you want if i asked you to predict the outcome of their game?
-
-#### - Can we phrase these as theories or hypotheses?
+*ON BOARD*
 
 <br>
 
-### 2. What specific rules changes could we propose that would influence the outcome of the game?
+### BRAINSTORM: Propose a rule change to the game and tell me how it would impact the outcome
+
+*ON BOARD*
+
+<br>
+
+All of your ideas here on the board represent EITHER:
+
+1. A reflection of the theories/models in your head that guide your assessment of how politics works, OR
+
+2. the building blocks of new political science theories in the making.
+
+I think that's super cool.
 
 
 ---
 
-class: middle, slideblue
+background-image: url('libs/Images/background-green_blue_swirl_side.jpg')
+background-size: 100%
+background-position: center
+class: middle
 
 .size60[**For Wednesday**]
 
 .size40[
 Mingst, K. & Arreguin-Toft, I. (2017). Chapter 3, International Relations Theories. In *Essentials of International Relations*. New York and London: W. W. Norton & Company, 70–105.
-
-+ Exploring theories / models of international relations
 ]
 
 ???
 
-Chapter will introduce you to some of the big theories / models of international relations.
+For Wednesday you'll be reading a chapter that will introduce you to some of the big, grand-daddy theories of International Relations.
+
+### Questions on anything from today?
