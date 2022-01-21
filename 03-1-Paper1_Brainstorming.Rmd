@@ -57,7 +57,7 @@ class: slideblue
 
 2. Send email with link for the class
 
-https://docs.google.com/document/d/1abEx0dYki6yiFvJ1FE7SCBwNiBWzi0tOk8DEfUEN-Q8/edit?usp=sharing
+https://docs.google.com/document/d/1NhGrJhAtJlAlYSVLbeEL-W3an3Zjpiejom6WUQkLNDg/edit?usp=sharing
 
 
 
@@ -65,7 +65,10 @@ https://docs.google.com/document/d/1abEx0dYki6yiFvJ1FE7SCBwNiBWzi0tOk8DEfUEN-Q8/
 
 ---
 
-class: middle, center, slideblue
+background-image: url('libs/Images/background-blue_cubes_lighter2.png')
+background-size: 100%
+background-position: center
+class: middle, center, inverse
 
 .size60[**Who or what is currently the biggest international threat to the United States?**]
 
@@ -91,7 +94,10 @@ Link in your email.
 
 ---
 
-class: middle, slidegreen
+background-image: url('libs/Images/background-blue_cubes_lighter2.png')
+background-size: 100%
+background-position: center
+class: middle
 
 .size50[**APA Style (Source: Purdue OWL)**]
 
@@ -133,7 +139,10 @@ Remember, the goal here is to help each other.
 
 ---
 
-class: middle, center, slidegreen
+background-image: url('libs/Images/background-blue_cubes_lighter2.png')
+background-size: 100%
+background-position: center
+class: middle, center
 
 .size50[**What is .textred[**HIGH QUALITY**] evidence?**]
 
@@ -185,7 +194,10 @@ Again, the goal here is to ensure everyone writes a convincing argument in their
 
 ---
 
-class: middle, center, slideblue
+background-image: url('libs/Images/background-blue_cubes_lighter2.png')
+background-size: 100%
+background-position: center
+class: middle, center, inverse
 
 .size60[**Who or what is currently the biggest international threat to the United States?**]
 
@@ -204,7 +216,10 @@ Go around the room and give us your proposed answer to the question.
 
 ---
 
-class: middle, slidepurple
+background-image: url('libs/Images/background-blue_cubes_lighter2.png')
+background-size: 100%
+background-position: center
+class: middle, inverse
 
 .size70[**For Wednesday**]
 

@@ -50,7 +50,10 @@ Review outlines and get ready to write the paper.
 
 ---
 
-class: slideblue
+background-image: url('libs/Images/background-blue_cubes_lighter2.png')
+background-size: 100%
+background-position: center
+class: middle, inverse
 
 .pull-left[
 
@@ -96,7 +99,10 @@ class: slideblue
 
 ---
 
-class: middle, slideblue
+background-image: url('libs/Images/background-blue_cubes_lighter2.png')
+background-size: 100%
+background-position: center
+class: middle
 
 .size60[.center[**Review the Outlines in Pairs**]]
 
@@ -120,7 +126,10 @@ class: middle, slideblue
 
 ---
 
-class: middle, center, slideblue
+background-image: url('libs/Images/background-blue_cubes_lighter2.png')
+background-size: 100%
+background-position: center
+class: middle, center, inverse
 
 .size60[**Who or what is currently the biggest international threat to the United States?**]
 

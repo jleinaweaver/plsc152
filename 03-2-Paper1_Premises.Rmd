@@ -52,7 +52,10 @@ class: slideblue
 
 ---
 
-class: middle, center, slideblue
+background-image: url('libs/Images/background-blue_cubes_lighter2.png')
+background-size: 100%
+background-position: center
+class: middle, center, inverse
 
 .size60[**Who or what is currently the biggest international threat to the United States?**]
 
@@ -76,7 +79,10 @@ Before we dig into this we need to talk about the excellent advice in the Farrel
 
 ---
 
-class: middle, slidegreen
+background-image: url('libs/Images/background-blue_cubes_lighter2.png')
+background-size: 100%
+background-position: center
+class: middle
 
 .size60[**Farrell's (2010) Writing Advice**]
 
@@ -88,6 +94,7 @@ class: middle, slidegreen
 
 ???
 
+## 1
 ### What's the advice in the "read the requirements for the assignment" section?
 
 (Make sure you are answering the question that was asked!)
@@ -96,12 +103,11 @@ class: middle, slidegreen
 
 --
 
-<br>
-
 .size40[2) Avoid Data Dumps]
 
 ???
 
+## 2
 ### What's the advice in the "avoid data dumps" section?
 
 (You may know a lot of stuff about a topic, but "stuff" is not the same thing as an argument)
@@ -110,14 +116,28 @@ class: middle, slidegreen
 
 
 
---
+---
+
+background-image: url('libs/Images/background-blue_cubes_lighter2.png')
+background-size: 100%
+background-position: center
+class: middle
+
+.size60[**Farrell's (2010) Writing Advice**]
 
 <br>
 
-.size40[3) Cut to the Chase]
+.size40[
+1) Read the Requirements for the Assignment
+
+2) Avoid Data Dumps
+
+3) Cut to the Chase
+]
 
 ???
 
+## 3
 ### What's the advice in the "cut to the chase" section?
 
 (Make sure your argument paper gets to making its argument from the get-go)
@@ -135,12 +155,11 @@ class: middle, slidegreen
 
 --
 
-<br>
-
 .size40[4) Organize, Organize, Organize]
 
 ???
 
+## 4
 ### What's the advice in the "organize, organize, organize" section?
 
 (SLIDE)
@@ -149,7 +168,99 @@ class: middle, slidegreen
 
 ---
 
-class: middle, slidegreen
+background-image: url('libs/Images/background-blue_cubes_lighter2.png')
+background-size: 100%
+background-position: center
+class: middle
+
+.size60[**Farrell's (2010) Writing Advice**]
+
+<br>
+
+.size40[4) Organize, Organize, Organize
+
++ **Macro Structure**
+
++ Meso Structure
+
++ Micro Structure
+]
+
+???
+
+### According to Farrell, what is a good macro structure?
++ (Every paper should have a clear beginning, middle and end)
++ This is probably the basic advice you've been getting since grade school.
++ Tell me what you're gonna tell me, tell me and tell me what you told me.
+
+<br>
+
+### How do you demonstrate in the outline that your macro structure is good?
++ (Differentiate the introduction from the body of the paper from the conclusion.)
+
+
+
+---
+
+background-image: url('libs/Images/background-blue_cubes_lighter2.png')
+background-size: 100%
+background-position: center
+class: middle
+
+.size60[**Farrell's (2010) Writing Advice**]
+
+<br>
+
+.size40[4) Organize, Organize, Organize
+
++ Macro Structure
+
++ **Meso Structure**
+
++ Micro Structure
+]
+
+???
+
+### What is a good meso structure?
++ (Each paragraph should build support for your argument.)
++ (Each paragraph should focus on one main point.)
++ (The point of each paragraph should build on that in the previous paragraph, and create the foundations of the next.)
+
+In other words, your meso structure is taken care of if you clearly diagram your argument, premises to the conclusion, before you start writing.
+- The work you've done this week in building that diagram is the work you need to outline and write a well structured argument paper.
+
+<br>
+
+### What is the exercise farrell proposes you use to check the meso structure of an argument paper?
+1. (Summarize each paragraph in one sentence.)
+2. (Read the summary sentences only and the paper should both make sense AND build logically.)
+
+<br>
+
+### What does it mean if you can't summarize the paragraph in one sentence?
++ (Paragraph is doing too much.)
+
+I cannot emphasize this enough.
+- You should do this every time you write a paper!
+- Check your meso structure.
+
+An argument with a bad meso structure will NEVER be convincing.
+- No amount of evidence and critical analysis can overcome this weakness.
+
+A weak argument with an awesome meso structure CAN still be effective.
+- The easier it is for the reader to follow the argument, the more likely they will be convinced.
+
+### Does that make sense?
+
+
+
+---
+
+background-image: url('libs/Images/background-blue_cubes_lighter2.png')
+background-size: 100%
+background-position: center
+class: middle
 
 .size60[**Farrell's (2010) Writing Advice**]
 
@@ -161,79 +272,29 @@ class: middle, slidegreen
 
 + Meso Structure
 
-+ Micro Structure
++ **Micro Structure**
 ]
 
 ???
 
-### According to Farrell, what is a good macro structure?
-(- Every paper should have a clear beginning, middle and end)
-
-This is probably the basic advice you've been getting since grade school.
-- Tell me what you're gonna tell me, tell me and tell me what you told me.
-
-<br>
-
-### How do you demonstrate in the outline that your macro structure is good?
-(Differentiate the introduction from the body of the paper from the conclusion.)
-
-<br>
-
-### What is a good meso structure?
-(- Each paragraph should build support for your argument.)
-(- Each paragraph should focus on one main point.)
-(- The point of each paragraph should build on that in the previous paragraph, and create the foundations of the next.)
-
-<br>
-
-In other words, your meso structure is taken care of if you clearly diagram your argument, premises to the conclusion, before you start writing.
-
-The work you've done this week in building that diagram is the work you need to outline and write a well structured argument paper.
-
-### Make sense?
-
-<br>
-
-### What is the exercise farrell proposes you use to check the meso structure of an argument paper?
-
-(Every paper you read:)
-1. Summarize each paragraph in one sentence.
-2. Read the summary sentences only and the paper should both make sense AND build logically.
-
-<br>
-
-### What does it mean if you can't summarize the paragraph in one sentence?
-(Paragraph is doing too much.)
-
-<br>
-
-I cannot emphasize this enough.
-- You should do this every time you write a paper!
-
-Check your meso structure.
-
-An argument with a bad meso structure will NEVER be convincing.
-- No amount of evidence and critical analysis can overcome this weakness.
-
-A weak argument with an awesome meso structure CAN still be effective.
-- The easier it is for the reader to follow the argument, the more likely they will be convinced.
-
-### Does that make sense?
-
-<br>
-
 ### What is a good micro structure?
-(1. Sentences must be well constructed: Simple words, simple sentences, direct active language, no spelling or grammatical mistakes.)
-(2. Each sentence should flow logically, from one to the next.)
+1. (Sentences must be well constructed: Simple words, simple sentences, direct active language, no spelling or grammatical mistakes.)
+
+2. (Each sentence should flow logically, from one to the next.)
 
 <br>
 
 ### Any questions on the three types of structure Farrell describes?
 
 
+
+
 ---
 
-class: middle, slidegreen
+background-image: url('libs/Images/background-blue_cubes_lighter2.png')
+background-size: 100%
+background-position: center
+class: middle
 
 .size60[**Farrell's (2010) Writing Advice**]
 
@@ -264,7 +325,10 @@ class: middle, slidegreen
 
 ---
 
-class: middle, center, slidegreen
+background-image: url('libs/Images/background-blue_cubes_lighter2.png')
+background-size: 100%
+background-position: center
+class: middle, center
 
 .size60[**To be convincing an argument should be .textred[logical], .textred[clear], .textred[credible] and .textred[critical].**]
 
@@ -279,7 +343,10 @@ Remember, our class writing rubric tells you that a convincing an argument shoul
 
 ---
 
-class: middle, slidegreen
+background-image: url('libs/Images/background-blue_cubes_lighter2.png')
+background-size: 100%
+background-position: center
+class: middle
 
 .size50[**Convincing arguments...**]
 
@@ -307,7 +374,10 @@ Basically, I read your paper and then ask myself four questions.
 
 ---
 
-class: middle, slidegreen
+background-image: url('libs/Images/background-blue_cubes_lighter2.png')
+background-size: 100%
+background-position: center
+class: middle
 
 .size50[**Convincing arguments...**]
 
@@ -329,7 +399,10 @@ Might be a good series of questions to ask yourself before submitting.
 
 ---
 
-class: middle, center, slideblue
+background-image: url('libs/Images/background-blue_cubes_lighter2.png')
+background-size: 100%
+background-position: center
+class: middle, center, inverse
 
 .size60[**Who or what is currently the biggest international threat to the United States?**]
 
@@ -348,7 +421,10 @@ So, this is what everyone prepared for today.
 
 ---
 
-class: middle, slidegreen
+background-image: url('libs/Images/background-blue_cubes_lighter2.png')
+background-size: 100%
+background-position: center
+class: middle
 
 .size60[.center[**The "best" premises are...**]]
 
@@ -374,7 +450,10 @@ HOWEVER, to be an actual premise in an argument each needs to be:
 
 ---
 
-class: middle, slideblue
+background-image: url('libs/Images/background-blue_cubes_lighter2.png')
+background-size: 100%
+background-position: center
+class: middle, inverse
 
 .size50[.center[**Who or what is currently the biggest international threat to the United States?**]]
 
@@ -413,7 +492,10 @@ Be sure to reflect on the results of this before moving to your next steps.
 
 ---
 
-class: slideblue
+background-image: url('libs/Images/background-blue_cubes_lighter2.png')
+background-size: 100%
+background-position: center
+class: middle, inverse
 
 .pull-left[
 
