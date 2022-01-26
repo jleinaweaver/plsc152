@@ -53,7 +53,7 @@ class: slideblue
 ???
 
 ## Prep for Class
-1. ...
+1. Bring paper for map making
 
 <br>
 
@@ -852,3 +852,28 @@ The big lesson for today is about the nature of theories and models.
 <br>
 
 ### Any questions on this?
+
+
+
+---
+
+background-image: url('libs/Images/02-2-China_Taiwan_US.webp')
+background-size: 100%
+background-position: center
+
+???
+
+For Friday let's keep thinking about model building in IR while trying to explain the likelihood of war between China and Taiwan.
+
+<br>
+
+1. Waltz, K. (1959). "Man, the State, and War: A Theoretical Analysis." in *International Politics: Classic and Contemporary Readings.* Scott P. Handler eds, 29-32.
+
+2. Chang, W., Xiong, Y. and Westcott, B. (2021, Oct 9). Chinese President Xi Jinping vows to pursue 'reunification' with Taiwan by peaceful means. *CNN*. [Link](https://www.cnn.com/2021/10/08/china/xi-jinping-taiwan-reunification-intl-hnk/index.html)
+
+3. Myers, Steven Lee. (2020, Oct 5). China Ramps Up a War of Words, Warning the U.S. of Its Red Lines. *The New York Times*. Section A, Page 13 of the New York edition. [Link](https://www.nytimes.com/2020/10/05/world/asia/china-propaganda-united-states.html)
+
+4. Sanger, David E. (2021, Oct 22). Biden Said the U.S. Would Protect Taiwan. But It’s Not That Clear-Cut. *The New York Times*. Section A, Page 9 of the New York edition. [Link](https://www.nytimes.com/2021/10/22/us/politics/biden-taiwan-defense-china.html)
+
+
+
