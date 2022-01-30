@@ -69,17 +69,6 @@ background-size: 100%
 background-position: center
 class: middle, center, inverse
 
-TESTING
-
-
-
----
-
-background-image: url('libs/Images/background-blue_cubes_lighter2.png')
-background-size: 100%
-background-position: center
-class: middle, center, inverse
-
 .size60[**Who or what is currently the biggest international threat to the United States?**]
 
 .size40[
