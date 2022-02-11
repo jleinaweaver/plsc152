@@ -70,10 +70,13 @@ Explore the tactic of bluffing in international politics.
 
 ---
 
-class: middle, slidegreen
+background-image: url('libs/Images/background-cloth_v2.png')
+background-size: 100%
+background-position: center
+class: middle
 
-.size40[.center[
-**Come to class ready to make an argument about when bluffing is, and when it isn’t, a smart tactic for getting what you want from international politics.**
+.size50[.center[
+**When is bluffing a smart tactic for getting what you want in international politics?**
 ]]
 
 .size35[
@@ -102,6 +105,11 @@ For today I asked you to come to class ready to make an argument about bluffing 
 
 
 ---
+
+background-image: url('libs/Images/background-cloth_v2.png')
+background-size: 100%
+background-position: center
+class: middle
 
 .size45[.center[**Bluffing as a Tactic During Bargaining**]]
 
@@ -161,6 +169,11 @@ Cartoon diplomacy.
 
 ---
 
+background-image: url('libs/Images/background-cloth_v2.png')
+background-size: 100%
+background-position: center
+class: middle
+
 .pull-left[
 
 ```{r, fig.retina=3, fig.align='left', out.width='85%'}
@@ -184,9 +197,11 @@ knitr::include_graphics("libs/Images/06_3-schelling.jpg")
 
 Thomas Schelling is a HUGE name in IR and economics.
 
-Did a ton of work during the Cold War gaming out how nuclear weapons were changing international diplomacy and negotiations.
+- Did a ton of work during the Cold War gaming out how nuclear weapons were changing international diplomacy and negotiations.
 
-Won a Nobel Prize for his work which ain't too shabby.
+- Won a Nobel Prize for his work which ain't too shabby.
+
+<br>
 
 Going to grad school in the social sciences? You will definitely encounter his work.
 
@@ -202,13 +217,17 @@ background-position: center
 
 Most relevant for us, Schelling's work definitely informed Fearon's development of the bargaining model.
 
-Schelling defines "diplomacy" as bargaining where two sides agree a deal in which they both lose something to avoid a much worse outcome.
+<br>
 
-For Schelling, this means that bargaining is not about learning to act "diplomatically."
+Schelling defines "diplomacy" as bargaining where two sides **agree a deal in which they both lose something to avoid a much worse outcome**.
 
-It's about getting some BUT NOT ALL of what you want in order to avoid the stuff you really don't want.
+- For Schelling, bargaining is not about "acting diplomatically."
 
-This means that Schelling defines bargaining as a process in which BOTH sides lose something.
+- It's about getting some BUT NOT ALL of what you want in order to avoid the stuff you really don't want.
+
+<br>
+
+This means Schelling defines bargaining as a process in which **BOTH sides** lose something.
 
 ### Do we think that's a problematic way to define bargaining? Why or why not?
 
@@ -227,25 +246,29 @@ background-position: center
 
 ???
 
-Specifically, this formulation means that bargaining power comes from the "power to hurt."
+Specifically, this formulation means that bargaining power comes from **the "power to hurt."**
 
-"The power to hurt" means the threat of pain, shock, loss and grief, privation and horror to motivate others to do what we want.
-
-For Schelling, true bargaining power is all about the threat NOT the action.
-
-Brute force is about taking what you want, but:
-- it is always costly to you (blood and treasure required) AND
-- it often encourages a united opposition.
-
-Your aim should be coercion
-- The threat of damage that makes others comply with your demands.
-- It is the threat of violence or pain that changes behavior.
-
-### Everybody clear on the distinction and why threat is a more powerful tool?
+- Motivating the other side using the threat of pain, shock, loss and grief, privation and horror
 
 <br>
 
-### In these terms, how do we gain the upper hand in a bargain?
+Be careful here, for Schelling, true bargaining power is all about the **threat** NOT the action.
+
+### Why is a threat better than just using brute force to take what you want?
+
+- (Back to war being costly, risky and inefficient!)
+    - Brute force is always costly to you (blood and treasure required) AND it often encourages a united opposition.
+
+- (Your aim should be coercion)
+    - The threat of damage that makes others comply with your demands.
+    - All the benefits of war without having to fight!
+    - It is the threat of violence or pain that changes behavior.
+    
+<br>
+
+### Everybody clear on the distinction and why threat is a more powerful tool?
+
+### How do we use this advice? What does Schelling argue we need to do to make a successful threat?
 
 (SLIDE)
 
@@ -257,7 +280,13 @@ background-position: center
 
 ???
 
-1. Know what your adversary treasures and what scares them.
+**First, you must know what your adversary treasures and what scares them.**
+
+- What are their weak points?
+
+- What do they depend on?
+
+
 
 
 ---
@@ -268,10 +297,13 @@ background-position: center
 
 ???
 
-2. Communicate what they must do to avoid this "hurt."
+**Second, you must communicate to them what will happen unless they comply with your demands**
 
-In other words, you make clear that the "hurt" is contingent on their behavior.
+- In other words, you make clear that the "hurt" is contingent on their behavior.
 
+<br>
+
+### Make sense?
 
 
 ---
@@ -279,15 +311,16 @@ In other words, you make clear that the "hurt" is contingent on their behavior.
 background-image: url('libs/Images/06_3-endurance.png')
 background-size: 100%
 background-position: center
+class: slideblue
 
 ???
 
-For Schelling, war is not a contest of strength.
+For Schelling, bargaining and war are **NOT** contests of strength.
 
-SLIDE
-
-It is a competition of endurance.
+They are competitions of endurance.
 - Whoever can suffer the most wins.
+
+<br>
 
 It means we should think of war as a bargaining process.
 - Two sides, each demanding a change in the behavior of the other.
@@ -297,9 +330,11 @@ The winner is the one most able to threaten "hurt" on the other and most willing
 
 <br>
 
-### What are the strengths and weaknesses of this approach to understanding diplomacy?
+### Is this a good description of war? Why or why not?
 
-### Is this a useful way to think about war? Why or why not?
+<br>
+
+### Alternatively, is this a good description of bargaining and diplomacy? Why or why not?
 
 - Too cynical?
 - Assumes actual violence underpins every negotiation?
@@ -318,9 +353,17 @@ background-position: center
 
 #### - WHAT IS SCHELLING TRYING TO HELP US THINK ABOUT?
 
+<br>
+
 (Schelling wants us to think about how states can try to shift the win-set of their opponent.)
 
 - Threats of violence, targeted smartly, have the capability to move the bargaining process in your favor!
+
+<br>
+
+Successful threats are about increasing the perceived costs of your opponent.
+
+- Make them believe the costs and risks of war are higher than they might actually be and you'll get more of what you want more easily.
 
 ### Does that make sense?
 
@@ -333,13 +376,15 @@ background-position: center
 
 ???
 
-### Given all of this, where do we stand on President Trump's use of threats and bluffing to achieve what he wants from international politics?
+Given all of this, where do we stand on President Trump's use of threats and bluffing to achieve what he wants from international politics?
 
+<br>
 
-#### - Are we convinced trump used bluffing as a tactic? Why or why not? 
+### Are we convinced President Trump used bluffing as a tactic? Why or why not? 
 
+<br>
 
-#### - Would you say Trump was good at bluffing? Why or why not?
+### Would you say President Trump was good at bluffing? Why or why not?
 
 
 
@@ -355,4 +400,12 @@ background-position: center
 
 
 
+---
 
+background-image: url('libs/Images/06-3-UN_GA.jpg')
+background-size: 100%
+background-position: center
+
+???
+
+Next week, we examine the purpose and international impact of the United Nations!

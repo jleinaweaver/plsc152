@@ -65,17 +65,21 @@ On Monday we ran a simulation in class to help us think carefully about the caus
 
 Here are the overall results from our simulation.
 
-The x-axis represents the number of wars fought by one pair of students.
+- The x-axis represents the number of wars fought by one pair of students.
 
-Each bar counts the number of pairs in each category.
+- Each bar counts the number of pairs in each category.
 
-So, 8 pairs fought zero wars in their five rounds together.
+&lt;br&gt;
 
-1 pair fought in all five rounds they played together.
+So, ...
 
-Out of 36 pairings and 180 possible conflicts we observed 77 wars.
+- 8 pairs fought zero wars in their five rounds together.
 
-So, 43% of the time your conflicts led to war.
+- 1 pair fought in all five rounds they played together.
+
+- Out of 36 pairings and 180 possible conflicts we observed 77 wars.
+
+- So, 43% of the time your conflicts led to war.
 
 ### Does the visualization make sense?
 
@@ -114,53 +118,21 @@ class: middle
 
 Let's think of these results as a political outcome we need to explain.
 
-Outcome 1: Overall results
-
-In other words, this variation represents our international political event we're trying to explain.
-
-Take a few minutes on your own to think about our game and these results then make a list under each category.
-
-### How did the interests involved impact the outcomes of the game?
-
-### How did the institutions impact them?
-
-### And how did the interactions impact them?
+**Outcome 1: Overall results**
+- In other words, this variation represents our international political event we're trying to explain.
 
 &lt;br&gt;
 
-Compare your list with the person next to you.
-
-Did you identify the same mechanisms?
+### Take a few minutes on your own to think about our game and these results then make a list under each category.
+- How did the interests involved impact the outcomes of the game?
+- How did the institutions impact them?
+- And how did the interactions impact them?
 
 &lt;br&gt;
 
-###Ok, what did we come up with?
+### Compare your list with the person next to you.
+- Did you identify the same mechanisms?
 
-** ON BOARD **
-
-### Key interests involved?
-(Possible first preference:)
-- Bonus points
-- Social acceptance
-- Murder and death
-
-### Key institutions involved?
-(- Objective framed in relative gains / zero-sum)
-(- No chance for allies to help)
-(- Odd number of rounds?)
-(- How many cards in my "deck"?)
-(- Sum vs avg?)
-
-### Key interactions involved?
-(Uncertainty:)
-- I don't know what you have in your hand
-- I don't know your level of risk acceptance
-
-(Do people play differently in first round than in the second?)
-
-(Do people play differently in the lead than being behind?)
-
-(How did revealing cards change the game?)
 
 
 
@@ -195,33 +167,87 @@ class: middle
 
 ???
 
+### Ok, what did we come up with? 
+
+*ON BOARD*
+
+### Key interests involved?
+- (Possible first preference:)
+    - Bonus points
+    - Social acceptance
+    - Murder and death
+
+### Key institutions involved?
+- (Objective framed in relative gains / zero-sum)
+- (No chance for allies to help)
+- (Odd number of rounds?)
+- (How many cards in my "deck"?)
+- (Sum vs avg?)
+
+### Key interactions involved?
+- (Uncertainty:)
+    - I don't know what you have in your hand
+    - I don't know your level of risk acceptance
+- (Do people play differently in first round than in the second?)
+- (Do people play differently in the lead than being behind?)
+- (How did revealing cards change the game?)
+
+
+
+---
+
+class: middle
+
+.left-column[
+
+&lt;br&gt;
+
+&lt;br&gt;
+
+.size35[
+.textblack[
+**Interests?**
+
+&lt;br&gt;
+
+**Institutions?**
+
+&lt;br&gt;
+
+**Interactions?**
+]]]
+
+.right-column[
+
+&lt;img src="06_2-Bargaining_Model_War_files/figure-html/unnamed-chunk-5-1.png" width="95%" style="display: block; margin: auto;" /&gt;
+
+]
+
+???
+
 Let's shift our focus to a different political outcome.
 
 Here are the results for just version 1 of the game.
 
+
+```
+# A tibble: 1 × 5
   Version  pairings  wars possible proportion
   &lt;chr&gt;       &lt;int&gt; &lt;dbl&gt;    &lt;dbl&gt;      &lt;dbl&gt;
 1 Version1        9    29       45      0.644
+```
 
 &lt;br&gt;
 
-### How would you modify what we have on the board if we were focused only on explaining the play in the first round of the game?
+### Any suprises here? Is this consistent with the interests, institutions and interactions we just flagged?
 
 &lt;br&gt;
 
-### Any suprises here?
-#### - Is this consistent with the interests, institutions and interactions we just flagged?
+### How did you approach version 1 of the game? Did you have a strategy?
 
 &lt;br&gt;
 
-### How did you approach version 1 of the game?
-#### - Did you have a strategy? What was it?
-#### - Were you sufficiently motivated by the bonus points?
-
-&lt;br&gt;
-
-### What strategies did you observe in your opponents?
-#### - Purely random decision-making or something else?
+### What strategies did you observe in your opponents? Purely random decision-making or something else?
 
 &lt;br&gt;
 
@@ -235,7 +261,7 @@ class: middle
 
 .size45[**Interests, Institutions and Interactions?**]
 
-&lt;img src="06_2-Bargaining_Model_War_files/figure-html/unnamed-chunk-5-1.png" width="100%" style="display: block; margin: auto;" /&gt;
+&lt;img src="06_2-Bargaining_Model_War_files/figure-html/unnamed-chunk-7-1.png" width="100%" style="display: block; margin: auto;" /&gt;
 
 ???
 
@@ -243,14 +269,39 @@ Now take a step back.
 
 ### What happened as we went through the rounds?
 
+
+```
+# A tibble: 4 × 5
+  Version  pairings  wars possible proportion
+  &lt;chr&gt;       &lt;int&gt; &lt;dbl&gt;    &lt;dbl&gt;      &lt;dbl&gt;
+1 Version1        9    29       45      0.644
+2 Version2        9    26       45      0.578
+3 Version3        9    17       45      0.378
+4 Version4        9     5       45      0.111
+```
+
 &lt;br&gt;
 
-### Any suprises here?
-#### - Is this consistent with the interests, institutions and interactions we just flagged?
+### Any suprises here? Is this consistent with the interests, institutions and interactions we just flagged?
 
 &lt;br&gt;
 
 Lots of good material here from this experience so let's now shift to the reading for today.
+
+
+
+---
+
+background-image: url('libs/Images/background-cloth_v2.png')
+background-size: 100%
+background-position: center
+class: middle, center
+
+.size70[**Fearon (1995):**]
+
+.size70[**Research Question**]
+
+???
 
 Today we pair that simulation with the research that inspired it, Fearon's (1995) article on the bargaining model of war.
 
@@ -258,45 +309,49 @@ Today we pair that simulation with the research that inspired it, Fearon's (1995
 
 Let's start where we always should: The Research Question!
 
-In this case, the question is also a bit of a puzzle.
+- In this case, the question is also a bit of a puzzle.
 
 ### What is Fearon's big research question?
 
 #### - What are the three reasons he argues war should be unappealing as a strategy to get what you want?
 
+(SLIDE)
+
 
 
 ---
 
-class: middle, center, slideblue
+background-image: url('libs/Images/background-cloth_v2.png')
+background-size: 100%
+background-position: center
+class: middle, center
 
-.size60[**Fearon (1995): The Puzzle**
+.size70[**Fearon (1995):**]
+
+.size70[**Research Question**]
 
 &lt;br&gt;
 
+.size60[
 If wars are .textred[**costly**], .textred[**risky**] and .textred[**inefficient**] why do they happen?
 ]
 
 ???
 
-(War is costly, risky and inefficient)
+&lt;br&gt;
 
-### According to Fearon why is war:
+### According to Fearon why is war costly?
+- (Costly: Requires resources to fight)
 
-#### - Costly?
-(- Costly: Requires resources to fight)
+### According to Fearon why is war risky?
+- (Risky: You might lose, no guarantees)
 
-#### - Risky?
-(- Risky: You might lose, no guarantees)
-
-#### - Inefficient?
-(- Inefficient: Fighting is costly, bargains are not (or are less so))
+### According to Fearon why is war inefficient?
+- (Inefficient: Fighting is costly, bargains are not (or are less so))
 
 &lt;br&gt;
 
-This is a huge first assumption in this paper.
-
-Let's evaluate it.
+This is a huge first assumption in this paper, so let's evaluate it.
 
 ### Are you persuaded that war is costly, risky and inefficient? why or why not?
 
@@ -320,41 +375,32 @@ Let's evaluate it.
 background-image: url('libs/Images/06_2-Fearon_Figure1.png')
 background-size: 100%
 background-position: center
+class: slideblue
 
 ???
 
-This brings us to Fearon's argument.
-
-His model is an attempt to explain why wars happen even though we all basically agree that war is a super messy way to get what you want.
-
-Fearon's bargaining model of war is basically summarized by this figure.
-
-This is a tough thing to make sense of so let's go through it.
-
-### What does this whole thing represent?
-(A visual representation of the decision to go to war)
+This brings us to Fearon's aim: Why does war happen if we all agree that war is a super messy way to get what you want.
 
 &lt;br&gt;
 
-So, this is a model (e.g. a map) of the "go to war" decision by states.
+This figure essentially summarizes Fearon's model of the "go to war" decision by states.
 
-Like all models/maps it is a simplification of reality.
+- Keep in mind this is a model (e.g. a map) and like all models/maps it is a simplification of reality.
 
-There are two states and their dispute is represented by this line.
+- There are two states and their dispute is represented by this line.
 
-The outcome of a bargain or war will leave them somewhere along it.
+- The outcome of a bargain or war will leave them somewhere along it.
 
-A prefers outcomes closer to 1, B closer to 0.
+- A prefers outcomes closer to 1, B closer to 0.
 
-Don't stress about the letter variables here, we'll explore the bargaining intuitions in a moment.
+- Don't stress about the letter variables here, we'll explore the bargaining intuitions in a moment.
 
 &lt;br&gt;
 
 Let's start with just these elements that set the stage.
 
-### What do we think of this as a model of a state's decision to go to war?
+### What are the key assumptions in this model? e.g. what does the "map" choose to focus on?
 
-#### - What are the key assumptions in this model? e.g. what does the "map" choose to focus on?
 
 
 ---
@@ -362,6 +408,7 @@ Let's start with just these elements that set the stage.
 background-image: url('libs/Images/06_2-Fearon_Figure1.png')
 background-size: 70%
 background-position: bottom
+class: slideblue
 
 .size30[
 **Key Assumptions**
@@ -380,7 +427,11 @@ Let's reflect on this as a model for a sec.
 
 #### - Leaving anything important out? Why or why not?
 
-* encourage this discussion *
+*encourage this discussion*
+
+&lt;br&gt;
+
+Ok, let's now talk about the bargaining dynamics in the model.
 
 
 ---
@@ -388,20 +439,17 @@ Let's reflect on this as a model for a sec.
 background-image: url('libs/Images/06_2-pirates1.png')
 background-size: 100%
 background-position: center
+class: slideblue
 
 .size40[.center[**The Bargaining Model of War (Fearon 1995)**]]
 
 ???
 
-Ok, let's now talk about the bargaining dynamics in the model.
-
-SLIDE
-
 Instead of states and war, let's talk pirates and gold.
 
-Imagine two pirates who meet to divide up a chest full of 100 gold coins.
+- Imagine two pirates who meet to divide up a chest full of 100 gold coins.
 
-Each pirate wants all 100 coins and neither is prepared to budge on their demand.
+- Each pirate wants all 100 coins and neither is prepared to budge on their demand.
 
 
 
@@ -410,6 +458,7 @@ Each pirate wants all 100 coins and neither is prepared to budge on their demand
 background-image: url('libs/Images/06_2-pirates2.png')
 background-size: 100%
 background-position: bottom
+class: slideblue
 
 .size40[.center[**The Bargaining Model of War (Fearon 1995)**]
 
@@ -419,7 +468,9 @@ background-position: bottom
 
 The first pirate knows that for 20 gold he can buy a gun that will allow him to take all of the treasure.
 
-It gives him a 100% chance of winning the fight.
+- It gives him a 100% chance of winning the fight.
+
+&lt;br&gt;
 
 ### At that moment, before the gun is purchased, is there any amount of gold the second pirate could offer the first to avoid being killed?
 
@@ -434,6 +485,7 @@ It gives him a 100% chance of winning the fight.
 background-image: url('libs/Images/06_2-pirates2.png')
 background-size: 90%
 background-position: bottom
+class: slideblue
 
 .size40[.center[**The Bargaining Model of War (Fearon 1995)**]
 
@@ -445,13 +497,15 @@ P(Win) x Winning Result + P(Lose) x Losing Result]]
 
 We can use the expected value formula to check our math.
 
-The expected value is a tool for helping you think about how probability impacts a decision.
+- The expected value is a tool for helping you think about how probability impacts a decision.
 
-P(Win) x Winning Result + P(Lose) x Losing Result
+- P(Win) x Winning Result + P(Lose) x Losing Result
+
+&lt;br&gt;
 
 In this case it's really simple to use.
 
-You simply multiply the two possible outcomes by their probability of happening and add them together.
+- You simply multiply the two possible outcomes by their probability of happening and add them together.
 
 
 
@@ -460,6 +514,7 @@ You simply multiply the two possible outcomes by their probability of happening 
 background-image: url('libs/Images/06_2-pirates2.png')
 background-size: 90%
 background-position: bottom
+class: slideblue
 
 .size40[.center[**The Bargaining Model of War (Fearon 1995)**]
 
@@ -474,6 +529,7 @@ background-position: bottom
 background-image: url('libs/Images/06_2-pirates2.png')
 background-size: 90%
 background-position: bottom
+class: slideblue
 
 .size40[.center[**The Bargaining Model of War (Fearon 1995)**]
 
@@ -489,6 +545,7 @@ background-position: bottom
 background-image: url('libs/Images/06_2-pirates2.png')
 background-size: 90%
 background-position: bottom
+class: slideblue
 
 .size40[.center[**The Bargaining Model of War (Fearon 1995)**]
 
@@ -513,6 +570,7 @@ background-position: bottom
 background-image: url('libs/Images/06_2-Fearon_Figure1.png')
 background-size: 80%
 background-position: bottom
+class: slideblue
 
 .size40[
 **Why is the model useful?**
@@ -523,17 +581,21 @@ background-position: bottom
 
 Actual Outcome = Treasure - Costs of Fighting
 
-Here we see how the cost of war becomes a factor in our decision-making.
+- Here we see how the cost of war becomes a factor in our decision-making.
 
-The greater the cost of war, the less appealing it is as a tool for getting what you want.
+- The greater the cost of war, the less appealing it is as a tool for getting what you want.
 
-The important part isn't necessarily the outcome, it's the cost of obtaining it.
+- The important part isn't necessarily the outcome, it's the cost of obtaining it.
+
+&lt;br&gt;
 
 Also, this isn't just a vague expression, the model helps us think precisely about how the impact is felt.
 
 &lt;br&gt;
 
 ### Make sense?
+
+&lt;br&gt;
 
 ### How could we have tested this by modifying our simulation on Monday?
 
@@ -548,6 +610,7 @@ Also, this isn't just a vague expression, the model helps us think precisely abo
 background-image: url('libs/Images/06_2-pirates2.png')
 background-size: 100%
 background-position: bottom
+class: slideblue
 
 .size40[.center[**The Bargaining Model of War (Fearon 1995)**]
 
@@ -557,13 +620,17 @@ background-position: bottom
 
 That's just cost, now let's talk about risk.
 
+&lt;br&gt;
+
 Imagine the gun for sale is actually an old flint lock pistol.
 
-Both inaccurate and hard to reload.
+- Both inaccurate and hard to reload.
 
-Let's say this gun actually gives the first pirate a 50% chance of winning the fight.
+- Let's say this gun actually gives the first pirate a 50% chance of winning the fight.
 
-### At that moment, is there any amount of gold the second pirate could offer the first to avoid being killed?
+&lt;br&gt;
+
+### At that moment, is there any amount of gold the second pirate could offer the first to avoid him pulling the trigger?
 
 
 
@@ -614,6 +681,7 @@ class: middle, slideblue
 background-image: url('libs/Images/06_2-pirates2.png')
 background-size: 90%
 background-position: bottom
+class: slideblue
 
 .size40[.center[**The Bargaining Model of War (Fearon 1995)**]
 
@@ -626,9 +694,9 @@ background-position: bottom
 
 ### And now what does this mean for the decision to go to war?
 
-Offer pirate A 31 gold and avert a war!
+- If Pirate B offers Pirate A 31 gold he can avoid being shot!
 
-The guaranteed 31 gold outweighs the costs + the risks of the war.
+- The guaranteed 31 gold outweighs the costs + the risks of the war.
 
 &lt;br&gt;
 
@@ -644,6 +712,7 @@ The guaranteed 31 gold outweighs the costs + the risks of the war.
 background-image: url('libs/Images/06_2-Fearon_Figure1.png')
 background-size: 80%
 background-position: bottom
+class: slideblue
 
 
 .size40[**Why is the model useful?**]
@@ -658,24 +727,32 @@ background-position: bottom
 
 Expected Outcome = p(Winning Reward) + p(Losing Reward)
 
-Risk magnifies the costs of war in significant ways!
+- Risk magnifies the costs of war in significant ways!
 
-And now we see how the model helps us understand the role risk plays in lowering the attractiveness of war.
+- And now we see how the model helps us understand the role risk plays in lowering the attractiveness of war.
 
 &lt;br&gt;
 
 ### Make sense?
 
+&lt;br&gt;
+
 ### How could we have tested this by modifying our simulation on Monday?
 
-(More cards in your hand?)
-(More cards in the deck, e.g. 1-50?)
-(Increase the punishment for losing, e.g. lose half your remaining points?)
+- (More cards in your hand?)
+
+- (More cards in the deck, e.g. 1-50?)
+
+- (Increase the punishment for losing, e.g. lose half your remaining points?)
+
 
 
 ---
 
-class: middle, slideblue, center
+background-image: url('libs/Images/background-cloth_v2.png')
+background-size: 100%
+background-position: center
+class: middle, center
 
 .size50[.center[**Fearon (1995): The Argument**]
 
@@ -684,9 +761,9 @@ Because wars are .textred[**costly**], .textred[**risky**] and .textred[**ineffi
 
 ???
 
-Fearon's first big idea
+Fearon's first big idea!
 
-### Based on our simulation on monday and discussion today, are you convinced this is a useful model for explaining the decision to go to war? Why or why not?
+### Based on our simulation on Monday and discussion today, are you convinced this is a useful model for explaining the decision to go to war? Why or why not?
 
 (SLIDE)
 
@@ -760,7 +837,24 @@ Fearon draws out three big hypotheses from his bargaining model.
 
 #### - How do "issue indivisibilities" increase the likelihood of costly wars?
 
-&lt;br&gt;
+
+
+---
+
+class: middle, slideblue
+
+.size40[.center[**The Bargaining Model of War (Fearon 1995)**]]
+
+### Argument 1
++ .size35[Therefore, war occurs because of private information and the incentive to misrepresent.]
+
+### Argument 2 
++ .size35[Therefore, war occurs as a consequence of commitment problems.]
+
+### Argument 3
++ .size35[Therefore, war occurs due to "issue indivisibilities"]
+
+???
 
 Finally, let's connect all of this to the real world.
 
@@ -783,14 +877,20 @@ e.g. anarchy, preventive war and positive expected utility
 
 #### - Any concerns or limitations?
 
+&lt;br&gt;
+
+SLIDE: For Friday
 
 
 ---
 
-class: middle, slidegreen
+background-image: url('libs/Images/background-cloth_v2.png')
+background-size: 100%
+background-position: center
+class: middle
 
-.size40[.center[
-**Come to class ready to make an argument about when bluffing is, and when it isn’t, a smart tactic for getting what you want from international politics.**
+.size50[.center[
+**When is bluffing a smart tactic for getting what you want in international politics?**
 ]]
 
 .size35[
