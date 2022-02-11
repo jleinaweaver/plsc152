@@ -106,19 +106,19 @@ background-position: center
 
 ???
 
-Critics: The UN is weak and ineffective AND The UN is powerful and dangerous
+**Critics: The UN is weak and ineffective AND The UN is powerful and dangerous**
 
-I don't mean to pretend that these two things cannot be true simultaneoulsy, but these arguments typically exist separately.
+I don't mean to pretend that these two things cannot be true simultaneously, but these arguments typically exist separately.
 
-Some argue the UN is a pointless waste of resources that cannot accomplish anything.
+- Some argue the UN is a pointless waste of resources that cannot accomplish anything.
 
-Others that it is a threat to our sovereignty, the beginning of the end of our democracy.
+- Others that it is a threat to our sovereignty, the beginning of the end of our democracy.
 
 <br>
 
 Frankly, both arguments represent really stupid "hot takes."
 
-We need models and data if we want to understand what the UN is and its impact on the global stage.
+- We need models and data if we want to understand what the UN is and its impact on the global stage.
 
 
 
@@ -132,29 +132,32 @@ background-position: center
 
 This week we dig into our second research article in class.
 
-Learning to understand and think critically about the world we live inusing high quality research is central to our class LOs.
+- Learning to understand and think critically about the world we live in using high quality research is central to our class LOs.
 
-Today we will explore the model of politics presented in this paper.
+- Today we will explore the model of politics presented in this paper.
 
-And Friday we will dig into the data and methods to help us evaluate its conclusions.
+- And Friday we will dig into the data and methods to help us evaluate its conclusions.
 
 <br>
 
 ### What's the research question?
-(- How effective is the UN in promoting peace after civil wars?)
+- (How effective is the UN in promoting peace after civil wars?)
 
-(- Does it matter how many or what kinds of troops are needed to promote peace after civil wars?)
+- (Does it matter how many or what kinds of troops are needed to promote peace after civil wars?)
 
 
 ### Based only on the introduction of this article, how have the authors tried to convince you that this is a clear and important question?
 
-* Force this discussion *
+*Force this discussion*
 
 
 
 ---
 
-class: middle, slidegreen
+background-image: url('libs/Images/background-blue_triangles2.png')
+background-size: 100%
+background-position: center
+class: middle
 
 .size45[.center[**Hultman, Kathman and Shannon (2016)**]]
 
@@ -176,13 +179,11 @@ Here are the two hypotheses.
 
 (The hypotheses represent the testable implications of a model)
 
-The model lays out a set of assumptions about the world.
+- The model lays out a set of assumptions about the world.
 
-When you combine those assumptions you generate predictions about what we should see happen in a specific situation.
+- When you combine those assumptions you generate predictions about what we should see happen in a specific situation.
 
-Those predictions are the hypotheses.
-
-<br>
+- Those predictions are the hypotheses.
 
 ### Is that starting to make more sense?
 
@@ -202,7 +203,11 @@ Our first job is to figure out the key elements of this model so we can evaluate
 
 ---
 
-class: middle, slidegreen
+background-image: url('libs/Images/background-blue_triangles2.png')
+background-size: 100%
+background-position: center
+class: middle
+
 
 .size45[.center[**Hultman, Kathman and Shannon (2016)**]]
 
@@ -222,39 +227,60 @@ class: middle, slidegreen
 
 Everybody take five minutes on your own to diagram the model.
 
-Focus on the theory section of the paper and make a list of the key interests, institutions and interactions involved.
+- Focus on the theory section of the paper and make a list of the key interests, institutions and interactions involved.
 
 <br>
 
 PAIRS: Now take five minutes to share your lists with the person next to you.
 
-Combine and consolidate your lists.
+- Combine and consolidate your lists.
 
 <br>
 
 GROUPS: Finally, take 5-7 minutes to discuss your lists with a nearby pair.
 
-Combine and consolidate your lists.
+- Combine and consolidate your lists.
+
+
+
+---
+
+background-image: url('libs/Images/background-blue_triangles2.png')
+background-size: 100%
+background-position: center
+class: middle
+
+
+.size45[.center[**Hultman, Kathman and Shannon (2016)**]]
 
 <br>
 
-### Ok, what have we got?
+## Diagram the Model
 
-*ON BOARD*
+.size40[
++ Who are the key **Interests**?
 
-#### INTERESTS
++ What are the key **Institutions**?
+
++ What are the key **Interactions**?
+]
+
+???
+
+
+### Ok, what have we got? *ON BOARD*
+
+**INTERESTS**
 - Combatants who want... peace?
 - UN wants stabilization of a post-conflict area
 
-#### INSTITUTIONS
+**INSTITUTIONS**
 - Anarchy of post-civil war conflict (neither side has sufficient control)
 
-#### INTERACTIONS
+**INTERACTIONS**
 Serious obstacles to bargaining:
 - Lack of information / channels of information (information deficit) between the combatants
 - Lack of trust / mechanisms for promoting trust between the combatants
-
-<br>
 
 Therefore,
 - UN must 'help share or reveal private information'
@@ -270,7 +296,16 @@ UN Troops
 Unarmed observers
 - Monitoring -> information increases and accountability
 
-<br>
+
+
+---
+
+background-image: url('libs/Images/07-2-treasure_map.jpg')
+background-size: 100%
+background-position: center
+class: middle
+
+???
 
 Alright, let's evaluate this model of politics.
 
@@ -279,13 +314,21 @@ Remember, models are like maps.
 ### What is this map supposed to help us find?
 (The key outcome of interest...)
 
+<br>
+
 ### Does this model focus logically on this outcome?
 
+<br>
+
+### What does this map do well? What does it do badly?
 
 
 ---
 
-class: middle, slidegreen
+background-image: url('libs/Images/background-blue_triangles2.png')
+background-size: 100%
+background-position: center
+class: middle
 
 .size45[.center[**Hultman, Kathman and Shannon (2016)**]]
 
@@ -330,7 +373,10 @@ So, we want our model, the map, to logically connect both to the outcome we are 
 
 ---
 
-class: middle, slidegreen
+background-image: url('libs/Images/background-blue_triangles2.png')
+background-size: 100%
+background-position: center
+class: middle
 
 .size60[.center[**For Friday**]]
 
@@ -346,7 +392,7 @@ class: middle, slidegreen
 
 ???
 
-Wednesday we analyze the conclusions.
+Friday we analyze the conclusions.
 
 SLIDE
 

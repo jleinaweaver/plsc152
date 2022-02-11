@@ -65,13 +65,35 @@ Hultman, Kathman & Shannon (2016). United Nations Peacekeeping Dynamics and the 
 
 ### Everybody have the readings for today?
 
-<br>
+
+
+---
+
+background-image: url('libs/Images/07_2-HKS-page1.png')
+background-size: 90%
+background-position: center
+
+???
+
+Today we continue working on our analyses of the Hultman, L., Kathman, J. & Shannon, M. (2016) paper.
+
+### Remind me, what is the big research question here?
+- (Does UN intervention in post-conflict zones promote peace?)
+
+- (How effective is the UN in promoting peace after civil wars?)
+
+- (Does it matter how many or what kinds of troops are needed to promote peace after civil wars?)
+
 
 
 
 ---
 
-class: middle, slidegreen
+background-image: url('libs/Images/background-blue_triangles2.png')
+background-size: 100%
+background-position: center
+class: middle
+
 
 .size45[.center[**Hultman, Kathman and Shannon (2016)**]]
 
@@ -86,6 +108,23 @@ class: middle, slidegreen
 
 + What are the key **Interactions**?
 ]
+
+???
+
+OK, map out the model for me.
+
+### What are the key interests, institutions and interactions in this model?
+
+INTERESTS
+- Combatants who want peace
+- UN wants stabilization of a post-conflict area
+
+INSTITUTIONS
+- Anarchy of post-civil war conflict, no information, no trust
+
+INTERACTIONS
+- Combatants face commitment and information problems
+- UN uses the number, timing and type of PKOs to promote a durable peace.
 
 
 
@@ -108,11 +147,22 @@ background-position: right
 **Is this paper a "good" test of the bargaining model of war?**
 ]]]
 
+???
+
+### In what specific ways is this paper a "good" test of the Bargaining Model of War?
+
+<br>
+
+### How does it connect UN troops to the costs, risks and inefficiency of war?
+
 
 
 ---
 
-class: middle, slidegreen
+background-image: url('libs/Images/background-blue_triangles2.png')
+background-size: 100%
+background-position: center
+class: middle
 
 .size50[.center[**How confident should we be in the conclusions of the paper?**]]
 
@@ -126,11 +176,23 @@ class: middle, slidegreen
   + Analyses
 ]
 
+???
+
+For today I asked you to come to class ready to evaluate the conclusions in this paper.
+
+### So, what are the conclusions of the paper?
+#### - See p245 - "Discussion and conclusion"
+
+(SLIDE)
+
 
 
 ---
 
-class: middle, slidegreen
+background-image: url('libs/Images/background-blue_triangles2.png')
+background-size: 100%
+background-position: center
+class: middle
 
 .size50[.center[**Conclusion: The UN succeeds when...**]]
 
@@ -140,11 +202,26 @@ class: middle, slidegreen
 2. "...increasing the deployment of observer and police personnel is not likely to yield positive outcomes" (246).
 ]
 
+???
+
+Assume for the moment these conclusions are "correct."
+
+### Do these two conclusions mean the bargaining model is or is not useful as a tool for explaining why wars start?
+
+<br>
+
+### How do we understand the effectiveness of troops against the ineffectiveness of observers? Doesn't that mean the model is unhelpful?
+
+(Maybe this is the difference between bluffing with "observers" and signaling a serious international commitment with troops willing to use violence?)
+
 
 
 ---
 
-class: middle, slidegreen
+background-image: url('libs/Images/background-blue_triangles2.png')
+background-size: 100%
+background-position: center
+class: middle
 
 .size50[.center[**High, Low or No Confidence?**]]
 
@@ -154,15 +231,80 @@ class: middle, slidegreen
 2. "...increasing the deployment of observer and police personnel is not likely to yield positive outcomes" (246).
 ]
 
+???
+
+Our goal for today is to evaluate our level of confidence in these two conclusions.
+
+### Everybody clear on the goal?
+
 --
 
 .center[.size50[.textred[**Data Sources and Case Selection?**]]]
+
+???
+
+Let's start with the data sources and case selection.
+
+### Any questions on what those two concepts mean?
+- (Where did they get the data from?)
+- (What did they include and exclude in their dataset?)
+
+<br>
+
+Five minutes on your own, get ready to make an argument about our confidence in their data selection.
+- *note the research design section p238*
+
+<br>
+
+Share your argument with the people around you, get ready to bring those arguments to the class.
 
 
 
 ---
 
-class: middle, slidegreen
+background-image: url('libs/Images/background-blue_triangles2.png')
+background-size: 100%
+background-position: center
+class: middle
+
+.size50[.center[**High, Low or No Confidence?**]]
+
+.size40[
+1. Successful UN peacekeeping missions address "the security challenges to former belligerents" by providing "a greater number of troops" on the ground (246).
+
+2. "...increasing the deployment of observer and police personnel is not likely to yield positive outcomes" (246).
+]
+
+.center[.size50[.textred[**Data Sources and Case Selection?**]]]
+
+???
+
+
+<br>
+
+### Ok, what did we come up with and why? 
+
+### High, low or no confidence?
+
+Cases
+- Only African civil wars
+- 1989 - 2010 (post cold war)
+- Lots of variation in types of war and types of intervention
+- End of cold war should remove barrier to UNSC acting in these cases
+- Uppsala Conflict Data Program (UCDP)
+
+UN peacekeeping mission capacity
+- three variables
+
+
+
+
+---
+
+background-image: url('libs/Images/background-blue_triangles2.png')
+background-size: 100%
+background-position: center
+class: middle
 
 .size50[.center[**High, Low or No Confidence?**]]
 
@@ -174,11 +316,23 @@ class: middle, slidegreen
 
 .center[.size50[.textred[**Concepts and Measurement?**]]]
 
+???
+
+
+The next step is to evaluate the concepts and measurement in the paper.
+
+### What are the key concepts in these conclusions?
+
+(SLIDE)
+
 
 
 ---
 
-class: middle, slidegreen
+background-image: url('libs/Images/background-blue_triangles2.png')
+background-size: 100%
+background-position: center
+class: middle
 
 .size50[.center[**High, Low or No Confidence?**]]
 
@@ -190,6 +344,31 @@ class: middle, slidegreen
 
 .center[.size50[.textred[**Concepts and Measurement?**]]]
 
+???
+
+Technically I could highlight every word here...
+
+I want you to focus on these five concepts.
+- UN mission
+- Troops
+- Observers
+- Police personnel
+- Positive outcomes
+
+Five minutes on your own, get ready to make an argument about our confidence in how they defined and measured each of these concepts.
+
+<br>
+
+Share your argument in small groups, get ready to bring those arguments to the class.
+
+<br>
+
+### Ok, what did we come up with and why?
+
+#### - High, low or no confidence?
+
+#### - What's the DV here?
+
 
 
 ---
@@ -197,6 +376,26 @@ class: middle, slidegreen
 background-image: url('libs/Images/07_3-Table1.png')
 background-size: 92%
 background-position: center
+
+???
+
+Descriptive statistics tables are super important.
+
+- They often represent our only chance to audit the sample and to get a sense of what the world looks like in this research paper.
+
+<br>
+
+### Tell me about the world of un missions in this data, what can we learn from this table?
+
+#### - What is the mean?
+
+#### - The std dev?
+
+#### - The min? The max?
+
+<br>
+
+### So, what do the UN missions in this sample look like?
 
 
 
@@ -226,6 +425,11 @@ background-position: right
 
 ]
 
+???
+
+Here are the main regression results from their analyses.
+
+### First of all, based on the writing only, do the authors do a good job helping you understand what this shows in the text? Why or why not?
 
 
 ---
@@ -236,7 +440,19 @@ background-position: center
 
 ???
 
-Analyses: High, Low or No Confidence?
+Remember, with big regression tables you want to zoom in on the key lines only.
+
+FIRST, focus on the rows related to the hypotheses / conclusions only.
+
+### Why are these three rows the important ones?
+
+(The model and hypotheses focus on the effect of UN intervention)
+
+- These rows operationalize and measure those interventions.
+
+<br>
+
+SLIDE: 2...
 
 
 
@@ -246,6 +462,37 @@ background-image: url('libs/Images/07_3-table2-2.png')
 background-size: 100%
 background-position: center
 
+???
+
+SECOND, focus on these four characteristics of the coefficients
+
+1. Direction of Effect
+
+2. Size of Effect
+
+3. Significance of Effect
+
+4. Robustness of Effect
+
+<br>
+
+Long story short, the regression analysis in this paper allows the researchers to simultaneously examine 13k cases of UN interventions!
+
+- This means they are trying to evaluate the usefulness of their model using a TON of data!
+
+- Regression is a very powerful tool!
+
+<br>
+
+### Based on these coefficients, what are your takeaways?
+
+- So, troops reduce the risk of violence (although looks a small amount)
+
+- Observers do too, but not significant in the models.
+
+- Police make violence more likely but also not significant.
+
+
 
 
 ---
@@ -254,11 +501,29 @@ background-image: url('libs/Images/07_3-Figure2.png')
 background-size: 82%
 background-position: center
 
+???
+
+### How do we interpret the lines on Figure 2?
+(described p241)
+
+- The higher the line the greater the risk of violence.
+- No troops, super high line (at first)
+- Over time, all risk decreases (long time with peace, less risk of war)
+
+<br>
+
+### Is this a useful way to present the analyses? Why or why not?
+
+#### - Do they help you undertsand the results better?
+
 
 
 ---
 
-class: middle, slidegreen
+background-image: url('libs/Images/background-blue_triangles2.png')
+background-size: 100%
+background-position: center
+class: middle
 
 .size50[.center[**High, Low or No Confidence?**]]
 
@@ -268,4 +533,25 @@ class: middle, slidegreen
 2. "...increasing the deployment of observer and police personnel is not likely to yield positive outcomes" (246).
 ]
 
+???
+
+### SO, BOTTOM LINE, HOW CONFIDENT ARE YOU IN THESE CONCLUSIONS?
+
+<br>
+
+### 1. DO YOU WALK AWAY BELIEVING THAT UN TROOPS CAN BE GOOD PEACEKEEPERS? WHY OR WHY NOT?
+
+<br>
+
+### 2. DO YOU WALK AWAY MORE CONVINCED THAT THE BARGAINING MODEL OF WAR IS USEFUL? WHY OR WHY NOT?
+
+<br>
+
+### 3. HOW DOES OUR EXPLORATION OF THIS ARTICLE HELP YOU THINK ABOUT THE DEBATES WE STARTED THE WEEK WITH?
+
+#### - SHOULD THE US DEFUND THE UN?
+
+#### - IS THE UN TOO WEAK TO BE USEFUL?
+
+#### - IS THE UN TOO POWERFUL TO BE TRUSTED?
 
