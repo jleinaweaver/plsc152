@@ -55,9 +55,11 @@ Simulating the bargaining model of war
 ## Prep for class
 1. Print bargaining cards in Google drive OR bring decks of cards
 
-2. Open Wednesday slides in rmarkdown for tracking results
+2. Bring pennies or use paper to track scores
 
-3. SP22 let's try this without giving bonus points.
+3. Open Wednesday slides in rmarkdown for tracking results
+
+4. SP22 let's try this without giving bonus points.
 - OLD: EC to round winners BUT only 1 max per person per day
 - Create class list for tracking bonus points
 
