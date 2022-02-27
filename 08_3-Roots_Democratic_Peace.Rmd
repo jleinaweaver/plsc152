@@ -38,12 +38,14 @@ class: slideblue
 
 .size50[
 
-Explore the debate over the liberal peace
+Explore the liberal peace debate
 
-+ Kant (1798)
-+ Doyle (1983)
+- Kant (1798)
+- Doyle (1983)
 
 ]
+
+<br>
 
 .center[.size40[
   Justin Leinaweaver (Spring 2022)
@@ -64,32 +66,46 @@ Explore the debate over the liberal peace
 
 ### Everybody have the readings for today?
 
-<br>
+
+
+---
+
+background-image: url('libs/Images/08-3-peace_dove_mural.jpg')
+background-size: 100%
+background-position: center
+class: middle
+
+???
 
 Today we explore one of the biggest implications of many liberal models of international relations.
 
-The existence, or not, of a liberal peace.
+- The existence, or not, of a liberal peace.
+
+<br>
 
 The fundamental idea here is that the spread of democratic institutions and economic exchange leads us to a more peaceful world.
 
-Interestingly, this is an argument with very, very old roots.
+- Interestingly, this is an argument with very, very old roots.
 
 <br>
 
 Let's start with the excerpt from Immanuel Kant.
 
-### What is kant's goal in this article?
-(Help the world achieve perpetual peace)
+### What is Kant's goal in this article?
+- (Help the world achieve perpetual peace)
 
-### And what does perpetual peace mean?
-(Never ending)
+### And what does "perpetual" peace mean?
+- (Never ending)
 
 
 ---
 
-class: middle, slidered
+background-image: url('libs/Images/background-triangles_grey_v2.png')
+background-size: 100%
+background-position: center
+class: middle
 
-.size40[.center[**Kant (1798) vs Doyle (1983): Perpetual Peace**]]
+.size40[.center[**Kant (1798): Perpetual Peace**]]
 
 <br>
 
@@ -106,21 +122,55 @@ class: middle, slidered
 
 Kant argues that adopting these three principles will eventually lead us to a world of perpetual peace.
 
-I think we'd all agree that everlasting peace is a nice goal.
+- I think we'd all agree that everlasting peace is a nice goal.
 
 The question is, how close does Kant get us to achieving that goal?
 
-The Doyle (1983) article presents counter-arguments to each of these.
+- The Doyle (1983) article presents counter-arguments to each of these.
 
-Let's dig into them.
+Let's dig into both sides on each of these.
 
 <br>
 
-*split class into three groups (one per article)*
+*split class into three groups and assign one article to each*
 
-Groups, you have 20 minutes to define and evaluate your definitive article.
+Go sit with your groups, groups sit in front of the boards.
 
-Work directly on the board to make two lists, Pro vs Con, on whether adopting this article would advance the cause of global peace.
+Groups, you will take some time now to analyze the pros and cons of your assigned article
+
+
+---
+
+background-image: url('libs/Images/background-triangles_grey_v2.png')
+background-size: 100%
+background-position: center
+class: middle
+
+.size60[.center[**Kant (1798) vs Doyle (1983)**]]
+
+<br>
+
+<br>
+
+.center[.size55[Would the global adoption of this article advance the cause of global peace?]]
+
+???
+
+
+
+Groups, you have 20 minutes to prepare an answer to this question: 
+
+- Would the global adoption of this article advance the cause of global peace?
+
+- You have to work directly on the board to make two lists: Pros vs Cons
+
+<br>
+
+### Questions?
+
+Get to work!
+
+<br>
 
 *Make sure they work directly on the board so you can push them*
 
@@ -130,7 +180,10 @@ Work directly on the board to make two lists, Pro vs Con, on whether adopting th
 
 ---
 
-class: middle, slidered
+background-image: url('libs/Images/background-triangles_grey_v2.png')
+background-size: 100%
+background-position: center
+class: middle
 
 .size40[.center[**Kant (1798) vs Doyle (1983): Perpetual Peace**]]
 
@@ -189,7 +242,10 @@ In a few minutes we'll make a pro vs con list on the board.
 
 ---
 
-class: middle, slidered
+background-image: url('libs/Images/background-triangles_grey_v2.png')
+background-size: 100%
+background-position: center
+class: middle
 
 .size40[.center[**Kant (1798) vs Doyle (1983): Perpetual Peace**]]
 
@@ -221,7 +277,10 @@ class: middle, slidered
 
 ---
 
-class: middle, slidered
+background-image: url('libs/Images/background-triangles_grey_v2.png')
+background-size: 100%
+background-position: center
+class: middle
 
 .size40[.center[**Kant (1798) vs Doyle (1983): Perpetual Peace**]]
 
@@ -261,7 +320,10 @@ Generally speaking, Doyle seems enthusiastic when reframing the third article to
 
 ---
 
-class: middle, slidered
+background-image: url('libs/Images/background-triangles_grey_v2.png')
+background-size: 100%
+background-position: center
+class: middle
 
 .size40[.center[**Kant (1798) vs Doyle (1983): Perpetual Peace**]]
 
@@ -297,7 +359,10 @@ class: middle, slidered
 
 ---
 
-class: middle, slidered
+background-image: url('libs/Images/background-triangles_grey_v2.png')
+background-size: 100%
+background-position: center
+class: middle
 
 .size25[
 1. No secret treaty of peace shall be held valid in which there is tacitly reserved matter for a future war
@@ -329,7 +394,29 @@ Notes on 5) However, you can jump in and pick sides in a civil war. For some rea
 
 Notes on 6) ?
 
-<br>
+
+---
+
+background-image: url('libs/Images/background-triangles_grey_v2.png')
+background-size: 100%
+background-position: center
+class: middle
+
+.size25[
+1. No secret treaty of peace shall be held valid in which there is tacitly reserved matter for a future war
+
+2. No independent states, large or small, shall come under the dominion of another state by inheritance, exchange, purchase, or donation
+
+3. Standing armies shall in time be totally abolished
+
+4. National debts shall not be contracted with a view to the external friction of states
+
+5. No state shall by force interfere with the constitution or government of another state
+
+6. No state shall, during war, permit such acts of hostility which would make mutual confidence in the subsequent peace impossible: such are the employment of assassins (percussores), poisoners (venefici), breach of capitulation, and incitement to treason (perduellio) in the opposing state
+]
+
+???
 
 ### Do you think adding these preliminary articles make the plan stronger or weaker? Why?
 
@@ -357,6 +444,32 @@ Notes on 6) ?
 
 ---
 
+background-image: url('libs/Images/background-blue_triangles2.png')
+background-size: 100%
+background-position: center
+class: middle
+
+.size70[**Next Week: Paper 2**]
+
+<br>
+
+.size55[.center[Should the US use force (military or economic) to compel other states to behave in line with our interests?]]
+
+???
+
+Next week we work on your next paper assignment for the class.
+
+### Questions on the prompt?
+
+<br>
+
+SLIDE: To get us started...
+
+
+
+
+---
+
 class: middle, slideblue
 
 .size60[**For Monday**]
@@ -371,3 +484,10 @@ Bring one piece of .textred[**HIGH QUALITY**] published evidence you can use to 
 Be ready to provide the class with a correctly formatted, .textred[**APA style citation**] for your piece of evidence (see the Purdue OWL for guidance).
 ]
 
+???
+
+Perhaps an example of a country somewhere using force to successfully achieve good outcomes in the world?
+
+Or an example of the opposite? An action that bit a country in the butt?
+
+### Questions on the prompt for Monday?

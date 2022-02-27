@@ -73,7 +73,10 @@ Are the economic benefits of trade worth the costs?
 
 ---
 
-class: middle, slideblue
+background-image: url('libs/Images/background-slate_v2.png')
+background-size: 100%
+background-position: center
+class: middle
 
 ### Interests
 .size30[
@@ -99,28 +102,15 @@ class: middle, slideblue
 On Monday we started digging into our next model: Economic Liberalism.
 
 ### Remind me, what is specialization?
-(The idea is that the world economy grows best when everyone focuses on doing the things they are best at.)
-- You then buy the other stuff you need from the rest of the world.
-
-<br>
+- (The idea is that the world economy grows best when everyone focuses on doing the things they are best at.)
+    - You then buy the other stuff you need from the rest of the world.
 
 ### And why does specialization lead to interdependence?
-(If you grow to depend on other states to provide you with what they do best so you can focus on your what you do best then you'd be crazy to start a war that disrupts the flow of trade.)
+- (If you grow to depend on other states to provide you with what they do best so you can focus on your what you do best then you'd be crazy to start a war that disrupts the flow of trade.)
 
-<br>
-
-### In what kinds of cases does rosecrance note that Economic Liberalism fail to promote peace?
-(1. Resources are scarce / limited)
-(2. States are self-sufficient)
-
-<br>
-
-**Omit and segue straight into real-world case**
-
-### What were the most convincing aspects of this model to you?
-
-### What are the weakest parts?
-
+### In what kinds of cases does Rosecrance note that Economic Liberalism fail to promote peace?
+1. (Resources are scarce / limited)
+2. (States are self-sufficient)
 
 
 
@@ -132,17 +122,15 @@ background-position: center
 
 ???
 
-Let's apply these ideas to some current events.
+Let's use this model to help us analyze the US position as a trading partner to the world.
 
-Let's talk US-China Trade! 
+- Here we see the top 15 trade partners of the US in 2011.
 
-Here we see the top 15 trade partners of the US in 2011.
-
-### What do we learn from this about US trade and the US position in the world?
+### What do we learn from this about the US position in the world?
 
 <br>
 
-### What does Economic Liberalism tell us to expect based on this data?
+### What does Economic Liberalism tell us to expect based on this data? What kinds of behavior should we see from the US and from its trade partners?
 
 <br>
 
@@ -150,12 +138,9 @@ Now, zoom in on China.
 
 ### What is the benefit to us of all these imports coming in from China?
 
-(Cheap stuff for consumers means quality of life increasing!)
-
-- Prices fall
-- You get more stuff for your spending
-
-<br>
+- (Cheap stuff for consumers means quality of life increasing!)
+    - Prices fall
+    - You get more stuff for your spending
 
 ### And what does economic liberalism tell us to expect about this deep trade relationship between the US and China?
 
@@ -163,13 +148,14 @@ Now, zoom in on China.
 
 ---
 
-background-image: url('libs/Images/11_2-Example-US_China_Trade2.png')
-background-size: 75%
+background-image: url('libs/Images/08-2-trump_trade_war.webp')
+background-size: 65%
 background-position: left
+class: middle
 
 .pull-right[
 
-```{r, fig.retina=3, fig.align='right', out.width='85%'}
+```{r, fig.retina=3, fig.align='right', out.width='75%'}
 knitr::include_graphics("libs/Images/11_2-Example-US_China3.jpg")
 ```
 
@@ -179,27 +165,25 @@ knitr::include_graphics("libs/Images/11_2-Example-US_China3.jpg")
 
 So, of course, Donald Trump launched a trade war with China.
 
-SLIDE
-
 Here we see the series of tit-for-tat escalations in terms of tariffs applied by each country on goods from the other.
 
-Each set of tariffs harms the flow of goods across the world, e.g. disrupts trade.
+- Each set of tariffs harms the flow of goods across the world, e.g. disrupts trade.
 
 <br>
 
 ### How does economic liberalism help us think about this trade war?
 
-#### - Why did it happen? why did Trump start this "trade war"?
+#### - Why did it happen? Why did Trump start this "trade war"?
 (Protectionism!)
 
 <br>
 
-#### - How will we know if we are "winning"?
+### How do we know if we are "winning"?
 (Manufacturing comes back to the US!)
 
 <br>
 
-#### - Are we winning?
+### Are we winning?
 
 
 
@@ -236,6 +220,8 @@ Nope. Mostly just increasing suffering on all sides!
 
 ---
 
+class: middle, slideblue
+
 ```{r, fig.retina=3, fig.align='center', out.width='70%'}
 knitr::include_graphics("libs/Images/11_2-Example-US_China1.png")
 ```
@@ -248,81 +234,85 @@ knitr::include_graphics("libs/Images/11_2-Example-US_China2.png")
 
 The Biden administration is sending signals that they will continue the policy for the time being.
 
-### What is going on here?
+### What is going on here? If the US is suffering, why keep this going?
 
-#### - If the US is suffering, why keep this going?
-
-<br>
-
-From a Realist's perspective, does the trade war make sense?
-
-(Maybe)
-
-- some economic harm to consumers may be worth trying to slow China's economic growth (e.g. power).
+- From a Realist's perspective, the trade war MIGHT make sense
+    - Some economic harm to consumers in exchange for slowing China's economic growth (e.g. power).
+    
+If the Biden admin believes China is a growing threat then some costs are worth paying to try and slow their growth.
 
 <br>
 
-BUT from an econ lib perspective, this trade war gives us:
+### Bottom line, what do we think, is the trade war with China worth the risks and the costs? Why or why not?
 
+*DISCUSS*
+
+<br>
+
+#### Notes
+
+From an Economic Liberal perspective this trade war gives us:
 - Slower economic growth,
 - higher taxes for consumers, and
 - fewer houses and jobs for all of us.
 
 Why? Specialization!
-
 - We must now begin investing in production of goods we are less efficient at producing in order to replace buying them from abroad. Resources spent on this are by definition less efficient.
 
-We are trading economic growth for self-sufficiency (and a more conflict prone world according to econ lib).
+- We are trading economic growth for self-sufficiency (and a more conflict prone world according to econ lib).
 
-The key framing of trade by economic liberalism is one of expanding the proverbial pie.
+- The key framing of trade by economic liberalism is one of expanding the proverbial pie.
 
-Engaging in trade is not being exploited.
+- Engaging in trade is not being exploited.
+    - You get something for your money.
 
-- You get something for your money.
+- The current US trade deficit is big because US consumers like to buy cheap stuff from China.
+    - The deficit does NOT mean China is stealing from us.
 
-The current US trade deficit is big because US consumers like to buy cheap stuff from China.
-
-- The deficit does NOT mean China is stealing from us.
-
-AND, the more we depend on other countries for stuff, the safer the world becomes!
-
-<br>
-
-### Bottom line, what do we think, is the trade war worth the risks and the costs? Why or why not?
-
-<br>
-
-Today we're going to examine another important debate about trade.
-
-What is the big question at the heart of our readings for today?
-
+- AND, the more we depend on other countries for stuff, the safer the world becomes!
 
 
 
 ---
 
-class: middle, slidepurple
+background-image: url('libs/Images/background-watercolor_v2.png')
+background-size: 100%
+background-position: center
+class: middle
 
-.size50[.center[**Is international trade good for the developing world?**]]
+.size60[.center[**Is international trade "good" for the developing world?**]]
 
 <br>
 
-## Panagariya (2003)
+.center[.size55[
+**Panagariya (2003)**
 
-## Rodrik (2001)
+vs
+
+**Rodrik (2001)**
+]]
 
 ???
 
-Is increasing your exposure to international trade a good idea for developing states?
+Today we're going to examine another important debate about trade.
+
+Even if trade makes the world more peaceful, is it worth it for the developing world?
+
+- In other words, is increasing your exposure to international trade a good idea for developing states?
+
+<br>
 
 ### What is the conclusion of Panagariya's argument?
 
 
 ---
 
-class: middle, slidepurple
+background-image: url('libs/Images/background-watercolor_v2.png')
+background-size: 100%
+background-position: center
+class: middle
 
-.size50[.center[**Is international trade good for the developing world?**]]
+.size55[.center[**Is international trade "good" for the developing world?**]]
 
 ### Panagariya (2003)
 .size40[
@@ -338,9 +328,12 @@ class: middle, slidepurple
 
 ---
 
-class: middle, slidepurple
+background-image: url('libs/Images/background-watercolor_v2.png')
+background-size: 100%
+background-position: center
+class: middle
 
-.size50[.center[**Is international trade good for the developing world?**]]
+.size40[.center[**Is international trade "good" for the developing world?**]]
 
 ### Panagariya (2003)
 .size40[
@@ -356,6 +349,9 @@ class: middle, slidepurple
 
 ---
 
+background-image: url('libs/Images/background-watercolor_v2.png')
+background-size: 100%
+background-position: center
 class: middle
 
 .size50[.center[**Panagariya (2003)**]]
@@ -377,8 +373,6 @@ Therefore, trade benefits outweigh the costs for developing states.
 
 Let's start with Panagariya (2003).
 
-SLIDE
-
 Everybody take five minutes to diagram this argument.
 
 - Pull out the key premises in this argument.
@@ -398,9 +392,12 @@ Now combine diagrams with the person next to you (small groups).
 
 ---
 
+background-image: url('libs/Images/background-watercolor_v2.png')
+background-size: 100%
+background-position: center
 class: middle
 
-.size50[.center[**Panagariya (2003)**]]
+.size35[.center[**Panagariya (2003)**]]
 
 .size35[
 
@@ -425,9 +422,12 @@ Therefore, trade benefits outweigh the costs for developing states.
 
 ---
 
+background-image: url('libs/Images/background-watercolor_v2.png')
+background-size: 100%
+background-position: center
 class: middle
 
-.size50[.center[**Rodrik (2001)**]]
+.size45[.center[**Rodrik (2001)**]]
 
 .size40[
 
@@ -468,18 +468,22 @@ Ok, give me premises, let's diagram this version of the argument.
 
 ---
 
+background-image: url('libs/Images/background-watercolor_v2.png')
+background-size: 100%
+background-position: center
 class: middle
 
-.size50[.center[**Rodrik (2001)**]]
+.size35[
 
-.size30[
+1. Lowering barriers to trade does NOT guarantee growth
 
-1. Lowering barriers to trade and investment does NOT guarantee growth
-2. Success through open trade requires diverting money away from domestic needs toward VERY costly new policies / institutions
-3. Many "rules for admission into the world economy" are biased to benefit powerful states and undermine democratic institutions
+2. Trade success diverts money away from domestic needs
+
+3. Trade "rules" benefit powerful states and undermine democratic institutions
+
 4. Availability of foreign capital can encourage bad policies
-5. Slow and steady domestic growth allows successful engagement with trade, not vice-versa
 
+5. Slow and steady domestic growth allows successful engagement with trade, not vice-versa
 
 Therefore, developing countries should focus on growth through domestic investing and institutions, not trade.
 ]
@@ -497,7 +501,29 @@ Therefore, developing countries should focus on growth through domestic investin
 3. Many of trade's success stories were based on asian states (South Korea, China, India, Taiwan) liberalizing slowly, without requiring a complete re-structuring of their institutions.
 4. Not about increasing efficiency
 
-<br>
+
+
+
+---
+
+background-image: url('libs/Images/background-watercolor_v2.png')
+background-size: 100%
+background-position: center
+class: middle
+
+.size40[.center[**Is international trade "good" for the developing world?**]]
+
+### Panagariya (2003)
+.size40[
++ Therefore, trade benefits outweigh the costs for developing states.
+]
+
+### Rodrik (2001)
+.size40[
++ Therefore, developing countries should focus on growth through domestic investing and institutions, not trade.
+]
+
+???
 
 ### Ultimately, which argument is more convincing? Why?
 
@@ -510,3 +536,26 @@ If class seems totally sold on Rodrik:
 <br>
 
 #### 2. Panagariya ain't alone. Remember, Rodrik's plan might not be feasible if state is failed, corrupt or otherwise lacks the capacity to grow domestically in this way. In such a case, maybe opening to trade is better than nothing?
+
+
+
+---
+
+background-image: url('libs/Images/08-2-outlaw_war.webp')
+background-size: 70%
+background-position: center
+class: middle
+
+???
+
+Friday, an extension of economic liberalism!
+
+Could we use the lessons of liberal IR theory to achieve a perpetual peace across the globe?
+
+- e.g. an end to all war?
+
+<br>
+
+Photo here refers to the signing of the Kellogg-Briand Peace Pact.
+
+A treaty agreed in 1928 that tried to outlaw war permanently.
