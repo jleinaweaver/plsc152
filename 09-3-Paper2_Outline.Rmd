@@ -100,6 +100,18 @@ class: slideblue
 + Evidence x 2
 ]]
 
+???
+
+### Everybody have their outlines ready for feedback today?
+
+#### - 3 premises?
+
+#### - 2 pieces of evidence for each premise?
+
+<br>
+
+Ok, in a second we'll pair off and get feedback.
+
 
 
 
@@ -123,6 +135,14 @@ class: middle, slideblue
 + Is each premise clear enough?
 + Is each piece of evidence high enough quality?
 ]
+
+???
+
+### Questions on this process?
+
+Pair off and get to it!
+
+- In ten minutes or so we'll swap to new pairs!
 
 
 

@@ -36,9 +36,13 @@ class: slideblue
 
 <br>
 
-.size50[
-Select your strongest reasons for an outline
+.size65[
+Explore the Failure Cases
 ]
+
+<br>
+
+<br>
 
 <br>
 
@@ -49,204 +53,114 @@ Select your strongest reasons for an outline
 ???
 
 ## Prep for Class
-1. ...
+1. Review submissions of failure cases
+    - https://docs.google.com/document/d/1j6jyM2L5k0eeK02ajr7-IGPVBySXP2Nifl5fTNbGj2E/edit?usp=sharing
 
 <br>
 
 ### Current events check-in!
 
 
+
 ---
 
-class: middle, center, slideblue
+background-image: url('libs/Images/background-blue_triangles2.png')
+background-size: 100%
+background-position: center
+class: middle
 
-.size60[**Should the US use force (military or economic) to compel other states to behave in line with our interests?**]
+.size70[**Paper 2**]
 
 <br>
-<br>
 
-.size50[**For Today**]
-
-.size50[Brainstorm 8-10 reasons you picked this answer.]
+.size55[.center[Should the US use force (military or economic) to compel other states to behave in line with our interests?]]
 
 ???
 
-### Everybody ready to go with our assignment for today?
-
-<br>
-
-Before we dig into this let's refresh our memories on the excellent advice in the Farrell (2010) reading!
-
+### Questions on the prompt?
 
 
 
 ---
 
-class: middle, slidegreen
+background-image: url('libs/Images/background-blue_triangles2.png')
+background-size: 100%
+background-position: center
+class: middle
 
-.size60[**Farrell's (2010) Writing Advice**]
+.size60[**For Today**]
 
-.size40[
-1. Read the Requirements for the Assignment
+<br>
 
-2. Avoid Data Dumps
+.size45[
+Find us a .textblue[**specific**], real world case of the US using force (military or economic) to change the behavior of another state but .textblue[**failing**] to achieve its aims.
 
-3. Cut to the Chase
-
-4. Organize, Organize, Organize
-
-5. Exercises in Style
+Submit the .textblue[**APA citation**] before class (no overlap!).
 ]
 
 ???
 
-### Any questions on these sections / pieces of advice?
+### Has everyone submitted their citation to the shared Google Doc?
 
-(Sec 1: Make sure you are answering the question that was asked!)
+Ok, take a few minutes and review all of the sources.
 
-(Sec 2: You may know a lot of stuff about a topic, but "stuff" is not the same thing as an argument)
-
-(Sec 3: Make sure your argument paper gets to making its argument from the get-go)
-
-(Focus your introduction on making three things clear:)
-1. What is the question?
-2. Why should we care?
-3. What is your argument.
-
-(Focus every paragraph on your argument!)
-- No background for the sake of background
-
-(Sec 4: Macro, Meso and Micro Structures)
-
-(Sec 5: Use "simple, direct writing, which communicates its arguments and evidence as clearly and unambiguously as possible" p6)
+### Are all of these formatted correctly?
 
 
 
 ---
 
-class: middle, center, slidegreen
+background-image: url('libs/Images/background-blue_triangles2.png')
+background-size: 100%
+background-position: center
+class: middle
 
-.size60[**To be convincing an argument should be .textred[logical], .textred[clear], .textred[credible] and .textred[critical].**]
+.size60[**Let's Explore your Cases!**]
 
-???
+.size45[
+1. What state did the US target?
 
-All of this good advice is, hopefully, represented by our class writing rubric.
+2. Why were they targeted?
 
-Remember, our class writing rubric tells you that a convincing an argument should be logical, clear, credible and critical.
+3. What specifically did the US do to that state?
 
-
-
-
----
-
-class: middle, slidegreen
-
-.size50[**Convincing arguments...**]
-
-.size40[
-+ .textred[**Logical**]: Do the premises support the conclusion?
-
-+ .textred[**Clear**]: Is the paper easy to read and understand?
-
-+ .textred[**Credible**]: Is there enough high quality evidence (cited using APA)?
-
-+ .textred[**Critical**]: Does the paper address weaknesses in the argument (e.g. logic, evidence, consider counter-arguments)?
+4. Why do you believe this was a failure?
 ]
 
 ???
 
-### As you are now working on the second paper, do you have any questions or need clarifications about our rubric?
+Let's hear your evidence in support of an interventionist America!
+
+Everybody take a couple minutes and get ready to present your case as an answer to these four questions.
 
 <br>
 
-I grade using this rubric.
-
-Basically, I read your paper and then ask myself four questions.
-
+Ok, let's hear your cases!
 
 
 
 ---
 
-class: middle, center, slideblue
+background-image: url('libs/Images/background-blue_triangles2.png')
+background-size: 100%
+background-position: center
+class: middle
 
-.size60[**Should the US use force (military or economic) to compel other states to behave in line with our interests?**]
+.size70[**Paper 2**]
 
 <br>
-<br>
 
-.size50[**For Today**]
-
-.size50[Brainstorm 8-10 reasons you picked this answer.]
+.size55[.center[Should the US use force (military or economic) to compel other states to behave in line with our interests?]]
 
 ???
 
-So, this is what everyone prepared for today.
+*Form groups of 3*
 
+In small groups you now have X minutes to brainstorm an argument that answers this question in the negative.
 
+I want to hear your strongest premises against an interventionist America!
 
----
-
-class: middle, slidegreen
-
-.size60[.center[**The "best" premises are...**]]
-
-.size50[
-1. Clear,
-
-2. A complete idea (sentence),
-
-3. Logically connected to the conclusion, and
-
-4. Could be supported by evidence.
-]
-
-???
-
-Keep in mind, not all premises are created equal.
-
-HOWEVER, to be an actual premise in an argument each needs to be:
-
-### Questions on this list of criteria?
-
-
-
----
-
-class: middle, slideblue
-
-.size50[.center[**Should the US use force (military or economic) to compel other states to behave in line with our interests?**]]
-
-<br>
-
-.size40[
-1. Write your thesis statement across the top of a piece of paper:
-    + "Therefore, the US should / should not use force..."
-
-2. Write your list of 8-10 reasons below the thesis.
-]
-
-???
-
-As you do this, please keep the criteria for a good premise in mind!
-
-These should be 8-10 complete sentences / ideas!
-
-<br>
-
-### Everybody ready?
-
-Ok, now stand up and review everyone elses' argument diagrams.
-
-Bring a pen and vote on the premises you think are strongests in each diagram.
-
-Put a check mark next to the ones you think are strongest.
-
-<br>
-
-Ok, take a look at the votes.
-
-Be sure to reflect on the results of this before moving to your next steps.
+*Share and Discuss*
 
 
 

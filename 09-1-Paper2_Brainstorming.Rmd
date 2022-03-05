@@ -37,7 +37,7 @@ class: slideblue
 <br>
 
 .size45[
-Brainstorm answers to our second paper prompt
+Explore the Success Cases
 ]
 
 <br>
@@ -49,43 +49,60 @@ Brainstorm answers to our second paper prompt
 ???
 
 ## Prep for class
-1. Prep Google Doc for collecting citations (prompt and names)
+1. Review submissions of success cases
+    - https://docs.google.com/document/d/1BAWHKKjeiTdfzLzpPedE-mpHdaSoGL_Uf8MpIMH6BV0/edit?usp=sharing
 
-2. Send email with link for the class
+2. Prep email with link to Google Doc for collecting unsuccessful cases
+    - https://docs.google.com/document/d/1j6jyM2L5k0eeK02ajr7-IGPVBySXP2Nifl5fTNbGj2E/edit?usp=sharing
 
-???
+<br>
 
-### Current event check-in?
+### Current events check-in?
 
 
 
 ---
 
-class: middle, slideblue
+background-image: url('libs/Images/background-blue_triangles2.png')
+background-size: 100%
+background-position: center
+class: middle
+
+.size70[**Paper 2**]
+
+<br>
+
+.size55[.center[Should the US use force (military or economic) to compel other states to behave in line with our interests?]]
+
+???
+
+### Questions on the prompt?
+
+
+
+
+---
+
+background-image: url('libs/Images/background-blue_triangles2.png')
+background-size: 100%
+background-position: center
+class: middle
 
 .size60[**For Today**]
 
 <br>
 
-.size35[.center[**Should the US use force (military or economic) to compel other states to behave in line with our interests?**]]
+.size45[
+Find us a .textblue[**specific**], real world case of the US using force (military or economic) to .textblue[**successfully**] change the behavior of .textblue[**another state**].
 
-.size35[
-Bring one piece of .textred[**HIGH QUALITY**] published evidence you can use to answer the question.
-
-Be ready to provide the class with a correctly formatted, .textred[**APA style citation**] for your piece of evidence (see the Purdue OWL for guidance).
+Submit the .textblue[**APA citation**] before class (no overlap!).
 ]
 
 ???
 
 We had an assignment for today.
 
-Everybody submit your citation to the shared document.
-
-Link in your email.
-
-<br>
-
-### Has everyone submitted their citation to the shared google doc?
+### Has everyone submitted their citation to the shared Google Doc?
 
 
 
@@ -122,49 +139,98 @@ Remember, the goal here is to help each other.
 
 <br>
 
-### Are all of these examples of evidence that is high enough quality? Why or why not?
+### Are all of these examples of evidence that is high enough quality to answer our big question? Why or why not?
 
 
 
 
 ---
 
-class: middle, center, slideblue
+background-image: url('libs/Images/background-blue_triangles2.png')
+background-size: 100%
+background-position: center
+class: middle
 
-.size60[**Should the US use force (military or economic) to compel other states to behave in line with our interests?**]
+.size60[**Let's Explore your Cases!**]
 
-<br>
-<br>
+.size45[
+1. What state did the US target?
 
-.size50[Discuss the options in our cases.]
+2. Why were they targeted?
 
-???
+3. What specifically did the US do to that state?
 
-Let's hear our options!
-
-Go around the room and give us your proposed answer to the question.
-
-
-
----
-
-class: middle, slideblue
-
-.size70[**For Wednesday**]
-
-<br>
-
-.size50[
-1. Pick a single answer for your paper, 
-
-2. Brainstorm 8-10 reasons you picked this answer.
-
+4. Why do you believe this was a success?
 ]
 
 ???
 
-I know this sounds like a lot of reasons, but I want you to push yourself to build a big lost of possible premises.
+Let's hear your evidence in support of an interventionist America!
 
-You're going to narrow down to three or four in the end, but we want to intentionally start very broadly.
+Everybody take a couple minutes and get ready to present your case as an answer to these four questions.
 
-### Questions on the assignment?
+<br>
+
+Ok, let's hear your cases!
+
+
+
+---
+
+background-image: url('libs/Images/background-blue_triangles2.png')
+background-size: 100%
+background-position: center
+class: middle
+
+.size70[**Paper 2**]
+
+<br>
+
+.size55[.center[Should the US use force (military or economic) to compel other states to behave in line with our interests?]]
+
+???
+
+*Form groups of 3*
+
+In small groups you now have X minutes to brainstorm an argument that answers this question in the affirmative.
+
+I want to hear your strongest premises in favor of an interventionist America!
+
+*Share and Discuss*
+
+
+
+---
+
+background-image: url('libs/Images/background-blue_triangles2.png')
+background-size: 100%
+background-position: center
+class: middle
+
+.size60[**For Wednesday**]
+
+<br>
+
+.size45[
+Find us a .textblue[**specific**], real world case of the US using force (military or economic) to change the behavior of another state but .textblue[**failing**] to achieve its aims.
+
+Submit the .textblue[**APA citation**] before class (no overlap!).
+]
+
+???
+
+**Send email to class!**
+
+For Wednesday everyone has to find us a real world example we could use to make the negative case.
+
+- e.g. The US should NOT use force!
+
+<br>
+
+You must submit the citation to your evidence before class.
+
+- No overlapping cases!
+
+- First-come, first-served!
+
+### Questions on the prompt?
