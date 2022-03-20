@@ -54,9 +54,9 @@ Welcome to the prisoner's dilemma (mark 2)
 1. Reserve the extra room(s)
 
 2. Print your notes
-
-- Game table and tracking sheet
-- Have leaders make a list of all members of their group at beginning of exercise (that will be what they use for distributing benefits)
+    - Game table and tracking sheet
+    - Have leaders make a list of all members of their group at beginning of exercise (that will be what they use for distributing benefits)
+    - You'll need to record leadership points every two rounds
 
 <br> 
 
@@ -90,6 +90,8 @@ class: middle, slideblue
 
 Today we replay our prisoners' dilemma game from week four but with a few newly added wrinkles.
 
+<br>
+
 Just like last time we have three basic rules:
 
 - A single game played across multiple rounds.
@@ -118,9 +120,9 @@ background-position: center
 
 Today's PD game has been updated to add additional elements that are crucial to thinking about international political events.
 
-Each group is a democratic country with a soon to be elected leader.
+- Each group is a democratic country with a soon to be elected leader.
 
-Each round of the game is a negotiation between the two leaders with a goal of bringing points back to their groups.
+- Each round of the game is a negotiation between the two leaders with a goal of bringing points back to their groups.
 
 ### Make sense so far?
 
@@ -189,9 +191,9 @@ class: middle, slideblue
 
 + Negotiates
 
-+ Distributes Rewards
++ Distributes All Rewards
 
-+ Personal benefits
++ Receives Personal Benefits
 ]]
 
 .pull-right[
@@ -202,15 +204,16 @@ knitr::include_graphics('libs/Images/09_1-skipper.jpg')
 
 ???
 
-Elected by a simple majority,
+- Elected by a simple majority,
 
-Empowered to negotiate with the other leader (if they choose),
+- Empowered to negotiate with the other leader (if they choose),
 
-Distributes all points received by the country, and
+- Distributes all points received by the country, and
 
-Receives a personal benefit for being the leader.
-
-+ Every two rounds you survive as leader you will receive +3 points all for you (cannot be redistributed)
+- Receives a personal benefit for being the leader.
+    - Every two rounds you survive as leader you will receive +3 points all for you (cannot be redistributed)
+    
+<br>
 
 ### Any questions on the powers of the leader?
 
@@ -276,7 +279,7 @@ When you get there:
 
 1. pick your leader,
 
-2. Leaders make a list of all citizens in your country, and 
+2. Leaders take a census (e.g. make a list of all citizens in your country), and 
 
 3. Get ready for round 1 of 7.
 

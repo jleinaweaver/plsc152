@@ -76,76 +76,201 @@ background-position: center
 
 On Monday we re-played our prisoners' dilemma from earlier in the semester with a few added wrinkles.
 
-Before we dig into what happened, the leader has a job to do.
+<br>
 
-Leader, please come to the front of the room and announce your decision.
+Before we dig into what happened, the leaders have a job to do.
 
-* After announcement *
+Leader A, please come to the front of the room and announce your decision.
 
-### Ok, are we all done?
+### Anybody in group A want to call for an immediate election to replace the leader before the points are distributed?
 
-### Anybody in the winning group want to call for an immediate election?
-#### - Why or why not?
+<br> 
 
-### Anybody with an alternative proposal?
-#### - Why or why not?
+Leader B, please come to the front of the room and announce your decision.
+
+### Anybody in group B want to call for an immediate election to replace the leader before the points are distributed?
+
+<br>
+
+Alright, let's review what happened in our simulation!
 
 
 
 ---
 
-background-image: url('libs/Images/09_1-PD_Table2.png')
-background-size: 100%
-background-position: bottom
-
-.size50[.center[**A Competitive Prisoner's Dilemma**]]
+background-image: url('libs/Images/10-2-Decision.jpg')
+background-size: 83%
+background-position: center
 
 ???
 
-Let's start discussing your experience of the game.
+Let's start by discussing the strategic approach each of you brought to the game individually.
 
-## Relative vs absolute gains
-
-### 1. Do we think this version of the game got us closer to real-world negotiations? Why or why not?
-
-### Do we tend to think of international negotiations as zero-sum affairs like this was?
-
-### Were you playing to win or to prevent the other side from winning? Is there a difference?
-
-<br>
-
-## The role of trust
-
-### 2. Did you find adding the negotiator and negotiating between rounds helpful? Why or why not?
-
-### Did you trust the other team's negotiator?
-
-### Did you trust your own negotiator?
+### What decisions did each of you have to make each round within your groups?
+- *ON BOARD*
+- Vote: Vote for leader,
+- Choose to Participate: Participate in the group decision-making,
+- Choose to Advocate: Advocate for one or the other decision in the group decision-making
+- ?
 
 <br>
 
-## Within vs Across group dynamics
-### 3. Did you find it harder to negotiate within your group or with the other group? Why?
+### Brainstorm: What characteristics predict when a citizen will choose to be active in these scpecific ways in their democracy?
+- *ON BOARD*
 
 <br>
 
-## Power of the leader
-### 4. How powerful was the leader of each side in this game?
+### Did our simulation represent these decisions in a useful way (e.g. how people face these choices in the political world everyday)? Why or why not?
+
+
+---
+
+class: middle, center
+
+.size50[.center[.content-box-blue[**Prisoner's Dilemma (v2)**]]]
+
+<br>
+
+```{css, echo=F}
+/* Change the background color to white for shaded rows (even rows) */
+.remark-slide thead, .remark-slide tr:nth-child(2n) {
+      background-color: white;
+}
+```
+
+```{r}
+library(kableExtra)
+
+tibble(
+  col1 = c("Group 1", ""),
+  col2 = c("Cooperate", "Defect"),
+  Cooperate = c("+3, +3", "+5, -2"),
+  Defect = c("-2, +5", "-1, -1")
+) |>
+  kbl(align = c("l", "l", "c", "c"), col.names = c("", "", "Cooperate", "Defect")) |>
+  add_header_above(c(" " = 2, "Group 2" = 2)) |>
+  column_spec(column = 1:2, bold = TRUE, width = "20em") |>
+  column_spec(column = 3:4, background = "#b3ccff", width = "20em") |>
+  kable_styling(font_size = 40, bootstrap_options = "basic")
+```
+
+???
+
+Now let's discuss the strategic approach of each group as a collective.
+
+### On the whole, what motivated your group?
+
+#### - How much consensus was there on the strategic goals of the group?
+
+#### - How much consensus was there on your round-to-round tactical decisions?
+
+<br>
+
+### Was your group motivated by obtaining relative or absolute gains? In other words, were you playing to win or to prevent the other side from winning? 
+
+<br>
+
+### Brainstorm: What characteristics of a problem or of a group predict when a group will prefer relative over absolute gains and vice versa?
+- *ON BOARD*: Relative Gains Concerns: Problem Chars vs Group Chars
+
+
+
+
+
+---
+
+background-image: url('libs/Images/10-2-How-to-negotiate-a-deal.jpg')
+background-size: 100%
+background-position: center
+
+???
+
+The role of trust in a negotiation
+
+### Did you find adding the negotiations between rounds helpful? Why or why not?
+
+<br>
+
+### Did you trust your own leader as a negotiator even though they were earning their own benefits?
+
+#### - Were you confident your leader was reporting back the negotiation results to you accurately?
+
+<br>
+
+### Did you trust the word of the other team's leader as a negotiator? Why or why not?
+
+
+
+
+
+---
+
+background-image: url('libs/Images/10-2-group_dynamics.jpg')
+background-size: 100%
+background-position: center
+
+???
+
+Within vs Across group dynamics
+
+### Was it difficult to figure out the preferences of the other group based on their choices each round?
+
+<br>
+
+### Did the arguments made during the negotiations matter to you? Why or why not?
+
+<br>
+
+### Brainstorm: What characteristics predict greater levels of trust in an opposing group?
+
+
+
+---
+
+background-image: url('libs/Images/10-2-powerful_leader.jpg')
+background-size: 100%
+background-position: center
+
+???
+
+Power of the leader
+
+### How powerful was the leader (or leaders) of your group?
+
+<br>
 
 ### Did either side elect a new leader during the game? Why or why not?
 
-### Leaders, did you feel that the threat of elections changed your behavior? Why or why not?
+<br>
 
-### Winning leader, why did you distribute the points as you did?
+### Leaders, did you feel constrained by the other citizens in your state? Why or why not?
 
 <br>
 
-## Our Takeaway
+### Brainstorm: What characteristics are necessary for a leader to feel constrained by their citizens? Why not just do only what you want to enrich yourself?
+- *ON BOARD*
 
-### How did that play of the game influence the way you think about the impact of domestic politics on international political outcomes?
+<br>
 
-### Anybody more convinced that domestic politics matters?
-#### - Why or why not?
+### How could we have changed the rules to make being the leader a more attractive job?
+
+
+
+---
+
+background-image: url('libs/Images/10-2-global-negotation.png')
+background-size: 100%
+background-position: center
+
+???
+
+Our Takeaways
+
+### In what specific ways did this version of the game get us closer to real-world negotiations?
+
+<br>
+
+### Does our game convince you that domestic politics matters for understanding international outcomes? Why or why not?
 
 
 
@@ -179,13 +304,17 @@ Ok, talk to me about the spat between the UK and France described in our NYT art
 
 <br>
 
-### What does macron actually want from this interaction?
+### What does Macron actually want from this interaction?
 
 #### - Is it about fish? Nuclear subs? Or something else?
 
 <br>
 
 ### What does Boris Johnson want?
+
+<br>
+
+### Is this strong evidence that domestic politics matters for understanding international outcomes? Why or why not?
 
 
 
@@ -216,6 +345,14 @@ Ok, let's shift to the FP article about Iran.
 
 <br>
 
+### Is this strong evidence that domestic politics matters for understanding international outcomes? Why or why not?
+
+<br>
+
+Let's talk about how IR scholars have sought to formalize our thinking about the role of domestic politics in international politics.
+
+
+
 
 ---
 
@@ -229,26 +366,26 @@ Robert Putnam is a political scientist who wrote a great deal about modeling int
 
 In a 1988 paper he introduced the concept of a two level game.
 
-Putnam argued that we could think usefully about international negotiations as a two level game.
+- Putnam argued that we could think usefully about international negotiations as a two level game.
 
-### Tell me about the two levels
+On the first level, leaders are actively negotiating with other leaders.
 
-#### - What does the first represent?
-(On the first level, leaders negotiated with each other.)
+On the second level, leaders are actively negotiating with their supporters to stay in power.
 
-#### - And the second?
-(On the second level, leaders are negotiating with their supporters to stay in power.)
+<br>
 
-#### - Which "level" happens first?
-(They happen simultaneously!)
+### Anybody know which "level" happens first in this game?
+- (They happen simultaneously!)
 
-#### - How do the two levels interact?
-(Moves made on one game board can move the pieces on the other board.)
-(Moves that make no sense on one level might make perfect sense on the other.)
+And, even more importantly, the two levels interact!
+
+- Moves made on one game board change the layout of the pieces on the other board!
 
 <br>
 
 The takeaway is that domestic politics influences international outcomes in a fundamental and inseparable way.
+
+- Moves that make no sense on one level might make perfect sense on the other.
 
 Let's look at an example of this dynamic in play.
 
@@ -264,11 +401,11 @@ background-position: center
 
 In April a few years back (2013) the North Korean news service released a series of photos showing Kim Jong Un preparing war plans for the US.
 
-The US is on many of the maps with missile targets painted on some of our cities.
+- The US is on many of the maps with missile targets painted on some of our cities.
 
 <br>
 
-### Does anybody think north korea is about to attack the us mainland? Why not?
+### Does anybody think North Korea was actually close to attacking the US mainland as indicated by these photos? Why not?
 
 Important to keep in mind, often world leaders are playing multiple games simultaneously.
 
@@ -292,12 +429,15 @@ background-position: center
 
 ### Think back to our game on monday, in what ways did that game reflect two level dynamics?
 
+<br>
 
 ### Any efforts by leaders to appease domstic interests?
 
+<br>
 
 ### Any efforts by negotiators to move the negotiation based on the threat of domestic politics?
 
+<br>
 
 ### Any evidence that the flow of the negotiation changed the support for the leader?
 
@@ -315,21 +455,36 @@ As we discovered when talking about the bargaining model of war, Thomas Schellin
 
 ### Has anybody ever heard of the Schelling Conjecture?
 
-### Thinking back to week 6, what do you remember from Schelling's approach to diplomacy?
+<br>
+
+### Remind me, how does Schelling define "diplomacy"?
+(bargaining where two sides agree a deal in which they both lose something to avoid a much worse outcome.)
 
 <br>
 
-#### - How does Schelling define "diplomacy"?
-(bargaining where two sides agree a deal in which they both lose something to avoid a much worse outcome.)
+### And, where does bargaining power come from?
+- (SLIDE)
 
-#### - Where does bargaining power come from?
-(The "power to hurt.")
+
+
+
+---
+
+background-image: url('libs/Images/06_3-diplomacy1.png')
+background-size: 47%
+background-position: center
+
+???
+
+
+The "power to hurt."
 - "The power to hurt" means the threat of pain, shock, loss and grief, privation and horror to motivate others to do what we want.
+
 - All about the threat, not the action
 
-#### - And how does Schelling suggest you put this plan into action during a negotiation?
-(1. Know what your adversary treasures and what scares them.)
-(2. Communicate what they must do to avoid this "hurt.")
+### How does Schelling suggest you put this plan into action during a negotiation?
+1. (Know what your adversary treasures and what scares them.)
+2. (Communicate what they must do to avoid this "hurt.")
 
 <br>
 
@@ -362,25 +517,25 @@ knitr::include_graphics("libs/Images/09_2-moneybags.png")
 
 ???
 
-On the one side is the billionaire factory owner and on the other his workforce of children making 10 cents an hour.
+Let's discuss a hypothetical negotiation.
+
+- On the one side is a billionaire factory owner and on the other his workforce of children making 10 cents an hour.
 
 Imagine it is time for these workers to renegotiate their contracts with the big boss.
 
-### Which actor has more power before the negotiation begins? Why?
+### In what specific ways is the factory owner vulnerable?
+
+### In what specific ways are the workers vulnerable?
 
 ### Who has more power in this specific bargaining situation? Why?
 
-*Encourage each side get presented*
-
 Big boss:
-
-+ (Has all the money)
-+ (Workers can be easily divided, picked off one-by-one)
-+ (Appears to be low-skill work so they can be replaced)
+- (Has all the money)
+- (Workers can be easily divided, picked off one-by-one)
+- (Appears to be low-skill work so they can be replaced)
 
 Workers:
-
-+ (Not so much, they are literally children in this example.)
+- (Not so much, they are literally children in this example.)
 
 <br>
 
@@ -398,49 +553,16 @@ background-position: center
 ???
 
 ### Why does unionizing strengthen the workers position in the bargaining?
+1. An attempt to reduce the vulnerabilities of the workers
+    - Union dues build up a savings account that can be used to keep the workers alive during the strike
 
-(IFF they can stay organized:)
-
-+ (Much harder to replace everyone all at once)
-+ (All workers together can do some real harms to profits if they want to)
-+ (Training a brand new workforce is costly and time consuming)
-
+2. An attempt to make one of the boss's vulnerabilities worse
+    - Unifying the working class also denies the boss a ready pool of new employees (scabs) to replace the striking workers    
+    - Training a brand new workforce is costly and time consuming
+    
 <br>
 
-So, the workers elect a single representative to go negotiate with the boss.
-
-### What factors determine the power of the workers' representative?
-
-(Depends on two things:)
-
-+ (How much support she has from the workers)
-+ (How much discretion she has to negotiate)
-
-<br>
-
-### 1. Why is support important to bargaining power?
-(If the boss knows the leader is not fully supported, he doesn't have to take him seriously)
-
-+ Also may be possible to break the union into pieces)
-
-<br>
-
-### 2. WHY IS DISCRETION LINKED TO BARGAINING POWER? WHAT DOES THAT MEAN?
-(How much room you have to negotiate.)
-
-+ How wide is your "win-set"?
-
-Having wide discretion means you are trusted by the union members.
-
-<br>
-
-We discussed win-sets a bit when we explored Fearon's bargaining model of war.
-
-### Can anybody define the win-set for us?
-
-(A "win-set" is an important concept in models of bargaining.)
-
-(It is the range of possible outcomes you would find acceptable.)
+So, the kids unionize and elect a union president to negotiate on their behalf.
 
 
 
@@ -485,13 +607,15 @@ In a simplified, economic sense, we can think about this upcoming negotiation be
 The workers currently earn 10 cents an hour and would like more.
 
 
+
 ---
 
 ```{r, fig.retina=3, fig.align='center', fig.width = 8, fig.asp = 0.618, out.width = '100%'}
-# Win set for the boss 700x400
+# Win set for both 700x400
 x <- 1:10
 y <- 1:10
 
+par(mar = c(2,2,2,2)) # BLTR
 plot(x,y, xlab = '', ylab = '', type = 'n', xaxt = 'n', yaxt = 'n', bty = 'n')
 
 # The number line / bargaining space
@@ -499,32 +623,46 @@ arrows(x0 = 1, y0 = 2, x1 = 10, y1 = 2, length = .1, code = 3)
 segments(x0 = 2:9, y0 = 1.9, x1 = 2:9, y1 = 2.1)
 text(x = 2:9, y = 1.5, labels = str_c('$', seq(.1,.8,.1), 0))
 
-# The Boss
-arrows(x0 = 2, y0 = 8, x1 = 4, y1 = 8, length = .05, angle = 90, code = 3)
-text(x = 1.5, y = 8, labels = "Boss")
-text(x = 2, y = 9, labels = "$0.10")
-text(x = 4, y = 9, labels = "$0.30")
-
 # Current salary
 arrows(x0 = 2, y0 = 2.5, x1 = 2, y1 = 3.5, length = .1, code = 1, col = 'red')
 text(x = 2, y = 4, labels = "Current Salary", col = "red")
+
+# The Boss
+# arrows(x0 = 2, y0 = 8, x1 = 4, y1 = 8, length = .05, angle = 90, code = 3)
+# text(x = 1.5, y = 8, labels = "Boss")
+# text(x = 2, y = 9, labels = "$0.10")
+# text(x = 4, y = 9, labels = "$0.30")
+
+# The Workers
+arrows(x0 = 3.5, y0 = 5, x1 = 10, y1 = 5, length = .1, code = 2)
+arrows(x0 = 3.5, y0 = 5, x1 = 10, y1 = 5, length = .05, angle = 90, code = 1)
+text(x = 1.5, y = 5, labels = "Workers")
+text(x = 3.5, y = 6, labels = "$0.25")
 ```
 
 ???
 
-The boss would be happy paying any amount between 10 and 30 cents per hour.
+Here we see the workers' demands as a win-set.
 
-He'd prefer the low end of this range but anywhere in it is still more profitable than a general strike.
+- We discussed win-sets a bit when we explored Fearon's bargaining model of war.
 
-### Let's say you are the big boss, what should your opening position be? Why?
+- A "win-set" is an important concept in models of bargaining.
 
-Remember, you don't know the win-set for the workers!
-
-*Encourage this discussion*
+- It is the range of possible outcomes you would find acceptable.
 
 <br>
 
-### And how would the workers respond to this offer?
+Here we see the workers would be happy with any salary at or above $.25 per hour.
+
+### If you were the union president how much would you make as your opening demand? Why?
+- *DISCUSS*
+
+<br>
+
+Of course, the wisdom of your opening gambit depends A TON on the win-set of the "big boss"!
+
+
+
 
 ---
 
@@ -556,40 +694,70 @@ text(x = 3.5, y = 6, labels = "$0.25")
 
 ???
 
-Depends on their win-set!
+So, here's the information you didn't have when making your opening demand.
 
-Here we can see both sides' hypothetical win-sets.
-
-The workers would be happy earning any salary over 25 cents per hour.
-
-<br>
-
-### So, how does a win-set diagram help us to think about bargaining?
-
+### What do we learn from mapping the two win-sets in this figure?
 #### - How can this help us predict what will happen?
-
-(- Agreement can only happen where the two line segments overlap)
-
-(- The wider the area of overlap, the greater the likelihood of agreement)
-
-(- Both sides incentivized to misrepresent the size of their win-set to the other side)
+- (Agreement can only happen where the two line segments overlap)
+- (The wider the area of overlap, the greater the likelihood of agreement)
 
 <br>
 
-### If you are the union rep, what's your opening proposal? Why?
+### Why can't each side simply tell the other side what their win-set is?
+- *Force discussion*
 
-*Encourage this discussion*
+I mean, you can, but you have an incentive to lie and they have an incentive to assume you are lying...
 
 <br>
+
+This is where independent mediators can play a role.
+
+- If both sides trust the mediator and can reveal their true win-sets to them, the mediator can help the sides find a mutually satisfactory agreement.
+
+- In this case, somewhere between .25 and .30 cents per hour.
+
+
+
+
+---
+
+```{r, fig.retina=3, fig.align='center', fig.width = 8, fig.asp = 0.618, out.width = '100%'}
+# Win set for both 700x400
+x <- 1:10
+y <- 1:10
+
+par(mar = c(2,2,2,2)) # BLTR
+plot(x,y, xlab = '', ylab = '', type = 'n', xaxt = 'n', yaxt = 'n', bty = 'n')
+
+# The number line / bargaining space
+arrows(x0 = 1, y0 = 2, x1 = 10, y1 = 2, length = .1, code = 3)
+segments(x0 = 2:9, y0 = 1.9, x1 = 2:9, y1 = 2.1)
+text(x = 2:9, y = 1.5, labels = str_c('$', seq(.1,.8,.1), 0))
+
+# The Boss
+arrows(x0 = 2, y0 = 8, x1 = 4, y1 = 8, length = .05, angle = 90, code = 3)
+text(x = 1.5, y = 8, labels = "Boss")
+text(x = 2, y = 9, labels = "$0.10")
+text(x = 4, y = 9, labels = "$0.30")
+
+# The Workers
+arrows(x0 = 3.5, y0 = 5, x1 = 10, y1 = 5, length = .1, code = 2)
+arrows(x0 = 3.5, y0 = 5, x1 = 10, y1 = 5, length = .05, angle = 90, code = 1)
+text(x = 1.5, y = 5, labels = "Workers")
+text(x = 3.5, y = 6, labels = "$0.25")
+```
+
+???
 
 Now, this is where the Schelling Conjecture comes into play.
 
+- The Schelling Conjecture is a risky strategy you can employ to try and get more of what you want from a negotiation in which mediation is unavailable.
+
 Schelling argued that wide discretion made a deal more likely, but the terms of that deal would be less likely to be in your favor.
 
-Per this overlap a deal is entirely possible although neither side will be very happy.
+- Per this overlap a deal is entirely possible around 25 or 30 cents although neither side will be very happy.
 
-It would be at the top of the boss's range and the bottom of the workers'.
-
+- It would be at the top of the boss's range and the bottom of the workers'.
 
 
 
@@ -624,11 +792,13 @@ text(x = 4, y = 6, labels = "$0.30")
 
 ???
 
-Schelling argued that a smart union rep would limit her own discretion and use that to push for a better deal.
-
-SLIDE
+Schelling argued that a smart union president should become weaker IN ORDER to get stronger.
 
 So, right before the negotiation the rep stands in front of the crowd and pledges, "I would NEVER accept a deal of less than 30 cents per hour!"
+
+If I ever took a deal for less than .30 cents you should fire me!
+
+<br>
 
 ### How does this alter the bargaining with the big boss?
 
@@ -669,7 +839,7 @@ text(x = 4, y = 6, labels = "$0.30")
 
 ???
 
-What if you estimate the other side's win set incorrectly.
+What if you estimate the other side's win set incorrectly?
 
 Here a demand for anything above 20 cents makes a deal impossible.
 
@@ -693,7 +863,7 @@ background-position: center
 
 Let's look at an example in international politics.
 
-SLIDE
+<br>
 
 Not too long ago, Pres. Obama went to an international conference to convince the world to help in the fight against ISIS.
 
@@ -717,7 +887,7 @@ background-position: center
 
 So, he was able to say to those countries, I'd love to help on this but my hands are tied.
 
-For the purposes of this negotiation, the issue of Guantanamo must come off the table or the negotiation is over.
+- For the purposes of this negotiation, the issue of Guantanamo must come off the table or the negotiation is over.
 
 <br>
 
@@ -742,21 +912,17 @@ There are also situations where, as in a good marriage, sometimes we use our par
 
 This kind of dynamic happens and sometimes we don't realize it.
 
+<br>
+
 During the negotiations over the Copenhagen Accord to fight climate change Obama frequently used the threat of a Republican Congress to extract better terms for the US.
 
-He could credibly claim that they would only ratify deals they loved so better give him what he wants.
-
-Of course, all of this invites the question of whether or not the president fighting with Congress is real vs a bit of theater to get better international deals...
-
-This means that sometimes Congress and the President may be fighting with each other but the intended audience is international and not domestic!
-
-It also means it is extra challenging for us as social scientists to understand if the signals sent by world leaders are meant for their domestic game, the international game or both.
-
-### Make sense?
+- He could credibly claim that they would only ratify deals they loved so better give him what he wants.
 
 <br>
 
-### Any questions on the two level game model or the Schelling Conjecture?
+Of course, all of this invites the question of whether or not the president fighting with Congress is real vs a bit of theater to get better international deals...
+
+- This means that sometimes Congress and the President may be fighting with each other but the intended audience is international and not domestic!
 
 
 
@@ -779,3 +945,20 @@ knitr::include_graphics("libs/Images/10_1-French_Ambassador2.png")
 ```
 
 ]
+
+???
+
+It also means it is extra challenging for us as social scientists to understand if the signals sent by world leaders are meant for their domestic game, the international game or both.
+
+### In this case how do we tell if Macron is negotiating with us or preparing for the next presidential election?
+
+<br>
+
+### Make sense?
+
+<br>
+
+### Any questions on the two level game model or the Schelling Conjecture?
+
+
+
