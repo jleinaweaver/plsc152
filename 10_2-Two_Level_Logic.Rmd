@@ -107,7 +107,6 @@ background-position: center
 Let's start by discussing the strategic approach each of you brought to the game individually.
 
 ### What decisions did each of you have to make each round within your groups?
-- *ON BOARD*
 - Vote: Vote for leader,
 - Choose to Participate: Participate in the group decision-making,
 - Choose to Advocate: Advocate for one or the other decision in the group decision-making
@@ -188,40 +187,19 @@ background-position: center
 The role of trust in a negotiation
 
 ### Did you find adding the negotiations between rounds helpful? Why or why not?
+#### - Did the arguments made during the negotiations matter to you? Why or why not?
 
 <br>
 
 ### Did you trust your own leader as a negotiator even though they were earning their own benefits?
 
-#### - Were you confident your leader was reporting back the negotiation results to you accurately?
-
 <br>
 
 ### Did you trust the word of the other team's leader as a negotiator? Why or why not?
 
-
-
-
-
----
-
-background-image: url('libs/Images/10-2-group_dynamics.jpg')
-background-size: 100%
-background-position: center
-
-???
-
-Within vs Across group dynamics
-
-### Was it difficult to figure out the preferences of the other group based on their choices each round?
-
 <br>
 
-### Did the arguments made during the negotiations matter to you? Why or why not?
-
-<br>
-
-### Brainstorm: What characteristics predict greater levels of trust in an opposing group?
+### Brainstorm: What characteristics predict greater utility of a negotiation?
 
 
 
@@ -250,10 +228,6 @@ Power of the leader
 ### Brainstorm: What characteristics are necessary for a leader to feel constrained by their citizens? Why not just do only what you want to enrich yourself?
 - *ON BOARD*
 
-<br>
-
-### How could we have changed the rules to make being the leader a more attractive job?
-
 
 
 ---
@@ -266,11 +240,7 @@ background-position: center
 
 Our Takeaways
 
-### In what specific ways did this version of the game get us closer to real-world negotiations?
-
-<br>
-
-### Does our game convince you that domestic politics matters for understanding international outcomes? Why or why not?
+### In what specific ways do we believe domestic politics matters for understanding international political events?
 
 
 
@@ -421,26 +391,29 @@ This is one way the two level game helps us navigate international politics.
 
 ---
 
-background-image: url('libs/Images/09_2-chess.png')
-background-size: 100%
-background-position: center
+class: middle, slideblue
+
+.pull-left[
+```{r, out.width='100%'}
+knitr::include_graphics('libs/Images/10_2-nyt_uk_fr.png')
+
+knitr::include_graphics('libs/Images/10_2-nyt_uk_fr2.png')
+```
+]
+
+.pull-right[
+```{r}
+knitr::include_graphics("libs/Images/10_2-FP_Iran.png")
+
+knitr::include_graphics('libs/Images/10_2-FP_Iran2.png')
+```
+]
 
 ???
 
-### Think back to our game on monday, in what ways did that game reflect two level dynamics?
+### Ok, so, how specifically does the two-level game help us think about these current events?
 
-<br>
-
-### Any efforts by leaders to appease domstic interests?
-
-<br>
-
-### Any efforts by negotiators to move the negotiation based on the threat of domestic politics?
-
-<br>
-
-### Any evidence that the flow of the negotiation changed the support for the leader?
-
+*Force this discussion*
 
 
 ---
@@ -451,16 +424,16 @@ class: middle
 
 ???
 
-As we discovered when talking about the bargaining model of war, Thomas Schelling has done a lot of useful work in this area.
+I'd like to introduce you to another complication in thinking about international negotiations.
 
 ### Has anybody ever heard of the Schelling Conjecture?
 
 <br>
 
-### Remind me, how does Schelling define "diplomacy"?
-(bargaining where two sides agree a deal in which they both lose something to avoid a much worse outcome.)
+A few weeks back we read some of Schelling's work on diplomacy.
 
-<br>
+### Remind me, how does Schelling define "diplomacy"?
+- (bargaining where two sides agree a deal in which they both lose something to avoid a much worse outcome.)
 
 ### And, where does bargaining power come from?
 - (SLIDE)
@@ -476,8 +449,8 @@ background-position: center
 
 ???
 
+Does the "power to hurt" ring a bell?
 
-The "power to hurt."
 - "The power to hurt" means the threat of pain, shock, loss and grief, privation and horror to motivate others to do what we want.
 
 - All about the threat, not the action
@@ -492,7 +465,7 @@ Here's the ironic twist to all those arguments.
 
 The Schelling conjecture is the idea that you can get more of what you want in a negotiation by making yourself weaker.
 
-In other words, reducing your power before the negotiation can allow you to better define the outcome of the negotiation.
+- In other words, reducing your power before the negotiation can allow you to better define the outcome of the negotiation.
 
 ### Does that make sense?
 
@@ -521,25 +494,23 @@ Let's discuss a hypothetical negotiation.
 
 - On the one side is a billionaire factory owner and on the other his workforce of children making 10 cents an hour.
 
-Imagine it is time for these workers to renegotiate their contracts with the big boss.
-
-### In what specific ways is the factory owner vulnerable?
-
-### In what specific ways are the workers vulnerable?
-
-### Who has more power in this specific bargaining situation? Why?
-
-Big boss:
-- (Has all the money)
-- (Workers can be easily divided, picked off one-by-one)
-- (Appears to be low-skill work so they can be replaced)
-
-Workers:
-- (Not so much, they are literally children in this example.)
+- Imagine it is time for these workers to renegotiate their contracts with the big boss.
 
 <br>
 
-### What can the workers do to try and strengthen their position in the negotiation?
+Let's talk about bargaining strength in Schelling's terms.
+
+### In what specific ways are the workers vulnerable?
+- (Big boss has all the money)
+- (Workers can be easily divided, picked off one-by-one)
+- (Appears to be low-skill work so they can be replaced)
+
+### In what specific ways is the factory owner vulnerable?
+- (Needs workers to run the factory)
+
+### Who has more power in this specific bargaining situation? Why?
+
+### So, what can the workers do to try and strengthen their position in the negotiation?
 
 
 
@@ -753,6 +724,8 @@ Now, this is where the Schelling Conjecture comes into play.
 
 - The Schelling Conjecture is a risky strategy you can employ to try and get more of what you want from a negotiation in which mediation is unavailable.
 
+<br>
+
 Schelling argued that wide discretion made a deal more likely, but the terms of that deal would be less likely to be in your favor.
 
 - Per this overlap a deal is entirely possible around 25 or 30 cents although neither side will be very happy.
@@ -792,11 +765,11 @@ text(x = 4, y = 6, labels = "$0.30")
 
 ???
 
-Schelling argued that a smart union president should become weaker IN ORDER to get stronger.
+Schelling argued that a smart union president should consider making themselves WEAKER in order to get STRONGER!
 
-So, right before the negotiation the rep stands in front of the crowd and pledges, "I would NEVER accept a deal of less than 30 cents per hour!"
+So, right before the negotiation the prez stands in front of the crowd and pledges, "I will NEVER accept a deal of less than 30 cents per hour!"
 
-If I ever took a deal for less than .30 cents you should fire me!
+If I ever take a deal for less than .30 cents you should fire me and then tear up the deal!
 
 <br>
 
@@ -960,5 +933,7 @@ It also means it is extra challenging for us as social scientists to understand 
 
 ### Any questions on the two level game model or the Schelling Conjecture?
 
+<br>
 
+Friday writing workshop! Come to class ready to work on the paper!
 
