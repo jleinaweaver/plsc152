@@ -28,10 +28,6 @@ knitr::opts_chunk$set(echo = FALSE,
                       message = FALSE,
                       warning = FALSE,
                       comment = NA)
-
-# background-image: url('libs/Images/00-Pizza_and_Politics_Poster-Mar24.png')
-# background-size: 100%
-# background-position: center
 ```
 
 class: slideblue
