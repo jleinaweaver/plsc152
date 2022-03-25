@@ -174,36 +174,35 @@ Within the institution of slavery there were many, many "rules."
 
 ### Ok then, what is the benefit of making this distinction? how does this distinction help us?
 
-For the most part we live in a world of institutions.
+(SLIDE)
 
+
+
+---
+
+background-image: url('libs/Images/13_2-slave_auction.png')
+background-size: 100%
+class: center
+
+???
+
+For the most part we live in a world of institutions.
 - And some, like slavery, are incredibly objectionable.
 
 The problem is that challenging institutions is REALLY, REALLY hard.
 
 HOWEVER, individual norms can be challenged much more easily.
-
 - Still hard, but doable.
-
-And if you alter enough of the underlying norms, the institution changes (or disappears).
+- And if you alter enough of the underlying norms, the institution changes (or disappears).
 
 <br>
 
-Back to our example, abolitionists couldn't simply end the institution of slavery all at once, but they could work to alter the fundamental rules under it.
-
-They pushed on understandings about respect for family units, emphasized the inconsistency between slavery and founding principles of the country, and tried to enact rules about how slaves could be treated.
+Abolitionists couldn't simply end the institution of slavery all at once, but they could work to alter the fundamental rules under it.
+- They pushed on understandings about respect for family units, 
+- emphasized the inconsistency between slavery and founding principles of the country, and 
+- tried to enact rules about how slaves could be treated.
 
 Chipping away at these smaller rules helped weaken the entire structure.
-
-<br>
-
-So, studying norms allows us to look inside our social institutions.
-
-While institutions are important, to really understand them we have to understand their basic units first.
-
-- How did each norm come into being?
-- Who defends it and why?
-
-Then we can start to explore how many norms come together as an institution.
 
 
 
@@ -214,6 +213,16 @@ background-size: 100%
 class: center
 
 ???
+
+So, studying norms allows us to look inside our social institutions.
+
+While institutions are important, to really understand them we have to understand their basic units first.
+- How did each norm come into being?
+- Who defends it and why?
+
+Then we can start to explore how many norms come together as an institution.
+
+<br>
 
 ### What are some of the norms expected of people living in the US?
 
@@ -240,9 +249,10 @@ At football games, if you were in the student section there were important norms
 2. You must do the "chop"
 3. You must sing the fight song after we score.
 
-Rules not written down, but powerfully effect all students' behavior.
+<br>
 
-- Want to belong to the group!
+Rules not written down, but powerfully effect all students' behavior.
+- We all want to belong to the group!
 
 
 ---
@@ -275,7 +285,7 @@ class: center
 
 ???
 
-### Is scoring a td in football a constitutive or regulative norm?
+### Is scoring a TD in football a constitutive or regulative norm?
 (constitutive: The activity itself cannot exist without these rules.)
 
 
@@ -335,15 +345,23 @@ All states apply tariffs to goods made in other countries but sold in theirs.
 
 ### Does the distinction between a constitutive and regulative norm make sense?
 
+
+
+---
+
+background-image: url('libs/Images/11-2-norms_cartoon.jpg')
+background-size: 100%
+class: center
+
+???
+
+### BRAINSTORM: How does thinking about different types of norm help us understand international politics better?
+
 <br>
 
-## BRAINSTORM
+First, we have to recognize that some norms are much harder to change than others.
 
-### How does thinking about different types of norm help us understand international politics better?
-
-<br>
-
-### 1. Which type of norm is harder to change? Why?
+### Which type of norm is harder to change? Why?
 
 Much harder to change a constitutive norm as it is fundamental to an activity.
 - Regulative norms are made to be tweaked...
@@ -352,36 +370,41 @@ We can change the taunting penalty to be 5 or 20 yards but altering what a touch
 
 <br>
 
-### 2. Which type of norm carries a bigger stigma when you violate it?
-(Constitutive!)
-- Violate the rules that make up the heart of the system and people will notice.
+Second, we need to recognize that violations of some norms are a MUCH bigger deal than others.
+
+### Which type of norm carries a bigger stigma when you violate it?
+- (Constitutive!)
+    - Violate the rules that make up the heart of the system and people will notice.
+
 
 
 
 ---
 
-background-image: url('libs/Images/13_2-nazi_meme.png')
-background-size: 85%
+background-image: url('libs/Images/11-1-totalitarian_leaders.jpg')
+background-size: 62%
 class: center
 
 ???
 
-3. Norms are linked to identity, not to normative beliefs about truth, justice or goodness.
+Third, we must recognize that norms are linked to identity, not to normative beliefs about truth, justice or goodness.
 
-SLIDE
 
-Hitler and the Nazis adopted and tried to spread some incredibly offensive norms regarding racial superiority.
+### Can anybody identify the WW2 era dictators on the slide?
+- (Stalin, Hitler, Pinochet (Chile), Mao, Mussolini and Kim Il-Sung)
+
+All of these leaders adopted and tried to spread some incredibly offensive norms.
+
+Take for example, Hitler's views on his "master" race.
 
 ### What do Finnemore and Sikkink mean when they write that these racist norms weren't "bad"?
 
 <br>
 
 Remember, a norm is a standard of appropriate behavior for actors with a given identity.
-
 - If you were a Nazi, then these beliefs were considered "good" to you.
 
 What matters is that the group that holds the norm believes it is appropriate.
-
 - Not that we approve of it.
 
 We really want to be careful not to assume norms are somehow linked to objective values of goodness.
@@ -400,23 +423,34 @@ class: center
 
 Finnemore and Sikkink tell us that norms are created as a product of the norm "life cycle."
 
-### Why should we care about this?
-#### - How can it help us?
+### How does this figure help us impact international political events?
+
+- If we adopt a constructivist view, then we accept that societal norms have a powerful effect on actor behavior.
+
+- This means that if we can control or modify societal norms, we can control the behavior of the actors around us!
 
 <br>
 
-If we adopt a constructivist view, then we accept that societal norms have a powerful effect on actor behavior.
+Let's discuss the stages.
 
-This means that if we can control or modify societal norms, we can control the behavior of the actors around us!
 
-<br>
+
+---
+
+background-image: url('libs/Images/13_2-norm_life_cycle.png')
+background-size: 100%
+class: center
+
+.size60[**The Norm Life Cycle**]
+
+???
 
 ### What happens in stage 1? What is "norm emergence"?
 
 <br>
 
-### 1. Who are the "norm entrepreneurs" and what do they do? 
-(They actively try to convince their community that some behavior is either desirable and should be required OR undesirable and should be stopped.)
+### Who are the "norm entrepreneurs" and what do they do? 
+- (They actively try to convince their community that some behavior is either desirable and should be required OR undesirable and should be stopped.)
 
 A very important idea.
 - Norms are intentionally created by people who want things.
@@ -424,11 +458,11 @@ A very important idea.
 
 <br>
 
-### 2. According to Finnemore and Sikkink, how do norm entrepreneurs convince society to adopt their norm?
-(Issue framing)
+### According to Finnemore and Sikkink, how do norm entrepreneurs convince society to adopt their norm?
+- (Issue framing)
 
-#### - What does that mean? what is framing?
-(Use language that names, interprets and dramatizes an issue.)
+### What does that mean? What is framing?
+- (Use language that names, interprets and dramatizes an issue.)
 
 
 
@@ -442,8 +476,6 @@ class: center
 ???
 
 Let's explore the framing idea using a huge debate from the turn of the century.
-
-SLIDE
 
 Let's say it is 1915, and you believe women should have the right to vote.
 
@@ -500,7 +532,6 @@ Arguments aimed at husbands.
 
 
 ---
-
 
 background-image: url('libs/Images/13_2-no_suffrage_list.png')
 background-size: 35%
@@ -567,30 +598,35 @@ Anti-vote Arguments for Women
 
 Arguments aimed at women.
 
-### Is the author doing a good job reaching out to the other side here?
+### Is the author doing a good job reaching out to the other side here? Why or why not?
 
-<br>
+
+
+
+---
+
+background-image: url('libs/Images/11-2-issue_framing.jpg')
+background-size: 100%
+class: center
+
+???
 
 Ok, what’s the point of this exercise?
 
-1. Framing is a very powerful tool when trying to enact or defend certain rules.
+FIRST, issue framing is a very powerful tool when trying to enact or defend certain rules.
 
-<br>
+Lot's of present day examples:
+- Pro-choice people don’t defend abortion clinics, they defend Family Planning Clinics!
 
-#### - Pro-choice people don’t defend abortion clinics, they defend…? 
-(Family Planning Clinics)
+- Those opposed to abortion do not describe themselves as anti-choice, they are pro-life!
 
-#### - Those opposed to abortion do not describe themselves as anti-choice, they are…? 
-(pro-life!)
-
-#### - Oil companies do not push for more drilling, they push for expanded…? 
-(Exploration)
+- Oil companies do not push for more drilling, they push for expanded exploration.
 
 We strategically frame our positions to make our preferred norm appeal to more people.
 
 <br>
 
-2. There is almost never a chance to create norms where no social rules exist before.
+SECOND, there is almost never a chance to create norms where no social rules exist before.
 
 The debate over women’s suffrage was held at a time when the role of women had been defined for many people in very specific ways.
 
@@ -608,23 +644,18 @@ class: center
 
 For today I gave you a New York Times article on Putin's rationale for annexing Crimea.
 
-### What was Putin's rationale for annexing crimea? what framings did he utilize?
+I know this feels INSANELY outdated right now, but his argument is quite pertinent.
 
-*ON BOARD*
+### What was Putin's rationale for annexing crimea? What issue framing did he utilize?
 
-### What are the key premises in his argument?
+- The Ukrainian government is oppressing the Crimean people.
+    - The Crimean people demanded it democratically!
+- Russian citizens lived there and were in danger.
+    - States must protect their citizens!
 
 <br>
 
 ### Is this a convincing argument? Why or why not?
-
-<br>
-
-The Ukrainian government was oppressing them.
-- The people demanded it democratically!
-
-Russian citizens lived there and were in danger.
-- States must protect their citizens!
 
 <br>
 
@@ -640,16 +671,13 @@ class: center
 
 ???
 
-- A reckless and unwarranted invasion!
-- A violation of state sovereignty.
+1. A reckless and unwarranted invasion!
+
+2. A violation of state sovereignty.
 
 <br>
 
 Both sides tried to invoke widely accepted norms as justification for their behavior.
-
-#### - Which side won the debate?
-
-#### - Which side won the conflict?
 
 <br>
 
@@ -668,18 +696,15 @@ class: center
 The Norm Life Cycle
 
 ### What happens in stage 3? What is internalization?
-(The norm becomes a part of an actor's identity)
-
+- (The norm becomes a part of an actor's identity)
 - Once internalized the norm is taken for granted
 
 <br>
 
 ### Why is an internalized norm so very powerful?
-(This means that, at this point, we don't even realize we are obeying a rule!)
-
+- (This means that, at this point, we don't even realize we are obeying a rule!)
 - It is now part of how we think and therefore how we act.
-
-Very, very hard to dislodge.
+    - Very, very hard to dislodge.
 
 <br>
 
@@ -688,12 +713,14 @@ Very, very hard to dislodge.
 
 ---
 
-class: middle, center, slidepurple
+background-image: url('libs/Images/background-blue_triangles2.png')
+background-size: 100%
+class: middle, center
 
-.size60[
-**For Friday**
+.size65[**For Friday**]
 
-Come to class ready to make an argument about the degree to which the US does or does not meet the standards of the UN's Universal Declaration of Human Rights.
+.size55[
+Come to class ready to make an argument about the degree to which the US **does or does not meet** the standards of the UN's Universal Declaration of Human Rights.
 ]
 
 ???
