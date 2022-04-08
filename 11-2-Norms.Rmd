@@ -58,11 +58,7 @@ Explore the power of norms to shape international politics
 
 *Opening Discussion*
 
-### Anything interesting going on in world politics at the moment?
-
-<br>
-
-### Everybody have the readings for today?
+### Give me something going on in current events right now that we explain using constructivism!
 
 <br>
 
@@ -266,14 +262,14 @@ class: center
 ### Are there any "norms" related to being a Drury student?
 
 <br>
-<br>
 
-Constructivists want us to organize our thinking about norms by their type.
+Ok, it's not enough just to break institutions down into norms.
+
+We also need to differentiate by type of norm.
 
 ### What is the difference between a regulative and a constitutive norm?
-
-+ (constitutive: creates new actors, interests, or categories of action)
-+ (regulative: order and constrain behavior)
+- (constitutive: creates new actors, interests, or categories of action)
+- (regulative: order and constrain behavior)
 
 
 
