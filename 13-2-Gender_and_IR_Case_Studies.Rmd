@@ -34,10 +34,10 @@ class: slideblue
 
 .size70[**Today's Agenda**]
 
-.size40[
-Exploring real-world, current events cases to illustrate, extend or challenge the arguments made by Enloe (2014)
+<br>
 
-+ Help us illustrate issues like: un-examined power, femininity/masculinity in action, or transnational groups working on gender issues
+.size50[
+Explore current international political events in order to illustrate, extend and/or challenge the arguments made by Enloe (2014)
 ]
 
 <br>
@@ -51,6 +51,7 @@ Exploring real-world, current events cases to illustrate, extend or challenge th
 ## Prep for Class
 
 1. Review cases submitted to Google doc
+    - https://docs.google.com/document/d/1Xx88gGxGpt3VZpRe7RDP2DrnrUtA0Y0VDt1RD4Rhlng/edit?usp=sharing
 
 2. You brought a case too!
 
@@ -73,68 +74,58 @@ Briefly tell us what you picked and either why it interests you or why you think
 
 ---
 
-background-image: url('libs/Images/13-2-Power.jpg')
+background-image: url('libs/Images/background-swirls.jpg')
 background-size: 100%
 background-position: center
 
-???
+class: middle
 
-Let's start with the arguments about power.
-
-### How do your chosen cases help us think about power?
-
-#### - How does it matter in unexpected places?
-
-#### - How does it color more of the world than we might have assumed?
-
-
-
----
-
-background-image: url('libs/Images/13-2-masculine_vs_feminine.jpg')
-background-size: 100%
-background-position: center
-
-???
-
-### First, of all, can you believe sh*t like this exists all over the internet?
+.size60[**Assignment for Today**]
 
 <br>
 
-### How do your chosen cases help us think about the concepts of masculinity and femininity?
-
-
-
-
----
-
-background-image: url('libs/Images/13-2-house_hearing_contraception.jpg')
-background-size: 100%
-background-position: center
+.size50[
+Bring to class a current international political event that we can use to illustrate the Feminist IR perspective in action.
+]
 
 ???
 
-Here we see a photo of the expert witnesses brought in to testify in front of the House Oversight and Government Reform Committee on the contraception mandate.
-
-Yep, this is who the House GOP in 2012 felt they needed to solicit opinions from when deciding how to respond to Obama's contraception mandate.
+### Everybody ready to go with this?
 
 <br>
 
-### How do your chosen cases help us think about how media coverage or our world in general would look different if it acknowledged women's perspectives more?
+Let's check all the citations for APA formatting.
+
+### You tell me which entries need to be reformatted.
 
 
 
 
 ---
 
-background-image: url('libs/Images/13-2-womens_groups_fight_for_access.jpg')
+background-image: url('libs/Images/background-swirls.jpg')
 background-size: 100%
 background-position: center
 
+class: middle
+
+# Introduce Your Case
+
+.size45[
+1. What is your event?
+
+2. Why is it "current," "international" and "political"?
+
+3. How does it help us think critically about Feminist approaches to IR?
+]
+
 ???
 
-### Do your cases offer us evidence on how much attention is paid, and respect is given, to transnational groups working on women's issues?
+Take five minutes and get ready to present your case as an answer to these questions.
 
+Alright, let's hear the cases.
+
+*PRESENT and DISCUSS each*
 
 
 
@@ -147,11 +138,20 @@ class: middle
 
 ???
 
-### Based on our cases reviewed today, and the lives you have lived, do we believe that all international political events impact across the genders differently? 
+### Based on our cases reviewed today, and the lives you have lived, do we believe that all international political events impact across the genders differently? Why or why not?
 
-#### - Why or why not?
+<br>
+
+### Do Feminist perspectives help us study power in more useful and complete ways?
+
+<br>
+
+### Does our mainstream media coverage need to change to better acknowledge women's perspectives in their stories?
 
 <br>
 
 ### Ultimately, how convinced are you by Enloe (2014) that a feminist lens helps us better explain international politics?
+
+
+
 
