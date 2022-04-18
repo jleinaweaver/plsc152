@@ -1,5 +1,4 @@
 Data, slides and errata for my class at Drury University (PLSC 152: Intro to International Relations) 
-
 01-1-Welcome_to_IR.html
 01-2-Arguments_Logic.html
 02-1-Poli_Sci_Theory.html
@@ -34,13 +33,20 @@ Data, slides and errata for my class at Drury University (PLSC 152: Intro to Int
 11-3-Universal_Declaration_Human_Rights.html
 12-1-Krain2012_Args.html
 12-2-Krain2012_Conclusions.html
-13-1-Gender_and_IR_Case_Studies.html
-13-2-Where_are_the_Women-Enloe.html
-13-3-The_UN_and_the_Patriarchy.html
-14-1-Race_and_IR.html
-14-2-Race_and_IR2.html
-14-3-Race_and_IR_Case_Studies.html
+13-1-Where_are_the_Women-Enloe.html
+
+13-2-Gender_and_IR_Case_Studies.html
+
+13-3-Security_Council_Resolution_1325.html
+
+14-1-Racism_and_IR_Theory.html
+
+14-2-Race_and_IR_Case_Studies.html
+
+14-3-Mueller2000_Banality_Ethnic_War.html
+
 15-1-Final_Paper_Evidence.html
+
 15-2-Final_Paper_Args.html
+
 15-3-Final_Paper_Evidence.html
-OMIT-15-1-Human_Rights_Cases.html

@@ -35,9 +35,7 @@ class: slideblue
 .size70[**Today's Agenda**]
 
 .size40[
-Exploring real-world, current events cases to illustrate, extend or challenge the arguments made by Vucetic and Persaud (2018)
-
-+ Help us examine the intersection of race and ethnicity with international politics.
+Using real-world, current events cases to examine the intersection of race and ethnicity with international politics.
 ]
 
 <br>
@@ -51,16 +49,11 @@ Exploring real-world, current events cases to illustrate, extend or challenge th
 ## Prep for Class
 
 1. Review cases submitted to Google doc
+    - https://docs.google.com/document/d/1CmC9gnItvOJHvXzfFEyg3nCrmYcCbY4dc_f0O7qdDxE/edit?usp=sharing
 
 2. You brought examples too!
-
-How the coronavirus pandemic is fueling ethnic hatred: The economic crisis is pushing megacities’ dominant groups to be less tolerant and more resentful of outsiders
-
-https://www.washingtonpost.com/politics/2020/09/18/megacities-pandemics-economic-crisis-is-fueling-ethnic-hatred/
-
-Bhambra, G., Bouka, Y., Persaud, R., Rutazibwa, O., Thakur, V., Bell, D., Smith, K., Haastrup, T. and Adem, S. (2020, Jul 3). Why Is Mainstream International Relations Blind to Racism? Foreign Policy.
-
-https://foreignpolicy.com/2020/07/03/why-is-mainstream-international-relations-ir-blind-to-racism-colonialism/
+    - How the coronavirus pandemic is fueling ethnic hatred: The economic crisis is pushing megacities’ dominant groups to be less tolerant and more resentful of outsiders [Link](https://www.washingtonpost.com/politics/2020/09/18/megacities-pandemics-economic-crisis-is-fueling-ethnic-hatred/)
+    - Bhambra, G., Bouka, Y., Persaud, R., Rutazibwa, O., Thakur, V., Bell, D., Smith, K., Haastrup, T. and Adem, S. (2020, Jul 3). Why Is Mainstream International Relations Blind to Racism? Foreign Policy. [Link](https://foreignpolicy.com/2020/07/03/why-is-mainstream-international-relations-ir-blind-to-racism-colonialism/)
 
 <br>
 
