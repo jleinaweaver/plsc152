@@ -34,7 +34,9 @@ class: slideblue
 
 .size70[**Today's Agenda**]
 
-.size40[
+<br>
+
+.size50[
 Using real-world, current events cases to examine the intersection of race and ethnicity with international politics.
 ]
 
@@ -63,6 +65,67 @@ Last week we explored a feminist lens and this week what is sometimes referred t
 
 Today I want to hear about the real-world cases you each brought to class and see how they help us think about the usefulness of this approach to explaining international politics.
 
+
+
+
+---
+
+background-image: url('libs/Images/background-swirls.jpg')
+background-size: 100%
+background-position: center
+
+class: middle
+
+.size65[**Assignment for Today**]
+
+<br>
+
+.size45[
+Bring to class a real-world, current events cases to illustrate, extend or challenge the arguments made in Vucetic and Persaud (2018)!
+
++ Help us examine the intersection of race and ethnicity with international politics.
+]
+
+???
+
+### Everybody ready to go with this?
+
+<br>
+
+Let's check all the citations for APA formatting.
+
+### You tell me which entries need to be reformatted.
+
+
+
+
+---
+
+background-image: url('libs/Images/background-swirls.jpg')
+background-size: 100%
+background-position: center
+
+class: middle
+
+# Introduce Your Case
+
+.size45[
+1. What is your event?
+
+2. Why is it "current," "international" and "political"?
+
+3. How does it illustrate the usefulness of a postcolonial or race-centric approach to IR?
+]
+
+???
+
+Take five minutes and get ready to present your case as an answer to these questions.
+
+Alright, let's hear the cases.
+
+*PRESENT and DISCUSS each*
+
+
 <br>
 
 Let's start by going around the room to introduce your cases.
@@ -71,37 +134,26 @@ Briefly tell us what you picked and either why it interests you or why you think
 
 
 
+
+
 ---
 
-background-image: url('libs/Images/14-2-blank-venn-diagram.webp')
+background-image: url('libs/Images/14-2-race_racism.jpg')
 background-size: 100%
 background-position: center
 class: middle
 
 ???
 
-Let's compare and contrast the cases
+### Ultimately, how convinced are you by the readings this week that a postcolonial or race-based lens helps us to better explain international political events?
 
-#### - What characterizes our cases?
+<br>
 
-#### - What do we learn from the similarities?
-
-#### - What do we learn from the differences?
-
-
-
----
-
-background-image: url('libs/Images/14-2-research_cartoon.jpg')
-background-size: 100%
-background-position: center
-class: middle
-
-???
-
-### So, if we could go back to the start of the semester would you prefer we had attacked the first 13 weeks of material from a critical ir theory lens? Why or why not?
+### So, if we could go back to the start of the semester would you prefer we had attacked the first 13 weeks of our material using the critical approaches to IR? Why or why not?
 
 - e.g. post-colonialist or feminist perspectives?
+
+
 
 
 

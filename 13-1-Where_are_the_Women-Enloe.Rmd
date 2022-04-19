@@ -127,12 +127,12 @@ background-position: center
 
 
 
+
 ---
 
-background-image: url('libs/Images/13-1-types-of-maps.jpg')
-background-size: 60%
+background-image: url('libs/Images/13-1-weather_map.webp')
+background-size: 100%
 background-position: center
-class: middle, slideblue
 
 ???
 
@@ -142,22 +142,43 @@ Key for us is to remember that maps are purpose-built
 
 <br>
 
-Examples on Slide:
-- Some maps track weather patterns,
+This is a pretty darn good map for answering the question, is it going to rain?
 
-- Some maps measure elevations,
+However, a terrible map for driving across town or finding a dentist.
 
-- Some maps track rail lines and public transit
 
-- Some focus on interstate highways and state capitals,
 
-- Some let us compare characteristics at smaller, e.g. county levels, and
 
-- Some help us navigate the streets around our homes or works.
+---
+
+background-image: url('libs/Images/13-1-topo-map.jpg')
+background-size: 100%
+background-position: center
+
+???
+
+Here is a very handy topographical map for the next time you go for a hike!
+
+However, utterly useless for driving directions to the trail, weather to expect, or the location of nice spots for lunch.
+
+
+
+
+---
+
+background-image: url('libs/Images/13-1-us_map_population.jpg')
+background-size: 75%
+background-position: center
+
+???
+
+Finally, here's a map of the US states resized by population.
+
+Please don't use this for driving directions...
 
 <br>
 
-The most useful one depends on what you are trying to do or explain in a given moment.
+Bottom line, the usefulness of a map depends on what you are trying to do or explain in a given moment.
 
 
 
@@ -297,7 +318,50 @@ class: middle, inverse, textwhite
 ]
 
 .size50[
-- Interests
+- **Interests**
+
+- Institutions
+
+- Interactions
+]
+
+???
+
+Our goal is to try and diagram this model using our three categories.
+
+Groups, focus just on the individuals in this model.
+
+### Who are the primary actors and what do they want?
+
+*5 mins in groups*
+
+*Class Discuss*
+
+<br>
+
+### Notes
+- Individuals who want... ?
+    - Not just a story about women! 
+    - It's about remembering women are ALSO important actors
+    - 
+    
+
+
+
+
+---
+
+background-image: url('libs/Images/background-blue_cubes_lighter.png')
+background-size: 100%
+background-position: center
+class: middle, inverse, textwhite
+
+.center[
+# What are the key elements of a Feminist model of IR?
+]
+
+.size50[
+- **Interests**
 
 - Institutions
 
