@@ -1,0 +1,444 @@
+---
+output:
+  xaringan::moon_reader:
+    css: ["default", "extra.css"]
+    lib_dir: libs
+    seal: false
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+      ratio: '16:9'
+---
+
+```{r, echo = FALSE, warning = FALSE, message = FALSE}
+##xaringan::inf_mr()
+## For offline work: https://bookdown.org/yihui/rmarkdown/some-tips.html#working-offline
+## Images not appearing? Put images folder inside the libs folder as that is the main data directory
+
+library(tidyverse)
+library(readxl)
+library(stargazer)
+##library(kableExtra)
+##library(modelr)
+
+knitr::opts_chunk$set(echo = FALSE,
+                      eval = TRUE,
+                      error = FALSE,
+                      message = FALSE,
+                      warning = FALSE,
+                      comment = NA)
+```
+
+background-image: url('libs/Images/background-worldmap3.png')
+background-size: 105%
+background-class: top
+class: middle
+
+.center[.size50[**III. Why is it so Hard to Cooperate with Other Countries?**]]
+
+<br>
+
+.size50[
+**Today's Agenda**
+
+- Exploring the tactic of bluffing as a strategy in international politics
+
+]
+
+<br>
+
+.center[.size40[
+  Justin Leinaweaver (Spring 2024)
+]]
+
+???
+
+## Prep for Class
+1. Review canvas submissions
+
+<br>
+
+### DISCUSS: Name me an international political event that has happened since we last met as a class.
+
+
+
+
+---
+
+background-image: url('libs/Images/background-blue_triangles.jpg')
+background-size: 100%
+background-position: center
+class: middle
+
+.size60[**For Today**]
+
+.size40[
+1. Kenealy (2016) "The Art of the Bluff"
+
+2. Herszenhorn and Bayer (2018) "Trump’s whiplash NATO summit"
+
+3. Blake and Birnbaum (2022) "Trump says he threatened not to defend NATO against Russia"
+
+4. Faulconbridge and Osborn (2022) "Analysis: Truth or bluff? Why Putin's nuclear warnings have the West worried"
+]
+
+???
+
+For today I asked you to come to class ready to make an argument about bluffing in international politics.
+
+### First, can we define the concept?
+#### - According to these readings, what is bluffing in foreign policy?
+
+(*ON BOARD*)
+
+<br>
+
+### How easy or difficult is it to identify bluffing in foreign policy? Why?
+
+#### - How can we distinguish it from changing your mind or changing circumstances?
+
+
+
+---
+
+background-image: url('libs/Images/background-cloth_v2.png')
+background-size: 100%
+background-position: center
+class: middle
+
+.pull-left[
+
+```{r, fig.retina=3, fig.align='left', out.width='70%'}
+knitr::include_graphics("libs/Images/06_3-bluffing_poster.jpg")
+```
+
+]
+
+.pull-right[
+
+<br>
+
+.center[.size55[
+**Characteristics of a bargain that suggest bluffing is a worthwhile tactic?**
+]]]
+
+???
+
+Let's now map out the characteristics of a bargain that mean we should or should not try bluffing as a tactic.
+
+*ON BOARD (2 sides in halves): Bluffing is Smart vs Bluffing is Dumb*
+
+<br>
+
+Everybody has already worked to help us build the "smart" list, so open Canvas and let's get those characteristics onto the board!
+- List the characteristics of a situation where bluffing is a smart tactic.
+
+### Anything else to add?
+
+<br>
+
+### Ok, if that's our "smart" list, what should we put on the "dumb" one?
+- List the characteristics of a situation where bluffing is a bad tactic.
+
+<br>
+
+### Is there an argument to be made that bluffing is never worth it for a world leader? Why or why not?
+
+
+
+
+---
+
+background-image: url('libs/Images/06_3-biden_putin.jpg')
+background-size: 100%
+background-position: center
+class: bottom, center, inverse
+
+.size80[**What is diplomacy?**]
+
+???
+
+Before we shift our focus more fully to current events I want to introduce one other set of ideas that tie nicely into the bargaining model.
+
+### When I say the word "diplomacy," what do you think of?
+
+#### - What does it mean to behave "diplomatically"?
+
+(SLIDE)
+
+
+
+---
+
+background-image: url('libs/Images/06_3-diplomacy_cartoon.png')
+background-size: 75%
+background-position: center
+
+???
+
+Cartoon diplomacy.
+
+
+
+---
+
+background-image: url('libs/Images/background-cloth_v2.png')
+background-size: 100%
+background-position: center
+class: middle
+
+.pull-left[
+
+```{r, fig.retina=3, fig.align='left', out.width='80%'}
+knitr::include_graphics("libs/Images/06_3-schelling.jpg")
+```
+
+]
+
+.pull-right[
+.size50[
++ Economist
+
++ Nobel Prize winner
+
++ Research on bargaining and negotiations
+]]
+
+???
+
+Thomas Schelling is a HUGE name in IR and economics.
+
+- Did a ton of work during the Cold War gaming out how nuclear weapons were changing international diplomacy and negotiations.
+
+- Won a Nobel Prize for his work which ain't too shabby.
+
+<br>
+
+Going to grad school in the social sciences? You will definitely encounter his work.
+
+
+
+---
+
+background-image: url('libs/Images/06_3-diplomacy1.png')
+background-size: 50%
+background-position: center
+class: bottom, center
+
+.size30[.content-box-blue[
+"Bargaining" is a situation where two sides agree a deal in which they both lose something to avoid a much worse outcome (Schelling).
+]]
+
+???
+
+Most relevant for us, Schelling's work definitely informed Fearon's development of the bargaining model.
+
+<br>
+
+Schelling defines "diplomacy" as bargaining where two sides **agree a deal in which they both lose something to avoid a much worse outcome**.
+
+- For Schelling, bargaining is not about "acting diplomatically."
+
+- It's about getting some BUT NOT ALL of what you want in order to avoid the stuff you really don't want.
+
+<br>
+
+This means Schelling defines bargaining as a process in which **BOTH sides** lose something.
+
+### Do we think that's a problematic way to define bargaining? Why or why not?
+
+<br>
+
+Ok, so how does that help us think about the bargaining model?
+
+
+
+
+---
+
+background-image: url('libs/Images/06_3-diplomacy2.png')
+background-size: 65%
+background-position: center
+class: top, center
+
+.size30[
+**"Bargaining power" comes from the "power to hurt" (Schelling).**
+]
+
+???
+
+Specifically, this formulation means that bargaining power comes from **the "power to hurt."**
+
+- Motivating the other side using the threat of pain, shock, loss and grief, privation and horror
+
+<br>
+
+Be careful here, for Schelling, true bargaining power is all about the **threat** NOT the action.
+
+### Why is a threat better than just using brute force to take what you want?
+
+- (Back to war being costly, risky and inefficient!)
+    - Brute force is always costly to you (blood and treasure required) AND it often encourages a united opposition.
+
+- (Your aim should be coercion)
+    - The threat of damage that makes others comply with your demands.
+    - All the benefits of war without having to fight!
+    - It is the threat of violence or pain that changes behavior.
+    
+<br>
+
+### Everybody clear on the distinction and why threat is a more powerful tool?
+
+### How do we use this advice? What does Schelling argue we need to do to make a successful threat?
+
+(SLIDE)
+
+---
+
+background-image: url('libs/Images/06_3-Ron_Burgundy.jpg')
+background-size: 75%
+background-position: center
+
+???
+
+**First, you must know what your adversary treasures and what scares them.**
+
+- What are their weak points?
+
+- What do they depend on?
+
+
+
+
+---
+
+background-image: url('libs/Images/06_3-anchorman.gif')
+background-size: 100%
+background-position: center
+
+???
+
+**Second, you must communicate to them what will happen unless they comply with your demands**
+
+- In other words, you make clear that the "hurt" is contingent on their behavior.
+
+<br>
+
+### Make sense?
+
+
+---
+
+background-image: url('libs/Images/06_3-endurance.png')
+background-size: 100%
+background-position: center
+class: slideblue, top, center
+
+.size45[**War is a battle of endurance NOT strength**]
+
+
+
+???
+
+For Schelling, bargaining and war are **NOT** contests of strength.
+
+They are competitions of endurance.
+- Whoever can suffer the most wins.
+
+<br>
+
+It means we should think of war as a bargaining process.
+- Two sides, each demanding a change in the behavior of the other.
+- The threat of violence as the important currency.
+
+The winner is the one most able to threaten "hurt" on the other and most willing to accept "hurt" from the other.
+
+<br>
+
+### Is this a good description of war? Why or why not?
+
+<br>
+
+### Alternatively, is this a good description of bargaining and diplomacy? Why or why not?
+
+- Too cynical?
+- Assumes actual violence underpins every negotiation?
+
+
+
+---
+
+background-image: url('libs/Images/06_2-Fearon_Figure1.png')
+background-size: 100%
+background-position: center
+
+???
+
+### How does Schelling's work on diplomacy help us think about Fearon's bargaining game?
+
+#### - What is Schelling helping us to think about?
+
+<br>
+
+(Schelling wants us to think about how states can try to shift the win-set of their opponent.)
+
+- Threats of violence, targeted smartly, have the capability to move the bargaining process in your favor!
+
+<br>
+
+Successful threats are about increasing the perceived costs of your opponent.
+
+- Make them believe the costs and risks of war are higher than they might actually be and you'll get more of what you want more easily.
+
+### Does that make sense?
+
+
+---
+
+background-image: url('libs/Images/06_3-trump_cartoon.png')
+background-size: 78%
+background-position: center
+
+???
+
+Given all of this, where do we stand on President Trump's use of threats and bluffing to achieve what he wants from international politics?
+
+<br>
+
+### Are we convinced President Trump used bluffing as a tactic? Why or why not? 
+
+<br>
+
+### Would you say President Trump was good at bluffing? Why or why not?
+
+
+
+---
+
+background-image: url('libs/Images/06_3-Biden_cartoon.png')
+background-size: 70%
+background-position: center
+
+???
+
+### In what ways do we think Trump's bluffing impacts the world that Joe Biden must now navigate? 
+
+
+
+---
+
+background-image: url('libs/Images/background-blue_triangles.jpg')
+background-size: 100%
+background-position: center
+class: middle
+
+.size60[**Assignment for Next Class**]
+
+.size40[
+1. Hopf (1998)
+
+2. **Before class** submit to our Canvas discussion board: If constructivism (see Hopf 1998) represents a map of international politics what are its main features?
+]
+
+???

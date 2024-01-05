@@ -1,0 +1,532 @@
+---
+output:
+  xaringan::moon_reader:
+    css: ["default", "extra.css"]
+    lib_dir: libs
+    seal: false
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+      ratio: '16:9'
+---
+
+```{r, echo = FALSE, warning = FALSE, message = FALSE}
+##xaringan::inf_mr()
+## For offline work: https://bookdown.org/yihui/rmarkdown/some-tips.html#working-offline
+## Images not appearing? Put images folder inside the libs folder as that is the main data directory
+
+library(tidyverse)
+library(readxl)
+library(stargazer)
+##library(kableExtra)
+##library(modelr)
+
+knitr::opts_chunk$set(echo = FALSE,
+                      eval = TRUE,
+                      error = FALSE,
+                      message = FALSE,
+                      warning = FALSE,
+                      comment = NA)
+```
+
+background-image: url('libs/Images/background-worldmap3.png')
+background-size: 105%
+background-class: top
+class: middle
+
+.size60[**II. Why Are There Wars?**]
+
+<br>
+
+.size50[
+**Today's Agenda**
+
+- The Offensive Realist answer
+
+]
+
+<br>
+
+.center[.size40[
+  Justin Leinaweaver (Spring 2024)
+]]
+
+???
+
+## Prep for Class
+1. Bring two decks of cards
+
+<br>
+
+ANNOUNCE: Papers due tonight!
+
+### Questions on the papers?
+
+<br>
+
+### Any new international political events catching your eye this week? What's going on out there?
+
+
+
+---
+
+background-image: url('libs/Images/06_1-WW1-2.jpg')
+background-size: 100%
+background-position: center
+
+.center[.size50[.content-box-white[**Section 2: Why Are There Wars?**]]]
+
+???
+
+Last class we began exploring the next section of our class: Why Are There Wars?
+
+### Refresh my memory, why is this a puzzling question?
+
+
+
+
+---
+
+background-image: url('libs/Images/background-worldmap3.png')
+background-size: 105%
+background-class: top
+class: middle
+
+.size45[
+.content-box-blue[**Section 2: Why Are There Wars?**]
+
+- .textred[**Neorealism**]
+
+- Offensive Realism
+
+- Democratic Peace
+
+- Economic Liberalism
+
+- Bargaining Model of War
+]
+
+???
+
+On Monday we:
+
+1. Practiced the alphabet of IR modeling: interests, institutions and interactions, and 
+
+2. Diagrammed and discussed our first model in the realist paradigm: Neorealism
+
+<br>
+
+Refresh my memory again:
+
+### 1. What are "interests"?
+
+### 2. What are "institutions"?
+
+### 3. What are "interactions"?
+
+<br>
+
+### Ok, put this all together for me, what are the key interests, institutions and interactions in Neorealism?
+
+- (**SLIDE**)
+
+
+
+---
+
+background-image: url('libs/Images/background-slate_v2.png')
+background-size: 100%
+background-position: center
+class: middle
+
+.size50[.center[**Neorealism**]]
+
+### Interests
+.size35[
++ Unitary states want security, not power
+]
+
+### Institutions
+.size35[
++ International anarchy
+]
+
+### Interactions
+.size35[
++ You must fend for yourself (threats are everywhere)
++ Security dilemmas dominate
+]
+
+???
+
+### Name an international political event that this model explains really well.
+
+<br>
+
+### Name an international political event that this model does NOT explain well.
+
+<br>
+
+### Overall, what are the strengths and weaknesses of this as our model of international politics?
+
+<br>
+
+**SLIDE**: Today we shift to Offensive Realism and we kick it off with another game!!!!
+
+
+
+
+---
+
+background-image: url('libs/Images/background-space1.jpg')
+background-size: 100%
+background-position: center
+class: middle, inverse
+
+.size60[.center[**Survive or Die!**]]
+
+<br>
+
+.size40[
+1. You may challenge anyone to a duel (no refusals)
+
+2. Duel: Rock-paper-scissors (best 2 out of 3)
+
+3. Winner survives, loser hands over .textred[ONE] card
+
+4. 0 cards left = .textred[**You're Dead**]
+
+5. At end of game the cards = .textblue[**Bonus Points!**]
+]
+
+???
+
+We begin with the same basic game from last class.
+
+### Any questions on this basic version of the game?
+
+<br>
+
+*Give everyone in class 1 card*
+
+### Does everybody have their card?
+
+<br>
+
+**SLIDE**: Now the tweak!
+
+
+
+---
+
+background-image: url('libs/Images/background-space1.jpg')
+background-size: 100%
+background-position: center
+class: middle, inverse
+
+.size60[.center[**Survive or Die! .textred[Offensive Realism]**]]
+
+.size40[
+1. You may challenge anyone to a duel (no refusals)
+
+2. Duel: Rock-paper-scissors (best 2 out of 3)
+
+3. Winner survives, loser hands over .textred[ONE] card
+
+4. 0 cards left = .textred[**You're Dead**]
+
+5. At end of game the cards = .textblue[**Bonus Points!**]
+
+6. Power is .textred[**not evenly distributed**] and .textblue[**alliances are allowed**]
+]
+
+???
+
+Power is NOT evenly distributed
+- *Give three people 3 extra cards*
+
+And alliances are allowed
+- You may join an alliance and pool cards together
+- At end, points shared by the alliance (if it survives)
+
+### Questions?
+
+- Go!
+
+<br>
+
+### Ok, what just happened? Report back!
+
+### - What strategies did you see in action nd where they effective or not?
+
+<br>
+
+### How does this new version of the game change the interests, institutions and interactions involved?
+- (Two sets of interests?)
+- (No change to institutions?)
+- (Interactions: Alliance dynamics?)
+
+<br>
+
+### If this new version includes two different interests, regular players vs powerful players, did they want different things? Why or why not?
+
+<br>
+
+**SLIDE**: Ok, let's take this experience into the reading
+
+
+
+---
+
+background-image: url('libs/Images/05_2-putin_with_gun_v2.png')
+background-size: 100%
+background-position: center
+class: middle
+
+.size50[.center[**Offensive Realism**]]
+
+<br>
+
+.size40[Diagram the Model]
+
+.size40[
++ Who are the key interests?
+
++ What are the key institutions?
+
++ What are the primary interactions that matter?
+]
+
+???
+
+On your own, 5 mins, diagram Neorealism as an answer to these three questions
+
+<br>
+
+Consolidate diagrams with the person next to you
+
+<br>
+
+### PAIRS, report back!
+
+<br>
+
+**SLIDE**: Here's the traditional view of Offensive Realism's key assumptions.
+
+
+
+---
+
+background-image: url('libs/Images/background-slate_v2.png')
+background-size: 100%
+background-position: center
+class: middle
+
+.size45[.center[**Offensive Realism**]]
+
+### Interests
+.size30[
++ Great powers focused on survival
+]
+
+### Institutions
+.size30[
++ International anarchy
+]
+
+### Interactions
+.size30[
++ Great powers have offensive military capacity
++ Attack may come at any time (uncertain intentions)
++ Weakness invites attack (rational opponents)
+]
+
+???
+
+### Any questions on the key assumptions in Offensive Realism?
+
+<br>
+
+Clearly the big distinction here focuses on "greatness".
+
+- So, let's explore that idea.
+
+<br>
+
+*Split class into groups of 5*
+
+- Go sit with your group!
+
+- **SLIDE**
+
+
+---
+
+background-image: url('libs/Images/05_2-justice-league2.png')
+background-size: 80%
+background-position: right
+class: middle
+
+.size45[
+.content-box-blue[**On the Board**]
+
+<br>
+
+.content-box-blue[1) What are the characteristics of a "great" power?]
+
+<br>
+
+.content-box-blue[2) Give us 8 examples based on your criteria]
+]
+
+???
+
+Groups I want you to put two things on the board:
+
+1. Create a list of criteria that make a "great", and
+
+2. Name 8 countries that meet your definition of "great"
+
+<br>
+
+### Questions on the task?
+
+- PRESENT and DISCUSS each
+
+
+
+
+
+---
+
+background-image: url('libs/Images/05_2-justice-league2.png')
+background-size: 80%
+background-position: right
+
+<br>
+
+.content-box-blue[.size45[**Criteria to be a Great Power (Waltz 1979)**]]
+
+.size40[
++ **Size of population & territory**
+
++ **Resource endowment**
+
++ **Economic capability**
+
++ **Military strength**
+
++ **Political stability and competence**
+]
+
+???
+
+Here is Kenneth Waltz’s criteria for qualifying as a "great power."
+
+### Whose list is better, his or ours? Why?
+
+<br>
+
+### Can everybody see how this is a huge problem for this theory?
+- (No single definition of “great” or “powerful” will be appropriate in all contexts.)
+
+<br>
+
+### Given that defining a "great power" is so problematic, why in the world might someone prefer offensive to neorealism?
+
+1. (Simpler models are better (assuming they are logical and consistent with the evidence).)
+    - Fewer moving parts means easier to apply.
+    - Need less information / time to make predictions
+    - Less room for measurement error to mess up how your model works
+2. (The "great powers" aren't really that hard to define.)
+    - If you expand the list enough it gets hazy, but identifying the absolutely most powerful states isn't that hard to do.
+
+3. (Offensive allows us to make different predictions than the others)
+
+
+
+---
+
+background-image: url('libs/Images/05-2-lex_luthor.jpg')
+background-size: 100%
+background-position: center
+class: top, inverse
+
+.size65[**Offensive Realism**]
+
+???
+
+
+### In what specific ways would Offensive Realism make different predictions from Neorealism?
+
++ Offensive realism covers essentially the same ground as neorealism.
+    - Makes sense given the shared assumptions.
+
++ HOWEVER, it emphasizes "power maximization" as an expectation rather than just stopping with the security dilemma.
+    - Remember, neorealists believe that accumulating too much power is risky because it makes you look like a threat!
+
+<br>
+
+So, offensive realism adds a concern with power maximization to our explanations of international politics.
+
+### What is power maximization and why does it follow from these assumptions?
++ (The ultimate goal of every great power is hegemony.)
+    - (Mearsheimer defines hegemony as a state of total domination.)
+    
+<br>
+
+### Why does Mearsheimer argue great powers MUST pursue hegemony? Why not stop when you feel safe?
+
+1. (Hard to assess relative power.)
+    - I can’t tell precisely by how much I am stronger or weaker than you.
+
+2. (Even harder to project into the future.)
+    - Across time I can’t know how our powers’ will change.
+
+### Does that make sense?
+
+<br>
+
+And I just want to show you, Mearsheimer understands the implications of his theory.
+
+
+
+---
+
+background-image: url('libs/Images/05_2-mearsheimer-quote.jpg')
+background-size: 100%
+background-position: center
+
+???
+
+This dude is hard core.
+
+
+
+---
+
+background-image: url('libs/Images/background-blue_triangles.jpg')
+background-size: 100%
+background-position: center
+class: middle
+
+.size60[**Assignment for Next Class**]
+
+.size40[
+1. "Democratic Peace" readings in the syllabus
+
+2. **Before class** submit to our Canvas discussion board:
+
+Generally speaking, do you believe Kant's proposal, or any other international rules, could succeed in preventing most future wars?
+]
+
+???
+
+
+
+
+
+
+
+

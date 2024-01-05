@@ -1,0 +1,520 @@
+---
+output:
+  xaringan::moon_reader:
+    css: ["default", "extra.css"]
+    lib_dir: libs
+    seal: false
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+      ratio: '16:9'
+---
+
+```{r, echo = FALSE, warning = FALSE, message = FALSE}
+##xaringan::inf_mr()
+## For offline work: https://bookdown.org/yihui/rmarkdown/some-tips.html#working-offline
+## Images not appearing? Put images folder inside the libs folder as that is the main data directory
+
+library(tidyverse)
+library(readxl)
+library(stargazer)
+##library(kableExtra)
+##library(modelr)
+
+knitr::opts_chunk$set(echo = FALSE,
+                      eval = TRUE,
+                      error = FALSE,
+                      message = FALSE,
+                      warning = FALSE,
+                      comment = NA)
+```
+
+background-image: url('libs/Images/14-3-rwanda_photo.webp')
+background-size: 100%
+background-position: top center
+class: bottom
+
+.size60[.content-box-grey[**Today's Agenda**]]
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+```{r, out.width='80%', fig.align='center'}
+knitr::include_graphics('libs/Images/14-3-Banality_title.png')
+```
+
+???
+
+## Prep for Class
+
+1. ...
+
+<br>
+
+Today I assigned you an article that represents one possible answer to our question on Monday.
+
+- I'm not kidding when I tell you that this article blew my mind in grad school and I hope you found it equally fascinating.
+
+
+
+
+---
+
+background-image: url('libs/Images/14_1-yugoslavia_map.jpg')
+background-size: 60%
+background-position: center
+
+???
+
+The main case Mueller (2000) explores is the violence that broke out in Yugoslavia in the 90s.
+
+<br>
+
+In short, after WWI all of these separate kingdoms were merged into a single country, Yugoslavia.
+- These had been part of the Austro-Hungarian empire.
+
+- Yugoslavia was, for a short time,  a monarchy.
+
+<br>
+
+During WW2 resistance groups in Yugoslavia fight back against the Nazis.
+
+One particularly effective group, the Partisans, a communist group led by Josip Broz establish themselves as an important source of power in Yugoslavia.
+
+
+---
+
+class: middle
+
+.pull-left[
+
+<br>
+<br>
+
+```{r, fig.align='center', out.width='100%'}
+knitr::include_graphics("libs/Images/14_1-yugoslavia_map.jpg")
+```
+
+]
+
+.pull-right[
+
+```{r, fig.align='center', out.width='90%'}
+knitr::include_graphics("libs/Images/14_1-tito.jpg")
+```
+
+]
+
+???
+
+After the war, Broz now known as marshal Tito consolidates power and rules ruthlessly as a dictator.
+
+- Tito was a canny strategic operator, very Machiavellian
+
+- Maintained an iron grip in order to hold these very different kingdoms together as one country.
+
+<br>
+
+Now, Chairman Tito faced a problem that confronts all dictators: the future.
+
+### If you are the dictator, what are the pros and cons of naming a preferred successor to follow you as leader?
+
+- (Pro: Direct benefits to those you care about; Trust the system will remain intact; create a scapegoat)
+
+- (Con: Invites rivals to your power)
+
+<br>
+
+### Make this clear for me, why is it dangerous to identify a preferred successor for when you are gone?
+- (Creates and endorses a rival to your power)
+
+-  (- A focal point for dissatisfied elites to work to replace you.)
+
+
+
+
+---
+
+background-image: url('libs/Images/14-3-tito_flag.jpg')
+background-size: 100%
+background-position: center
+
+???
+
+So, let's say you play it smart and don't name a successor.
+
+### What happens when you die?
+
+Chaos! Leader dies and the country falls apart.
+
+- After Tito's death Yugoslavian regions scramble to defend their territory and to claim new areas.
+
+<br>
+
+### If you're a regional political figure in Yugoslavia why focus on ethnicity or race as your preferred argument to take power?
+
+(Many politicians tried to use ethnicity as a path to power:)
+1. Demonstrates your connection to a given people / region
+2. Unites the people already in your territory
+
+Appeals to ethnic nationalism begin to spread.
+- Serbia for the Serbs!
+- Bosnia for the Bosnians!
+
+<br>
+
+### Any problem with making ethnicity the organizing principal of political competition in Yugoslavia?
+
+
+
+
+---
+
+background-image: url('libs/Images/14_1-yugoslavia_ethnic.png')
+background-size: 100%
+background-position: center
+
+???
+
+Census data (1991) gives one view of the ethnic breakdown in Yugoslavia.
+
+### What does this identify is the problem with appeals to ethnicity?
+- (Ethnically homogenous areas do not cleanly fit in many of the recognized territorial borders.)
+
+<br>
+
+Tito managed to hold the country together with an iron fist.
+- Once that was removed, things rapidly fell apart.
+
+<br>
+
+Note: This figure oversimplifies reality.
+- There is more mixing here than evident by solid colors.
+
+<br>
+
+The roots of many of the problems we come to know in Yugoslavia can be seen this figure.
+- Kosovo's make-up being so different from the rest of Serbia.
+
+- The mess that is Bosnia and Herzegovina
+
+- The pockets of muslims on "Serbian" territory.
+
+- Serbs in concentrated blocs in other regions.
+
+
+
+---
+
+background-image: url('libs/Images/14_1-ratko_mladic.jpg')
+background-size: 100%
+background-position: center
+
+???
+
+Very, very long story short, these political fights turn into armed fights.
+
+- That is Ratko Mladic a notorious Serb war commander.
+
+- Starting in 1991:
+    - Estimates 140,000 killed
+    - Genocide, ethnic cleansing and rape frequently employed 
+
+<br>
+
+A fascinating and complex period of time.
+- I am NOT an area expert, so we’ll shift to the article.
+
+
+
+---
+
+background-image: url('libs/Images/background-slate_v2.png')
+background-size: 100%
+background-position: center
+class: middle, center
+
+.size60[**The Banality of "Ethnic War"**]
+
+.size50[(Mueller 2000)]
+
+<br>
+
+<br>
+
+.size50[**The Case of Yugoslavia**]
+
+.size50[
+Therefore, "ethnic war" is not a good description for what happened in the former Yugoslavia in the 1990s.
+]
+
+???
+
+The Mueller article does an excellent job pushing beyond our standard understandings of ethnic warfare.
+- There is much more going on here than ethnic divisions.
+
+<br>
+
+Before we diagram the argument, let's clarify the central concept here.
+
+### What is "ethnicity"?
+- (Mess of identity, race, history...)
+
+### Mueller has a specific test for "ethnic" warfare, what is it?
+
+### - See footnote 1 on p44!
+- (Prejudice that is expressed in violence.)
+- "I am concerned here with ethnic violence and warfare-a condition in which combatants arrayed along ethnic lines seek to kill each other-not particularly with ethnic hatreds. It is important to distinguish common, knee-jerk, and sometimes hateful ethnic slurs-no matter how unpleasant and politically incorrect their expression may often be-from prejudice that is expressed in violence. As James D. Fearon and David D. Laitin have pointed out, ethnic violence is actually exceedingly rare when one considers how many Archie Bunkers there are in the world and how many opportunities there are for it to occur" (p44).
+
+### Is this a good definition? Why or why not?
+- (Might be too vague to be useful…)
+
+
+
+
+---
+
+background-image: url('libs/Images/background-slate_v2.png')
+background-size: 100%
+background-position: center
+class: middle, center
+
+.size60[**The Banality of "Ethnic War"**]
+
+.size50[(Mueller 2000)]
+
+<br>
+
+<br>
+
+.size50[**The Case of Yugoslavia**]
+
+.size50[
+Therefore, "ethnic war" is not a good description for what happened in the former Yugoslavia in the 1990s.
+]
+
+???
+
+Take five minutes on your own to pull out the main premises that support this conclusion.
+- What happened in Yugoslavia that makes Mueller so confident this wasn't an ethnic war?
+
+<br>
+
+Work with the people next to you, consolidate into one argument diagram.
+
+*ON BOARD*
+
+*Call on people!*
+
+<br>
+
+class 2018-11-14
+- Not everyone joined in (most people didn't participate, didn't support the crimes or were indifferent)
+- Many killings within-group
+- Unifying factors: criminality (weekend warriors, released prisoners) and opportunistic leaders
+- Reaction by many was bewilderment
+- Military refused to participate (mass desertions)
+- Pre-war surveys showed strong national identity as Yugoslavians, not by ethnicity
+
+Revised by me
+- Most people didn't participate
+- Pre-war polling indicate very little support for breaking Yugoslavia apart by "nation"
+- Violence happened across AND within "ethnic" groups
+- Many Serbs in the military mutinied or deserted rather than participate.
+- Opportunistic leaders unleash criminal resources (releasing prisoners, criminal syndicates, local hooligans, weekend warriors) on 
+
+
+
+
+---
+background-image: url('libs/Images/background-slate_v2.png')
+background-size: 100%
+background-position: center
+class: middle
+
+.size35[
+
++ Most people didn't participate
+
++ Very little support for breaking Yugoslavia apart by "nation"
+
++ Violence happened across AND within "ethnic" groups
+
++ Many Serbs in the military mutinied or deserted rather than participate.
+
++ Leaders used criminal resources to achieve their worst aims (prisoners, criminal syndicates, hooligans, weekend warriors)
+
+Therefore, "ethnic war" is not a good description for what happened in the former Yugoslavia in the 1990s.
+
+]
+
+???
+
+Here is one version of the argument diagram.
+
+### Is this a convincing argument? Why or why not?
+
+<br>
+
+The intriguing part of this article is where Mueller goes from here.
+
+He makes a fairly huge inference from his analyses of the genocides in Yugoslavia and Rwanda.
+
+
+
+---
+
+background-image: url('libs/Images/background-slate_v2.png')
+background-size: 100%
+background-position: center
+class: middle
+
+.center[.size60[**The Big Arguments (Mueller 2000)**]]
+
+.size40[
+1. "Ethnic war essentially does not exist"
+
+2. It could happen anywhere
+    - Takeover
+    - Carnival
+    - Revenge
+    - Occupation and Desertion
+]
+
+???
+
+Meuller's research seems to reveal a pattern underpinning the kinds of violence we see around the world that we label "ethnic cleansing."
+
+### Any questions on these broad and important conclusions?
+
+### - Are we clear on how these four steps lead to violence that may appear ethnically driven?
+
+<br>
+
+Takeover (53)
+"Recruited and encouraged by leading politicians, and operating under a general framework of order provided by the army, a group of well-armed thugs-or skinhead or redneck or soccer hooligan or Hell's Angels types-would emerge in an area where the former civil order had ceased to exist or where the police actually or effectively were in alliance with them. As the only group willing-indeed, sometimes eager-to use force, they would quickly take control."
+
+Carnival (55)
+"The thugs often exercised absolute power in their small fiefdoms and lorded it over their new subjects. Carnivals of looting and destruction would take place, as would orgies of rape, arbitrary violence and murder, and roaring drunkenness; pay often came in the form of alcohol and cigarettes."
+
+Revenge (56)
+"Some among the brutalized might wish to fight-and to seek revenge against-their persecutors."
+
+"Often the choice was essentially one of being dominated by vicious bigots of one's own ethnic group or by vicious bigots of another ethnic group."
+
+Occupation and Desertion (56)
+"Life in areas controlled by the thugs could be miserable, as the masters argued among themselves and looked for further prey among those remaining, whatever their ethnic background. As Rieff observes, the involvement of gangsters on all sides meant that the "political aims of the war became hopelessly intertwined on a day-to-day level with profiteering and black market activities."
+
+
+
+
+---
+
+background-image: url('libs/Images/background-slate_v2.png')
+background-size: 100%
+background-position: center
+class: middle
+
+.center[.size60[**The Big Arguments (Mueller 2000)**]]
+
+.size40[
+1. "Ethnic war essentially does not exist"
+
+2. It could happen anywhere
+    - Takeover
+    - Carnival
+    - Revenge
+    - Occupation and Desertion
+]
+
+???
+
+### Big question 1, how does this compare and contrast with our work trying to define race and racism on Monday?
+
+### - Would the postcolonial scholars of race appreciate Mueller's arguments here?
+
+### - Anything they would challenge?
+
+*DISCUSS*
+
+<br>
+
+Race is:
+- a social phenomenon
+- a 'relation', not a 'thing'
+- a product of racism
+- a reflection of power
+
+Racism is the belief in, practice, and policy of domination based on the specious concept of race (Henderson 2007). It is not simply bigotry or prejudice, but beliefs, practices and policies reflective of and supported by institutional power, primarily state power.
+
+
+
+
+---
+
+background-image: url('libs/Images/14_1-could_it1.png')
+background-size: 100%
+background-position: center
+
+???
+
+And here's one possible answer to the question, what is the biggest threat to the United States over the next 25 years.
+
+- Yes, I'm cheating becuase this is a domestic answer!
+
+<br>
+
+### Big question 2, could the chaos and violence described by Mueller in his four stages happen here? Why or why not?
+
+*DISCUSS*
+
+
+
+
+
+---
+
+background-image: url('libs/Images/background-blue_triangles.jpg')
+background-size: 100%
+background-position: center
+class: middle
+
+.center[.size60[.content-box-white[**Next Class: Final Paper Kick-off!**]]]
+
+.size45[
+Select a NEW international political event and make an argument that one of the IR theories / models we've studied in class this term "best" explains the event. 
+
+Your paper must consider and evaluate how THREE of the IR theories from class explain your chosen event.
+]
+
+???
+
+We're going to run back the prompt from the second paper and do it again on a new event!
+
+- Event needs to be recent, and
+
+- Cannot be an event we have explored in class.
+
+<br>
+
+### Questions on the prompt?
+
+<br>
+
+Next class we'll review the models from the second half of our semester and, hopefully, you'll all have an event picked out by the end of class.
+
+

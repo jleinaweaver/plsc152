@@ -1,0 +1,275 @@
+---
+output:
+  xaringan::moon_reader:
+    css: ["default", "extra.css"]
+    lib_dir: libs
+    seal: false
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+      ratio: '16:9'
+---
+
+```{r, echo = FALSE, warning = FALSE, message = FALSE}
+##xaringan::inf_mr()
+## For offline work: https://bookdown.org/yihui/rmarkdown/some-tips.html#working-offline
+## Images not appearing? Put images folder inside the libs folder as that is the main data directory
+
+library(tidyverse)
+library(readxl)
+library(stargazer)
+##library(kableExtra)
+##library(modelr)
+
+knitr::opts_chunk$set(echo = FALSE,
+                      eval = TRUE,
+                      error = FALSE,
+                      message = FALSE,
+                      warning = FALSE,
+                      comment = NA)
+```
+
+background-image: url('libs/Images/background-worldmap3.png')
+background-size: 105%
+background-class: top
+
+<br>
+
+.size60[
+
+**Today's Agenda: Final Paper Prep**
+
+- Strengthening explanations and analyses
+]
+
+<br>
+
+.center[.size40[
+  Justin Leinaweaver (Spring 2024)
+]]
+
+???
+
+## Prep for class
+1. Review submitted work on Canvas (notes from applying models to the cases)
+
+2. *For you:* 10 mins per exercise (event, model 1, model 2, model 3) THEN add exercise focused on identifying your thesis. 
+
+
+
+
+
+---
+
+background-image: url('libs/Images/background-blue_triangles2.png')
+background-size: 100%
+background-position: center
+class: middle
+
+.size50[.content-box-purple[**Final Exam (Due Dec 12, 10am)**]]
+
+.size35[
+Select a **NEW** international political event and make an argument that one of the IR theories / models we've studied in class this term "best" explains the event. 
+
+Your paper must consider and evaluate how **THREE** of the IR theories from class explain your chosen event.
+
+- No double-dipping on realism/liberalism
+
+- At least one theory from the second half of class
+
+- No events used in the prior paper
+]
+
+???
+
+### Any questions on the final paper prompt?
+
+
+
+
+---
+
+background-image: url('libs/Images/background-blue_triangles.jpg')
+background-size: 100%
+background-position: center
+class: middle
+
+.size45[
+.content-box-white[**For Today:**]
+
+1. Describe your chosen international political event (cite evidence), 
+
+2. Use each selected model (x3) to explain your event, and
+
+3. Evaluate each model in terms of its strengths and weaknesses (minimum 3 each).
+]
+
+???
+
+On Monday we made sure everyone had a clear event and had selected three models
+
+<br>
+
+Today we make sure each of the three components of the final paper are in really good shape.
+
+1. Can you clearly describe your international political event?
+    - And do you have high quality evidence of the basic facts?
+    
+2. Can you explain the event using each of your three models
+    - Is each explanation complete and coherent?
+    
+3. Can you evaluate the strengths and weaknesses of each explanation?
+    - e.g. provide multiple reasons someone might prefer one model over the others?
+    
+<br>
+
+### Do our goals for today make sense?
+
+
+
+
+---
+
+background-image: url('libs/Images/15_2-international_flags_v2.png')
+background-size: 100%
+background-position: center
+class: middle, inverse
+
+.size50[
+.center[**Describe the Event**]
+
+1. Is this a single, specific event?
+
+2. Is it international?
+
+3. Is it political?
+
+4. Are the basic facts established by high quality evidence?
+]
+
+???
+
+Pair off and review the event!
+
+- Make sure you are convinced the other person has convincingly addressed these four things.
+
+
+
+
+
+---
+
+background-image: url('libs/Images/15_2-international_flags_v2.png')
+background-size: 100%
+background-position: center
+class: middle, inverse
+
+.size50[
+.center[**Explain the Event with ONE Model**]
+
+1. Fully explain your event
+
+2. What are the strongest parts of the explanation?
+
+3. What are the weakest parts of the explanation?
+]
+
+???
+
+Change up the pairings!
+
+- Walk the other person through you applying ONE of your models to the event
+
+- Other person, help them flesh out or deepen each of these three pieces.
+
+<br>
+
+Swap up your pairings and now do your second model
+
+- Go!
+
+<br>
+
+Swap it up again and do your final model
+
+- Go!
+
+<br>
+
+Ok, time to reflect on your work today.
+
+- I'd be shocked if pitching someone each model hasn't changed your thinking about them
+
+- PLUS their feedback must have given you something of use!
+
+<br>
+
+Take five minutes to decide on the thesis for your paper
+
+- Which model is the most useful? Why?
+
+- Jot down some notes!
+
+
+
+
+
+
+
+---
+
+background-image: url('libs/Images/background-blue_triangles2.png')
+background-size: 100%
+background-position: center
+class: middle
+
+.pull-left[
+
+<br>
+<br>
+
+.size70[.center[**For Friday**]]
+
+<br>
+<br>
+
+.size70[.center[**Draft an Outline**]]
+
+]
+
+.pull-right[
+
+.size30[**Intro**
++ What is the question?
++ Why do we care?
++ Thesis statement
+]
+
+.size30[**Apply Theory 1**
++ Evidence
+]
+
+.size30[**Apply Theory 2**
++ Evidence
+]
+
+.size30[**Apply Theory 3**
++ Evidence
+]]
+
+
+???
+
+Outline due in class on Friday
+
+- Submit as an assignment, NOT a Canvas discussion posting
+
+- Bring your outline to class
+
+<br>
+
+### Questions?
+
+- Get to it!
+

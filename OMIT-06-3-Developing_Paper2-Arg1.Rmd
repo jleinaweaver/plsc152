@@ -1,0 +1,183 @@
+---
+output:
+  xaringan::moon_reader:
+    css: ["default", "extra.css"]
+    lib_dir: libs
+    seal: false
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+      ratio: '16:9'
+---
+
+```{r, echo = FALSE, warning = FALSE, message = FALSE}
+##xaringan::inf_mr()
+## For offline work: https://bookdown.org/yihui/rmarkdown/some-tips.html#working-offline
+## Images not appearing? Put images folder inside the libs folder as that is the main data directory
+
+library(tidyverse)
+library(readxl)
+library(stargazer)
+##library(kableExtra)
+##library(modelr)
+
+knitr::opts_chunk$set(echo = FALSE,
+                      eval = TRUE,
+                      error = FALSE,
+                      message = FALSE,
+                      warning = FALSE,
+                      comment = NA)
+```
+
+background-image: url('libs/Images/background-worldmap3.png')
+background-size: 105%
+background-class: top
+class: middle
+
+.size80[**Today's Agenda**]
+
+<br>
+
+.size60[
+.center[
+Writing Workshop
+]
+]
+
+<br>
+
+.center[.size40[
+  Justin Leinaweaver (Spring 2024)
+]]
+
+???
+
+## Prep for Class
+1. ...
+
+<br>
+
+*Opening Discussion: From this point forward students need to practice identifying international political events everyday in class. These are more than just 'things happening far away'!*
+
+### DISCUSS: Name me an international political event that has happened since we last met as a class.
+
+
+
+
+---
+
+background-image: url('libs/Images/background-blue_triangles2.png')
+background-size: 100%
+background-position: center
+class: middle
+
+.size65[**Assignment for Monday**]
+
+.size40[
+1. Readings in the syllabus
+
+2. **Before class** submit to our Canvas discussion board: If classical realism represents a map of international politics what are its main features? (e.g. actors, institutions and interactions)
+]
+
+???
+
+Before we shift to the paper, let's highlight your job for Monday.
+
+### Questions on this?
+
+<br>
+
+Ok, let's get to this writing workshop!
+
+
+
+
+---
+
+background-image: url('libs/Images/background-blue_triangles2.png')
+background-size: 100%
+background-position: center
+class: middle, center
+
+.size60[**Who or what is currently the biggest international threat to the United States?**]
+
+???
+
+The prompt for your paper.
+
+### Questions?
+
+
+
+---
+
+background-image: url('libs/Images/background-blue_triangles2.png')
+background-size: 100%
+background-position: center
+class: middle
+
+.size60[**Farrell's (2010) Writing Advice**]
+
+.size40[
+1. Read the Requirements for the Assignment
+
+2. Avoid Data Dumps
+
+3. Cut to the Chase
+
+4. Organize, Organize, Organize
+
+5. Exercises in Style
+]
+
+???
+
+### Questions on Farrell's advice?
+
+
+
+---
+
+background-image: url('libs/Images/background-blue_triangles2.png')
+background-size: 100%
+background-position: center
+class: middle, center
+
+.size60[**To be convincing an argument should be .textred[logical], .textred[clear], .textred[credible] and .textred[critical].**]
+
+
+---
+
+background-image: url('libs/Images/background-blue_triangles2.png')
+background-size: 100%
+background-position: center
+class: middle
+
+.size50[**Convincing arguments...**]
+
+.size35[
++ .textred[**Logical**]: Do the premises support the conclusion?
+
++ .textred[**Clear**]: Is the paper easy to read and understand?
+
++ .textred[**Credible**]: Is there enough high quality evidence (cited using APA)?
+
++ .textred[**Critical**]: Does the paper address weaknesses in the argument (e.g. logic, evidence, consider counter-arguments)?
+]
+
+???
+
+Let's start reading and giving each other feedback!
+
+<br>
+
+*2 minutes left*
+
+Papers are due tonight.
+
+SLIDE: Next week we start digging into realist theories of international relations
+
+
+
+

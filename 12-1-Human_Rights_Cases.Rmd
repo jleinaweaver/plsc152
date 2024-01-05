@@ -1,0 +1,376 @@
+---
+output:
+  xaringan::moon_reader:
+    css: ["default", "extra.css"]
+    lib_dir: libs
+    seal: false
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+      ratio: '16:9'
+---
+
+```{r, echo = FALSE, warning = FALSE, message = FALSE}
+##xaringan::inf_mr()
+## For offline work: https://bookdown.org/yihui/rmarkdown/some-tips.html#working-offline
+## Images not appearing? Put images folder inside the libs folder as that is the main data directory
+
+library(tidyverse)
+library(readxl)
+library(stargazer)
+##library(kableExtra)
+##library(modelr)
+
+knitr::opts_chunk$set(echo = FALSE,
+                      eval = TRUE,
+                      error = FALSE,
+                      message = FALSE,
+                      warning = FALSE,
+                      comment = NA)
+```
+
+background-image: url('libs/Images/background-worldmap3.png')
+background-size: 105%
+background-class: top
+
+.center[.size50[**IV. What is the Future of Transnational Politics and IR?**]]
+
+<br>
+
+.size50[
+**Today's Agenda**
+
+- Explore the current state of human rights conditions around the world
+]
+
+<br>
+
+.center[.size40[
+  Justin Leinaweaver (Fall 2021)
+]]
+
+???
+
+## Prep for Class
+1. Check the Google sheet for participation
+
+2. Data: Consider a few slides presenting data on their chosen cases to aid discussion of the sample
+
+3. Spreadsheet with CIRIGHTS data for selected countries
+
+
+
+
+---
+
+background-image: url('libs/Images/background-blue_triangles2.png')
+background-size: 100%
+background-position: center
+class: middle
+
+.size40[.content-box-purple[**Assignment for Next Class**]]
+
+.size35[Choose two countries: a democracy and a dictatorship (claim yours on Google Sheet, first-come, first-served). 
+
+Review the current human rights record for both countries using all three sources below. 
+
+1. The country reports by the US Department of State
+2. The country reports by Amnesty International
+3. The country reports by Human Rights Watch
+
+Submit a summary of each country to Canvas before class (2-3 sentences each)
+]
+
+???
+
+For today I asked each of you to perform two case studies that would help us think about the state of human rights in the world.
+
+### Everybody ready to go?
+
+
+
+---
+
+background-image: url('libs/Images/background-blue_cubes_lighter3.png')
+background-size: 100%
+background-position: center
+class: middle, center
+
+.size60[.content-box-white[**A Case Study**]]
+
+.size55[
+"A case study is an .textblue[**in-depth examination**], often undertaken over time, of .textblue[**a single case**] – such as a policy, programme, intervention site, implementation process or participant" (Goodrick 2014, 1).
+]
+
+???
+
+Your work for today is what we refer to as a "case study."
+
+- Although, to be fair to what we did, we did a very brief case study at a single moment in recent time...
+
+- Still, I think you get the gist.
+
+<br>
+
+**SLIDE**: Thanks to all of your work before class, we can now use our time in class to perform a comparative case analysis.
+
+
+---
+
+background-image: url('libs/Images/background-blue_cubes_lighter3.png')
+background-size: 100%
+background-position: center
+class: middle, center
+
+.size60[.content-box-white[**A Comparative Case Study**]]
+
+.size45[
+"Comparative case studies involve the .textblue[**analysis and synthesis of the similarities, differences and patterns across two or more cases**] that share a common focus or goal in a way that .textblue[**produces knowledge**] that is easier to generalize about causal questions – how and why particular programmes or policies work or fail to work" (Goodrick 2014).
+]
+
+???
+
+In other words, comparing all of your cases allows us to:
+
+1. Broaden our descriptive knowledge of the world,
+
+2. Identify puzzles that need some explanation (generates new research projects), and
+
+3. Develop generalizations about how certain mechanisms or processes might work.
+
+<br>
+
+I'm hoping we can do some of all three of those things today.
+
+
+---
+
+background-image: url('libs/Images/15_1-Sources.png')
+background-size: 100%
+background-position: center
+
+???
+
+*NOTE TO YOU: Shorten discussion of bias in the sources*
+
+<br>
+
+Before we dig into the cases, let's talk about our data sources.
+
+- Heading into areas we know nothing about puts even more pressure on us to build knowledge using "high quality" sources.
+
+<br>
+
+I'll be totally honest with you here: Each of these sources has its own problems
+
+- The US State Dept is explicitly a political entity with a very specific perspective
+
+- Both AI and HRW are NGOs that face funding pressures and must be careful to ensure access to the places they want to do work in.
+
+<br>
+
+### So, what is our best bet for establishing "high confidence" facts from these three sources?
+
+(Most confident where all three reports agree with each other?)
+- This assumes all three asking the same question, right?
+
+(Least confident when:)
+- only one mentions something,
+- when a "fact" lies at the heart of the source's bias,
+
+
+
+
+---
+
+background-image: url('libs/Images/background-blue_cubes_lighter3.png')
+background-size: 100%
+background-position: center
+class: middle
+
+.size45[.center[.content-box-white[**Compare and contrast the democracy cases**]]]
+
+.size40[
++ In general, how good is the respect for human rights in these cases?
+	+ Excellent
+	+ Good
+	+ Fair
+	+ Poor
+
++ Most targeted groups?
+
++ Most violated rights?
+]
+
+???
+
+*Split into groups of four*
+
+Try to work with new people!
+
+- Your job is to compare and contrast the democracy cases and get ready to report back your findings.
+
+<br>
+
+### Ok, any early conclusions we can draw at this point about human rights practices in democracies?
+
+*Report Back and Discuss*
+
+- *ON BOARD*
+
+
+
+
+---
+
+background-image: url('libs/Images/background-blue_cubes_lighter3.png')
+background-size: 100%
+background-position: center
+class: middle
+
+.size50[.center[.content-box-white[**Compare and contrast the dictatorship cases**]]]
+
+.size40[
++ In general, how good is the respect for human rights in these cases?
+	+ Excellent
+	+ Good
+	+ Fair
+	+ Poor
+
++ Most targeted groups?
+
++ Most violated rights?
+]
+
+???
+
+Mix up the groups!
+
+- Go work with new people!
+
+<br>
+
+Groups, compare and contrast the dictatorship cases and get ready to report back your findings.
+
+<br>
+
+### Ok, any early conclusions we can draw at this point about human rights practices in dictatorships?
+
+*Report Back and Discuss*
+
+- *ON BOARD*
+
+
+
+
+
+
+---
+
+background-image: url('libs/Images/12_1-human-rights-vdem.svg')
+background-size: 80%
+background-position: center
+
+???
+
+Ok, that said, let's compare and contrast across our cases.
+
+### Based on this comparative case study how comfortable are you in asserting that regime type is a predictor of human rights behavior?
+
+### - Why or why not?
+
+<br>
+
+### - Do the regime types differ significantly in terms of their most common "human rights" violations?
+
+<br>
+
+### - Do the regime types differ significantly in terms of who specifically in the country is doing the harms?
+
+<br>
+
+### - Do the regime types differ significantly in terms of how the victims are being targeted?
+
+<br>
+
+### - Any evidence in the cases of any of these identified harms being addressed?
+
+
+
+---
+
+background-image: url('libs/Images/12_1-Team_America.jpg')
+background-size: 100%
+background-position: center
+
+???
+
+Last big question for us today.
+
+### Do you think human rights violations should compel American action?
+
+### - Should we be the world's policeman when human rights are under assault? Why or why not?
+
+
+---
+
+background-image: url('libs/Images/12_1-Fragile_States2023.png')
+background-size: 70%
+background-position: center
+class: slideblue
+
+???
+
+The question might not be so cut and dry.
+
+<br>
+
+Here we see the Fragile States Index.
+
+- Some have demonstrated that states with increasing levels of human rights violations raise their risk of failure (e.g. governmental collapse).
+
+- And state failures tend not to stay isolated within their borders, e.g. one failed state tends to destabilize those around them.
+
+- Therefore, preventing small conflicts from becoming wider wars may require earlier interference in states when human rights violations increase.
+
+<br>
+
+### Are you buying that logic? Why or why not?
+
+
+
+
+---
+
+background-image: url('libs/Images/background-blue_triangles2.png')
+background-size: 100%
+background-position: center
+class: middle
+
+.size60[.content-box-white[**Assignment for Next Class**]]
+
+<br>
+
+.size45[
+1. Krain (2012) p574-578
+
+2. **Before class** submit to our Canvas discussion board: 
+    - What is the research question in this paper?
+    - What is their proposed answer to the question?
+]
+
+???
+
+For the rest of this week we'll be digging deeply into our next research article of the semester!
+
+- For Wed, your job is to read the set-up of the paper (574-578) so we can explore the model he proposes to test.
+
+- Friday we'll dig into the data analyses.
+
+<br>
+
+### Questions on the assignment?
+
+
+

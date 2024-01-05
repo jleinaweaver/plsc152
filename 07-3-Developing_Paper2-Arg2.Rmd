@@ -1,0 +1,365 @@
+---
+output:
+  xaringan::moon_reader:
+    css: ["default", "extra.css"]
+    lib_dir: libs
+    seal: false
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+      ratio: '16:9'
+---
+
+```{r, echo = FALSE, warning = FALSE, message = FALSE}
+##xaringan::inf_mr()
+## For offline work: https://bookdown.org/yihui/rmarkdown/some-tips.html#working-offline
+## Images not appearing? Put images folder inside the libs folder as that is the main data directory
+
+library(tidyverse)
+library(readxl)
+library(stargazer)
+##library(kableExtra)
+##library(modelr)
+
+knitr::opts_chunk$set(echo = FALSE,
+                      eval = TRUE,
+                      error = FALSE,
+                      message = FALSE,
+                      warning = FALSE,
+                      comment = NA)
+```
+
+background-image: url('libs/Images/background-worldmap3.png')
+background-size: 105%
+background-class: top
+class: middle
+
+.size60[**II. Why Are There Wars?**]
+
+<br>
+
+.size50[
+**Today's Agenda**
+
+- Working on Paper 2
+]
+
+<br>
+
+.center[.size40[
+  Justin Leinaweaver (Spring 2024)
+]]
+
+???
+
+## Prep for Class
+1. ...
+
+<br>
+
+
+
+
+---
+
+background-image: url('libs/Images/background-blue_triangles.jpg')
+background-size: 100%
+background-position: center
+class: middle
+
+.center[.size60[.content-box-white[**Paper 2**]]]
+
+.size40[
+Make an argument that one of the IR theories we've studied in class so far this term **"best"** explains the event you explored in Paper 1. 
+
+Your paper must consider and evaluate how **THREE** of the IR theories from class explain your chosen event.
+
+- Options: Neorealism, Offensive Realism, Democratic Peace, Economic Liberalism, and the Bargaining Model of War
+
+]
+
+???
+
+Here is the prompt for the second paper.
+
+### Any questions on it?
+
+
+
+
+---
+
+background-image: url('libs/Images/background-worldmap3.png')
+background-size: 105%
+background-class: top
+class: middle
+
+.size45[
+.content-box-blue[**IR Models (so far)**]
+
+- Neorealism
+
+- Offensive Realism
+
+- Liberal Peace
+
+- Economic Liberalism
+
+- *Bargaining Model of War*
+]
+
+???
+
+*Split class into 4 groups*
+
+Groups each take one of the models from class so far and get a diagram up on the board
+
+- **NOT INCLUDING the bargaining model!**
+
+<br>
+
+In a few minutes each group will:
+
+1. Explain their diagram, AND 
+
+2. Give us examples of the model in action (e.g. briefly explaining the event they wrote about in paper 1)
+
+<br>
+
+### Questions?
+
+- Get to it!
+
+<br>
+
+PRESENT and DISCUSS each
+
+### Any clarifications needed?
+
+
+
+
+---
+
+background-image: url('libs/Images/background-slate_v2.png')
+background-size: 100%
+background-position: center
+class: middle
+
+.size35[.center[.content-box-white[**Bargaining Model of War (Fearon 1995)**]]]
+
+### Interests
+.size35[
+- ?
+]
+
+### Institutions
+.size35[
+- ?
+]
+
+### Interactions
+.size35[
+- ?
+]
+
+???
+
+
+GROUPS, now tackle the Bargaining Model of War!
+
+- DIAGRAM on the BOARD!
+
+<br>
+
+PRESENT and DISCUSS each
+
+<br>
+
+**SLIDE**: My version...
+
+
+
+
+---
+
+background-image: url('libs/Images/background-slate_v2.png')
+background-size: 100%
+background-position: center
+class: middle
+
+.size35[.center[.content-box-white[**Bargaining Model of War (Fearon 1995)**]]]
+
+### Interests
+.size35[
++ States want (gains?)
+]
+
+### Institutions
+.size35[
++ International anarchy: States may choose war or a bargain
+]
+
+### Interactions
+.size35[
+- Wars are costly, risky and inefficient
+- War occurs because of private information / incentive to misrepresent
+- War occurs as a consequence of commitment problems
+- War occurs due to "issue indivisibilities"
+]
+
+???
+
+
+
+<br>
+
+Assumptions
+- ONLY applies to conflict situations!
+- Two risk-averse or risk-neutral actors (or sides),
+- Dispute on a single dimension,
+- Winner of the war chooses the outcome position,
+- Amount you like the outcome increases across the line,
+- States must know there is a probability of victory, and
+- The issues at dispute must be divisible.
+
+Expectations
+- Because wars are costly, risky and inefficient, there should ALWAYS be a non-war outcome that both sides would prefer.
+- Therefore, war occurs because of private information and the incentive to misrepresent.
+- Therefore, war occurs as a consequence of commitment problems.
+- Therefore, war occurs due to "issue indivisibilities"
+
+
+
+
+<br>
+
+**SLIDE**: Remember our advice from the first paper.
+
+
+
+
+
+---
+
+background-image: url('libs/Images/background-blue_triangles2.png')
+background-size: 100%
+background-position: center
+class: middle
+
+.size60[.content-box-purple[**Farrell's (2010) Writing Advice**]]
+
+.size40[
+1. Read the Requirements for the Assignment
+
+2. Avoid Data Dumps
+
+3. Cut to the Chase
+
+4. Organize, Organize, Organize
+
+5. Exercises in Style
+]
+
+???
+
+### Questions on Farrell's advice?
+
+
+
+
+---
+
+background-image: url('libs/Images/background-blue_triangles2.png')
+background-size: 100%
+background-position: center
+class: middle
+
+.size50[.content-box-purple[**Convincing arguments...**]]
+
+.size35[
++ .textred[**Logical**]: Do the premises support the conclusion?
+
++ .textred[**Clear**]: Is the paper easy to read and understand?
+
++ .textred[**Credible**]: Is there enough high quality evidence (cited using APA)?
+
++ .textred[**Critical**]: Does the paper address weaknesses in the argument (e.g. logic, evidence, consider counter-arguments)?
+]
+
+???
+
+### Questions on the paper rubric?
+
+
+
+---
+
+background-image: url('libs/Images/background-blue_triangles2.png')
+background-size: 100%
+background-position: center
+class: middle
+
+.pull-left[
+
+<br>
+<br>
+
+.size70[.center[**For NEXT Friday**]]
+
+<br>
+<br>
+
+.size70[.center[**Draft an Outline**]]
+
+]
+
+.pull-right[
+
+.size30[**Intro**
++ What is the question?
++ Why do we care?
++ Thesis statement
+]
+
+.size30[**Apply/Evaluate Theory 1**
++ Evidence x 2
+]
+
+.size30[**Apply/Evaluate Theory 2**
++ Evidence x 2
+]
+
+.size30[**Apply/Evaluate Theory 3**
++ Evidence x 2
+]]
+
+
+???
+
+Everybody pick your three theories and get to work applying them to your Paper 1 event!
+
+- Outline due in class next Friday
+
+- Paper due in two weeks
+
+<br>
+
+With the rest of our time today you have work to do:
+
+1. Select the three theories you will be evaluating, 
+
+2. Brainstorm how to apply that theory to your case, and then
+
+2. Write a draft thesis statement!
+
+<br>
+
+### Questions?
+
+- Get to it!
+
+
+
+

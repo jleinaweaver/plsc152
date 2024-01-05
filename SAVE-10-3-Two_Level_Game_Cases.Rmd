@@ -1,0 +1,368 @@
+---
+output:
+  xaringan::moon_reader:
+    css: ["default", "extra.css"]
+    lib_dir: libs
+    seal: false
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+      ratio: '16:9'
+---
+
+```{r, echo = FALSE, warning = FALSE, message = FALSE}
+##xaringan::inf_mr()
+## For offline work: https://bookdown.org/yihui/rmarkdown/some-tips.html#working-offline
+## Images not appearing? Put images folder inside the libs folder as that is the main data directory
+
+library(tidyverse)
+library(readxl)
+library(stargazer)
+##library(kableExtra)
+##library(modelr)
+
+knitr::opts_chunk$set(echo = FALSE,
+                      eval = TRUE,
+                      error = FALSE,
+                      message = FALSE,
+                      warning = FALSE,
+                      comment = NA)
+```
+
+background-image: url('libs/Images/background-worldmap3.png')
+background-size: 105%
+background-class: top
+class: middle
+
+.center[.size50[**III. Why is it so Hard to Cooperate with Other Countries?**]]
+
+<br>
+
+.size50[
+**Today's Agenda**
+
+- Two-level Bargaining Cases
+]
+
+<br>
+
+.center[.size40[
+  Justin Leinaweaver (Spring 2024)
+]]
+
+???
+
+## Prep for Class
+1. Check Canvas submissions
+
+2. Make sure you have 4 markers
+
+<br>
+
+...
+
+
+
+
+---
+
+background-image: url('libs/Images/09_2-chess.png')
+background-size: 100%
+background-position: center
+
+???
+
+Last class we started exploring Putnam's (1988) Two-Level metaphor for international bargaining.
+
+### What were our key takeaways from that discussion?
+
+### - What specific dynamics does that model help us think about when explaining international political events?
+
+<br>
+
+- Two levels of bargaining SIMULTANEOUSLY; Moves on one board change the pieces on the other!
+
+- Win-sets matter
+
+- Clever strategy: Try to change your own win-set size OR the win-set size of the other leader
+
+<br>
+
+**SLIDE**: diagram
+
+
+
+---
+
+background-image: url('libs/Images/background-worldmap3.png')
+background-size: 100%
+background-position: center
+class: middle
+
+.size30[
+.center[.content-box-purple[**Putnam's (1988) Two-Level Game**]]
+
+**Interests:** 
+- Leaders want political survival
+- Constituents want specific policies or goods
+
+**Institutions:**
+- International negotiations require leaders to agree a policy (Level I)
+- Domestic negotiations require leaders to get approval from constituents (Level II)
+
+**Interactions:**
+- Win-set size matters: Larger Level I = more likely agreement, smaller Level II = more influential leader
+- Leaders should strategically try to influence win-set sizes home and abroad
+]
+
+???
+
+### Questions on the diagram of the model?
+
+<br>
+
+### How broad or narrow is this model of international political events?
+
+### - In other words, is this only useful when discussing trade (e.g. buying and selling stuff) or can it be used on things like war?
+
+<br>
+
+Very adaptable!
+
+- Almost any state-to-state conflict or dispute can be represented using this structure.
+
+- HOWEVER, some a bigger stretch than others!
+
+
+
+
+
+---
+
+background-image: url('libs/Images/background-blue_triangles.jpg')
+background-size: 100%
+background-position: center
+class: middle
+
+.size50[.content-box-white[**For Today**]]
+
+.size40[
+Find us a real world case illustrating at least some of the dynamics of Putnam's Two-Level Game (e.g. domestic politics complicating international bargaining or vice versa).
+
+1. Submit APA citation,
+2. Explain what happened, and 
+3. Explain how it is an example of two-level game dynamics
+]
+
+???
+
+### Everybody ready to go?
+
+<br>
+
+**SLIDE**: Citations
+
+
+
+---
+
+background-image: url('libs/Images/background-blue_triangles.jpg')
+background-size: 100%
+background-class: center
+class: middle
+
+.size50[.content-box-white[**APA Web Citations**]]
+
+<br>
+
+.size35[
+- Lastname, F. M. (Year, Month Date). *Title of page*. Site name. URL
+
+- Group name. (Year, Month Date). *Title of page*. Site name. URL
+
+- *Title of page*. (Year, Month Date). Site name. Retrieved Month Date, Year, from URL
+
+- Author or Group name. (n.d.). *Title of page*. Site name (if applicable). URL
+]
+
+???
+
+I want everybody to go through the submitted cases and do two things:
+
+1. Review the citations: Are they all in APA format?
+
+2. Does the post make clear what happened and why this is an example of two-level dynamics.
+
+<br>
+
+This is our chance to make sure the data we've collected is clear enough to be analyzed.
+
+- Start reviewing and let's ask each other clarifying questions!
+
+<br>
+
+*SPLIT class into groups (4 groups?)*
+
+- Go sit with your group and claim some space on the board
+
+
+
+---
+
+background-image: url('libs/Images/background-worldmap3.png')
+background-size: 100%
+background-position: center
+class: middle, center
+
+.size60[
+.center[.content-box-blue[**Does Domestic Politics Matter?**]]
+
+<br>
+
+Therefore, useful explanations of international political events must account for domestic politics.]
+
+???
+
+GROUPS, use the cases submitted to Canvas today to help you build an argument that ends with this conclusion.
+
+- Remember, a convincing argument is built using big ideas, not simply examples
+
+- Each example on Canvas is evidence that supports one of your big ideas (premises)
+
+<br>
+
+### Questions on the task?
+
+- Let's go!
+
+<br>
+
+PRESENT and DISCUSS each
+
+<br>
+
+### Can we build a class version of this argument?
+
+### - In other words, what are the strongest premises from the group diagrams?
+
+<br>
+
+#### Notes - Class 2023-10
+- Leaders have strategic options when trying to get the policies they want and this is super useful: Either work to influence their own constituents, the opponents constituents or the other leaders
+
+- We cannot understand why leaders act unless we acknowledge the domestic pressures they face
+
+- Leader reputations matter in international bargains
+
+- Leader's ability to deliver on promises matter but that depends on domestic dynamics
+
+
+
+---
+
+background-image: url('libs/Images/background-worldmap3.png')
+background-size: 105%
+background-class: top
+class: middle
+
+.center[.size50[.content-box-blue[**Domestic Politics and IR Models?**]]]
+
+.size35[
+- Neorealism
+
+- Offensive Realism
+
+- Democratic Peace
+
+- Economic Liberalism
+
+- Bargaining Model of War
+
+- Prisoner's Dilemma Models
+
+- Two-Level Bargaining
+]
+
+???
+
+### Which of our models from this semester so far include domestic politics as an important mechanism for explaining international political events?
+
+- (**SLIDE**)
+
+
+
+
+---
+
+background-image: url('libs/Images/background-worldmap3.png')
+background-size: 105%
+background-class: top
+class: middle
+
+.center[.size50[.content-box-blue[**Domestic Politics and IR Models?**]]]
+
+.size35[
+- Neorealism
+
+- Offensive Realism
+
+- .textblue[**Democratic Peace**]
+
+- Economic Liberalism
+
+- Bargaining Model of War
+
+- Prisoner's Dilemma Models
+
+- .textblue[**Two-Level Bargaining**]
+]
+
+???
+
+Democratic Peace is fundamentally an argument about how domestic institutions change the way states behave on the international stage
+- Democratic accountability leads to more peace, BUT if drawn into a war the wide buy-in by citizens makes them hard to beat!
+
+<br>
+
+### How difficult would it be to add domestic politics elements to the rest of these?
+
+- *Discuss each*
+
+- Be careful, any IR model that starts with an assumption of a unitary state is one that you really can't unpack easily.
+
+<br>
+
+### If we go back to the cases we thought were strong examples of domestic politics, can we evaluate them with these other theories?
+
+<br>
+
+### Where do we end up?
+
+### Are domestic politics vital to explaining international political events? Why or why not?
+
+
+
+
+---
+
+background-image: url('libs/Images/background-blue_triangles.jpg')
+background-size: 100%
+background-position: center
+class: middle
+
+.size50[.content-box-white[**Assignment for Next Class**]]
+
+<br>
+
+.size50[
+Read Hopf (1998) "The Promise of Constructivism in International Relations Theory"
+
+- Be ready to diagram this model!
+]
+
+???
+
+### Questions on the assignment?
+
+

@@ -1,0 +1,918 @@
+---
+output:
+  xaringan::moon_reader:
+    css: ["default", "extra.css"]
+    lib_dir: libs
+    seal: false
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+      ratio: '16:9'
+---
+
+```{r, echo = FALSE, warning = FALSE, message = FALSE}
+##xaringan::inf_mr()
+## For offline work: https://bookdown.org/yihui/rmarkdown/some-tips.html#working-offline
+## Images not appearing? Put images folder inside the libs folder as that is the main data directory
+
+library(tidyverse)
+library(readxl)
+library(stargazer)
+##library(kableExtra)
+##library(modelr)
+
+knitr::opts_chunk$set(echo = FALSE,
+                      eval = TRUE,
+                      error = FALSE,
+                      message = FALSE,
+                      warning = FALSE,
+                      comment = NA)
+```
+
+background-image: url('libs/Images/background-worldmap3.png')
+background-size: 105%
+background-class: center
+class: middle
+
+.size45[**I. Arguments, Evidence and International Relations**]
+
+<br>
+
+.size50[
+
+**Today's Agenda**
+
+1. The elements of effective arguments
+    
+2. Evaluating our examples
+]
+
+<br>
+
+.center[.size40[
+  Justin Leinaweaver (Spring 2024)
+]]
+
+???
+
+## Prep for Class
+1. Review and record participation submissions
+
+<br>
+
+Welcome back all
+
+### Before we dive in, any questions on the syllabus?
+
+
+
+---
+
+background-image: url('libs/Images/background-blue_triangles.jpg')
+background-size: 100%
+background-class: center
+class: middle
+
+.size55[.content-box-white[**Assignment for Today**]]
+
+.size45[
+1. Complete the readings, and
+
+2. **Before class** submit to Canvas:
+    - Were you convinced by Khodorkovsky's (2023) argument?
+    - Were you convinced by Van Hollen's (2023) argument?
+]
+
+???
+
+### Questions on the participation assignment for today?
+
+<br>
+
+### Before we talk about the arguments themselves, how did the task go for you? 
+### - How often have you been asked to do this kind of exercise before?
+
+<br>
+
+### Did you scroll through the responses after submitting?
+
+<br>
+
+**SLIDE**: Let's start by talking about the quality of an argument.
+
+
+
+---
+
+background-image: url('libs/Images/01_2-Girl_yells_yak.jpg')
+background-size: 100%
+background-position: center
+
+???
+
+Bad arguments are everywhere and are common in the political arena.
+
+### How do you judge whether an argument is "good" or "bad"?
++ (Ultimately, the judge of an argument's quality is whether or not it convinces people of its thesis.)
+
+<br>
+
+### What is a thesis?
++ (The central idea of your argument.)
++ The thing you want people to take away from it.
+
+<br>
+
+### When was the last time in your life someone changed your mind about something with an argument? Examples?
+
+#### - How specifically did they do it? Certain strategies employed?
+
+<br>
+
+While being "convincing" is the goal, that's also a subjective test of quality.
+
+- In academia we have developed criteria that we argue are necessary for an argument to be convincing.
+ 
+ 
+
+---
+
+background-image: url('libs/Images/background-slate_v2.png')
+background-size: 100%
+background-position: center
+class: middle, center
+
+.size80[**To be convincing an argument should be .textred[logical, clear, credible] and .textred[critical].**]
+
+???
+
+For the important arguments in our lives, concerning the issues we care most about, people demand you put in some serious work to shift their position.
+
+<br>
+
+Let's talk through each of these elements.
+
+- FYI this is the rubric I use when grading argument papers in my classes.
+
+
+
+---
+
+background-image: url('libs/Images/background-slate_v2.png')
+background-size: 100%
+background-position: center
+class: middle, center
+
+.size45[.textred[**Logical**] arguments support their conclusion with well specified premises.]
+
+--
+
+.size45[.textred[**Clear**] arguments are easy to read & understand.]
+
+--
+
+.size45[.textred[**Credible**] arguments use high quality evidence and citations.]
+
+--
+
+.size45[.textred[**Critical**] arguments acknowledge the limitations of evidence and address counter-arguments.]
+
+???
+
+The rubric is in the syllabus so you can consult it as you write and revise for this class.
+
+- The key is, a convincing academic argument must do ALL FOUR OF THESE THINGS well.
+
+<br>
+
+### What questions do you have about this rubric?
+
+#### - Which elements need more explanation?
+
+<br>
+
+During the course of the semester we will spend time exploring each of these criteria.
+
+- For today our focus is primarily on logic and clarity.
+
+
+
+---
+
+background-image: url('libs/Images/background-slate_v2.png')
+background-size: 100%
+background-position: center
+class: top
+
+.size60[**Argument Basics**]
+
+```{r, fig.align='center', out.width='75%'}
+knitr::include_graphics("libs/Images/01_2-Labossiere-header.png")
+```
+
+.size50[
++ Conclusion
+]
+
+???
+
+I want to use the Labossiere reading to highlight the key components of a high quality argument.
+
+- Again, these are the elements you will need to write papers and make arguments in this class.
+
+<br>
+
+### According to Labossiere (2008), what is the conclusion of an argument?
++ (This is the main point of the argument, e.g. the thesis or key takeaway)
+
+--
+
+.size50[
++ Premise
+]
+
+???
+
+<br>
+
+### According to Labossiere (2008), what is a premise?
++ (A premise is a claim given as evidence or a reason for accepting the conclusion.)
+
+So, the basic structure of every logical argument is a series of premises that support a conclusion.
+
+### Make sense?
+
+--
+
+.size50[
++ Inductive Arguments
+]
+
+???
+
+<br>
+
+Induction represents how we think about the quality of the connection between our premises and our conclusion.
+
+- In this class, and throughout the social sciences, we tend to rely on inductive reasoning.
+
+- This is a form of reasoning that moves from the specific to the general
+
+- e.g. An argument that provides a series of empirical observations that all support a more general conclusion
+    
+<br>
+
+**SLIDE**: Let's look at some examples
+
+
+
+
+---
+
+background-image: url('libs/Images/background-slate_v2.png')
+background-size: 100%
+background-position: center
+class: top
+
+.center[.size40[.content-box-white[**Inductive Arguments: From the Specific to the General**]]]
+
+.size45[
+- In the summer, there are ducks on our pond. Therefore, summer will likely bring ducks to our pond.
+
+- Every cat that you've observed purrs. Therefore, most cats must purr.
+
+- All the children in this daycare center like to play with Lego. Therefore, all children probably like to play with Lego.
+]
+
+???
+
+### Does everyone see how each of these arguments build from a specific premise to a general conclusion?
+- Inductive arguments use specific premises to support a more general conclusion
+
+- Inductive arguments often use indicator words: probably, likely, tends to, etc
+
+- Inductive arguments often make claims about the future based on the way things have typically happened in the past
+
+<br>
+
+### Questions on the basic structure of an inductive argument?
+
+<br>
+
+Inductive arguments can also be classified as either strong or weak.
+
+- Our goal is to make arguments as strong as possible because stronger arguments are more likely to be convincing arguments!
+
+- A "strong" inductive argument "succeeds in having its conclusion be probably true, given the truth of the premises" ([Critical thinking book](https://iu.pressbooks.pub/shockeyphilp102summer/chapter/inductive-arguments/)).
+
+- In other words, if we assume these premises are true is the conclusion more likely to be true.
+
+<br>
+
+### Are all of these "strong" inductive arguments? Why or why not?
+- (They are, but that doesn't mean they have to be convincing!)
+
+### What could we add to make each of these a more convincing "strong" inductive argument?
+- (Arg 1: Premises related to the size of the pond, the location of the pond in the path of well established duck migration patterns, data on duck presence in nearby ponds, etc)
+
+- (Arg 2: Premises related to how many cats you've observed, observations made by others, etc)
+
+<br>
+
+### What do we learn about inductive arguments now that we know these are "strong" examples?
+- They are tentative at best!
+
+- You're making an educated or informed guess based on the information or data that you have.
+
+- No amount of supporting observations can EVER prove an inductive argument.
+    - It's all about strength of the argument, never certainty
+
+
+
+---
+
+background-image: url('libs/Images/background-slate_v2.png')
+background-size: 100%
+background-position: center
+class: top
+
+.center[.size60[**To be convincing an argument should be .textred[logical], clear, credible and critical.**]]
+
+<br>
+
+.size50[
++ Conclusion
+
++ Premise
+
++ Inductive Arguments
+]
+
+???
+
+So, this represents the crux of the "logic" portion of our class writing rubric.
+
+The arguments you make in this class must be logical and that means they are:
+
+- Designed to advance a single, clear conclusion,
+
+- Built upon clear, well supported premises, and
+
+- Inductively strong.
+
+<br>
+
+### Questions on any of this?
+
+<br>
+
+**SLIDE**: Let's apply these elements to the arguments I had you evaluate before class.
+
+
+
+---
+
+background-image: url('libs/Images/background-slate_v2.png')
+background-size: 100%
+background-position: center
+class: middle, center
+
+```{r, fig.align='center', out.width='50%'}
+knitr::include_graphics("libs/Images/01_2-Khodorkovsky2023.png")
+```
+
+???
+
+Ok, the first argument we need to evaluate was written by Mikhail Khodorkovsky. [BBC Profile](https://www.bbc.com/news/world-europe-12082222)
+
+- He is the former head of the Russian oil company Yukos
+
+- Once ranked as high as 15th on the Forbes global wealth list with a net worth approaching $15 billion
+
+- After he began financially supporting opposition parties in Russia he was charged with tax evasion and embezzlement 
+
+- Ended up serving 10 years in a Russian prison
+
+- He now supports political opposition projects in exile
+
+<br>
+
+**ALWAYS important to think about who is making the argument and what motivates them!**
+
+<br>
+
+### Before digging into the argument itself, anything about this source we should keep in mind? Any concerns?
+
+
+---
+
+background-image: url('libs/Images/background-slate_v2.png')
+background-size: 100%
+background-position: center
+class: middle, center
+
+.pull-left[
+```{r, fig.align='center', out.width='100%'}
+knitr::include_graphics("libs/Images/01_2-Khodorkovsky2023.png")
+```
+]
+
+.pull-right[
+.size60[
+
+<br>
+
+What is the .textblue[**conclusion**] in this argument?]
+
+]
+
+???
+
+Let's start by identifying the central conclusion in the argument.
+
+- Remember, he's chosen to publish this in an American newspaper
+
+- He's speaking directly to us, so consider that as you think about the many different pieces of the essay
+
+<br>
+
+### So, what's the conclusion of his argument?
+
+### - What is he trying to convince us to do?
+
+- (**SLIDE**)
+
+
+
+---
+
+background-image: url('libs/Images/background-slate_v2.png')
+background-size: 100%
+background-position: center
+class: middle, center
+
+.pull-left[
+```{r, fig.align='center', out.width='100%'}
+knitr::include_graphics("libs/Images/01_2-Khodorkovsky2023.png")
+```
+]
+
+.pull-right[
+.size55[
+
+Therefore, the US must increase its financial and military support for Ukraine immediately (and stop any consideration of negotiations or ceasefires).]
+
+]
+
+???
+
+This represents my summary of the central argument here.
+
+- As I said, he covers a lot of ground in this essay so we may slightly differ on what we each think is central.
+
+<br>
+
+### Everybody ok with using this as our target?
+
+### - Any tweaks needed?
+
+<br>
+
+### Per the Labossiere reading and the argument rubric for our class, what do we need to evaluate?
+
+<br>
+
+We have to evaluate the Logic, Clarity, Credibility and Critical Analysis in the argument.
+
+- **SLIDE**: Let's build up to this.
+
+
+
+---
+
+background-image: url('libs/Images/background-slate_v2.png')
+background-size: 100%
+background-position: center
+class: middle, center
+
+.pull-left[
+```{r, fig.align='center', out.width='100%'}
+knitr::include_graphics("libs/Images/01_2-Khodorkovsky2023.png")
+```
+]
+
+.pull-right[
+.size55[
+
+<br>
+
+Identify the .textblue[**three most important premises**] in this argument.]
+
+]
+
+???
+
+Take a few minutes on your own to identify the three most important premises in the article.
+
+- Try to think about this from a 30,000 foot view
+- What are the big reasons he gives to support the conclusion?
+- Each paragraph in the argument either reveals a premise or explains and supports a premise.
+- Your first job is to find the premises.
+
+<br>
+
+### Questions? 
+
+Let's get to it!
+
+<br>
+
+Compare your list of premises to the person next to you.
+
+<br>
+
+Alright, let's get ideas up *ON THE BOARD*
+
+- *Call on people, chance to learn names*
+
+- **SLIDE**: My version
+
+<br>
+
+#### Notes
+- Putin is an "expansionist fascist dictator"
+- Appeasing an expansionist cannot work, they will continuously increase their demands
+- Putin invaded, Ukraine because it was developing into a vibrant democracy aligned with European values
+- Western support for Ukraine is only at the level that keeps it from losing but is not enough for it to win
+- Congress delaying the latest aid package is purely about politics and not American interests
+- Peace talks or negotiations with Putin reward expansionist behavior and will lead to future attempts at expansion by the Russians.
+- Future attempts at expansion by the Russians will almost inevitably hit a NATO country.
+- The success experienced by Western countries over the last 400 years is due to our embrace of freedom (trade, expression, ideas)
+- The problem is that the success we have experienced in the West making our lives much more comfortable is that we no longer have an appetite for the sacrifices required to defend freedom.
+- There are a number of examples of the West's inaction in the face of attacks on freedom. 
+- Western inaction has emboldened the enemies of freedom EG China, Russia, Iran, Hamas,...
+- Defeating Putin in Ukraine will accelerate his defeat as leader of Russia.
+- If we don't act now, provide money and arms to Ukraine, we will be forced to sacrifice our children in a war to stop the next expansion by Russia and its allies.
+- Therefore, the US must increase its financial and military support for Ukraine immediately (and stop any consideration of negotiations or ceasefires).
+
+
+---
+
+background-image: url('libs/Images/background-slate_v2.png')
+background-size: 100%
+background-position: center
+class: middle
+
+.size40[
+- Putin is an "expansionist" which means he will not stop at Ukraine's border
+
+- Peace talks and negotiations reward Putin's expansionist tendencies
+
+- The inaction of the "West" in the face of threats is encouraging enemies of freedom around the world 
+
+- If we don't act now to defend Ukraine (arms and money) we will be forced to fight in the future
+
+Therefore, we must defeat Russia in Ukraine.
+]
+
+???
+
+### Per the rubric, are these premises clear?
+
+### Is the argument inductively logical? Why or why not?
+
+<br>
+
+Let's talk evidence.
+
+### What evidence does the author provide to support the first premise?
+
+### - Is it high quality and cited appropriately?
+
+*Repeat for each additional premise*
+
+<br>
+
+The final element of the rubric is critical analysis.
+
+### Is there any critical analysis in the argument (e.g. counter-arguments or acknowledging limitations in evidence)?
+
+
+
+---
+
+background-image: url('libs/Images/background-slate_v2.png')
+background-size: 100%
+background-position: center
+class: middle
+
+.size40[
+- Putin is an "expansionist" which means he will not stop at Ukraine's border
+
+- Peace talks and negotiations reward Putin's expansionist tendencies
+
+- The inaction of the "West" in the face of threats is encouraging enemies of freedom around the world 
+
+- If we don't act now to defend Ukraine (arms and money) we will be forced to fight in the future
+
+Therefore, we must defeat Russia in Ukraine.
+]
+
+???
+
+Ok let's talk.
+
+### Are you convinced by this argument? Why or why not?
+
+<br>
+
+### Any questions on the procedure for diagramming and evaluating an academic argument?
+
+- SLIDE: Let's practice this again!
+
+
+
+
+---
+
+background-image: url('libs/Images/background-slate_v2.png')
+background-size: 100%
+background-position: center
+class: middle, center
+
+```{r, fig.align='center', out.width='50%'}
+knitr::include_graphics("libs/Images/01_2-VanHollen2023.png")
+```
+
+???
+
+Our second argument comes from Senator Chris Van Hollen
+
+- A Democrat from Maryland
+
+- Serves on the Appropriations and Foreign Relations committees
+
+<br>
+
+**Again, always take time to consider the source!**
+
+<br>
+
+### Before digging into the argument itself, anything about this source we should keep in mind? Any concerns?
+
+
+
+---
+
+background-image: url('libs/Images/background-slate_v2.png')
+background-size: 100%
+background-position: center
+class: middle, center
+
+.pull-left[
+```{r, fig.align='center', out.width='100%'}
+knitr::include_graphics("libs/Images/01_2-VanHollen2023.png")
+```
+]
+
+.pull-right[
+.size60[
+
+<br>
+
+What is the .textblue[**conclusion**] in this argument?]
+
+]
+
+???
+
+Just as we did before, let's start by identifying the conclusion.
+
+<br>
+
+### What is the conclusion to this argument?
+### - What is he trying to convince us to believe?
+
+
+
+---
+
+background-image: url('libs/Images/background-slate_v2.png')
+background-size: 100%
+background-position: center
+class: middle, center
+
+.pull-left[
+```{r, fig.align='center', out.width='100%'}
+knitr::include_graphics("libs/Images/01_2-VanHollen2023.png")
+```
+]
+
+.pull-right[
+.size45[
+
+Therefore, the US should condition future military aid to Israel on a requirement they produce "a verifiable plan" to reduce civilian casualties and "fully cooperate with our efforts to provide humanitarian assistance to civilians in Gaza"
+
+]]
+
+
+???
+
+### Everybody ok with using this as our target?
+
+### - Any tweaks needed?
+
+
+
+---
+
+background-image: url('libs/Images/background-slate_v2.png')
+background-size: 100%
+background-position: center
+class: middle, center
+
+.pull-left[
+```{r, fig.align='center', out.width='100%'}
+knitr::include_graphics("libs/Images/01_2-VanHollen2023.png")
+```
+]
+
+.pull-right[
+.size60[
+
+<br>
+
+Identify the .textblue[**three most important premises**] in this argument.
+]]
+
+???
+
+Alright, 30,000 foot view.
+
+### What are the key premises in this argument?
+
+*if enough time have them work on their own or in pairs first.*
+
+*ON BOARD*
+
+<br>
+
+**SLIDE**: My version
+
+#### Notes
+- The Oct 7 attack by Hamas on Israel "was an unconscionable, heinous act of terrorism"
+- US as friend and partner to Israel wants a return of the hostages and an end to the military threat of Hamas
+- US government obligation to our people that assistance is consistent with our interests, values, and in line with U.S. and international humanitarian law.
+- Future money and arms to Israel should include new rules
+    - Weapons must be used "in accordance with U.S. law, international humanitarian law and the law of armed conflict."
+    - President must report to Congress on Israel's compliance on these rules
+    - Denies future aid if Israel prevents humanitarian assistance to those in need
+- It is essential, for both moral and strategic reasons, that Israel distinguish between Hamas and the more than 2 million Palestinian civilians in the Gaza Strip, half of them children, who have nothing to do with Hamas.
+- The fact that Hamas uses the despicable practice of hiding among the population does not absolve the Netanyahu government of its responsibility to take all necessary measures to reduce harm to civilians.
+- In just eight weeks of war, we have witnessed a massive level of death, destruction and displacement.
+- The Netanyahu government has allowed only a trickle of aid into Gaza
+- When strong words are not matched by strong actions, the United States looks feckless.
+- And right now, bombs and artillery made in America and paid for by Americans are being used in Gaza.
+- we must keep one eye on the future and the need not only to prevent a regional war that could burn for more than a decade but also to advance a political solution to enable millions of Israelis and Palestinians living side by side to do so in peace and dignity.
+- How Israel prosecutes this war matters and will impact not only Israel’s security but also the future of the entire region.
+- US has many goals in this situation: return of hostages, ending the military threat of Hamas
+Therefore, the US should oppose the "resumption of hostilities" until Israel produces "a verifiable plan to reduce the unacceptable level of civilian casualties and fully cooperate with our efforts to provide humanitarian assistance to civilians in Gaza"
+
+
+
+
+
+---
+
+background-image: url('libs/Images/background-slate_v2.png')
+background-size: 100%
+background-position: center
+class: middle
+
+.size30[
+- The Oct 7 attack by Hamas on Israel "was an unconscionable, heinous act of terrorism"
+
+- We have witnessed a massive level of death, destruction and displacement in Gaza and the Netanyahu government has allowed only a trickle of aid to reach civilians (possible violations of international law)
+
+- The US government has demanded changes to Israel's prosecution of the war which have mostly been ignored (we look feckless)
+
+- How Israel prosecutes this war matters and will impact not only Israel’s security but also the future of the entire region.
+
+Therefore, the US should condition future military aid to Israel on a requirement they produce "a verifiable plan" to reduce civilian casualties and "fully cooperate with our efforts to provide humanitarian assistance to civilians in Gaza"
+]
+
+???
+
+Feckless: lacking initiative or strength of character
+
+### Per the rubric, are these premises clear?
+
+<br>
+
+### Is the argument inductively logical? Why or why not?
+
+<br>
+
+### What high quality evidence does the author provide to support each premise?
+
+<br>
+
+### Is there any critical analysis in the argument (e.g. counter-arguments or acknowledging limitations in evidence)?
+
+<br>
+
+Ok let's talk.
+
+### Are you convinced by this argument? Why or why not?
+
+<br>
+
+We'll be doing this kind of exercise a LOT this semester so you'll get plenty of practice at it!
+
+### Any questions on the procedure for diagramming and evaluating an academic argument?
+
+
+
+
+---
+
+background-image: url('libs/Images/01_2-globe_and_lights.jpg')
+background-size: 100%
+background-class: center
+class: middle
+
+???
+
+Our job next week is to lay the foundations we need to study international relations this semester.
+
+- That will mean defining our key concepts, 
+
+- discussing the "science" in political science, and 
+
+- exploring the use of models for explaining events.
+
+<br>
+
+For Monday we start by trying to define the most important concepts of our semester.
+
+- What are these "international political events" we are trying to explain?
+
+- In other words, what are we doing here?
+
+
+
+
+---
+
+background-image: url('libs/Images/background-blue_triangles.jpg')
+background-size: 100%
+background-class: center
+class: middle
+
+.size55[.content-box-white[**Assignment for Monday**]]
+
+.size40[
+1. Find a **recent** "international political event" described in the news, and
+
+2. **Before class** submit to Canvas:
+    - An APA citation for your source, and 
+    - Explain why this event is "international," "political" and "specific" (one sentence each).
+]
+
+???
+
+Go find us an "international," "political" "event" and be ready to discuss it with us.
+
+<br>
+
+### Has anybody ever used APA formatting for references and citations before?
+
+That's what we'll be using in this class (and all the social sciences).
+
+- If you're not sure how, follow the link to the Purdue OWL in the syllabus!
+
+<br>
+
+Submit your chosen event to Canvas before class.
+
+- Answer must be specific and at least 2 complete sentences
+
+- NO OVERLAP!
+
+### Questions on the assignment?
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

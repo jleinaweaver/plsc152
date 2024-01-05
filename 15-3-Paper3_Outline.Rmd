@@ -1,0 +1,186 @@
+---
+output:
+  xaringan::moon_reader:
+    css: ["default", "extra.css"]
+    lib_dir: libs
+    seal: false
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+      ratio: '16:9'
+---
+
+```{r, echo = FALSE, warning = FALSE, message = FALSE}
+##xaringan::inf_mr()
+## For offline work: https://bookdown.org/yihui/rmarkdown/some-tips.html#working-offline
+## Images not appearing? Put images folder inside the libs folder as that is the main data directory
+
+library(tidyverse)
+library(readxl)
+library(stargazer)
+##library(kableExtra)
+##library(modelr)
+
+knitr::opts_chunk$set(echo = FALSE,
+                      eval = TRUE,
+                      error = FALSE,
+                      message = FALSE,
+                      warning = FALSE,
+                      comment = NA)
+```
+
+background-image: url('libs/Images/background-worldmap3.png')
+background-size: 105%
+background-class: top
+
+<br>
+
+.size60[
+
+**Today's Agenda**
+
+- Final Paper Prep: Feedback on Outlines
+]
+
+<br>
+
+.center[.size40[
+  Justin Leinaweaver (Spring 2024)
+]]
+
+???
+
+## Prep for class
+1. Review submitted outlines on Canvas
+
+
+
+---
+
+background-image: url('libs/Images/background-blue_triangles2.png')
+background-size: 100%
+background-position: center
+class: middle
+
+.size50[.content-box-purple[**Final Exam (Due Dec 12, 10am)**]]
+
+.size35[
+Select a **NEW** international political event and make an argument that one of the IR theories / models we've studied in class this term "best" explains the event. 
+
+Your paper must consider and evaluate how **THREE** of the IR theories from class explain your chosen event.
+
+- No double-dipping on realism/liberalism
+
+- At least one theory from the second half of class
+
+- No events used in the prior paper
+]
+
+???
+
+### Any questions on the final paper prompt?
+
+
+
+---
+
+background-image: url('libs/Images/background-blue_triangles2.png')
+background-size: 100%
+background-position: center
+class: middle
+
+.pull-left[
+
+<br>
+<br>
+
+.size70[.center[**For Wednesday**]]
+
+<br>
+<br>
+
+.size70[.center[**Draft an Outline**]]
+
+]
+
+.pull-right[
+
+.size30[**Intro**
++ What is the question?
++ Why do we care?
++ Thesis statement
+]
+
+.size30[**Apply Theory 1**
++ Evidence
+]
+
+.size30[**Apply Theory 2**
++ Evidence
+]
+
+.size30[**Apply Theory 3**
++ Evidence
+]]
+
+
+???
+
+### Does everybody have an outline?
+
+*Split class into NEW small groups (no more than 3 each)*
+
+
+
+---
+
+background-image: url('libs/Images/background-blue_triangles.jpg')
+background-size: 100%
+background-position: center
+class: middle
+
+.size50[.content-box-white[**Groups**]]
+
+.size40[
+15 minutes to discuss each outline
+
+1. Is the group convinced by your pros/cons lists for each theory?
+
+2. Any additional ideas for the lists?
+
+3. Brainstorm real-world examples you could include to support your claims.
+]
+
+???
+
+I'll keep the time for you and announce when to switch to each new paper.
+
+<br>
+
+### Questions on your job in class today?
+
+Get to it!
+
+
+
+---
+
+background-image: url('libs/Images/background-blue_triangles.jpg')
+background-size: 100%
+background-position: center
+class: middle, center
+
+.size80[
+**Friday:**
+
+**Writing Workshop**
+]
+
+???
+
+Get some writing on paper and come to class ready to get and receive feedback!
+
+
+
+

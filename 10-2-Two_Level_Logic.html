@@ -1,0 +1,903 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+  <head>
+    <title>10-2-Two_Level_Logic.knit</title>
+    <meta charset="utf-8" />
+    <script src="libs/header-attrs-2.25/header-attrs.js"></script>
+    <link href="libs/remark-css-0.0.1/default.css" rel="stylesheet" />
+    <script src="libs/kePrint-0.0.1/kePrint.js"></script>
+    <link href="libs/lightable-0.0.1/lightable.css" rel="stylesheet" />
+    <link rel="stylesheet" href="extra.css" type="text/css" />
+  </head>
+  <body>
+    <textarea id="source">
+
+
+
+
+background-image: url('libs/Images/background-worldmap3.png')
+background-size: 105%
+background-class: top
+class: middle
+
+.center[.size50[**III. Why is it so Hard to Cooperate with Other Countries?**]]
+
+&lt;br&gt;
+
+.size50[
+**Today's Agenda**
+
+- Two-level Bargaining Games
+]
+
+&lt;br&gt;
+
+.center[.size40[
+  Justin Leinaweaver (Spring 2024)
+]]
+
+???
+
+## Prep for Class
+1. **FORCE the groups to sit together! Leaders sit up front!**
+
+2. Update slide with current EC points earned from PD v1 to complicate leader's task
+
+&lt;br&gt;
+
+#### Putnam (1988) Notes
+- p427-430 intro real-world examples, 
+- p433-440 two level games metaphor, 
+- p441-452 determinants of win set size, 
+- p452-453 uncertainty, 
+- p453-456 attempts to influence the other side, 
+- p456-459 role of the chief negotiator
+
+
+
+
+---
+
+background-image: url('libs/Images/09_1-patronage.jpg')
+background-size: 83%
+background-position: center
+
+???
+
+On Monday we re-played our prisoners' dilemma from a few weeks ago but with a few added wrinkles.
+
+&lt;br&gt;
+
+Before we dig into what happened, the leaders have a job to do.
+
+### Leaders are you ready to announce your decisions?
+
+&lt;br&gt;
+
+*They will inevitably ask about their reward for being leader*
+
+Your leadership rewards can't be calculated yet, you still have work to do!
+
+&lt;br&gt;
+
+**SLIDE**: Oh and just one more thing...
+
+
+
+
+---
+
+background-image: url('libs/Images/09_1-patronage_filter50.png')
+background-size: 83%
+background-position: center
+
+.pull-left[
+&lt;table class="table table-striped table-hover table-condensed" style="font-size: 30px; margin-left: auto; margin-right: auto;"&gt;
+ &lt;thead&gt;
+  &lt;tr&gt;
+   &lt;th style="text-align:left;"&gt; Name &lt;/th&gt;
+   &lt;th style="text-align:center;"&gt; EC &lt;/th&gt;
+  &lt;/tr&gt;
+ &lt;/thead&gt;
+&lt;tbody&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;width: 8em; background-color: gold !important;"&gt; Kaden &lt;/td&gt;
+   &lt;td style="text-align:center;background-color: gold !important;"&gt; 0 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;width: 8em; "&gt; Ivan &lt;/td&gt;
+   &lt;td style="text-align:center;"&gt; 1 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;width: 8em; "&gt; Cailey &lt;/td&gt;
+   &lt;td style="text-align:center;"&gt; 1 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;width: 8em; "&gt; Devin &lt;/td&gt;
+   &lt;td style="text-align:center;"&gt; 1 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;width: 8em; "&gt; Gilly &lt;/td&gt;
+   &lt;td style="text-align:center;"&gt; 1 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;width: 8em; "&gt; Abby R &lt;/td&gt;
+   &lt;td style="text-align:center;"&gt; 5 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;width: 8em; "&gt; Chloe &lt;/td&gt;
+   &lt;td style="text-align:center;"&gt; 5 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;width: 8em; "&gt; Bruce &lt;/td&gt;
+   &lt;td style="text-align:center;"&gt; 5 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;width: 8em; "&gt; Ty &lt;/td&gt;
+   &lt;td style="text-align:center;"&gt; 5 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;width: 8em; "&gt; Jameson &lt;/td&gt;
+   &lt;td style="text-align:center;"&gt; 5 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;width: 8em; "&gt; Lucas &lt;/td&gt;
+   &lt;td style="text-align:center;"&gt; 5 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;width: 8em; "&gt; David &lt;/td&gt;
+   &lt;td style="text-align:center;"&gt; 5 &lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+]
+
+.pull-right[
+&lt;table class="table table-striped table-hover table-condensed" style="font-size: 30px; margin-left: auto; margin-right: auto;"&gt;
+ &lt;thead&gt;
+  &lt;tr&gt;
+   &lt;th style="text-align:left;"&gt; Name &lt;/th&gt;
+   &lt;th style="text-align:center;"&gt; EC &lt;/th&gt;
+  &lt;/tr&gt;
+ &lt;/thead&gt;
+&lt;tbody&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;width: 8em; background-color: gold !important;"&gt; Abby H &lt;/td&gt;
+   &lt;td style="text-align:center;background-color: gold !important;"&gt; 5 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;width: 8em; "&gt; Joseph &lt;/td&gt;
+   &lt;td style="text-align:center;"&gt; 1 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;width: 8em; "&gt; Kyle &lt;/td&gt;
+   &lt;td style="text-align:center;"&gt; 1 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;width: 8em; "&gt; Jackson &lt;/td&gt;
+   &lt;td style="text-align:center;"&gt; 1 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;width: 8em; "&gt; Jack &lt;/td&gt;
+   &lt;td style="text-align:center;"&gt; 1 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;width: 8em; "&gt; Colman &lt;/td&gt;
+   &lt;td style="text-align:center;"&gt; 1 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;width: 8em; "&gt; George &lt;/td&gt;
+   &lt;td style="text-align:center;"&gt; 1 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;width: 8em; "&gt; Kelsey &lt;/td&gt;
+   &lt;td style="text-align:center;"&gt; 5 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;width: 8em; "&gt; Liam &lt;/td&gt;
+   &lt;td style="text-align:center;"&gt; 5 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;width: 8em; "&gt; Carter &lt;/td&gt;
+   &lt;td style="text-align:center;"&gt; 5 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;width: 8em; "&gt; Caden &lt;/td&gt;
+   &lt;td style="text-align:center;"&gt; 5 &lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+]
+
+???
+
+As is true in the real world, inequality exists!
+
+- Wealth and opportunity are not equally distributed across the population.
+
+- I thought you might want to consider the EC points already earned by the people in your state before you announce your decision.
+
+&lt;br&gt;
+
+### Leaders are you ready?
+
+- Please announce your decision.
+
+&lt;br&gt;
+
+### Groups, any objections to the leaders' proposed actions?
+
+&lt;br&gt;
+
+### Anybody want to call for an election?
+
+- Let this play out...
+
+&lt;br&gt;
+
+Alright, let's review what happened in our simulation!
+
+
+
+---
+
+background-image: url('libs/Images/10-2-Decision.jpg')
+background-size: 83%
+background-position: center
+
+???
+
+Let's start by discussing the strategic approach each of you brought to the game individually.
+
+### What decisions did each of you have to make each round within your groups?
+- Vote: Vote for leader,
+- Choose to Participate: Participate in the group decision-making,
+- Choose to Advocate: Advocate for one or the other decision in the group decision-making
+- ?
+
+&lt;br&gt;
+
+### Brainstorm: What characteristics predict when a citizen will choose to be active in these specific ways in their democracy?
+- *ON BOARD*
+
+&lt;br&gt;
+
+### Did our simulation represent these decisions in a useful way (e.g. how people face these choices in the political world everyday)? Why or why not?
+
+
+---
+
+class: middle, center
+
+.size50[.center[.content-box-blue[**Prisoner's Dilemma (v2)**]]]
+
+&lt;br&gt;
+
+&lt;style type="text/css"&gt;
+/* Change the background color to white for shaded rows (even rows) */
+.remark-slide thead, .remark-slide tr:nth-child(2n) {
+      background-color: white;
+}
+&lt;/style&gt;
+
+&lt;table class="table" style="font-size: 40px; margin-left: auto; margin-right: auto;"&gt;
+ &lt;thead&gt;
+&lt;tr&gt;
+&lt;th style="empty-cells: hide;border-bottom:hidden;" colspan="2"&gt;&lt;/th&gt;
+&lt;th style="border-bottom:hidden;padding-bottom:0; padding-left:3px;padding-right:3px;text-align: center; " colspan="2"&gt;&lt;div style="border-bottom: 1px solid #ddd; padding-bottom: 5px; "&gt;Group 2&lt;/div&gt;&lt;/th&gt;
+&lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;th style="text-align:left;"&gt;  &lt;/th&gt;
+   &lt;th style="text-align:left;"&gt;  &lt;/th&gt;
+   &lt;th style="text-align:center;"&gt; Cooperate &lt;/th&gt;
+   &lt;th style="text-align:center;"&gt; Defect &lt;/th&gt;
+  &lt;/tr&gt;
+ &lt;/thead&gt;
+&lt;tbody&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;width: 20em; font-weight: bold;"&gt; Group 1 &lt;/td&gt;
+   &lt;td style="text-align:left;width: 20em; font-weight: bold;"&gt; Cooperate &lt;/td&gt;
+   &lt;td style="text-align:center;width: 20em; background-color: #b3ccff !important;"&gt; +3, +3 &lt;/td&gt;
+   &lt;td style="text-align:center;width: 20em; background-color: #b3ccff !important;"&gt; -2, +5 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;width: 20em; font-weight: bold;"&gt;  &lt;/td&gt;
+   &lt;td style="text-align:left;width: 20em; font-weight: bold;"&gt; Defect &lt;/td&gt;
+   &lt;td style="text-align:center;width: 20em; background-color: #b3ccff !important;"&gt; +5, -2 &lt;/td&gt;
+   &lt;td style="text-align:center;width: 20em; background-color: #b3ccff !important;"&gt; -1, -1 &lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+???
+
+Now let's discuss the strategic approach of each group as a collective.
+
+### On the whole, what motivated your group?
+
+#### - How much consensus was there on the strategic goals of the group?
+
+#### - How much consensus was there on your round-to-round tactical decisions?
+
+&lt;br&gt;
+
+### Was your group motivated by obtaining relative or absolute gains? In other words, were you playing to win or to prevent the other side from winning? 
+
+&lt;br&gt;
+
+### Brainstorm: What characteristics of a problem or of a group predict when a group will prefer relative over absolute gains and vice versa?
+- *ON BOARD*: Relative Gains Concerns: Problem Chars vs Group Chars
+
+
+
+
+
+---
+
+background-image: url('libs/Images/10-2-How-to-negotiate-a-deal.jpg')
+background-size: 100%
+background-position: center
+
+???
+
+The role of trust in a negotiation
+
+### Did you find adding the negotiations between rounds helpful? Why or why not?
+#### - Did the arguments made during the negotiations matter to you? Why or why not?
+
+&lt;br&gt;
+
+### Did you trust your own leader as a negotiator even though they were earning their own benefits?
+
+&lt;br&gt;
+
+### Did you trust the word of the other team's leader as a negotiator? Why or why not?
+
+&lt;br&gt;
+
+### Brainstorm: What characteristics predict greater utility of a negotiation?
+
+
+
+---
+
+background-image: url('libs/Images/10-2-powerful_leader.jpg')
+background-size: 100%
+background-position: center
+
+???
+
+Power of the leader
+
+### How powerful was the leader (or leaders) of your group?
+
+&lt;br&gt;
+
+### Did either side elect a new leader during the game? Why or why not?
+
+&lt;br&gt;
+
+### Leaders, did you feel constrained by the other citizens in your state? Why or why not?
+
+&lt;br&gt;
+
+### Brainstorm: What characteristics are necessary for a leader to feel constrained by their citizens? Why not just do only what you want to enrich yourself?
+- *ON BOARD*
+
+&lt;br&gt;
+
+### Leaders, how much did you enjoy being in charge? Why or why not?
+
+- *Use these answers to announce leader rewards!*
+    - *If they hated it, make the reward tiny*
+    - *If they loved it, make it kind of obscene...*
+
+
+&lt;br&gt;
+
+**SLIDE**: Alright, let's segue to our new model!
+
+
+
+
+
+---
+
+background-image: url('libs/Images/09_2-chess.png')
+background-size: 100%
+background-position: center
+
+???
+
+Robert Putnam is a political scientist who wrote a great deal about modeling international negotiations.
+
+- In a 1988 paper he introduced the concept of a two level game.
+
+- Putnam argued that we could think usefully about international negotiations as a two level game.
+
+&lt;br&gt;
+
+I hope the excerpt from the reading made sense.
+
+- **SLIDE**: Since it's a complicated idea, let's step through it together.
+
+
+
+
+---
+
+background-image: url('libs/Images/09_2-Chess_2.png')
+background-size: 100%
+background-position: center
+class: middle
+
+.size30[.content-box-white[**Level I**]]
+
+.size30[.content-box-white[The international negotiation between leaders (or their representatives).]]
+
+&lt;br&gt;
+
+.size30[.content-box-white[**Level II**]]
+
+.size30[.content-box-white[The leader's negotiation with constituents to accept their international deal.]]
+
+???
+
+On the first level, leaders are actively negotiating with other leaders.
+
+&lt;br&gt;
+
+On the second level, leaders are actively negotiating with their supporters to stay in power.
+
+&lt;br&gt;
+
+The key is that these levels interact!
+- International negotiations impact domestic politics, AND
+    
+- Domestic politics changes international negotiations
+
+&lt;br&gt;
+
+### Intuition make sense?
+
+&lt;br&gt;
+
+Putnam's model assumes each participant in each level has a separate "win-set."
+
+### What is a "win-set" and how does the Level I win-set differ from the Level II win-set?
+    
+    
+    
+---
+
+background-image: url('libs/Images/09_2-Chess_2.png')
+background-size: 100%
+background-position: center
+class: middle
+
+.size30[.content-box-white[**Level I Win-Sets**]]
+
+.size30[.content-box-white[The range of outcomes the leader would accept in the international bargain.]]
+
+&lt;br&gt;
+
+.size30[.content-box-white[**Level II Win-Sets**]]
+
+.size30[.content-box-white[The range of outcomes that could be ratified by domestic institutions.]]
+
+???
+
+Difference between a Level I and a Level II "win-set"? (435-437)
+
+### Everybody clear on the win-set concept?
+
+- **SLIDE**: Let's tackle the ideas in this paper in smaller chunks!
+
+
+---
+
+background-image: url('libs/Images/09_2-Chess_2.png')
+background-size: 100%
+background-position: center
+class: middle
+
+.size30[
+.content-box-white[1) Why do "larger win-sets make Level I agreement more likely"? (437-439)]
+
+.content-box-white[2) Why do leaders benefit from having small Level II win-sets? (440-441)]
+
+.content-box-white[3) How do Level II preferences/coalitions explain win-set size? (442-448)]
+
+.content-box-white[4) How do Level II institutions explain win-set size? (448-450)]
+
+.content-box-white[5) How do Level I negotiators strategies explain win-set size? (450-452)]
+]
+
+???
+
+*Split class into five groups*
+
+Ok groups, take a few minutes and get ready to answer this question for the class!
+
+- Groups: Answer the question for us and identify how this aspect played out in our simulation last class.
+
+&lt;br&gt;
+
+1. Why do "larger win-sets make Level I agreement more likely"? (437-439)
+    - The wider the range of acceptable agreements to each leader, the more flexibility they can offer to the other side
+    - Remember, each leader has to worry about selling the international deal back home!
+    - So, bigger win-sets more likely a deal can be found both sides believe can be ratified
+
+2. Why should leaders benefit from having smaller Level II win-sets? (440-441)
+    - Large level 2 win-sets invites "pushing you around"
+    - Other negotiators don't have to care as much about your needs/wants/desires if you can get anything ratified
+    - Ironically, domestic weakness may produce international strength!
+
+3. Explain how the size of the win-set depends on Level II preferences
+and coalitions (442-448)
+    - You have to get the deal ratified so international negotiations depend to a large extent on the domestic battles over power, leadership and policymaking.
+    - Remember, domestic constituents are not choosing between your deal and a different one. They choose between your deal and no deal. Leader not as weak as you might have thought.
+    - What proportion of your constituents are open to international deals? Internationalists
+    - Homogeneous vs heterogeneous conflicts
+
+4. Explain how the size of the win-set depends on Level II institutions (448-450)
+    - US Congress requires 2/3 vote in Senate, that's a very high threshold
+    - Majoritarian parliamentary systems, lower threshold
+    - Dictatorship with centralized control and no opposition, smallest still
+
+5. Explain how the size of the win-set depends on Level I negotiators strategies (450-452)
+    - Negotiators are not powerless to adjust the bargaining outcome
+    - Side-payments help!
+    - Increasing popularity of the deal at home ("good will")
+    
+&lt;br&gt;
+
+**SLIDE**: Let's now diagram the model!
+
+
+
+---
+
+background-image: url('libs/Images/background-blue_cubes_lighter3.png')
+background-size: 100%
+background-position: center
+class: middle
+
+.size35[
+.center[.content-box-purple[**Putnam's (1988) Two-Level Game**]]
+
+**Interests:** 
+- ?
+
+**Institutions:**
+- ?
+
+**Interactions:**
+- ?
+]
+
+???
+
+### Who are the interests in this model?
+
+- (**SLIDE**)
+
+
+
+
+---
+
+background-image: url('libs/Images/background-blue_cubes_lighter3.png')
+background-size: 100%
+background-position: center
+class: middle
+
+.size35[
+.center[.content-box-purple[**Putnam's (1988) Two-Level Game**]]
+
+**Interests:** 
+- Leaders want political survival
+- Constituents want specific policies or goods
+
+**Institutions:**
+- ?
+
+**Interactions:**
+- ?
+]
+
+???
+
+### And what are the institutions in the model?
+
+### - What rules structure the decision-making?
+
+- (**SLIDE**)
+
+
+
+---
+
+background-image: url('libs/Images/background-blue_cubes_lighter3.png')
+background-size: 100%
+background-position: center
+class: middle
+
+.size30[
+.center[.content-box-purple[**Putnam's (1988) Two-Level Game**]]
+
+**Interests:** 
+- Leaders want political survival
+- Constituents want specific policies or goods
+
+**Institutions:**
+- International negotiations require leaders to agree a policy (Level I)
+- Domestic negotiations require leaders to get approval from constituents (Level II)
+
+**Interactions:**
+- ?
+]
+
+???
+
+### And what are the interactions that make this decision-making so difficult?
+
+- (**SLIDE**)
+
+
+
+---
+
+background-image: url('libs/Images/background-blue_cubes_lighter3.png')
+background-size: 100%
+background-position: center
+class: middle
+
+.size30[
+.center[.content-box-purple[**Putnam's (1988) Two-Level Game**]]
+
+**Interests:** 
+- Leaders want political survival
+- Constituents want specific policies or goods
+
+**Institutions:**
+- International negotiations require leaders to agree a policy (Level I)
+- Domestic negotiations require leaders to get approval from constituents (Level II)
+
+**Interactions:**
+- Win-set size matters: Larger Level I = more likely agreement, smaller Level II = more influential leader
+- Leaders should strategically try to influence win-set sizes home and abroad
+]
+
+???
+
+Bottom line: Therefore, domestic politics complicates all international bargaining
+
+&lt;br&gt;
+
+### What kinds of situations / outcomes can we use this model to explain?
+
+- (BIG: Two-level game can be applied to more situations and not just a shared resource)
+- (More useful than a pure PD game which focuses on resource division/use)
+
+&lt;br&gt;
+
+### Questions on this model?
+
+&lt;br&gt;
+
+**SLIDE**: Let's apply it!
+
+
+
+
+---
+
+background-image: url('libs/Images/10_2-nyt_uk_fr2.png')
+background-size: 67%
+background-position: right
+
+.pull-left[
+
+&lt;br&gt;
+
+&lt;br&gt;
+
+&lt;br&gt;
+
+&lt;br&gt;
+
+&lt;img src="libs/Images/10_2-nyt_uk_fr.png" width="100%" style="display: block; margin: auto auto auto 0;" /&gt;
+
+]
+
+???
+
+Talk me through the spat between the UK and France described in our NYT article.
+
+### What is the international political event here?
+
+&lt;br&gt;
+
+### Use the Putnam Two-level Game metaphor to help me understand what is going on here.
+
+&lt;br&gt;
+
+### What does Macron actually want from this interaction?
+
+#### - Is it about fish? Nuclear subs? Or something else?
+
+&lt;br&gt;
+
+### What does Boris Johnson want?
+
+&lt;br&gt;
+
+### Is this strong evidence that domestic politics matters for understanding international outcomes? Why or why not?
+
+&lt;br&gt;
+
+**SLIDE**: I think domestic politics changes everything about how I think about international politics, but let's see what you think! 
+
+
+
+---
+
+background-image: url('libs/Images/background-blue_triangles.jpg')
+background-size: 100%
+background-position: center
+class: middle
+
+.size50[.content-box-white[**Assignment for Next Class**]]
+
+.size40[
+Find us a real world case illustrating at least some of the dynamics of Putnam's Two-Level Game (e.g. domestic politics complicating international bargaining or vice versa).
+
+1. Submit APA citation,
+2. Explain what happened, and 
+3. Explain how it is an example of two-level game dynamics
+]
+
+???
+
+### Questions on the assignment?
+
+
+
+    </textarea>
+<style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
+<script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+<script>var slideshow = remark.create({
+"highlightStyle": "github",
+"highlightLines": true,
+"countIncrementalSlides": false,
+"ratio": "16:9"
+});
+if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
+  window.dispatchEvent(new Event('resize'));
+});
+(function(d) {
+  var s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
+  if (!r) return;
+  s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
+  d.head.appendChild(s);
+})(document);
+
+(function(d) {
+  var el = d.getElementsByClassName("remark-slides-area");
+  if (!el) return;
+  var slide, slides = slideshow.getSlides(), els = el[0].children;
+  for (var i = 1; i < slides.length; i++) {
+    slide = slides[i];
+    if (slide.properties.continued === "true" || slide.properties.count === "false") {
+      els[i - 1].className += ' has-continuation';
+    }
+  }
+  var s = d.createElement("style");
+  s.type = "text/css"; s.innerHTML = "@media print { .has-continuation { display: none; } }";
+  d.head.appendChild(s);
+})(document);
+// delete the temporary CSS (for displaying all slides initially) when the user
+// starts to view slides
+(function() {
+  var deleted = false;
+  slideshow.on('beforeShowSlide', function(slide) {
+    if (deleted) return;
+    var sheets = document.styleSheets, node;
+    for (var i = 0; i < sheets.length; i++) {
+      node = sheets[i].ownerNode;
+      if (node.dataset["target"] !== "print-only") continue;
+      node.parentNode.removeChild(node);
+    }
+    deleted = true;
+  });
+})();
+// add `data-at-shortcutkeys` attribute to <body> to resolve conflicts with JAWS
+// screen reader (see PR #262)
+(function(d) {
+  let res = {};
+  d.querySelectorAll('.remark-help-content table tr').forEach(tr => {
+    const t = tr.querySelector('td:nth-child(2)').innerText;
+    tr.querySelectorAll('td:first-child .key').forEach(key => {
+      const k = key.innerText;
+      if (/^[a-z]$/.test(k)) res[k] = t;  // must be a single letter (key)
+    });
+  });
+  d.body.setAttribute('data-at-shortcutkeys', JSON.stringify(res));
+})(document);
+(function() {
+  "use strict"
+  // Replace <script> tags in slides area to make them executable
+  var scripts = document.querySelectorAll(
+    '.remark-slides-area .remark-slide-container script'
+  );
+  if (!scripts.length) return;
+  for (var i = 0; i < scripts.length; i++) {
+    var s = document.createElement('script');
+    var code = document.createTextNode(scripts[i].textContent);
+    s.appendChild(code);
+    var scriptAttrs = scripts[i].attributes;
+    for (var j = 0; j < scriptAttrs.length; j++) {
+      s.setAttribute(scriptAttrs[j].name, scriptAttrs[j].value);
+    }
+    scripts[i].parentElement.replaceChild(s, scripts[i]);
+  }
+})();
+(function() {
+  var links = document.getElementsByTagName('a');
+  for (var i = 0; i < links.length; i++) {
+    if (/^(https?:)?\/\//.test(links[i].getAttribute('href'))) {
+      links[i].target = '_blank';
+    }
+  }
+})();
+// adds .remark-code-has-line-highlighted class to <pre> parent elements
+// of code chunks containing highlighted lines with class .remark-code-line-highlighted
+(function(d) {
+  const hlines = d.querySelectorAll('.remark-code-line-highlighted');
+  const preParents = [];
+  const findPreParent = function(line, p = 0) {
+    if (p > 1) return null; // traverse up no further than grandparent
+    const el = line.parentElement;
+    return el.tagName === "PRE" ? el : findPreParent(el, ++p);
+  };
+
+  for (let line of hlines) {
+    let pre = findPreParent(line);
+    if (pre && !preParents.includes(pre)) preParents.push(pre);
+  }
+  preParents.forEach(p => p.classList.add("remark-code-has-line-highlighted"));
+})(document);</script>
+
+<script>
+slideshow._releaseMath = function(el) {
+  var i, text, code, codes = el.getElementsByTagName('code');
+  for (i = 0; i < codes.length;) {
+    code = codes[i];
+    if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
+      text = code.textContent;
+      if (/^\\\((.|\s)+\\\)$/.test(text) || /^\\\[(.|\s)+\\\]$/.test(text) ||
+          /^\$\$(.|\s)+\$\$$/.test(text) ||
+          /^\\begin\{([^}]+)\}(.|\s)+\\end\{[^}]+\}$/.test(text)) {
+        code.outerHTML = code.innerHTML;  // remove <code></code>
+        continue;
+      }
+    }
+    i++;
+  }
+};
+slideshow._releaseMath(document);
+</script>
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+(function () {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src  = 'https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML';
+  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
+    script.src  = script.src.replace(/^https?:/, '');
+  document.getElementsByTagName('head')[0].appendChild(script);
+})();
+</script>
+  </body>
+</html>

@@ -1,0 +1,619 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+  <head>
+    <title>09-1-Testing_PD_Strategies.knit</title>
+    <meta charset="utf-8" />
+    <script src="libs/header-attrs-2.25/header-attrs.js"></script>
+    <link href="libs/remark-css-0.0.1/default.css" rel="stylesheet" />
+    <script src="libs/kePrint-0.0.1/kePrint.js"></script>
+    <link href="libs/lightable-0.0.1/lightable.css" rel="stylesheet" />
+    <link rel="stylesheet" href="extra.css" type="text/css" />
+  </head>
+  <body>
+    <textarea id="source">
+
+
+
+
+
+background-image: url('libs/Images/background-worldmap3.png')
+background-size: 105%
+background-class: top
+class: middle
+
+.center[.size50[**III. Why is it so Hard to Cooperate with Other Countries?**]]
+
+&lt;br&gt;
+
+.size50[
+**Today's Agenda**
+
+- Testing Strategies for the Prisoner's Dilemma
+]
+
+&lt;br&gt;
+
+.center[.size40[
+  Justin Leinaweaver (Spring 2024)
+]]
+
+???
+
+## Prep for Class
+1. ...
+
+&lt;br&gt;
+
+Today I'd like us to explore PD strategies and what those strategies tell us about real world situations.
+
+- My apologies for being vague...
+
+&lt;br&gt;
+
+### Refresh my memory, what is the dilemma that the Prisoner's Dilemma model is meant to help us understand?
+
+- (Why is it so hard for groups to cooperate under certain conditions?)
+- (When goods are rivalrous and uncertainty is high, actors who prefer cooperation may still choose to defect!)
+
+&lt;br&gt;
+
+### What are the key assumptions in this model of IR?
+- (**SLIDE**)
+
+
+
+---
+
+background-image: url('libs/Images/background-blue_cubes_lighter3.png')
+background-size: 100%
+background-position: center
+class: middle
+
+.size35[
+**Interests:** 
+- Rational individuals pursuing "gains"
+
+**Institutions:**
+- No restrictions on choosing defect or cooperate
+- High uncertainty (e.g. simultaneous decisions, unknown time horizons)
+- Benefits depend on choices of all actors
+
+**Interactions:**
+- Biggest rewards for short-term defection OR long-term cooperation
+
+Therefore, a risk averse actor's dominant strategy is to defect
+]
+
+???
+
+### Questions on this model?
+
+Notes:
+- Rational = Acts in accordance with transitive and ordered preferences
+
+- Two sources of uncertainty: Unknown time horizons (how many rounds to play), simultaneous decision-making
+
+- Non-excludable = Anyone can access it / hard to prevent access
+
+- Rivalrous = Your use changes reward to other side
+
+&lt;br&gt;
+
+Here we see the PD game's answer to the question, why is international cooperation hard?
+
+- Some international problems are structured in such a way that they make cooperation very hard to achieve (even when cooperating would make everyone better off!)
+
+- Problems that look like THIS often lead to bad outcomes EVEN THOUGH all involved would like to cooperate!
+
+&lt;br&gt;
+
+**SLIDE**: Today I'd like us to explore strategies for dealing with prisoner's dilemmas.
+
+
+
+---
+
+class: middle, center
+
+.size50[.center[.content-box-blue[**Prisoner's Dilemma**]]]
+
+&lt;br&gt;
+
+&lt;style type="text/css"&gt;
+/* Change the background color to white for shaded rows (even rows) */
+.remark-slide thead, .remark-slide tr:nth-child(2n) {
+      background-color: white;
+}
+&lt;/style&gt;
+
+&lt;table class="table" style="font-size: 40px; margin-left: auto; margin-right: auto;"&gt;
+ &lt;thead&gt;
+&lt;tr&gt;
+&lt;th style="empty-cells: hide;border-bottom:hidden;" colspan="2"&gt;&lt;/th&gt;
+&lt;th style="border-bottom:hidden;padding-bottom:0; padding-left:3px;padding-right:3px;text-align: center; " colspan="2"&gt;&lt;div style="border-bottom: 1px solid #ddd; padding-bottom: 5px; "&gt;Player 2&lt;/div&gt;&lt;/th&gt;
+&lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;th style="text-align:left;"&gt;  &lt;/th&gt;
+   &lt;th style="text-align:left;"&gt;  &lt;/th&gt;
+   &lt;th style="text-align:center;"&gt; Cooperate &lt;/th&gt;
+   &lt;th style="text-align:center;"&gt; Defect &lt;/th&gt;
+  &lt;/tr&gt;
+ &lt;/thead&gt;
+&lt;tbody&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;width: 20em; font-weight: bold;"&gt; Player 1 &lt;/td&gt;
+   &lt;td style="text-align:left;width: 20em; font-weight: bold;"&gt; Cooperate &lt;/td&gt;
+   &lt;td style="text-align:center;width: 20em; background-color: #b3ccff !important;"&gt; +2, +2 &lt;/td&gt;
+   &lt;td style="text-align:center;width: 20em; background-color: #b3ccff !important;"&gt; -6, +4 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;width: 20em; font-weight: bold;"&gt;  &lt;/td&gt;
+   &lt;td style="text-align:left;width: 20em; font-weight: bold;"&gt; Defect &lt;/td&gt;
+   &lt;td style="text-align:center;width: 20em; background-color: #b3ccff !important;"&gt; +4, -6 &lt;/td&gt;
+   &lt;td style="text-align:center;width: 20em; background-color: #b3ccff !important;"&gt; -1, -1 &lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+???
+
+I've updated the outcomes table since the last time we played.
+
+&lt;br&gt;
+
+### Everybody still clear on how to read this game board?
+
+
+
+---
+
+background-image: url('libs/Images/background-blue_cubes_lighter3.png')
+background-size: 100%
+background-position: center
+class: middle
+
+.size60[**Prisoner's Dilemma Strategies**]
+
+.size45[
+1. Always cooperate
+
+2. Always defect
+
+3. The grim trigger
+
+4. Tit for tat
+
+5. Mixed
+]
+
+???
+
+These are five of what we may call "pure" strategies to the Prisoner's dilemma.
+
+1. Always cooperate is a strategy wherein you cooperate every round, no matter what.
+
+2. Always defect is a strategy wherein you defect every round, no matter what.
+
+3. The grim trigger is a strategy wherein you cooperate in every round until the other side defects and then you defect forever
+    - Defection triggers a grim outcome, no?
+    
+4. Tit for tat is a strategy wherein you cooperate in the first round and then in future rounds you do whatever the other person did last round
+    - If they cooperated last time, you cooperate next time
+    - If they defected last round, you defect next time
+
+5. Mixed is a strategy wherein you alternate cooperation and defection every other round
+
+&lt;br&gt;
+
+### Make sense?
+
+
+
+---
+
+class: middle
+
+.center[.content-box-blue[.size50[**Prisoner's Dilemma**]]]
+
+.center[
+&lt;style type="text/css"&gt;
+/* Change the background color to white for shaded rows (even rows) */
+.remark-slide thead, .remark-slide tr:nth-child(2n) {
+      background-color: white;
+}
+&lt;/style&gt;
+
+&lt;table class="table" style="font-size: 40px; margin-left: auto; margin-right: auto;"&gt;
+ &lt;thead&gt;
+&lt;tr&gt;
+&lt;th style="empty-cells: hide;border-bottom:hidden;" colspan="2"&gt;&lt;/th&gt;
+&lt;th style="border-bottom:hidden;padding-bottom:0; padding-left:3px;padding-right:3px;text-align: center; " colspan="2"&gt;&lt;div style="border-bottom: 1px solid #ddd; padding-bottom: 5px; "&gt;Player 2&lt;/div&gt;&lt;/th&gt;
+&lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;th style="text-align:left;"&gt;  &lt;/th&gt;
+   &lt;th style="text-align:left;"&gt;  &lt;/th&gt;
+   &lt;th style="text-align:center;"&gt; Cooperate &lt;/th&gt;
+   &lt;th style="text-align:center;"&gt; Defect &lt;/th&gt;
+  &lt;/tr&gt;
+ &lt;/thead&gt;
+&lt;tbody&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;width: 20em; font-weight: bold;"&gt; Player 1 &lt;/td&gt;
+   &lt;td style="text-align:left;width: 20em; font-weight: bold;"&gt; Cooperate &lt;/td&gt;
+   &lt;td style="text-align:center;width: 20em; background-color: #b3ccff !important;"&gt; +2, +2 &lt;/td&gt;
+   &lt;td style="text-align:center;width: 20em; background-color: #b3ccff !important;"&gt; -6, +4 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;width: 20em; font-weight: bold;"&gt;  &lt;/td&gt;
+   &lt;td style="text-align:left;width: 20em; font-weight: bold;"&gt; Defect &lt;/td&gt;
+   &lt;td style="text-align:center;width: 20em; background-color: #b3ccff !important;"&gt; +4, -6 &lt;/td&gt;
+   &lt;td style="text-align:center;width: 20em; background-color: #b3ccff !important;"&gt; -1, -1 &lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+]
+
+.size35[
+1. Always cooperate
+2. Always defect
+3. The grim trigger
+4. Tit for tat
+5. Mixed
+]
+
+???
+
+*Split the class into groups of five and assign one of these strategies to each person.*
+
+OR 
+
+*Split the class into groups of 6 with one person assigned to recording results on board*
+
+&lt;br&gt;
+
+In each group you play each of the other pure strategies 10x and record your total points from each pairing.
+
+### Questions on this?
+
+Go!
+
+&lt;br&gt;
+
+Report back results (overlap across groups means they can check each other and make sure that everyone got the same totals for each strategy dyad)
+
+*ON BOARD*
+- Make table with rows and columns as strategies: C, D, GT, TT, M
+
+&lt;br&gt;
+
+### What do we learn from these results?
+
+### - Is one strategy more effective than the others?
+
+### - Is one strategy least effective?
+
+
+
+---
+
+class: middle
+
+.center[.content-box-blue[.size50[**Prisoner's Dilemma**]]]
+
+.center[
+&lt;style type="text/css"&gt;
+/* Change the background color to white for shaded rows (even rows) */
+.remark-slide thead, .remark-slide tr:nth-child(2n) {
+      background-color: white;
+}
+&lt;/style&gt;
+
+&lt;table class="table" style="font-size: 40px; margin-left: auto; margin-right: auto;"&gt;
+ &lt;thead&gt;
+&lt;tr&gt;
+&lt;th style="empty-cells: hide;border-bottom:hidden;" colspan="2"&gt;&lt;/th&gt;
+&lt;th style="border-bottom:hidden;padding-bottom:0; padding-left:3px;padding-right:3px;text-align: center; " colspan="2"&gt;&lt;div style="border-bottom: 1px solid #ddd; padding-bottom: 5px; "&gt;Player 2&lt;/div&gt;&lt;/th&gt;
+&lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;th style="text-align:left;"&gt;  &lt;/th&gt;
+   &lt;th style="text-align:left;"&gt;  &lt;/th&gt;
+   &lt;th style="text-align:center;"&gt; Cooperate &lt;/th&gt;
+   &lt;th style="text-align:center;"&gt; Defect &lt;/th&gt;
+  &lt;/tr&gt;
+ &lt;/thead&gt;
+&lt;tbody&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;width: 20em; font-weight: bold;"&gt; Player 1 &lt;/td&gt;
+   &lt;td style="text-align:left;width: 20em; font-weight: bold;"&gt; Cooperate &lt;/td&gt;
+   &lt;td style="text-align:center;width: 20em; background-color: #b3ccff !important;"&gt; +2, +2 &lt;/td&gt;
+   &lt;td style="text-align:center;width: 20em; background-color: #b3ccff !important;"&gt; -6, +4 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;width: 20em; font-weight: bold;"&gt;  &lt;/td&gt;
+   &lt;td style="text-align:left;width: 20em; font-weight: bold;"&gt; Defect &lt;/td&gt;
+   &lt;td style="text-align:center;width: 20em; background-color: #b3ccff !important;"&gt; +4, -6 &lt;/td&gt;
+   &lt;td style="text-align:center;width: 20em; background-color: #b3ccff !important;"&gt; -1, -1 &lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+]
+
+.size35[
+1. Always cooperate
+2. Always defect
+3. The grim trigger
+4. Tit for tat
+5. Mixed
+]
+
+???
+
+Everyone pair up and play one more time (10 rounds) but you can follow any strategy that you want (or mix them up!).
+
+Highest point totals in the class get bonus points (top-5?)
+
+&lt;br&gt;
+
+Report back!
+
+### What did you try?
+
+### - What worked well?
+
+### - What didn't work?
+
+&lt;br&gt;
+
+**SLIDE**: Let's take these simulations into the real world!
+
+
+
+
+---
+
+background-image: url('libs/Images/10_1-Russia_out_G8.jpg')
+background-size: 100%
+background-position: center
+class: top, left
+
+.size50[.textwhite[**Smale and Shear (2014)**]]
+
+???
+
+Smale, Alison and Shear, Michael D. (2014, Mar 24). [Russia Is Ousted From Group of 8 by U.S. and Allies](https://www.nytimes.com/2014/03/25/world/europe/obama-russia-crimea.html). *The New York Times*. Section A, Page 1 of the New York edition.
+
+&lt;br&gt;
+
+### What elements of a prisoner's dilemma does this case study illustrate? Why?
+
+### - What strategies are being attempted here by each set of actors?
+
+&lt;br&gt;
+
+### Did this act work to change Russian behavior? Why or why not?
+
+&lt;br&gt;
+
+### Was this the right strategy given the features of this PD structure? Why or why not?
+
+
+
+---
+
+background-image: url('libs/Images/10_1-UN_Resolution.png')
+background-size: 68%
+background-position: right
+class: bottom, slideblue
+
+.pull-left[
+.size35[.content-box-blue[**Shkrum, Natalukha, and**]]
+
+.size35[.content-box-blue[**Vasylenko (2023)**]]
+]
+
+???
+
+Shkrum, A, Natalukha, D. and Vasylenko, L. (2023, Feb 23). [Russia Doesn’t Belong in the United Nations](https://time.com/6256488/russia-united-nations-security-council-undeserved-seat/). *Time*.
+
+&lt;br&gt;
+
+### Should the world escalate its strategy here by kicking Russia out of the UN? Why or why not?
+
+
+
+---
+
+background-image: url('libs/Images/background-blue_triangles2.png')
+background-size: 100%
+background-position: center
+class: middle
+
+.size60[.content-box-purple[**Assignment for Next Class**]]
+
+.size50[
+Is the world free-riding on US contributions to the United Nations?
+
+1. Bolton (2017)
+
+2. Martin (2017)
+]
+
+???
+
+Next class we explore a real-world collective action problem
+
+- Is the world free-riding on US contributions to the United Nations?
+
+- If so, what should we do about it?
+
+
+
+
+
+---
+
+OLD SLIDES
+
+
+---
+
+background-image: url('libs/Images/background-blue_triangles2.png')
+background-size: 100%
+background-position: center
+class: middle
+
+.size60[.content-box-purple[**Assignment for Next Class**]]
+
+.size40[
+1. Readings in syllabus
+
+2. **Before class** submit to our Canvas discussion board:
+    1. Are you convinced by the argument in Bolton (2017)?
+    2. Are you convinced by the argument in Martin (2017)?
+]
+
+???
+
+Next class we explore a real-world collective action problem
+
+- Is the world free-riding on US contributions to the United Nations?
+
+- If so, what should we do about it?
+
+    </textarea>
+<style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
+<script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+<script>var slideshow = remark.create({
+"highlightStyle": "github",
+"highlightLines": true,
+"countIncrementalSlides": false,
+"ratio": "16:9"
+});
+if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
+  window.dispatchEvent(new Event('resize'));
+});
+(function(d) {
+  var s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
+  if (!r) return;
+  s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
+  d.head.appendChild(s);
+})(document);
+
+(function(d) {
+  var el = d.getElementsByClassName("remark-slides-area");
+  if (!el) return;
+  var slide, slides = slideshow.getSlides(), els = el[0].children;
+  for (var i = 1; i < slides.length; i++) {
+    slide = slides[i];
+    if (slide.properties.continued === "true" || slide.properties.count === "false") {
+      els[i - 1].className += ' has-continuation';
+    }
+  }
+  var s = d.createElement("style");
+  s.type = "text/css"; s.innerHTML = "@media print { .has-continuation { display: none; } }";
+  d.head.appendChild(s);
+})(document);
+// delete the temporary CSS (for displaying all slides initially) when the user
+// starts to view slides
+(function() {
+  var deleted = false;
+  slideshow.on('beforeShowSlide', function(slide) {
+    if (deleted) return;
+    var sheets = document.styleSheets, node;
+    for (var i = 0; i < sheets.length; i++) {
+      node = sheets[i].ownerNode;
+      if (node.dataset["target"] !== "print-only") continue;
+      node.parentNode.removeChild(node);
+    }
+    deleted = true;
+  });
+})();
+// add `data-at-shortcutkeys` attribute to <body> to resolve conflicts with JAWS
+// screen reader (see PR #262)
+(function(d) {
+  let res = {};
+  d.querySelectorAll('.remark-help-content table tr').forEach(tr => {
+    const t = tr.querySelector('td:nth-child(2)').innerText;
+    tr.querySelectorAll('td:first-child .key').forEach(key => {
+      const k = key.innerText;
+      if (/^[a-z]$/.test(k)) res[k] = t;  // must be a single letter (key)
+    });
+  });
+  d.body.setAttribute('data-at-shortcutkeys', JSON.stringify(res));
+})(document);
+(function() {
+  "use strict"
+  // Replace <script> tags in slides area to make them executable
+  var scripts = document.querySelectorAll(
+    '.remark-slides-area .remark-slide-container script'
+  );
+  if (!scripts.length) return;
+  for (var i = 0; i < scripts.length; i++) {
+    var s = document.createElement('script');
+    var code = document.createTextNode(scripts[i].textContent);
+    s.appendChild(code);
+    var scriptAttrs = scripts[i].attributes;
+    for (var j = 0; j < scriptAttrs.length; j++) {
+      s.setAttribute(scriptAttrs[j].name, scriptAttrs[j].value);
+    }
+    scripts[i].parentElement.replaceChild(s, scripts[i]);
+  }
+})();
+(function() {
+  var links = document.getElementsByTagName('a');
+  for (var i = 0; i < links.length; i++) {
+    if (/^(https?:)?\/\//.test(links[i].getAttribute('href'))) {
+      links[i].target = '_blank';
+    }
+  }
+})();
+// adds .remark-code-has-line-highlighted class to <pre> parent elements
+// of code chunks containing highlighted lines with class .remark-code-line-highlighted
+(function(d) {
+  const hlines = d.querySelectorAll('.remark-code-line-highlighted');
+  const preParents = [];
+  const findPreParent = function(line, p = 0) {
+    if (p > 1) return null; // traverse up no further than grandparent
+    const el = line.parentElement;
+    return el.tagName === "PRE" ? el : findPreParent(el, ++p);
+  };
+
+  for (let line of hlines) {
+    let pre = findPreParent(line);
+    if (pre && !preParents.includes(pre)) preParents.push(pre);
+  }
+  preParents.forEach(p => p.classList.add("remark-code-has-line-highlighted"));
+})(document);</script>
+
+<script>
+slideshow._releaseMath = function(el) {
+  var i, text, code, codes = el.getElementsByTagName('code');
+  for (i = 0; i < codes.length;) {
+    code = codes[i];
+    if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
+      text = code.textContent;
+      if (/^\\\((.|\s)+\\\)$/.test(text) || /^\\\[(.|\s)+\\\]$/.test(text) ||
+          /^\$\$(.|\s)+\$\$$/.test(text) ||
+          /^\\begin\{([^}]+)\}(.|\s)+\\end\{[^}]+\}$/.test(text)) {
+        code.outerHTML = code.innerHTML;  // remove <code></code>
+        continue;
+      }
+    }
+    i++;
+  }
+};
+slideshow._releaseMath(document);
+</script>
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+(function () {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src  = 'https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML';
+  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
+    script.src  = script.src.replace(/^https?:/, '');
+  document.getElementsByTagName('head')[0].appendChild(script);
+})();
+</script>
+  </body>
+</html>

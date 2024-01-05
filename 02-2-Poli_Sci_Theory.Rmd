@@ -1,0 +1,892 @@
+---
+output:
+  xaringan::moon_reader:
+    css: ["default", "extra.css"]
+    lib_dir: libs
+    seal: false
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+      ratio: '16:9'
+---
+
+```{r, echo = FALSE, warning = FALSE, message = FALSE}
+##xaringan::inf_mr()
+## For offline work: https://bookdown.org/yihui/rmarkdown/some-tips.html#working-offline
+## Images not appearing? Put images folder inside the libs folder as that is the main data directory
+
+library(tidyverse)
+library(readxl)
+library(stargazer)
+##library(kableExtra)
+##library(modelr)
+
+knitr::opts_chunk$set(echo = FALSE,
+                      eval = TRUE,
+                      error = FALSE,
+                      message = FALSE,
+                      warning = FALSE,
+                      comment = NA)
+```
+
+background-image: url('libs/Images/background-worldmap3.png')
+background-size: 105%
+background-class: center
+class: middle
+
+.size45[**I. Arguments, Evidence and International Relations**]
+
+.size45[
+
+**Today's Agenda**
+
+1. What is "science"?
+
+2. What is "politics"?
+
+3. Can it be studied "scientifically"?
+]
+
+<br>
+
+.center[.size40[
+  Justin Leinaweaver (Spring 2024)
+]]
+
+???
+
+### Prep for Class
+1. Review and record participation submissions
+
+2. Publish next discussion post
+
+3. Print "get out of jail free" cards for our distribution game (print from GDrive)
+
+4. Update with class notes from trying to define our concepts
+    - International: Involves the actions of more than one country
+    - Political: *we didn't really get to this*
+    - Event: A thing that happened
+
+<br>
+
+Welcome back everybody!
+
+On Monday we collected case studies in order to define an international political event.
+
+### What did we come up with? Define an international political event for me.
+
+### - Examples that meet the definition?
+
+<br>
+
+Today we continue laying important foundations for the rest of the semester.
+
+- We need to make sure we're clear on what we're exploring and how we explore it.
+
+
+
+
+
+---
+
+background-image: url('libs/Images/background-cloth_v2.png')
+background-size: 100%
+class: center
+
+.pull-left[
+
+<br>
+
+```{r, fig.align='center'}
+knitr::include_graphics("libs/Images/02_1-chair.jpg")
+```
+
+]
+
+.pull-right[
+
+```{r, fig.align='center', out.width='95%'}
+knitr::include_graphics("libs/Images/02_1-scrooge.jpg")
+```
+
+]
+
+???
+
+For today you read Hoover and Donovan on "The Elements of Science."
+
+- Let's make sure it was clear.
+
+<br>
+
+### What do you see on the slide?
+- (A chair and a very wealthy duck)
+
+### Based on the reading, which of these two things are concepts? 
+
+#### - Make your case!
+
+
+
+---
+
+background-image: url('libs/Images/background-cloth_v2.png')
+background-size: 100%
+class: center
+
+.pull-left[
+
+<br>
+
+```{r, fig.align='center', out.width='70%'}
+knitr::include_graphics("libs/Images/02_1-chair.jpg")
+```
+
+]
+
+.pull-right[
+
+```{r, fig.align='center', out.width='65%'}
+knitr::include_graphics("libs/Images/02_1-scrooge.jpg")
+```
+
+]
+
+<br>
+
+.center[.size30[**Concepts are "names for things, feelings and ideas generated or acquired by people in the course of relating to each other and to their environment" (13).**]]
+
+???
+
+...
+
+So, both of these are concepts.
+
+- They are names for things / ideas that allow us to communicate about the world.
+
+
+
+---
+
+background-image: url('libs/Images/02_1-scrooge2.jpg')
+background-size: 100%
+class: center
+
+???
+
+Where this gets complicated is when we disagree about the meaning of a specific concept.
+
+### How can "wealth" be a contested concept?
+
+<br>
+
+#### - What are the different ways we could define "wealth" that might conflict with each other?
+
+
+
+
+
+---
+
+background-image: url('libs/Images/02_1-graffiti.jpg')
+background-size: 100%
+class: center
+
+???
+
+"Wealth" is clearly a contested concept.
+
+- To some people "wealth" is having family and friends.
+
+- To others it is owning a fancy house and car.
+
+- To still others it is having power to shape the world as they want it.
+
+<br>
+
+**The key here is to recognize that almost ALL important concepts are contested AND this is the source of MANY, if not most, fights in society.**
+
+
+
+---
+
+background-image: url('libs/Images/02_2-Types-of-Folding-Chairs.jpg')
+background-size: 80%
+class: center
+
+???
+
+### Ok, tougher test, how can a "chair" be a contested concept?
+
+#### Not just defined differently but in ways where those definitions conflict with each other!
+
++ (Examples?)
+
+
+
+---
+
+background-image: url('libs/Images/02_1-dog_toddler.png')
+background-size: 50%
+class: center, slideblue
+
+???
+
+I know this seems silly, but clearly these two members of society define a chair differently.
+
+### What are the stakes of this conflict?
+#### - Is there anything we can learn from this photo about concepts and society?
+
+<br>
+
+Never forget, defining a concept is an expression of your power!
+
+- Get others to accept your definition means you have the ability to frame our use and understanding of that thing.
+
+This small child will clearly be impacted if we all decide to accept the dog's definition of a chair.
+
+- And the parents were persuaded enough to stage and take the photo!
+
+<br>
+
+**Big point: Fights over defining concrete objects are not just silly!**
+
+
+
+
+---
+
+background-image: url('libs/Images/01-1-segregated_water_fountains.jpeg')
+background-size: 100%
+class: center
+
+???
+
+### What are we looking at here? How does this represent a political fight over defining a concept?
+
++ (How did we as a society define the treatment of citizens)
+
++ (The government policy "separate but equal" in practice)
+
+<br>
+
+Institutionalized racism as a government policy was very often a fight over how to define very concrete things, like water fountains, train cars and schools.
+
+<br>
+
+Let's bring this idea about conceptual fights to the current day.
+
+### Give me some examples of political fights we are having in society right now that are, at their core, fights about defining a concept.
+
++ (SLIDE: What are the rights of the undocumented?)
++ (SLIDE: What is legitimate government assistance?)
++ (SLIDE: What is a protest?)
+
+
+
+
+---
+
+background-image: url('libs/Images/background-cloth_v2.png')
+background-size: 100%
+background-position: center
+class: middle, center
+
+.size40[.center[**How should we define "the rights" of the undocumented?**]]
+
+.pull-left[
+
+```{r, fig.align='center', out.width='100%'}
+knitr::include_graphics("libs/Images/02_1-No_human_being_is_illegal.jpg")
+```
+
+]
+
+.pull-right[
+
+```{r, fig.align='center', out.width='90%'}
+knitr::include_graphics("libs/Images/02_1-anti_immigrant.jpg")
+```
+
+]
+
+???
+
+What rights should the undocumented have in our society?
+
++ Who is entitled to protection in our society?
+
++ Who is a human being and who is a criminal?
+    + Citizens, legal immigrants, illegal immigrants, children regardless of immigration status, asylum seekers?
+
+
+
+---
+
+background-image: url('libs/Images/02_1-us_capitol.jpg')
+background-size: 100%
+background-position: center
+class: center, inverse
+
+.textwhite[.size50[.center[**How should we define a "legitimate" government action?**]]]
+
+???
+
+What kinds of government action are legitimate to protect us and what are not?
+
++ Protection against invasion by a foreign army?
+
++ What if that foreign army is a disease and the protection is a vaccination?
+
+
+
+
+---
+
+background-image: url('libs/Images/02_1-riot_police.jpg')
+background-size: 100%
+background-position: center
+class: center, inverse
+
+.textwhite[.size50[.center[**How should we define a "legitimate" use of force?**]]]
+
+???
+
+I think most people would agree protection from violence is absolutely part of the definition.
+
+### What is a legitimate use of violence by the police?
+
++ (When their lives are threatened?)
++ (When the lives of non-involved persons are threatened?)
++ (To protect private property?)
+
+<br>
+
+### What is a legitimate use of violence by protestors?
+
++ (None?)
++ (When their lives are threatened?)
++ (When their rights are being denied?)
+
+<br>
+
+### Questions on the importance and power of defining concepts?
+
+<br>
+
+For the purposes of this class we really can't accomplish much if we don't first define a few key concepts!
+
+
+
+---
+
+background-image: url('libs/Images/background-cloth_v2.png')
+background-size: 100%
+background-position: center
+class: middle
+
+.pull-left[
+
+<br>
+
+.size35[
+.textblack[**International**]
+
++ ?
+
+.textblack[**Political**]
+
++ ?
+
+.textblack[**Event**]
+
++ ?
+
+]]
+
+.pull-right[
+
+```{r, fig.align='right', out.width='100%'}
+knitr::include_graphics("libs/Images/02_1-word_cloud.jpg")
+```
+
+]
+
+???
+
+All of this is why we started with the case study exercise on Monday.
+
+Remember, our aim is not to create the perfect definition.
+
+- That's practically impossible.
+
+Our job is to agree on a shared definition we can use to begin exploring the world.
+
+<br>
+
+### Based on our case studies, what is our working definition of an "event"?
+
+<br>
+
+*ONLY In semesters with time in week 1 for a case study exercise*
+
++ Let's start with what is hopefully the easiest one, how do we define an event?
+
+
+
+---
+
+background-image: url('libs/Images/background-cloth_v2.png')
+background-size: 100%
+background-position: center
+class: middle
+
+.pull-left[
+
+<br>
+
+.size35[
+.textblack[**International**]
+
++ ?
+
+.textblack[**Political**]
+
++ ?
+
+.textblack[**Event**]
+
++ .textblack[A thing or happening]
+
+]]
+
+.pull-right[
+
+```{r, fig.align='right', out.width='100%'}
+knitr::include_graphics("libs/Images/02_1-word_cloud.jpg")
+```
+
+]
+
+???
+
+### Again, based on our case studies, what definition of "international" did we come up with?
+
+<br>
+
+*ONLY in semesters with time in week 1 for a case study exercise*
+
++ *Ok, when you hear the word international, what do you think of?*
+
+
+
+---
+
+background-image: url('libs/Images/background-cloth_v2.png')
+background-size: 100%
+background-position: center
+class: middle
+
+.pull-left[
+
+.size30[
+.textblack[**International**]
+
++ .textblack[Global impact or]
++ .textblack[Involving > 1 state]
+
+.textblack[**Political**]
+
++ ?
+
+.textblack[**Event**]
+
++ .textblack[A thing or happening]
+
+]]
+
+.pull-right[
+
+```{r, fig.align='right', out.width='100%'}
+knitr::include_graphics("libs/Images/02_1-word_cloud.jpg")
+```
+
+]
+
+
+???
+
+Alright, now it's time for the hard one.
+
+### Based on our case studies, what definition of "political" did we come up with?
+
+*Discuss* and then *segue to the game*
+
+
+<br>
+
+*ONLY in semesters with time in week 1 for a case study exercise*
+
++ *When you think of the word "political" what do you think of?*
+
+
+
+
+
+
+---
+
+background-image: url('libs/Images/02_1-politics_game_1.png')
+background-size: 100%
+class: center
+
+???
+
+Ok, let me see if I can help you get to how political scientists define "politics."
+
+Let's play a game!
+
++ Here's the deal, it's pretty simple
+
++ As a class you have to distribute a couple of index cards.
+
+<br>
+
+## Notes on the game FOR YOU
++ Class must distribute X "Get out of jail free" cards in ten minutes
+
++ Each card is worth a free excused absence, a two day extension to a paper deadline (not the final) OR 1/3 letter grade bump on any paper
+
++ Number of cards: 3 or maybe 25% of the class?
+
++ **No one can just claim them by walking up and taking it. Students must make an affirmative case why they should get one**. 
+    - I like this! A literal government hand out!
+
++ Final decisions must be reached by consensus.
+
+
+---
+
+background-image: url('libs/Images/02_1-politics_game_2.png')
+background-size: 100%
+class: center
+
+???
+
+Each of these is a "get out of jail free" card.
+
+- You can use one of these to help yourself out of a jam in this class this semester.
+
+- Miss a paper deadline? Add two days!
+
+- Miss a class? Get an excused absence!
+
+- Need to bump a paper result by 1/3 of a letter grade? Done!
+
+<br>
+
+Exceptions?
+
+- Class policies, not university policies (e.g. plagiarism) or laws (e.g. no murder)
+
+- Can't apply to the final exam
+
+<br>
+
+All I ask is that the class reach a consensus on the outcome.
+
+- Once you have all agreed, let me know and I'll distribute the cards.
+
+**That's it, that's the game. Go!**
+
+
+
+
+---
+
+background-image: url('libs/Images/02-2-politics1.png')
+background-size: 100%
+background-position: center
+class: right
+
+.size40[.content-box-red[**1. What was your strategy?**]]
+
+.size40[.content-box-red[**2. What strategies did you observe?**]]
+
+.size40[.content-box-red[**3. What was the outcome of the game?**]]
+
+???
+
+In a moment I'm going to ask you to answer these three questions.
+- So, take two minutes to reflect on our game and get ready to answer.
+
+<br>
+
+Ok, what just happened?
+
+### 1. How did you approach this game? What was your strategy? 
+
+### 2. What strategies did you observe from other people?
+
+### 3. What was the outcome of the game?
+
+### 4. Importantly, why did we end up with that outcome? Biggest reasons in your mind?
+
+<br>
+
+SLIDE: Assume for the moment that our game was a useful simulation of "politics"...
+
+
+
+---
+
+background-image: url('libs/Images/02-2-politics1.png')
+background-size: 100%
+background-position: center
+
+.size70[.center[.content-box-red[**Define "Politics"**]]]
+
+???
+
+Think about your experience and our discussion and use all of that to write me a short definition of the concept: "politics."
+
+<br>
+
+Alright, let's hear what you came up with!
+
+*PRESENT and DISCUSS*
+
+<br>
+
+Games and simulations are often a useful tool for exploring politics.
+
+- What we just played was a fairly basic distribution game.
+
+- It highlights a ton of important stuff, but we'll just focus on the big idea for now.
+
+- SLIDE: Standard definitions...
+
+
+---
+
+background-image: url('libs/Images/02-2-politics1.png')
+background-size: 100%
+background-position: center
+
+.size35[.right[.content-box-blue[**Decision-making in a community**]]]
+
+<br>
+
+.size35[.right[.content-box-blue[**How we make and enforce "the rules"**]]]
+
+<br>
+
+.size35[.right[.content-box-blue[**Who gets what, when and how?**]]]
+
+???
+
+In various textbooks you'll see politics defined as:
+
+1. Decision-making in a community
+    - One important aspect of "politics" is the study of how groups make decisions.
+    - Group decision-making is complex and it multilayered
+    - It is also one of the fundamental building blocks of our society 
+    
+2. How we make and enforce "the rules"
+    - Once a society has established rules, many political scientists study how those rules are interpreted, revised and enforced
+    - The decision to punish a rule-breaker is a huge decision that often sends ripples out through a community
+
+### Out of curiosity, what would happen if today SGF police started pulling over EVERY car that exceeded the speed limit by even 1 mph?
+
+<br>
+
+### And what would happen if they completely stopped enforcing speed limits?
+
+
+
+
+---
+
+background-image: url('libs/Images/02-2-politics1.png')
+background-size: 100%
+background-position: center
+
+.size35[.right[.content-box-blue[**Decision-making in a community**]]]
+
+<br>
+
+.size35[.right[.content-box-blue[**How we make and enforce "the rules"**]]]
+
+<br>
+
+.size35[.right[.content-box-blue[**Who gets what, when and how?**]]]
+
+???
+
+3) Who gets what, when and how?
+- Why do groups form? Often it is to produce greater resources than any individual could do on their own
+- This could be money, food, a division of labor, or collective security
+- HOWEVER, producing that good means someone has to pay and someone has to benefit
+- Who pays and who benefits is a constant tension in any society.
+
+<br>
+
+Bottom line, anytime a group of people have to come together to make a decision, a political scientist can be found who is interested in the process.
+
+### Any questions on this broad definition of the concept "politics"?
+
+<br>
+
+Now let's talk about the "science" part of our reading for today.
+
+- Hoover and Donovan do a really nice job laying out how social scientists can follow a process in order to generate useful knowledge about the world.
+
+- For your participation point today I asked each of you to answer a fairly important question for me...
+
+
+
+---
+
+background-image: url('libs/Images/02_1-monkey_darts_politics.jpg')
+background-size: 75%
+class: center
+
+???
+
+### Based on the reading, what do you think is the biggest challenge to doing political science as a "science"?
+
+*Give them time to explain and explore. Call on people if you must!*
+
+<br>
+
+### Can social scientists follow the scientific method? Why or why not?
++ ("The point is that the scientific method seeks to test thoughts against observable evidence in a disciplined manner, with each step in the process made explicit" (H&D old p24))
+
+(p29: One version of the scientific method)
+1. Identify the concepts / variables to be studied
+2. Form a hypothesis (...proposes a relationship between two or more variables p26)
+3. Gather evidence
+4. Compare evidence to hypotheses, derive conclusions
+5. Discuss the uncertainty in those conclusions
+
+
+---
+
+background-image: url('libs/Images/02_1-science_process_meme.png')
+background-size: 50%
+class: center, slideblue
+
+???
+
+The important takeaway for us.
+
+Science is a process for generating knowledge, not a bucket of facts about the natural world.
+
+- Science is NEVER just about taking someone’s word for something.
+
+- Knowledge that cannot be independently confirmed is not useful.
+
+- We rely only on “observable evidence”
+
+- “each step...made explicit” (p24)
+
+<br>
+
+You can study anything "scientifically."
+
+- Even politics!
+
+### Make sense?
+
+
+
+
+
+
+---
+
+background-image: url('libs/Images/02_1-theory_defined.png')
+background-size: 100%
+class: center
+
+???
+
+I also want to introduce the idea of theory today.
+
+"...a set of related propositions that suggest why events occur in the manner that they do" (p32).
+
+### Any famous theories come to mind?
++ (Relativity?)
++ (Gravity?)
++ (The big bang?)
+
+<br>
+
+In simple terms, theories are the arguments we use to explain why things happen.
+
+We'll get more into this on Friday.
+
+The bottom-line at this point is that thinking theoretically makes you a much smarter and more capable citizen.
+
+
+
+---
+
+background-image: url('libs/Images/02_1-politics_game_2.png')
+background-size: 100%
+background-position: center
+class: center
+
+???
+
+Let's end today by applying a scientific perspective to our distribution game.
+
+<br>
+
+Imagine I'm about to bring you to a place where you can observe a different class play the distribution game with the same rules I gave you today.
+
+### Prediction Time! If I asked you to predict who in that class would end up with the cards, what information would you want about the students? Why?
+
+*ON BOARD*
+
+<br>
+
+### BRAINSTORM: Propose a rule change to the game and tell me how it would impact the outcome
+
+*ON BOARD*
+
+- (Gender breakdown?)
+- (% Student athletes?)
+- (Extroverts vs introverts?)
+- (Class size?)
+- (When during the semester is it?)
+
+<br>
+
+All of your ideas here on the board represent EITHER:
+
+1. A reflection of the theories/models in your head that guide your assessment of how politics works, OR
+
+2. the building blocks of new political science theories in the making.
+
+I think that's super cool.
+
+
+---
+
+background-image: url('libs/Images/background-blue_triangles.jpg')
+background-size: 100%
+background-position: center
+class: middle, center
+
+.size70[.content-box-purple[**Assignment for Next Class**]
+
+Mingst & Arreguin-Toft (2017) "Chapter 3, International Relations Theories"
+]
+
+???
+
+For Friday you'll be reading a chapter that will introduce you to some of the big, grand-daddy theories of International Relations.
+
+### Questions on anything from today?

@@ -1,0 +1,488 @@
+---
+output:
+  xaringan::moon_reader:
+    css: ["default", "extra.css"]
+    lib_dir: libs
+    seal: false
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+      ratio: '16:9'
+---
+
+```{r, echo = FALSE, warning = FALSE, message = FALSE}
+##xaringan::inf_mr()
+## For offline work: https://bookdown.org/yihui/rmarkdown/some-tips.html#working-offline
+## Images not appearing? Put images folder inside the libs folder as that is the main data directory
+
+library(tidyverse)
+library(readxl)
+library(stargazer)
+##library(kableExtra)
+##library(modelr)
+
+knitr::opts_chunk$set(echo = FALSE,
+                      eval = TRUE,
+                      error = FALSE,
+                      message = FALSE,
+                      warning = FALSE,
+                      comment = NA)
+```
+
+background-image: url('libs/Images/background-worldmap3.png')
+background-size: 105%
+background-class: top
+
+.center[.size50[**IV. What is the Future of Transnational Politics and IR?**]]
+
+<br>
+
+.size50[
+**Today's Agenda**
+
+- Explore the intersection of gender and International Relations
+]
+
+<br>
+
+.center[.size40[
+  Justin Leinaweaver (Spring 2022)
+]]
+
+???
+
+## Prep for Class
+
+1. Review cases submitted to Canvas
+
+2. Your Case: Patel, Kasha. (2021, Nov 8). How climate change is disproportionately affecting girls in low-income countries. *The Washington Post*. [LINK](https://www.washingtonpost.com/weather/2021/11/08/cop26-girls-education-climate-weather/)
+
+<br>
+
+Over time a series of "critical" approaches to International Relations have developed and I'd like us to explore one of them this week.
+
+- Specifically, this week we explore international political events using a Feminist approach to international relations
+
+
+
+
+---
+
+background-image: url('libs/Images/background-blue_triangles2.png')
+background-size: 100%
+background-position: center
+class: middle
+
+.size60[.content-box-white[**Assignment for Today**]]
+
+.size40[
+1. Find a current, or recent, international political event that **explicitly deals with issues of gender**
+
+2. **Before class** submit to our Canvas discussion board: 
+    - The APA citation for your evidence, and
+    
+    - A short explanation for why this case illustrates a gender issue in international politics
+]
+
+???
+
+Before we dig into the approach I'd like us to build up to it starting with case studies.
+
+- I think it's incredibly useful to begin discussions like this from a real-world perspective.
+
+- If we can identify a type of real-world case that our current theories fail to explain well then that will help us understand what a new theory needs to do to be useful.
+
+<br>
+
+For today I asked each of you to go find us a real-world case that includes an important gender dynamic.
+
+- I meant this to be very broad, so I'm super curious to see what you brought in.
+
+<br>
+
+**SLIDE**: I did the exercise too, so let's kick this off with my case!
+
+
+
+---
+
+background-image: url('libs/Images/13_1-gender_climate.avif')
+background-size: 100%
+background-position: center
+class: bottom
+
+
+```{r, echo = FALSE, out.width = '50%'}
+knitr::include_graphics("libs/Images/13_1-Climate_Change_Gender1.png")
+```
+
+???
+
+As you may or may not know, a big part of my research is in the study of global climate negotiations.
+
+- I'm fascinated by the world trying to solve a massive problem simultaneously at the domestic and international levels.
+
+<br>
+
+So, when this article came across my desk during the build-up to COP26 (the 26th conference of the parties to the UN Framework Convention on Climate Change) I was drawn right in.
+
+- **SLIDE**: So, what stood out for me for our purposes today?
+
+
+
+
+---
+
+background-image: url('libs/Images/13_1-Climate_Change_Gender.png')
+background-size: 51%
+background-position: left
+class: middle, slideblue
+
+.pull-right[.size45[
+1. What is the "event"?
+
+2. Why "international"?
+
+3. Why "political"?
+
+4. What is the role of "gender" in this event?
+]]
+
+???
+
+1. What is the event?
+    - Specifically, as the climate change conference was beginning a storm in Malawi destroyed the schools in a number of villages
+
+2. Why international?
+    - Extreme weather events made worse/more likely by climate change are increasing around the world.
+    - Many of the poorest countries who contributed almost nothing to the problem are being hit the hardest.
+    - So, poor countries are being made to pay dearly for the behavior of people in other countries
+    
+3. Why is this political?
+    - Countries with limited resources have to make VERY difficult decisions about where to spend to prevent this damage and where to spend to fix the damage
+    
+4. Why is gender important here?
+    - Per UNESCO, Malawi currently enrolls approximately 37% of eligible students in secondary school (US is basically 100%) and to maintain that rate they estimate a need for 30,000 more classrooms.
+    - This is BEFORE dealing with the current storm damage.
+    - In developing countries like Malawi when serious storm damages occur girls are often kept home to save money for food, are expected to work in the fields or by gathering water from long distances or are married off to older men. 
+    
+<br>
+    
+So, bottom line, "bad" behavior by other countries creates damage for the developing world and those damages appear to disproportionately harm women and girls.
+
+### - Does this case make sense?
+
+
+
+---
+
+background-image: url('libs/Images/background-worldmap3.png')
+background-size: 105%
+background-class: top
+class: middle
+
+.size45[
+.content-box-blue[**International Political Events Case Studies**]
+
+1. What is the "event"?
+
+2. Why is it "international"?
+
+3. Why is it "political"?
+
+4. What is the role of "gender" in this event?
+]
+
+???
+
+Ok, I want each of you to introduce your case to us by answering these four questions.
+
+- Take a few minutes to get ready to present your cases.
+
+<br>
+
+Alright, let's hear the cases.
+
+- **After we hear each case, give me takeaways or lessons for the board!**
+
+- *PRESENT and DISCUSS each*
+
+<br>
+
+(4/17/23)
+- TBD
+
+(4/20/22)
+- Inequality is structural and deep rooted
+- Women as asylum seekers more vulnerable
+- Policy responds more to men than women
+- Women under-represented in gov't around the world
+- Only 6/27 leaders of EU countries are female (were female?)
+- Recruitment by political parties shows gender biases
+
+<br>
+
+**SLIDE**: The question is, are our current theories of IR missing these important dynamics or not?
+
+
+
+
+---
+
+background-image: url('libs/Images/background-blue_cubes_lighter3.png')
+background-size: 100%
+background-position: center
+class: middle, inverse
+
+.pull-left[
+
+```{r, fig.align='center', out.width='80%'}
+knitr::include_graphics("libs/Images/02_2-drury_map.jpg")
+```
+
+]
+
+.pull-right[
+
+<br>
+
+.size50[**Scientific models are:**]
+
+.size40[
++ Neither true nor false
+
++ Limited in their accuracy
+
++ Partial representations
+
++ Useful for only some uses
+
++ A reflection of the interests of the designer
+
+]]
+
+???
+
+To refresh our memories!
+- Scientific models are, by definition, limited representations of reality!
+- And, they reflect the interests of their designers.
+
+<br>
+
+We have to acknowledge that none of the theories we have studied this term were designed expressly to center gender dynamics in our explanations.
+
+<br>
+
+**SLIDE**: The question is, even without making this dynamic central to their "maps" can they still usefully explain today's international political events?
+
+
+
+
+---
+
+background-image: url('libs/Images/background-blue_cubes_lighter.png')
+background-size: 100%
+background-position: center
+class: middle, inverse
+
+.pull-left[
+
+<br>
+
+.size50[
+.center[
+
+**Theories of**
+
+**International**
+
+**Relations**
+
+**(our semester so far)**
+
+]]]
+
+.pull-right[
+
+.size40[
++ Neorealism
+
++ Offensive Realism
+
++ Bargaining Model of War
+
++ Democratic Peace Theory
+
++ Economic Liberalism
+
++ Two-Level Games
+
++ Constructivism
+]]
+
+???
+
+Here is an abbreviated list of the models we've explored in class so far.
+
+- Each is a purpose-built "map" of international political events
+
+- None are "true" or "false" but each was designed to be useful!
+
+<br>
+
+### Any questions on these models or how we mapped each as a function of interests, institutions and interactions?
+
+<br>
+
+Make sure you have this list written down!
+
+- It may prove useful in the near future...
+
+- *final exam hint...*
+
+
+
+
+---
+
+background-image: url('libs/Images/background-blue_cubes_lighter.png')
+background-size: 100%
+background-position: center
+class: middle, inverse
+
+.pull-left[
+
+<br>
+
+<br>
+
+<br>
+
+.size50[
+.center[
+
+**Can these models of IR be used to "accurately" explain our cases from today?**
+
+]]]
+
+.pull-right[
+
+.size40[
++ Neorealism
+
++ Offensive Realism
+
++ Bargaining Model of War
+
++ Democratic Peace Theory
+
++ Economic Liberalism
+
++ Two-Level Games
+
++ Constructivism
+]]
+
+???
+
+*Encourage debate*
+
+- Strongest reasons why?
+
+- Strongest reasons why not?
+
+
+
+
+---
+
+background-image: url('libs/Images/background-blue_cubes_lighter.png')
+background-size: 100%
+background-position: center
+class: middle, inverse
+
+.pull-left[
+
+<br>
+
+<br>
+
+<br>
+
+.size50[
+.center[
+
+**How difficult would it be to add a gender dynamic to these theories?**
+
+]]]
+
+.pull-right[
+
+.size40[
++ Neorealism
+
++ Offensive Realism
+
++ Bargaining Model of War
+
++ Democratic Peace Theory
+
++ Economic Liberalism
+
++ Two-Level Games
+
++ Constructivism
+]]
+
+???
+
+*Discuss*
+
+<br>
+
+### Is this an explicit argument in favor of Constructivism? Why or why not?
+
+<br>
+
+**SLIDE**: All that said, gender may be so central to the experience of human societies that we have no choice but to redesign our theories of IR.
+
+
+
+
+
+
+---
+
+background-image: url('libs/Images/background-blue_triangles2.png')
+background-size: 100%
+background-position: center
+class: middle
+
+.size65[.content-box-blue[**Assignment for Wednesday**]]
+
+.size50[
+1. Read Enloe (2014)
+
+2. **Before class** submit to our Canvas discussion board: 
+    - What are the strongest critiques of international relations made by Enloe (2014)?
+]
+
+???
+
+For Wednesday I want you to read the first chapter of an intriguing book by Cynthia Enloe that explores the arguments we have begun today.
+
+<br>
+
+In short, the question for you as you do the reading is, in order for us to be better students of global politics:
+
+- How should we approach gender dynamics?
+
+- Do our theories need to change?
+
+- Does our media coverage of global politics need to change?
+
+<br>
+
+### Questions on the assignment?
+

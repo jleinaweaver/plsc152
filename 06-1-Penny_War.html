@@ -1,0 +1,672 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+  <head>
+    <title>06-1-Penny_War.knit</title>
+    <meta charset="utf-8" />
+    <script src="libs/header-attrs-2.25/header-attrs.js"></script>
+    <link href="libs/remark-css-0.0.1/default.css" rel="stylesheet" />
+    <link rel="stylesheet" href="extra.css" type="text/css" />
+  </head>
+  <body>
+    <textarea id="source">
+
+
+
+
+background-image: url('libs/Images/background-worldmap3.png')
+background-size: 105%
+background-class: top
+class: middle
+
+.size60[**II. Why Are There Wars?**]
+
+&lt;br&gt;
+
+.size50[
+**Today's Agenda**
+
+- Simulating the bargaining model of war
+
+]
+
+&lt;br&gt;
+
+.center[.size40[
+  Justin Leinaweaver (Spring 2024)
+]]
+
+???
+
+## Prep for class
+1. Cards for bargaining game:
+    - Print and cut out cards in Google Drive, OR
+    - Sets of Ace-9 from multiple decks
+
+2. Bring pennies or use paper to track scores
+    - 10 per student
+
+3. Open Wednesday slides in rmarkdown for tracking results
+
+4. Bonus points optional
+
+&lt;br&gt;
+
+
+
+---
+
+background-image: url('libs/Images/06_1-WW1-2.jpg')
+background-size: 100%
+background-position: center
+class: center, bottom
+
+.size50[.content-box-white[**Why do wars happen?**]]
+
+???
+
+As we discussed a few weeks ago, international war is a puzzling event.
+
+- HUGELY costly and the gains are deeply uncertain.
+
+&lt;br&gt;
+
+Let's run through the competing answers to this puzzle again!
+
+
+
+---
+
+background-image: url('libs/Images/06_1-neorealist_world.jpg')
+background-size: 100%
+background-position: center
+class: bottom, center
+
+.size35[.content-box-white[**Why do wars happen? The Neorealist Answer**]]
+
+???
+
+### What is the Neorealist answer?
+- (A: Anarchy -&gt; Fear)
+- (Neorealism: States want to survive, war comes from uncertainty and the security dilemma.)
+
+
+
+---
+
+background-image: url('libs/Images/06_1-Offensive_world.webp')
+background-size: 100%
+background-position: center
+class: bottom, center
+
+.size35[.content-box-white[**Why do wars happen? The Offensive Realist Answer**]]
+
+???
+
+### What is the Offensive Realist answer?
+- (A: Anarchy -&gt; Great powers must pursue regional hegemony)
+- (Offensive realism: Powerful states want hegemony and war comes from the pursuit of it!)
+
+
+
+---
+
+background-image: url('libs/Images/06_1-ICC.jpg')
+background-size: 100%
+background-position: center
+class: bottom, center
+
+.size35[.content-box-white[**Why do wars happen? The Democratic Peace Answer**]]
+
+???
+
+### What is the Democratic Peace answer?
+- Kant argues we need republican constitutions, a federation of free states and hospitality to all
+- Clearly this model has been updated since 1800...
+- A: If we could all agree on a few rules everything would be fine e.g. republican democracy and respect for sovereignty (in other words, anarchy is bad but we can deal with it!)
+
+
+
+
+---
+
+background-image: url('libs/Images/06_1-global_rules.jpg')
+background-size: 100%
+background-position: center
+class: top, left
+
+.size35[.content-box-blue[**Why do wars happen? The Economic Liberal Answer**]]
+
+???
+
+### What is the Economic Liberal answer?
+- (Trade -&gt; specialization -&gt; peace)
+- 1) Where states are self-sufficient they will not be transformed by trade and therefore might still view war as a means to grow economically.
+- 2) Where resources are limited and rules do not exist, conflict over those resources is still likely.
+
+
+
+
+---
+
+background-image: url('libs/Images/06_1-kennedy-khruschev2.png')
+background-size: 84%
+background-position: bottom
+
+.textred[.size60[.center[**The Bargaining Model of War**]]]
+
+???
+
+This week we jump forward in IR theory by a few decades!
+
+&lt;br&gt;
+
+James Fearon in 1995 published an article titled, "Rationalist Explanations for War."
+
+- In it he offers a really interesting model of war as a bargaining process.
+
+- Two sides with opposing goals each trying to get what they want without having to pay too high a cost to get it.
+
+&lt;br&gt;
+
+My plan for today is that each of you experience the dynamics of the model before we analyze it on Wednesday.
+
+
+---
+
+background-image: url('libs/Images/background-triangles_grey_v2.png')
+background-size: 100%
+background-position: center
+class: middle, inverse
+
+.size50[.center[**Simulating the Bargaining Model of War**]]
+
+.size45[
++ Two players fight each other five times
+
++ Your "strength" depends on your cards
+
++ Your "resources" are measured in pennies
+
++ Objective: Have the most pennies at end of round 5
+]
+
+???
+
+*Review details on slide*
+
+Everyone starts the game with 10 pennies and playing cards.
+
+&lt;br&gt;
+
+Ok, how do we play?
+
+- **SLIDE**: Let's step through one round of the game
+
+
+
+---
+
+&lt;img src="06-1-Penny_War_files/figure-html/unnamed-chunk-2-1.png" width="95%" style="display: block; margin: auto;" /&gt;
+
+???
+
+### 1. Ante up.
+
+- Both players ante up 1 "penny" into the pot, and draw three cards from their deck.
+
+- The penny you pay to start represents the cost of running your country
+
+
+
+---
+
+&lt;img src="06-1-Penny_War_files/figure-html/unnamed-chunk-3-1.png" width="95%" style="display: block; margin: auto;" /&gt;
+
+???
+
+### 2. P1 Choice: Give up or fight!
+
+- If P1 concedes, P2 gets the pot and the round ends
+
+- If P1 demands the pot (war), P2 gets a choice...
+
+
+
+---
+
+&lt;img src="06-1-Penny_War_files/figure-html/unnamed-chunk-4-1.png" width="95%" style="display: block; margin: auto;" /&gt;
+
+???
+
+### 3. Choice shifts to P2: Give up or fight!
+
+- If P2 concedes, P1 gets the pot and the round ends
+
+- If P2 resists, you go to war!
+
+
+
+
+---
+
+&lt;img src="06-1-Penny_War_files/figure-html/unnamed-chunk-5-1.png" width="95%" style="display: block; margin: auto;" /&gt;
+
+???
+
+### 4. War
+
+If both players declare war:
+
+- Cost of war: You have to pay for the tanks and losses to your economy!
+
+- Show your cards, stronger side wins
+
+&lt;br&gt;
+
+Each round you'll alternate being P1 and we'll play five rounds.
+
+&lt;br&gt;
+
+### Questions on the game?
+
+
+
+
+
+
+---
+
+&lt;img src="06-1-Penny_War_files/figure-html/unnamed-chunk-6-1.png" width="95%" style="display: block; margin: auto;" /&gt;
+
+???
+
+Let's see it in action once: I need two volunteers.
+
+&lt;br&gt;
+
+Both stand up and shuffle your cards.
+
+- Ok, both of you ante up one penny so you are down to 9 total.
+
+- Now draw three cards.
+
+&lt;br&gt;
+
+*You pick P1*
+
+### Ok, P1 what do your cards add up to? How strong are you?
+
+- Let's gamble, declare war!
+
+&lt;br&gt;
+
+### Ok, P2 what do your cards add up to? How strong are you?
+
+- Let's gamble, declare war!
+
+&lt;br&gt;
+
+Both sides pay the costs of war!
+
+- Four pennies at stake!
+
+&lt;br&gt;
+
+### Who wins the pot?
+
+&lt;br&gt;
+
+### Everybody clear on how to play the game?
+
+
+
+
+---
+
+background-image: url('libs/Images/background-triangles_grey_v2.png')
+background-size: 100%
+background-position: center
+class: middle, inverse
+
+.size45[.center[**Simulating the Bargaining Model of War**]]
+
+.size40[
+1. Find an opponent
+
+2. Make sure you have 10 pennies and 9 numbered cards
+
+3. Complete five rounds and write down:
+	  - Who won overall?
+	  - How many wars did you fight?
+]
+
+???
+
+Alternate who is P1 each round and keep score.
+
+Ok, play the game.
+
+*Back to our seats!*
+
+&lt;br&gt;
+
+Each pair tell us your final score and how many wars you fought.
+
+**YOU RECORD ON NOTES, not the board yet: sum of all wars in class that round**
+
+
+
+
+---
+
+background-image: url('libs/Images/background-triangles_grey_v2.png')
+background-size: 100%
+background-position: center
+class: middle, inverse
+
+.size45[.center[**Simulating the Bargaining Model of War**]
+
+**Version 2**
+
++ Find a new opponent, and
+
++ Keep **ONE** card face up each round (random choice).
+]
+
+???
+
+Ok, let's change it up this time.
+
+- Everybody make sure they have ten pennies
+
+- Change partners and get ready to play again.
+
+- THIS TIME, Keep ONE card face up each round.
+
+- Start of game: Pay the ante, draw your cards and randomly reveal one of them to your opponent.
+
+### Everybody clear on the rule change?
+
+Go!
+
+*Back to our seats!*
+
+&lt;br&gt;
+
+Each pair tell us your final score and how many wars you fought.
+
+*YOU RECORD ON NOTES, not the board yet: sum of all wars in class that round 
+
+
+
+
+---
+
+background-image: url('libs/Images/background-triangles_grey_v2.png')
+background-size: 100%
+background-position: center
+class: middle, inverse
+
+.size45[.center[**Simulating the Bargaining Model of War**]
+
+**Version 3**
+
++ Find a new opponent, and
+
++ Keep **TWO** cards face up each round (random choice).
+]
+
+???
+
+Do it again BUT this time you have to keep TWO of your cards face up the whole time.
+
+### Everybody clear on the rule change?
+
+Go!
+
+*Back to our seats!*
+
+&lt;br&gt;
+
+Each pair tell us your final score and how many wars you fought.
+
+* YOU RECORD ON NOTES, not the board yet: sum of all wars in class that round 
+
+
+
+
+---
+
+background-image: url('libs/Images/background-triangles_grey_v2.png')
+background-size: 100%
+background-position: center
+class: middle, inverse
+
+.size45[.center[**Simulating the Bargaining Model of War**]
+
+**Version 4**
+
++ Find a new opponent, and
+
++ Keep **ALL** cards face up each round.
+]
+
+???
+
+Last time, BUT now you have to keep ALL of your cards face up the whole time.
+
+### Everybody clear on the rule change?
+
+Go!
+
+*Back to our seats!*
+
+&lt;br&gt;
+
+Each pair tell us your final score and how many wars you fought.
+
+* YOU RECORD ON NOTES, not the board yet: sum of all wars in class that round 
+
+&lt;br&gt;
+
+**ON BOARD: Total wars per round**
+
+
+
+
+---
+
+background-image: url('libs/Images/06_1-kennedy-khruschev2.png')
+background-size: 84%
+background-position: bottom
+
+.textred[.size60[.center[**The Bargaining Model of War**]]]
+
+???
+
+Alright, let's talk about what just happened.
+
+&lt;br&gt;
+
+### Talk to me about how you played.
+#### - Why did you play the way you did?
+
+&lt;br&gt;
+
+### Anybody try bluffing? Why or why not?
+
+&lt;br&gt; 
+
+### Did anybody go to war with a weak hand? Why?
+
+&lt;br&gt;
+
+### In what ways is this a useful model of war?
+
+&lt;br&gt;
+
+### In what ways do you think it is a problematic model of war?
+
+
+
+---
+
+background-image: url('libs/Images/background-blue_triangles.jpg')
+background-size: 100%
+background-position: center
+class: middle
+
+.size60[.content-box-white[**Assignment for Wednesday**]]
+
+.size40[
+1. Read Fearon (1995)
+
+2. **Before class** submit to our Canvas discussion board: 
+    - What do you think are the key elements of Fearon's Bargaining Model of War?
+    - Were there any specific parts of Fearon's article that you found confusing?
+]
+
+???
+
+
+
+
+
+
+    </textarea>
+<style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
+<script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+<script>var slideshow = remark.create({
+"highlightStyle": "github",
+"highlightLines": true,
+"countIncrementalSlides": false,
+"ratio": "16:9"
+});
+if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
+  window.dispatchEvent(new Event('resize'));
+});
+(function(d) {
+  var s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
+  if (!r) return;
+  s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
+  d.head.appendChild(s);
+})(document);
+
+(function(d) {
+  var el = d.getElementsByClassName("remark-slides-area");
+  if (!el) return;
+  var slide, slides = slideshow.getSlides(), els = el[0].children;
+  for (var i = 1; i < slides.length; i++) {
+    slide = slides[i];
+    if (slide.properties.continued === "true" || slide.properties.count === "false") {
+      els[i - 1].className += ' has-continuation';
+    }
+  }
+  var s = d.createElement("style");
+  s.type = "text/css"; s.innerHTML = "@media print { .has-continuation { display: none; } }";
+  d.head.appendChild(s);
+})(document);
+// delete the temporary CSS (for displaying all slides initially) when the user
+// starts to view slides
+(function() {
+  var deleted = false;
+  slideshow.on('beforeShowSlide', function(slide) {
+    if (deleted) return;
+    var sheets = document.styleSheets, node;
+    for (var i = 0; i < sheets.length; i++) {
+      node = sheets[i].ownerNode;
+      if (node.dataset["target"] !== "print-only") continue;
+      node.parentNode.removeChild(node);
+    }
+    deleted = true;
+  });
+})();
+// add `data-at-shortcutkeys` attribute to <body> to resolve conflicts with JAWS
+// screen reader (see PR #262)
+(function(d) {
+  let res = {};
+  d.querySelectorAll('.remark-help-content table tr').forEach(tr => {
+    const t = tr.querySelector('td:nth-child(2)').innerText;
+    tr.querySelectorAll('td:first-child .key').forEach(key => {
+      const k = key.innerText;
+      if (/^[a-z]$/.test(k)) res[k] = t;  // must be a single letter (key)
+    });
+  });
+  d.body.setAttribute('data-at-shortcutkeys', JSON.stringify(res));
+})(document);
+(function() {
+  "use strict"
+  // Replace <script> tags in slides area to make them executable
+  var scripts = document.querySelectorAll(
+    '.remark-slides-area .remark-slide-container script'
+  );
+  if (!scripts.length) return;
+  for (var i = 0; i < scripts.length; i++) {
+    var s = document.createElement('script');
+    var code = document.createTextNode(scripts[i].textContent);
+    s.appendChild(code);
+    var scriptAttrs = scripts[i].attributes;
+    for (var j = 0; j < scriptAttrs.length; j++) {
+      s.setAttribute(scriptAttrs[j].name, scriptAttrs[j].value);
+    }
+    scripts[i].parentElement.replaceChild(s, scripts[i]);
+  }
+})();
+(function() {
+  var links = document.getElementsByTagName('a');
+  for (var i = 0; i < links.length; i++) {
+    if (/^(https?:)?\/\//.test(links[i].getAttribute('href'))) {
+      links[i].target = '_blank';
+    }
+  }
+})();
+// adds .remark-code-has-line-highlighted class to <pre> parent elements
+// of code chunks containing highlighted lines with class .remark-code-line-highlighted
+(function(d) {
+  const hlines = d.querySelectorAll('.remark-code-line-highlighted');
+  const preParents = [];
+  const findPreParent = function(line, p = 0) {
+    if (p > 1) return null; // traverse up no further than grandparent
+    const el = line.parentElement;
+    return el.tagName === "PRE" ? el : findPreParent(el, ++p);
+  };
+
+  for (let line of hlines) {
+    let pre = findPreParent(line);
+    if (pre && !preParents.includes(pre)) preParents.push(pre);
+  }
+  preParents.forEach(p => p.classList.add("remark-code-has-line-highlighted"));
+})(document);</script>
+
+<script>
+slideshow._releaseMath = function(el) {
+  var i, text, code, codes = el.getElementsByTagName('code');
+  for (i = 0; i < codes.length;) {
+    code = codes[i];
+    if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
+      text = code.textContent;
+      if (/^\\\((.|\s)+\\\)$/.test(text) || /^\\\[(.|\s)+\\\]$/.test(text) ||
+          /^\$\$(.|\s)+\$\$$/.test(text) ||
+          /^\\begin\{([^}]+)\}(.|\s)+\\end\{[^}]+\}$/.test(text)) {
+        code.outerHTML = code.innerHTML;  // remove <code></code>
+        continue;
+      }
+    }
+    i++;
+  }
+};
+slideshow._releaseMath(document);
+</script>
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+(function () {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src  = 'https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML';
+  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
+    script.src  = script.src.replace(/^https?:/, '');
+  document.getElementsByTagName('head')[0].appendChild(script);
+})();
+</script>
+  </body>
+</html>

@@ -1,0 +1,743 @@
+---
+output:
+  xaringan::moon_reader:
+    css: ["default", "extra.css"]
+    lib_dir: libs
+    seal: false
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+      ratio: '16:9'
+---
+
+```{r, echo = FALSE, warning = FALSE, message = FALSE}
+##xaringan::inf_mr()
+## For offline work: https://bookdown.org/yihui/rmarkdown/some-tips.html#working-offline
+## Images not appearing? Put images folder inside the libs folder as that is the main data directory
+
+library(tidyverse)
+library(readxl)
+library(stargazer)
+##library(kableExtra)
+##library(modelr)
+
+knitr::opts_chunk$set(echo = FALSE,
+                      eval = TRUE,
+                      error = FALSE,
+                      message = FALSE,
+                      warning = FALSE,
+                      comment = NA)
+```
+
+background-image: url('libs/Images/background-worldmap3.png')
+background-size: 105%
+background-class: top
+class: middle
+
+.size80[**Today's Agenda**]
+
+<br>
+
+.size50[.center[
+
+Exploring the classical realist roots of International Relations
+
+]]
+
+<br>
+
+.center[.size40[
+  Justin Leinaweaver (Spring 2024)
+]]
+
+???
+
+## Prep for Class
+1. Bring playing cards to class
+
+2. Review the canvas forum for participation
+
+3. Publish next one
+
+<br>
+
+*Opening Discussion: From this point forward students need to practice identifying international political events everyday in class. These are more than just 'things happening far away'!*
+
+### DISCUSS: Name me an international political event that has happened since we last met as a class.
+
+<br>
+
+This week we connect the model building concepts from a few weeks back to the historical roots of international relations.
+
+- The question for today is, how did "experts" in international politics approach the topic in the pre-modern era? 
+
+
+
+---
+
+background-image: url('libs/Images/05_1-science_meme.jpg')
+background-size: 50%
+background-position: right
+class: middle, slideblue
+
+.pull-left[
+.textblack[
+
+.size40[
+**Scientific Method**
+
+- Goal is inference
+
+- Procedures are public 
+
+- Uncertain conclusions
+
+- Content is method
+]]]
+
+???
+
+Remember, our aim is to generate knowledge about politics using the "scientific method."
+
+
+
+
+---
+
+background-image: url('libs/Images/background-blue_triangles2.png')
+background-size: 100%
+background-position: center
+class: middle
+
+.size50[.center[**The Outcomes to Explain**]]
+
+.pull-left[
+
+.size25[
+.textblack[**International**]
+
++ .textblack[Global impact or]
++ .textblack[Involving > 1 state]
+
+.textblack[**Political**]
+
++ .textblack[Who gets what, when and how?]
+
+.textblack[**Event**]
+
++ .textblack[A thing or happening]
+
+]]
+
+.pull-right[
+
+```{r, fig.align='right', out.width='95%'}
+knitr::include_graphics("libs/Images/02_1-word_cloud.jpg")
+```
+
+]
+
+???
+
+So, what knowledge are we trying to generate in this class?
+
+- What is the key variation we want to explain?
+
+<br>
+
+In short, international relations is a sub-field of political science aimed at explaining international political events.
+
+
+
+---
+
+background-image: url('libs/Images/background-blue_triangles2.png')
+background-size: 100%
+background-position: center
+class: middle
+
+.size50[**FLS (2016): Components of a Model**]
+
+.size25[
+**Interests**
+
+"…[The] preferences of actors over the possible outcomes that might result from their political choices" (45).
+
+**Interactions**
+
+"The ways in which the choices of two or more actors combine to produce political outcomes" (51).
+
+**Institutions**
+
+"A set of rules, known and shared by the community, that structure political interactions in particular ways" (67).
+]
+
+???
+
+Last week we talked through the three I's.
+
+- We can use these to help us design, organize and evaluate the models in international relations.
+
+### Questions on these three categories?
+
+<br>
+
+Ok, let's talk today about a range of models we now refer to as "classical" realism.
+
+- SLIDE: And to get into these models let's start with a game.
+
+
+---
+
+background-image: url('libs/Images/background-space1.jpg')
+background-size: 100%
+background-position: center
+class: middle, center, inverse
+
+.size80[.center[**Survive or Die!**]]
+
+<br>
+
+.size60[
+The object of this game is to survive. 
+
+If you lose your card, you .textred[**DIE**].
+]
+
+???
+
+*Have someone distribute the cards while you explain the game*
+
+<br>
+
+It's a pretty simple game.
+
+- SLIDE: How it works...
+
+
+
+---
+
+background-image: url('libs/Images/background-space1.jpg')
+background-size: 100%
+background-position: center
+class: middle, center, inverse
+
+.size70[.center[**Survive or Die!**]]
+
+<br>
+
+.size40[1) You may challenge anyone to a duel (no refusals)]
+
+--
+
+<br>
+
+.size40[2) Duel: Rock-paper-scissors (best 2 out of 3)]
+
+--
+
+<br>
+
+.size40[3) Winner survives, .textred[loser dies] (hand over your card and sit down)]
+
+???
+
+Go!
+
+<br>
+
+Ok, let's dig into what just happened.
+
+### 1. What strategies did you see in action?
+- Just describe them at this point
+
+<br>
+
+### 2. How effective was each strategy in ensuring survival?
+
+<br>
+
+### 3. Does your choice of strategy tell us anything interesting about you as an actor in this game?
+
+<br>
+
+*RESET: Make sure everybody has one card!*
+
+
+---
+
+background-image: url('libs/Images/background-space1.jpg')
+background-size: 100%
+background-position: center
+class: middle, inverse
+
+.size70[.center[**Survive or Die! (v2)**]]
+
+<br>
+
+.size40[
+1. You may challenge anyone to a duel (no refusals)
+
+2. Duel: Rock-paper-scissors (best 2 out of 3)
+
+3. Winner survives, loser hands over .textred[ONE] card
+
+4. .textred[**0 cards left = You're Dead**]
+]
+
+???
+
+Slight tweak to the game. Go!
+
+<br>
+
+### 1. What strategies did you see in action? Any changes from round 1?
+
+<br>
+
+### 2. How effective was each strategy in ensuring survival?
+
+<br>
+
+### 3. Does your choice of strategy in Round 2 tell us anything interesting about you as an actor in this game?
+
+<br>
+
+*RESET one more time!: Make sure everybody has one card!*
+
+
+
+---
+
+background-image: url('libs/Images/background-space1.jpg')
+background-size: 100%
+background-position: center
+class: middle, inverse
+
+.size70[.center[**Survive or Die! (v3)**]]
+
+.size40[
+1. You may challenge anyone to a duel (no refusals)
+
+2. Duel: Rock-paper-scissors (best 2 out of 3)
+
+3. Winner survives, loser hands over .textred[ONE] card
+
+4. .textred[**0 cards left = You're Dead**]
+
+5. Survival .textred[REQUIRES] 3 cards at end of game
+]
+
+???
+
+One last tweak to the rules. Go!
+
+<br>
+
+### 1. What strategies did you see in action? Any changes from rounds 1 and 2?
+
+<br>
+
+### 2. How effective was each strategy in ensuring survival in round 3?
+
+<br>
+
+### 3. Does your choice of strategy in Round 3 tell us anything interesting about you as an actor in this game?
+
+<br>
+
+SLIDE: After the game, next slide
+
+
+---
+
+background-image: url('libs/Images/05_1-Hobbes_quote.jpg')
+background-size: 100%
+background-position: center
+
+???
+
+### So, what just happened? Did our games illustrate in a simple but compelling way that Hobbes is right? Why or why not?
+
+*Let this discussion breathe*
+
+<br>
+
+### 1. How did your strategy change across the games? Why? 
+
+<br>
+
+### 2. How did the rules influence you? 
+
+<br>
+
+### 3. How did the other people's behavior influence you? Anybody wind you up?
+
+
+
+---
+
+background-image: url('libs/Images/background-cloth_v2.png')
+background-size: 100%
+background-position: center
+class: middle
+
+.size70[.center[**Classical Realism:**]]
+
+.size70[.center[**Diagram the model**]]
+
+<br>
+
+.size40[
++ Who are the key interests?
+
++ What are the key institutions?
+
++ What are the primary interactions that matter?
+]
+
+???
+
+*Create small groups*
+
+Assume these four readings all describe important elements of classical realism. 
+
+- We will now use the readings to identify the key interests, institutions and interactions in the model
+
+
+
+
+---
+
+background-image: url('libs/Images/background-cloth_v2.png')
+background-size: 100%
+background-position: center
+class: middle
+
+.size60[.center[**Who are the key interests?**]]
+
+???
+
+Take 5 minutes and diagram the key interests in these readings.
+
+*ON BOARD*
+
+### Ok, groups, what did you identify as the key actors and what do they want?
+
+<br>
+
+#### - How does Hobbes describe mankind?
+
+#### - How about Machiavelli?
+
+#### - And Morgenthau?
+
+#### - Who does Thucydides focus on? Why can't the Athenians leave the Melians neutral?
+
+(SLIDE)
+
+
+--
+
+.size35[
++ Men will use violence for gain, safety and reputation (Hobbes).
+
++ Men are ungrateful, fickle, false, cowardly, covetous and bandwagon supporters (Machiavelli).
+
++ Athenians argue the Melians must be conquered or others will see it as a weakness to be exploited  (Thucydides)
+
++ Interests defined in terms of power (Morgenthau).
+]
+
+???
+
+### How does Morgenthau's conception differ from the others?
+
+("God" is not on your side; no single state gets to decide that its actions are “good” and others are “evil.”)
+
+(Morgenthau rooting his explanations in power not “good” or “evil.”)
+
+- No need in this theory for other justifications of behavior.
+
+- This is about tailoring action to the realities of international politics.
+
+
+---
+
+background-image: url('libs/Images/background-cloth_v2.png')
+background-size: 100%
+background-position: center
+class: middle
+
+.size60[**What are the key institutions?**]
+
+???
+
+Take 5 minutes and diagram the key interests in these readings.
+
+*ON BOARD*
+
+### Ok, groups, what did you identify as the key interests in the model?
+
+<br>
+
+#### - What rules do we need according to Hobbes?
+
+#### - What are the rules of the road according to Thucydides?
+
+#### - Does Morgenthau think of rules in the same way?
+
+(Not quite...)
+
+(SLIDE)
+
+--
+
+.size35[
+
++ Men must be dominated by an authority figure for society to thrive and justice to exist (Hobbes)
+
++ "...right, as the world goes, is only in question between equals in power, while the strong do what they can and the weak suffer what they must" (Thucydides).
+
++ There are baseline rules to all politics established by human nature (Morgenthau)
+]
+
+???
+
+Let's talk about Morgenthau's first principle here.
+
+### What behaviors does this tell us to expect in international politics?
+(Yes, people follow rules of behavior.)
+
+- HOWEVER, those rules are determined by human nature.
+
+- Laws do not affect our preferences.
+
+### What would happen if I, a good and benevolent leader, decided to pass laws requiring people to be good and nice to each other at all times?
+
+1. The laws will be ignored if people aren't good and nice themselves or if they disagree with them
+
+2. My leadership will eventually fail because my rules conflict with human nature.
+
+
+
+
+
+---
+
+background-image: url('libs/Images/background-cloth_v2.png')
+background-size: 100%
+background-position: center
+class: middle
+
+.size45[.center[**What are the primary interactions that matter?**]]
+
+???
+
+Take 5 minutes and diagram the key interests in these readings.
+
+*ON BOARD*
+
+### Ok, groups, what did you identify as the key interactions in the model?
+
+<br>
+
+#### - Per Hobbes, how will men pursue the things they want?
+
+#### - How does Machiavelli advise leaders deal with their subjects?
+
+#### - Does Morgenthau think ideology is a useful tool for guiding decision-making?
+
+--
+
+.size35[
++ All men will use violence to get things (Hobbes)
+
++ Leaders should foster fear, not love or hatred (Machiavelli)
+
++ Leaders should use selective bribes and mercy to develop a reputation as "great and remarkable [men]" (Machiavelli)
+
++ Ideology must always come second to the national interest (Morgenthau)
+
+]
+
+???
+
+### Can somebody summarize all of this for us? What are the three key components of this model?
+
+(SLIDE)
+
+
+
+---
+
+background-image: url('libs/Images/background-cloth_v2.png')
+background-size: 100%
+background-position: center
+class: middle
+
+.size70[.center[**"Classical" Realism**]]
+
+.size45[
+- **Interests**: Men who want things
+
+- **Institutions**: Rules written by the strong
+
+- **Interactions**: Characterized by violence
+]
+
+???
+
+On the interactions, violence is always the result.
+
+- Badly designed rules? Violence
+
+- Not enough stuff to go around? Violence
+
+- Show signs of weakness? Violence
+
+### Make sense?
+
+
+
+
+---
+
+background-image: url('libs/Images/background-blue_triangles2.png')
+background-size: 100%
+background-position: center
+class: middle
+
+.pull-left[
+
+```{r, fig.align='center', out.width='80%'}
+knitr::include_graphics("libs/Images/02_2-drury_map.jpg")
+```
+
+]
+
+.pull-right[
+
+<br>
+<br>
+
+.size40[**Scientific models are:**]
+
+.size30[
++ Neither true nor false
+
++ Limited in their accuracy
+
++ Partial representations
+
++ Useful for only some uses
+
++ A reflection of the interests of the designer
+
+]]
+
+???
+
+The key things to remember about using models to answer questions.
+
+
+---
+
+background-image: url('libs/Images/background-cloth_v2.png')
+background-size: 100%
+background-position: center
+class: middle
+
+.pull-left[
+
+.size35[.center[**"Classical" Realism**]]
+
+### Interests
+.size35[
++ Men who want things
+]
+
+### Institutions
+.size35[
++ Rules written by the strong
+]
+
+### Interactions
+.size35[
++ Characterized by violence
+]
+
+
+]
+
+.pull-right[
+
+.size35[.center[**Useful Scientific Models...**]
+
+1) are logical.
+
+2) accurately explain outcomes.
+
+3) explain more stuff than other theories.
+
+4) need fewer assumptions to explain the same things.
+
+]]
+
+???
+
+Ok, let's talk usefulness.
+
+- Remember, all models are wrong, some are useful.
+
+<br>
+
+How useful is the Classical Realist model we've diagrammed today?
+
+### What international political events does it explain well?
+
+<br>
+
+### What international political events does it explain poorly?
+
+
+
+
+---
+
+background-image: url('libs/Images/background-blue_triangles.jpg')
+background-size: 100%
+background-position: center
+class: middle
+
+.size55[**Assignment for Wednesday**]
+
+.size35[
+1. Readings in syllabus
+
+2. **Before class** submit to our Canvas discussion board:
+    - What specific changes to the actors, institutions or interactions of classical realism does Waltz make in his article?
+    - What specific changes to the actors, institutions or interactions of classical realism does Mearsheimer make in his article?
+
+]
+
+???
+
+On Wednesday we explore how classical realism has been updated, refreshed and made far more useful as a theory of international relations.
+
+### Questions on the assignment?
+
+
+
+
+
+
+
+
+
+
+
+
+

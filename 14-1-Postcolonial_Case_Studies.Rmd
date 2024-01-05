@@ -1,0 +1,233 @@
+---
+output:
+  xaringan::moon_reader:
+    css: ["default", "extra.css"]
+    lib_dir: libs
+    seal: false
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+      ratio: '16:9'
+---
+
+```{r, echo = FALSE, warning = FALSE, message = FALSE}
+##xaringan::inf_mr()
+## For offline work: https://bookdown.org/yihui/rmarkdown/some-tips.html#working-offline
+## Images not appearing? Put images folder inside the libs folder as that is the main data directory
+
+library(tidyverse)
+library(readxl)
+library(stargazer)
+##library(kableExtra)
+##library(modelr)
+
+knitr::opts_chunk$set(echo = FALSE,
+                      eval = TRUE,
+                      error = FALSE,
+                      message = FALSE,
+                      warning = FALSE,
+                      comment = NA)
+```
+
+background-image: url('libs/Images/background-worldmap3.png')
+background-size: 105%
+background-class: top
+
+.center[.size50[**IV. What is the Future of Transnational Politics and IR?**]]
+
+<br>
+
+.size50[
+**Today's Agenda**
+
+- Predicting the Future: Threats to the United States of America
+]
+
+<br>
+
+.center[.size40[
+  Justin Leinaweaver (Spring 2022)
+]]
+
+???
+
+## Prep for Class
+1. EVAL Day!
+
+2. Review cases submitted to Canvas
+
+<br>
+
+
+
+---
+
+background-image: url('libs/Images/background-blue_triangles.jpg')
+background-size: 100%
+background-position: center
+class: middle
+
+.size60[
+.content-box-white[**IDEA Course Evaluations**]
+
+<br>
+
+.content-box-white[https://drury.campuslabs.com/eval-home/]
+]
+
+???
+
+<br>
+
+<br>
+
+Today I'd like us to consider how the role of the United States in the world is likely to change over the next 25 years.
+
+
+
+
+---
+
+background-image: url('libs/Images/background-blue_triangles2.png')
+background-size: 100%
+background-position: center
+class: middle
+
+.size65[.content-box-purple[**For Today**]]
+
+.size50[
+What is the single biggest international threat facing the United States over the next 25 years? 
+
+- Submit APA evidence and explanation to Canvas
+
+- Be specific, try to avoid overlap!
+]
+
+???
+
+For today I asked each of you to bring evidence to class that answers this question!
+
+### Everybody ready to go?
+
+<br>
+
+Everybody take a few minutes to review the options submitted to Canvas.
+
+- Your job is to identify the **FIVE** biggest threats from the options
+
+<br>
+
+### Questions?
+
+- Go!
+
+
+
+
+---
+
+background-image: url('libs/Images/background-Red-Brushes.jpg')
+background-size: 100%
+background-position: center
+class: middle, center, inverse
+
+.size70[**What is the single biggest international threat facing the United States over the next 25 years? **]
+
+???
+
+### Ok, let's see where you ended up. Somebody give us their top 5!
+
+- *ON BOARD*
+
+- *Go around the room adding to the list with new options or add a tally next to repeated options*
+
+<br>
+
+*Once you have enough to make four groups*
+
+Alright, here are our top-four options
+
+- *Split class into groups by option*
+
+- Go sit with your group!
+
+<br>
+
+GROUPS, you have 10 mins to build an argument diagram ON THE BOARD!
+
+- Premises to the conclusion!
+
+<br>
+
+### Questions?
+
+- Go!
+
+<br>
+
+*PRESENT and DISCUSS each*
+
+<br>
+
+### Where do we end up? Why?
+
+
+
+---
+
+background-image: url('libs/Images/background-Red-Brushes.jpg')
+background-size: 100%
+background-position: center
+class: middle, center, inverse
+
+.size70[**What single thing should the US do to prepare for the threats we face over the next 25 years?**]
+
+???
+
+Given this list of threats, what should we do about it?
+
+- Talk to your group and get ready to report back!
+
+<br>
+
+*PRESENT and DISCUSS each*
+
+
+
+
+
+
+---
+
+background-image: url('libs/Images/background-blue_triangles2.png')
+background-size: 100%
+background-position: center
+class: middle
+
+.size65[.content-box-white[**Assignment for Next Class**]]
+
+<br>
+
+.size50[
+Get ready for Paper 3!
+
+- Collect and review your notes for all of the IR models we have explored this term
+]
+
+???
+
+### Questions on the assignment?
+
+<br>
+
+- Neorealism
+- Offensive Realism
+- Liberal Peace
+- Economic Liberalism
+- Bargaining Model of War
+- Prisoner's Dilemma
+- Two-Level Bargaining
+- Constructivism
+- Feminist Theory
+- Postcolonial Theory

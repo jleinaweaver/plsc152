@@ -1,0 +1,779 @@
+---
+output:
+  xaringan::moon_reader:
+    css: ["default", "extra.css"]
+    lib_dir: libs
+    seal: false
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+      ratio: '16:9'
+---
+
+```{r, echo = FALSE, warning = FALSE, message = FALSE}
+##xaringan::inf_mr()
+## For offline work: https://bookdown.org/yihui/rmarkdown/some-tips.html#working-offline
+## Images not appearing? Put images folder inside the libs folder as that is the main data directory
+
+library(tidyverse)
+library(readxl)
+library(stargazer)
+##library(kableExtra)
+##library(modelr)
+
+knitr::opts_chunk$set(echo = FALSE,
+                      eval = TRUE,
+                      error = FALSE,
+                      message = FALSE,
+                      warning = FALSE,
+                      comment = NA)
+```
+
+
+background-image: url('libs/Images/background-worldmap3.png')
+background-size: 105%
+background-class: center
+class: middle, center
+
+.size55[**PLSC 152: Intro to International Relations**]
+
+<br>
+
+.size55[
+
+Make a list of .textblue[**positive**] and .textred[**negative**] things the US has done on the world stage in the last 20 years.
+
+]
+
+<br>
+
+.size40[
+  Justin Leinaweaver (Spring 2024)
+]
+
+???
+
+### Prep for Class
+1. Update attendance list before class
+
+2. Make sure this week's modules visible in Canvas
+
+<br>
+
+*As students come in*
+
+Welcome all.
+
+- Sit down, introduce yourself to the people around you and get chatting about my prompt on the board.
+
+- Build two lists as a group!
+
+<br>
+
+*ON BOARD*
+
+### Ok, what is on your lists?
+
+- SHARE and DISCUSS
+
+<br>
+
+**SLIDE**: Let's make sure we're all in the right place!
+
+
+
+
+---
+
+background-image: url('libs/Images/background-blue_cubes_lighter3.png')
+background-size: 100%
+background-position: center
+class: middle
+
+.size65[
+.content-box-white[**Introductions**]
+]
+
+.size50[
+
+1. Name
+
+2. Year in school
+
+3. Major
+
+4. Earliest memory of a "big" international event
+]
+
+???
+
+1. Name: I'm Dr. Leinaweaver.
+
+2. Year in school: 12th year at Drury
+
+3. Major: Political scientist with primary research interests in international policy-making and problem-solving
+
+4. Earliest memory? Berlin wall coming down and finding out our world map had to change. Kind of blew my mind.
+
+<br>
+
+### Your turn!
+
+<br>
+
+**SLIDE**: Back to the board!
+
+
+
+---
+
+background-image: url('libs/Images/background-worldmap3.png')
+background-size: 100%
+background-class: center
+class: middle, center
+
+.size60[
+On balance, has the US been a net .textblue[**positive**] or .textred[**negative**] influence on the world over the last 20 years?
+]
+
+???
+
+All of this adds up to a big, tough to handle question.
+
+- I don't want to pretend our lists on the board are comprehensive or that this question isn't crazy reductive.
+
+<br>
+
+However, I'd like to take this opportunity to get a sense of how our class thinks about the role of the US in the world BEFORE we start our work this semester.
+
+### So, what do you think?
+
+
+
+
+---
+
+background-image: url('libs/Images/01_1-international-certificate.jpg')
+background-size: 100%
+background-class: center
+class: middle, center
+
+???
+
+Welcome to International Relations (IR).
+
+<br>
+
+Our job this semester is to analyze "politics" happening at the international level.
+
+- What does that mean? We'll get there!
+
+<br>
+
+Today's Agenda: Set up our class and plan for the semester
+
+
+
+---
+
+background-image: url('libs/Images/background-blue_triangles.jpg')
+background-size: 100%
+background-class: center
+class: middle
+
+.size50[.content-box-white[**Learning Outcomes**]]
+
+.size40[
+- LO 1: Learn about the big ideas and debates of IR scholars
+
+- LO 2: Learn to use the tools of IR scholars to explain events
+
+- LO 3: Use the tools to explain international political events
+
+- LO 4: Write convincing arguments
+]
+
+???
+
+Big picture, we have four learning outcomes this semester.
+
+- All four are in the syllabus, but let me simplify them for you.
+
+<br>
+
+1. Content Knowledge
+    - Learn the big ideas and basic definitions you need to explain international political events.
+
+2. Methods Knowledge
+    - Learn to use the tools of social scientists for analyzing international political events.
+
+3. Critical Thinking & Problem Solving Skills
+    - Practice applying social science tools to solve big problems and answer important questions.
+
+4. Communication Skills
+    - Practice writing logical, clear, credible and critical arguments so good that they will convince smart people you are right!
+
+<br>
+
+### Everybody good with these?
+
+<br>
+
+**SLIDE**: To make progress on these LOs I've divided the semester into four sections.
+
+
+
+
+---
+
+background-image: url('libs/Images/background-blue_triangles.jpg')
+background-size: 100%
+background-class: center
+class: middle
+
+.size60[**Semester Outline**]
+
+.size40[
+Section 1: Arguments, Evidence and International Relations
+
+- Making logical arguments,
+
+- Testing those arguments scientifically, and
+
+- Learning to think in terms of models
+]
+
+???
+
+Section 1 sets us up for the semester.
+
+
+
+
+
+---
+
+background-image: url('libs/Images/05_2-putin_ukraine.jpg')
+background-size: 100%
+background-class: center
+class: bottom, center
+
+???
+
+In Section 2 of the class we tackle a HUGE question in IR.
+
+- Let's first talk about this fella.
+
+<br>
+
+### Who is this guy and what's he been up to lately?
+
+<br>
+
+### Help me brainstorm, why did Russia invade Ukraine?
+
+*ON BOARD*
+- Power? 
+- Personality? 
+- Territory/Resources? 
+- Threats from Alliances?
+
+
+
+---
+
+background-image: url('libs/Images/05_2-putin_ukraine.jpg')
+background-size: 100%
+background-class: center
+class: bottom, center
+
+.size50[.content-box-white[**Section 2: Why Are There Wars?**]]
+
+???
+
+In Section 2 we explore the grand-daddy of IR research questions.
+
+- Why Are There Wars?
+
+<br>
+
+### Is this a "good" list if our aim is to be able to explain where wars are likely to start in the future? Why or why not?
+
+
+
+
+---
+
+background-image: url('libs/Images/01_1-Iranian_nukes.jpg')
+background-size: 100%
+background-class: center
+class: bottom, center
+
+???
+
+In Section 3 of the class we tackle another HUGE question in IR.
+
+<br>
+
+### Anybody recognize this fella?
+- (Supreme Leader of Iran Ali Khamenei)
+
+<br>
+
+### What has he, and his country Iran, been up to lately that scares the bejeebus out of the Western powers?
+- (Western powers are convinced Iran is actively developing nuclear weapons (which the Iranians deny).)
+
+<br>
+
+### Given that they are expensive to develop, dangerous to possess and tend to make the rest of the world mad at you, why would any country want a nuclear weapon?
+- (Protection?)
+- (Power projection?)
+- (Technological advancement?)
+
+<br>
+
+### Any special reasons why Western powers are especially afraid of an Iranian nuke?
+- (State sponsor of "terrorism")
+    - (Fears that they would provide the bomb or the technology to more of our enemies or groups actively designated as terrorists by the US government)
+- (It could set off an arms race)
+- (It makes this a huge threat to Israel's security)
+
+<br>
+
+### And how have we been trying to stop their progress so far?
+- (Israelis have been bombing their facilities and assassinating their scientists)
+- (JCPOA deal ended by Trump)
+- (Sanctions, sanctions and more sanctions)
+
+<br>
+
+**SLIDE**: Unfortunately, our current approach REALLY isn't working
+
+
+
+
+---
+
+background-image: url('libs/Images/background-worldmap3.png')
+background-size: 100%
+background-class: center
+
+.pull-left[
+```{r, echo = FALSE, fig.align = 'center', out.width = '100%'}
+knitr::include_graphics("libs/Images/01_1-WSJ_Iran_Nukes1.png")
+```
+]
+
+.pull-right[
+
+<br>
+
+<br>
+
+```{r, echo = FALSE, fig.align = 'center', out.width = '100%'}
+knitr::include_graphics("libs/Images/01_1-WSJ_Iran_Nukes2.png")
+```
+]
+
+???
+
+[WSJ article](https://www.wsj.com/world/middle-east/iran-adds-to-pressure-on-u-s-with-nuclear-program-acceleration-9ce226c5) from a few weeks ago (Dec. 26, 2023).
+
+- Things are rapidly heading in the wrong direction.
+
+
+
+
+
+---
+
+background-image: url('libs/Images/01_1-Iranian_nukes.jpg')
+background-size: 100%
+background-class: center
+class: bottom, center
+
+???
+
+So, here's my question
+
+### What would you be willing to offer the Iranian government to get them to verifiably stop all nuclear activities and to turn over their supplies of weapons grade material?
+
+<br>
+
+### In other words, what are the pros and cons of the US making a deal with Iran that ends all economic sanctions and offers security guarantees in exchange for an end to their nuclear weapons program?
+
+*ON BOARD*
+
+- Relative vs absolute gains? 
+- The risks of cooperation? 
+- The inability to enforce international deals? 
+- The difficulty in monitoring the agreement? Cheating?
+
+
+
+---
+
+background-image: url('libs/Images/01_1-Iranian_nukes.jpg')
+background-size: 100%
+background-class: center
+class: bottom, center
+
+.size35[.content-box-white[**Section 3: Why is it so Hard to Cooperate With Other Countries?**]]
+
+???
+
+In Section 3 of the class we ask why is it so Hard to Cooperate with Other Countries?
+
+- We have a good start here to mapping out the challenges of cooperation when the stakes are so high!
+
+
+
+
+---
+
+background-image: url('libs/Images/01_1-Yalta-Conference.jpg')
+background-size: 100%
+background-class: center
+class: bottom, center
+
+???
+
+I think the final section of our class, Section 4, should start here.
+
+### Who are these three gentlemen and what are we looking at here?
+- Churchill, FDR and Stalin at the Yalta Conference
+
+- The Yalta Conference held in 1945 in Crimea is where the winning powers of WW2 got together to plan the future of Europe.
+
+<br>
+
+### How different would you argue the world of today is compared to the world of 1945?
+
+### - In what ways the same and in what ways different?
+
+*ON BOARD*
+
+- Same: ?
+
+- Different: ?
+
+
+
+---
+
+background-image: url('libs/Images/01_1-Old_Institutions.webp')
+background-size: 100%
+background-class: center
+class: bottom, center
+
+.size35[.content-box-white[**Section 4: What is the Future of Transnational Politics and IR?**]]
+
+???
+
+In Section 4 of the class we ask What is the Future of Transnational Politics and IR?
+
+- The United Nations, the International Court of Justice, the World Bank, the International Monetary Fund, etc. all founded in around 1944/1945
+
+- Almost 100 years later we have to ask if these institutions are still designed sufficiently for the problems of today!
+
+<br>
+
+In other words, this section of the class asks us: 
+
+**How** does it matter that most of the current global infrastructure was built after WWII to address the problems of that time by a group of very wealthy white dudes primarily from the US and Europe.
+
+- High tech was still steam ships, diesel subs and sending messages by telegraph
+
+- The technology of today makes that seem like ancient history.
+
+
+
+
+---
+
+background-image: url('libs/Images/background-blue_triangles.jpg')
+background-size: 100%
+background-class: center
+class: middle
+
+.size60[**Semester Outline**]
+
+.size40[
+Section 1: Arguments, Evidence and International Relations
+
+Section 2: Why Are There Wars?
+
+Section 3: Why is it so Hard to Cooperate With Other Countries?
+
+Section 4: What is the Future of Transnational Politics and IR?
+]
+
+???
+
+Alright, so that's our plan for the semester.
+
+### Questions on this?
+
+
+
+
+---
+
+background-image: url('libs/Images/01_1-newspapers.jpg')
+background-size: 100%
+class: center
+
+???
+
+We will kick off most classes with current events discussions.
+
+- This REQUIRES you to follow global news!
+
+<br>
+
+**Part of your job in this class is to keep up with international current events!**
+
+- Skim the international section of a good news site everyday.
+
+- Let's make sure we always have current events we can draw on in our discussions!
+
+
+
+---
+
+class: middle, center
+
+.size60[**Course Grade**]
+
+```{css, echo=F}
+/* Change the background color to white for shaded rows (even rows) */
+.remark-slide thead, .remark-slide tr:nth-child(2n) {
+      background-color: white;
+}
+```
+
+```{r}
+tibble(
+  col1 = c("Participation", "Argument Paper 1", "Argument Paper 2", "Argument Paper 3", "Total"),
+  col2 = c("", "(Feb 9)", "(Mar 22)", "(Final Exam)", ""),
+  col3 = c(rep(25, 4), 100)
+) |>
+  kableExtra::kbl(align = c("l", "c", "c"), col.names = c("", "", "%")) |>
+  kableExtra::kable_styling(font_size = 50) |>
+  kableExtra::column_spec(1, width = "11em") |>
+  kableExtra::column_spec(2, width = "7em") |>
+  kableExtra::row_spec(c(0, 5), bold = TRUE, background = "#b3ccff")
+
+```
+
+???
+
+Course grade is pretty simple.
+
+Four equal pieces because being here and being engaged is as important to me as you learning to write convincing academic arguments.
+
+<br>
+
+Let's talk attendance and participation.
+
+
+
+---
+
+background-image: url('libs/Images/01_1-coyote.jpg')
+background-size: 85%
+class: center
+
+???
+
+*This is an intro class, don't rush this!!!*
+
+<br>
+
+My attendance policy is simple.
+
+The only way I can ensure everyone makes progress on the LOs is by being in class and doing the work.
+
+- This means I have to make sure you are here!
+
+<br>
+
+To help encourage you I use an attendance cliff.
+
+## Anyone with more than FOUR unexcused absences in the semester cannot earn higher than a ‘C’ in the course
+
+- Regardless of grades earned on other assignments.
+
+<br>
+
+### Questions on this?
+
+
+---
+
+background-image: url('libs/Images/01_1-office_space.jpg')
+background-size: 65%
+background-class: center
+class: slideblue
+
+???
+
+What if you have an excused absence coming up?
+
+## It is your responsibility to email me **BEFORE** the absence in order to receive a make-up assignment.
+
+- Easy peasy
+
+<br>
+
+This is also the place where I say to you, whatever is going on that might keep you out of class, please keep me in the loop. 
+
+- I genuinely want you to make progress on our learning outcomes
+
+<br>
+
+So, if things are getting rough for you please come talk to me.
+
+## I will always offer you flexibility in the face of struggle IF YOU COME TO ME BEFORE DEADLINES HAVE PASSED!
+
+<br>
+
+### Questions on this?
+
+
+
+---
+
+background-image: url('libs/Images/01_1-participation-points.jpg')
+background-size: 85%
+background-class: center
+class: slideblue
+
+???
+
+Ok, so I've got you coming to class now how do I make sure you're engaged?
+
+- Participation points!
+
+<br>
+
+Basically, if you:
+
+- Get to class on time,
+
+- Have the materials you need to work, and
+
+- Submit all daily required assignments BEFORE class,
+
+You'll be good to go and these are easy free points.
+
+<br>
+
+Before most classes we will have a reading and a discussion question.
+
+- You must submit your answer to that question on our Canvas discussion board BEFORE class begins to earn your participation point.
+
+- The syllabus is marked for all class sessions that have a pre-class assignment
+
+<br>
+
+## Important note: Canvas will not tell you about discussion post requirements in your to do list. You have to keep track using the syllabus.
+
+<br>
+
+## Each participation point you lose will reduce your participation grade by 1/3 of a letter grade
+
+## - e.g. A, A-, B+, B, B-, C+, etc.
+
+<br>
+
+### Questions on this?
+
+
+
+---
+
+background-image: url('libs/Images/01_1-matrix_meme.jpg')
+background-size: 95%
+class: center
+
+???
+
+Your first job is to download the syllabus from Canvas and read it carefully.
+
+It includes detail on everything you need to know.
+- Assignment deadlines
+- Readings
+- Drury policies
+- Office hours
+
+ALSO, I can see who downloaded it, so don’t delay!
+
+<br>
+
+We'll be using Canvas for submitting assignments, posting to the discussions and accessing the class readings.
+
+- Let me know if you have trouble accessing our materials on Canvas.
+
+
+
+---
+
+background-image: url('libs/Images/01_1-Canvas_Modules_SP24.png')
+background-size: 90%
+class: center, slideblue
+
+???
+
+Speaking of Canvas!
+
+- ALL of the assigned readings and daily assignments are available on Canvas in the "Modules" section.
+
+- I have organized the Modules by week of the semester to mirror the structure of the syllabus
+
+<br>
+
+The syllabus includes many web links, but if they don't work I have uploaded backups onto Canvas.
+
+- ALL of the assigned readings should be on Canvas
+
+- Please let me know BEFORE class if you ever can't find an assigned reading.
+
+<br>
+
+Here you can see your assignment for Friday.
+
+- Labossiere is a short reading on evaluating the logic of an argument
+
+- Then we have two short arguments that we can diagram and analyze
+
+- The last item is the discussion board where you will submit your first participation assignment
+
+
+
+
+---
+
+background-image: url('libs/Images/01_1-Canvas_Modules2_SP24.png')
+background-size: 95%
+class: center, slideblue
+
+???
+
+So, after you complete the readings go to the discussion board and answer these two questions.
+1. How convinced are you by Aseyev's (2022) argument? Why or why not?
+2. How convinced are you by Kuo's (2023) argument? Why or why not?
+
+<br>
+
+I have found that requiring these pre-class questions sets us up for much livelier engagement in class!
+
+### Questions on what I'm asking you to do?
+
+- NOTE: The forum closes BEFORE class starts (9:59 am) so make sure to get these in!
+
+<br>
+
+Welcome to the class and let me know if you have any questions!
+

@@ -1,0 +1,1112 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+  <head>
+    <title>06-2-Bargaining_Model_War.knit</title>
+    <meta charset="utf-8" />
+    <script src="libs/header-attrs-2.25/header-attrs.js"></script>
+    <link href="libs/remark-css-0.0.1/default.css" rel="stylesheet" />
+    <script src="libs/kePrint-0.0.1/kePrint.js"></script>
+    <link href="libs/lightable-0.0.1/lightable.css" rel="stylesheet" />
+    <link rel="stylesheet" href="extra.css" type="text/css" />
+  </head>
+  <body>
+    <textarea id="source">
+
+
+
+
+background-image: url('libs/Images/background-worldmap3.png')
+background-size: 105%
+background-class: top
+class: middle
+
+.size60[**II. Why Are There Wars?**]
+
+&lt;br&gt;
+
+.size50[
+**Today's Agenda**
+
+- Fearon's (1995) Bargaining Model of War
+
+]
+
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;
+
+.center[.size40[
+  Justin Leinaweaver (Spring 2024)
+]]
+
+???
+
+## Prep for Class
+1. Review canvas submissions
+
+2. Remember, we don't diagram this model using III until next Friday
+
+&lt;br&gt;
+
+**ANNOUNCE**: Pizza and Politics today!
+
+&lt;br&gt;
+
+### DISCUSS: Name me an international political event that has happened since we last met as a class.
+
+
+
+
+
+---
+
+background-image: url('libs/Images/background-cloth_v2.png')
+background-size: 100%
+background-position: center
+
+&lt;img src="06-2-Bargaining_Model_War_files/figure-html/unnamed-chunk-2-1.png" width="90%" style="display: block; margin: auto;" /&gt;
+
+???
+
+On Monday we ran a simulation in class to help us think carefully about the causes of war.
+
+Here are the overall results from our simulation.
+
+- The x-axis represents the number of wars fought by one pair of students.
+
+- Each bar counts the number of pairs in each category.
+
+### Does the visualization make sense?
+
+&lt;br&gt;
+
+### So, what do we see here in overall results?
+
+- 9 pairs fought zero wars in their five rounds together.
+
+- 4 pairs fought in all five rounds they played together.
+
+- Out of 52 pairings and 260 possible conflicts we observed 139 wars.
+
+- So, 53.5% of the time your conflicts led to war.
+
+
+
+
+
+---
+
+background-image: url('libs/Images/background-cloth_v2.png')
+background-size: 100%
+background-position: center
+
+class: middle
+
+.left-column[
+
+&lt;br&gt;
+
+&lt;br&gt;
+
+.size35[
+.textblack[
+**Interests?**
+
+&lt;br&gt;
+
+**Institutions?**
+
+&lt;br&gt;
+
+**Interactions?**
+]]]
+
+.right-column[
+
+&lt;img src="06-2-Bargaining_Model_War_files/figure-html/unnamed-chunk-3-1.png" width="95%" style="display: block; margin: auto;" /&gt;
+
+]
+
+???
+
+Let's think of these results as a political outcome we need to explain.
+
+**Outcome 1: Overall results**
+- In other words, this variation represents our international political event we're trying to explain.
+
+&lt;br&gt;
+
+### Take a few minutes on your own to think about our game and these results then make a list under each category.
+- How did the interests involved impact the outcomes of the game?
+- How did the institutions impact them?
+- And how did the interactions impact them?
+
+&lt;br&gt;
+
+### Compare your list with the person next to you.
+- Did you identify the same mechanisms?
+
+
+
+
+---
+
+background-image: url('libs/Images/background-cloth_v2.png')
+background-size: 100%
+background-position: center
+
+class: middle
+
+.left-column[
+
+&lt;br&gt;
+
+&lt;br&gt;
+
+.size35[
+.textblack[
+**Interests?**
+
+&lt;br&gt;
+
+**Institutions?**
+
+&lt;br&gt;
+
+**Interactions?**
+]]]
+
+.right-column[
+
+&lt;img src="06-2-Bargaining_Model_War_files/figure-html/unnamed-chunk-4-1.png" width="95%" style="display: block; margin: auto;" /&gt;
+
+]
+
+???
+
+### Ok, what did we come up with? 
+
+*ON BOARD*
+
+### Key interests involved?
+- (Possible first preference:)
+    - Bonus points
+    - Social acceptance
+    - Murder and death
+
+### Key institutions involved?
+- (Objective framed in relative gains / zero-sum)
+- (No chance for allies to help)
+- (Odd number of rounds?)
+- (How many cards in my "deck"?)
+- (Sum vs avg?)
+
+### Key interactions involved?
+- (Uncertainty:)
+    - I don't know what you have in your hand
+    - I don't know your level of risk acceptance
+- (Do people play differently in first round than in the second?)
+- (Do people play differently in the lead than being behind?)
+- (How did revealing cards change the game?)
+
+
+
+---
+
+background-image: url('libs/Images/background-cloth_v2.png')
+background-size: 100%
+background-position: center
+
+class: middle
+
+.left-column[
+
+&lt;br&gt;
+
+&lt;br&gt;
+
+.size35[
+.textblack[
+**Interests?**
+
+&lt;br&gt;
+
+**Institutions?**
+
+&lt;br&gt;
+
+**Interactions?**
+]]]
+
+.right-column[
+
+&lt;img src="06-2-Bargaining_Model_War_files/figure-html/unnamed-chunk-5-1.png" width="95%" style="display: block; margin: auto;" /&gt;
+
+]
+
+???
+
+Let's shift our focus to a different political outcome.
+
+Here are the results for just version 1 of the game.
+
+
+```
+# A tibble: 1 × 5
+  Version  pairings  wars possible proportion
+  &lt;chr&gt;       &lt;int&gt; &lt;dbl&gt;    &lt;dbl&gt;      &lt;dbl&gt;
+1 Version1       13    41       65      0.631
+```
+
+&lt;br&gt;
+
+### Any suprises here? Is this consistent with the interests, institutions and interactions we just flagged?
+
+&lt;br&gt;
+
+### How did you approach version 1 of the game? Did you have a strategy?
+
+&lt;br&gt;
+
+### What strategies did you observe in your opponents? Purely random decision-making or something else?
+
+&lt;br&gt;
+
+### How did your strategy adapt or evolve from playing the game?
+
+
+
+---
+
+background-image: url('libs/Images/background-cloth_v2.png')
+background-size: 100%
+background-position: center
+
+class: middle
+
+.center[.size45[**Interests, Institutions and Interactions?**]]
+
+.size15[
+&lt;table&gt;
+ &lt;thead&gt;
+  &lt;tr&gt;
+   &lt;th style="text-align:left;"&gt; Uncertainty_f &lt;/th&gt;
+   &lt;th style="text-align:right;"&gt; wars &lt;/th&gt;
+   &lt;th style="text-align:right;"&gt; possible &lt;/th&gt;
+   &lt;th style="text-align:right;"&gt; proportion &lt;/th&gt;
+  &lt;/tr&gt;
+ &lt;/thead&gt;
+&lt;tbody&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;"&gt; High Uncertainty (All Hidden) &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 41 &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 65 &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 0.6307692 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;"&gt; Medium Uncertainty (Most Hidden) &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 45 &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 65 &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 0.6923077 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;"&gt; Low Uncertainty (One Hidden) &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 39 &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 65 &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 0.6000000 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;"&gt; No Uncertainty &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 14 &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 65 &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 0.2153846 &lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+]
+
+
+&lt;img src="06-2-Bargaining_Model_War_files/figure-html/unnamed-chunk-8-1.png" width="85%" style="display: block; margin: auto;" /&gt;
+
+???
+
+Now take a step back.
+
+### What happened as we went through the rounds?
+
+
+```
+# A tibble: 4 × 5
+  Version  pairings  wars possible proportion
+  &lt;chr&gt;       &lt;int&gt; &lt;dbl&gt;    &lt;dbl&gt;      &lt;dbl&gt;
+1 Version1       13    41       65      0.631
+2 Version2       13    45       65      0.692
+3 Version3       13    39       65      0.6  
+4 Version4       13    14       65      0.215
+```
+
+&lt;br&gt;
+
+### Any suprises here? Is this consistent with the interests, institutions and interactions we just flagged?
+
+&lt;br&gt;
+
+Lots of good material here from this experience so let's now shift to the reading for today.
+
+
+
+---
+
+background-image: url('libs/Images/background-cloth_v2.png')
+background-size: 100%
+background-position: center
+class: middle, center
+
+.size70[**Fearon (1995):**]
+
+.size70[**Research Question**]
+
+???
+
+Today we pair that simulation with the research that inspired it, Fearon's (1995) article on the bargaining model of war.
+
+&lt;br&gt;
+
+Let's start where we always should: The Research Question!
+
+- In this case, the question is also a bit of a puzzle.
+
+&lt;br&gt;
+
+### What is Fearon's big research question?
+
+### - What are the three reasons he argues war should be unappealing as a strategy to get what you want?
+
+(**SLIDE**)
+
+
+
+---
+
+background-image: url('libs/Images/background-cloth_v2.png')
+background-size: 100%
+background-position: center
+class: middle, center
+
+.size70[**Fearon (1995):**]
+
+.size70[**Research Question**]
+
+&lt;br&gt;
+
+.size60[
+If wars are .textred[**costly**], .textred[**risky**] and .textred[**inefficient**] why do they happen?
+]
+
+???
+
+&lt;br&gt;
+
+### According to Fearon why is war costly?
+- (Costly: Requires resources to fight)
+
+### According to Fearon why is war risky?
+- (Risky: You might lose, no guarantees)
+
+### According to Fearon why is war inefficient?
+- (Inefficient: Fighting is costly, bargains are not (or are less so))
+
+&lt;br&gt;
+
+This is a huge first assumption in this paper, so let's evaluate it.
+
+### Are you persuaded that war is costly, risky and inefficient? why or why not?
+
+&lt;br&gt;
+
+### Any current events examples we could draw on?
+
+(US 20 year war in Afghanistan?)
+- Destabilization of the region
+- Distraction away from other global threats
+- Has created fractures with our allies in NATO
+- Has committed us to HUGE expenses over time as we pay medical care and retirement for the many, many Americans who served.
+- Higher taxes / more debt
+- Crowds out spending on economic growth
+
+
+
+
+---
+
+background-image: url('libs/Images/06_2-Fearon_Figure1.png')
+background-size: 100%
+background-position: center
+class: slideblue
+
+???
+
+This brings us to Fearon's aim: Why does war happen if we all agree that war is a super messy way to get what you want.
+
+&lt;br&gt;
+
+This figure essentially summarizes Fearon's model of the "go to war" decision by states.
+
+- Keep in mind this is a model (e.g. a map) and like all models/maps it is a simplification of reality.
+
+- There are two states and their dispute is represented by this line.
+
+- The outcome of a bargain or war will leave them somewhere along it.
+
+- A prefers outcomes closer to 1, B closer to 0.
+
+- Don't stress about the letter variables here, we'll explore the bargaining intuitions in a moment.
+
+&lt;br&gt;
+
+Let's start with just these elements that set the stage.
+
+### What are the key assumptions in this model? e.g. what does the "map" choose to focus on?
+
+
+
+---
+
+background-image: url('libs/Images/06_2-Fearon_Figure1.png')
+background-size: 70%
+background-position: bottom
+class: slideblue
+
+.size30[
+**Key Assumptions**
+
+1. Only 2 actors, 
+2. Dispute on a single dimension, 
+3. Winner of the war chooses the outcome position, and
+4. Amount you like the outcome increases across the line.
+]
+
+???
+
+Let's reflect on this as a model for a sec.
+
+### When you think about a state's decision to go to war, how well does this set of assumptions cover the elements you think would be important?
+
+### - Leaving anything important out? Why or why not?
+
+*encourage this discussion*
+
+&lt;br&gt;
+
+Ok, let's now talk about the bargaining dynamics in the model.
+
+
+---
+
+background-image: url('libs/Images/06_2-pirates1.png')
+background-size: 100%
+background-position: center
+class: slideblue
+
+.size40[.center[**The Bargaining Model of War (Fearon 1995)**]]
+
+???
+
+Instead of states and war, let's talk pirates and gold.
+
+- Imagine two pirates who meet to divide up a chest full of 100 gold coins.
+
+- Each pirate wants all 100 coins and neither is prepared to budge on their demand.
+
+
+
+---
+
+background-image: url('libs/Images/06_2-pirates2.png')
+background-size: 100%
+background-position: bottom
+class: slideblue
+
+.size40[.center[**The Bargaining Model of War (Fearon 1995)**]
+
+.center[Buy a gun (-20 gold) for a 100% chance to win]]
+
+???
+
+The first pirate knows that for 20 gold he can buy a gun that will allow him to take all of the treasure.
+
+- It gives him a 100% chance of winning the fight.
+
+&lt;br&gt;
+
+### At that moment, before the gun is purchased, is there any amount of gold the second pirate could offer the first to avoid being killed?
+
+(81 gold!)
+- The treasure is worth 100 gold but the gun will cost 20 which nets you 80 gold.
+- 81 gold &gt; 80 gold
+
+
+
+---
+
+background-image: url('libs/Images/06_2-pirates2.png')
+background-size: 90%
+background-position: bottom
+class: slideblue
+
+.size40[.center[**The Bargaining Model of War (Fearon 1995)**]
+
+.center[Expected Value of War =
+
+P(Win) x Winning Result + P(Lose) x Losing Result]]
+
+???
+
+We can use the expected value formula to check our math.
+
+- The expected value is a tool for helping you think about how probability impacts a decision.
+
+- P(Win) x Winning Result + P(Lose) x Losing Result
+
+&lt;br&gt;
+
+In this case it's really simple to use.
+
+- You simply multiply the two possible outcomes by their probability of happening and add them together.
+
+
+
+---
+
+background-image: url('libs/Images/06_2-pirates2.png')
+background-size: 90%
+background-position: bottom
+class: slideblue
+
+.size40[.center[**The Bargaining Model of War (Fearon 1995)**]
+
+.center[Expected Value of War =
+
+100% x (100 - 20) + 0% x (0 - 20)]]
+
+
+
+---
+
+background-image: url('libs/Images/06_2-pirates2.png')
+background-size: 90%
+background-position: bottom
+class: slideblue
+
+.size40[.center[**The Bargaining Model of War (Fearon 1995)**]
+
+.center[Expected Value of War =
+
+100% x (80) + 0% x (-20)
+]]
+
+
+
+---
+
+background-image: url('libs/Images/06_2-pirates2.png')
+background-size: 90%
+background-position: bottom
+class: slideblue
+
+.size40[.center[**The Bargaining Model of War (Fearon 1995)**]
+
+.center[Expected Value of War = 80 gold
+]]
+
+???
+
+### Does that make sense?
+
+&lt;br&gt;
+
+### So, what is the first really important thing this model helps us understand about the decision to start a war?
+
+(**SLIDE**)
+
+
+
+
+---
+
+background-image: url('libs/Images/06_2-Fearon_Figure1.png')
+background-size: 80%
+background-position: bottom
+class: slideblue
+
+.size40[
+**Why is the model useful?**
+1. Winning Reward = Treasure - Costs of Fighting
+]
+
+???
+
+Actual Outcome = Treasure - Costs of Fighting
+
+- Here we see how the cost of war becomes a factor in our decision-making.
+
+- The greater the cost of war, the less appealing it is as a tool for getting what you want.
+
+- The important part isn't necessarily the outcome, it's the cost of obtaining it.
+
+&lt;br&gt;
+
+Also, this isn't just a vague expression, the model helps us think precisely about how the impact is felt.
+
+### Make sense?
+
+&lt;br&gt;
+
+### How could we have tested this by modifying our simulation on Monday?
+
+(Increase the cost of going to war and see what happens!)
+- I'm guessing many fewer wars!
+
+
+
+---
+
+background-image: url('libs/Images/06_2-pirates2.png')
+background-size: 100%
+background-position: bottom
+class: slideblue
+
+.size40[.center[**The Bargaining Model of War (Fearon 1995)**]
+
+.center[Buy a gun (-20 gold) for a 50% chance to win]]
+
+???
+
+That's just cost, now let's talk about risk.
+
+&lt;br&gt;
+
+Imagine the gun for sale is actually an old flint lock pistol.
+
+- Both inaccurate and hard to reload.
+
+- Let's say this gun actually gives the first pirate a 50% chance of winning the fight.
+
+&lt;br&gt;
+
+### At that moment, is there any amount of gold the second pirate could offer the first to avoid him pulling the trigger?
+
+
+
+---
+
+class: middle, slideblue
+
+.size40[.center[**The Bargaining Model of War (Fearon 1995)**]]
+
+&lt;br&gt;
+
+.size35[.center[E(War) = P(Win) x Win Result + P(Lose) x Lose Result]]
+
+--
+
+&lt;br&gt;
+
+&lt;br&gt;
+
+.size40[.center[**Buy a gun (-20 gold) for a 50% chance to win**]]
+
+???
+
+### Everyone try to calculate the expected value of this decision.
+
+--
+
+.size40[
++ E(War) = 50% x (100 - 20) + 50% x (0 - 20)
+]
+
+--
+
+.size40[
++ E(War) = 50% x (80) + 50% x (-20)
+]
+
+--
+
+.size40[
++ E(War) = 40 + (-10)
+]
+
+
+
+---
+
+background-image: url('libs/Images/06_2-pirates2.png')
+background-size: 90%
+background-position: bottom
+class: slideblue
+
+.size40[.center[**The Bargaining Model of War (Fearon 1995)**]
+
+.center[Buy a gun (-20 gold) for a 50% chance to win
+
+**Expected Value of War = .textred[30 gold!]**
+]]
+
+???
+
+### And now what does this mean for the decision to go to war?
+
+- If Pirate B offers Pirate A 31 gold he can avoid being shot!
+
+- The guaranteed 31 gold outweighs the costs + the risks of the war.
+
+&lt;br&gt;
+
+### And what does this mean is the second important reason this model is useful?
+
+(**SLIDE**)
+
+
+
+
+---
+
+background-image: url('libs/Images/06_2-Fearon_Figure1.png')
+background-size: 80%
+background-position: bottom
+class: slideblue
+
+
+.size40[**Why is the model useful?**]
+
+.size30[
+1. Winning Reward = Treasure - Costs of Fighting
+
+2. Expected Outcome = p(Winning Reward) + p(Losing Reward)
+]
+
+???
+
+Expected Outcome = p(Winning Reward) + p(Losing Reward)
+
+- Risk magnifies the costs of war in significant ways!
+
+- And now we see how the model helps us understand the role risk plays in lowering the attractiveness of war.
+
+&lt;br&gt;
+
+### Make sense?
+
+&lt;br&gt;
+
+### How could we have tested this by modifying our simulation on Monday?
+
+- (More cards in your hand?)
+
+- (More cards in the deck, e.g. 1-50?)
+
+- (Increase the punishment for losing, e.g. lose half your remaining points?)
+
+
+
+---
+
+background-image: url('libs/Images/background-cloth_v2.png')
+background-size: 100%
+background-position: center
+class: middle, center
+
+.size50[.center[**Fearon (1995): The Argument**]
+
+Because wars are .textred[**costly**], .textred[**risky**] and .textred[**inefficient**], there should .textred[**ALWAYS**] be a non-war outcome that both sides would prefer.
+]
+
+???
+
+Fearon's first big idea!
+
+### Based on our simulation on Monday and discussion today, are you convinced this is a useful model for explaining the decision to go to war? Why or why not?
+
+(**SLIDE**)
+
+
+
+---
+
+class: top, slideblue
+
+.size35[.center[**Fearon (1995): The Argument**
+
+Because wars are .textred[**costly**], .textred[**risky**] and .textred[**inefficient**], there should .textred[**ALWAYS**] be a non-war outcome that both sides would prefer.]
+
+1. Only 2 actors, 
+2. Dispute on a single dimension, 
+3. Winner of the war chooses the outcome position,
+4. Amount you like the outcome increases across the line,
+5. States must know there is a probability of victory, 
+6. Leaders are risk-averse or risk-neutral, and
+7. The issues at dispute must be divisible.
+]
+
+???
+
+Don't forget the huge assumptions in this model!
+
+### Any problematic assumptions here?
+
+- p388: Key problematic assumptions (5, 6 and 7 on the **SLIDE**)
+
+&lt;br&gt;
+
+### Ok, what are Fearon's conclusions?
+
+### - If his model is useful, why do wars keep happening?
+
+
+---
+
+class: middle, slideblue
+
+.size40[.center[**The Bargaining Model of War (Fearon 1995)**]]
+
+### Argument 1
++ .size30[Therefore, war occurs because of private information and the incentive to misrepresent.]
+
+### Argument 2 
++ .size30[Therefore, war occurs as a consequence of commitment problems.]
+
+### Argument 3
++ .size30[Therefore, war occurs due to "issue indivisibilities"]
+
+???
+
+Fearon draws out three big hypotheses from his bargaining model.
+
+### How does our game from Monday illustrate the first argument?
+
+### - How does private information and misrepresentation play a role in the start of costly wars?
+
+&lt;br&gt;
+
+### How does our game from Monday illustrate the second argument?
+
+### - How do commitment problems increase the likelihood of costly wars?
+
+&lt;br&gt;
+
+### How does our game from Monday illustrate the third argument?
+
+### - How do "issue indivisibilities" increase the likelihood of costly wars?
+
+
+
+---
+
+class: middle, slideblue
+
+.size40[.center[**The Bargaining Model of War (Fearon 1995)**]]
+
+### Argument 1
++ .size30[Therefore, war occurs because of private information and the incentive to misrepresent.]
+
+### Argument 2 
++ .size30[Therefore, war occurs as a consequence of commitment problems.]
+
+### Argument 3
++ .size30[Therefore, war occurs due to "issue indivisibilities"]
+
+???
+
+Finally, let's connect all of this to the real world.
+
+### BRAINSTORM: How does all of this help us reduce the onset of war?
+
+- The UN?
+- Increasing transparency of arms sales?
+- ?
+
+&lt;br&gt;
+
+### Bottom line, how convinced are you by Fearon's model?
+
+### - Is it better than the alternatives he considers? Why or why not?
+e.g. anarchy, preventive war and positive expected utility
+
+&lt;br&gt;
+
+### Does this model change how you think about war and international politics? Why or why not?
+
+### - Any concerns or limitations?
+
+&lt;br&gt;
+
+**SLIDE**: For Friday
+
+
+
+---
+
+background-image: url('libs/Images/background-blue_triangles.jpg')
+background-size: 100%
+background-position: center
+class: middle
+
+.size60[**Assignment for Next Class**]
+
+.size40[
+1. Readings in syllabus
+
+2. **Before class** submit to our Canvas discussion board: 
+
+Are you more convinced by the Bolton (2018) or Sagan (2018) argument? Why?
+]
+
+???
+
+Friday we discuss what to do about the threat of North Korea!
+
+
+
+
+
+
+
+    </textarea>
+<style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
+<script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+<script>var slideshow = remark.create({
+"highlightStyle": "github",
+"highlightLines": true,
+"countIncrementalSlides": false,
+"ratio": "16:9"
+});
+if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
+  window.dispatchEvent(new Event('resize'));
+});
+(function(d) {
+  var s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
+  if (!r) return;
+  s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
+  d.head.appendChild(s);
+})(document);
+
+(function(d) {
+  var el = d.getElementsByClassName("remark-slides-area");
+  if (!el) return;
+  var slide, slides = slideshow.getSlides(), els = el[0].children;
+  for (var i = 1; i < slides.length; i++) {
+    slide = slides[i];
+    if (slide.properties.continued === "true" || slide.properties.count === "false") {
+      els[i - 1].className += ' has-continuation';
+    }
+  }
+  var s = d.createElement("style");
+  s.type = "text/css"; s.innerHTML = "@media print { .has-continuation { display: none; } }";
+  d.head.appendChild(s);
+})(document);
+// delete the temporary CSS (for displaying all slides initially) when the user
+// starts to view slides
+(function() {
+  var deleted = false;
+  slideshow.on('beforeShowSlide', function(slide) {
+    if (deleted) return;
+    var sheets = document.styleSheets, node;
+    for (var i = 0; i < sheets.length; i++) {
+      node = sheets[i].ownerNode;
+      if (node.dataset["target"] !== "print-only") continue;
+      node.parentNode.removeChild(node);
+    }
+    deleted = true;
+  });
+})();
+// add `data-at-shortcutkeys` attribute to <body> to resolve conflicts with JAWS
+// screen reader (see PR #262)
+(function(d) {
+  let res = {};
+  d.querySelectorAll('.remark-help-content table tr').forEach(tr => {
+    const t = tr.querySelector('td:nth-child(2)').innerText;
+    tr.querySelectorAll('td:first-child .key').forEach(key => {
+      const k = key.innerText;
+      if (/^[a-z]$/.test(k)) res[k] = t;  // must be a single letter (key)
+    });
+  });
+  d.body.setAttribute('data-at-shortcutkeys', JSON.stringify(res));
+})(document);
+(function() {
+  "use strict"
+  // Replace <script> tags in slides area to make them executable
+  var scripts = document.querySelectorAll(
+    '.remark-slides-area .remark-slide-container script'
+  );
+  if (!scripts.length) return;
+  for (var i = 0; i < scripts.length; i++) {
+    var s = document.createElement('script');
+    var code = document.createTextNode(scripts[i].textContent);
+    s.appendChild(code);
+    var scriptAttrs = scripts[i].attributes;
+    for (var j = 0; j < scriptAttrs.length; j++) {
+      s.setAttribute(scriptAttrs[j].name, scriptAttrs[j].value);
+    }
+    scripts[i].parentElement.replaceChild(s, scripts[i]);
+  }
+})();
+(function() {
+  var links = document.getElementsByTagName('a');
+  for (var i = 0; i < links.length; i++) {
+    if (/^(https?:)?\/\//.test(links[i].getAttribute('href'))) {
+      links[i].target = '_blank';
+    }
+  }
+})();
+// adds .remark-code-has-line-highlighted class to <pre> parent elements
+// of code chunks containing highlighted lines with class .remark-code-line-highlighted
+(function(d) {
+  const hlines = d.querySelectorAll('.remark-code-line-highlighted');
+  const preParents = [];
+  const findPreParent = function(line, p = 0) {
+    if (p > 1) return null; // traverse up no further than grandparent
+    const el = line.parentElement;
+    return el.tagName === "PRE" ? el : findPreParent(el, ++p);
+  };
+
+  for (let line of hlines) {
+    let pre = findPreParent(line);
+    if (pre && !preParents.includes(pre)) preParents.push(pre);
+  }
+  preParents.forEach(p => p.classList.add("remark-code-has-line-highlighted"));
+})(document);</script>
+
+<script>
+slideshow._releaseMath = function(el) {
+  var i, text, code, codes = el.getElementsByTagName('code');
+  for (i = 0; i < codes.length;) {
+    code = codes[i];
+    if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
+      text = code.textContent;
+      if (/^\\\((.|\s)+\\\)$/.test(text) || /^\\\[(.|\s)+\\\]$/.test(text) ||
+          /^\$\$(.|\s)+\$\$$/.test(text) ||
+          /^\\begin\{([^}]+)\}(.|\s)+\\end\{[^}]+\}$/.test(text)) {
+        code.outerHTML = code.innerHTML;  // remove <code></code>
+        continue;
+      }
+    }
+    i++;
+  }
+};
+slideshow._releaseMath(document);
+</script>
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+(function () {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src  = 'https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML';
+  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
+    script.src  = script.src.replace(/^https?:/, '');
+  document.getElementsByTagName('head')[0].appendChild(script);
+})();
+</script>
+  </body>
+</html>

@@ -1,0 +1,699 @@
+---
+output:
+  xaringan::moon_reader:
+    css: ["default", "extra.css"]
+    lib_dir: libs
+    seal: false
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+      ratio: '16:9'
+---
+
+```{r, echo = FALSE, warning = FALSE, message = FALSE}
+##xaringan::inf_mr()
+## For offline work: https://bookdown.org/yihui/rmarkdown/some-tips.html#working-offline
+## Images not appearing? Put images folder inside the libs folder as that is the main data directory
+
+library(tidyverse)
+library(readxl)
+#library(stargazer)
+library(kableExtra)
+##library(modelr)
+
+knitr::opts_chunk$set(echo = FALSE,
+                      eval = TRUE,
+                      error = FALSE,
+                      message = FALSE,
+                      warning = FALSE,
+                      comment = NA)
+```
+
+background-image: url('libs/Images/background-worldmap3.png')
+background-size: 105%
+background-class: top
+class: middle
+
+.center[.size50[**III. Why is it so Hard to Cooperate with Other Countries?**]]
+
+<br>
+
+.size50[
+**Today's Agenda**
+
+- Two-level Bargaining Games
+]
+
+<br>
+
+.center[.size40[
+  Justin Leinaweaver (Spring 2024)
+]]
+
+???
+
+## Prep for Class
+1. **FORCE the groups to sit together! Leaders sit up front!**
+
+2. Update slide with current EC points earned from PD v1 to complicate leader's task
+
+<br>
+
+#### Putnam (1988) Notes
+- p427-430 intro real-world examples, 
+- p433-440 two level games metaphor, 
+- p441-452 determinants of win set size, 
+- p452-453 uncertainty, 
+- p453-456 attempts to influence the other side, 
+- p456-459 role of the chief negotiator
+
+
+
+
+---
+
+background-image: url('libs/Images/09_1-patronage.jpg')
+background-size: 83%
+background-position: center
+
+???
+
+On Monday we re-played our prisoners' dilemma from a few weeks ago but with a few added wrinkles.
+
+<br>
+
+Before we dig into what happened, the leaders have a job to do.
+
+### Leaders are you ready to announce your decisions?
+
+<br>
+
+*They will inevitably ask about their reward for being leader*
+
+Your leadership rewards can't be calculated yet, you still have work to do!
+
+<br>
+
+**SLIDE**: Oh and just one more thing...
+
+
+
+
+---
+
+background-image: url('libs/Images/09_1-patronage_filter50.png')
+background-size: 83%
+background-position: center
+
+.pull-left[
+```{r}
+tribble(
+  ~Name, ~EC,
+  "Kaden", 0,
+  "Ivan", 1,
+  "Cailey", 1,
+  "Devin", 1,
+  "Gilly", 1,
+  "Abby R", 5,
+  "Chloe", 5,
+  "Bruce", 5,
+  "Ty", 5,
+  "Jameson", 5,
+  "Lucas", 5,
+  "David", 5
+) |>
+  kbl(align = c('l', 'c')) |>
+  kable_styling(bootstrap_options = c("striped", "hover", "condensed"), font_size = 30) |>
+  column_spec(1, width = '8em') |>
+  row_spec(1, background = "gold")
+```
+]
+
+.pull-right[
+```{r}
+tribble(
+  ~Name, ~EC,
+  "Abby H", 5,
+  "Joseph", 1,
+  "Kyle", 1,
+  "Jackson", 1,
+  "Jack", 1,
+  "Colman", 1,
+  "George", 1,
+  "Kelsey", 5,
+  "Liam", 5,
+  "Carter", 5,
+  "Caden", 5
+) |>
+  kbl(align = c('l', 'c')) |>
+  kable_styling(bootstrap_options = c("striped", "hover", "condensed"), font_size = 30) |>
+  column_spec(1, width = '8em') |>
+  row_spec(1, background = "gold")
+```
+]
+
+???
+
+As is true in the real world, inequality exists!
+
+- Wealth and opportunity are not equally distributed across the population.
+
+- I thought you might want to consider the EC points already earned by the people in your state before you announce your decision.
+
+<br>
+
+### Leaders are you ready?
+
+- Please announce your decision.
+
+<br>
+
+### Groups, any objections to the leaders' proposed actions?
+
+<br>
+
+### Anybody want to call for an election?
+
+- Let this play out...
+
+<br>
+
+Alright, let's review what happened in our simulation!
+
+
+
+---
+
+background-image: url('libs/Images/10-2-Decision.jpg')
+background-size: 83%
+background-position: center
+
+???
+
+Let's start by discussing the strategic approach each of you brought to the game individually.
+
+### What decisions did each of you have to make each round within your groups?
+- Vote: Vote for leader,
+- Choose to Participate: Participate in the group decision-making,
+- Choose to Advocate: Advocate for one or the other decision in the group decision-making
+- ?
+
+<br>
+
+### Brainstorm: What characteristics predict when a citizen will choose to be active in these specific ways in their democracy?
+- *ON BOARD*
+
+<br>
+
+### Did our simulation represent these decisions in a useful way (e.g. how people face these choices in the political world everyday)? Why or why not?
+
+
+---
+
+class: middle, center
+
+.size50[.center[.content-box-blue[**Prisoner's Dilemma (v2)**]]]
+
+<br>
+
+```{css, echo=F}
+/* Change the background color to white for shaded rows (even rows) */
+.remark-slide thead, .remark-slide tr:nth-child(2n) {
+      background-color: white;
+}
+```
+
+```{r}
+library(kableExtra)
+
+tibble(
+  col1 = c("Group 1", ""),
+  col2 = c("Cooperate", "Defect"),
+  Cooperate = c("+3, +3", "+5, -2"),
+  Defect = c("-2, +5", "-1, -1")
+) |>
+  kbl(align = c("l", "l", "c", "c"), col.names = c("", "", "Cooperate", "Defect")) |>
+  add_header_above(c(" " = 2, "Group 2" = 2)) |>
+  column_spec(column = 1:2, bold = TRUE, width = "20em") |>
+  column_spec(column = 3:4, background = "#b3ccff", width = "20em") |>
+  kable_styling(font_size = 40, bootstrap_options = "basic")
+```
+
+???
+
+Now let's discuss the strategic approach of each group as a collective.
+
+### On the whole, what motivated your group?
+
+#### - How much consensus was there on the strategic goals of the group?
+
+#### - How much consensus was there on your round-to-round tactical decisions?
+
+<br>
+
+### Was your group motivated by obtaining relative or absolute gains? In other words, were you playing to win or to prevent the other side from winning? 
+
+<br>
+
+### Brainstorm: What characteristics of a problem or of a group predict when a group will prefer relative over absolute gains and vice versa?
+- *ON BOARD*: Relative Gains Concerns: Problem Chars vs Group Chars
+
+
+
+
+
+---
+
+background-image: url('libs/Images/10-2-How-to-negotiate-a-deal.jpg')
+background-size: 100%
+background-position: center
+
+???
+
+The role of trust in a negotiation
+
+### Did you find adding the negotiations between rounds helpful? Why or why not?
+#### - Did the arguments made during the negotiations matter to you? Why or why not?
+
+<br>
+
+### Did you trust your own leader as a negotiator even though they were earning their own benefits?
+
+<br>
+
+### Did you trust the word of the other team's leader as a negotiator? Why or why not?
+
+<br>
+
+### Brainstorm: What characteristics predict greater utility of a negotiation?
+
+
+
+---
+
+background-image: url('libs/Images/10-2-powerful_leader.jpg')
+background-size: 100%
+background-position: center
+
+???
+
+Power of the leader
+
+### How powerful was the leader (or leaders) of your group?
+
+<br>
+
+### Did either side elect a new leader during the game? Why or why not?
+
+<br>
+
+### Leaders, did you feel constrained by the other citizens in your state? Why or why not?
+
+<br>
+
+### Brainstorm: What characteristics are necessary for a leader to feel constrained by their citizens? Why not just do only what you want to enrich yourself?
+- *ON BOARD*
+
+<br>
+
+### Leaders, how much did you enjoy being in charge? Why or why not?
+
+- *Use these answers to announce leader rewards!*
+    - *If they hated it, make the reward tiny*
+    - *If they loved it, make it kind of obscene...*
+
+
+<br>
+
+**SLIDE**: Alright, let's segue to our new model!
+
+
+
+
+
+---
+
+background-image: url('libs/Images/09_2-chess.png')
+background-size: 100%
+background-position: center
+
+???
+
+Robert Putnam is a political scientist who wrote a great deal about modeling international negotiations.
+
+- In a 1988 paper he introduced the concept of a two level game.
+
+- Putnam argued that we could think usefully about international negotiations as a two level game.
+
+<br>
+
+I hope the excerpt from the reading made sense.
+
+- **SLIDE**: Since it's a complicated idea, let's step through it together.
+
+
+
+
+---
+
+background-image: url('libs/Images/09_2-Chess_2.png')
+background-size: 100%
+background-position: center
+class: middle
+
+.size30[.content-box-white[**Level I**]]
+
+.size30[.content-box-white[The international negotiation between leaders (or their representatives).]]
+
+<br>
+
+.size30[.content-box-white[**Level II**]]
+
+.size30[.content-box-white[The leader's negotiation with constituents to accept their international deal.]]
+
+???
+
+On the first level, leaders are actively negotiating with other leaders.
+
+<br>
+
+On the second level, leaders are actively negotiating with their supporters to stay in power.
+
+<br>
+
+The key is that these levels interact!
+- International negotiations impact domestic politics, AND
+    
+- Domestic politics changes international negotiations
+
+<br>
+
+### Intuition make sense?
+
+<br>
+
+Putnam's model assumes each participant in each level has a separate "win-set."
+
+### What is a "win-set" and how does the Level I win-set differ from the Level II win-set?
+    
+    
+    
+---
+
+background-image: url('libs/Images/09_2-Chess_2.png')
+background-size: 100%
+background-position: center
+class: middle
+
+.size30[.content-box-white[**Level I Win-Sets**]]
+
+.size30[.content-box-white[The range of outcomes the leader would accept in the international bargain.]]
+
+<br>
+
+.size30[.content-box-white[**Level II Win-Sets**]]
+
+.size30[.content-box-white[The range of outcomes that could be ratified by domestic institutions.]]
+
+???
+
+Difference between a Level I and a Level II "win-set"? (435-437)
+
+### Everybody clear on the win-set concept?
+
+- **SLIDE**: Let's tackle the ideas in this paper in smaller chunks!
+
+
+---
+
+background-image: url('libs/Images/09_2-Chess_2.png')
+background-size: 100%
+background-position: center
+class: middle
+
+.size30[
+.content-box-white[1) Why do "larger win-sets make Level I agreement more likely"? (437-439)]
+
+.content-box-white[2) Why do leaders benefit from having small Level II win-sets? (440-441)]
+
+.content-box-white[3) How do Level II preferences/coalitions explain win-set size? (442-448)]
+
+.content-box-white[4) How do Level II institutions explain win-set size? (448-450)]
+
+.content-box-white[5) How do Level I negotiators strategies explain win-set size? (450-452)]
+]
+
+???
+
+*Split class into five groups*
+
+Ok groups, take a few minutes and get ready to answer this question for the class!
+
+- Groups: Answer the question for us and identify how this aspect played out in our simulation last class.
+
+<br>
+
+1. Why do "larger win-sets make Level I agreement more likely"? (437-439)
+    - The wider the range of acceptable agreements to each leader, the more flexibility they can offer to the other side
+    - Remember, each leader has to worry about selling the international deal back home!
+    - So, bigger win-sets more likely a deal can be found both sides believe can be ratified
+
+2. Why should leaders benefit from having smaller Level II win-sets? (440-441)
+    - Large level 2 win-sets invites "pushing you around"
+    - Other negotiators don't have to care as much about your needs/wants/desires if you can get anything ratified
+    - Ironically, domestic weakness may produce international strength!
+
+3. Explain how the size of the win-set depends on Level II preferences
+and coalitions (442-448)
+    - You have to get the deal ratified so international negotiations depend to a large extent on the domestic battles over power, leadership and policymaking.
+    - Remember, domestic constituents are not choosing between your deal and a different one. They choose between your deal and no deal. Leader not as weak as you might have thought.
+    - What proportion of your constituents are open to international deals? Internationalists
+    - Homogeneous vs heterogeneous conflicts
+
+4. Explain how the size of the win-set depends on Level II institutions (448-450)
+    - US Congress requires 2/3 vote in Senate, that's a very high threshold
+    - Majoritarian parliamentary systems, lower threshold
+    - Dictatorship with centralized control and no opposition, smallest still
+
+5. Explain how the size of the win-set depends on Level I negotiators strategies (450-452)
+    - Negotiators are not powerless to adjust the bargaining outcome
+    - Side-payments help!
+    - Increasing popularity of the deal at home ("good will")
+    
+<br>
+
+**SLIDE**: Let's now diagram the model!
+
+
+
+---
+
+background-image: url('libs/Images/background-blue_cubes_lighter3.png')
+background-size: 100%
+background-position: center
+class: middle
+
+.size35[
+.center[.content-box-purple[**Putnam's (1988) Two-Level Game**]]
+
+**Interests:** 
+- ?
+
+**Institutions:**
+- ?
+
+**Interactions:**
+- ?
+]
+
+???
+
+### Who are the interests in this model?
+
+- (**SLIDE**)
+
+
+
+
+---
+
+background-image: url('libs/Images/background-blue_cubes_lighter3.png')
+background-size: 100%
+background-position: center
+class: middle
+
+.size35[
+.center[.content-box-purple[**Putnam's (1988) Two-Level Game**]]
+
+**Interests:** 
+- Leaders want political survival
+- Constituents want specific policies or goods
+
+**Institutions:**
+- ?
+
+**Interactions:**
+- ?
+]
+
+???
+
+### And what are the institutions in the model?
+
+### - What rules structure the decision-making?
+
+- (**SLIDE**)
+
+
+
+---
+
+background-image: url('libs/Images/background-blue_cubes_lighter3.png')
+background-size: 100%
+background-position: center
+class: middle
+
+.size30[
+.center[.content-box-purple[**Putnam's (1988) Two-Level Game**]]
+
+**Interests:** 
+- Leaders want political survival
+- Constituents want specific policies or goods
+
+**Institutions:**
+- International negotiations require leaders to agree a policy (Level I)
+- Domestic negotiations require leaders to get approval from constituents (Level II)
+
+**Interactions:**
+- ?
+]
+
+???
+
+### And what are the interactions that make this decision-making so difficult?
+
+- (**SLIDE**)
+
+
+
+---
+
+background-image: url('libs/Images/background-blue_cubes_lighter3.png')
+background-size: 100%
+background-position: center
+class: middle
+
+.size30[
+.center[.content-box-purple[**Putnam's (1988) Two-Level Game**]]
+
+**Interests:** 
+- Leaders want political survival
+- Constituents want specific policies or goods
+
+**Institutions:**
+- International negotiations require leaders to agree a policy (Level I)
+- Domestic negotiations require leaders to get approval from constituents (Level II)
+
+**Interactions:**
+- Win-set size matters: Larger Level I = more likely agreement, smaller Level II = more influential leader
+- Leaders should strategically try to influence win-set sizes home and abroad
+]
+
+???
+
+Bottom line: Therefore, domestic politics complicates all international bargaining
+
+<br>
+
+### What kinds of situations / outcomes can we use this model to explain?
+
+- (BIG: Two-level game can be applied to more situations and not just a shared resource)
+- (More useful than a pure PD game which focuses on resource division/use)
+
+<br>
+
+### Questions on this model?
+
+<br>
+
+**SLIDE**: Let's apply it!
+
+
+
+
+---
+
+background-image: url('libs/Images/10_2-nyt_uk_fr2.png')
+background-size: 67%
+background-position: right
+
+.pull-left[
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+```{r, fig.retina=3, fig.align='left', out.width='100%'}
+knitr::include_graphics("libs/Images/10_2-nyt_uk_fr.png")
+```
+
+]
+
+???
+
+Talk me through the spat between the UK and France described in our NYT article.
+
+### What is the international political event here?
+
+<br>
+
+### Use the Putnam Two-level Game metaphor to help me understand what is going on here.
+
+<br>
+
+### What does Macron actually want from this interaction?
+
+#### - Is it about fish? Nuclear subs? Or something else?
+
+<br>
+
+### What does Boris Johnson want?
+
+<br>
+
+### Is this strong evidence that domestic politics matters for understanding international outcomes? Why or why not?
+
+<br>
+
+**SLIDE**: I think domestic politics changes everything about how I think about international politics, but let's see what you think! 
+
+
+
+---
+
+background-image: url('libs/Images/background-blue_triangles.jpg')
+background-size: 100%
+background-position: center
+class: middle
+
+.size50[.content-box-white[**Assignment for Next Class**]]
+
+.size40[
+Find us a real world case illustrating at least some of the dynamics of Putnam's Two-Level Game (e.g. domestic politics complicating international bargaining or vice versa).
+
+1. Submit APA citation,
+2. Explain what happened, and 
+3. Explain how it is an example of two-level game dynamics
+]
+
+???
+
+### Questions on the assignment?
+
+
+
