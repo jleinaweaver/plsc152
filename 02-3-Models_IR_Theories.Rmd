@@ -272,9 +272,10 @@ Alright, get to work!
 
 Ok, everybody stand up and walk around checking out all the maps.
 
+- As you review the maps call out the ones you like the most and I'll make a list on the board!
+
 - The "most accurate" one gets extra credit!
 
-- Go!
 
 
 
@@ -287,9 +288,9 @@ class: middle
 
 ???
 
-### Now, which map is the most accurate one? Why?
+*Have students whose maps were "selected" onto the board explain the "rule" or "guide" that they used to make their map / select the five places*
 
-- *Have chosen maps presented to class*
+- (e.g. FA23 kids used "education major", "me", "student athlete", etc)
 
 <br>
 
@@ -297,6 +298,7 @@ Talk to me about your process of designing and drawing the map.
 
 ### 1. How did you decide "importance"? What did you decide to leave out?
 
+<br>
 
 ### 2. What are the commonalities across the maps?
 
@@ -925,7 +927,7 @@ background-size: 100%
 background-position: center
 class: middle
 
-.size50[**Assignment for Wednesday**]
+.size50[**Assignment for Next Class**]
 
 .size35[.center[**Find an important international political event (from the recent past) that you find interesting and would like to explore more deeply.**]]
 
