@@ -132,7 +132,7 @@ background-size: 100%
 background-position: center
 class: middle
 
-.size55[.center[**Review the Outlines in Pairs**]]
+.size55[.center[.content-box-white[**Review the Outlines in Pairs**]]]
 
 ### Person 1: Present your Outline
 .size35[
@@ -191,7 +191,7 @@ background-size: 100%
 background-position: center
 class: middle
 
-.size55[.center[**Review the Outlines in Pairs**]]
+.size55[.center[.content-box-white[**Review the Outlines in Pairs**]]]
 
 ### Person 1: Present your Outline
 .size35[
@@ -215,14 +215,16 @@ Let's talk about that counter-argument piece (which is new!)
 
 - Per the rubric, a convincing argument paper MUST include critical analysis!
 
-- This is typically some acknowledgement of the limits of your own argument
+<br>
 
-1. Include and address a counter-argument
+Critical Analysis can be added to a paper with:
+
+1. A counter-argument
     - Author X (2020) argues that... However, ...
     - To be convincing it MUST always be the STRONGEST version of their argument
     - No straw men! No "Some people argue"...
     
-2. Acknowledging limitations on your evidence
+2. Discussions of the limitations of your evidence
     - All measurement is done with error
     - You can boost the depth of your argument by acknowledging how your evidence might be lacking, but making clear why that doesn't mess up your argument
     

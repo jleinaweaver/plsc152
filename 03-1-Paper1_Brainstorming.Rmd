@@ -76,7 +76,7 @@ background-size: 100%
 background-position: center
 class: middle
 
-.size50[**Assignment for Today**]
+.size50[.content-box-white[**Assignment for Today**]]
 
 .size35[.center[**Find an important international political event (from the recent past) that you find interesting and would like to explore more deeply.**]]
 
@@ -118,7 +118,7 @@ background-size: 100%
 background-position: center
 class: middle, center
 
-.size60[**What is .textred[**HIGH QUALITY**] evidence?**]
+.size60[.content-box-white[**What is .textred[**HIGH QUALITY**] evidence?**]]
 
 <br>
 <br>
@@ -189,15 +189,15 @@ background-size: 100%
 background-position: center
 class: middle, inverse
 
-.center[.size50[**Find an important .textred[international political event] (from the recent past) that you find interesting and would like to explore more deeply.**]]
+.center[.size55[**Is this a recent .textred[international political event]?**]]
 
 .size40[
-- International: A global impact / involving more than one state
-- Political:
-    - Community decision-making
-    - Who gets what, when and how?
-    - How rules are made or enforced
-- Event: A thing or happening
+A thing or happening with a global impact or involving more than one state that impacts
+- Community decision-making,
+
+- Who gets what, when and how, or
+
+- How rules are made or enforced
 ]
 
 ???
@@ -224,7 +224,7 @@ Get to it!
 
 <br>
 
-### Did everybody have evidence that was high enough quality to support this argument?
+### Does everybody have evidence that is high enough quality to make the case this an international political event?
 
 - I'm guessing yes!
 
@@ -239,12 +239,13 @@ background-size: 100%
 background-position: center
 class: middle, inverse
 
-.center[.size50[**Find an .textred[important] international political event (from the recent past) that you find interesting and would like to explore more deeply.**]]
+.center[.size65[**Is this an .textred[important] international political event?**]]
 
+.size45[
 <br>
-<br>
+]
 
-.center[.size50[Evaluate the submitted evidence]]
+.center[.size60[Evaluate the submitted evidence]]
 
 ???
 
@@ -295,17 +296,23 @@ class: middle, inverse
 
 <br>
 
-.center[.size50[Find an international political event that you find interesting and would like to explore more deeply. Your first paper must make an argument that it is important we understand why this event happened.]]
+.center[.size50[Find an international political event that you find interesting and would like to explore more deeply. 
+
+Your first paper must make an argument that it is important we understand why this event happened.]]
 
 ???
 
 Here is the prompt for your first paper.
 
-### Questions?
+### Questions on the prompt?
 
 <br>
 
 Everybody write a thesis statement that presents your chosen event as the central argument of a paper.
+
+- Let's have everybody start with a super formulaic, but very clear style
+
+- e.g. Event X is an important international political event because...
 
 <br>
 
@@ -322,7 +329,7 @@ background-size: 100%
 background-position: center
 class: middle
 
-.size65[**Assignment for Next Class**]
+.size65[.content-box-white[**Assignment for Next Class**]]
 
 .size40[
 1. Read Farrell (2010)
@@ -341,9 +348,9 @@ The Farrell (2010) reading is all about how to write a political science paper.
 
 <br>
 
-Canvas assignment:
+Your assignment is to brainstorm ten reasons your chosen event is an important one for us to better understand.
 
-I know this sounds like a lot of reasons, but I want you to push yourself to build a big list of possible premises.
+- I know this sounds like a lot of reasons, but I want you to push yourself to build a big list of possible premises.
 
 - You're going to narrow down to three or four in the end, but we want to intentionally start very broadly.
 
