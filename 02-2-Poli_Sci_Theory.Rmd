@@ -67,18 +67,12 @@ class: middle
     - International: Involves the actions of more than one country
     - Political: *we didn't really get to this*
     - Event: A thing that happened
+    
+5. Note that you don't open today with refresher of last class, that comes in the middle of today's plan
 
 <br>
 
 Welcome back everybody!
-
-<br>
-
-On Monday we collected case studies in order to define an international political event.
-
-### What did we come up with? Define an international political event for me.
-
-### - Examples that meet the definition?
 
 <br>
 
@@ -569,14 +563,27 @@ Our job is to agree on a shared definition we can use to begin exploring the wor
 
 <br>
 
+*IFF last class was case study exercise:*
 ### Based on our case studies, what is our working definition of an "event"?
+
+*IFF not:*
+### When you hear the word "event" what do you think of?
 
 <br>
 
-*ONLY In semesters with time in week 1 for a case study exercise*
+*From the Ice Day submissions*
 
-+ Let's start with what is hopefully the easiest one, how do we define an event?
+*Group 1 type answers: Something special*
+- Cameron: "something not typical coming along that people/groups must choose to spectate or deal with"
+- Rylie: "something out of the ordinary occurs which requires special action and attention"
 
+*Group 2 type answers: It's about a defined period of time*
+- Gabe: "a period of time that is notable"
+- Kal: "a specific thing that occurred within a short time-frame"
+
+*Group 3 type answers: Very broad*
+- Aaron: "a thing that happens"
+- Max: "something that happens to effect someone or something"
 
 
 ---
@@ -615,14 +622,20 @@ knitr::include_graphics("libs/Images/02_1-word_cloud.jpg")
 
 ???
 
-### Again, based on our case studies, what definition of "international" did we come up with?
+*IFF last class was case study exercise:*
+### Based on our case studies, what definition of "international" did we come up with?
+
+*IFF not:*
+### When you hear the word "international" what do you think of?
 
 <br>
 
-*ONLY in semesters with time in week 1 for a case study exercise*
+*From the Ice Day submissions*
 
-+ *Ok, when you hear the word international, what do you think of?*
-
+*Answers VERY state centric*
+- Cameron: "an event that happens on a global scale where multiple countries interact directly or indirectly"
+- Rylie: "involving more than one country"
+- Elayna: "involving two or more countries that could potentially involve or bring in more countries to the issue"
 
 
 ---
@@ -663,19 +676,35 @@ knitr::include_graphics("libs/Images/02_1-word_cloud.jpg")
 
 Alright, now it's time for the hard one.
 
+*IFF last class was case study exercise:*
 ### Based on our case studies, what definition of "political" did we come up with?
 
-*Discuss* and then *segue to the game*
-
+*IFF not:*
+### When you hear the word "political" what do you think of?
 
 <br>
 
-*ONLY in semesters with time in week 1 for a case study exercise*
+*From the Ice Day submissions*
 
-+ *When you think of the word "political" what do you think of?*
+*Group 1: It's about state governments*
+- Gabe: "includes a government or government like figure"
+- Gracie: "Politics is the relationship between government and the people"
+- Aaron: "government affairs and the welfare of a country or state"
+- Chloe: "An incident affecting countries and their views that they value as a whole"
 
+*Group 2: It's about power*
+- Saige: "Political is defined as decisions regarding government, wars, and relationships on both an internal and international level."
+- Annabelle: Our cases "correlate with a rise in power."
+- Isa: "involvement of big countries with a great deal of power"
 
+*Group 3: the broadest version*
+- Shaeley: "involves the governing or public affairs of the country/countries."
+- Jack: "things happening with the worlds politicians, or these events being something that can effect the political landscape"
+- Austin: "anything involving government or people"
 
+<br>
+
+*Discuss* and then *segue to the game*
 
 
 
