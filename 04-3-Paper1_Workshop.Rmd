@@ -43,7 +43,7 @@ class: middle
 
 **Today's Agenda**
 
-Review outlines and write the paper.
+- Writing Workshop
 ]
 
 <br>
@@ -55,192 +55,7 @@ Review outlines and write the paper.
 ???
 
 ## Prep for Class
-1. Check submissions on Canvas
-    - Review and give feedback during class
-
-
-
-
----
-
-background-image: url('libs/Images/background-blue_triangles2.png')
-background-size: 100%
-background-position: center
-class: middle
-
-.pull-left[
-
-<br>
-<br>
-<br>
-
-.size70[.center[**For Today**]]
-
-<br>
-<br>
-
-.size70[.center[**Draft an Outline**]]
-
-]
-
-.pull-right[
-
-.size25[**Intro**
-+ What is the question?
-+ Why do we care?
-+ Thesis statement
-]
-
-.size25[**Reason 1 (premise)**
-+ Evidence x 2
-]
-
-.size25[**Reason 2 (premise)**
-+ Evidence x 2
-]
-
-.size25[**Reason 3 (premise)**
-+ Evidence x 2
-]]
-
-
-???
-
-### Everybody ready to go with this?
-
-#### - Outline in hand?
-
-<br>
-
-Ok, time to get some feedback!
-
-- Today you will get feedback from two people and have a chance to revise your outline to reflect that feedback.
-
-- In a moment I'll split you into pairs...
-
-<br>
-
-**SLIDE**: Plan of attack!
-
-
-
-
----
-
-background-image: url('libs/Images/background-blue_cubes_lighter3.png')
-background-size: 100%
-background-position: center
-class: middle
-
-.size55[.center[**Review the Outlines in Pairs**]]
-
-### Person 1: Present your Outline
-.size35[
-+ What is the question? 
-+ Why do we care?
-+ Thesis
-+ Each premise with evidence
-]
-
-???
-
-Person 1: Present the outline of your paper
-
-- Each item should be a complete sentence
-    - or two for the why do we care question
-
-- Each premise should be stated and then supported by evidence
-
---
-
-### Person 2: To be convincing to you...
-.size35[
-+ Is each item clear?
-+ Is each premise logical?
-+ Is each piece of evidence high enough quality?
-]
-
-???
-
-<br>
-
-Person 2 gives feedback focused on helping person 1 make it more convincing
-
-- Is each item clear?
-    - e.g. Does the sentence convey the idea in a simple and accessible way?
-
-- Is each premise logical?
-    - e.g. does it directly support the conclusion?
-
-- Is each piece of evidence high enough quality?
-
-<br>
-
-### Make sense?
-
-<br>
-
-**SLIDE**: I also want you to do one more thing!
-
-
-
----
-
-background-image: url('libs/Images/background-blue_cubes_lighter3.png')
-background-size: 100%
-background-position: center
-class: middle
-
-.size55[.center[**Review the Outlines in Pairs**]]
-
-### Person 1: Present your Outline
-.size35[
-+ What is the question? 
-+ Why do we care?
-+ Thesis
-+ Each premise with evidence
-]
-
-### Person 2: To be convincing to you...
-.size35[
-+ Is each item clear?
-+ Is each premise logical?
-+ Is each piece of evidence high enough quality?
-+ .textblue[**Identify a counter-argument for each premise**]
-]
-
-???
-
-Let's talk about that counter-argument piece (which is new!)
-
-- Per the rubric, a convincing argument paper MUST include critical analysis!
-
-- This is typically some acknowledgement of the limits of your own argument
-
-1. Include and address a counter-argument
-    - Author X (2020) argues that... However, ...
-    - To be convincing it MUST always be the STRONGEST version of their argument
-    - No straw men! No "Some people argue"...
-    
-2. Acknowledging limitations on your evidence
-    - All measurement is done with error
-    - You can boost the depth of your argument by acknowledging how your evidence might be lacking, but making clear why that doesn't mess up your argument
-    
-<br>
-
-For today, I want you to help each other brainstorm a counter-argument for each premise
-
-- e.g. Here's why my argument might be wrong! And here's how I've addressed those concerns!
-
-- In the actual paper, you'll need to be able to cite evidence for the counter-arguments, but for today we can just generate them
-
-<br>
-
-### Make sense?
-
-<br>
-
-*FOR YOU, SAVE TIME TO DO THIS EXERCISE 2x*
+1. ...
 
 
 
@@ -251,51 +66,83 @@ background-size: 100%
 background-position: center
 class: middle, inverse
 
-.pull-left[
+.center[.size80[**Paper 1**]]
 
 <br>
 
-<br>
+.center[.size50[Find an international political event that you find interesting and would like to explore more deeply. 
 
-<br>
-
-.size70[.center[**Revise your Outline**]]
-
-]
-
-.pull-right[
-
-.size35[
-**Intro**
-
-**Premise 1** (with evidence)
-
-**Premise 2** (with evidence)
-
-**Premise 3** (with evidence)
-
-**Counter-Argument**
-
-**Conclusion**
-]]
+Your first paper must make an argument that it is important we understand why this event happened.]]
 
 ???
 
-Now that you've heard some more arguments and gotten feedback on yours it's time to revise.
+Paper is due today!
 
 <br>
 
-Reflect on the feedback, revise your outline and start writing!
-
-- Tighten up those premises
-
-- Add a counter-argument paragraph
+### Any final questions on the assignment?
 
 <br>
 
-Paper is due at the end of the week!
+**SLIDE**: The rubric...
 
 
+
+---
+
+background-image: url('libs/Images/background-blue_cubes_lighter3.png')
+background-size: 100%
+background-position: center
+class: middle
+
+.size50[.content-box-white[**Convincing arguments...**]]
+
+.size40[
++ .textred[**Logical**]: Do the premises support the conclusion?
+
++ .textred[**Clear**]: Is the paper easy to read and understand?
+
++ .textred[**Credible**]: Is there enough high quality evidence (cited using APA)?
+
++ .textred[**Critical**]: Does the paper address weaknesses in the argument (e.g. logic, evidence, consider counter-arguments)?
+]
+
+???
+
+Keep my writing rubric in mind as you write and revise!
+
+<br>
+
+### Any questions on the rubric?
+
+<br>
+
+**SLIDE**: Before I let you get to work...
+
+
+
+
+
+---
+
+background-image: url('libs/Images/background-blue_triangles.jpg')
+background-size: 100%
+background-position: center
+class: middle
+
+.size60[.content-box-white[**Assignment for Next Class**]]
+
+<br>
+
+.size40[
+1. "Democratic Peace" readings in the syllabus
+
+2. **Before class** submit to our Canvas discussion board:
+
+Generally speaking, do you believe Kant's proposal, or any other international rules, could succeed in preventing most future wars?
+]
+
+???
 
 
 
