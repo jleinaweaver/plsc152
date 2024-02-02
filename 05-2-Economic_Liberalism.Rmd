@@ -76,7 +76,7 @@ class: bottom, center
 
 ???
 
-### Takeaways from last class on Democratic Peace Theory? (aka Liberal Institutionalism)
+Last class we explored the roots of democratic peace theory.
 
 <br>
 
@@ -116,7 +116,11 @@ class: middle
 
 ???
 
-### With a night to sleep on it, any questions on the model diagram from last class?
+Let's give this theory a test run.
+
+### Name a recent international political event and use this theory to explain it.
+
+- *Force this discussion / exploration*
 
 <br>
 
@@ -398,6 +402,8 @@ Let's say you own a vineyard in France.
 
 One day somebody comes to you and points out that car companies make bigger profits than vineyards.
 
+<br>
+
 ### What should you do? Should you seek to diversify your investments and and also start making cars?
 
 + (**SLIDE**: Sweet jesus, no)
@@ -442,6 +448,8 @@ THIS is your competition.
 <br>
 
 Now think about this at the level of the national economy.
+
+<br>
 
 At that level EVERYONE has been made worse off by your attempt to diversify your holdings.
 
@@ -658,7 +666,7 @@ class: middle
 
 ???
 
-Wednesday we shift our exploration of trade onto the costs.
+Next class we shift our exploration of trade onto the costs.
 
 <br>
 

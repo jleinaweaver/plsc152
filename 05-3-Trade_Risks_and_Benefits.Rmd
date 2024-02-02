@@ -62,11 +62,19 @@ class: middle
 
 <br>
 
+### How could we explain that event using our theories of international relations?
+
+### - Neorealism, offensive realism, democratic peace theory or economic liberalism?
+
+<br>
+
 Last class we started digging into our next answer to the question, why do wars happen?
 
 ### What is the answer according to Economic Liberals?
 
 - (**SLIDE**)
+
+<br>
 
 
 ###### Optional R&R announcement
@@ -177,8 +185,12 @@ Trade -> specialization -> peace
 - (The idea is that the world economy grows best when everyone focuses on doing the things they are best at.)
     - You then buy the other stuff you need from the rest of the world.
 
+<br>
+
 ### And why does specialization lead to interdependence?
 - (If you grow to depend on other states to provide you with what they do best so you can focus on your what you do best then you'd be crazy to start a war that disrupts the flow of trade.)
+
+<br>
 
 ### In what kinds of cases does Rosecrance note that Economic Liberalism fail to promote peace?
 1. Where states are self-sufficient they will not be transformed by trade and therefore might still view war as a means to grow economically.
@@ -198,6 +210,8 @@ Let's use this model to help us analyze the US position as a trading partner to 
 
 - Here we see the top 15 trade partners of the US in 2011.
 
+<br>
+
 ### What do we learn from this about the US position in the world?
 
 <br>
@@ -208,11 +222,15 @@ Let's use this model to help us analyze the US position as a trading partner to 
 
 Now, zoom in on China.
 
+<br>
+
 ### What is the benefit to us of all these imports coming in from China?
 
 - (Cheap stuff for consumers means quality of life increasing!)
     - Prices fall
     - You get more stuff for your spending
+
+<br>
 
 ### And what does economic liberalism tell us to expect about this deep trade relationship between the US and China?
 
@@ -236,6 +254,8 @@ knitr::include_graphics("libs/Images/11_2-Example-US_China3.jpg")
 ???
 
 So, of course, Donald Trump launched a trade war with China.
+
+<br>
 
 Here we see the series of tit-for-tat escalations in terms of tariffs applied by each country on goods from the other.
 
@@ -263,10 +283,10 @@ Here we see the series of tit-for-tat escalations in terms of tariffs applied by
 
 class: middle, slideblue
 
-.size45[.center[**The Effect?**]]
+.size45[.center[.content-box-white[**The Effect?**]]]
 
-.size35[
-"The trade war caused **economic pain on both sides** and led to diversion of trade flows away from both China and the United States. As described by Heather Long at the Washington Post, '**U.S. economic growth slowed, business investment froze, and companies didn't hire as many people**. Across the nation, a lot of farmers went bankrupt, and the manufacturing and freight transportation sectors have hit lows not seen since the last recession. **Trump's actions amounted to one of the largest tax increases in years**'" (Hass and Denmark 2020).
+.size40[
+"The trade war caused .textred[**economic pain on both sides**] and led to diversion of trade flows away from both China and the United States. As described by Heather Long at the Washington Post, '.textred[**U.S. economic growth slowed, business investment froze, and companies didn't hire as many people**]. Across the nation, a lot of farmers went bankrupt, and the manufacturing and freight transportation sectors have hit lows not seen since the last recession. .textred[**Trump's actions amounted to one of the largest tax increases in years**]'" (Hass and Denmark 2020).
 ]
 
 ???
@@ -305,12 +325,14 @@ knitr::include_graphics("libs/Images/11_2-Example-US_China2.png")
 
 The Biden administration is sending signals that they will continue the policy for the time being.
 
+<br>
+
 ### What is going on here? If the US is suffering, why keep this going?
 
 - From a Realist's perspective, the trade war MIGHT make sense
     - Some economic harm to consumers in exchange for slowing China's economic growth (e.g. power).
     
-If the Biden admin believes China is a growing threat then some costs are worth paying to try and slow their growth.
+- If the Biden admin believes China is a growing threat then some costs are worth paying to try and slow their growth.
 
 <br>
 
@@ -366,6 +388,8 @@ vs
 ???
 
 Today we're going to examine another important debate about trade.
+
+<br>
 
 Even if trade makes the world more peaceful, is it worth it for the developing world?
 
@@ -425,7 +449,7 @@ background-size: 100%
 background-position: center
 class: middle
 
-.size45[.center[**Panagariya (2003)**]]
+.size45[.center[.content-box-white[**Panagariya (2003)**]]]
 
 .size35[
 
@@ -443,6 +467,8 @@ Therefore, trade benefits outweigh the costs for developing states.
 ???
 
 Let's start with Panagariya (2003).
+
+<br>
 
 Everybody take five minutes to diagram this argument.
 
@@ -468,17 +494,15 @@ background-size: 100%
 background-position: center
 class: middle
 
-.size35[.center[**Panagariya (2003)**]]
-
-.size35[
+.size40[
 
 - Rich countries generally more open than poor ones
 
-- Trade openness promotes growth through efficiency and access to tech
+- Trade openness promotes growth (efficiency and technology)
 
 - Growth creates jobs, increases government's fiscal resources, raises incomes
 
-- Efficiency can promote environmental objectives (if pollution is taxed)
+- Efficiency can promote environmental objectives (w/ pollution taxes)
 
 Therefore, trade benefits outweigh the costs for developing states.
 ]
@@ -489,7 +513,7 @@ Therefore, trade benefits outweigh the costs for developing states.
 
 <br>
 
-### Is this a convincing argument? Why or why not?
+### Has Panagariya made a convincing argument? Why or why not?
 
 
 
@@ -500,7 +524,7 @@ background-size: 100%
 background-position: center
 class: middle
 
-.size45[.center[**Rodrik (2001)**]]
+.size45[.center[.content-box-white[**Rodrik (2001)**]]]
 
 .size35[
 
@@ -519,7 +543,7 @@ Therefore, developing countries should focus on growth through domestic investin
 
 Let's shift to Rodrik (2001)
 
-SLIDE
+<br>
 
 Everybody take some time to diagram this argument.
 
@@ -535,7 +559,7 @@ Now combine diagrams with the person next to you (small groups).
 
 *ON BOARD*
 
-Ok, give me premises, let's diagram this version of the argument.
+- Ok, give me premises, let's diagram this version of the argument.
 
 
 
@@ -601,11 +625,15 @@ class: middle
 
 ???
 
-### Ultimately, which argument is more convincing? Why?
+Ultimately, my interest is not in deciding that one or the other of these arguments is "right."
+
+- Both are describing empirically sound mechanisms related to international trade.
 
 <br>
 
-### Did anybody change their mind between what they wrote pre-class on Canvas and where they ended up? Why or why not?
+### The question for us to grapple with is: If these are the costs of trade, is peace (fewer wars) worth it? Why or why not?
+
+- *Force this discussion*
 
 <br>
 

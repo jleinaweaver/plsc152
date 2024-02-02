@@ -205,13 +205,15 @@ class: middle
 
 <br>
 
-.center[.size60[Would the global adoption of this article advance the cause of global peace?
+.center[.size60[Would the world be more peaceful (fewer wars) if every country adopted this article?
 
 Make Two Lists: Pros vs Cons]]
 
 ???
 
+*old prompt: Would the global adoption of this article advance the cause of global peace?*
 
+<br>
 
 Groups, you have 15 minutes to prepare an answer to this question: 
 
