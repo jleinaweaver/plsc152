@@ -1,5 +1,7 @@
 Data, slides and errata for my class at Drury University (PLSC 152: Intro to International Relations)
 
+00-1-HS_Class-Neorealism.html
+
 01-1-Welcome_to_IR.html
 
 01-2-Arguments_Logic.html
