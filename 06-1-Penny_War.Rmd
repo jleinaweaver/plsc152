@@ -57,14 +57,14 @@ class: middle
 ## Prep for class
 1. Cards for bargaining game:
     - Print and cut out cards in Google Drive, OR
-    - Sets of Ace-9 from multiple decks
+    - Sets of 2-9 from multiple decks (**TEST** no aces and only 2-9)
 
 2. Bring pennies or use paper to track scores
     - 10 per student
 
 3. Open Wednesday slides in rmarkdown for tracking results
 
-4. Bonus points optional
+4. Make sure to save time for one practice round for ALL students
 
 <br>
 
@@ -356,6 +356,78 @@ Each round you'll alternate being P1 and we'll play five rounds.
 
 
 
+---
+
+```{r, fig.retina=3, fig.align='center', fig.asp=0.618, out.width='95%', fig.width=6}
+d |> ggplot(aes(x = x, y = y)) +
+         geom_blank() +
+         coord_cartesian(xlim = c(0,10), ylim = c(0,10)) +
+         theme_void() +
+         scale_x_continuous(breaks = 0:10) +
+         scale_y_continuous(breaks = 0:10) +
+         annotate("text", x = 1, y = 9.5, label = "The Penny War", size=5) +
+         annotate("text", x = 5, y = 9.5, label = "Ante up:\nBoth pay 1 penny and\ndraw 3 cards", size=4.5) +
+         annotate("text", x = 0.5, y = 6, label = "P1's Choice:", color = "blue4", size=4.5) +
+         annotate("text", x = 2.5, y = 6, label = "Give up\n(P2 wins)", color = "blue4", size=4.5) +
+         annotate("text", x = 7.5, y = 6, label = "Declare war", color = "blue4", size=4.5) +
+         annotate("segment", x = 5, xend = 3.5, y = 8, yend = 6.5, arrow = arrow(length = unit(.1, "in")))  +
+         annotate("segment", x = 5, xend = 6.5, y = 8, yend = 6.5, arrow = arrow(length = unit(.1, "in"))) +
+         annotate("text", x = 4, y = 3, label = "P2's Choice:", color = "green4", size=4.5) +
+         annotate("text", x = 6, y = 3, label = "Give up\n(P1 wins)", color = "green4", size=4.5) +
+         annotate("text", x = 9, y = 3, label = "Declare war", color = "green4", size=4.5) +
+         annotate("segment", x = 7.5, xend = 6.5, y = 5.5, yend = 3.75, arrow = arrow(length = unit(.1, "in")))  +
+         annotate("segment", x = 7.5, xend = 8.5, y = 5.5, yend = 3.75, arrow = arrow(length = unit(.1, "in"))) +
+         annotate("text", x = 5, y = 1, label = "War: Both pay the costs of war (1 more penny) and\n the strongest hand wins", size = 5.25, color = "red1")
+```
+
+???
+
+**Let's practice this once real quick, everybody pair off!**
+
+<br>
+
+Shuffle your cards, pay the ante and THEN draw three
+
+### Does everybody now have 9 pennies and three randomly chosen cards in their hands?
+
+<br>
+
+*Make everybody on your left of each pair P1*
+
+### What's the strongest hand you can have in this game?
+- (24)
+
+### And the weakest?
+- (6)
+
+<br>
+
+Alright, P1s you all decide your hand is strong so you declare war!
+
+- Declaring war doesn't cost you a penny, only going to war does!
+
+- Decision shifts to P2
+
+<br>
+
+P2s, you look at your hand and decide its pretty darn strong too!
+
+- You declare war right back!
+
+<br>
+
+Both sides pay the costs of war!
+
+### Is everybody now holding three cards and only 8 pennies?
+
+<br>
+
+### Ok, who wins the pot?
+
+<br>
+
+### Everybody clear on how to play the game?
+
 
 
 ---
@@ -384,43 +456,20 @@ d |> ggplot(aes(x = x, y = y)) +
 
 ???
 
-Let's see it in action once: I need two volunteers.
+Let me be super clear here.
+
+- This simulation is meant to help us unpack the bargaining model of war
+
+- To do that I need you to take it seriously.
 
 <br>
 
-Both stand up and shuffle your cards.
-
-- Ok, both of you ante up one penny so you are down to 9 total.
-
-- Now draw three cards.
+Your goal in this game is to have the most pennies at the end of five rounds.
 
 <br>
 
-*You pick P1*
+### Questions on the game?
 
-### Ok, P1 what do your cards add up to? How strong are you?
-
-- Let's gamble, declare war!
-
-<br>
-
-### Ok, P2 what do your cards add up to? How strong are you?
-
-- Let's gamble, declare war!
-
-<br>
-
-Both sides pay the costs of war!
-
-- Four pennies at stake!
-
-<br>
-
-### Who wins the pot?
-
-<br>
-
-### Everybody clear on how to play the game?
 
 
 

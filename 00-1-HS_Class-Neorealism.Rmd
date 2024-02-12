@@ -30,15 +30,11 @@ knitr::opts_chunk$set(echo = FALSE,
 background-image: url('libs/Images/background-worldmap3.png')
 background-size: 105%
 background-class: top
-class: middle, center
+class: middle
 
-.size65[
-It is .textblue[**easy**] to predict the **outbreak of war** before it happens
-
-vs
-
-It is .textred[**hard**] to predict the **outbreak of war** before it happens
-]
+```{r, fig.align='right', out.width='90%'}
+knitr::include_graphics("libs/Images/00-HS-Department_Slide.png")
+```
 
 ???
 
@@ -47,15 +43,83 @@ It is .textred[**hard**] to predict the **outbreak of war** before it happens
 
 <br>
 
-*Split class in half and get them to work making each list as we walk in*
+Welcome all!
+
+- Thanks for coming over and welcome to the Dept of Political Science and International Affairs
 
 <br>
 
-*PRESENT and DISCUSS each LIST*
+We're very proud of our department over here and hope you keep us in mind as you make future plans!
+
+- Small class sizes
+
+- PhD faculty
+
+- Money for study abroad and community engagement
+
+- and much more
 
 <br>
 
-**SLIDE**: Intros and plan for today
+At the end of class today if there's anything I can tell you about what we do or how we can help you, let me know.
+
+
+
+---
+
+background-image: url('libs/Images/background-worldmap3.png')
+background-size: 105%
+background-class: top
+class: middle
+
+.center[.size40[.content-box-blue[**Dr. Justin Leinaweaver**]]]
+
+.pull-left[
+
+<br>
+
+```{r, fig.align='right', out.width='100%'}
+knitr::include_graphics("libs/Images/00-HS_Papers.png")
+```
+]
+
+.pull-right[
+```{r, fig.align='right', out.width='100%'}
+knitr::include_graphics("libs/Images/00-HS-NDC_Comparisons.png")
+```
+]
+
+???
+
+Quick intro
+
+<br>
+
+I'm Dr. Leinaweaver
+
+- Undergrad at Florida State with majors in History and Political Science
+
+- Masters in International Relations at University College Dublin
+
+- PhD in Political Science at Trinity College Dublin
+
+- This is my 12th year at Drury
+
+<br>
+
+My research tends to focus on how we solve big problems at the global level
+
+- The figure on the right is from an ongoing project exploring the ongoing global climate negotiations
+
+<br>
+
+In essence, this study leverages natural language processing techniques from computer science to help us analyze global climate negotiations in almost real time.
+
+- This plot shows some good news in that countries are beginning to focus their pledges more and more on concrete emissions reductions and verification!
+
+<br>
+
+**SLIDE**: Our plan for today
 
 
 
@@ -85,80 +149,27 @@ class: middle
 
 ???
 
-Afternoon All, my name is Dr. Justin Leinaweaver
+Today I want to explore some of the basic ground we cover in Introduction to International Relations here at Drury
 
-- Today I want to walk you through some of the basic ground we cover in Introduction to International Relations here at Drury
-
-<br>
-
-A little about me...
-- FSU, UCD, Trinity
-
-- 12th year at Drury
-
-- My research: International environmental policy-making
-    - e.g How do we solve big problems at the global level?
-    
-    
-SLIDE: Example from climate change study?
-
-
+- Most semesters I focus the second section of our class on this big question: Why are there wars?
 
 <br>
 
-**SLIDE**: Speaking of Drury...
+Our first stab at answering this question explores the realist models of neorealism and offensive realism
 
+- I don't mean to imply from this starting place that "realism" is "right" or "true"
 
-
----
-
-background-image: url('libs/Images/background-worldmap3.png')
-background-size: 105%
-background-class: top
-class: middle
-
-```{r, fig.align='right', out.width='90%'}
-knitr::include_graphics("libs/Images/00-HS-Department_Slide.png")
-```
-
-???
-
-Welcome all!
-
-- Thanks for coming over and welcome to the Dept of Political Science and International Affairs
+- We start there because it is a grand-daddy theory of IR and because it is frequently invoked by experts and politicians to this day
 
 <br>
 
-We're very proud of our department over here and hope you keep us in mind as you make future plans!
+Before we dive into Waltz, let's set the stage by talking about political science in big picture.
 
-- ...
+### What do you think it means that the discipline includes the word science in its title?
 
-<br>
+### - e.g. what does it mean to study politics "scientifically"?
 
-
-
-
-
-
-
-So, long story short, shall we spend an hour introducing, diagramming and analyzing neorealism as an answer to the question "why are there wars?"? Before class I would ask the students to read Ken Waltz's (1988) piece laying out the tenets of neorealism (attached) and in class we'd run through something like:
-1. What are "international political events"?
-2. What does it mean to study those events "scientifically"?
-3. Play a quick "survive or die" game to set up the intuitions of realism 4. Introduce one set of tools for diagramming a model (interests, institutions and interactions) and then use them to unpack Waltz's argument 5. Discuss: Can we connect the security dilemma to current events? Any ongoing political conflicts that neorealism misunderstands? Or fails to explain?
-
-
-
-
-*Opening Discussion: From this point forward students need to practice identifying international political events everyday in class. These are more than just 'things happening far away'!*
-
-### DISCUSS: Name me an international political event that has happened since we last met as a class.
-
-<br>
-
-For the rest of this week we dive into our first set of International Relations theories: Neorealism and Offensive Realism.
-
-- **SLIDE**: Before we do, let's just hit the highlights of our Week 2 material that set us up for the semester.
-
+- (**SLIDE**)
 
 
 
@@ -172,16 +183,14 @@ class: middle
 .pull-left[
 .textblack[
 
-.size40[
+.size45[
 .content-box-white[**Scientific Method**]
 
-- Goal is inference
+- The goal is inference
 
-- Procedures are public 
+- The procedures are public 
 
-- Uncertain conclusions
-
-- Content is method
+- The conclusions are uncertain
 ]]]
 
 .pull-right[
@@ -192,85 +201,39 @@ knitr::include_graphics("libs/Images/05_1-science_meme.jpg")
 
 ???
 
-First, we aim to explore "politics" in a "scientific" manner.
+There are lots of different processes that might describe themselves as a "scientific method."
 
-- Our goal is to generate knowledge about the world using empirical observations (data)
-
-- Every step we follow when answering questions must be recorded and transparent so others can evaluate every step in our arguments
-
-- All scientific conclusions are uncertain, our job is to identify the uncertainty and work to limit it.
+- e.g. question -> theory  -> hypothesis -> testing...
 
 <br>
 
-### Questions on this material?
+Underpinning any of these "methods" are essentially these three criteria
 
-- Remember, that Hoover and Donovan chapter from week 2 is always available if you need a refresher.
-
-
-
-
----
-
-background-image: url('libs/Images/background-blue_triangles2.png')
-background-size: 100%
-background-position: center
-class: middle
-
-.size40[.center[.content-box-purple[**The Outcome to Explain**]]]
-
-.size35[
-**International**
-- Global impact or involving more than one state
-
-**Political**
-- Decision-making in a community
-- How we make and enforce "the rules"
-- Who gets what, when and how?
-
-**Event**
-- A thing or happening
-]
-
-???
-
-Also established in Week 2, the specific job of International Relations is to explain international political events
+- *talk through bullet points*
 
 <br>
 
-### Are we developing a better understanding of what this means?
+In short, you can study anything "scientifically" if you commit yourself to:
 
+- Building knowledge using empirical observations,
 
+- Being transparent in what you do, and
 
-
----
-
-background-image: url('libs/Images/background-blue_triangles.jpg')
-background-size: 100%
-background-class: center
-class: middle
-
-.size60[.content-box-white[**Semester Outline**]]
-
-.size40[
-Section 1: Arguments, Evidence and International Relations
-
-**Section 2: Why Are There Wars?**
-
-Section 3: Why is it so Hard to Cooperate With Other Countries?
-
-Section 4: What is the Future of Transnational Politics and IR?
-]
-
-???
-
-Today we start section 2 of our class which is all focused on trying to answer a really big question: Why Are There Wars?
+- never forgetting that your answers are always uncertain
 
 <br>
 
-### Why is the existence of war in international politics a puzzle?
+That last one is key
 
-- (**SLIDE**)
+- Unlike philosophy, religion or the humanities, the sciences operate in a probabilistic world of inductive logic
 
+- Nothing can be proved conclusively
+
+- Our job is to measure the uncertainty, not to hide it, not to deny it
+
+<br>
+
+**SLIDE**: So, our job today is to think about war "scientifically"
 
 
 
@@ -282,15 +245,22 @@ background-position: center
 
 ???
 
-The question of "why do wars happen?" is actually a MUCH tougher to answer than you might think.
+The question of "why do wars happen?" is actually MUCH tougher to answer than you might think.
 
-- Wars are IMMENSELY costly in terms of blood and treasure
+- Wars are IMMENSELY costly in terms of blood and treasure, BUT
+
+- That doesn't seem to stop us from having them all the bloody time
 
 <br>
 
-World War I Example
+Let's just talk about the start of the 20th century
 
-- 4 years, approx 30 countries
+### Anybody know how long WWI was? Or how many countries were involved?
+- (4 years, approx 30 countries)
+
+<br>
+
+And the costs were INSANE
 
 - Nearly 10 million soldiers killed, 21 million wounded
 
@@ -299,15 +269,13 @@ World War I Example
 - Leads to the collapse of four empires
     - The Russian Empire, the German Empire, the Austro-Hungarian Empire and the Ottoman Empire
 
-- Results in the Bolsheviks taking over Russia and fascists taking over Italy
+- The Bolsheviks take over Russia and the fascists take over Italy
 
 - Spreads the flu epidemic that killed 25 million around the world
 
-- and on, and on.
-
 <br>
 
-### What lesson do the countries and leaders of the world learn from all these horrible outcomes?
+### After paying therse massive costs, how does the world respond?
 
 - (**SLIDE**: Let's do it again!)
 
@@ -339,7 +307,11 @@ World War 2:
 
 It is the incredible death and destruction of WW1 and WW2 that leads to the birth of International Relations as a subfield of political science.
 
-- The idea is to understand these horrible events so we can prevent them.
+- The idea is to better understand these horrible events so we can prevent them.
+
+<br>
+
+**SLIDE**: So, let's talk about predicting war
 
 
 
@@ -348,44 +320,34 @@ It is the incredible death and destruction of WW1 and WW2 that leads to the birt
 background-image: url('libs/Images/background-worldmap3.png')
 background-size: 105%
 background-class: top
-class: middle
+class: middle, center
 
-.size45[
-.content-box-blue[**Section 2: Why Are There Wars?**]
+.size65[
+It is .textblue[**easy**] to predict the **outbreak of war** before it happens
 
-- Neorealism
+vs
 
-- Offensive Realism
-
-- Democratic Peace
-
-- Economic Liberalism
-
-- Bargaining Model of War
+It is .textred[**hard**] to predict the **outbreak of war** before it happens
 ]
 
 ???
 
-We will explore this question by testing out five IR models that purport to help us answer it.
 
 <br>
 
-Remember, models are like maps
-
-- Not true/false but useful or not
-
-- Purpose-built!
+*Split class in half and get them to work making each list as we walk in*
 
 <br>
 
-Each of these will encourage you to answer the big question by emphasizing different important mechanisms in the world.
-
-- Your job as a sharp IR scholar is to understand all of them and the pros and cons of using each to explain the world and make predictions about the future!
+*PRESENT and DISCUSS each LIST*
 
 <br>
 
-IMPORTANT NOTE: Your notes on these models will almost certainly prove VERY useful on the assignments for this class!
+### Ok, sum this up for me, are you convinced war is a predictable occcurrence or not? Why?
 
+<br>
+
+**SLIDE**: This brings us to realism
 
 
 
@@ -397,15 +359,31 @@ background-position: center
 
 .right[.content-box-grey[.size40[**The Realist Paradigm**]]]
 
-???
-
-This week we explore our first two models, both of which fit snugly in what we call a realist paradigm.
-
-- In other words, they share similar roots but are both distinct models of IR.
+.size70[
 
 <br>
 
-**SLIDE**: As a segue into Neorealism, let's play a game!
+<br>
+
+]
+
+.left[.content-box-grey[.size40[**Neorealism**]]]
+
+.left[.content-box-grey[.size40[**Offensive realism**]]]
+
+.left[.content-box-grey[.size40[**Defensive realism**]]]
+
+???
+
+As I told you at the start, realism is an umbrella term for a series of related models that happens to represent some of the oldest models of IR.
+
+- In other words, they share similar roots but each is a distinct model of IR.
+
+<br>
+
+Today we'll focus on Ken Waltz's neorealism
+
+- **SLIDE**: As a segue, let's play a game!
 
 
 
@@ -662,7 +640,7 @@ background-size: 100%
 background-position: center
 class: middle
 
-.size50[.center[**Neorealism**]]
+.size50[.center[.content-box-grey[**Neorealism**]]]
 
 <br>
 
@@ -705,7 +683,7 @@ background-size: 100%
 background-position: center
 class: middle
 
-.size50[.center[**Neorealism**]]
+.size50[.center[.content-box-grey[**Neorealism**]]]
 
 ### Interests
 .size35[
@@ -767,7 +745,7 @@ background-size: 100%
 background-position: center
 class: middle
 
-.size50[.center[**Neorealism**]]
+.size50[.center[.content-box-grey[**Neorealism**]]]
 
 ### Interests
 .size35[
@@ -1082,7 +1060,7 @@ background-size: 100%
 background-position: center
 class: middle
 
-.size50[.center[**Neorealism**]]
+.size50[.center[.content-box-grey[**Neorealism**]]]
 
 ### Interests
 .size35[
@@ -1117,45 +1095,37 @@ OK, summarize this all for me.
 
 <br>
 
-### As a "map" of international politics, what possibly important things does this leave out?
-
-### - Any key interests, institutions or interactions?
-
-*FORCE THIS DISCUSSION*
-
-<br>
-
 Connect this to current events for me!
 
 ### Examples of current international political events going on in the world that are well explained by this model?
 
-*FORCE THIS DISCUSSION*
+- *FORCE THIS DISCUSSION*
+
+<br>
+
+### Examples of current international political events going on in the world that are NOT well explained by this model?
+
+### - What would neorealists miss?
+
+- *FORCE THIS DISCUSSION*
 
 
 
 ---
 
-background-image: url('libs/Images/background-blue_triangles.jpg')
-background-size: 100%
-background-position: center
+
+background-image: url('libs/Images/background-worldmap3.png')
+background-size: 105%
+background-class: top
 class: middle
 
-.size65[.content-box-white[**Assignment for Next Class**]]
-
-<br>
-
-.size55[
-1. Read the Mearsheimer (2001) excerpt
-
-2. Get those papers finished and submitted!
-]
+```{r, fig.align='right', out.width='90%'}
+knitr::include_graphics("libs/Images/00-HS-Department_Slide.png")
+```
 
 ???
 
-
-### Questions on the assignment?
-
-
+### Just to wrap up, any questions for me on Drury or the political science program?
 
 
 
