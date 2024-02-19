@@ -95,7 +95,7 @@ background-position: center
 class: middle
 
 
-.size45[.center[**Hultman, Kathman and Shannon (2016)**]]
+.size45[.center[.content-box-white[**Hultman, Kathman and Shannon (2016)**]]]
 
 <br>
 
@@ -202,9 +202,9 @@ background-size: 100%
 background-position: center
 class: middle
 
-.size50[.center[**Conclusion: The UN succeeds when...**]]
+.size55[.center[**Conclusion: The UN succeeds when...**]]
 
-.size40[
+.size45[
 1. Successful UN peacekeeping missions address "the security challenges to former belligerents" by providing "a greater number of troops" on the ground (246).
 
 2. "...increasing the deployment of observer and police personnel is not likely to yield positive outcomes" (246).
@@ -231,9 +231,9 @@ background-size: 100%
 background-position: center
 class: middle
 
-.size50[.center[**High, Low or No Confidence?**]]
+.size55[.center[**High, Low or No Confidence?**]]
 
-.size35[
+.size45[
 1. Successful UN peacekeeping missions address "the security challenges to former belligerents" by providing "a greater number of troops" on the ground (246).
 
 2. "...increasing the deployment of observer and police personnel is not likely to yield positive outcomes" (246).
@@ -283,7 +283,7 @@ class: middle
 
 .size50[.center[**High, Low or No Confidence?**]]
 
-.size35[
+.size40[
 1. Successful UN peacekeeping missions address "the security challenges to former belligerents" by providing "a greater number of troops" on the ground (246).
 
 2. "...increasing the deployment of observer and police personnel is not likely to yield positive outcomes" (246).
@@ -594,9 +594,9 @@ background-size: 100%
 background-position: center
 class: middle
 
-.size50[.center[**High, Low or No Confidence?**]]
+.size55[.center[**High, Low or No Confidence?**]]
 
-.size40[
+.size45[
 1. Successful UN peacekeeping missions address "the security challenges to former belligerents" by providing "a greater number of troops" on the ground (246).
 
 2. "...increasing the deployment of observer and police personnel is not likely to yield positive outcomes" (246).

@@ -250,7 +250,7 @@ class: middle
 
 .size60[.content-box-purple[**Farrell's (2010) Writing Advice**]]
 
-.size40[
+.size45[
 1. Read the Requirements for the Assignment
 
 2. Avoid Data Dumps
@@ -278,7 +278,7 @@ class: middle
 
 .size50[.content-box-purple[**Convincing arguments...**]]
 
-.size35[
+.size40[
 + .textred[**Logical**]: Do the premises support the conclusion?
 
 + .textred[**Clear**]: Is the paper easy to read and understand?

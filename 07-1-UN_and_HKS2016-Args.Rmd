@@ -101,7 +101,7 @@ background-size: 100%
 background-position: center
 class: slideblue
 
-.center[.content-box-white[.size50[**The United Nations (UN)**]]]
+.center[.size50[.content-box-white[**The United Nations (UN)**]]]
 
 ???
 
@@ -134,7 +134,7 @@ Each chapter focuses on one aspect of the wider organization.
 
 class: middle, slideblue
 
-.size25[
+.size27[
 The Purposes of the United Nations are:
   
 1. To maintain international peace and security, and to that end: to take effective collective measures for the prevention and removal of threats to the peace, and for the suppression of acts of aggression or other breaches of the peace, and to bring about by peaceful means, and in conformity with the principles of justice and international law, adjustment or settlement of international disputes or situations which might lead to a breach of the peace;
@@ -163,7 +163,7 @@ background-position: center
 
 class: middle
 
-.size45[.center[**The Purposes of the United Nations are:**]
+.size55[.center[**The Purposes of the United Nations are:**]
 
 1. Maintain international peace and security
 
@@ -351,9 +351,9 @@ class: middle
 
 .pull-right[
 .size55[.textwhite[
-1. Research Question?
+1. Research Question
 
-2. Argument?
+2. Argument
 
 3. Are we confident in the conclusions?
 ]]]
