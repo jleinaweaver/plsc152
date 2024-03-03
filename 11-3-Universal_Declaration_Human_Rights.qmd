@@ -1,0 +1,183 @@
+---
+format: revealjs
+---
+
+## Today's Agenda {background-image="libs/Images/background-worldmap3.png" .center}
+
+```{r}
+# background-size="1920px 1080px"
+library(tidyverse)
+library(readxl)
+library(kableExtra)
+```
+
+<br>
+
+**IV. What is the Future of Transnational Politics and IR?**
+
+- Should the US enshrine the UN's Universal Declaration of Human Rights into domestic law?
+
+<br>
+
+<br>
+
+::: r-stack
+Justin Leinaweaver (Spring 2024)
+:::
+
+::: notes
+Prep for Class
+
+1. Review Canvas submissions
+
+2. Post link to Google Sheet for claiming countries on Canvas
+    - First name, Last name, Country 1 - Dictatorship, Country 2 - Democracy
+    - Plus include a list of each beside table (see FA23 version)
+:::
+
+
+
+## {background-image="libs/Images/13_3-Roosevelt.png"}
+
+::: notes
+
+The UDHR was adopted by the UN General Assembly on December 10, 1948.
+
+### Anybody recognize this incredibly famous person?
+- (Eleanor Roosevelt!)
+
+<br>
+
+### Had anybody ever read this UN document before?
+
+### - Anything about what it includes that surprised you? Why or why not?
+:::
+
+
+
+## {background-image="libs/Images/13_2-norm_life_cycle.png" background-size="92%"}
+
+::: notes
+
+Let's talk about the UN DHR as an attempt by the UN to enshrine new global norms.
+
+- In other words, let's evaluate this document using the Constructivism material from this week.
+
+<br>
+
+### First, do the articles in the DHR represent constitutive or regulative norms? 
+
+<br>
+
+**SLIDE**: Before we can debate if the US "SHOULD" turn the UN DHR into law we need to discuss how far we are from it currently.
+:::
+
+
+
+## Classify US Performance on each article in the UN DHR {background-image="libs/Images/background-blue_cubes_lighter3.png" .center}
+
+<br>
+
++ Completely Meets the Standard (Y)
+
++ Does Not Meet the Standard (N)
+
+::: notes
+
+*Split class into small groups (3-4)*
+
+<br>
+
+Groups, I want you to classify all of the articles as either of these two options.
+
+- Two Lists
+
+### Questions on the task?
+
+Get to it!
+
+<br>
+
+*Make long table ON BOARD*
+- 29 columns, 1 row per group
+
+*Report Back and Discuss*
+- Fill in the board
+
+<br>
+
+### Evaluate the performance of the US in terms of meeting the standards established by the UN's Universal Declaration of Human Rights.
+
+### - Areas of disagreement across the groups?
+
+<br>
+
+**SLIDE**: Now we move from "is" to "should."
+:::
+
+
+
+## Should the US enshrine the UN DHR in domestic law? {background-image="libs/Images/background-blue_cubes_lighter3.png" .center}
+
+<br>
+
+```{r, echo = FALSE, fig.align = 'center', out.width = '60%'}
+knitr::include_graphics("libs/Images/11_3-UNDHR_Full.jpeg")
+```
+
+::: notes
+
+Everybody take a moment to review the argument submissions on Canvas.
+
+<br>
+
+### Ok, what are the pros and cons of enshrining the UN DHR in domestic law?
+
+- *ON BOARD*
+:::
+
+
+
+## {background-image="libs/Images/13_2-norm_life_cycle.png" background-size="92%"}
+
+::: notes
+
+### So, where are we in the Norm Life Cycle with the UN's DHR?
+
+<br>
+
+### If we're in Stage 1, how effectively do you think the UN DHR does at framing these issues for global acceptance?
+
+### - Any evidence in your mind of some rights being watered down for acceptance?
+
+<br>
+
+### How close do you believe we are to the "tipping point"?
+
+### - Which rights are furthest away?
+:::
+
+
+
+## Assignment for Next Class  {background-image="libs/Images/background-blue_triangles2.png" .center}
+
+Choose two countries: a democracy and a dictatorship (claim yours on Google Sheet, first-come, first-served). 
+
+Review the current human rights record for both countries using all three sources below. 
+
+1. The country reports by the US Department of State
+2. The country reports by Amnesty International
+3. The country reports by Human Rights Watch
+
+Submit a summary of each country to Canvas before class (2-3 sentences each)
+
+::: notes
+
+Next week we explore the power of publicity to reduce human rights violations.
+
+- To get us ready for that, I want to get you some practice with some of the key pieces of evidence that research draws on.
+
+<br>
+
+### Questions on the assignment?
+:::

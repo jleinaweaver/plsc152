@@ -1,0 +1,330 @@
+---
+format: revealjs
+---
+
+
+## Today's Agenda {background-image="libs/Images/background-worldmap3.png" .center}
+
+```{r}
+# background-size="1920px 1080px"
+library(tidyverse)
+library(readxl)
+library(kableExtra)
+```
+
+<br>
+
+**III. Why is it so Hard to Cooperate with Other Countries?**
+
+- Testing Strategies for the Prisoner's Dilemma
+
+<br>
+
+<br>
+
+::: r-stack
+Justin Leinaweaver (Spring 2024)
+:::
+
+::: notes
+Prep for Class
+
+1. ...
+
+<br>
+
+Today I'd like us to explore PD strategies and what those strategies tell us about real world situations.
+
+- My apologies for being vague...
+
+<br>
+
+### Refresh my memory, what is the dilemma that the Prisoner's Dilemma model is meant to help us understand?
+
+- (Why is it so hard for groups to cooperate under certain conditions?)
+- (When goods are rivalrous and uncertainty is high, actors who prefer cooperation may still choose to defect!)
+
+<br>
+
+### What are the key assumptions in this model of IR?
+- (**SLIDE**)
+:::
+
+
+
+## A Model of the Prisoner's Dilemma {background-image="libs/Images/background-blue_cubes_lighter3.png" .smaller}
+
+<br>
+
+**Interests:** 
+
+- Rational individuals pursuing "gains"
+
+**Institutions:**
+
+- No restrictions on choosing defect or cooperate
+- High uncertainty (e.g. simultaneous decisions, unknown time horizons)
+- Benefits depend on choices of all actors
+
+**Interactions:**
+
+- Biggest rewards for short-term defection OR long-term cooperation
+
+Therefore, a risk averse actor's dominant strategy is to defect
+
+::: notes
+**Questions on this model?**
+
+Notes:
+- Rational = Acts in accordance with transitive and ordered preferences
+
+- Two sources of uncertainty: Unknown time horizons (how many rounds to play), simultaneous decision-making
+
+- Non-excludable = Anyone can access it / hard to prevent access
+
+- Rivalrous = Your use changes reward to other side
+
+<br>
+
+Here we see the PD game's answer to the question, why is international cooperation hard?
+
+- Some international problems are structured in such a way that they make cooperation very hard to achieve (even when cooperating would make everyone better off!)
+
+- Problems that look like THIS often lead to bad outcomes EVEN THOUGH all involved would like to cooperate!
+
+<br>
+
+**SLIDE**: Today I'd like us to explore strategies for dealing with prisoner's dilemmas.
+:::
+
+
+
+## Prisoner's Dilemma {background-image="libs/Images/background-blue_cubes_lighter3.png"}
+
+<br>
+
+```{r}
+tibble(
+  col1 = c("Player 1", ""),
+  col2 = c("Cooperate", "Defect"),
+  Cooperate = c("+2, +2", "+4, -6"),
+  Defect = c("-6, +4", "-1, -1")
+) |>
+  kbl(align = c("l", "l", "c", "c"), col.names = c("", "", "Cooperate", "Defect")) |>
+  add_header_above(c(" " = 2, "Player 2" = 2)) |>
+  column_spec(column = 1:2, bold = TRUE, width = "20em") |>
+  column_spec(column = 3:4, background = "#b3ccff", width = "20em") |>
+  kable_styling(font_size = 40, bootstrap_options = "basic")
+```
+
+::: notes
+
+I've updated the outcomes table since the last time we played.
+
+<br>
+
+### Everybody still clear on how to read this game board?
+:::
+
+
+
+## Prisoner's Dilemma Strategies {background-image="libs/Images/background-blue_cubes_lighter3.png" .center}
+
+<br>
+
+1. Always cooperate
+
+2. Always defect
+
+3. The grim trigger
+
+4. Tit for tat
+
+5. Mixed
+
+::: notes
+
+These are five of what we may call "pure" strategies to the Prisoner's dilemma.
+
+1. Always cooperate is a strategy wherein you cooperate every round, no matter what.
+
+2. Always defect is a strategy wherein you defect every round, no matter what.
+
+3. The grim trigger is a strategy wherein you cooperate in every round until the other side defects and then you defect forever
+    - Defection triggers a grim outcome, no?
+    
+4. Tit for tat is a strategy wherein you cooperate in the first round and then in future rounds you do whatever the other person did last round
+    - If they cooperated last time, you cooperate next time
+    - If they defected last round, you defect next time
+
+5. Mixed is a strategy wherein you alternate cooperation and defection every other round
+
+<br>
+
+### Make sense?
+:::
+
+
+## Prisoner's Dilemma  {background-image="libs/Images/background-blue_cubes_lighter3.png" .center}
+
+```{r}
+tibble(
+  col1 = c("Player 1", ""),
+  col2 = c("Cooperate", "Defect"),
+  Cooperate = c("+2, +2", "+4, -6"),
+  Defect = c("-6, +4", "-1, -1")
+) |>
+  kbl(align = c("l", "l", "c", "c"), col.names = c("", "", "Cooperate", "Defect")) |>
+  add_header_above(c(" " = 2, "Player 2" = 2)) |>
+  column_spec(column = 1:2, bold = TRUE, width = "20em") |>
+  column_spec(column = 3:4, background = "#b3ccff", width = "20em") |>
+  kable_styling(font_size = 40, bootstrap_options = "basic")
+```
+
+1. Always cooperate
+2. Always defect
+3. The grim trigger
+4. Tit for tat
+5. Mixed
+
+::: notes
+
+*Split the class into groups of five and assign one of these strategies to each person.*
+
+OR 
+
+*Split the class into groups of 6 with one person assigned to recording results on board*
+
+<br>
+
+In each group you play each of the other pure strategies 10x and record your total points from each pairing.
+
+### Questions on this?
+
+Go!
+
+<br>
+
+Report back results (overlap across groups means they can check each other and make sure that everyone got the same totals for each strategy dyad)
+
+*ON BOARD*
+- Make table with rows and columns as strategies: C, D, GT, TT, M
+
+<br>
+
+### What do we learn from these results?
+
+### - Is one strategy more effective than the others?
+
+### - Is one strategy least effective?
+:::
+
+
+## Prisoner's Dilemma  {background-image="libs/Images/background-blue_cubes_lighter3.png" .center}
+
+```{r}
+tibble(
+  col1 = c("Player 1", ""),
+  col2 = c("Cooperate", "Defect"),
+  Cooperate = c("+2, +2", "+4, -6"),
+  Defect = c("-6, +4", "-1, -1")
+) |>
+  kbl(align = c("l", "l", "c", "c"), col.names = c("", "", "Cooperate", "Defect")) |>
+  add_header_above(c(" " = 2, "Player 2" = 2)) |>
+  column_spec(column = 1:2, bold = TRUE, width = "20em") |>
+  column_spec(column = 3:4, background = "#b3ccff", width = "20em") |>
+  kable_styling(font_size = 40, bootstrap_options = "basic")
+```
+
+1. Always cooperate
+2. Always defect
+3. The grim trigger
+4. Tit for tat
+5. Mixed
+
+::: notes
+
+Everyone pair up and play one more time (10 rounds) but you can follow any strategy that you want (or mix them up!).
+
+Highest point totals in the class get bonus points (top-5?)
+
+<br>
+
+Report back!
+
+### What did you try?
+
+### - What worked well?
+
+### - What didn't work?
+
+<br>
+
+**SLIDE**: Let's take these simulations into the real world!
+:::
+
+
+
+## {background-image="libs/Images/10_1-Russia_out_G8.jpg"}
+
+<p style="color: white;">**Smale and Shear (2014)**</p>
+
+::: notes
+
+Smale, Alison and Shear, Michael D. (2014, Mar 24). [Russia Is Ousted From Group of 8 by U.S. and Allies](https://www.nytimes.com/2014/03/25/world/europe/obama-russia-crimea.html). *The New York Times*. Section A, Page 1 of the New York edition.
+
+<br>
+
+### What elements of a prisoner's dilemma does this case study illustrate? Why?
+
+### - What strategies are being attempted here by each set of actors?
+
+<br>
+
+### Did this act work to change Russian behavior? Why or why not?
+
+<br>
+
+### Was this the right strategy given the features of this PD structure? Why or why not?
+:::
+
+
+
+## Shkrum, Natalukha & Vasylenko (2023) {background-image="libs/Images/background-worldmap3.png"}
+
+```{r, fig.align='center'}
+knitr::include_graphics("libs/Images/10_1-UN_Resolution.png")
+```
+
+::: notes
+
+Shkrum, A, Natalukha, D. and Vasylenko, L. (2023, Feb 23). [Russia Doesn’t Belong in the United Nations](https://time.com/6256488/russia-united-nations-security-council-undeserved-seat/). *Time*.
+
+<br>
+
+### Should the world escalate its strategy here by kicking Russia out of the UN? Why or why not?
+:::
+
+
+
+
+## Assignment for Next Class  {background-image="libs/Images/background-blue_triangles2.png"}
+
+<br>
+
+Is the world free-riding on US contributions to the United Nations?
+
+1. Council on Foreign Relations Editors. (2023, Mar 13)
+
+2. Bolton (2017)
+
+3. Martin (2017)
+
+::: notes
+Next class we explore a real-world collective action problem
+
+- Is the world free-riding on US contributions to the United Nations?
+
+- If so, what should we do about it?
+:::
+
