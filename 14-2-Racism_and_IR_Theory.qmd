@@ -309,21 +309,8 @@ Each year they produce a report that scores all of the countries in the world on
 They build their index using twelve conflict risk indicators to measure the condition of a state at any given moment. 
 
 - The indicators provide a snapshot in time that can be measured against other snapshots in a time series to determine whether conditions are improving or worsening. 
-:::
-
-
-
-## The Fragile States Index {background-image="libs/Images/background-slate_v2.png"}
-
-(The Fund for Peace 2023)
 
 <br>
-
-```{r}
-knitr::include_graphics('libs/Images/14-1-Fragile_States_Indicators.png')
-```
-
-::: notes
 
 Without getting too deeply into the methodology here let's talk about these broad measures. [LINK](https://fragilestatesindex.org/indicators/)
 
@@ -350,7 +337,7 @@ They focus on four broad sources of possible conflict in every country of the wo
 
 
 
-## {background-image="libs/Images/14-1-Fragile_States-US2023.png"}
+## [Current Country Data LINK](https://fragilestatesindex.org/country-data/) {background-image="libs/Images/14-1-Fragile_States-US2023.png" background-size='70%'}
 
 ::: notes
 
@@ -367,7 +354,7 @@ Here you can see the US position overall in 2023 [LINK](https://fragilestatesind
 
 
 
-## {background-image="libs/Images/14-1-Fragile_States-US2-2023.png"}
+## {background-image="libs/Images/14-1-Fragile_States-US2-2023.png" background-size='70%'}
 
 ::: notes
 
@@ -397,7 +384,7 @@ Demographic pressures getting much worse
 :::
 
 
-## {background-image="libs/Images/14-1-fragility_world_map2023.png"}
+## [Current Data LINK](https://fragilestatesindex.org/analytics/fsi-heat-map/) {background-image="libs/Images/14-1-fragility_world_map2023.png" background-size='70%'}
 
 ::: notes
 
@@ -412,7 +399,11 @@ This map shows the current status of countries around the world using the Fund f
 
 
 
-## "Race and Global Economic Development" (17-22) {background-image="libs/Images/14-1-fragility_world_map2023.png"}
+## "Race and Global Economic Development" (p17-22) {background-image="libs/Images/background-worldmap3.png" .center}
+
+```{r, fig.align='center'}
+knitr::include_graphics("libs/Images/14-1-fragility_world_map2023.png")
+```
 
 ::: notes
 
@@ -440,7 +431,11 @@ Focus on the "Race and Global Economic Development" (17-22) section of the readi
 
 
 
-## "Race and Security" (22-29) {background-image="libs/Images/14-1-fragility_world_map2023.png"}
+## "Race and Security" (22-29) {background-image="libs/Images/background-worldmap3.png" .center}
+
+```{r, fig.align='center'}
+knitr::include_graphics("libs/Images/14-1-fragility_world_map2023.png")
+```
 
 ::: notes
 
@@ -460,6 +455,10 @@ Now shift to the "Race and Security" (22-29) section of the reading.
 
 <br>
 
+**SLIDE**: All that said, I want to end today by highlighting one other important reason international relations needs to take these criticisms seriously.
+
+<br>
+
 #### Notes
 - "Race has had a devastating impact in terms of security relation broadly defined" (31).
 
@@ -470,124 +469,9 @@ Now shift to the "Race and Security" (22-29) section of the reading.
 
 
 
-## {background-image="libs/Images/background-worldmap3.png"}
+## What does this mean for International Relations? {background-image="libs/Images/background-worldmap3.png"}
 
 ```{r, fig.align='center'}
-knitr::include_graphics('libs/Images/14_3-wsj_cover.png')
-```
-
-::: notes
-
-**Can we think of any current events that might illustrate the power of a postcolonial IR approach to explaining the world?**
-
-<br>
-
-Israel's invasion of Gaza?
-- Both sides justifying violence against civilians at least in part on the grounds of ethnicity and race
-
-- Does being a Palestinian in Gaza mean you are Hamas (e.g. a terrorist to be killed)?
-
-- Does being an Israeli near the border mean you can be slaughtered to punish the government for its policies?
-
-- It's all about colonialism! Who gets to own Gaza going forward? 
-
-<br>
-:::
-
-
-
-## What does a postcolonial IR theory emphasize? {background-image="libs/Images/background-worldmap3.png"}
-
-```{r, out.width='60%'}
-knitr::include_graphics('libs/Images/14-1-flags.jpg')
-```
-
-::: notes
-**In sum, how does a postcolonial approach to IR theory push us to think differently about the interests, institutions and interactions that matter for explaining international political events?**
-
-- *Force this discussion*
-
-<br>
-
-### Are these elements that the other theories we have studied ignore? Why or why not?
-:::
-
-
-
-## Assignment for Next Class  {background-image="libs/Images/background-blue_triangles2.png" .center}
-
-<br>
-
-Get ready for Paper 3!
-
-- Collect and review your notes for all of the IR models we have explored this term
-
-::: notes
-**Questions on the assignment?**
-
-<br>
-
-- Neorealism
-- Offensive Realism
-- Liberal Peace
-- Economic Liberalism
-- Bargaining Model of War
-- Prisoner's Dilemma
-- Two-Level Bargaining
-- Constructivism
-- Feminist Theory
-- Postcolonial Theory
-:::
-
-
-## Slides to save for future
-
-
-## Assignment for Next Class  {background-image="libs/Images/background-blue_triangles2.png" .center}
-
-<br>
-
-What is the single biggest international threat facing the United States over the next 25 years? 
-
-- Submit APA evidence and explanation to Canvas
-
-- Be specific, try to avoid overlap!
-
-::: notes
-
-### Questions on the assignment for next class?
-
-- Can be a "what" or a "who", it's up to you!
-
-- Help us build a wide array of options, try to avoid direct overlaps!
-:::
-
-
-
-## What does this mean for International Relations? {background-image="libs/Images/background-worldmap3.png"}
-
-```{r, out.width='60%'}
-knitr::include_graphics('libs/Images/14-1-flags.jpg')
-```
-
-::: notes
-
-Vucetic & Persaud argue that "race" has clearly shaped global history AND that it continues to shape our policies and actions today.
-
-- We cannot understand international political events without acknowledging race.
-
-<br>
-
-So, what does this mean for the academic field of International Relations?
-
-- It turns out, we may have a serious problem.
-:::
-
-
-
-## What does this mean for International Relations? {background-image="libs/Images/background-worldmap3.png"}
-
-```{r}
 knitr::include_graphics('libs/Images/14-1-Henderson-Abstract.png')
 ```
 
@@ -635,7 +519,7 @@ It's a super tough article, so I didn't assign it.
 
 
 
-## Henderson's (2013) Argument {background-image="libs/Images/14-1-FA_Magazines_Old.png"}
+## {background-image="libs/Images/14-1-FA_Magazines_Old_v2.png"}
 
 ![](libs/Images/14-1-FA_Magazine.jpg){.absolute right=0}
 
@@ -670,9 +554,14 @@ knitr::include_graphics('libs/Images/14-1-journal_race_devel.jpg')
 :::
 
 ::: {.column width="50%"}
+
+<br>
+
 Vol 1, Issue 1 (1910)
 
-The Point of View Toward Primitive Races
+<br>
+
+**The Point of View Toward Primitive Races**
 
 G. Stanley Hall
 :::
@@ -705,9 +594,14 @@ knitr::include_graphics('libs/Images/14-1-race_development.png')
 :::
 
 ::: {.column width="50%"}
+
+<br>
+
 Vol 9, Issue 4 (1918)
 
-Race Appreciation and Democracy
+<br>
+
+**Race Appreciation and Democracy**
 
 Philip Ainsworth Means
 :::
@@ -765,18 +659,21 @@ Why is this a problem for modern Realists?
 
 
 
-## Kant's (1798) Plan for Perpetual Peace {background-image="libs/Images/background-slate_v2.png" .center}
+## Kant's (1798) Plan for Perpetual Peace {background-image="libs/Images/background-slate_v2.png" .center .smaller}
 
 <br>
 
-### The First Definitive Article for Perpetual Peace
-.size30["The Civil Constitution of Every State Should Be Republican"]
+**The First Definitive Article for Perpetual Peace**
 
-### The Second Definitive Article for Perpetual Peace
-.size30["The Law of Nations Shall be Founded on a Federation of Free States"]
+- "The Civil Constitution of Every State Should Be Republican"
 
-### The Third Definitive Article for Perpetual Peace
-.size30["The Law of World Citizenship Shall Be Limited to Conditions of Universal Hospitality"]
+**The Second Definitive Article for Perpetual Peace**
+
+- "The Law of Nations Shall be Founded on a Federation of Free States"
+
+**The Third Definitive Article for Perpetual Peace**
+
+- "The Law of World Citizenship Shall Be Limited to Conditions of Universal Hospitality"
 
 ::: notes
 
@@ -797,31 +694,30 @@ In our class we studied both economic liberalism and Kant's plan for perpetual d
 
 <br>
 
-"*...the embarrassing fact for the white West (which doubtless explains its concealment) is that their most important moral theorist of the past three hundred years is also the foundational theorist in the modern period of the division between Herrenvolk and Untermenschen, persons and subpersons, upon which Nazi theory would later draw*" (Mills 1997, 72).
+"...the embarrassing fact for the white West (which doubtless explains its concealment) is that their most important moral theorist of the past three hundred years is also the foundational theorist in the modern period of the division between Herrenvolk and Untermenschen, persons and subpersons, upon which Nazi theory would later draw" (Mills 1997, 72).
 
 ::: notes
 
 Kant believed the color of your skin was 'evidence of an unchanging and unchangeable moral quality.'
+:::
 
-<br>
 
-### So, what does this mean for IR theories in the liberal tradition?
+## What does this mean for International Relations? {background-image="libs/Images/background-worldmap3.png"}
+
+```{r, fig.align='center'}
+knitr::include_graphics('libs/Images/14-1-flags.jpg')
+```
+
+::: notes
+**So, what does this mean for IR theories in the liberal tradition?**
 
 - They are all built on the idea that institutions, and especially democracy, could be used to achieve peace on the global level.
 
 - But the theoretical framework by which those institutions could do their work DEPENDED on maintaining white supremacist views of personhood and citizenship!
 
 Jay-sus!
-:::
 
-
-## What does this mean for International Relations? {background-image="libs/Images/background-worldmap3.png"}
-
-```{r, out.width='60%'}
-knitr::include_graphics('libs/Images/14-1-flags.jpg')
-```
-
-::: notes
+<br>
 
 So, what does this mean for us?
 
@@ -837,5 +733,103 @@ Remember, models are like maps and the more maps you have access to, the better 
 
 ### Make sense?
 :::
+
+
+
+## Assignment for Next Class  {background-image="libs/Images/background-blue_triangles2.png" .center}
+
+<br>
+
+Get ready for Paper 3!
+
+- Collect and review your notes for all of the IR models we have explored this term
+
+::: notes
+**Questions on the assignment?**
+
+<br>
+
+- Neorealism
+- Offensive Realism
+- Liberal Peace
+- Economic Liberalism
+- Bargaining Model of War
+- Prisoner's Dilemma
+- Two-Level Bargaining
+- Constructivism
+- Feminist Theory
+- Postcolonial Theory
+:::
+
+
+## Slides to save for future
+
+
+## {background-image="libs/Images/background-worldmap3.png"}
+
+```{r, fig.align='center'}
+knitr::include_graphics('libs/Images/14_3-wsj_cover.png')
+```
+
+::: notes
+
+**Can we think of any current events that might illustrate the power of a postcolonial IR approach to explaining the world?**
+
+<br>
+
+Israel's invasion of Gaza?
+- Both sides justifying violence against civilians at least in part on the grounds of ethnicity and race
+
+- Does being a Palestinian in Gaza mean you are Hamas (e.g. a terrorist to be killed)?
+
+- Does being an Israeli near the border mean you can be slaughtered to punish the government for its policies?
+
+- It's all about colonialism! Who gets to own Gaza going forward? 
+:::
+
+
+## Assignment for Next Class  {background-image="libs/Images/background-blue_triangles2.png" .center}
+
+<br>
+
+What is the single biggest international threat facing the United States over the next 25 years? 
+
+- Submit APA evidence and explanation to Canvas
+
+- Be specific, try to avoid overlap!
+
+::: notes
+
+### Questions on the assignment for next class?
+
+- Can be a "what" or a "who", it's up to you!
+
+- Help us build a wide array of options, try to avoid direct overlaps!
+:::
+
+
+
+## What does this mean for International Relations? {background-image="libs/Images/background-worldmap3.png"}
+
+```{r, out.width='60%'}
+knitr::include_graphics('libs/Images/14-1-flags.jpg')
+```
+
+::: notes
+
+Vucetic & Persaud argue that "race" has clearly shaped global history AND that it continues to shape our policies and actions today.
+
+- We cannot understand international political events without acknowledging race.
+
+<br>
+
+So, what does this mean for the academic field of International Relations?
+
+- It turns out, we may have a serious problem.
+:::
+
+
+
+
 
 

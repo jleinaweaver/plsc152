@@ -1,0 +1,121 @@
+---
+format: revealjs
+---
+
+## Today's Agenda {background-image="libs/Images/background-worldmap3.png" .center}
+
+```{r}
+# background-size="1920px 1080px"
+library(tidyverse)
+library(readxl)
+library(kableExtra)
+```
+
+<br>
+
+**Final Paper Prep**
+
+- Reviewing international political events
+
+<br>
+
+<br>
+
+::: r-stack
+Justin Leinaweaver (Spring 2024)
+:::
+
+::: notes
+Prep for Class
+
+1. Review submitted cases and citations
+
+:::
+
+
+
+## Final Exam (Due Dec 12, 10am) {background-image="libs/Images/background-blue_triangles2.png" .center}
+
+<br>
+
+Select a **NEW** international political event and make an argument that one of the IR theories / models we've studied in class this term "best" explains the event. 
+
+Your paper must consider and evaluate how **THREE** of the IR theories from class explain your chosen event.
+
+- No double-dipping on realism/liberalism
+
+- At least one theory from the second half of class
+
+- No events used in the prior paper
+
+::: notes
+
+**Questions on the assignment?**
+
+:::
+
+
+
+## For Today {background-image="libs/Images/background-blue_triangles2.png" .center}
+
+<br>
+
+1. Find a NEW international political event you want to focus on for the final paper (no overlap), and
+
+2. Submit at least **TWO** pieces of evidence that help us understand what happened.
+
+::: notes
+
+Our aim for today is to make sure everyone has an international political event picked out and ready to analyze in the paper.
+
+<br>
+
+### Did everybody submit their case and evidence?
+
+<br>
+
+*Split class into groups of four*
+
+- Go sit with your group!
+:::
+
+
+
+## Present Each Event {background-image="libs/Images/background-blue_triangles2.png" .center}
+
+<br>
+
+1. Is this an international political event?
+
+2. Is the evidence provided sufficiently high quality to establish the key facts?
+
+::: notes
+
+SMALL GROUPS: Discuss each case and give the presenter feedback on these two points.
+
+<br>
+
+### Questions?
+
+- Get to it!
+
+<br>
+
+Alright, let's hear all the cases you've picked!
+:::
+
+
+
+
+## For Next Class {background-image="libs/Images/background-blue_triangles2.png" .center}
+
+<br>
+
+1. Submit a brief description of your chosen case, and
+
+2. Briefly apply each of your three chosen models to the case and explain **the strengths and the weaknesses** of each model when explaining your event.
+
+::: notes
+**Questions on the assignment?**
+:::
+

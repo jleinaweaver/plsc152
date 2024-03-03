@@ -1,57 +1,31 @@
 ---
-output:
-  xaringan::moon_reader:
-    css: ["default", "extra.css"]
-    lib_dir: libs
-    seal: false
-    nature:
-      highlightStyle: github
-      highlightLines: true
-      countIncrementalSlides: false
-      ratio: '16:9'
+format: revealjs
 ---
 
-```{r, echo = FALSE, warning = FALSE, message = FALSE}
-##xaringan::inf_mr()
-## For offline work: https://bookdown.org/yihui/rmarkdown/some-tips.html#working-offline
-## Images not appearing? Put images folder inside the libs folder as that is the main data directory
+## Today's Agenda {background-image="libs/Images/background-worldmap3.png" .center}
 
+```{r}
+# background-size="1920px 1080px"
 library(tidyverse)
 library(readxl)
-library(stargazer)
-##library(kableExtra)
-##library(modelr)
-
-knitr::opts_chunk$set(echo = FALSE,
-                      eval = TRUE,
-                      error = FALSE,
-                      message = FALSE,
-                      warning = FALSE,
-                      comment = NA)
+library(kableExtra)
 ```
 
-background-image: url('libs/Images/background-worldmap3.png')
-background-size: 105%
-background-class: top
+<br>
 
-.size60[
+**Final Paper Prep: Reviewing IR Models**
 
 <br>
 
-**Today's Agenda**
-
-- Final Paper Prep: Reviewing IR Models
-]
-
 <br>
 
-.center[.size40[
-  Justin Leinaweaver (Spring 2022)
-]]
+::: r-stack
+Justin Leinaweaver (Spring 2024)
+:::
 
-???
+::: notes
+Prep for Class
 
-## Prep for class
 1. ...
 
 <br>
@@ -61,31 +35,19 @@ Alright everybody, from here on out we shift our focus to your final papers for 
 <br>
 
 **SLIDE**: The final paper prompt
+:::
 
 
 
-
-
-
-
----
-
-background-image: url('libs/Images/background-blue_triangles2.png')
-background-size: 100%
-background-position: center
-class: middle
-
-.size50[.content-box-purple[**Final Exam (Due Dec 12, 10am)**]]
+## Final Exam (Due Dec 12, 10am) {background-image="libs/Images/background-blue_triangles2.png" .center}
 
 <br>
 
-.size40[
 Select a **NEW** international political event and make an argument that one of the IR theories / models we've studied in class this term "best" explains the event. 
 
 Your paper must consider and evaluate how **THREE** of the IR theories from class explain your chosen event.
-]
 
-???
+::: notes
 
 You all did such a good job on the second papers that we're going to run this classic back again!
 
@@ -94,103 +56,62 @@ You all did such a good job on the second papers that we're going to run this cl
 <br>
 
 **SLIDE**: A couple of tweaks to the assignment this time
+:::
 
 
 
-
----
-
-background-image: url('libs/Images/background-blue_triangles2.png')
-background-size: 100%
-background-position: center
-class: middle
-
-.size50[.content-box-purple[**Final Paper Tweaks**]]
+## Final Paper Tweaks {background-image="libs/Images/background-blue_triangles2.png" .center}
 
 <br>
 
-.size40[
 1) You may not select more than one of the realist or liberal theories 
 
 - Either neorealism or offensive realism, not both
 
 - Either economic liberalism or liberal peace, not both
-]
 
-???
+::: notes
 
 You don't have to select any of these four theories, but if you do you can't double-dip in the same waters.
 
 <br>
 
 ### Make sense?
+:::
 
 
 
-
----
-
-background-image: url('libs/Images/background-blue_triangles2.png')
-background-size: 100%
-background-position: center
-class: middle
-
-.size50[.content-box-purple[**Final Paper Tweaks**]]
+## Final Paper Tweaks {background-image="libs/Images/background-blue_triangles2.png" .center}
 
 <br>
 
-.size40[
 2) You must select at least one of the theories from the second half of the class
 
 - e.g. Prisoner's Dilemma, Two-Level Bargaining, Constructivism, Feminist Theory, Postcolonial Theory
-]
 
-???
-
-### Questions on this requirement?
-
+::: notes
+**Questions on this requirement?**
+:::
 
 
----
+## Final Paper Tweaks {background-image="libs/Images/background-blue_triangles2.png" .center}
 
-background-image: url('libs/Images/background-blue_triangles2.png')
-background-size: 100%
-background-position: center
-class: middle
-
-.size50[.content-box-purple[**Final Paper Tweaks**]]
-
-<br>
-
-.size40[
 3) You **may not** select one of the topics explored in anyone's second paper:
-]
 
-.size35[
 - Russian nukes in Belarus, Afghanistan being retaken by the Taliban, Russia invading Ukraine, global response to Covid-19, Coup in Gabon, Wikileaks, US-China trade war, 2015 refugee crisis in Europe, US withdrawal from the JCPOA, the regional effects of Pinochet's rule, US-Iran prisoner swap deal, the border crisis between India and China, Brexit, US sanctions on Iran, COP 27 (climate change negotiation), Israel's invasion of Gaza
-]
 
-???
+::: notes
 
 That's it, those are the tweaks.
 
 <br>
 
 ### Any questions on the final paper assignment?
+:::
 
 
 
-
-
----
-
-background-image: url('libs/Images/background-worldmap3.png')
-background-size: 105%
-background-class: top
-class: middle
-
-.size40[
-.content-box-blue[**IR Theories Explored this Semester**]
+## IR Theories Explored this Semester {background-image="libs/Images/background-worldmap3.png" .center .smaller}
 
 - Neorealism
 - Offensive Realism
@@ -202,9 +123,8 @@ class: middle
 - Constructivism
 - Feminist Theory
 - Postcolonial Theory
-]
 
-???
+::: notes
 
 We have explored a number of IR models this semester.
 
@@ -215,25 +135,17 @@ We have explored a number of IR models this semester.
 All of these theories represent simplifications of reality
 
 - e.g. they are not true or false, but hopefully are useful for explanation and prediction
+:::
 
 
 
+## IR Theories Explored this Semester {background-image="libs/Images/background-worldmap3.png" .center .smaller}
 
----
-
-background-image: url('libs/Images/background-worldmap3.png')
-background-size: 105%
-background-class: top
-class: middle
-
-.size40[
-.content-box-blue[**IR Theories Explored this Semester**]
-
-- .textblue[**Neorealism**]
-- .textblue[**Offensive Realism**]
-- .textblue[**Democratic Peace (Liberal Institutionalism)**]
-- .textblue[**Economic Liberalism**]
-- .textblue[**Bargaining Model of War**]
+- **Neorealism**
+- **Offensive Realism**
+- **Democratic Peace (Liberal Institutionalism)**
+- **Economic Liberalism**
+- **Bargaining Model of War**
 - Prisoner's Dilemma
 - Two-Level Bargaining
 - Constructivism
@@ -241,7 +153,7 @@ class: middle
 - Postcolonial Theory
 ]
 
-???
+::: notes
 
 In week 7 we reviewed the diagrams for these first five models.
 
@@ -258,33 +170,24 @@ The first five models we explored each attack the problem of explaining internat
 <br>
 
 ### Make sense?
+:::
 
 
 
-
----
-
-background-image: url('libs/Images/background-worldmap3.png')
-background-size: 105%
-background-class: top
-class: middle
-
-.size40[
-.content-box-blue[**IR Theories Explored this Semester**]
+## IR Theories Explored this Semester {background-image="libs/Images/background-worldmap3.png" .center .smaller}
 
 - Neorealism
 - Offensive Realism
 - Democratic Peace (Liberal Institutionalism)
 - Economic Liberalism
 - Bargaining Model of War
-- .textblue[**Prisoner's Dilemma**]
-- .textblue[**Two-Level Bargaining**]
-- .textblue[**Constructivism**]
-- .textblue[**Feminist Theory**]
-- .textblue[**Postcolonial Theory**]
-]
+- **Prisoner's Dilemma**
+- **Two-Level Bargaining**
+- **Constructivism**
+- **Feminist Theory**
+- **Postcolonial Theory**
 
-???
+::: notes
 
 These second five are somewhat different in their designs and approaches.
 
@@ -303,19 +206,16 @@ Let's work today on making sure everyone feels comfortable using these five mode
 *Split class into 5 groups*
 
 - Go sit with your group, claim some space on the board!
+:::
 
 
 
+## IR Theories Explored this Semester {background-image="libs/Images/background-worldmap3.png" .center}
 
----
+<br>
 
-background-image: url('libs/Images/background-worldmap3.png')
-background-size: 105%
-background-class: top
-class: middle
-
-.pull-left[
-.size40[
+:::: {.columns}
+::: {.column width="50%"}
 1. Prisoner's Dilemma
 
 2. Two-Level Bargaining
@@ -325,10 +225,9 @@ class: middle
 4. Feminist Theory
 
 5. Postcolonial Theory
-]]
+:::
 
-.pull-right[
-.size40[
+::: {.column width="50%"}
 **This model explains international political events by emphasizing...**
 
 - Interests?
@@ -336,9 +235,10 @@ class: middle
 - Institutions?
 
 - Interactions?
-]]
+:::
+::::
 
-???
+::: notes
 
 *Assign each model to a group*
 
@@ -389,34 +289,22 @@ Postcolonial Theory
 - Interests: 
 - Institutions: 
 - Interactions: 
+:::
 
 
+## Assignment for Next Class  {background-image="libs/Images/background-blue_triangles2.png" .center}
 
----
-
-background-image: url('libs/Images/background-blue_triangles.jpg')
-background-size: 100%
-background-position: center
-class: middle
-
-.size55[
-.content-box-white[**Next Class:**]
+<br>
 
 1. Find a NEW international political event you want to focus on for the final paper (no overlap), and
 
 2. Submit at least **TWO** pieces of evidence that help us understand what happened.
-]
 
-???
+::: notes
 
 No overlapping cases, first-come, first-served!
 
 <br>
 
 ### Questions on the assignment?
-
-
-
-
-
-
+:::
