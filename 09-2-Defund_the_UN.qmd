@@ -29,9 +29,7 @@ Justin Leinaweaver (Spring 2024)
 ::: notes
 Prep for Class
 
-1. Review Canvas submissions
-
-2. Consider doing this in two groups as a fight again. This was fun last time doing the DPRK battle.
+1. Consider doing this in two groups as a fight again. This was fun last time doing the DPRK battle.
 :::
 
 
@@ -81,7 +79,7 @@ Since some of this money goes to places and items we might not like, some have a
 
 
 
-## A Model of the Prisoner's Dilemma {background-image="libs/Images/background-blue_cubes_lighter3.png" .smaller}
+## A Model of the Prisoner's Dilemma {background-image="libs/Images/background-worldmap3.png" .smaller}
 
 <br>
 
@@ -105,9 +103,29 @@ Therefore, a risk averse actor's dominant strategy is to defect
 
 First big question, how well does the PD model fit this situation (e.g. the US role as a major funder of the UN)?
 
-### 1) How big a stretch is assuming the US is rationally pursuing gains?
+- Let's consider the assumptions
 
-### 2) Is the US freely able to choose between the two options? Why or why not?
+<br>
+
+**Is it useful to assume the US is a "rational actor pursuing gains" when it comes to its involvement in the UN? Why or why not?**
+
+<br>
+
+**Is it useful to assume the US has only two choices, defect or cooperate, when funding the UN? Why or why not?**
+
+<br>
+
+**Is it useful to assume high uncertainty in the funding decisions made by other countries when it comes to the UN?**
+
+<br>
+
+**Is it useful to assume the US receives more benefits when other countries help fund the UN?**
+
+<br>
+
+**All in all, does UN funding look something like a PD game?**
+
+
 
 ### 3) How high is the uncertainty in funding decisions by countries around the world?
 
@@ -122,7 +140,7 @@ First big question, how well does the PD model fit this situation (e.g. the US r
 
 
 
-## Should the US Defund the United Nations? {background-image="libs/Images/background-blue_cubes_lighter3.png" .center}
+## Should the US Defund the United Nations? {background-image="libs/Images/background-worldmap3.png" .center}
 
 <br>
 
@@ -139,7 +157,7 @@ Edwards, M. (2017, January 8). “Why defunding the UN is a bad idea.” *The Hi
 
 
 
-## Should the US Defund the United Nations? {background-image="libs/Images/background-blue_cubes_lighter3.png" .center}
+## Should the US Defund the United Nations? {background-image="libs/Images/background-worldmap3.png" .center}
 
 <br>
 
@@ -153,7 +171,7 @@ Edwards, M. (2017, January 8). “Why defunding the UN is a bad idea.” *The Hi
 
 
 
-## Should the US Defund the United Nations? {background-image="libs/Images/background-blue_cubes_lighter3.png" .center}
+## Should the US Defund the United Nations? {background-image="libs/Images/background-worldmap3.png" .center}
 
 <br>
 
@@ -173,6 +191,10 @@ Clearly there is a debate to be had here and it is not one that has gone away.
 <br>
 
 I also like the idea of analyzing UN funding through the lens of BOTH a prisoner's dilemma strategy AND a two-level game negotiation!
+
+<br>
+
+*Split class in half, assign one argument to each and get them diagramming the argument on the board!*
 :::
 
 
@@ -181,14 +203,18 @@ I also like the idea of analyzing UN funding through the lens of BOTH a prisoner
 
 ::: notes
 Let's start with John Bolton's fairly aggressive take.
+
 - Everybody take 5 minutes on your own to reflect on Bolton's (2017) argument.
 - I want you to write down the three most important premises in his argument.
+
+<br>
 
 Ok, small groups (3-4), consolidate your lists and get ready to give us your strongest version of this argument!
 
 <br>
 
 **ON 1/2 THE BOARD**
+
 - UN does bad things (anti-semitism, picking on the US)
 - UN actions matter (even GA resolutions)
 - US threats work on member states
@@ -200,6 +226,8 @@ Ok, small groups (3-4), consolidate your lists and get ready to give us your str
 - Voluntary payments break the rules of the charter but everybody breaks the rules of the charter all the time.
 - Breaking this rule creates benefits and has no serious risks.
 Therefore, the US should move to voluntary payments and only to those parts of the UN we like.
+
+<br>
 
 ### Is this a logical argument? Why or why not?
 :::
@@ -213,6 +241,7 @@ Therefore, the US should move to voluntary payments and only to those parts of t
 ::: notes
 
 Alright, now let's switch to the Edward' argument.
+
 - I want you to write down the three most important premises in the Edwards (2017) argument.
 - What are the biggest reasons supporting his conclusion?
 
@@ -221,6 +250,7 @@ FORM NEW SMALL GROUPS (mix it up!!), consolidate your lists and get ready to giv
 <br>
 
 **ON 1/2 THE BOARD**
+
 - Congressional calls to punish the UN by cutting funding based on fundamental misunderstanding of what the UN is.
 - Threatening cuts will not increase support for Israel.
 - Actual cuts create an opening for China to fill the void and begin steering the UN.
@@ -237,7 +267,7 @@ Therefore, the US should not cut funding for the UN.
 
 
 
-## What PD strategy is in play? {background-image="libs/Images/background-blue_cubes_lighter3.png" .center}
+## What PD strategy is in play? {background-image="libs/Images/background-worldmap3.png" .center}
 
 <br>
 
@@ -283,7 +313,7 @@ Bottom line, where do we end up?
 :::
 
 
-## Next Class: Writing Workshop {background-image="libs/Images/background-blue_cubes_lighter3.png" .center}
+## Next Class: Writing Workshop {background-image="libs/Images/background-worldmap3.png" .center}
 
 <br>
 

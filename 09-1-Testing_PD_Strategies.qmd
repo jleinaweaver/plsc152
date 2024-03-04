@@ -29,7 +29,9 @@ Justin Leinaweaver (Spring 2024)
 ::: notes
 Prep for Class
 
-1. ...
+1. Markers needed for each group (x4)
+
+2. Review canvas submissions
 
 <br>
 
@@ -52,7 +54,7 @@ Today I'd like us to explore PD strategies and what those strategies tell us abo
 
 
 
-## A Model of the Prisoner's Dilemma {background-image="libs/Images/background-blue_cubes_lighter3.png" .smaller}
+## A Model of the Prisoner's Dilemma {background-image="libs/Images/background-worldmap3.png" .smaller}
 
 <br>
 
@@ -76,6 +78,7 @@ Therefore, a risk averse actor's dominant strategy is to defect
 **Questions on this model?**
 
 Notes:
+
 - Rational = Acts in accordance with transitive and ordered preferences
 
 - Two sources of uncertainty: Unknown time horizons (how many rounds to play), simultaneous decision-making
@@ -99,7 +102,7 @@ Here we see the PD game's answer to the question, why is international cooperati
 
 
 
-## Prisoner's Dilemma {background-image="libs/Images/background-blue_cubes_lighter3.png"}
+## Prisoner's Dilemma {background-image="libs/Images/background-worldmap3.png"}
 
 <br>
 
@@ -124,11 +127,27 @@ I've updated the outcomes table since the last time we played.
 <br>
 
 ### Everybody still clear on how to read this game board?
+
+<br>
+
+In short, I've maintained the same Nash Equilibrium that gives us a dominant strategy of defection
+
+- However, I've also increased the margins so each play of the game has bigger consequences for the players
+
+<br>
+
+Game theorists of every stripe, e.g. political scientists, economists, etc, have been working to untangle the prisoner's dilemma for years
+
+- Tons of research, experiments, computer simulations and new theory have been thrown at the problem in an effort to "solve" the dilemma
+
+<br>
+
+Today I'd like us to explore some of the strategies that have been proposed.
 :::
 
 
 
-## Prisoner's Dilemma Strategies {background-image="libs/Images/background-blue_cubes_lighter3.png" .center}
+## Prisoner's Dilemma Strategies {background-image="libs/Images/background-worldmap3.png" .center}
 
 <br>
 
@@ -146,6 +165,8 @@ I've updated the outcomes table since the last time we played.
 
 These are five of what we may call "pure" strategies to the Prisoner's dilemma.
 
+<br>
+
 1. Always cooperate is a strategy wherein you cooperate every round, no matter what.
 
 2. Always defect is a strategy wherein you defect every round, no matter what.
@@ -157,15 +178,29 @@ These are five of what we may call "pure" strategies to the Prisoner's dilemma.
     - If they cooperated last time, you cooperate next time
     - If they defected last round, you defect next time
 
-5. Mixed is a strategy wherein you alternate cooperation and defection every other round
+5. Mixed is a strategy wherein you alternate cooperation and defection every other round regardless of what the other player does
 
 <br>
 
-### Make sense?
+**Is everybody clear on how to implement each of these strategies?**
+
+- **If I assigned you one, do you understand how it would make you play the game?**
+
+<br>
+
+*Split the class into groups*
+
+- *If groups of 5, then one strategy to each person*
+
+- *If groups of 6, then one person records results on board*
+
+<br>
+
+Go sit with your groups and make sure you have space on the board for recording results
 :::
 
 
-## Prisoner's Dilemma  {background-image="libs/Images/background-blue_cubes_lighter3.png" .center}
+## Prisoner's Dilemma  {background-image="libs/Images/background-worldmap3.png" .center}
 
 ```{r}
 tibble(
@@ -188,27 +223,33 @@ tibble(
 5. Mixed
 
 ::: notes
+Groups, your job is to test each of the five strategies against all of the others
 
-*Split the class into groups of five and assign one of these strategies to each person.*
+- We need to know how many points each strategy is worth when it goes up against each of the other strategies
 
-OR 
+- I will ask you to test each pair of strategies against each other 10x and record the result on the board
 
-*Split the class into groups of 6 with one person assigned to recording results on board*
-
-<br>
-
-In each group you play each of the other pure strategies 10x and record your total points from each pairing.
-
-### Questions on this?
-
-Go!
+- You should also test each strategy against itself!
 
 <br>
 
-Report back results (overlap across groups means they can check each other and make sure that everyone got the same totals for each strategy dyad)
+**Big picture, does what I'm asking you to do make sense?**
 
-*ON BOARD*
-- Make table with rows and columns as strategies: C, D, GT, TT, M
+- **Questions?**
+
+- Get to work!
+
+<br>
+
+*While they work, you make a table on the board to capture points from the perspective of each strategy*
+
+- *Columns represent the strategy of each opponent: C, D, GT, TT, M*
+
+- *Rows represent the player: C, D, GT, TT, M*
+
+<br>
+
+Report back results! *(overlap across groups means they can check each other and make sure that everyone got the same totals for each strategy dyad)*
 
 <br>
 
@@ -220,7 +261,7 @@ Report back results (overlap across groups means they can check each other and m
 :::
 
 
-## Prisoner's Dilemma  {background-image="libs/Images/background-blue_cubes_lighter3.png" .center}
+## Prisoner's Dilemma  {background-image="libs/Images/background-worldmap3.png" .center}
 
 ```{r}
 tibble(
@@ -236,17 +277,11 @@ tibble(
   kable_styling(font_size = 40, bootstrap_options = "basic")
 ```
 
-1. Always cooperate
-2. Always defect
-3. The grim trigger
-4. Tit for tat
-5. Mixed
-
 ::: notes
 
 Everyone pair up and play one more time (10 rounds) but you can follow any strategy that you want (or mix them up!).
 
-Highest point totals in the class get bonus points (top-5?)
+- Highest point totals in the class get bonus points (top-5?)
 
 <br>
 
@@ -308,7 +343,7 @@ Shkrum, A, Natalukha, D. and Vasylenko, L. (2023, Feb 23). [Russia Doesn’t Bel
 
 
 
-## Assignment for Next Class  {background-image="libs/Images/background-blue_triangles2.png"}
+## Assignment for Next Class  {background-image="libs/Images/background-blue_triangles2.png" .center}
 
 <br>
 

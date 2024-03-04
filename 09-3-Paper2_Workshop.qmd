@@ -56,7 +56,7 @@ Paper is due today!
 
 
 
-## Paper Rubric {background-image="libs/Images/background-blue_cubes_lighter3.png" .center}
+## Paper Rubric {background-image="libs/Images/background-blue_triangles2.png" .center}
 
 <br>
 
@@ -85,7 +85,7 @@ Keep my writing rubric in mind as you write and revise!
 :::
 
 
-## Assignment for Next Class {background-image="libs/Images/background-blue_cubes_lighter3.png" .center}
+## Assignment for Next Class  {background-image="libs/Images/background-blue_triangles2.png" .center}
 
 <br>
 
