@@ -201,10 +201,10 @@ Last big picture question!
 tribble(
   ~Round, ~Group_A, ~Group_B,
   1, "Cooperate", "Defect",
-  2, "Cooperate", "Defect",
-  3, "Defect", "Defect",
-  4, "Defect", "Defect",
-  5, "Defect", "Cooperate",
+  2, "Defect", "Defect",
+  3, "Cooperate", "Defect",
+  4, "Cooperate", "Cooperate",
+  5, "Defect", "Defect",
   6, "Defect", "Defect",
   7, "Defect", "Defect"
 ) |>
