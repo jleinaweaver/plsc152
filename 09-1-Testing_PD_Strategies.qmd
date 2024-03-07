@@ -120,6 +120,15 @@ tibble(
   kable_styling(font_size = 40, bootstrap_options = "basic")
 ```
 
+<br>
+
+::: {.fragment}
+- Play 10 rounds
+
+- No negotiation / no talking
+:::
+
+
 ::: notes
 
 I've updated the outcomes table since the last time we played.
@@ -136,13 +145,37 @@ In short, I've maintained the same Nash Equilibrium that gives us a dominant str
 
 <br>
 
-Game theorists of every stripe, e.g. political scientists, economists, etc, have been working to untangle the prisoner's dilemma for years
+**REVEAL**: As a warm-up let's pair off and play this new PD table
 
-- Tons of research, experiments, computer simulations and new theory have been thrown at the problem in an effort to "solve" the dilemma
+- Pairs, I'd like you to play the game 10 times and we'll see who can accrue the most points in the class
+
+- For this version of the game there is no talking / negotiating allowed between or during rounds
+
+- The only signal you can send is your decision in each round
 
 <br>
 
-Today I'd like us to explore some of the strategies that have been proposed.
+Here's how I suggest you do it:
+
+- Take a out a piece of paper and make an empty list from 1-10 (with space for your decision each round)
+
+- Each round each player makes their decision, defect or cooperate, and writes it on the paper next to the number for the round
+
+- Both written down, simultaneously reveal your choices, tally up the points and move to the next round
+
+- Again, no NEGOTIATING!
+
+<br>
+
+**Questions on the task?**
+
+- Go!
+
+<br>
+
+**Who were the top point getters in the class?**
+
+- **What strategy or tactics did you try?**
 :::
 
 
@@ -162,8 +195,11 @@ Today I'd like us to explore some of the strategies that have been proposed.
 5. Mixed
 
 ::: notes
+Game theorists of every stripe, e.g. political scientists, economists, etc, have been working to untangle the prisoner's dilemma for years
 
-These are five of what we may call "pure" strategies to the Prisoner's dilemma.
+- Tons of research, experiments, computer simulations and new theory have been thrown at the problem in an effort to "solve" the dilemma
+
+- These are five of what we may call "pure" strategies to the Prisoner's dilemma.
 
 <br>
 
@@ -258,40 +294,6 @@ Report back results! *(overlap across groups means they can check each other and
 ### - Is one strategy more effective than the others?
 
 ### - Is one strategy least effective?
-:::
-
-
-## Prisoner's Dilemma  {background-image="libs/Images/background-worldmap3.png" .center}
-
-```{r}
-tibble(
-  col1 = c("Player 1", ""),
-  col2 = c("Cooperate", "Defect"),
-  Cooperate = c("+2, +2", "+4, -6"),
-  Defect = c("-6, +4", "-1, -1")
-) |>
-  kbl(align = c("l", "l", "c", "c"), col.names = c("", "", "Cooperate", "Defect")) |>
-  add_header_above(c(" " = 2, "Player 2" = 2)) |>
-  column_spec(column = 1:2, bold = TRUE, width = "20em") |>
-  column_spec(column = 3:4, background = "#b3ccff", width = "20em") |>
-  kable_styling(font_size = 40, bootstrap_options = "basic")
-```
-
-::: notes
-
-Everyone pair up and play one more time (10 rounds) but you can follow any strategy that you want (or mix them up!).
-
-- Highest point totals in the class get bonus points (top-5?)
-
-<br>
-
-Report back!
-
-### What did you try?
-
-### - What worked well?
-
-### - What didn't work?
 
 <br>
 
