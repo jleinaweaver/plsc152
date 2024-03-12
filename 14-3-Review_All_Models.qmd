@@ -2,7 +2,7 @@
 format: revealjs
 ---
 
-## Today's Agenda {background-image="libs/Images/background-worldmap3.png" .center}
+## Today's Agenda {background-image="libs/Images/background-worldmap4.png" .center}
 
 ```{r}
 # background-size="1920px 1080px"
@@ -111,7 +111,7 @@ That's it, those are the tweaks.
 
 
 
-## IR Theories Explored this Semester {background-image="libs/Images/background-worldmap3.png" .center .smaller}
+## IR Theories Explored this Semester {background-image="libs/Images/background-worldmap4.png" .center .smaller}
 
 - Neorealism
 - Offensive Realism
@@ -139,7 +139,7 @@ All of these theories represent simplifications of reality
 
 
 
-## IR Theories Explored this Semester {background-image="libs/Images/background-worldmap3.png" .center .smaller}
+## IR Theories Explored this Semester {background-image="libs/Images/background-worldmap4.png" .center .smaller}
 
 - **Neorealism**
 - **Offensive Realism**
@@ -174,7 +174,7 @@ The first five models we explored each attack the problem of explaining internat
 
 
 
-## IR Theories Explored this Semester {background-image="libs/Images/background-worldmap3.png" .center .smaller}
+## IR Theories Explored this Semester {background-image="libs/Images/background-worldmap4.png" .center .smaller}
 
 - Neorealism
 - Offensive Realism
@@ -210,7 +210,7 @@ Let's work today on making sure everyone feels comfortable using these five mode
 
 
 
-## IR Theories Explored this Semester {background-image="libs/Images/background-worldmap3.png" .center}
+## IR Theories Explored this Semester {background-image="libs/Images/background-worldmap4.png" .center}
 
 <br>
 

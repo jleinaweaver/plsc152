@@ -2,7 +2,7 @@
 format: revealjs
 ---
 
-## Today's Agenda {background-image="libs/Images/background-worldmap3.png" .center}
+## Today's Agenda {background-image="libs/Images/background-worldmap4.png" .center}
 
 ```{r}
 # background-size="1920px 1080px"
@@ -41,7 +41,7 @@ So, pertinent to the Krain paper we had an interesting dynamic play out in the m
 
 
 
-## {background-image="libs/Images/background-worldmap3.png" .center}
+## {background-image="libs/Images/background-worldmap4.png" .center}
 
 
 
@@ -71,7 +71,7 @@ Shortly after taking control of Afghanistan the Taliban proceeded to hunt down a
 
 
 
-## {background-image="libs/Images/background-worldmap3.png" .center}
+## {background-image="libs/Images/background-worldmap4.png" .center}
 
 :::: {.columns}
 

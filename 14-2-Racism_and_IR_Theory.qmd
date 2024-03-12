@@ -2,7 +2,7 @@
 format: revealjs
 ---
 
-## Today's Agenda {background-image="libs/Images/background-worldmap3.png" .center}
+## Today's Agenda {background-image="libs/Images/background-worldmap4.png" .center}
 
 ```{r}
 # background-size="1920px 1080px"
@@ -399,7 +399,7 @@ This map shows the current status of countries around the world using the Fund f
 
 
 
-## "Race and Global Economic Development" (p17-22) {background-image="libs/Images/background-worldmap3.png" .center}
+## "Race and Global Economic Development" (p17-22) {background-image="libs/Images/background-worldmap4.png" .center}
 
 ```{r, fig.align='center'}
 knitr::include_graphics("libs/Images/14-1-fragility_world_map2023.png")
@@ -431,7 +431,7 @@ Focus on the "Race and Global Economic Development" (17-22) section of the readi
 
 
 
-## "Race and Security" (22-29) {background-image="libs/Images/background-worldmap3.png" .center}
+## "Race and Security" (22-29) {background-image="libs/Images/background-worldmap4.png" .center}
 
 ```{r, fig.align='center'}
 knitr::include_graphics("libs/Images/14-1-fragility_world_map2023.png")
@@ -469,7 +469,7 @@ Now shift to the "Race and Security" (22-29) section of the reading.
 
 
 
-## What does this mean for International Relations? {background-image="libs/Images/background-worldmap3.png"}
+## What does this mean for International Relations? {background-image="libs/Images/background-worldmap4.png"}
 
 ```{r, fig.align='center'}
 knitr::include_graphics('libs/Images/14-1-Henderson-Abstract.png')
@@ -702,7 +702,7 @@ Kant believed the color of your skin was 'evidence of an unchanging and unchange
 :::
 
 
-## What does this mean for International Relations? {background-image="libs/Images/background-worldmap3.png"}
+## What does this mean for International Relations? {background-image="libs/Images/background-worldmap4.png"}
 
 ```{r, fig.align='center'}
 knitr::include_graphics('libs/Images/14-1-flags.jpg')
@@ -765,7 +765,7 @@ Get ready for Paper 3!
 ## Slides to save for future
 
 
-## {background-image="libs/Images/background-worldmap3.png"}
+## {background-image="libs/Images/background-worldmap4.png"}
 
 ```{r, fig.align='center'}
 knitr::include_graphics('libs/Images/14_3-wsj_cover.png')
@@ -809,7 +809,7 @@ What is the single biggest international threat facing the United States over th
 
 
 
-## What does this mean for International Relations? {background-image="libs/Images/background-worldmap3.png"}
+## What does this mean for International Relations? {background-image="libs/Images/background-worldmap4.png"}
 
 ```{r, out.width='60%'}
 knitr::include_graphics('libs/Images/14-1-flags.jpg')

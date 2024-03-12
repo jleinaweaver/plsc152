@@ -2,7 +2,7 @@
 format: revealjs
 ---
 
-## Today's Agenda {background-image="libs/Images/background-worldmap3.png" .center}
+## Today's Agenda {background-image="libs/Images/background-worldmap4.png" .center}
 
 ```{r}
 # background-size="1920px 1080px"
@@ -43,7 +43,7 @@ On Monday we discussed Hopf’s take on Constructivism.
 
 
 
-## Constructivism (Hopf 1998) {background-image="libs/Images/background-worldmap3.png" .center}
+## Constructivism (Hopf 1998) {background-image="libs/Images/background-worldmap4.png" .center}
 
 <br>
 
@@ -421,7 +421,7 @@ Just kidding, don't shout out ideas for that!
 
 
 
-## {background-image="libs/Images/background-worldmap3.png" .center}
+## {background-image="libs/Images/background-worldmap4.png" .center}
 
 :::: {.columns}
 
@@ -448,7 +448,7 @@ Arguments aimed at husbands.
 
 
 
-## {background-image="libs/Images/background-worldmap3.png" .center .smaller}
+## {background-image="libs/Images/background-worldmap4.png" .center .smaller}
 
 <br>
 
@@ -488,7 +488,7 @@ Anti-vote Arguments for Men
 
 
 
-## {background-image="libs/Images/background-worldmap3.png" .center}
+## {background-image="libs/Images/background-worldmap4.png" .center}
 
 - You do not need a ballot to clean out your sink spout.
 

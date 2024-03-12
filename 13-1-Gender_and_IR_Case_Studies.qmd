@@ -2,7 +2,7 @@
 format: revealjs
 ---
 
-## Today's Agenda {background-image="libs/Images/background-worldmap3.png" .center}
+## Today's Agenda {background-image="libs/Images/background-worldmap4.png" .center}
 
 ```{r}
 # background-size="1920px 1080px"
@@ -90,7 +90,7 @@ So, when this article came across my desk during the build-up to COP26 (the 26th
 
 
 
-## {background-image="libs/Images/background-worldmap3.png" .center}
+## {background-image="libs/Images/background-worldmap4.png" .center}
 
 ```{r, fig.align='center'}
 knitr::include_graphics("libs/Images/13_1-Climate_Change_Gender1.png")
@@ -132,7 +132,7 @@ So, bottom line, "bad" behavior by other countries creates damage for the develo
 
 
 
-## Gender Case Studies {background-image="libs/Images/background-worldmap3.png" .center}
+## Gender Case Studies {background-image="libs/Images/background-worldmap4.png" .center}
 
 <br>
 

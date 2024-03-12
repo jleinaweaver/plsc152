@@ -3,7 +3,7 @@ format: revealjs
 ---
 
 
-## Today's Agenda {background-image="libs/Images/background-worldmap3.png" .center}
+## Today's Agenda {background-image="libs/Images/background-worldmap4.png" .center}
 
 ```{r}
 # background-size="1920px 1080px"
@@ -29,19 +29,20 @@ Justin Leinaweaver (Spring 2024)
 ::: notes
 Prep for Class
 
-1. Reserve the extra room(s)
+1. Reserve the extra room(s) or use Meador Center
 
-2. Print your notes
-    - Game table, round tracking sheet and attendance sheet
+2. Print your PD v2 notes
     
 3. Record participation points from Canvas
 
-4. Game notes
+4. Update 8-2 slides with current EC standings
+
+5. Game notes
     - Group leaders MUST take a census (make a list of all members of their group at beginning of exercise)
     - You will need to record who is leader every round
     - Don't tell them the leader reward! Just that it is related to term in office
     
-5. IMPORTANT: New groups need to mix up the PD v1 groups so the leaders have a harder task distributing points at end. More fun if inequality exists within each group
+6. IMPORTANT: New groups need to mix up the PD v1 groups so the leaders have a harder task distributing points at end. More fun if inequality exists within each group
 :::
 
 
@@ -99,7 +100,7 @@ I'd like us to explore this debate about the importance of leaders and audiences
 
 
 
-## A Competitive Prisoner's Dilemma {background-image="libs/Images/background-worldmap3.png" .center}
+## A Competitive Prisoner's Dilemma {background-image="libs/Images/background-worldmap4.png" .center}
 
 <br>
 
@@ -109,7 +110,7 @@ I'd like us to explore this debate about the importance of leaders and audiences
 
 + Your reward depends on the choice made by the other group.
 
-+ Each group is a .textblue[**democracy**] with an .textblue[**elected leader**]
++ Each group is a **democracy** with an **elected leader**
 
 ::: notes
 
@@ -127,7 +128,7 @@ Today's PD game has been updated to add additional elements that are crucial to 
 
 
 
-## Prisoner's Dilemma (v2) {background-image="libs/Images/background-worldmap3.png" .center}
+## Prisoner's Dilemma (v2) {background-image="libs/Images/background-worldmap4.png" .center}
 
 <br>
 
@@ -168,7 +169,7 @@ Let's talk about the leaders.
 
 
 
-## Prisoner's Dilemma (v2) {background-image="libs/Images/background-worldmap3.png" .center}
+## Prisoner's Dilemma (v2) {background-image="libs/Images/background-worldmap4.png" .center}
 
 <br>
 
@@ -206,7 +207,7 @@ knitr::include_graphics('libs/Images/09_1-skipper.jpg')
 
 
 
-## Prisoner's Dilemma (v2) {background-image="libs/Images/background-worldmap3.png" .center}
+## Prisoner's Dilemma (v2) {background-image="libs/Images/background-worldmap4.png" .center}
 
 **Your Fearless (and TEMPORARY) Leader**
 
@@ -234,7 +235,7 @@ As I said, you are each a democracy.
 
 *Split class in half*
 
-- Ok, group A to 307, group B to 313 down the hall.
+- Ok, group A stay here, group B to the Poli Sci suite next door
 
 <br>
 
@@ -254,6 +255,8 @@ When you get there:
 ::: notes
 
 Alright leaders, you have a list of your citizens and the points you received from the negotiation.
+
+<br>
 
 On Wednesday I want you to announce how you will be distributing the spoils.
 :::

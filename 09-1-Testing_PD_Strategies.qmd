@@ -3,7 +3,7 @@ format: revealjs
 ---
 
 
-## Today's Agenda {background-image="libs/Images/background-worldmap3.png" .center}
+## Today's Agenda {background-image="libs/Images/background-worldmap4.png" .center}
 
 ```{r}
 # background-size="1920px 1080px"
@@ -54,7 +54,7 @@ Today I'd like us to explore PD strategies and what those strategies tell us abo
 
 
 
-## A Model of the Prisoner's Dilemma {background-image="libs/Images/background-worldmap3.png" .smaller}
+## A Model of the Prisoner's Dilemma {background-image="libs/Images/background-worldmap4.png" .smaller}
 
 <br>
 
@@ -102,7 +102,7 @@ Here we see the PD game's answer to the question, why is international cooperati
 
 
 
-## Prisoner's Dilemma {background-image="libs/Images/background-worldmap3.png"}
+## Prisoner's Dilemma {background-image="libs/Images/background-worldmap4.png"}
 
 <br>
 
@@ -180,7 +180,7 @@ Here's how I suggest you do it:
 
 
 
-## Prisoner's Dilemma Strategies {background-image="libs/Images/background-worldmap3.png" .center}
+## Prisoner's Dilemma Strategies {background-image="libs/Images/background-worldmap4.png" .center}
 
 <br>
 
@@ -236,7 +236,7 @@ Go sit with your groups and make sure you have space on the board for recording 
 :::
 
 
-## Prisoner's Dilemma  {background-image="libs/Images/background-worldmap3.png" .center}
+## Prisoner's Dilemma  {background-image="libs/Images/background-worldmap4.png" .center}
 
 ```{r}
 tibble(
@@ -327,7 +327,7 @@ Smale, Alison and Shear, Michael D. (2014, Mar 24). [Russia Is Ousted From Group
 
 
 
-## Shkrum, Natalukha & Vasylenko (2023) {background-image="libs/Images/background-worldmap3.png"}
+## Shkrum, Natalukha & Vasylenko (2023) {background-image="libs/Images/background-worldmap4.png"}
 
 ```{r, fig.align='center'}
 knitr::include_graphics("libs/Images/10_1-UN_Resolution.png")

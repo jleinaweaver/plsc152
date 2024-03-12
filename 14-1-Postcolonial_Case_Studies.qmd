@@ -2,7 +2,7 @@
 format: revealjs
 ---
 
-## Today's Agenda {background-image="libs/Images/background-worldmap3.png" .center}
+## Today's Agenda {background-image="libs/Images/background-worldmap4.png" .center}
 
 ```{r}
 # background-size="1920px 1080px"
@@ -103,7 +103,7 @@ I grant you, this photo that his government released to the media undermines the
 
 
 
-## Postcolonial Case Studies {background-image="libs/Images/background-worldmap3.png" .center}
+## Postcolonial Case Studies {background-image="libs/Images/background-worldmap4.png" .center}
 
 <br>
 

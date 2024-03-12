@@ -2,7 +2,7 @@
 format: revealjs
 ---
 
-## Today's Agenda {background-image="libs/Images/background-worldmap3.png" .center}
+## Today's Agenda {background-image="libs/Images/background-worldmap4.png" .center}
 
 ```{r}
 # background-size="1920px 1080px"
@@ -139,7 +139,7 @@ Bottom line, the usefulness of a map depends on what you are trying to do or exp
 
 
 
-## "Gender Makes the World Go Round: Where are the women?" {background-image="libs/Images/background-worldmap3.png" .center}
+## "Gender Makes the World Go Round: Where are the women?" {background-image="libs/Images/background-worldmap4.png" .center}
 
 ```{r, fig.align='center'}
 knitr::include_graphics("libs/Images/13-1-Enloe_Book_Cover.jpg")
@@ -176,7 +176,7 @@ For class today I asked each of you to highlight the strongest critiques of IR m
 
 
 
-## "Gender Makes the World Go Round: Where are the women?" {background-image="libs/Images/background-worldmap3.png" .center}
+## "Gender Makes the World Go Round: Where are the women?" {background-image="libs/Images/background-worldmap4.png" .center}
 
 :::: {.columns}
 ::: {.column width="30%"}
@@ -297,7 +297,7 @@ Group 2 walk us through the argument in: Who Takes Seriously the Ideas of Transn
 
 
 
-## What We Miss: Case Studies (p21-28) {background-image="libs/Images/background-worldmap3.png" .center}
+## What We Miss: Case Studies (p21-28) {background-image="libs/Images/background-worldmap4.png" .center}
 
 :::: {.columns}
 ::: {.column width="50%"}
@@ -358,7 +358,7 @@ Second Case: The international Arms Trade Treaty
 
 
 
-## Where Are the Men? (p28-32) {background-image="libs/Images/background-worldmap3.png" .center}
+## Where Are the Men? (p28-32) {background-image="libs/Images/background-worldmap4.png" .center}
 
 ```{r, fig.align='center'}
 knitr::include_graphics("libs/Images/13_2-Stereotypical_gender_roles.jpg")

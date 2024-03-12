@@ -3,7 +3,7 @@ format: revealjs
 ---
 
 
-## Today's Agenda {background-image="libs/Images/background-worldmap3.png" .center}
+## Today's Agenda {background-image="libs/Images/background-worldmap4.png" .center}
 
 ```{r}
 # background-size="1920px 1080px"
@@ -31,7 +31,7 @@ Prep for Class
 
 1. **FORCE the groups to sit together! Leaders sit up front!**
 
-2. Update slide with current EC points earned from PD v1 to complicate leader's task
+2. Update slide with current EC points earned from PD v1 to complicate leader's task AND highlight the leader
 
 <br>
 
@@ -74,23 +74,22 @@ Your leadership rewards can't be calculated yet, you still have work to do!
 ## {background-image="libs/Images/09_1-patronage_filter80.png"}
 
 :::: {.columns}
-
 ::: {.column width="50%"}
 ```{r}
 tribble(
   ~Name, ~EC,
-  "Kaden", 0,
-  "Ivan", 1,
-  "Cailey", 1,
-  "Devin", 1,
-  "Gilly", 1,
-  "Abby R", 5,
-  "Chloe", 5,
-  "Bruce", 5,
-  "Ty", 5,
-  "Jameson", 5,
-  "Lucas", 5,
-  "David", 5
+  "Mariana", 0,
+  "Rylie", 0,
+  "Shaeley", 0,
+  "Elayna", 0,
+  "Chloe", 0,
+  "Andrew", 0,
+  "Kal", 7,
+  "Isaiah", 0,
+  "Carson", 7,
+  "Madalene", 7,
+  "Saige", 7,
+  "Austin", 7
 ) |>
   kbl(align = c('l', 'c')) |>
   kable_styling(bootstrap_options = c("striped", "hover", "condensed"), font_size = 30) |>
@@ -103,17 +102,18 @@ tribble(
 ```{r}
 tribble(
   ~Name, ~EC,
-  "Abby H", 5,
-  "Joseph", 1,
-  "Kyle", 1,
-  "Jackson", 1,
-  "Jack", 1,
-  "Colman", 1,
-  "George", 1,
-  "Kelsey", 5,
-  "Liam", 5,
-  "Carter", 5,
-  "Caden", 5
+  "Cameron", 0,
+  "Gabe", 0,
+  "Max", 0,
+  "Annabelle", 0,
+  "Grant", 0,
+  "Donna", 7,
+  "Aaron", 0,
+  "Isa", 7,
+  "Garrison", 7,
+  "Jack", 0,
+  "Matteo", 7,
+  "Gracie", 7
 ) |>
   kbl(align = c('l', 'c')) |>
   kable_styling(bootstrap_options = c("striped", "hover", "condensed"), font_size = 30) |>
@@ -178,7 +178,7 @@ Let's start by discussing the strategic approach each of you brought to the game
 
 
 
-## Prisoner's Dilemma (v2) {background-image="libs/Images/background-worldmap3.png" .center}
+## Prisoner's Dilemma (v2) {background-image="libs/Images/background-worldmap4.png" .center}
 
 <br>
 
@@ -530,7 +530,7 @@ Bottom line: Therefore, domestic politics complicates all international bargaini
 
 
 
-## Two-Level Games are Everywhere  {background-image="libs/Images/background-worldmap3.png"}
+## Two-Level Games are Everywhere  {background-image="libs/Images/background-worldmap4.png"}
 
 ![](libs/Images/10_2-nyt_uk_fr2.png){.absolute right=0 top=100 width="700"}
 
@@ -567,6 +567,19 @@ Talk me through the spat between the UK and France described in our NYT article.
 
 
 
+## Assignment for Next Class  {background-image="libs/Images/background-blue_triangles2.png" .center}
+
+<br>
+
+Hopf, T. (1998). The Promise of Constructivism in International Relations Theory. International Security. 23(1), 171–200.
+
+
+
+
+
+
+
+## Save for semester with 3 classes this week
 
 ## Assignment for Next Class  {background-image="libs/Images/background-blue_triangles2.png" .center}
 

@@ -1,0 +1,265 @@
+---
+format: revealjs
+---
+
+## Today's Agenda {background-image="libs/Images/background-worldmap4.png" .center}
+
+```{r}
+# background-size="1920px 1080px"
+library(tidyverse)
+library(readxl)
+```
+
+<br>
+
+<br>
+
+**Working on Paper 2**
+
+<br>
+
+::: r-stack
+Justin Leinaweaver (Spring 2024)
+:::
+
+::: notes
+Prep for Class
+
+1. ...
+
+:::
+
+
+
+## Paper 2 {background-image="libs/Images/background-worldmap4.png" .center}
+
+<br>
+
+Make an argument that one of the IR theories we've studied in class so far this term **"best"** explains the event you explored in Paper 1. 
+
+Your paper must consider and evaluate how **THREE** of the IR theories from class explain your chosen event.
+
+- Options: Neorealism, Offensive Realism, Democratic Peace, Economic Liberalism, and the Bargaining Model of War
+
+::: notes
+
+Here is the prompt for the second paper.
+
+### Any questions on it?
+
+:::
+
+
+
+## IR Models (so far) {background-image="libs/Images/background-worldmap4.png" .center}
+
+<br>
+
+- Neorealism
+
+- Offensive Realism
+
+- Liberal Peace
+
+- Economic Liberalism
+
+- *Bargaining Model of War*
+
+::: notes
+
+*Split class into 4 groups*
+
+Groups each take one of the models from class so far and get a diagram up on the board
+
+- **NOT INCLUDING the bargaining model!**
+
+<br>
+
+In a few minutes each group will:
+
+1. Explain their diagram, AND 
+
+2. Give us examples of the model in action (e.g. briefly explaining the event they wrote about in paper 1)
+
+<br>
+
+### Questions?
+
+- Get to it!
+
+<br>
+
+PRESENT and DISCUSS each
+
+### Any clarifications needed?
+:::
+
+
+
+## Bargaining Model (Fearon 1995) {background-image="libs/Images/background-worldmap4.png" .center}
+
+<br>
+
+**Interests**
+
+- ?
+
+**Institutions**
+
+- ?
+
+**Interactions**
+
+- ?
+
+::: notes
+
+GROUPS, now tackle the Bargaining Model of War!
+
+- DIAGRAM on the BOARD!
+
+<br>
+
+PRESENT and DISCUSS each
+
+<br>
+
+**SLIDE**: My version...
+
+:::
+
+
+
+## Bargaining Model (Fearon 1995) {background-image="libs/Images/background-worldmap4.png" .center .smaller}
+
+<br>
+
+**Interests**
+
+- States want (gains?)
+
+**Institutions**
+
+- International anarchy: States may choose war or a bargain
+
+**Interactions**
+
+- Wars are costly, risky and inefficient
+- War occurs because of private information / incentive to misrepresent
+- War occurs as a consequence of commitment problems
+- War occurs due to "issue indivisibilities"
+
+::: notes
+
+Assumptions
+- ONLY applies to conflict situations!
+- Two risk-averse or risk-neutral actors (or sides),
+- Dispute on a single dimension,
+- Winner of the war chooses the outcome position,
+- Amount you like the outcome increases across the line,
+- States must know there is a probability of victory, and
+- The issues at dispute must be divisible.
+
+Expectations
+- Because wars are costly, risky and inefficient, there should ALWAYS be a non-war outcome that both sides would prefer.
+- Therefore, war occurs because of private information and the incentive to misrepresent.
+- Therefore, war occurs as a consequence of commitment problems.
+- Therefore, war occurs due to "issue indivisibilities"
+
+<br>
+
+**SLIDE**: Remember our advice from the first paper.
+:::
+
+
+
+## Farrell's (2010) Writing Advice {background-image="libs/Images/background-blue_triangles2.png" .center}
+
+<br>
+
+1. Read the Requirements for the Assignment
+
+2. Avoid Data Dumps
+
+3. Cut to the Chase
+
+4. Organize, Organize, Organize
+
+5. Exercises in Style
+
+::: notes
+
+**Questions on Farrell's advice?**
+
+:::
+
+
+
+## Convincing arguments... {background-image="libs/Images/background-blue_triangles2.png" .center}
+
+<br>
+
+- **Logical**: Do the premises support the conclusion?
+
+- **Clear**: Is the paper easy to read and understand?
+
+- **Credible**: Is there enough high quality evidence (cited using APA)?
+
+- **Critical**: Does the paper address weaknesses in the argument (e.g. logic, evidence, consider counter-arguments)?
+
+
+::: notes
+
+**Questions on the paper rubric?**
+
+:::
+
+
+
+## Outline Due NEXT Friday {background-image="libs/Images/background-blue_triangles2.png" .center .smaller}
+
+**Intro**
+
+- What is the question?
+- Why do we care?
+- Thesis statement
+
+**Apply/Evaluate Theory 1**
+
+- Evidence x 2
+
+**Apply/Evaluate Theory 2**
+
+- Evidence x 2
+
+**Apply/Evaluate Theory 3**
+
+- Evidence x 2
+
+::: notes
+
+Everybody pick your three theories and get to work applying them to your Paper 1 event!
+
+- Outline due in class next Friday
+
+- Paper due in two weeks
+
+<br>
+
+With the rest of our time today you have work to do:
+
+1. Select the three theories you will be evaluating, 
+
+2. Brainstorm how to apply that theory to your case, and then
+
+2. Write a draft thesis statement!
+
+<br>
+
+### Questions?
+
+- Get to it!
+
+:::
+
+

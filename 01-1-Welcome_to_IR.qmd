@@ -3,20 +3,12 @@ format: revealjs
 ---
 
 
-## Intro to International Relations {background-image="libs/Images/background-worldmap3.png"}
+## Intro to International Relations {background-image="libs/Images/background-worldmap4.png" .center}
 
 ```{r}
 # background-size="1920px 1080px"
 library(tidyverse)
 library(readxl)
-```
-
-```{=html}
-<style type="text/css">
-    :root {
-        --r-main-font-size: 48px;
-    }
-</style>
 ```
 
 <br>
@@ -64,7 +56,7 @@ Welcome all.
 :::
 
 
-## Introductions {background-image="libs/Images/background-worldmap3.png"}
+## Introductions {background-image="libs/Images/background-worldmap4.png"  .center}
 
 <br>
 
@@ -96,7 +88,7 @@ Welcome all.
 :::
 
 
-## On balance, has the US been a net positive or negative influence on the world over the last 20 years? {background-image="libs/Images/background-worldmap3.png" .center}
+## On balance, has the US been a net positive or negative influence on the world over the last 20 years? {background-image="libs/Images/background-worldmap4.png" .center}
 
 ::: notes
 
@@ -132,7 +124,7 @@ Today's Agenda: Set up our class and plan for the semester
 :::
 
 
-## Learning Outcomes {background-image="libs/Images/background-worldmap3.png"}
+## Learning Outcomes {background-image="libs/Images/background-worldmap4.png"  .center}
 
 ::: {.incremental}
 - LO 1: Learn about the big ideas and debates of IR scholars
@@ -176,7 +168,7 @@ Big picture, we have four learning outcomes this semester.
 
 
 
-## Semester Outline: Section 1 {background-image="libs/Images/background-worldmap3.png" .center}
+## Semester Outline: Section 1 {background-image="libs/Images/background-worldmap4.png" .center}
 
 <br>
 
@@ -221,7 +213,7 @@ In Section 2 of the class we tackle a HUGE question in IR.
 :::
 
 
-## Semester Outline: Section 2 {background-image="libs/Images/background-worldmap3.png" .center}
+## Semester Outline: Section 2 {background-image="libs/Images/background-worldmap4.png" .center}
 
 <br>
 
@@ -278,7 +270,7 @@ To avoid this outcome President Obama, western powers and Iran negotiated a deal
 :::
 
 
-## {background-image="libs/Images/background-worldmap3.png"}
+## {background-image="libs/Images/background-worldmap4.png"}
 
 ```{r, fig.align='center'}
 knitr::include_graphics("libs/Images/01_1-Iran_Nuke_Deal.png")
@@ -322,7 +314,7 @@ The West wants:
 
 
 
-## Semester Outline: Section 3 {background-image="libs/Images/background-worldmap3.png" .center}
+## Semester Outline: Section 3 {background-image="libs/Images/background-worldmap4.png" .center}
 
 ```{r, fig.align='center'}
 knitr::include_graphics("libs/Images/01_1-Iranian_nukes.jpg")
@@ -367,7 +359,7 @@ I think the final section of our class, Section 4, should start here.
 
 
 
-## Semester Outline: Section 4 {background-image="libs/Images/background-worldmap3.png" .center}
+## Semester Outline: Section 4 {background-image="libs/Images/background-worldmap4.png" .center}
 
 ```{r, fig.align='center'}
 knitr::include_graphics("libs/Images/01_1-Old_Institutions.webp")
@@ -396,7 +388,7 @@ In other words, this section of the class asks us:
 
 
 
-## Semester Outline {background-image="libs/Images/background-worldmap3.png" .center}
+## Semester Outline {background-image="libs/Images/background-worldmap4.png" .center}
 
 <br>
 
@@ -437,7 +429,7 @@ We will kick off most classes with current events discussions.
 
 
 
-## Course Grade {background-image="libs/Images/background-worldmap3.png"}
+## Course Grade {background-image="libs/Images/background-worldmap4.png"}
 
 ```{r}
 tibble(
@@ -464,7 +456,7 @@ Let's talk attendance and participation.
 
 
 
-## The Attendance Cliff {background-image="libs/Images/background-worldmap3.png"}
+## The Attendance Cliff {background-image="libs/Images/background-worldmap4.png"}
 
 ```{r, fig.align='center'}
 knitr::include_graphics("libs/Images/01_1-coyote.jpg")
@@ -495,7 +487,7 @@ To help encourage you I use an attendance cliff.
 :::
 
 
-## Keep me in the loop! {background-image="libs/Images/background-worldmap3.png"}
+## Keep me in the loop! {background-image="libs/Images/background-worldmap4.png"}
 
 ```{r, fig.align='center'}
 knitr::include_graphics("libs/Images/01_1-office_space.jpg")
@@ -527,7 +519,7 @@ So, if things are getting rough for you please come talk to me.
 
 
 
-## {background-image="libs/Images/background-worldmap3.png"}
+## {background-image="libs/Images/background-worldmap4.png"}
 
 ```{r, fig.align='center'}
 knitr::include_graphics("libs/Images/01_1-participation-points.jpg")
@@ -597,7 +589,7 @@ We'll be using Canvas for submitting assignments, posting to the discussions and
 
 
 
-## {background-image="libs/Images/background-worldmap3.png"}
+## {background-image="libs/Images/background-worldmap4.png"}
 
 ```{r, fig.align='center'}
 knitr::include_graphics("libs/Images/01_1-Canvas_Modules_SP24.png")
@@ -631,7 +623,7 @@ Here you can see your assignment for Friday.
 
 
 
-## {background-image="libs/Images/background-worldmap3.png"}
+## {background-image="libs/Images/background-worldmap4.png"}
 
 ```{r, fig.align='center'}
 knitr::include_graphics("libs/Images/01_1-Canvas_Modules2_SP24.png")
