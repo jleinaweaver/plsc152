@@ -104,8 +104,6 @@ Here we see the PD game's answer to the question, why is international cooperati
 
 ## Prisoner's Dilemma {background-image="libs/Images/background-worldmap4.png"}
 
-<br>
-
 ```{r}
 tibble(
   col1 = c("Player 1", ""),
@@ -115,8 +113,8 @@ tibble(
 ) |>
   kbl(align = c("l", "l", "c", "c"), col.names = c("", "", "Cooperate", "Defect")) |>
   add_header_above(c(" " = 2, "Player 2" = 2)) |>
-  column_spec(column = 1:2, bold = TRUE, width = "20em") |>
-  column_spec(column = 3:4, background = "#b3ccff", width = "20em") |>
+  column_spec(column = 1:2, bold = TRUE, width = "10em") |>
+  column_spec(column = 3:4, background = "#b3ccff", width = "10em") |>
   kable_styling(font_size = 40, bootstrap_options = "basic")
 ```
 
@@ -126,6 +124,8 @@ tibble(
 - Play 10 rounds
 
 - No negotiation / no talking
+
+- Your goal is to maximize YOUR points
 :::
 
 
@@ -150,20 +150,73 @@ In short, I've maintained the same Nash Equilibrium that gives us a dominant str
 - Pairs, I'd like you to play the game 10 times and we'll see who can accrue the most points in the class
 
 - For this version of the game there is no talking / negotiating allowed between or during rounds
+    - The only signal you can send is your decision in each round
 
-- The only signal you can send is your decision in each round
+- Your goal is to maximize your points
+    - Our work today is focused on tactics, NOT differences in actor preferences
+    
+    - Please do not play to maximize a different outcome
+:::
+
+
+
+## Prisoner's Dilemma {background-image="libs/Images/background-worldmap4.png" .center .smaller}
 
 <br>
 
+:::: {.columns}
+::: {.column width="50%"}
+```{r}
+tibble(
+  col1 = c("Player 1", ""),
+  col2 = c("Cooperate", "Defect"),
+  Cooperate = c("+2, +2", "+4, -6"),
+  Defect = c("-6, +4", "-1, -1")
+) |>
+  kbl(align = c("l", "l", "c", "c"), col.names = c("", "", "Cooperate", "Defect")) |>
+  add_header_above(c(" " = 2, "Player 2" = 2)) |>
+  column_spec(column = 1:2, bold = TRUE) |>
+  column_spec(column = 3:4, background = "#b3ccff") |>
+  kable_styling(font_size = 24, bootstrap_options = "basic")
+```
+
+<br>
+
+- Play 10 rounds
+
+- No negotiation / no talking
+
+- Your goal is to maximize YOUR points
+:::
+
+::: {.column width="50%"}
+```{r}
+tibble(
+  x1 = 1:10,
+  Decision = "",
+  Points = ""
+) |>
+  kbl(align = "c", col.names = c("Round", "Your Choice", "Your Points")) |>
+  kable_styling(font_size = 24)
+```
+:::
+::::
+
+::: notes
+
 Here's how I suggest you do it:
 
-- Take a out a piece of paper and make an empty list from 1-10 (with space for your decision each round)
+- Take a out a piece of paper and make a list from 1-10 (with space for your decision and points earned each round)
 
 - Each round each player makes their decision, defect or cooperate, and writes it on the paper next to the number for the round
 
 - Both written down, simultaneously reveal your choices, tally up the points and move to the next round
 
-- Again, no NEGOTIATING!
+<br>
+
+Key here is that there is NO NEGOTIATING allowed!
+
+- We're exploring tactics today focused on the rules of the game itself.
 
 <br>
 
@@ -175,7 +228,7 @@ Here's how I suggest you do it:
 
 **Who were the top point getters in the class?**
 
-- **What strategy or tactics did you try?**
+- **What did you try?**
 :::
 
 
@@ -236,8 +289,13 @@ Go sit with your groups and make sure you have space on the board for recording 
 :::
 
 
-## Prisoner's Dilemma  {background-image="libs/Images/background-worldmap4.png" .center}
 
+## Prisoner's Dilemma Strategies {background-image="libs/Images/background-worldmap4.png" .center}
+
+<br>
+
+:::: {.columns}
+::: {.column width="45%"}
 ```{r}
 tibble(
   col1 = c("Player 1", ""),
@@ -247,16 +305,28 @@ tibble(
 ) |>
   kbl(align = c("l", "l", "c", "c"), col.names = c("", "", "Cooperate", "Defect")) |>
   add_header_above(c(" " = 2, "Player 2" = 2)) |>
-  column_spec(column = 1:2, bold = TRUE, width = "20em") |>
-  column_spec(column = 3:4, background = "#b3ccff", width = "20em") |>
-  kable_styling(font_size = 40, bootstrap_options = "basic")
+  column_spec(column = 1:2, bold = TRUE) |>
+  column_spec(column = 3:4, background = "#b3ccff") |>
+  kable_styling(font_size = 22, bootstrap_options = "basic")
 ```
+:::
 
+::: {.column width="10%"}
+
+:::
+
+::: {.column width="45%"}
 1. Always cooperate
+
 2. Always defect
+
 3. The grim trigger
+
 4. Tit for tat
+
 5. Mixed
+:::
+::::
 
 ::: notes
 Groups, your job is to test each of the five strategies against all of the others
@@ -327,7 +397,11 @@ Smale, Alison and Shear, Michael D. (2014, Mar 24). [Russia Is Ousted From Group
 
 
 
-## Shkrum, Natalukha & Vasylenko (2023) {background-image="libs/Images/background-worldmap4.png"}
+## {background-image="libs/Images/background-worldmap4.png"}
+
+::: {.r-fit-text}
+**Shkrum, Natalukha & Vasylenko (2023)**
+:::
 
 ```{r, fig.align='center'}
 knitr::include_graphics("libs/Images/10_1-UN_Resolution.png")
@@ -351,7 +425,7 @@ Shkrum, A, Natalukha, D. and Vasylenko, L. (2023, Feb 23). [Russia Doesn’t Bel
 
 Is the world free-riding on US contributions to the United Nations?
 
-1. Council on Foreign Relations Editors. (2023, Mar 13)
+1. Council on Foreign Relations Editors (2023, Mar 13)
 
 2. Bolton (2017)
 
