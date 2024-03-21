@@ -350,8 +350,16 @@ Groups, your job is to test each of the five strategies against all of the other
 *While they work, you make a table on the board to capture points from the perspective of each strategy*
 
 - *Columns represent the strategy of each opponent: C, D, GT, TT, M*
-
 - *Rows represent the player: C, D, GT, TT, M*
+
+From the Perspective of thr player
+- C vs C (20pts), D (-60), GT (20), TT (20), M (-20)
+- D vs C (40pts), D (-10), GT (-5), TT (-5), M (15)
+- GT vs C (20), D (-15), GT (20), TT (20), M (+8)
+- TT vs C (20), D (-15), GT (20), TT (20), M (2-6+4-6+4-6+4-6+4-6 = -12)
+- M vs C (12), D (-35), GT (2+4-6-1-6-1-6-1-6-1 = -22), TT (-2), M (+5)
+
+
 
 <br>
 

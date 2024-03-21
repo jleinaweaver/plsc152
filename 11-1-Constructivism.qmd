@@ -14,9 +14,11 @@ library(kableExtra)
 
 <br>
 
+::: {.r-fit-text}
 **IV. What is the Future of Transnational Politics and IR?**
 
 - The Constructivist Model
+:::
 
 <br>
 
@@ -49,9 +51,11 @@ Constructivism is a challenging view to summarize so, instead of summarizing, Ho
 
 
 
-## Hopf (1998) Reframes the Question {background-image="libs/Images/background-blue_cubes_lighter3.png" .center}
+## Hopf (1998) Reframes the Question {background-image="libs/Images/background-worldmap4.png" .center}
 
 <br>
+
+::: {.r-fit-text}
 
 **How do we explain international politics?**
 
@@ -63,13 +67,17 @@ Constructivism is a challenging view to summarize so, instead of summarizing, Ho
 
 4. What explains changes in the system?
 
+:::
+
 ::: notes
 
 Before we get to Hopf's answers to these questions and to exploring the constructivist model, let's evaluate the framing.
 
-### Based on our work over the last 10 weeks tell me, is this a useful way to organize an exploration of international politics? Why or why not?
+<br>
 
-#### - In other words, is Hopf asking the right questions if what you want is to understand international politics?
+**Based on our work over the last 10 weeks tell me, is this a useful way to organize an exploration of international politics? Why or why not?**
+
+- **In other words, is Hopf asking the right questions if what you want is to understand international politics?**
 
 <br>
 
@@ -87,7 +95,7 @@ I've encouraged you all semester to think about models of international politics
 :::
 
 
-## 1. Actors and Structures are Mutually Constituted {background-image="libs/Images/background-blue_cubes_lighter3.png" .center}
+## 1. Actors and Structures are Mutually Constituted {background-image="libs/Images/background-worldmap4.png" .center}
 
 ::: notes
 Here is Hopf's answer to the question of who matters and what do they want.
@@ -127,7 +135,13 @@ Let's break this into its component parts.
 :::
 
 
-## 1. Actors and Structures are Mutually Constituted {background-image="libs/Images/background-blue_cubes_lighter3.png" .center}
+## {background-image="libs/Images/background-worldmap4.png" .center}
+
+::: {.r-fit-text}
+**1. Actors and Structures are Mutually Constituted**
+:::
+
+<br>
 
 ```{r, fig.align='center'}
 knitr::include_graphics("libs/Images/13_1-circle.png")
@@ -143,6 +157,7 @@ Constructivists are advising us to think about politics as a series of interacti
 <br>
 
 Neither can be understood without the other.
+
 - Neither is fixed...
 
 <br>
@@ -152,9 +167,24 @@ Neither can be understood without the other.
 
 
 
-## {background-image="libs/Images/13_1-movies.jpg"}
+## {background-image="libs/Images/13_1-movies.jpg" .center}
 
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+::: {.r-fit-text}
 <p style="color: white;">**1. Actors and Structures are Mutually Constituted**</p>
+:::
+
 
 ::: notes
 **How does the movie theater example in the Hopf excerpt help us understand this first assumption of Constructivism?**
@@ -162,18 +192,20 @@ Neither can be understood without the other.
 <br>
 
 Reaction to the fire?
+
 - Order or chaos? An orderly line forms or a mad rush for the doors? Women and children first? Violence and looting breaks out?
 
 <br>
 
 Peoples' reaction to the fire depends on the "culture, norms, institutions, procedures, rules and social practices that constitute the actors and the structure alike" (p103).
+
 - In other words, behavior depends on much more than just actors and institutions.
 
 <br>
 
-### Do we buy this?
+**Do we buy this?**
 
-#### - Would your personal reaction to the fire be influenced in those ways?
+- **Would your personal reaction to the fire be influenced in those ways?**
 :::
 
 
@@ -195,6 +227,7 @@ Let's try top tie this back to current events.
 <br>
 
 ### Now, what about a constructivist who focuses on how "Actors and Structures are Mutually Constituted"?
+
 - International law says you are not allowed to steal other country's lands, BUT...
     - Russia destabilized Georgia and the world shrugged,
     - Russia supported Syria with arms and the world shrugged,
@@ -209,7 +242,11 @@ Ultimately, if the world refuses to enforce the rule against invasion then THERE
 
 
 
-## 1. Actors and Structures are Mutually Constituted {background-image="libs/Images/11_1-Putin_v_Ukraine2.png"}
+## {background-image="libs/Images/11_1-Putin_v_Ukraine2.png"}
+
+::: {.r-fit-text}
+**1. Actors and Structures are Mutually Constituted**
+:::
 
 ::: notes
 
@@ -217,17 +254,17 @@ Ultimately, if the world refuses to enforce the rule against invasion then THERE
 
 <br>
 
-### 1. Is this a useful assumption for explaining international politics?
+**1. Is this a useful assumption for explaining international politics?**
 
-#### - What are the pros and cons of building from this premise?
+- **What are the pros and cons of building from this premise?**
 
 <br>
 
-### 2. How is this different from our prior models of international politics?
+**2. How is this different from our prior models of international politics?**
 
-+ (- The rules are not fixed, they come from our interactions.)
-+ (- Which actors matter depends on the situation and the societal rules.)
-+ (- Structure is meaningless without societal context.)
++ (The rules are not fixed, they come from our interactions.)
++ (Which actors matter depends on the situation and the societal rules.)
++ (Structure is meaningless without societal context.)
 
 <br>
 
@@ -236,7 +273,7 @@ Ultimately, if the world refuses to enforce the rule against invasion then THERE
 
 
 
-## 2. Anarchy as Imagined Community {background-image="libs/Images/background-blue_cubes_lighter3.png"}
+## 2. Anarchy as Imagined Community {background-image="libs/Images/background-worldmap4.png"}
 
 ::: notes
 
@@ -257,7 +294,7 @@ Hopf's second argument is that anarchy is an imagined community.
 
 
 
-## 2. Anarchy as Imagined Community {background-image="libs/Images/background-blue_cubes_lighter3.png" .center}
+## 2. Anarchy as Imagined Community {background-image="libs/Images/background-worldmap4.png" .center}
 
 <br>
 
@@ -288,7 +325,7 @@ Imagine you live on a commune and everyone shares everything and all rules are e
 
 
 
-## 2. Anarchy as Imagined Community {background-image="libs/Images/background-blue_cubes_lighter3.png" .center}
+## 2. Anarchy as Imagined Community {background-image="libs/Images/background-worldmap4.png" .center}
 
 <br>
 
@@ -311,7 +348,7 @@ However, if you are walking alone at night down a dark street your sense of "ana
 
 
 
-## 2. Anarchy as Imagined Community {background-image="libs/Images/background-blue_cubes_lighter3.png" .center}
+## 2. Anarchy as Imagined Community {background-image="libs/Images/background-worldmap4.png" .center}
 
 <br>
 
@@ -380,7 +417,7 @@ Here we see the border between North and South Korea.
 
 
 
-## 2. Anarchy as Imagined Community {background-image="libs/Images/background-blue_cubes_lighter3.png" .center}
+## 2. Anarchy as Imagined Community {background-image="libs/Images/background-worldmap4.png" .center}
 
 <br>
 
@@ -417,9 +454,9 @@ knitr::include_graphics("libs/Images/13_1-korean_border.jpg")
 
 
 
-## 3. The Power of Practice {background-image="libs/Images/background-blue_cubes_lighter3.png" .center}
+## 3. The Power of Practice {background-image="libs/Images/background-worldmap4.png" .center}
 
-<br>
+::: {.r-fit-text}
 **Criteria to be a Great Power (Waltz 1979)**
 
 + Size of population & territory
@@ -431,6 +468,8 @@ knitr::include_graphics("libs/Images/13_1-korean_border.jpg")
 + Military strength
 
 + Political stability and competence
+
+:::
 
 ::: notes
 
@@ -447,7 +486,9 @@ Here's a list of criteria Kenneth Waltz proposed for determining which states in
 
 ## {background-image="libs/Images/13_1-MLK.jpg"}
 
+::: {.r-fit-text}
 <p style="color: white;">**3. The Power of Practice**</p>
+:::
 
 ::: notes
 
@@ -459,9 +500,27 @@ Here's a list of criteria Kenneth Waltz proposed for determining which states in
 
 
 
-## {background-image="libs/Images/13_1-Gandhi.jpg"}
+## {background-image="libs/Images/13_1-Gandhi_v2.png" .center}
 
-<p style="color: white;">**3. The Power of Practice**</p>
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+::: {.r-fit-text}
+**3. The Power of Practice**
+:::
 
 ::: notes
 
@@ -472,7 +531,7 @@ Here's a list of criteria Kenneth Waltz proposed for determining which states in
 
 
 
-## 3. The Power of Practice {background-image="libs/Images/background-blue_cubes_lighter3.png" .center}
+## 3. The Power of Practice {background-image="libs/Images/background-worldmap4.png" .center}
 
 <br>
 
@@ -486,7 +545,7 @@ Here's a list of criteria Kenneth Waltz proposed for determining which states in
 
 + Political stability and competence
 
-+ .textred[**Discourse (Hopf 1988)**]
++ **Discourse (Hopf 1988)**
 
 ::: notes
 
@@ -559,6 +618,7 @@ Think back to our Putin and Ukraine example.
 ::: notes
 
 **Finally, what role does identity play in Constructivist theory?**
+
 - (Identities tell others who you are and tell you who others are.)
 - (They are the source of our interests / preferences.)
 
@@ -569,6 +629,7 @@ Think back to our Putin and Ukraine example.
 <br>
 
 ### What is your identity?
+
 - We all have many identities: Human being, DU student, family member, MO, Springfieldian, American, etc.
 - e.g citizenship, residence, geographic origin, gender, class, politics, profession, employment, food habits, sports interests, taste in music, social commitments, etc.
 
@@ -584,20 +645,22 @@ Think back to our Putin and Ukraine example.
 
 <br>
 
-### Ok, what do we think of this as a fifth assumption in the approach?
+**Ok, what do we think of this as a fifth assumption in the approach?**
 
-#### - Pros vs cons of building models using this?
+- **Pros vs cons of building models using this?**
 :::
 
 
 
-## Applying Constructivism to IR Puzzles {background-image="libs/Images/background-blue_cubes_lighter3.png" .center}
+## Applying Constructivism to IR Puzzles {background-image="libs/Images/background-worldmap4.png" .center}
 
 <br>
 
+::: {.r-fit-text}
 + Security Dilemma
 
 + Neoliberal Cooperation (Economic Liberalism)
+:::
 
 ::: notes
 
@@ -629,26 +692,29 @@ To make sure we understand what all this means for understanding the world let's
 (p188)
 
 The security dilemma is born from uncertainty.
+
 - I can't know for sure what you are doing / if you're a threat.
 
 Empirically not a useful model for lots of different pairs of states: "members of the same alliance, members of the same economic institution, perhaps two peaceful states or two neutral states, and so on.")
 
 Why?
+
 - Because identity reduces uncertainty.
 
 The Constructivist model acknowledges this and helps us study identity formation and transformation!
 
 <br>
 
-### Do we buy this?
-#### - Any drawback to replacing the realist security dilemma prediction with the study of identities?
+**Do we buy this?**
+
+- **Any drawback to replacing the realist security dilemma prediction with the study of identities?**
 
 *Force this discussion*
 :::
 
 
 
-## Economic Liberalism {background-image="libs/Images/background-blue_cubes_lighter3.png" .center .smaller}
+## Economic Liberalism {background-image="libs/Images/background-worldmap4.png" .center .smaller}
 
 **Interests**
 
@@ -689,7 +755,7 @@ Hopf's second example focuses on what he calls neoliberal cooperation.
 
 
 
-## Constructivism (Hopf 1998) {background-image="libs/Images/background-blue_cubes_lighter3.png" .center}
+## Constructivism (Hopf 1998) {background-image="libs/Images/background-worldmap4.png" .center}
 
 <br>
 
@@ -708,15 +774,19 @@ In sum.
 
 **What are the strengths and weaknesses of a Constructivist perspective on international politics?**
 
-(Strengths:)
+<br>
+
+Strengths:
+
 - Identifies some powerful mechanisms that influence human behavior: identity, norms, context
 
-(Weaknesses:)
+Weaknesses:
+
 - Adds tons of complexity to our work
 
 <br>
 
-### BIG final question, how would we map this onto our model diagram structure focused on interests, institutions and interactions?
+**BIG final question, how would we map this onto our model diagram structure focused on interests, institutions and interactions?**
 
 - (Tough to say...)
 - Is this all just saying that interactions matter and everything else follows from that?
@@ -745,7 +815,7 @@ What is a "norm entrepreneur" and how does understanding this mechanism help us 
 
 
 
-## Neoliberal Cooperation {background-image="libs/Images/background-blue_cubes_lighter3.png" .center}
+## Neoliberal Cooperation {background-image="libs/Images/background-worldmap4.png" .center}
 
 <br>
 

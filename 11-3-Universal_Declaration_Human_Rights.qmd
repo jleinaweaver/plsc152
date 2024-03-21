@@ -78,9 +78,13 @@ Let's talk about the UN DHR as an attempt by the UN to enshrine new global norms
 
 <br>
 
+::: {.r-fit-text}
+
 + Completely Meets the Standard (Y)
 
 + Does Not Meet the Standard (N)
+
+:::
 
 ::: notes
 
@@ -99,9 +103,11 @@ Get to it!
 <br>
 
 *Make long table ON BOARD*
+
 - 29 columns, 1 row per group
 
 *Report Back and Discuss*
+
 - Fill in the board
 
 <br>
@@ -161,9 +167,9 @@ Everybody take a moment to review the argument submissions on Canvas.
 
 ## Assignment for Next Class  {background-image="libs/Images/background-blue_triangles2.png" .center}
 
-Choose two countries: a democracy and a dictatorship (claim yours on Google Sheet, first-come, first-served). 
+<br>
 
-Review the current human rights record for both countries using all three sources below. 
+Claim a democracy and a dictatorship (first-come, first-served) and review their current human rights record using:
 
 1. The country reports by the US Department of State
 2. The country reports by Amnesty International
@@ -179,5 +185,9 @@ Next week we explore the power of publicity to reduce human rights violations.
 
 <br>
 
-### Questions on the assignment?
+Technically I've given you a list of "most" and "least" democratic states in the world according to the V-Dem project's electoral democracy index.
+
+<br>
+
+**Questions on the assignment?**
 :::
