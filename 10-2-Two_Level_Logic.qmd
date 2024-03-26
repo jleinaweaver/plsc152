@@ -33,6 +33,8 @@ Prep for Class
 
 2. Update slide with current EC points earned from PD v1 to complicate leader's task AND highlight the leader
 
+3. YOU need to decide the leadership rewards!
+
 <br>
 
 #### Putnam (1988) Notes
@@ -78,14 +80,15 @@ Your leadership rewards can't be calculated yet, you still have work to do!
 ```{r}
 tribble(
   ~Name, ~EC,
+  "Elayna", 0,
   "Mariana", 0,
   "Rylie", 0,
   "Shaeley", 0,
-  "Elayna", 0,
   "Chloe", 0,
   "Andrew", 0,
+  "Jack", 0,
+  #"Isaiah", 0, # Absent
   "Kal", 7,
-  "Isaiah", 0,
   "Carson", 7,
   "Madalene", 7,
   "Saige", 7,
@@ -102,16 +105,15 @@ tribble(
 ```{r}
 tribble(
   ~Name, ~EC,
-  "Cameron", 0,
   "Gabe", 0,
+  "Cameron", 0,
   "Max", 0,
   "Annabelle", 0,
   "Grant", 0,
   "Donna", 7,
-  "Aaron", 0,
+  #"Aaron", 0, # absent
   "Isa", 7,
   "Garrison", 7,
-  "Jack", 0,
   "Matteo", 7,
   "Gracie", 7
 ) |>
