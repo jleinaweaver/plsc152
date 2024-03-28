@@ -15,7 +15,7 @@ library(kableExtra)
 
 **IV. What is the Future of Transnational Politics and IR?**
 
-- Krain (2012) on naming and shaming "bad" states (p574-578)
+- Krain (2012) on naming and shaming "bad" states
 
 <br>
 
@@ -37,7 +37,7 @@ Prep for Class
 
 
 
-## Comparative Case Studies {background-image="libs/Images/background-blue_cubes_lighter3.png" .center}
+## Comparative Case Studies {background-image="libs/Images/background-worldmap4.png" .center}
 
 <br>
 
@@ -209,17 +209,19 @@ Our first job is to figure out the key elements of this model so we can evaluate
 
 
 
-## {background-image="libs/Images/background-slate_v2.png" .center}
+## Krain (2012) {background-image="libs/Images/background-slate_v2.png" .center}
 
 <br>
 
-**Krain (2012): Diagram the Model**
+::: {.r-fit-text}
+**Diagram the Model**
 
 + Who are the key **Interests**?
 
 + What are the key **Institutions**?
 
 + What are the key **Interactions**?
+:::
 
 ::: notes
 
@@ -303,7 +305,9 @@ Remember, models are like maps.
 
 <br>
 
-Krain (2012) on naming and shaming "bad" states (p578-587)
+Krain (2012) on naming and shaming "bad" states
+
+- How convinced by this analysis are you?
 
 ::: notes
 Friday we dig into the data analyses in the paper.

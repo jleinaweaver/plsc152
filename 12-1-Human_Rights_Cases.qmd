@@ -37,11 +37,11 @@ Prep for Class
 
 
 
-## Assignment for Next Class  {background-image="libs/Images/background-blue_triangles2.png" .center}
+## Assignment for Today {background-image="libs/Images/background-blue_triangles2.png" .center}
 
-Choose two countries: a democracy and a dictatorship (claim yours on Google Sheet, first-come, first-served). 
+<br>
 
-Review the current human rights record for both countries using all three sources below. 
+Claim a democracy and a dictatorship (first-come, first-served) and review their current human rights record using:
 
 1. The country reports by the US Department of State
 2. The country reports by Amnesty International
@@ -58,7 +58,7 @@ For today I asked each of you to perform two case studies that would help us thi
 
 
 
-## A Case Study {background-image="libs/Images/background-blue_cubes_lighter3.png" .center}
+## A Case Study {background-image="libs/Images/background-worldmap4.png" .center}
 
 <br>
 
@@ -78,7 +78,7 @@ Your work for today is what we refer to as a "case study."
 :::
 
 
-## A Comparative Case Study {background-image="libs/Images/background-blue_cubes_lighter3.png" .center}
+## A Comparative Case Study {background-image="libs/Images/background-worldmap4.png" .center}
 
 <br>
 
@@ -101,7 +101,29 @@ I'm hoping we can do some of all three of those things today.
 
 
 
-## {background-image="libs/Images/15_1-Sources.png"}
+## Sources of our Knowledge {background-image="libs/Images/background-worldmap4.png" .center}
+
+<br>
+
+:::: {.columns}
+::: {.column width="33%"}
+```{r, fig.align='center'}
+knitr::include_graphics("libs/Images/12_1-USDepartment_of_State.png")
+```
+:::
+
+::: {.column width="33%"}
+```{r, fig.align='center'}
+knitr::include_graphics("libs/Images/12_1-Amnesty_Logo.jpg")
+```
+:::
+
+::: {.column width="33%"}
+```{r, fig.align='center'}
+knitr::include_graphics("libs/Images/12_1-Human_Rights_Watch_logo.png")
+```
+:::
+::::
 
 ::: notes
 
@@ -135,17 +157,17 @@ I'll be totally honest with you here: Each of these sources has its own problems
 
 
 
-## Analyze the democracy cases {background-image="libs/Images/background-blue_cubes_lighter3.png" .center}
+## Analyze the Democracy Cases {background-image="libs/Images/background-worldmap4.png" .center}
 
-+ In general, how good is the respect for human rights in these cases?
-  	+ Excellent
-	  + Good
-	  + Fair
-	  + Poor
+- In general, how good is the respect for human rights in these cases?
+  	- Excellent
+    - Good
+    - Fair
+    - Poor
 
-+ Most targeted groups?
+- Most targeted groups?
 
-+ Most violated rights?
+- Most violated rights?
 
 ::: notes
 
@@ -166,17 +188,17 @@ Try to work with new people!
 
 
 
-## Analyze the dictatorship cases {background-image="libs/Images/background-blue_cubes_lighter3.png" .center}
+## Analyze the Dictatorship Cases {background-image="libs/Images/background-worldmap4.png" .center}
 
-+ In general, how good is the respect for human rights in these cases?
-  	+ Excellent
-	  + Good
-	  + Fair
-	  + Poor
+- In general, how good is the respect for human rights in these cases?
+  	- Excellent
+    - Good
+    - Fair
+    - Poor
 
-+ Most targeted groups?
+- Most targeted groups?
 
-+ Most violated rights?
+- Most violated rights?
 
 ::: notes
 
@@ -271,7 +293,7 @@ Here we see the Fragile States Index.
 
 2. **Before class** submit to our Canvas discussion board: 
     - What is the research question in this paper?
-    - What is their proposed answer to the question?
+    - What is their Krain's answer to the question?
 
 ::: notes
 For the rest of this week we'll be digging deeply into our next research article of the semester!

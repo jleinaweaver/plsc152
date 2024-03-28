@@ -15,7 +15,7 @@ library(kableExtra)
 
 **IV. What is the Future of Transnational Politics and IR?**
 
-- Krain (2012) on naming and shaming "bad" states (p578-587)
+- Krain (2012) on naming and shaming "bad" states
 
 <br>
 
@@ -593,7 +593,7 @@ A small shift but hard to see this way.
 
 ## {background-image="libs/Images/background-slate_v2.png" .center}
 
-```{r, fig.align='center', fig.asp=.618, cache=TRUE}
+```{r, fig.align='center', fig.asp=.618, cache=FALSE}
 # Animate the shift
 library(gganimate)
 
@@ -602,17 +602,19 @@ d4 |>
     Reports = if_else(Reports == "News_Reports_1", "One Media Report", "Two Media Reports")
   ) |>
   ggplot(aes(x = Magnitude_txt, y = Value)) +
-  geom_col(fill = "darkblue") +
+  geom_col(fill = "darkblue") + #
   transition_states(Reports) +
   labs(title = "Magnitude of Severity (# Killed): {closest_state}",
        x = "", y = "") +
   coord_flip() +
   theme_minimal() +
   scale_y_continuous(labels = scales::percent_format(accuracy = 1), breaks = seq(0, .25, .05))
-
 ```
 
 ::: notes
+**Animated bars**
+
+<br>
 
 Better, right?
 
@@ -637,7 +639,7 @@ Table 6 focuses on the effect of Amnesty International reports.
 
 ## {background-image="libs/Images/background-slate_v2.png" .center}
 
-```{r, fig.align='center', fig.asp=.618, cache=TRUE}
+```{r, fig.align='center', fig.asp=.618, cache=FALSE}
 ## Table 6 but use mean and mean + 1 sd
 # Actual table
 d6 <- tibble(
@@ -669,6 +671,10 @@ d6a |>
 
 ::: notes
 
+**Animated bars**
+
+<br>
+
 Not as big as media at the extremes, BUT slightly bigger in the middle changes!
 
 - More realistic changes (mean + 1 sd)
@@ -692,7 +698,7 @@ Not as big as media at the extremes, BUT slightly bigger in the middle changes!
 
 ## {background-image="libs/Images/background-slate_v2.png" .center}
 
-```{r, fig.align='center', fig.asp=.618, cache=TRUE}
+```{r, fig.align='center', fig.asp=.618, cache=FALSE}
 ## Table 8
 # Actual table
 d8 <- tibble(
@@ -727,6 +733,10 @@ d8a |>
 ```
 
 ::: notes
+
+**Animated bars**
+
+<br>
 
 **How confident should we be in these results?**
 
