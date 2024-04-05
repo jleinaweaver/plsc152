@@ -134,7 +134,7 @@ So, bottom line, "bad" behavior by other countries creates damage for the develo
 
 ## Gender Case Studies {background-image="libs/Images/background-worldmap4.png" .center}
 
-<br>
+::: {.r-fit-text}
 
 1. What is the "event"?
 
@@ -143,6 +143,8 @@ So, bottom line, "bad" behavior by other countries creates damage for the develo
 3. Why is it "political"?
 
 4. What is the role of "gender" in this event?
+
+:::
 
 ::: notes
 

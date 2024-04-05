@@ -141,6 +141,8 @@ Bottom line, the usefulness of a map depends on what you are trying to do or exp
 
 ## "Gender Makes the World Go Round: Where are the women?" {background-image="libs/Images/background-worldmap4.png" .center}
 
+<br>
+
 ```{r, fig.align='center'}
 knitr::include_graphics("libs/Images/13-1-Enloe_Book_Cover.jpg")
 ```
@@ -177,6 +179,8 @@ For class today I asked each of you to highlight the strongest critiques of IR m
 
 
 ## "Gender Makes the World Go Round: Where are the women?" {background-image="libs/Images/background-worldmap4.png" .center}
+
+<br>
 
 :::: {.columns}
 ::: {.column width="30%"}
@@ -217,7 +221,13 @@ Groups, diagram the argument in this section
 
 
 
-## Where Does Power Operate? (p8-13) {background-image="libs/Images/13-1-women_power_politics_v2.png" background-size='85%'}
+## Where Does Power Operate? (p8-13) {background-image="libs/Images/background-worldmap4.png" .center}
+
+<br>
+
+```{r, fig.align='center'}
+knitr::include_graphics("libs/Images/13-1-women_power_politics_v2.png")
+```
 
 ::: notes
 
@@ -260,7 +270,14 @@ Group 1 walk us through the argument in: Where Does Power Operate? (8-13)
 
 
 
-## Who Takes Seriously the Ideas of Transnational Feminists? (p13-20) {background-image="libs/Images/13_2-Equity_Now_March_v2.png"}
+
+## Who Takes Seriously the Ideas of Transnational Feminists? (p13-20) {background-image="libs/Images/background-worldmap4.png" .center}
+
+<br>
+
+```{r, fig.align='center'}
+knitr::include_graphics("libs/Images/13_2-Equity_Now_March.png")
+```
 
 ::: notes
 Group 2 walk us through the argument in: Who Takes Seriously the Ideas of Transnational Feminists? (13-20)
