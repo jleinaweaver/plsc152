@@ -9,6 +9,8 @@ format: revealjs
 library(tidyverse)
 library(readxl)
 library(kableExtra)
+
+d <- read_excel("../../Data/WDI/GDP_pc-1970-2022.xlsx", na = "NA")
 ```
 
 <br>
@@ -30,11 +32,11 @@ Justin Leinaweaver (Spring 2024)
 ::: notes
 Prep for Class
 
-1. Update Fragile States index for the USA on slides
+1. Update WDI data and slides using it
 
 2. Review Canvas submissions
 
-3. Put the review case studies slide back if semester had race case studies
+3. Put the review case studies slide back if semester had time for race case studies
 
 <br>
 
@@ -112,19 +114,100 @@ Postcolonialism tends to emphasize "how societies, governments and peoples in th
 
 <br>
 
-I've been asking you to think about "interests" in our models all semester and this literature pushes us to think about those interests more broadly
+Postcolonial IR theory pushes us to think more broadly about the "interests" in our models
 
-- One of the real strengths of the critical IR theories is that they take seriously the experiences of people in the non-western or less developed parts of the world.
+- It aims to take seriously the experiences of people in the non-western or less developed parts of the world.
 
-<br>
-
-Everybody open up our Canvas discussion board and review the submissions for today.
+- In this way, broadening the 'interests' in our models, postcolonial IR has something in common with the feminist work we read last week
 
 <br>
 
-### Ok, based on the Vucetic and Persaud (2018) reading you did for today let's try to define "race" as a concept.
+**In a big picture sense, are we convinced that the experience of international politics in the developing world is different than that of the developed world?**
 
-- *ON BOARD: Race is...* 
+- **Give me examples from current events!**
+
+- (**SLIDE**)
+
+:::
+
+
+
+## Postcolonial IR Theory {background-image="libs/Images/background-worldmap4.png" .center}
+
+:::: {.columns}
+::: {.column width="50%"}
+```{r, fig.align='center'}
+knitr::include_graphics('libs/Images/14_1-US_Israel_Iran_Combat_Apr2024.png')
+```
+:::
+
+::: {.column width="50%"}
+
+<br>
+
+```{r, fig.align='center'}
+knitr::include_graphics('libs/Images/14_1-Haiti_Apr2024.png')
+```
+:::
+::::
+
+::: notes
+
+It seems like the world is full of examples consistent with this key observation.
+
+- Not all countries experience "international politics" in the same way
+
+<br>
+
+Israel, as a lonely democracy in an autocratic part of the world, gets support and backing from powerful western countries
+
+- When those autocratic regimes threaten it, the West steps in
+
+- The US government condemned the Israeli strike on the Iranian generals, and YET we STILL sent armed forces into position to protect the Israelis AGAINST Iran!
+
+<br>
+
+On the other hand, Haiti's experience with the international community has been brutal and awful
+
+- A LONG history of international interference
+
+- First it was the destabilizing slave trade and colonization
+
+- Then frequent undermining of its attempts to rebuild itself
+
+- **SLIDE**: And even the multilateral events that tried to help may have made things much worse
+
+:::
+
+
+
+## Postcolonial IR Theory {background-image="libs/Images/background-worldmap4.png" .center}
+
+```{r, fig.align='center'}
+knitr::include_graphics('libs/Images/14_1-Haiti_Cholera_UN.png')
+```
+
+::: notes
+
+Postcolonial IR theory is a warning to us that if we want to explain international political events we need to consider these crucial differences.
+
+- Liberal institutional theory tells us the UN can facilitate cooperation and make the world more peaceful and stable
+
+- The experience of Haiti, and many other developing countries, raises some serious caveats to that story!
+
+<br>
+
+In order to take these postcolonial experiences seriously, these researchers argue we have to turn a critical eye to the concept of "race."
+
+- Everybody open up our Canvas discussion board and review the submissions for today.
+
+- Talk to the people around you and get ready to report back...
+
+- **Based on the Vucetic and Persaud (2018) reading you did for today, what is "race"? Define the concept**
+
+<br>
+
+*ON BOARD: Race is...* 
 
 <br>
 
@@ -272,171 +355,72 @@ Therefore, "race" is a tool invented by the powerful in order to control, exclud
 
 <br>
 
-Ok then, assuming we accept this model of the world, how does it help us explain international political events?
+Ok then, assuming we accept definition of "race," how does it help us explain international political events?
 
 - The next two sections of the chapter aim to introduce us to the research on the intersection of race with economic development and international security.
 
-<br>
-
-**SLIDE**: Let's explore those while also thinking about some data.
 :::
 
 
 
-## {background-image="libs/Images/14-1-Fund_for_Peace.png"}
 
-::: notes
+## {background-image="libs/Images/background-worldmap4.png" .center}
 
-The Fund for Peace is an NGO created in 1957
-
-- They produce and fund research into topics related to global peace and security
-
-- Their original focus was on nuclear non-proliferation but they have broadened their work over time
-
-<br>
-
-Each year they produce a report that scores all of the countries in the world on a "Fragile States Index."
-
-- The index is meant to help leaders, policy-makers and researchers identify sources of global instability.
-
-- Fragile states are more likely to be sources of global instability.
-
-<br>
-
-They build their index using twelve conflict risk indicators to measure the condition of a state at any given moment. 
-
-- The indicators provide a snapshot in time that can be measured against other snapshots in a time series to determine whether conditions are improving or worsening. 
-
-<br>
-
-**SLIDE**: Let's consider the indicators they have selected ([LINK](https://fragilestatesindex.org/indicators/))
-
+::: {.r-fit-text}
+**"Race and Global Economic Development" (p17-22)**
 :::
 
+```{r, fig.align='center', fig.asp=.618}
+# Map current year
+d2022 <- d |>
+  filter(year == 2022)
 
+library(sf)
+library(rnaturalearth)
+library(rnaturalearthdata)
 
-## The Fragile States Index {background-image="libs/Images/background-worldmap4.png"}
+## Use rnaturalearth to define world map data
+worldmap <- ne_countries(scale = 'medium', type = 'map_units', returnclass = 'sf')
 
-(The Fund for Peace 2023)
+## Merge data to map
+# countrycode::guess_field(d$ccode) # wb 100% and iso3c 99%
+# countrycode::guess_field(worldmap$adm0_a3) # wb 88%
 
-<br>
+d10 <- left_join(worldmap, d2022, by = c("adm0_a3" = "ccode"))
 
-```{r}
-knitr::include_graphics('libs/Images/14-1-Fragile_States_Indicators.png')
+## Make the map by quartiles
+#summary(d10$gdp_pc_current_usd)
+
+d10 |>
+  mutate(
+    gdp_quartiles = case_when(
+      gdp_pc_current_usd <= quantile(d2022$gdp_pc_current_usd, probs = .25, na.rm = TRUE) ~ "Quartile 1",
+      gdp_pc_current_usd <= quantile(d2022$gdp_pc_current_usd, probs = .5, na.rm = TRUE) ~ "Quartile 2",
+      gdp_pc_current_usd <= quantile(d2022$gdp_pc_current_usd, probs = .75, na.rm = TRUE) ~ "Quartile 3",
+      gdp_pc_current_usd > quantile(d2022$gdp_pc_current_usd, probs = .75, na.rm = TRUE) ~ "Quartile 4"
+    )
+  ) |>
+  ggplot() +
+  geom_sf(aes(fill = gdp_quartiles)) +
+  labs(fill = "", title = "GDP per capita (2022 USD)",
+       caption = "Source: World Bank WDI") +
+  theme(legend.position = "bottom") +
+  scale_fill_brewer(type = "div", palette = 5, na.translate = F)
 ```
 
 ::: notes
 
+This is 2022 data from the World Bank on the size of country economies around the world
+
+- GDP per capita is a measure that scales the size of an economy by the size of the population
+
+- The quartiles break the world into four equally sized groups
 
 <br>
 
-The cohesion indicators describe a country in terms of its:
-
-- Security threats: Domestic threats to stability and the institutions created to address them
-
-- Factionalized elites: How have the leaders in our society organized themselves and come to define "who matters?"
-
-- Group grievance: How divided or polarized is your society?
-
-
-They focus on four broad sources of possible conflict in every country of the world:
-
-- How cohesive is your society?
-
-- How strong is your economy and are the benefits spread widely?
-
-- How good a job is your political system doing in providing for the country?
-
-- How is your country handling social pressures?
+**What do we learn from this map?**
 
 <br>
-
-
-
-
-
-
-
-
-### What are the pros and cons of evaluating the fragility of a country using these four broad categories?
-### - Anything else important they might be missing?
-
-<br>
-
-**SLIDE**: How's the US doing?
-:::
-
-
-
-## [Current Country Data LINK](https://fragilestatesindex.org/country-data/) {background-image="libs/Images/14-1-Fragile_States-US2023.png" background-size='70%'}
-
-::: notes
-
-Here you can see the US position overall in 2023 [LINK](https://fragilestatesindex.org/country-data/).
-
-- Note that higher scores on the fragility index are bad (e.g. becoming a bigger source of instability)
-
-<br>
-
-### If you had to guess, which of the four measures are we losing ground in? Cohesion, Economic, Political or Social?
-
-(**SLIDE**)
-:::
-
-
-
-## {background-image="libs/Images/14-1-Fragile_States-US2-2023.png" background-size='70%'}
-
-::: notes
-
-All three of the cohesion indicators are getting much worse (grey line is the avg of the other three)
-- Security apparatus, factionalized elites and group grievance
-
-<br>
-
-Economics all headed in the right direction until last year
-
-<br>
-
-Political indicators getting worse since 2016...
-
-<br>
-
-Demographic pressures getting much worse
-- Is the population growing? Are people getting healthier?
-
-<br>
-
-### What explains these changes?
-
-<br>
-
-### How optimistic are you that these measures will rebound soon?
-:::
-
-
-## [Current Data LINK](https://fragilestatesindex.org/analytics/fsi-heat-map/) {background-image="libs/Images/14-1-fragility_world_map2023.png" background-size='70%'}
-
-::: notes
-
-This map shows the current status of countries around the world using the Fund for Peace's "Fragile States Index" [LINK](https://fragilestatesindex.org/analytics/fsi-heat-map/)
-
-- Blue is the most stable, green is in the middle and the yellow/reds are bad.
-
-<br>
-
-### Any surprises on the map?
-:::
-
-
-
-## "Race and Global Economic Development" (p17-22) {background-image="libs/Images/background-worldmap4.png" .center}
-
-```{r, fig.align='center'}
-knitr::include_graphics("libs/Images/14-1-fragility_world_map2023.png")
-```
-
-::: notes
 
 Postcolonial scholars argue that we cannot understand the variation on this map without considering race and racism.
 
@@ -444,20 +428,144 @@ Postcolonial scholars argue that we cannot understand the variation on this map 
 
 Focus on the "Race and Global Economic Development" (17-22) section of the reading.
 
-### What specific examples does the chapter give us to make the argument that without considering "race" and "domination" we cannot explain international economic development?
+- Work with the people around you and get ready to report back
 
-- ?
+- **Are you persuaded by the argument in this section that "race" and "economic development" are inextricably linked? Why or why not?**
 
 <br>
 
-#### Notes
-- "The impact of race on economic development has also been profound" (32).
+*REPORT BACK and DISCUSS*
 
-- "The racialization of the political economy of development" has two "principal dimensions"
+<br>
 
-1. "The first concerns the right of the Third World states and peoples to govern themselves." 
+(**SLIDE**: One way to think about this is to visualize the growth in wealth over time)
 
-2. "The second dimension ... is the widespread notion that the Third World is a late comer to modern life, meaning here a combination of capitalist economics, individualism, and ways of life" (22).
+<br>
+
+**Chapter Notes**
+
+- "Immediately following WWII three major historical developments started almost simultaneously, namely, decolonization, the Cold War, and the dramatic rise of the United States as the unofficial leader of the Western world. All three of these global phenomena had major impacts on economic development, and all three were also implicated in **actually existing racism** that followed WWII" (19).
+
+- "The sustained anti-immigrant politics in the West which is dependent on the Third World for both ‘cheap’ and high-tech labor is not only a fetter on economic growth, but also a matter of massive insecurity for immigrants and migrant workers (see Box No.3)" (20).
+
+- "The first concerns the right of the Third World states and peoples to govern themselves. Discourses from the late nineteenth century were replete with the widespread belief in the Western world that colored people were not ready for self-government, and certainly not for leadership. The belief was itself ensconced in notions of Western white supremacy, and led to aggressive imperialism with the American military intervention in the Philippines, and the already well-known scramble for Africa" (21).
+
+- "...the widespread notion that the Third World is a late comer to modern life, meaning here a combination of capitalist economics, individualism, and ways of life. ... The work of Max Weber and W.W. Rostow, though not racialized, did however formulate a temporal model which has allowed other thinkers to treat the Third World as kind of a left behind deformity, bogged down by backward cultures. At times, the racialization has been expressed in religious terms as in the aforementioned claim by Harrison that Latin America has been held back because of Catholicism" (22).
+
+- "For one thing, like Euro-America before it, China is now practicing its own form of colonialism in Africa, much of it under the guise of economic development" (22).
+:::
+
+
+## {background-image="libs/Images/background-worldmap4.png" .center}
+
+::: {.r-fit-text}
+**"Race and Global Economic Development" (p17-22)**
+:::
+
+```{r, fig.align='center', fig.asp=.618}
+# Identify the top and bottom quartile of countries at start
+q1_countries <- d |>
+  filter(year == 1970) |>
+  filter(gdp_pc_current_usd <= quantile(d$gdp_pc_current_usd[d$year == 1970], na.rm = T, probs = .25)) |>
+  select(country)
+
+q4_countries <- d |>
+  filter(year == 1970) |>
+  filter(gdp_pc_current_usd >= quantile(d$gdp_pc_current_usd[d$year == 1970], na.rm = T, probs = .75)) |>
+  select(country)
+
+x1 <- d |>
+  filter(country %in% q1_countries[[1]]) |> 
+  group_by(year) |> 
+  summarize(
+    gdp_pc_median = median(gdp_pc_current_usd, na.rm = T)
+  ) |>
+  mutate(
+    Group = "Poorest Countries"
+  )
+
+x2 <- d |>
+  filter(country %in% q4_countries[[1]]) |>
+  group_by(year) |>
+  summarize(
+    gdp_pc_median = median(gdp_pc_current_usd, na.rm = T)
+  ) |>
+  mutate(
+    Group = "Richest Countries"
+  )
+
+rbind(x1, x2) |>
+  filter(year == 1970) |>
+  ggplot(aes(x = year, y = gdp_pc_median, color = Group)) +
+  geom_point() +
+  theme_bw() +
+  scale_y_continuous(breaks = seq(0, 70000, 10000), labels = scales::dollar_format()) +
+  labs(x = "", y = "Current $USD", color = "",
+       caption = "Source: World Bank WDI") +
+  guides(color = "none") +
+  annotate("text", x = 1972, y = 0, label = "Poorest Quartile", color = "darkred", hjust = 0) +
+annotate("text", x = 1972, y = 4000, label = "Richest Quartile", color = "darkblue", hjust = 0) +
+  coord_cartesian(ylim = c(0, 60000), xlim = c(1970, 2020))
+
+```
+
+::: notes
+
+We'll start with 1970 which is over 50 years ago
+
+<br>
+
+In 1970:
+
+- The richest quartile of states had a median GDP per capita of $2,870
+
+- The poorest quartile of states had a median GDP per capita of $113
+
+<br>
+
+**SLIDE**: Let's watch what happened over the next 50 years!
+
+:::
+
+
+
+## {background-image="libs/Images/background-worldmap4.png" .center}
+
+::: {.r-fit-text}
+**"Race and Global Economic Development" (p17-22)**
+:::
+
+```{r, fig.align='center', fig.asp=.618, eval=TRUE}
+# Identify the top and bottom quartile of countries at start
+library(gganimate)
+
+rbind(x1, x2) |>
+  #filter(year == 2022) |>
+  ggplot(aes(x = year, y = gdp_pc_median, color = Group)) +
+  geom_line(linewidth = 1.2) +
+  theme_bw() +
+  scale_y_continuous(breaks = seq(0, 70000, 10000), labels = scales::dollar_format()) +
+  labs(x = "", y = "Current $USD", color = "",
+       caption = "Source: World Bank WDI") +
+  guides(color = "none") +
+  annotate("text", x = 1972, y = 0, label = "Poorest Quartile", color = "darkred", hjust = 0) +
+annotate("text", x = 1972, y = 4000, label = "Richest Quartile", color = "darkblue", hjust = 0) +
+  coord_cartesian(ylim = c(0, 60000), xlim = c(1970, 2020)) +
+  transition_reveal(year)
+```
+
+::: notes
+
+50 years later and:
+
+- The richest quartile of states had a median GDP per capita of $52,085 (an 18 fold increase!)
+
+- The poorest quartile of states had a median GDP per capita of $1,036 (an 8 fold increase)
+
+<br>
+
+**So, do we want to argue that the poor world experiences international political events the same as the rich world?**
+
 :::
 
 
@@ -474,9 +582,27 @@ Now shift to the "Race and Security" (22-29) section of the reading.
 
 <br>
 
-### What specific examples does the chapter give us to make the argument that without considering "race" and "domination" we cannot explain international security?
+This map comes from the Fund for Peace which is a research group studying global peace and security
 
-- ?
+- They produce a Fragile States Index that is supposed to warn us about places in the world teetering on the edge of state collapse.
+
+<br>
+
+**Any interesting observations from the map?**
+
+<br>
+
+Ok groups, work with the people around you and get ready to report back
+
+- **Are you persuaded by the argument in this section that "race" and "international security" are inextricably linked? Why or why not?**
+
+<br>
+
+*REPORT BACK and DISCUSS*
+
+<br>
+
+**Chapter Notes**
 
 - Example: "When nineteenth- and twentieth-century colonial agents conducted censuses of the local population and related research, they did so with imperial security in mind but what matters more are the new insecurities they created. Typically, the colonized peoples were enumerated and classified through a mix of interviews with local elites and the methods of scientific racism—skin color assessments and physiognomic measurements, some of which were done via photographs (Metcalfe 1995). In this process race was in fact grafted onto the intertwined and highly context-dependent local identities—caste, tribal, regional and religious—and the result was a system of knowledge that at once confirmed white supremacy and forced new divisions and discord on the colonized" (24).
 
@@ -484,13 +610,6 @@ Now shift to the "Race and Security" (22-29) section of the reading.
 
 - "US race laws, and not just those associated with the Jim Crow regime in the South, impressed and inspired Nazi jurists in the 1930s" (26).
 
-<br>
-
-**SLIDE**: All that said, I want to end today by highlighting one other important reason international relations needs to take these criticisms seriously.
-
-<br>
-
-#### Notes
 - "Race has had a devastating impact in terms of security relation broadly defined" (31).
 
 - "In international relations, ‘security’ has traditionally focused on the military and economic security of mostly European great powers. This, too, has to do with a Eurocentric conception of the world" (22).
@@ -500,7 +619,13 @@ Now shift to the "Race and Security" (22-29) section of the reading.
 
 
 
-## What does this mean for International Relations? {background-image="libs/Images/background-worldmap4.png"}
+## {background-image="libs/Images/background-worldmap4.png"}
+
+::: {.r-fit-text}
+**What does this mean for International Relations?**
+:::
+
+<br>
 
 ```{r, fig.align='center'}
 knitr::include_graphics('libs/Images/14-1-Henderson-Abstract.png')
@@ -508,11 +633,19 @@ knitr::include_graphics('libs/Images/14-1-Henderson-Abstract.png')
 
 ::: notes
 
-Let's not beat around the proverbial bush, Henderson (2013) and many other scholars have sought to convince us of a big argument.
+All that said, I want to end today by highlighting one other important reason international relations needs to take these criticisms seriously.
 
-- Racism is CENTRAL to the birth, development and current research product of International Relations scholars.
+<br>
 
-- AND, if we accept his argument that IR has a massive blindspot to racism and actively contributes to spreading it, then the conclusion follows...
+Let's not beat around the bush, Henderson (2013) and many other scholars have sought to convince us of two things:
+
+<br>
+
+FIRST, racism is CENTRAL to the birth, development and current research product of International Relations
+
+<br>
+
+**SLIDE**: AND SECOND...
 :::
 
 
@@ -527,24 +660,36 @@ Therefore, most of the current IR theories cannot be used to produce meaningful 
 
 Holy crap!
 
+<br>
+
 Our goal as social scientists is to explain the world using models and data.
+
 - In IR we aim to explain international political events.
 
+<br>
+
 Last week, Cynthia Enloe was pushing us to use our established tools to explore more stuff, to be more curious about the world!
+
 - Power matters in more places than we realize!
+
 - The experiences of more people are important to understand how foreign policy is made and shaped.
 
 <br>
 
 Henderson is definitely NOT arguing we need to apply our tools in more places or to more people.
+
 - He's arguing that our tools themselves are broken.
 
+<br>
+
 If we apply our current tools of IR to ignored peoples, races or places all we create are more inaccurate explanations!
+
 - Because IR research was built on racist foundations, the use of our models reinforces the racism in our global system.
 
 <br>
 
 It's a super tough article, so I didn't assign it.
+
 - However, it is on Canvas if you're curious.
 :::
 
@@ -641,6 +786,7 @@ Philip Ainsworth Means
 ::: notes
 
 After WWI the IR research in this journal got even more problematic
+
 - Shifted its focus from endorsing biological racism to raising alarms about a possible race war
 
 - The articles argued the teeming masses of nonwhite peoples were becomingly increasingly assertive (e.g. ‘race conscious’)" and this would lead to war.
@@ -651,7 +797,10 @@ So, not a great start.
 
 - Ok, IR scholars in the 20's were fixated on race but not in useful or helpful ways.
 
+<br>
+
 How does this matter for us in this class?
+
 - The problem is that these racist roots still exist in some of the foundational assumptions we use in models today.
 :::
 
@@ -710,13 +859,13 @@ Why is this a problem for modern Realists?
 
 Don't think this lets liberalism off the hook!
 
-In our class we studied both economic liberalism and Kant's plan for perpetual democratic peace.
+<br>
 
-### Do we remember these?
+In our class we studied both economic liberalism and Kant's plan for perpetual democratic peace.
 
 <br>
 
-### Are you ready to be shocked to find out that Kant was a raging racist who believed his articles should only apply to "persons" and that the color of your skin determined personhood?
+Are you ready to be shocked to find out that Kant was a raging racist who believed his articles should only apply to "persons" and that the color of your skin determined personhood?
 :::
 
 
@@ -733,7 +882,11 @@ Kant believed the color of your skin was 'evidence of an unchanging and unchange
 :::
 
 
-## What does this mean for International Relations? {background-image="libs/Images/background-worldmap4.png"}
+## {background-image="libs/Images/background-worldmap4.png"}
+
+::: {.r-fit-text}
+**What does this mean for International Relations?**
+:::
 
 ```{r, fig.align='center'}
 knitr::include_graphics('libs/Images/14-1-flags.jpg')
@@ -742,9 +895,13 @@ knitr::include_graphics('libs/Images/14-1-flags.jpg')
 ::: notes
 **So, what does this mean for IR theories in the liberal tradition?**
 
-- They are all built on the idea that institutions, and especially democracy, could be used to achieve peace on the global level.
+<br>
+
+Liberal IR theories are all built on the idea that institutions, and especially democracy, could be used to achieve peace on the global level.
 
 - But the theoretical framework by which those institutions could do their work DEPENDED on maintaining white supremacist views of personhood and citizenship!
+
+<br>
 
 Jay-sus!
 
@@ -762,7 +919,7 @@ So, what does this mean for us?
 
 Remember, models are like maps and the more maps you have access to, the better prepared you are to explain outcomes.
 
-### Make sense?
+- **Make sense?**
 :::
 
 
