@@ -13,7 +13,11 @@ library(kableExtra)
 
 <br>
 
+::: {.r-fit-text}
+
 **Final Paper Prep: Reviewing IR Models**
+
+:::
 
 <br>
 
@@ -39,7 +43,7 @@ Alright everybody, from here on out we shift our focus to your final papers for 
 
 
 
-## Final Exam (Due Dec 12, 10am) {background-image="libs/Images/background-blue_triangles2.png" .center}
+## Final Exam (Due May 6, 10am) {background-image="libs/Images/background-blue_triangles2.png" .center}
 
 <br>
 
@@ -94,11 +98,34 @@ You don't have to select any of these four theories, but if you do you can't dou
 :::
 
 
-## Final Paper Tweaks {background-image="libs/Images/background-blue_triangles2.png" .center}
+## {background-image="libs/Images/background-blue_triangles2.png" .center}
 
+::: {.r-fit-text}
 3) You **may not** select one of the topics explored in anyone's second paper:
+:::
 
-- Russian nukes in Belarus, Afghanistan being retaken by the Taliban, Russia invading Ukraine, global response to Covid-19, Coup in Gabon, Wikileaks, US-China trade war, 2015 refugee crisis in Europe, US withdrawal from the JCPOA, the regional effects of Pinochet's rule, US-Iran prisoner swap deal, the border crisis between India and China, Brexit, US sanctions on Iran, COP 27 (climate change negotiation), Israel's invasion of Gaza
+:::: {.columns}
+::: {.column width="50%"}
+- Russian invasion Ukraine
+- Houthi attacks on international shipping
+- China v Taiwan
+- International efforts to land on the moon
+- UN Sustainable Development Goals
+- ICJ cases against Israel
+- Immigration policy in the EU
+:::
+
+::: {.column width="50%"}
+- Farmer protests in Europe
+- Israel v Palestine
+- US vs Mexico (drugs/immigration)
+- The Cuban Missile Crisis
+- China v US (fentanyl)
+- Russia's ban from Eurovision
+- Collapse of the Iranian nuclear deal
+:::
+::::
+
 
 ::: notes
 
@@ -106,23 +133,38 @@ That's it, those are the tweaks.
 
 <br>
 
+The key for this part is that I need everyone to choose a MUCH more precise event.
+
+- Actor X did action Y to country or international group Z on a specific date
+
+<br>
+
+The international section of every newspaper will give you a list of specific events to explain
+
+<br>
+
 ### Any questions on the final paper assignment?
+
+
+
+
+Israel v Palestine, UN Sustainable Development Goals, South Africa's case against Israel at the ICJ, farmer protests in Europe, immigration policy in the EU, China v Taiwan, China vs the US fentanyl trade, Houthi attacks on international shipping, Hamas' October terror attack against Israel, US and Mexico vs the drug cartels, 21st century space race, the Cuban Missile Crisis, Russia's ban from the Eurovision, Israel bombing a UN shelter, Russian invasion of Ukraine (Crimea too), India's moon mission, US failing to provide more aid to Ukraine, collapse of the Iranian nuclear deal, Taiwan's election as a problem for China
 :::
 
 
 
-## IR Theories Explored this Semester {background-image="libs/Images/background-worldmap4.png" .center .smaller}
+## IR Theories Explored this Semester {background-image="libs/Images/background-worldmap4.png" .center}
 
-- Neorealism
-- Offensive Realism
-- Democratic Peace (Liberal Institutionalism)
-- Economic Liberalism
+::: {.r-fit-text}
+- Realisms: Neorealism, Offensive Realism
+- Liberalisms: Liberal Institutionalism, Economic Liberalism
 - Bargaining Model of War
 - Prisoner's Dilemma
 - Two-Level Bargaining
 - Constructivism
 - Feminist Theory
 - Postcolonial Theory
+:::
 
 ::: notes
 
@@ -139,19 +181,18 @@ All of these theories represent simplifications of reality
 
 
 
-## IR Theories Explored this Semester {background-image="libs/Images/background-worldmap4.png" .center .smaller}
+## IR Theories Explored this Semester {background-image="libs/Images/background-worldmap4.png" .center}
 
-- **Neorealism**
-- **Offensive Realism**
-- **Democratic Peace (Liberal Institutionalism)**
-- **Economic Liberalism**
+::: {.r-fit-text}
+- **Realisms: Neorealism, Offensive Realism**
+- **Liberalisms: Liberal Institutionalism, Economic Liberalism**
 - **Bargaining Model of War**
 - Prisoner's Dilemma
 - Two-Level Bargaining
 - Constructivism
 - Feminist Theory
 - Postcolonial Theory
-]
+:::
 
 ::: notes
 
@@ -174,18 +215,18 @@ The first five models we explored each attack the problem of explaining internat
 
 
 
-## IR Theories Explored this Semester {background-image="libs/Images/background-worldmap4.png" .center .smaller}
+## IR Theories Explored this Semester {background-image="libs/Images/background-worldmap4.png" .center}
 
-- Neorealism
-- Offensive Realism
-- Democratic Peace (Liberal Institutionalism)
-- Economic Liberalism
+::: {.r-fit-text}
+- Realisms: Neorealism, Offensive Realism
+- Liberalisms: Liberal Institutionalism, Economic Liberalism
 - Bargaining Model of War
 - **Prisoner's Dilemma**
 - **Two-Level Bargaining**
 - **Constructivism**
 - **Feminist Theory**
 - **Postcolonial Theory**
+:::
 
 ::: notes
 
@@ -210,7 +251,7 @@ Let's work today on making sure everyone feels comfortable using these five mode
 
 
 
-## IR Theories Explored this Semester {background-image="libs/Images/background-worldmap4.png" .center}
+## Diagramming the Models {background-image="libs/Images/background-worldmap4.png" .center}
 
 <br>
 
@@ -228,6 +269,7 @@ Let's work today on making sure everyone feels comfortable using these five mode
 :::
 
 ::: {.column width="50%"}
+
 **This model explains international political events by emphasizing...**
 
 - Interests?
@@ -261,6 +303,7 @@ Groups get your diagram of this model up on the board
 #### Notes
 
 Prisoner's Dilemma
+
 - **The nature of some institutions/interactions leads actors to choose sub-optimal outcomes, even if they really don't want to!**
 - Interests: Rational actors pursuing positive return
 - Institutions: 1) Uncertainty is high (unknown time horizons, simultaneous decision-making); 2) Available resource is non-excludable (anyone can access it); 3) Biggest rewards for short-term defection OR long-term cooperation
@@ -268,6 +311,7 @@ Prisoner's Dilemma
 - Expectations: Therefore, best outcome is sustained cooperation but too risky so defection the dominant strategy
 
 Two-Level Bargaining
+
 - **Domestic politics is vital for understanding international outcomes!**
 - Interests: Leaders want political survival AND Constituents want specific policies
 - Institutions: Level I (International): Leader vs Leader for policy; Level II (Domestic): Leader vs Constituents for ratification/survival
@@ -275,20 +319,23 @@ Two-Level Bargaining
 - Therefore, domestic politics complicates all international bargaining
 
 Constructivism
+
 - **International politics is international interaction**
 - Interests: Depends on the institutions and interactions
 - Institutions: Depends on the interactions
 - Interactions: Constantly in flux, change is constant, power of norms and discourse, importance of identity, meanings depend on behavior and interpretation
 
 Feminist Theory
+
 - Interests: Don't forget to think about ALL the actors involved in the functioning of states, organizations movements 
 - Institutions: Gender stereotypes as a kind of institution we should be aware of and how they structure interests and interactions
 - Interactions: Power is way more complicated and suffuses all interactions way more then the other theories think it does.
 
 Postcolonial Theory
+
 - Interests: 
-- Institutions: 
-- Interactions: 
+- Institutions: Many rules of the system were designed to perpetuate established power dynamics (not even-handed or designed for cooperation)
+- Interactions: Race as a social construct designed for control, not objective description
 :::
 
 
@@ -298,7 +345,7 @@ Postcolonial Theory
 
 1. Find a NEW international political event you want to focus on for the final paper (no overlap), and
 
-2. Submit at least **TWO** pieces of evidence that help us understand what happened.
+2. Submit at least **TWO** pieces of evidence that describe what happened.
 
 ::: notes
 

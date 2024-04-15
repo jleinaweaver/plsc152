@@ -13,11 +13,13 @@ library(kableExtra)
 
 <br>
 
+::: {.r-fit-text}
+
 **IV. What is the Future of Transnational Politics and IR?**
 
 - Critical Theories of IR: Postcolonialism and Race
 
-<br>
+:::
 
 <br>
 
@@ -32,6 +34,8 @@ Prep for Class
 
 2. Review Canvas submissions
 
+3. Put the review case studies slide back if semester had race case studies
+
 <br>
 
 Today I want to briefly introduce you to a second strand of critical IR theory: Postcolonial Approaches to IR
@@ -45,7 +49,7 @@ Today I want to briefly introduce you to a second strand of critical IR theory: 
 
 
 
-## Enloe (2014) {background-image="libs/Images/background-blue_cubes_lighter3.png" .center}
+## Feminist IR Theory (Enloe 2014) {background-image="libs/Images/background-worldmap4.png" .center}
 
 :::: {.columns}
 ::: {.column width="50%"}
@@ -55,6 +59,9 @@ knitr::include_graphics('libs/Images/13-1-Enloe_Book_Cover.jpg')
 :::
 
 ::: {.column width="50%"}
+
+<br>
+
 1. Where Does Power Operate?
 
 2. Who Takes Seriously the Ideas of Transnational Feminists?
@@ -79,13 +86,8 @@ knitr::include_graphics('libs/Images/13-1-Enloe_Book_Cover.jpg')
 
 
 
-## Postcolonial Case Studies {background-image="libs/Images/background-blue_cubes_lighter3.png" .center}
 
-What did we learn from our work on Monday?
-
-
-
-## {background-image="libs/Images/background-slate_v2.png" .center}
+## Postcolonial IR Theory {background-image="libs/Images/background-worldmap4.png" .center}
 
 :::: {.columns}
 ::: {.column width="50%"}
@@ -95,11 +97,20 @@ knitr::include_graphics('libs/Images/14-1-book_cover.jpeg')
 :::
 
 ::: {.column width="50%"}
+
+<br>
+
+<br>
+
 Postcolonialism tends to emphasize "how societies, governments and peoples in the formerly colonised regions of the world experience international relations" (Nair 2017).
 :::
 ::::
 
 ::: notes
+
+*Read quote on slide*
+
+<br>
 
 I've been asking you to think about "interests" in our models all semester and this literature pushes us to think about those interests more broadly
 
@@ -122,7 +133,7 @@ Everybody open up our Canvas discussion board and review the submissions for tod
 
 
 
-## {background-image="libs/Images/background-slate_v2.png" .center}
+## Postcolonial IR Theory {background-image="libs/Images/background-worldmap4.png" .center}
 
 :::: {.columns}
 ::: {.column width="50%"}
@@ -132,6 +143,10 @@ knitr::include_graphics('libs/Images/14-1-book_cover.jpeg')
 :::
 
 ::: {.column width="50%"}
+
+<br>
+
+
 **Race is:**
 
 + a social phenomenon
@@ -158,11 +173,7 @@ In order to dig into this definition, let's focus on the argument made by the re
 
 
 
-## {background-image="libs/Images/14-1-Race-The-Power-of-an-Illusion_v2.png" .center}
-
-<br>
-
-**"Race" is a tool invented by the powerful in order to control, exclude and exploit the less powerful.**
+## "Race" is a tool invented by the powerful in order to control, exclude and exploit the less powerful {background-image="libs/Images/14-1-Race-The-Power-of-an-Illusion_v3.png" background-size='98%'}
 
 ::: notes
 
@@ -172,18 +183,19 @@ Hot damn that's a huge argument!
 
 These researchers are asking us to accept that "race" is not a fixed thing that exists in the world
 
-- Your race is NOT defined by your genetics or any other immutable characteristic of who you are
-    - Your "race" is not a fact.
+<br>
+
+IF this is correct, then your race is NOT defined by your genetics or any other immutable characteristic of who you are
 
 - It is a fluid concept invented by the powerful in society to protect and preserve their power
 
 <br>
 
-**SLIDE**: This is a big conclusion, so let's evaluate the argument they are making before I ask you to reflect on it.
+**SLIDE**: This is a big conclusion, so let's unpack the argument they are making before I ask you to reflect on it.
 :::
 
 
-## Race in Global Society (p11-16) {background-image="libs/Images/14-1-Race-The-Power-of-an-Illusion_v2.png" .center}
+## Race in Global Society (p11-16) {background-image="libs/Images/background-worldmap4.png" .center}
 
 + ?
 
@@ -235,7 +247,7 @@ Compare notes with the people around you!
 :::
 
 
-## Race in Global Society (p11-16) {background-image="libs/Images/14-1-Race-The-Power-of-an-Illusion_v2.png" .center}
+## Race in Global Society (p11-16) {background-image="libs/Images/background-worldmap4.png" .center}
 
 + "Race" sometimes means "civilization," "spirit," "blood," "nature," "culture" and any combination too
 
@@ -264,7 +276,9 @@ Ok then, assuming we accept this model of the world, how does it help us explain
 
 - The next two sections of the chapter aim to introduce us to the research on the intersection of race with economic development and international security.
 
-- **SLIDE**: Let's explore those while also thinking about some data.
+<br>
+
+**SLIDE**: Let's explore those while also thinking about some data.
 :::
 
 
@@ -273,30 +287,13 @@ Ok then, assuming we accept this model of the world, how does it help us explain
 
 ::: notes
 
-The Fund for Peace is an NGO created in 1957 in order to produce research that would help the world become a safer place.
+The Fund for Peace is an NGO created in 1957
 
-- They are a think tank that focuses on producing and funding research around the world meant to promote global peace and security.
+- They produce and fund research into topics related to global peace and security
 
-<br>
-
-Originally their focus was on supporting efforts to stop nuclear proliferation (post-WW2)
-
-- However, their research showed them how concerns about security would require them to think more broadly about how and why states fail or become the sources of conflict.
-:::
-
-
-
-## The Fragile States Index {background-image="libs/Images/background-slate_v2.png"}
-
-(The Fund for Peace 2023)
+- Their original focus was on nuclear non-proliferation but they have broadened their work over time
 
 <br>
-
-```{r}
-knitr::include_graphics('libs/Images/14-1-Fragile_States_Indicators.png')
-```
-
-::: notes
 
 Each year they produce a report that scores all of the countries in the world on a "Fragile States Index."
 
@@ -312,11 +309,38 @@ They build their index using twelve conflict risk indicators to measure the cond
 
 <br>
 
-Without getting too deeply into the methodology here let's talk about these broad measures. [LINK](https://fragilestatesindex.org/indicators/)
+**SLIDE**: Let's consider the indicators they have selected ([LINK](https://fragilestatesindex.org/indicators/))
+
+:::
+
+
+
+## The Fragile States Index {background-image="libs/Images/background-worldmap4.png"}
+
+(The Fund for Peace 2023)
 
 <br>
 
+```{r}
+knitr::include_graphics('libs/Images/14-1-Fragile_States_Indicators.png')
+```
+
+::: notes
+
+
+<br>
+
+The cohesion indicators describe a country in terms of its:
+
+- Security threats: Domestic threats to stability and the institutions created to address them
+
+- Factionalized elites: How have the leaders in our society organized themselves and come to define "who matters?"
+
+- Group grievance: How divided or polarized is your society?
+
+
 They focus on four broad sources of possible conflict in every country of the world:
+
 - How cohesive is your society?
 
 - How strong is your economy and are the benefits spread widely?
@@ -326,6 +350,13 @@ They focus on four broad sources of possible conflict in every country of the wo
 - How is your country handling social pressures?
 
 <br>
+
+
+
+
+
+
+
 
 ### What are the pros and cons of evaluating the fragility of a country using these four broad categories?
 ### - Anything else important they might be missing?
@@ -486,7 +517,7 @@ Let's not beat around the proverbial bush, Henderson (2013) and many other schol
 
 
 
-## Henderson's (2013) Argument {background-image="libs/Images/background-slate_v2.png" .center}
+## Henderson's (2013) Argument {background-image="libs/Images/background-worldmap4.png" .center}
 
 <br>
 
@@ -544,7 +575,7 @@ Take for example one of the most widely read IR academic journals, Foreign Affai
 
 
 
-## {background-image="libs/Images/background-slate_v2.png"}
+## {background-image="libs/Images/background-worldmap4.png"}
 
 :::: {.columns}
 ::: {.column width="50%"}
@@ -584,7 +615,7 @@ In other words, IR started from a place that assumed your biology (e.g. skin col
 
 
 
-## {background-image="libs/Images/background-slate_v2.png"}
+## {background-image="libs/Images/background-worldmap4.png"}
 
 :::: {.columns}
 ::: {.column width="50%"}
@@ -659,7 +690,7 @@ Why is this a problem for modern Realists?
 
 
 
-## Kant's (1798) Plan for Perpetual Peace {background-image="libs/Images/background-slate_v2.png" .center .smaller}
+## Kant's (1798) Plan for Perpetual Peace {background-image="libs/Images/background-worldmap4.png" .center .smaller}
 
 <br>
 
@@ -690,7 +721,7 @@ In our class we studied both economic liberalism and Kant's plan for perpetual d
 
 
 
-## Kant and the Nazis {background-image="libs/Images/background-slate_v2.png" .center}
+## Kant and the Nazis {background-image="libs/Images/background-worldmap4.png" .center}
 
 <br>
 

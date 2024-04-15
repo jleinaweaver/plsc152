@@ -76,9 +76,9 @@ Data, slides and errata for my class at Drury University (PLSC 152: Intro to Int
 
 13-3-Security_Council_Resolution_1325.html
 
-14-1-Postcolonial_Case_Studies.html
+OMIT-SP-14-1-Postcolonial_Case_Studies.html
 
-14-2-Racism_and_IR_Theory.html
+14-1-Racism_and_IR_Theory.html
 
 14-3-Review_All_Models.html
 

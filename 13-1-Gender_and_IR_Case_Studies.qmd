@@ -77,15 +77,20 @@ For today I asked each of you to go find us a real-world case that includes an i
 ![](libs/Images/13_1-Climate_Change_Gender1.png){.absolute left=0 width="5.3in" height="1.5in"}
 
 ::: notes
-As you may or may not know, a big part of my research is in the study of global climate negotiations.
+As you may or may not know, my research tends to focus on international problem-solving using policy
 
-- I'm fascinated by the world trying to solve a massive problem simultaneously at the domestic and international levels.
+- I'm fascinated by instances of the global community trying to solve a massive problem simultaneously at the domestic and international levels.
 
 <br>
 
-So, when this article came across my desk during the build-up to COP26 (the 26th conference of the parties to the UN Framework Convention on Climate Change) I was drawn right in.
+One particular policy challenge I have been studying for a long time is the disproportionate impacts of climate and weather catastrophes
 
-- **SLIDE**: So, what stood out for me for our purposes today?
+- In short, what should we do when countries experience disasters not of their own making?
+
+<br>
+
+**SLIDE**: And that led me to this story
+
 :::
 
 
@@ -107,27 +112,42 @@ knitr::include_graphics("libs/Images/13_1-Climate_Change_Gender1.png")
 4. What is the role of "gender" in this event?
 
 ::: notes
-1. What is the event?
-    - Specifically, as the climate change conference was beginning a storm in Malawi destroyed the schools in a number of villages
+What is the event?
 
-2. Why international?
-    - Extreme weather events made worse/more likely by climate change are increasing around the world.
-    - Many of the poorest countries who contributed almost nothing to the problem are being hit the hardest.
-    - So, poor countries are being made to pay dearly for the behavior of people in other countries
+- In the build-up to the 26th Conference of the Parties to the UN Framework Convention on Climate Change a weather disaster struck Malawi
+
+- Specifically, as the climate change conference was beginning a storm in Malawi destroyed the schools in a number of villages
+
+<br>
+
+Why is this international?
+
+- Extreme weather events made worse/more likely by climate change are increasing around the world.
+
+- Many of the poorest countries who contributed almost nothing to the problem are being hit the hardest.
+
+- So, poor countries are being made to pay dearly for the behavior of people in other countries
+
+<br>
     
-3. Why is this political?
-    - Countries with limited resources have to make VERY difficult decisions about where to spend to prevent this damage and where to spend to fix the damage
-    
+Why is this political?
+
+- Countries with limited resources have to make VERY difficult decisions about where to spend to prevent this damage and where to spend to fix the damage
+
+<br>    
 4. Why is gender important here?
-    - Per UNESCO, Malawi currently enrolls approximately 37% of eligible students in secondary school (US is basically 100%) and to maintain that rate they estimate a need for 30,000 more classrooms.
-    - This is BEFORE dealing with the current storm damage.
-    - In developing countries like Malawi when serious storm damages occur girls are often kept home to save money for food, are expected to work in the fields or by gathering water from long distances or are married off to older men. 
+
+- Per UNESCO, Malawi currently enrolls approximately 37% of eligible students in secondary school (US is basically 100%) and to maintain that rate they estimate a need for 30,000 more classrooms.
+
+- This is BEFORE dealing with the current storm damage.
+
+- In developing countries like Malawi when serious storm damages occur girls are often kept home to save money for food, are expected to work in the fields or by gathering water from long distances or are married off to older men. 
     
 <br>
     
 So, bottom line, "bad" behavior by other countries creates damage for the developing world and those damages appear to disproportionately harm women and girls.
 
-### - Does this case make sense?
+- **Does this case make sense?**
 :::
 
 
