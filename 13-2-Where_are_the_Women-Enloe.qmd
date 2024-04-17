@@ -13,11 +13,13 @@ library(kableExtra)
 
 <br>
 
+::: {.r-fit-text}
+
 **IV. What is the Future of Transnational Politics and IR?**
 
-- Exploring Critical Theories of IR: Feminist Approaches
+- Critical Theories of IR: Feminist Approaches
 
-<br>
+:::
 
 <br>
 
@@ -37,7 +39,11 @@ Prep for Class
 
 
 
-## Theories of International Relations (so far) {background-image="libs/Images/background-blue_cubes_lighter3.png" .center}
+## {background-image="libs/Images/background-worldmap4.png" .center}
+
+::: {.r-fit-text}
+**Theories of International Relations (so far)**
+:::
 
 + Neorealism
 
@@ -447,7 +453,7 @@ Group 5 walk us through the argument in: Beyond the Global Victim (p32-36)
 
 
 
-## Do our models need to change or do we need an entirely new model focused on gender and IR? {background-image="libs/Images/background-blue_cubes_lighter3.png" .center}
+## Do our models need to change or do we need an entirely new model focused on gender and IR? {background-image="libs/Images/background-worldmap4.png" .center}
 
 + Neorealism
 
@@ -473,7 +479,9 @@ Group 5 walk us through the argument in: Beyond the Global Victim (p32-36)
 
 <br>
 
+::: {.r-fit-text}
 Puechguirbal (2010) on Gender Policy in the UN
+:::
 
 ::: notes
 **Questions on the assignment?**
