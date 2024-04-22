@@ -13,11 +13,13 @@ library(kableExtra)
 
 <br>
 
-**Final Paper Prep**
+::: {.r-fit-text}
 
-- Feedback on Outlines
+**Final Paper Preparations**
 
-<br>
+- Getting and giving feedback on the outlines
+
+:::
 
 <br>
 
@@ -32,7 +34,7 @@ Prep for Class
 :::
 
 
-## Final Exam (Due Dec 12, 10am) {background-image="libs/Images/background-blue_triangles2.png" .center}
+## Final Exam (Due May 6, 10am) {background-image="libs/Images/background-blue_triangles2.png" .center}
 
 <br>
 
@@ -47,7 +49,9 @@ Your paper must consider and evaluate how **THREE** of the IR theories from clas
 - No events used in the prior paper
 
 ::: notes
-**Any questions on the final paper prompt?**
+
+**Questions on the assignment?**
+
 :::
 
 
@@ -72,9 +76,13 @@ Your paper must consider and evaluate how **THREE** of the IR theories from clas
 + Evidence
 
 ::: notes
-**Does everybody have an outline?**
+**Does everybody have a their outline printed or on a screen they can share?**
+
+<br>
 
 *Split class into NEW small groups (no more than 3 each)*
+
+- Please make sure you are not working with the same people as last class
 :::
 
 
@@ -102,7 +110,7 @@ Get to it!
 :::
 
 
-## Final Exam (Due Dec 12, 10am) {background-image="libs/Images/background-blue_triangles2.png" .center}
+## Final Exam (Due May 6, 10am) {background-image="libs/Images/background-blue_triangles2.png" .center}
 
 <br>
 

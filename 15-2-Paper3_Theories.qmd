@@ -13,11 +13,13 @@ library(kableExtra)
 
 <br>
 
-**Final Paper Prep**
+::: {.r-fit-text}
 
-- Strengthening explanations and analyses
+**Final Paper Preperations**
 
-<br>
+- Applying and evaluating the models
+
+:::
 
 <br>
 
@@ -30,13 +32,12 @@ Prep for Class
 
 1. Review submitted work on Canvas (notes from applying models to the cases)
 
-2. *For you:* 10 mins per exercise (event, model 1, model 2, model 3) THEN add exercise focused on identifying your thesis. 
 :::
 
 
 
 
-## Final Exam (Due Dec 12, 10am) {background-image="libs/Images/background-blue_triangles2.png" .center}
+## Final Exam (Due May 6, 10am) {background-image="libs/Images/background-blue_triangles2.png" .center}
 
 <br>
 
@@ -51,7 +52,9 @@ Your paper must consider and evaluate how **THREE** of the IR theories from clas
 - No events used in the prior paper
 
 ::: notes
-**Any questions on the final paper prompt?**
+
+**Questions on the assignment?**
+
 :::
 
 
@@ -60,11 +63,13 @@ Your paper must consider and evaluate how **THREE** of the IR theories from clas
 
 <br>
 
-1. Describe your chosen international political event (cite evidence), 
+::: {.r-fit-text}
 
-2. Use each selected model (x3) to explain your event, and
+1. Submit a description of your chosen event, and
 
-3. Evaluate each model in terms of its strengths and weaknesses (minimum 3 each).
+2. Use each theory to explain your event.
+
+:::
 
 ::: notes
 
@@ -74,90 +79,59 @@ On Monday we made sure everyone had a clear event and had selected three models
 
 Today we make sure each of the three components of the final paper are in really good shape.
 
-1. Can you clearly describe your international political event?
-    - And do you have high quality evidence of the basic facts?
-    
-2. Can you explain the event using each of your three models
-    - Is each explanation complete and coherent?
-    
-3. Can you evaluate the strengths and weaknesses of each explanation?
-    - e.g. provide multiple reasons someone might prefer one model over the others?
-    
 <br>
 
-### Do our goals for today make sense?
+By the end of class today you should have:
+
+- An international political event to explain supported by high quality evidence
+
+- A simple explanation of the event using three models of IR, and
+
+- A start on the strengths and weaknesses of each model applied to your event
+
+<br>
+
+**Do our goals for today make sense?**
+
+<br>
+
+*Split class into groups of 3*
+
+- Go sit with your group
 :::
 
 
 
-## Describe the Event {background-image="libs/Images/15_2-international_flags_v3.png" .center}
+## {background-image="libs/Images/background-worldmap4.png" .center}
 
-<br>
+::: {.r-fit-text}
+**Focus on one paper at a time (15 mins)**
+:::
 
-1. Is this a single, specific event?
+1. Is this a clear international political event?
 
-2. Is it international?
+2. Is each model being used appropriately?
 
-3. Is it political?
-
-4. Are the basic facts established by high quality evidence?
+3. Brainstorm strengths and weaknesses of each model applied to this event
 
 ::: notes
 
-Pair off and review the event!
+Focus on each paper for 15 minutes (use all the time!)
 
-- Make sure you are convinced the other person has convincingly addressed these four things.
-:::
+- Review their event and their use of the three models to explain it
 
-
-
-
-## Explain the Event with ONE Model {background-image="libs/Images/15_2-international_flags_v3.png" .center}
+- Help them brainstorm strengths and weaknesses for each model applied to this event
 
 <br>
 
-1. Fully explain your event
+**Questions on the assignment?**
 
-2. What are the strongest parts of the explanation?
-
-3. What are the weakest parts of the explanation?
-
-::: notes
-
-Change up the pairings!
-
-- Walk the other person through you applying ONE of your models to the event
-
-- Other person, help them flesh out or deepen each of these three pieces.
-
-<br>
-
-Swap up your pairings and now do your second model
+- I'll tell you when to move to the next paper
 
 - Go!
 
-<br>
-
-Swap it up again and do your final model
-
-- Go!
-
-<br>
-
-Ok, time to reflect on your work today.
-
-- I'd be shocked if pitching someone each model hasn't changed your thinking about them
-
-- PLUS their feedback must have given you something of use!
-
-<br>
-
-Take five minutes to decide on the thesis for your paper
-
-- Which model is the most useful? Why?
-
-- Jot down some notes!
 :::
+
 
 
 

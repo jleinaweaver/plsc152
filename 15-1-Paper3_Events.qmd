@@ -13,11 +13,13 @@ library(kableExtra)
 
 <br>
 
-**Final Paper Prep**
+::: {.r-fit-text}
+
+**Final Paper Preparations**
 
 - Reviewing international political events
 
-<br>
+:::
 
 <br>
 
@@ -30,11 +32,32 @@ Prep for Class
 
 1. Review submitted cases and citations
 
+2. IDEA evals day
+
+<br>
+
+By the end of today EVERYONE must have their new international political event chosen.
+
+- Ideally, with time at the end to select the three theories you want to use in the paper!
+
 :::
 
 
 
-## Final Exam (Due Dec 12, 10am) {background-image="libs/Images/background-blue_triangles2.png" .center}
+## IDEA Evaluations {background-image="libs/Images/background-worldmap4.png" .center}
+
+<br>
+
+::: {.r-fit-text}
+https://drury.campuslabs.com/eval-home/
+:::
+
+
+
+
+
+
+## Final Exam (Due May 6, 10am) {background-image="libs/Images/background-blue_triangles2.png" .center}
 
 <br>
 
@@ -60,9 +83,9 @@ Your paper must consider and evaluate how **THREE** of the IR theories from clas
 
 <br>
 
-1. Find a NEW international political event you want to focus on for the final paper (no overlap), and
+1. Find a **NEW** international political event to explain in the final paper (no overlap), and
 
-2. Submit at least **TWO** pieces of evidence that help us understand what happened.
+2. Submit **at least TWO** pieces of evidence that help us understand why this is an international political event.
 
 ::: notes
 
@@ -85,9 +108,13 @@ Our aim for today is to make sure everyone has an international political event 
 
 <br>
 
+::: {.r-fit-text}
+
 1. Is this an international political event?
 
-2. Is the evidence provided sufficiently high quality to establish the key facts?
+2. Is the evidence high quality?
+
+:::
 
 ::: notes
 
@@ -106,16 +133,23 @@ Alright, let's hear all the cases you've picked!
 
 
 
-
 ## For Next Class {background-image="libs/Images/background-blue_triangles2.png" .center}
 
 <br>
 
-1. Submit a brief description of your chosen case, and
+1. Submit a description of your chosen event, and
 
-2. Briefly apply each of your three chosen models to the case and explain **the strengths and the weaknesses** of each model when explaining your event.
+2. Use each theory you have selected to explain your event (2-3 sentences for **EACH** theory)
 
 ::: notes
 **Questions on the assignment?**
+
+<br>
+
+With the time remaining today everyone needs to select their three theories!
+
+- Use each other as resources, bounce ideas around!
+
+- Go!
 :::
 
