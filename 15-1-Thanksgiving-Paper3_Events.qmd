@@ -1,0 +1,155 @@
+---
+format: revealjs
+---
+
+## Today's Agenda {background-image="Images/background-worldmap4.png" .center}
+
+```{r}
+# background-size="1920px 1080px"
+library(tidyverse)
+library(readxl)
+library(kableExtra)
+```
+
+<br>
+
+::: {.r-fit-text}
+
+**Final Paper Preparations**
+
+- Reviewing international political events
+
+:::
+
+<br>
+
+::: r-stack
+Justin Leinaweaver (Fall 2024)
+:::
+
+::: notes
+Prep for Class
+
+1. Review submitted cases and citations
+
+2. IDEA evals day
+
+<br>
+
+By the end of today EVERYONE must have their new international political event chosen.
+
+- Ideally, with time at the end to select the three theories you want to use in the paper!
+
+:::
+
+
+
+## IDEA Evaluations {background-image="Images/background-worldmap4.png" .center}
+
+<br>
+
+::: {.r-fit-text}
+https://drury.campuslabs.com/eval-home/
+:::
+
+
+
+
+
+
+## Final Exam (Due May 6, 10am) {background-image="Images/background-blue_triangles2.png" .center}
+
+<br>
+
+Select a **NEW** international political event and make an argument that one of the IR theories / models we've studied in class this term "best" explains the event. 
+
+Your paper must consider and evaluate how **THREE** of the IR theories from class explain your chosen event.
+
+- No double-dipping on realism/liberalism
+
+- At least one theory from the second half of class
+
+- No events used in the prior paper
+
+::: notes
+
+**Questions on the assignment?**
+
+:::
+
+
+
+## For Today {background-image="Images/background-blue_triangles2.png" .center}
+
+<br>
+
+1. Find a **NEW** international political event to explain in the final paper (no overlap), and
+
+2. Submit **at least TWO** pieces of evidence that help us understand why this is an international political event.
+
+::: notes
+
+Our aim for today is to make sure everyone has an international political event picked out and ready to analyze in the paper.
+
+<br>
+
+### Did everybody submit their case and evidence?
+
+<br>
+
+*Split class into groups of four*
+
+- Go sit with your group!
+:::
+
+
+
+## Present Each Event {background-image="Images/background-blue_triangles2.png" .center}
+
+<br>
+
+::: {.r-fit-text}
+
+1. Is this an international political event?
+
+2. Is the evidence high quality?
+
+:::
+
+::: notes
+
+SMALL GROUPS: Discuss each case and give the presenter feedback on these two points.
+
+<br>
+
+### Questions?
+
+- Get to it!
+
+<br>
+
+Alright, let's hear all the cases you've picked!
+:::
+
+
+
+## For Next Class {background-image="Images/background-blue_triangles2.png" .center}
+
+<br>
+
+1. Submit a description of your chosen event, and
+
+2. Use each theory you have selected to explain your event (2-3 sentences for **EACH** theory)
+
+::: notes
+**Questions on the assignment?**
+
+<br>
+
+With the time remaining today everyone needs to select their three theories!
+
+- Use each other as resources, bounce ideas around!
+
+- Go!
+:::
+

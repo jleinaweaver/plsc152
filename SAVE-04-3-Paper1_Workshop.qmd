@@ -1,0 +1,97 @@
+---
+format: revealjs
+---
+
+## Today's Agenda {background-image="Images/background-worldmap4.png" .center}
+
+```{r}
+# background-size="1920px 1080px"
+library(tidyverse)
+library(readxl)
+```
+
+<br>
+
+<br>
+
+**Writing Workshop**
+
+<br>
+
+<br>
+
+::: r-stack
+Justin Leinaweaver (Fall 2024)
+:::
+
+::: notes
+Prep for Class
+
+1. ...
+:::
+
+
+## Paper 1 {background-image="Images/background-worldmap4.png" .center}
+
+<br>
+
+Find an international political event that you find interesting and would like to explore more deeply. 
+
+Your first paper must make an argument that it is important we understand why this event happened.
+
+::: notes
+
+Paper is due today!
+
+<br>
+
+### Any final questions on the assignment?
+
+<br>
+
+**SLIDE**: The rubric...
+:::
+
+
+
+## Convincing arguments... {background-image="Images/background-worldmap4.png" .center}
+
+<br>
+
+- **Logical**: Do the premises support the conclusion?
+
+- **Clear**: Is the paper easy to read and understand?
+
+- **Credible**: Is there enough high quality evidence (cited using APA)?
+
+- **Critical**: Does the paper address weaknesses in the argument (e.g. logic, evidence, consider counter-arguments)?
+
+::: notes
+
+Keep my writing rubric in mind as you write and revise!
+
+<br>
+
+### Any questions on the rubric?
+
+<br>
+
+**SLIDE**: Before I let you get to work...
+:::
+
+
+
+## Assignment for Next Class {background-image="Images/background-blue_triangles.jpg" .center}
+
+<br>
+
+1. "Democratic Peace" readings in the syllabus
+
+2. **Before class** submit to our Canvas discussion board:
+
+Generally speaking, do you believe Kant's proposal, or any other international rules, could succeed in preventing most future wars?
+
+::: notes
+**Questions?**
+:::
+

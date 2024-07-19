@@ -1,0 +1,532 @@
+---
+format: revealjs
+---
+
+## Today's Agenda {background-image="Images/background-worldmap4.png" .center}
+
+```{r}
+# background-size="1920px 1080px"
+library(tidyverse)
+library(readxl)
+```
+
+<br>
+
+<br>
+
+Hultman, Kathman & Shannon (2016). United Nations Peacekeeping Dynamics and the Duration of Post-Civil Conflict Peace.
+
+- Critically analyze the conclusions
+
+<br>
+
+::: r-stack
+Justin Leinaweaver (Fall 2024)
+:::
+
+::: notes
+Prep for Class
+
+1. ...
+
+<br>
+
+### DISCUSS: Name me an international political event that has happened since we last met as a class.
+:::
+
+
+
+## {background-image="Images/07_2-HKS-page1.png" .center  background-size='88%'}
+
+::: notes
+
+Today we continue working on our analyses of the Hultman, L., Kathman, J. & Shannon, M. (2016) paper.
+
+<br>
+
+### Remind me, what is the big research question here?
+- (Does UN intervention in post-conflict zones promote peace?)
+
+- (How effective is the UN in promoting peace after civil wars?)
+
+- (Does it matter how many or what kinds of troops are needed to promote peace after civil wars?)
+:::
+
+
+
+## Hultman, Kathman & Shannon (2016) {background-image="Images/background-worldmap4.png" .center}
+
+<br>
+
+**Diagram the Model**
+
+- Who are the key **Interests**?
+
+- What are the key **Institutions**?
+
+- What are the key **Interactions**?
+
+::: notes
+
+OK, map out the model for me.
+
+### What are the key interests, institutions and interactions in this model?
+
+INTERESTS
+- Combatants who want peace
+- UN wants stabilization of a post-conflict area
+
+INSTITUTIONS
+- Anarchy of post-civil war conflict, no information, no trust
+
+INTERACTIONS
+- Combatants face commitment and information problems
+- UN uses the number, timing and type of PKOs to promote a durable peace.
+:::
+
+
+
+
+## {background-image="Images/background-worldmap4.png" .center}
+
+**Is this paper a "good" test of the bargaining model of war?**
+
+```{r, fig.align='center'}
+knitr::include_graphics('Images/06_3-diplomacy1.png')
+```
+
+::: notes
+**In what specific ways is this paper a "good" test of the Bargaining Model of War?**
+
+<br>
+
+**How does it connect UN troops to the costs, risks and inefficiency of war?**
+:::
+
+
+## Assignment for Next Class {background-image="Images/background-blue_triangles.jpg" .center}
+
+<br>
+
+Hultman, Kathman & Shannon (2016) on United Nations Peacekeeping
+
+- Read the analysis and conclusion (p238-246)
+
+::: notes
+
+For today I asked you to come to class ready to evaluate the analyses in this paper.
+
+### How did that go?
+### - What parts of the analysis were hardest to understand?
+
+<br>
+
+I think the easiest way to start this process is by identifying the final conclusions of the paper.
+
+<br>
+
+Everybody go to the "Discussion and conclusion" section on p245.
+
+### What are the final conclusions made by the authors at the end of the paper?
+
+- (**SLIDE**)
+:::
+
+
+
+## Conclusion: The UN succeeds when... {background-image="Images/07_2-UN_Flag2.png" .center}
+
+<br>
+
+1. Successful UN peacekeeping missions address "the security challenges to former belligerents" by providing "a greater number of troops" on the ground (246).
+
+2. "...increasing the deployment of observer and police personnel is not likely to yield positive outcomes" (246).
+
+::: notes
+
+Assume for the moment these conclusions are "correct."
+
+### Do these two conclusions mean the bargaining model is or is not useful as a tool for explaining why wars start?
+
+<br>
+
+### How do we understand the effectiveness of troops against the ineffectiveness of observers? Doesn't that mean the model is unhelpful?
+
+- (Maybe this is the difference between bluffing with "observers" and signaling a serious international commitment with troops willing to use violence?)
+:::
+
+
+
+## High, Low or No Confidence? {background-image="Images/07_2-UN_Flag2.png" .center}
+
+<br>
+
+1. Successful UN peacekeeping missions address "the security challenges to former belligerents" by providing "a greater number of troops" on the ground (246).
+
+2. "...increasing the deployment of observer and police personnel is not likely to yield positive outcomes" (246).
+
+::: notes
+
+Our goal for today is to evaluate our level of confidence in these two conclusions.
+
+- Do we walk away from this paper thinking the UN is or is not effective at prolonging peace after civil wars?
+
+### Everybody clear on the goal?
+
+:::
+
+
+
+## High, Low or No Confidence? {background-image="Images/07_2-UN_Flag2.png" .center}
+
+<br>
+
+1. Successful UN peacekeeping missions address "the security challenges to former belligerents" by providing "a greater number of troops" on the ground (246).
+
+2. "...increasing the deployment of observer and police personnel is not likely to yield positive outcomes" (246).
+
+<br>
+
+**Data Sources and Case Selection**
+
+::: notes
+
+<br>
+
+Let's start with the data sources and case selection.
+
+### Any questions on what those two concepts mean?
+- (Where did they get the data from?)
+- (What did they include and exclude in their dataset?)
+
+<br>
+
+Five minutes on your own, get ready to make an argument about our confidence in their data selection.
+- *note the research design section p238*
+
+<br>
+
+Share your argument with the people around you, get ready to bring those arguments to the class.
+
+<br>
+
+**Ok, what data did they use?**
+
+Cases
+
+- Only African civil wars
+- 1989 - 2010 (post cold war)
+- Lots of variation in types of war and types of intervention
+- End of cold war should remove barrier to UNSC acting in these cases
+- Uppsala Conflict Data Program (UCDP)
+
+UN peacekeeping mission capacity
+- three variables
+
+<br>
+
+### How confident are you in the data they selected for the test they are running? High, low or no confidence?
+:::
+
+
+
+## {background-image="Images/07_3-Table1.png" background-size='85%'}
+
+::: notes
+
+Our next job is to evaluate the operationalizations and measurements in the paper.
+
+- In other words, how do the researcher move from conceptual ideas to actual measures of these things in the real world?
+
+<br>
+
+The descriptive statistics table is SUPER useful for this discussion.
+
+- They often represent our only chance to audit the sample and to get a sense of what the world looks like in this research paper.
+
+<br>
+
+Let's briefly talk basic descriptive statistics.
+
+### Explain to me what each column represents
+- (Mean: The average)
+- (SD: The spread of data around the average)
+- (Min: The smallest value)
+- (Max: The largest value)
+
+<br>
+
+Let's apply these stats to make sure that is clear.
+
+### What is the key outcome they are trying to explain and how is it measured?
+- (Peace duration in months (?))
+
+### And what do we learn about post-conflict peace from these descriptive stats?
+- (On average, peace lasts almost 7 years after war)
+    - BUT shortest was only 1 month!
+    - Longest was 22 years!
+    
+<br>
+    
+So, the purpose of the research is to see if we can explain why some states prolong peace and others do not.
+- AND could the UN be the difference?
+
+### Make sense?
+:::
+
+
+## {background-image="Images/07_3-Table1.png" background-size='85%'}
+
+::: notes
+**Talk me through the other key variables: What do we learn from these statistics about UN missions to post conflict zones?**
+
+- Troop missions WAY bigger than the other two
+- Troops > Police > Observers
+- avg troops deployed 1,400 vs only 44 police! Of course the effect of police is smaller/unable to be measured?!?
+
+<br>
+
+Regime type measure from Polity runs from -10 (full dictatorship) to +10 (full democracy)
+
+### - What do we learn about post-conflict states from this variable?
+- (Run the full gamut BUT avg near 0, anocracy)
+- Makes sense that conflict zones lack sufficient control for either dictators or democracies to thrive
+
+<br>
+
+### What proportion of the conflicts ended in a negotiation? What proportion in a victory? Make sense for places that need UN missions?
+- (33% negotiation, 21% victory)
+
+<br>
+
+GDP per capita, e.g. average economic size or wealth of a country, is included here in the log scale.
+- The average GDP pc is only $972 (min $133, max $4,865)
+
+### What does that tell us about economic wealth in post-conflict zones?
+
+<br>
+
+Population is also in the log scale
+- The average population is only 10,614 (min 507, max 142,94)
+- I don't understand what country in the sample has a population of 500...
+
+### What does that tell us about the size of post-conflict zones?
+
+<br>
+
+### Questions about any of the other variables?
+:::
+
+
+
+## {background-image="Images/background-worldmap4.png" .center}
+
+:::: {.columns}
+::: {.column width="50%"}
+**Analyses**
+
+**High, Low or No Confidence?**
+:::
+
+::: {.column width="50%"}
+```{r, fig.align='center'}
+knitr::include_graphics('Images/07_3-table2.png')
+```
+:::
+::::
+
+::: notes
+
+Here are the main regression results from their analyses.
+
+### Does anybody have prior experience reading or working with regression results?
+
+### Based only on the writing in the paper, do the authors do a good job helping you understand what we learn from this? Why or why not?
+
+<br>
+
+This is not a stats class and I really don't want this to stress you out at all.
+
+- A regression is simply a tool for evaluating relationships in numerical data.
+
+- The power of a regression approach comes from being able to examine our key hypotheses while adjusting for other things you think are important in the world of your model.
+
+<br>
+
+The first thing to note here is that the table includes three models or separate tests of the hypotheses.
+
+- Each column represents a separate test.
+
+- Models 1 and 2 look at all of the cases.
+
+- Model 3 looks at a specific subset of cases where you might expect peace to be more likely (the easy cases for the UN)
+
+The rows represent the different variables they may include when testing their model.
+:::
+
+
+
+## {background-image="Images/07_3-table2-1.png"  background-size='95%'}
+
+::: notes
+
+These authors are essentially focused on the first three rows here.
+
+- They want to see what happens to the risk of conflict when you increase UN troops, observers or police.
+
+- The extra rows allow them to check on the effects after adjusting them for other possibly important dynamics (e.g. population size, GDP per capita and the kind of government in place.)
+
+<br>
+
+So, in Model 1 the regression estimates that adding 1 additional UN troop into a post-conflict zone is associated with an average reduction in the risk of war by .0005.
+
+- That's super tiny but makes sense given you're only talking about one trooper.
+
+- However, adding troops in the thousands can start to add up!
+
+<br>
+
+### Does everybody understand the structure of the table?
+
+- Columns are models, rows are the variables
+
+- Where the rows and columns intersect are the estimated effect sizes
+:::
+
+
+
+## {background-image="Images/07_3-table2-2.png"  background-size='95%'}
+
+::: notes
+
+Interpreting the estimated coefficients can be complicated so I will ask you to think about these four things and not to try to get too in the weeds on this.
+
+1. Direction of Effect
+    - Is the effect positive or negative?
+    - e.g. Does adding troops raise or lower the risks of war?
+2. Size of Effect
+    - How many troops do we have to add to impact the likelihood of war?
+    - This can be very hard to interpret
+3. Significance of Effect
+    - Are the coefficients significant? e.g. look for stars!
+    - In short, does the regression model fit the data well? 
+4. Robustness of Effect
+    - For each main variable do the coefficients "point" in the same direction, with the same approximate size and are they all significant across all of the models?
+    
+### Questions on these four?
+
+<br>
+
+### So, how do these results look according to the four criteria?
+
+- Hypothesis 1: Adding troops reduces the risk of violence on average, BUT the effect looks small.
+
+- Hypothesis 2: Adding observers appears to reduce the risk of violence on average BUT not significant in the models.
+
+- Hypothesis 2: Adding police makes violence more likely on average BUT but also not significant.
+
+<br>
+
+Long story short, the regression analysis in this paper allows the researchers to simultaneously examine 13k cases of UN interventions!
+
+- This means they are trying to evaluate the usefulness of their model using a TON of data!
+
+- Regression is a very powerful tool!
+:::
+
+
+
+
+## {background-image="Images/07_3-Figure2.png"  background-size='75%'}
+
+::: notes
+
+Good research papers will always include some attempt to visualize the regression results in a much more understandable way.
+- These authors do that with Figure 2.
+
+### How do we interpret the lines on Figure 2?
+(described p241)
+
+- y-axis is the risk of violence (higher is bad)
+
+- x-axis is the amount of time since the intervention (time moves to the right)
+
+- The lines represent different hypothetical interventions: 0 troops, 1500 troops and 3000 troops
+
+<br>
+
+### What do we learn from this figure?
+
+- The risk of violence decreases over time REGARDLESS of intervention!
+    - e.g. the longer the peace time lasts, the less risk of future violence
+
+- The risk of violence is highest immediately after the conflict stops
+
+- With enough troops in place we can achieve the kinds of low risk that typically takes YEARS to achieve (60 months or 5 years) right away.
+
+<br>
+
+### Is this a useful way to present the analyses? Why or why not?
+
+#### - Do they help you understand the results better?
+
+:::
+
+
+
+## High, Low or No Confidence? {background-image="Images/07_2-UN_Flag2.png" .center}
+
+<br>
+
+1. Successful UN peacekeeping missions address "the security challenges to former belligerents" by providing "a greater number of troops" on the ground (246).
+
+2. "...increasing the deployment of observer and police personnel is not likely to yield positive outcomes" (246).
+
+::: notes
+**So, bottom line, how confident are you in these conclusions?**
+
+<br>
+
+### 1. Do you walk away believing that UN troops can be good peacekeepers? Why or why not?
+
+<br>
+
+### 2. Do you walk away more convinced that the bargaining model of war is useful? Why or why not?
+
+<br>
+
+### 3. How does our exploration of this article help you think about the debates we started the week with?
+
+#### - Should the US defund the UN?
+
+#### - Is the UN too weak to be useful?
+
+#### - Is the UN too powerful to be trusted?
+:::
+
+
+
+## Assignment for Next Class {background-image="Images/background-blue_triangles.jpg" .center}
+
+<br>
+
+Review your notes for all of the models we've explored in class
+
+- Models: Neorealism, Offensive Realism, Democratic Peace, Economic Liberalism, and the Bargaining Model of War
+
+::: notes
+
+Friday we start working on your second paper.
+
+- To get ready for that I want each of you to organize and review your notes on these IR models
+
+- You should be able to diagram the key elements of each, AND
+
+- Explain how you would use each of them to explain international political events
+
+<br>
+
+### Questions on the assignment?
+:::
+
+
