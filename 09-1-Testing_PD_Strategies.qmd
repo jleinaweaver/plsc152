@@ -41,7 +41,7 @@ Today I'd like us to explore PD strategies and what those strategies tell us abo
 
 <br>
 
-### Refresh my memory, what is the dilemma that the Prisoner's Dilemma model is meant to help us understand?
+**Refresh my memory, what is the dilemma that the Prisoner's Dilemma model is meant to help us understand?**
 
 - (Why is it so hard for groups to cooperate under certain conditions?)
 - (When goods are rivalrous and uncertainty is high, actors who prefer cooperation may still choose to defect!)
@@ -277,11 +277,7 @@ Game theorists of every stripe, e.g. political scientists, economists, etc, have
 
 <br>
 
-*Split the class into groups*
-
-- *If groups of 5, then one strategy to each person*
-
-- *If groups of 6, then one person records results on board*
+*Split the class into FIVE groups, one group per strategy*
 
 <br>
 
@@ -329,9 +325,9 @@ tibble(
 ::::
 
 ::: notes
-Groups, your job is to test each of the five strategies against all of the others
+Groups, your job is to test YOUR strategy against all of the others
 
-- We need to know how many points each strategy is worth when it goes up against each of the other strategies
+- We need to know how many points YOUR strategy is worth when it goes up against each of the other strategies
 
 - I will ask you to test each pair of strategies against each other 10x and record the result on the board
 
@@ -423,6 +419,17 @@ Shkrum, A, Natalukha, D. and Vasylenko, L. (2023, Feb 23). [Russia Doesn’t Bel
 
 ### Should the world escalate its strategy here by kicking Russia out of the UN? Why or why not?
 :::
+
+
+
+## Assignment for Next Class  {background-image="Images/background-blue_triangles2.png" .center}
+
+<br>
+
+::: {.r-fit-text}
+Writing Workshop
+:::
+
 
 
 

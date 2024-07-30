@@ -8,7 +8,7 @@
 <link href="09-2-Paper2_Workshop_files/libs/quarto-html/light-border.css" rel="stylesheet">
 <link href="09-2-Paper2_Workshop_files/libs/quarto-html/quarto-html.min.css" rel="stylesheet" data-mode="light">
 <link href="09-2-Paper2_Workshop_files/libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
-  <meta name="generator" content="quarto-1.3.433">
+  <meta name="generator" content="quarto-1.4.555">
 
   <title>paper2_workshop</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
@@ -155,7 +155,8 @@
   }
 
   .callout.callout-titled .callout-body > .callout-content > :last-child {
-    margin-bottom: 0.5rem;
+    padding-bottom: 0.5rem;
+    margin-bottom: 0;
   }
 
   .callout.callout-titled .callout-icon::before {
@@ -407,12 +408,18 @@
 <section id="assignment-for-next-class" class="slide level2 center" data-background-image="Images/background-blue_triangles2.png">
 <h2>Assignment for Next Class</h2>
 <p><br></p>
+<p>Is the world free-riding on US contributions to the United Nations?</p>
 <ol type="1">
-<li><p>Read excerpt from Tomz (2007) “Domestic Audience Costs in International Relations: An Experimental Approach”</p></li>
-<li><p><strong>Submit to Canvas</strong>: Based on your experience living in a democracy (and the reading), do you believe that “audience costs” are a real thing that political leaders worry about? Why or why not?</p></li>
+<li><p>Council on Foreign Relations Editors (2023, Mar 13)</p></li>
+<li><p>Bolton (2017)</p></li>
+<li><p>Martin (2017)</p></li>
 </ol>
 <aside class="notes">
-<p><strong>Questions on the assignment?</strong></p>
+<p>Next class we explore a real-world collective action problem</p>
+<ul>
+<li><p>Is the world free-riding on US contributions to the United Nations?</p></li>
+<li><p>If so, what should we do about it?</p></li>
+</ul>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -424,8 +431,10 @@
           overflow: hidden!important;
           display:block!important;
       }</style></aside>
+<div class="quarto-auto-generated-content">
 <div class="footer footer-default">
 
+</div>
 </div>
 </section>
     </div>
@@ -454,7 +463,6 @@
       Reveal.initialize({
 'controlsAuto': true,
 'previewLinksAuto': false,
-'smaller': false,
 'pdfSeparateFragments': false,
 'autoAnimateEasing': "ease",
 'autoAnimateDuration': 1,
@@ -753,10 +761,27 @@
         // clear code selection
         e.clearSelection();
       });
-      function tippyHover(el, contentFn) {
+        var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+        var mailtoRegex = new RegExp(/^mailto:/);
+          var filterRegex = new RegExp('/' + window.location.host + '/');
+        var isInternal = (href) => {
+            return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+        }
+        // Inspect non-navigation links and adorn them if external
+     	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool)');
+        for (var i=0; i<links.length; i++) {
+          const link = links[i];
+          if (!isInternal(link.href)) {
+            // undo the damage that might have been done by quarto-nav.js in the case of
+            // links that we want to consider external
+            if (link.dataset.originalHref !== undefined) {
+              link.href = link.dataset.originalHref;
+            }
+          }
+        }
+      function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
         const config = {
           allowHTML: true,
-          content: contentFn,
           maxWidth: 500,
           delay: 100,
           arrow: false,
@@ -766,8 +791,17 @@
           interactive: true,
           interactiveBorder: 10,
           theme: 'light-border',
-          placement: 'bottom-start'
+          placement: 'bottom-start',
         };
+        if (contentFn) {
+          config.content = contentFn;
+        }
+        if (onTriggerFn) {
+          config.onTrigger = onTriggerFn;
+        }
+        if (onUntriggerFn) {
+          config.onUntrigger = onUntriggerFn;
+        }
           config['offset'] = [0,0];
           config['maxWidth'] = 700;
         window.tippy(el, config); 
@@ -781,7 +815,11 @@
           try { href = new URL(href).hash; } catch {}
           const id = href.replace(/^#\/?/, "");
           const note = window.document.getElementById(id);
-          return note.innerHTML;
+          if (note) {
+            return note.innerHTML;
+          } else {
+            return "";
+          }
         });
       }
       const findCites = (el) => {

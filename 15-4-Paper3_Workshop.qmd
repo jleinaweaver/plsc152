@@ -34,7 +34,7 @@ Prep for Class
 :::
 
 
-## Final Exam (Due May 6, 10am) {background-image="Images/background-blue_triangles2.png" .center}
+## Final Exam (Due Dec 9, 10am) {background-image="Images/background-blue_triangles2.png" .center}
 
 <br>
 
@@ -110,7 +110,7 @@ Get to it!
 :::
 
 
-## Final Exam (Due May 6, 10am) {background-image="Images/background-blue_triangles2.png" .center}
+## Final Exam (Due Dec 9, 10am) {background-image="Images/background-blue_triangles2.png" .center}
 
 <br>
 

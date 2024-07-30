@@ -3,7 +3,7 @@ format: revealjs
 ---
 
 
-## Intro to International Relations {background-image="Images/background-worldmap4.png" .center}
+## Intro to International Relations {background-image="./Images/background-worldmap4.png" .center}
 
 ```{r}
 # background-size="1920px 1080px"

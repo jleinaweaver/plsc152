@@ -49,7 +49,7 @@ Welcome back all
 
 2. **Before class** submit to Canvas:
     - Were you convinced by Khodorkovsky's (2023) argument?
-    - Were you convinced by Van Hollen's (2023) argument?
+    - Were you convinced by XXX's (2024) argument?
 
 ::: notes
 **Questions on the participation assignment for today?**
@@ -586,11 +586,15 @@ knitr::include_graphics("Images/01_2-VanHollen2023.png")
 
 <br>
 
-Therefore, the US should condition future military aid to Israel on a requirement they produce "a verifiable plan" to reduce civilian casualties and "fully cooperate with our efforts to provide humanitarian assistance to civilians in Gaza"
+Therefore, the US should condition future military aid to Israel on a requirement they reduce civilian casualties and "fully cooperate with our efforts to provide humanitarian assistance"
 :::
 ::::
 
 ::: notes
+Long version: Therefore, the US should condition future military aid to Israel on a requirement they produce "a verifiable plan" to reduce civilian casualties and "fully cooperate with our efforts to provide humanitarian assistance to civilians in Gaza"
+
+<br>
+
 **Everybody ok with using this as our target?**
 
 - **Any tweaks needed?**
@@ -664,7 +668,7 @@ Therefore, the US should oppose the "resumption of hostilities" until Israel pro
 
 - How Israel prosecutes this war matters and will impact not only Israel’s security but also the future of the entire region.
 
-Therefore, the US should condition future military aid to Israel on a requirement they produce "a verifiable plan" to reduce civilian casualties and "fully cooperate with our efforts to provide humanitarian assistance to civilians in Gaza"
+Therefore, the US should condition future military aid to Israel on a requirement they reduce civilian casualties and "fully cooperate with our efforts to provide humanitarian assistance"
 
 ::: notes
 
