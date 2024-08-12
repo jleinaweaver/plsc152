@@ -43,30 +43,24 @@ Welcome back all
 
 ## Assignment for Today {background-image="Images/background-worldmap4.png"  .center}
 
-<br>
-
-1. Complete the readings, and
-
-2. **Before class** submit to Canvas:
-    - Were you convinced by Khodorkovsky's (2023) argument?
-    - Were you convinced by XXX's (2024) argument?
+```{r, fig.align='center'}
+knitr::include_graphics("Images/01_1-Canvas_Modules2_SP24.png")
+```
 
 ::: notes
-**Questions on the participation assignment for today?**
+**Before we talk about the arguments themselves, how did the task go for you?**
+
+- **How often have you been asked to do this kind of exercise before?**
 
 <br>
 
-### Before we talk about the arguments themselves, how did the task go for you? 
-### - How often have you been asked to do this kind of exercise before?
-
-<br>
-
-### Did you scroll through the responses after submitting?
+**Did you scroll through the responses after submitting?**
 
 <br>
 
 **SLIDE**: Let's start by talking about the quality of an argument.
 :::
+
 
 
 ## {background-image="Images/01_2-Girl_yells_yak.jpg"  .center}
@@ -75,20 +69,24 @@ Welcome back all
 
 Bad arguments are everywhere and are common in the political arena.
 
-### How do you judge whether an argument is "good" or "bad"?
-+ (Ultimately, the judge of an argument's quality is whether or not it convinces people of its thesis.)
+- **How do you, personally, judge whether an argument is "good" or "bad"?**
 
 <br>
 
-### What is a thesis?
+In academic terms, our definition of a good argument tends to focus on whether it convinces you of its thesis
+
+- **What is a thesis?**
+
 + (The central idea of your argument.)
 + The thing you want people to take away from it.
 
 <br>
 
-### When was the last time in your life someone changed your mind about something with an argument? Examples?
+**When was the last time in your life someone changed your mind about something with an argument? Examples?**
 
-#### - How specifically did they do it? Certain strategies employed?
+<br>
+
+**How specifically did they do it? Certain strategies employed?**
 
 <br>
 
@@ -167,21 +165,21 @@ I want to use the Labossiere reading to highlight the key components of a high q
 
 <br>
 
-### According to Labossiere (2008), what is the conclusion of an argument?
+**REVEAL: According to Labossiere (2008), what is the conclusion of an argument?**
+
 + (This is the main point of the argument, e.g. the thesis or key takeaway)
 
 <br>
 
-### According to Labossiere (2008), what is a premise?
+**REVEAL: According to Labossiere (2008), what is a premise?**
+
 + (A premise is a claim given as evidence or a reason for accepting the conclusion.)
 
-So, the basic structure of every logical argument is a series of premises that support a conclusion.
-
-### Make sense?
+- So, the basic structure of every logical argument is a series of premises that support a conclusion.
 
 <br>
 
-Induction represents how we think about the quality of the connection between our premises and our conclusion.
+REVEAL: Induction represents how we think about the quality of the connection between our premises and our conclusion.
 
 - In this class, and throughout the social sciences, we tend to rely on inductive reasoning.
 
@@ -223,30 +221,46 @@ Induction represents how we think about the quality of the connection between ou
 
 ### Questions on the basic structure of an inductive argument?
 
+:::
+
+
+## Inductive Arguments {background-image="Images/background-slate_v2.png" .center}
+
+**Quality: Weak to Strong**
+
 <br>
 
-Inductive arguments can also be classified as either strong or weak.
+- In the summer, there are ducks on our pond. Therefore, summer will likely bring ducks to our pond.
 
-- Our goal is to make arguments as strong as possible because stronger arguments are more likely to be convincing arguments!
+- Every cat that you've observed purrs. Therefore, most cats must purr.
 
-- A "strong" inductive argument "succeeds in having its conclusion be probably true, given the truth of the premises" ([Critical thinking book](https://iu.pressbooks.pub/shockeyphilp102summer/chapter/inductive-arguments/)).
+- All the children in this daycare center like to play with Lego. Therefore, all children probably like to play with Lego.
+
+::: notes
+
+Inductive arguments can also be classified along a continuum of weak to strong.
+
+<br>
+
+A "strong" inductive argument "succeeds in having its conclusion be probably true, given the truth of the premises" ([Critical thinking book](https://iu.pressbooks.pub/shockeyphilp102summer/chapter/inductive-arguments/)).
 
 - In other words, if we assume these premises are true is the conclusion more likely to be true.
 
 <br>
 
-### Are all of these "strong" inductive arguments? Why or why not?
-- (They are, but that doesn't mean they have to be convincing!)
+**Are all of these "strong" inductive arguments? Why or why not?**
 
-### What could we add to make each of these a more convincing "strong" inductive argument?
-- (Arg 1: Premises related to the size of the pond, the location of the pond in the path of well established duck migration patterns, data on duck presence in nearby ponds, etc)
-
-- (Arg 2: Premises related to how many cats you've observed, observations made by others, etc)
+- (Yes!)
 
 <br>
 
-### What do we learn about inductive arguments now that we know these are "strong" examples?
-- They are tentative at best!
+**Are these convincing arguments? Why or why not?**
+
+- **What could you add to each to make them more convincing?**
+
+<br>
+
+Keep in mind: strong inductive arguments DOES NOT MEAN convincing!
 
 - You're making an educated or informed guess based on the information or data that you have.
 
@@ -266,9 +280,12 @@ Inductive arguments can also be classified as either strong or weak.
 
 + Inductive Arguments
 
+
 ::: notes
 
 So, this represents the crux of the "logic" portion of our class writing rubric.
+
+<br>
 
 The arguments you make in this class must be logical and that means they are:
 
@@ -318,26 +335,16 @@ Ok, the first argument we need to evaluate was written by Mikhail Khodorkovsky. 
 :::
 
 
-## {background-image="Images/background-worldmap4.png" .center}
 
-:::: {.columns}
-::: {.column width="50%"}
+## {background-image="Images/background-worldmap4.png"}
+
+::: {.r-fit-text}
+What is the conclusion of this argument?
+:::
+
 ```{r, fig.align='center'}
 knitr::include_graphics("Images/01_2-Khodorkovsky2023.png")
 ```
-:::
-
-::: {.column width="50%"}
-
-<br>
-
-<br>
-
-<br>
-
-What is the **conclusion** in this argument?
-:::
-::::
 
 ::: notes
 
@@ -357,24 +364,17 @@ Let's start by identifying the central conclusion in the argument.
 :::
 
 
-## {background-image="Images/background-worldmap4.png" .center}
 
-:::: {.columns}
-::: {.column width="50%"}
+
+## {background-image="Images/background-worldmap4.png"}
+
 ```{r, fig.align='center'}
 knitr::include_graphics("Images/01_2-Khodorkovsky2023.png")
 ```
-:::
-
-::: {.column width="50%"}
-
-<br>
 
 <br>
 
 Therefore, the US must increase its financial and military support for Ukraine immediately (and stop any consideration of negotiations or ceasefires).
-:::
-::::
 
 ::: notes
 
@@ -400,26 +400,16 @@ We have to evaluate the Logic, Clarity, Credibility and Critical Analysis in the
 :::
 
 
-## {background-image="Images/background-worldmap4.png" .center}
 
-:::: {.columns}
-::: {.column width="50%"}
+## {background-image="Images/background-worldmap4.png"}
+
 ```{r, fig.align='center'}
 knitr::include_graphics("Images/01_2-Khodorkovsky2023.png")
 ```
-:::
-
-::: {.column width="50%"}
-
-<br>
-
-<br>
 
 <br>
 
 Identify the **three most important premises** in this argument
-:::
-::::
 
 ::: notes
 
@@ -479,7 +469,7 @@ Alright, let's get ideas up *ON THE BOARD*
 
 - If we don't act now to defend Ukraine (arms and money) we will be forced to fight in the future
 
-Therefore, we must defeat Russia in Ukraine.
+Therefore, the US must increase its financial and military support for Ukraine immediately (and stop any consideration of negotiations or ceasefires).
 
 ::: notes
 **Per the rubric, are these premises clear?**
@@ -543,24 +533,13 @@ Our second argument comes from Senator Chris Van Hollen
 
 ## {background-image="Images/background-worldmap4.png" .center}
 
-:::: {.columns}
-::: {.column width="50%"}
 ```{r, fig.align='center'}
 knitr::include_graphics("Images/01_2-VanHollen2023.png")
 ```
-:::
 
-::: {.column width="50%"}
-
-<br>
-
-<br>
-
-<br>
-
+::: {.r-fit-text}
 What is the **conclusion** in this argument?
 :::
-::::
 
 ::: notes
 
@@ -575,20 +554,13 @@ Just as we did before, let's start by identifying the conclusion.
 
 ## {background-image="Images/background-worldmap4.png" .center}
 
-:::: {.columns}
-::: {.column width="50%"}
 ```{r, fig.align='center'}
 knitr::include_graphics("Images/01_2-VanHollen2023.png")
 ```
-:::
-
-::: {.column width="50%"}
 
 <br>
 
 Therefore, the US should condition future military aid to Israel on a requirement they reduce civilian casualties and "fully cooperate with our efforts to provide humanitarian assistance"
-:::
-::::
 
 ::: notes
 Long version: Therefore, the US should condition future military aid to Israel on a requirement they produce "a verifiable plan" to reduce civilian casualties and "fully cooperate with our efforts to provide humanitarian assistance to civilians in Gaza"
@@ -601,26 +573,16 @@ Long version: Therefore, the US should condition future military aid to Israel o
 :::
 
 
-## {background-image="Images/background-worldmap4.png" .center}
 
-:::: {.columns}
-::: {.column width="50%"}
+## {background-image="Images/background-worldmap4.png"}
+
 ```{r, fig.align='center'}
 knitr::include_graphics("Images/01_2-VanHollen2023.png")
 ```
-:::
-
-::: {.column width="50%"}
-
-<br>
-
-<br>
 
 <br>
 
 Identify the **three most important premises** in this argument
-:::
-::::
 
 ::: notes
 
@@ -730,15 +692,19 @@ For Monday we start by trying to define the most important concepts of our semes
 
 <br>
 
+### What do you have to have completed before our next class?
+
+::: notes
+
+**Check the syllabus and Canvas modules and report back!**
+
+<br>
+
 1. Find a **recent** "international political event" described in the news, and
 
 2. **Before class** submit to Canvas:
     - An APA citation for your source, and 
     - Explain why this event is "international," "political" and "specific" (one sentence each).
-
-::: notes
-
-Go find us an "international," "political" "event" and be ready to discuss it with us.
 
 <br>
 
@@ -756,19 +722,8 @@ Submit your chosen event to Canvas before class.
 
 - NO OVERLAP!
 
-### Questions on the assignment?
+<br>
+
+**Questions?**
+
 :::
-
-
-
-
-
-
-
-
-
-
-
-
-
-

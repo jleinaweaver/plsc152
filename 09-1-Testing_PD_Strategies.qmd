@@ -150,12 +150,13 @@ In short, I've maintained the same Nash Equilibrium that gives us a dominant str
 - Pairs, I'd like you to play the game 10 times and we'll see who can accrue the most points in the class
 
 - For this version of the game there is no talking / negotiating allowed between or during rounds
-    - The only signal you can send is your decision in each round
 
 - Your goal is to maximize your points
     - Our work today is focused on tactics, NOT differences in actor preferences
-    
-    - Please do not play to maximize a different outcome
+
+<br>
+
+SLIDE: Here's how I suggest you do it...
 :::
 
 
@@ -203,8 +204,6 @@ tibble(
 ::::
 
 ::: notes
-
-Here's how I suggest you do it:
 
 - Take a out a piece of paper and make a list from 1-10 (with space for your decision and points earned each round)
 
@@ -329,9 +328,9 @@ Groups, your job is to test YOUR strategy against all of the others
 
 - We need to know how many points YOUR strategy is worth when it goes up against each of the other strategies
 
-- I will ask you to test each pair of strategies against each other 10x and record the result on the board
+- I will ask you to test your strategy against each of the others 10x and record the result on the board
 
-- You should also test each strategy against itself!
+- You should also test your strategy against itself!
 
 <br>
 

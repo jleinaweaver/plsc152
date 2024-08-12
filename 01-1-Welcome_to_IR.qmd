@@ -32,6 +32,8 @@ Prep for Class
 
 2. Make sure this week's modules visible in Canvas
 
+3. Log into Canvas on classroom PC
+
 <br>
 
 *As students come in*
@@ -58,7 +60,7 @@ Welcome all.
 
 ## Introductions {background-image="Images/background-worldmap4.png"  .center}
 
-<br>
+::: {.r-fit-text}
 
 1. Name
 
@@ -67,6 +69,8 @@ Welcome all.
 3. Major
 
 4. Earliest memory of a "big" international event
+
+:::
 
 ::: notes
 
@@ -187,30 +191,23 @@ Section 1 sets us up for the semester.
 :::
 
 
-## {background-image="Images/05_2-putin_ukraine.jpg"}
+
+## {background-image="Images/01_1-Putin.jpg"}
 
 ::: notes
 
-In Section 2 of the class we tackle a HUGE question in IR.
+**Anybody recognize this fella?**
 
-- Let's first talk about this fella.
-
-<br>
-
-### Who is this guy and what's he been up to lately?
+- (President of Russia Vladimir Putin)
 
 <br>
 
-### Help me brainstorm, why did Russia invade Ukraine?
+**And why has old Vladdy been in the news so much over the last few years?**
 
-*ON BOARD*
-
-- Power? 
-- Personality? 
-- Territory/Resources? 
-- Threats from Alliances?
+- (SLIDE: Dude just will not stop invading Ukraine!)
 
 :::
+
 
 
 ## Semester Outline: Section 2 {background-image="Images/background-worldmap4.png" .center}
@@ -225,90 +222,121 @@ knitr::include_graphics('Images/05_2-putin_ukraine.jpg')
 
 ::: notes
 
-In Section 2 we explore the grand-daddy of IR research questions.
+In Section 2 of our we explore the grand-daddy of all IR research questions.
 
 - Why Are There Wars?
 
 <br>
 
-### Is this a "good" list if our aim is to be able to explain where wars are likely to start in the future? Why or why not?
+**From what you've heard, why did Russia invade Ukraine?**
+
+*ON BOARD*
+
+- Power? 
+- Personality? 
+- Territory/Resources? 
+- Threats from Alliances?
+
+<br>
+
+**Is this a "good" list if our aim is to be able to explain where wars are likely to start in the future? Why or why not?**
 
 :::
 
 
 
-## {background-image="Images/01_1-Iranian_nukes.jpg"}
+
+## {background-image="Images/01_1-Khamenei.png"}
 
 ::: notes
 
-In Section 3 of the class we tackle another HUGE question in IR.
+**Anybody recognize this kindly looking fella? Or the flag behind him?**
 
-<br>
-
-### Anybody recognize this fella?
 - (Supreme Leader of Iran, Ali Khamenei)
 
 <br>
 
-### And what has he, and his country Iran, been up to lately that scares the bejeebus out of the Western powers?
-- (Western powers are convinced Iran is actively developing nuclear weapons.)
+To be clear, this is Ali Khamenei not to be confused with his predecessor Ruhollah Khomeini
+
+- Not confusing at all.
 
 <br>
 
-To avoid this outcome President Obama, western powers and Iran negotiated a deal to freeze their weapons program
+**And what are some of the MANY reasons this guy, and his country, have been in the news over the last few years?**
 
-- You might have heard about the JCPOA: the Joint Comprehensive Plan of Action
+- Nuclear weapons program / nuclear enrichment
+
+- Providing aid and weapons to terror groups like Hamas, Hezbollah and the Houthi fighters in Yemen
+
+- Suppressing pro-democracy protests at home
+
+- Launching missile/drone attacks against Israel
+
+- Supporting groups that target American bases and troops in Iraq
+
+- and on and on and on...
 
 <br>
 
-### What happened to the JCPOA?
-- (President Trump pulled us out of the deal)
+SLIDE: militia support, houthi support, nuke program
 
-<br>
-
-**SLIDE**: President Biden has been trying to rebuild it, but...
 :::
+
 
 
 ## {background-image="Images/background-worldmap4.png"}
 
-```{r, fig.align='center'}
-knitr::include_graphics("Images/01_1-Iran_Nuke_Deal.png")
-```
+![](Images/01_1-Iranian_Militias_Economist_2024.png){.absolute top=0 left=0 width="450"}
+
+::: {.fragment}
+
+![](Images/01_1-Houthi_Attacks.webp){.absolute top=0 right=0 width="550"}
+
+:::
+
+::: {.fragment}
+
+![](Images/01_1-Iranian_nukes.jpg){.absolute bottom=0 right=200 width="550"}
+
+:::
 
 ::: notes
 
-It has not been going well.
+Iran has definitely been an active participant in Middle East politics for a long time, and to the extreme annoyance of many of its neighbors!
+
+- REVEAL: Offering support in terms of money, arms and expertise to militias throughout the region
+
+- REVEAL: The houthis in Yemen have used Iranian support to destabilize global trade using missile strikes against shipping in the Red Sea
+
+- REVEAL: And, of course, their threatened nuclear program!
 
 <br>
 
-### Why has it been so hard to reach a deal between the US, the EU and the Iranians to stop the spread of nuclear weapons?
+**From what you've heard, why is Iran working so hard to destabilize the Middle East?**
 
-Iran wants:
-
-- Protection?
-- Power projection?
-- Technological advancement?
-
-The West wants:
-
-- To stop a state sponsor of "terrorism"
-    - (Fears that they would provide the bomb or the technology to more of our enemies or groups actively designated as terrorists by the US government)
-- To avoid an arms race
-- To protect Israeli security
+- **Why won't they simply "play nice" with their neighbors?**
 
 <br>
-
-### What would you be willing to offer the Iranian government to get them to verifiably stop all nuclear activities and to turn over their supplies of weapons grade material?
-
-### In other words, what are the pros and cons of the US making a deal with Iran that ends all economic sanctions and offers security guarantees in exchange for an end to their nuclear weapons program?
 
 *ON BOARD*
 
-- Relative vs absolute gains? 
-- The risks of cooperation? 
-- The inability to enforce international deals? 
-- The difficulty in monitoring the agreement? Cheating?
+- Pushing back against the US-led order?
+
+- Asserting their own domestic security?
+
+- Supporting their allies in the region / those with a similar view to their own?
+
+- Power projection?
+
+- Technological advancement?
+
+<br>
+
+**If you were the President of the US, what would you do to get Iran to act differently?**
+
+<br>
+
+**Setting aside threats and violence, what would you be willing to offer Iran to change its behavior? Anything?**
 
 :::
 
@@ -320,7 +348,9 @@ The West wants:
 knitr::include_graphics("Images/01_1-Iranian_nukes.jpg")
 ```
 
+::: {.r-fit-text}
 Why is it so Hard to Cooperate With Other Countries?
+:::
 
 ::: notes
 
@@ -332,28 +362,32 @@ In Section 3 of the class we ask why is it so Hard to Cooperate with Other Count
 
 
 
+
 ## {background-image="Images/01_1-Yalta-Conference.jpg"}
 
 ::: notes
 
-I think the final section of our class, Section 4, should start here.
+Last photo quiz!
 
-### Who are these three gentlemen and what are we looking at here?
+- **Who are these three gentlemen and what are we looking at here?**
+
 - Churchill, FDR and Stalin at the Yalta Conference
 
 - The Yalta Conference held in 1945 in Crimea is where the winning powers of WW2 got together to plan the future of Europe.
 
 <br>
 
-### How different would you argue the world of today is compared to the world of 1945?
+Clearly the world has changed a lot since 1945.
 
-### - In what ways the same and in what ways different?
+- For one thing, we now have color photographs!
 
-*ON BOARD*
+<br>
 
-- Same: ?
+**What are the biggest differences between today and 1945?**
 
-- Different: ?
+<br>
+
+**And what are the biggest similarities between today and 1945?**
 
 :::
 
@@ -365,25 +399,22 @@ I think the final section of our class, Section 4, should start here.
 knitr::include_graphics("Images/01_1-Old_Institutions.webp")
 ```
 
+::: {.r-fit-text}
 What is the Future of Transnational Politics and IR?
+:::
 
 ::: notes
 
-In Section 4 of the class we ask What is the Future of Transnational Politics and IR?
+Here's the thing, most of the world's international infrastructure was designed at the end of WWII
 
 - The United Nations, the International Court of Justice, the World Bank, the International Monetary Fund, etc. all founded in around 1944/1945
 
-- Almost 100 years later we have to ask if these institutions are still designed sufficiently for the problems of today!
-
 <br>
 
-In other words, this section of the class asks us: 
+In Section 4 of the class I want us to ask if 80 years later these institutions are still adapted well to the complexities of today
 
-**How** does it matter that most of the current global infrastructure was built after WWII to address the problems of that time by a group of very wealthy white dudes primarily from the US and Europe.
+- If not, what do we do about it?
 
-- High tech was still steam ships, diesel subs and sending messages by telegraph
-
-- The technology of today makes that seem like ancient history.
 :::
 
 
@@ -429,216 +460,93 @@ We will kick off most classes with current events discussions.
 
 
 
-## Course Grade {background-image="Images/background-worldmap4.png"}
+## All Supporting Material is on Canvas  {background-image="Images/background-worldmap4.png"  .center}
 
-```{r}
-tibble(
-  col1 = c("Participation", "Argument Paper 1", "Argument Paper 2", "Argument Paper 3", "Total"),
-  col2 = c("", "(Sep 13)", "(Oct 18)", "(Final Exam)", ""),
-  col3 = c(rep(25, 4), 100)
-) |>
-  kableExtra::kbl(align = c("l", "c", "c"), col.names = c("", "", "%")) |>
-  kableExtra::kable_styling(font_size = 50) |>
-  kableExtra::column_spec(1, width = "11em") |>
-  kableExtra::column_spec(2, width = "7em") |>
-  kableExtra::row_spec(c(0, 5), bold = TRUE, background = "#b3ccff")
+```{r, fig.align='center'}
+knitr::include_graphics("Images/01_1-Canvas_Homepage.png")
 ```
 
 ::: notes
-Course grade is pretty simple.
-
-- Four equal pieces because being here and being engaged is as important to me as you learning to write convincing academic arguments.
+Everybody log into Canvas with me and let's get oriented in our class infrastructure!
 
 <br>
 
-Let's talk attendance and participation.
+*Log into Canvas, set to student view and step them through the main pages*
+
+- Home page,
+
+- Grades,
+
+- Assignments,
+
+- Modules (with readings and assignment for Thursday)
 :::
 
 
 
-## The Attendance Cliff {background-image="Images/background-worldmap4.png"}
+## The answer is in the syllabus  {background-image="Images/background-worldmap4.png" .center}
 
 ```{r, fig.align='center'}
-knitr::include_graphics("Images/01_1-coyote.jpg")
+knitr::include_graphics("Images/01_1-Course_Syllabus.png")
 ```
 
 ::: notes
-NOTE: This is an intro class, don't rush this!!!
 
-<br>
+Everybody open the syllabus and let's hit the highlights!
 
-My attendance policy is simple.
+- LOs
 
-- The only way I can ensure everyone makes progress on the LOs is by being in class and doing the work.
+- Grade composition
 
-- This means I have to make sure you are here!
+- Attendance cliff (> 3 unexcused absences = Grade cap of 'C')
 
-<br>
-
-To help encourage you I use an attendance cliff.
-
-- Anyone with more than FOUR unexcused absences in the semester cannot earn higher than a ‘C’ in the course
-
-- Regardless of grades earned on other assignments.
-
-<br>
-
-### Questions on this?
-:::
-
-
-## Keep me in the loop! {background-image="Images/background-worldmap4.png"}
-
-```{r, fig.align='center'}
-knitr::include_graphics("Images/01_1-office_space.jpg")
-```
-
-::: notes
-What if you have an excused absence coming up?
-
-- **It is your responsibility to email me BEFORE the absence in order to receive a make-up assignment.**
-
-- Easy peasy
-
-<br>
-
-This is also the place where I say to you, whatever is going on that might keep you out of class, please keep me in the loop. 
-
-- I genuinely want you to make progress on our learning outcomes
-
-<br>
-
-So, if things are getting rough for you please come talk to me.
-
-### I will always offer you flexibility in the face of struggle IF YOU COME TO ME BEFORE DEADLINES HAVE PASSED!
-
-<br>
-
-### Questions on this?
-:::
-
-
-
-## {background-image="Images/background-worldmap4.png"}
-
-```{r, fig.align='center'}
-knitr::include_graphics("Images/01_1-participation-points.jpg")
-```
-
-::: notes
-Ok, so I've got you coming to class now how do I make sure you're engaged?
+- Excused absence coming up? **It is your responsibility to email me BEFORE the absence in order to receive a make-up assignment.**
 
 - Participation points!
 
-<br>
+- Paper requirements: APA, submitted on Canvas, NO AI TOOLS
 
-Basically, if you:
-
-- Get to class on time,
-
-- Have the materials you need to work, and
-
-- Submit all daily required assignments BEFORE class,
-
-You'll be good to go and these are easy free points.
+- Weekly plan (should essentially match the modules on Canvas)
 
 <br>
 
-Before most classes we will have a reading and a discussion question.
-
-- You must submit your answer to that question on our Canvas discussion board BEFORE class begins to earn your participation point.
-
-- The syllabus is marked for all class sessions that have a pre-class assignment
+**Any questions on our aims for the semester or my expectations for you as represented by the syllabus?**
 
 <br>
 
-### Important note: Canvas will not tell you about discussion post requirements in your to do list. You have to keep track using the syllabus.
+Please keep me in the loop this semester!
+
+- I genuinely want you to make progress on our learning outcomes
+
+- So, if things are getting rough for you please come talk to me.
+
+- I will always offer you flexibility in the face of struggle IF YOU COME TO ME BEFORE DEADLINES HAVE PASSED!
 
 <br>
 
-### Each participation point you lose will reduce your participation grade by 1/3 of a letter grade
-
-### - e.g. A, A-, B+, B, B-, C+, etc.
-
-<br>
-
-### Questions on this?
+**Questions on this?**
 :::
 
 
 
-## {background-image="Images/01_1-matrix_meme.jpg"}
-
-::: notes
-Your first job is to download the syllabus from Canvas and read it carefully.
-
-It includes detail on everything you need to know.
-- Assignment deadlines
-- Readings
-- Drury policies
-- Office hours
-
-ALSO, I can see who downloaded it, so don’t delay!
-
-<br>
-
-We'll be using Canvas for submitting assignments, posting to the discussions and accessing the class readings.
-
-- Let me know if you have trouble accessing our materials on Canvas.
-:::
-
-
-
-## {background-image="Images/background-worldmap4.png"}
-
-```{r, fig.align='center'}
-knitr::include_graphics("Images/01_1-Canvas_Modules_SP24.png")
-```
-
-::: notes
-Speaking of Canvas!
-
-- ALL of the assigned readings and daily assignments are available on Canvas in the "Modules" section.
-
-- I have organized the Modules by week of the semester to mirror the structure of the syllabus
-
-<br>
-
-The syllabus includes many web links, but if they don't work I have uploaded backups onto Canvas.
-
-- ALL of the assigned readings should be on Canvas
-
-- Please let me know BEFORE class if you ever can't find an assigned reading.
-
-<br>
-
-Here you can see your assignment for Friday.
-
-- Labossiere is a short reading on evaluating the logic of an argument
-
-- Then we have two short arguments that we can diagram and analyze
-
-- The last item is the discussion board where you will submit your first participation assignment
-:::
-
-
-
-## {background-image="Images/background-worldmap4.png"}
+## For Next Class {background-image="Images/background-worldmap4.png"}
 
 ```{r, fig.align='center'}
 knitr::include_graphics("Images/01_1-Canvas_Modules2_SP24.png")
 ```
 
 ::: notes
-So, after you complete the readings go to the discussion board and answer these two questions.
-1. How convinced are you by Aseyev's (2022) argument? Why or why not?
-2. How convinced are you by Kuo's (2023) argument? Why or why not?
+Readings and an assignment for next class
 
 <br>
 
 I have found that requiring these pre-class questions sets us up for much livelier engagement in class!
 
-### Questions on what I'm asking you to do?
+- Plus makes tracking participation points easier!
+
+<br>
+
+**Questions on what I'm asking you to do?**
 
 - NOTE: The forum closes BEFORE class starts (9:59 am) so make sure to get these in!
 
