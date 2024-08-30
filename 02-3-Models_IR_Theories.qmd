@@ -12,13 +12,15 @@ library(readxl)
 
 <br>
 
-<br>
+::: {.r-fit-text}
 
 **I. Arguments, Evidence and International Relations**
 
 1. What is a scientific theory or model?
 
 2. What are the "big" theories of international relations?
+
+:::
 
 <br>
 
@@ -97,7 +99,13 @@ Ultimately, these are essentially compatible definitions but with some stark dif
 :::
 
 
-## The "Big" Theories of International Relations {background-image="Images/background-worldmap4.png" .center}
+## {background-image="Images/background-worldmap4.png" .center}
+
+::: {.r-fit-text}
+
+**The "Big" Theories of International Relations**
+
+:::
 
 <br>
 
@@ -170,23 +178,29 @@ I'd like each of you to take some ownership of the tool.
 
 <br>
 
-1) Identify the **five** most important places on campus, and
+::: {.r-fit-text}
 
-<br>
+1. Be as **accurate** as possible, and
 
-2) Be as **accurate** as possible
+2. Identify the **FIVE** most important places
+
+:::
 
 ::: notes
 
 Take a few minutes to draw me a map of Drury University.
 
-- Your job is to design a map that helps us find and navigate between the most important places on campus
+- Your job is to design an accurate map that will help us navigate, and
 
-- I am also asking you to, in a reasonably short time, make your map as accurate as possible
+- To locate the most important places on campus
+
+- Put your name on it too so we know who it belongs to!
 
 <br>
 
-### What questions do you have about the assignment?
+**What questions do you have about the assignment?**
+
+- (DON'T ANSWER CLARIFICATION QUESTIONS!!! The point is that perspective matters!)
 
 <br>
 
@@ -219,45 +233,32 @@ Ok, everybody stand up and walk around checking out all the maps.
 
 Talk to me about your process of designing and drawing the map.
 
-### 1. How did you decide "importance"? What did you decide to leave out?
+<br>
+
+**FIRST, what are the commonalities across the maps?**
 
 <br>
 
-### 2. What are the commonalities across the maps?
+**SECOND, how did you decide "importance"?**
+
+- **What did you decide to leave out?**
 
 <br>
 
 Let's take a step back and just try to define the concept.
 
-### Based on these examples in our class, can someone define a map for us?
+<br>
 
-#### - Assuming these are all examples of the concept, what do they have in common?
+**Based on these examples in our class, can someone define a map for us?**
 
-*ON BOARD*
+- **Assuming these are all examples of the concept, what do they have in common?**
+
+- *ON BOARD*
 :::
 
 
 
-## {background-image="Images/background-blue_cubes_lighter3.png"}
-
-:::: {.columns}
-::: {.column width="30%"}
-
-<br>
-
-<br>
-
-<br>
-
-**The Boston "T"**
-:::
-
-::: {.column width="70%"}
-```{r, fig.align='right'}
-knitr::include_graphics("Images/02_2-mbta_map.png")
-```
-:::
-::::
+## {background-image="Images/02_2-mbta_map.png" background-size='75%'}
 
 ::: notes
 
@@ -271,7 +272,10 @@ The Boston subway system represents a really interesting challenge for map maker
 
 + It makes super clear how to get from point A to B using the subway even for tourists who don't speak English.
 
-+ **HOWEVER, it is wildly inaccurate as a spatial representation of Boston.**
+<br>
+
+SLIDE: However...
+
 :::
 
 
@@ -296,19 +300,24 @@ knitr::include_graphics("Images/02_2-mbta_map2.png")
 ::::
 
 ::: notes
-Red line: Braintree is WAY further south in reality than Mattapan.
 
-Blue line north curves like crazy, not straight line at all.
+It is a wildly inaccurate as a spatial representation of Boston!
 
-The distance between the lines is mostly wrong too.
+- Red line: Braintree is WAY further south in reality than Mattapan.
+
+- Blue line north curves like crazy, not straight line at all.
+
+- The distance between the lines is mostly wrong too.
+
+<br>
 
 If you tried to use the T map to navigate by foot or car you would get incredibly lost.
 
 <br>
 
-### So, which of these two options is the more accurate map? Why?
+**So, which of these two options is the more accurate map? Why?**
 
-*DISCUSS*
+- *DISCUSS*
 :::
 
 
@@ -317,15 +326,15 @@ If you tried to use the T map to navigate by foot or car you would get incredibl
 
 :::: {.columns}
 ::: {.column width="50%"}
-```{r, fig.align='center'}
-knitr::include_graphics("Images/02_2-mbta_map.png")
-```
+
+![](Images/02_2-mbta_map.png)
+
 :::
 
 ::: {.column width="50%"}
-```{r, fig.align='center'}
-knitr::include_graphics("Images/02_2-mbta_map3.png")
-```
+
+![](Images/02_2-mbta_map3.png)
+
 :::
 ::::
 
@@ -353,9 +362,9 @@ Generally there is a trade-off between the number of purposes you can use a map 
 
 :::: {.columns}
 ::: {.column width="40%"}
-```{r, fig.align='center'}
-knitr::include_graphics("Images/02_2-drury_map.jpg")
-```
+
+![](Images/02_2-drury_map.jpg)
+
 :::
 
 ::: {.column width="60%"}
@@ -407,9 +416,9 @@ We evaluate a map's usefulness based on what we need it to do for us, NOT ON ITS
 
 :::: {.columns}
 ::: {.column width="40%"}
-```{r, fig.align='center'}
-knitr::include_graphics("Images/02_2-drury_map.jpg")
-```
+
+![](Images/02_2-drury_map.jpg)
+
 :::
 
 ::: {.column width="60%"}
@@ -538,7 +547,13 @@ The goal of the wind tunnel is to accurately predict flight NOT to precisely rep
 
 
 
-## The "Big" Theories of International Relations {background-image="Images/background-worldmap4.png" .center}
+## {background-image="Images/background-worldmap4.png" .center}
+
+::: {.r-fit-text}
+
+**The "Big" Theories of International Relations**
+
+:::
 
 <br>
 
