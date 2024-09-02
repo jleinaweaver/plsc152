@@ -8,7 +8,7 @@
 <link href="02-1-International_Political_Events_files/libs/quarto-html/light-border.css" rel="stylesheet">
 <link href="02-1-International_Political_Events_files/libs/quarto-html/quarto-html.min.css" rel="stylesheet" data-mode="light">
 <link href="02-1-International_Political_Events_files/libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
-  <meta name="generator" content="quarto-1.3.433">
+  <meta name="generator" content="quarto-1.4.555">
 
   <title>international_political_events</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
@@ -155,7 +155,8 @@
   }
 
   .callout.callout-titled .callout-body > .callout-content > :last-child {
-    margin-bottom: 0.5rem;
+    padding-bottom: 0.5rem;
+    margin-bottom: 0;
   }
 
   .callout.callout-titled .callout-icon::before {
@@ -393,15 +394,16 @@
           display:block!important;
       }</style></aside>
 </section>
-<section id="apa-web-citations" class="slide level2 center" data-background-image="Images/background-blue_triangles.jpg">
-<h2>APA Web Citations</h2>
+<section id="apa-citations-general-advice" class="slide level2 center smaller" data-background-image="Images/background-blue_triangles.jpg">
+<h2>APA Citations: General Advice</h2>
+<p><strong>Books</strong></p>
+<p>Author, A. A. (Year of publication). <em>Title of work: Capital letter also for subtitle</em>. Publisher Name. DOI (if available)</p>
 <p><br></p>
-<ul>
-<li><p>Lastname, F. M. (Year, Month Date). <em>Title of page</em>. Site name. URL</p></li>
-<li><p>Group name. (Year, Month Date). <em>Title of page</em>. Site name. URL</p></li>
-<li><p><em>Title of page</em>. (Year, Month Date). Site name. Retrieved Month Date, Year, from URL</p></li>
-<li><p>Author or Group name. (n.d.). <em>Title of page</em>. Site name (if applicable). URL</p></li>
-</ul>
+<p><strong>Articles</strong></p>
+<p>Author, A. A., Author, B. B., &amp; Author, C. C. (Year). Title of article. <em>Title of Periodical, volume number</em>(issue number), pages. https://doi.org/xx.xxx/yyyy</p>
+<p><br></p>
+<p><strong>Web Pages</strong></p>
+<p>Lastname, F. M. (Year, Month Date). <em>Title of page</em>. Site name. URL</p>
 <aside class="notes">
 <p>Ok, now let’s review our citations.</p>
 <ul>
@@ -504,8 +506,10 @@
 <h2>Assignment for Next Class</h2>
 <p><br></p>
 <p>Donovan, T., &amp; Hoover, K. (2014). “The Elements of Science.” In <em>The Elements of Social Scientific Thinking</em>.</p>
+<div class="quarto-auto-generated-content">
 <div class="footer footer-default">
 
+</div>
 </div>
 </section>
     </div>
@@ -534,7 +538,6 @@
       Reveal.initialize({
 'controlsAuto': true,
 'previewLinksAuto': false,
-'smaller': false,
 'pdfSeparateFragments': false,
 'autoAnimateEasing': "ease",
 'autoAnimateDuration': 1,
@@ -833,10 +836,27 @@
         // clear code selection
         e.clearSelection();
       });
-      function tippyHover(el, contentFn) {
+        var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+        var mailtoRegex = new RegExp(/^mailto:/);
+          var filterRegex = new RegExp('/' + window.location.host + '/');
+        var isInternal = (href) => {
+            return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+        }
+        // Inspect non-navigation links and adorn them if external
+     	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool)');
+        for (var i=0; i<links.length; i++) {
+          const link = links[i];
+          if (!isInternal(link.href)) {
+            // undo the damage that might have been done by quarto-nav.js in the case of
+            // links that we want to consider external
+            if (link.dataset.originalHref !== undefined) {
+              link.href = link.dataset.originalHref;
+            }
+          }
+        }
+      function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
         const config = {
           allowHTML: true,
-          content: contentFn,
           maxWidth: 500,
           delay: 100,
           arrow: false,
@@ -846,8 +866,17 @@
           interactive: true,
           interactiveBorder: 10,
           theme: 'light-border',
-          placement: 'bottom-start'
+          placement: 'bottom-start',
         };
+        if (contentFn) {
+          config.content = contentFn;
+        }
+        if (onTriggerFn) {
+          config.onTrigger = onTriggerFn;
+        }
+        if (onUntriggerFn) {
+          config.onUntrigger = onUntriggerFn;
+        }
           config['offset'] = [0,0];
           config['maxWidth'] = 700;
         window.tippy(el, config); 
@@ -861,7 +890,11 @@
           try { href = new URL(href).hash; } catch {}
           const id = href.replace(/^#\/?/, "");
           const note = window.document.getElementById(id);
-          return note.innerHTML;
+          if (note) {
+            return note.innerHTML;
+          } else {
+            return "";
+          }
         });
       }
       const findCites = (el) => {
