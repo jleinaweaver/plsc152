@@ -10,7 +10,7 @@ Data, slides and errata for my class at Drury University (PLSC 152: Intro to Int
 
 02-3-Models_IR_Theories.html
 
-03-1-Paper1_Brainstorming.html
+03-1-Paper1_Topics.html
 
 03-2-Paper1_Premises.html
 
