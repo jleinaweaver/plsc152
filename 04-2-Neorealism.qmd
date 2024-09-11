@@ -12,11 +12,13 @@ library(readxl)
 
 <br>
 
-<br>
+::: {.r-fit-text}
 
 **II. Why Are There Wars?**
 
-- The neorealist answer
+- The neorealist answer (Waltz 1988)
+
+:::
 
 <br>
 
@@ -48,12 +50,14 @@ For the rest of this week we dive into our first set of International Relations 
 
 
 
-## Scientific Method {background-image="Images/background-blue_triangles2.png" .center}
-
-:::: {.columns}
-::: {.column width="50%"}
+## Political Science is a "Science" {background-image="Images/background-worldmap4.png" .center}
 
 <br>
+
+:::: {.columns}
+::: {.column width="45%"}
+
+::: {.r-fit-text}
 
 - Goal is inference
 
@@ -62,12 +66,19 @@ For the rest of this week we dive into our first set of International Relations 
 - Uncertain conclusions
 
 - Content is method
+
+:::
+
+:::
+
+::: {.column width="5%"}
+
 :::
 
 ::: {.column width="50%"}
-```{r, fig.align='right'}
-knitr::include_graphics("Images/05_1-science_meme.jpg")
-```
+
+![](Images/05_1-science_meme.jpg)
+
 :::
 ::::
 
@@ -463,6 +474,8 @@ Think of interests, interactions and institutions as a shortcut to designing a m
 
 <br>
 
+::: {.r-fit-text}
+
 Let's diagram the model!
 
 + Who are the key interests?
@@ -470,6 +483,8 @@ Let's diagram the model!
 + What are the key institutions?
 
 + What are the primary interactions that matter?
+
+:::
 
 ::: notes
 
@@ -620,9 +635,9 @@ Imagine new neighbors move in next door to you.
 
 :::: {.columns}
 ::: {.column width="50%"}
-```{r, fig.align='left'}
-knitr::include_graphics("Images/02_3-Wilson.jpg")
-```
+
+![](Images/02_3-Wilson.jpg)
+
 :::
 
 ::: {.column width="50%"}
@@ -646,15 +661,15 @@ From your new neighbors perspective, they just bought their dream house and the 
 
 :::: {.columns}
 ::: {.column width="50%"}
-```{r, fig.align='left'}
-knitr::include_graphics("Images/02_3-Wilson.jpg")
-```
+
+![](Images/02_3-Wilson.jpg)
+
 :::
 
 ::: {.column width="50%"}
-```{r, fig.align='right'}
-knitr::include_graphics("Images/02_3-dog_hatchet_v1.png")
-```
+
+![](Images/02_3-dog_hatchet_v1.png)
+
 :::
 ::::
 
@@ -682,17 +697,14 @@ Unfortunately, your neighbor is terrified of dogs.
 :::: {.columns}
 ::: {.column width="50%"}
 
-<br>
+![](Images/02_3-handgun.jpg)
 
-```{r, fig.align='left'}
-knitr::include_graphics("Images/02_3-handgun.jpg")
-```
 :::
 
 ::: {.column width="50%"}
-```{r, fig.align='right'}
-knitr::include_graphics("Images/02_3-dog_hatchet_v1.png")
-```
+
+![](Images/02_3-dog_hatchet_v1.png)
+
 :::
 ::::
 
@@ -719,15 +731,15 @@ If one dog made you feel safe, then...
 
 :::: {.columns}
 ::: {.column width="50%"}
-```{r, fig.align='left'}
-knitr::include_graphics("Images/02_3-handgun.jpg")
-```
+
+![](Images/02_3-handgun.jpg)
+
 :::
 
 ::: {.column width="50%"}
-```{r, fig.align='right'}
-knitr::include_graphics("Images/02_3-wolves.jpg")
-```
+
+![](Images/02_3-wolves.jpg)
+
 :::
 ::::
 
@@ -749,15 +761,15 @@ His small gun will be useless against a pack of wolves so he ups his own securit
 
 :::: {.columns}
 ::: {.column width="50%"}
-```{r, fig.align='left'}
-knitr::include_graphics("Images/04_1-Tank_v1.png")
-```
+
+![](Images/04_1-Tank_v1.png)
+
 :::
 
 ::: {.column width="50%"}
-```{r, fig.align='right'}
-knitr::include_graphics("Images/02_3-wolves.jpg")
-```
+
+![](Images/02_3-wolves.jpg)
+
 :::
 ::::
 
@@ -773,15 +785,15 @@ A tank is a nice centerpiece for your front yard, no?
 
 :::: {.columns}
 ::: {.column width="50%"}
-```{r, fig.align='left'}
-knitr::include_graphics("Images/04_1-Tank_v1.png")
-```
+
+![](Images/04_1-Tank_v1.png)
+
 :::
 
 ::: {.column width="50%"}
-```{r, fig.align='right'}
-knitr::include_graphics("Images/04_1-angry_bear.jpg")
-```
+
+![](Images/04_1-angry_bear.jpg)
+
 :::
 ::::
 
@@ -861,9 +873,13 @@ Connect this to current events for me!
 
 <br>
 
+::: {.r-fit-text}
+
 1. Read the Mearsheimer (2001) excerpt
 
 2. Get those papers finished and submitted!
+
+:::
 
 ::: notes
 **Questions on the assignment?**

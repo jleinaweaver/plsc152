@@ -12,11 +12,13 @@ library(readxl)
 
 <br>
 
-<br>
+::: {.r-fit-text}
 
 **II. Why Are There Wars?**
 
-- The offensive realist answer
+- The offensive realist answer (Mearsheimer 2001)
+
+:::
 
 <br>
 
@@ -27,7 +29,9 @@ Justin Leinaweaver (Fall 2024)
 ::: notes
 Prep for Class
 
-1. NOTE: Made tweaks before class FA23 and created a saved version of prior plan with replay of game ("SAVE-04-3-Offensive_Realism.Rmd")
+1. Fix end slide if next class is liberalism or writing workshop
+
+2. NOTE: Made tweaks before class FA23 and created a saved version of prior plan with replay of game ("SAVE-04-3-Offensive_Realism.Rmd")
 
 <br>
 
@@ -90,7 +94,7 @@ Last class I introduced you to interests, institutions and interactions as a way
 
 <br>
 
-### Ok, put this all together for me, what are the key interests, institutions and interactions in Neorealism?
+### Ok, put this all together for me, what is the map of international political events provided by neorealism?
 
 - (**SLIDE**)
 
@@ -114,9 +118,6 @@ Last class I introduced you to interests, institutions and interactions as a way
 - Security dilemmas dominate
 
 ::: notes
-**Summarize this for me, what is the Neorealist answer to the question: why are there wars?**
-
-<br>
 
 ### Name an international political event that this model explains really well.
 
@@ -139,6 +140,8 @@ Last class I introduced you to interests, institutions and interactions as a way
 
 <br>
 
+::: {.r-fit-text}
+
 Let's diagram the model!
 
 + Who are the key interests?
@@ -146,6 +149,8 @@ Let's diagram the model!
 + What are the key institutions?
 
 + What are the primary interactions that matter?
+
+:::
 
 ::: notes
 
@@ -202,15 +207,19 @@ Clearly the big distinction here focuses on "greatness".
 
 
 
-## Who are the great powers? {background-image="Images/05_2-justice-league2_v1.png" .center}
+## Who are the great powers? {background-image="Images/05_2-justice-league2_v2.png" .center}
 
 <br>
 
-1. What are the characteristics of a "great" power?
+::: {.r-fit-text}
 
-<br>
+On the Board:
 
-2. Give us 8 examples based on your criteria
+1. Make a list of the characteristics of a "great" power
+
+2. Give us ten countries that pass your test
+
+:::
 
 ::: notes
 
@@ -230,11 +239,13 @@ Groups I want you to put two things on the board:
 
 
 
-## Criteria to be a Great Power {background-image="Images/05_2-justice-league2_v1.png" .center}
-
-**(Waltz 1979)**
+## Criteria of Great Powers {background-image="Images/05_2-justice-league2_v2.png" .center}
 
 <br>
+
+::: {.r-fit-text}
+
+Waltz, K. (1979). *Theory of International Politics*. McGraw-Hill.
 
 - **Size of population & territory**
 
@@ -246,6 +257,7 @@ Groups I want you to put two things on the board:
 
 - **Political stability and competence**
 
+:::
 
 ::: notes
 
@@ -341,6 +353,30 @@ This dude is hard core.
 
 
 
+## Assignment for Next Class {background-image="Images/background-blue_triangles.jpg" .center}
+
+<br>
+
+1. "Democratic Peace" readings in the syllabus
+
+2. **Before class** submit to our Canvas discussion board:
+
+Generally speaking, do you believe Kant's proposal, or any other international rules, could succeed in preventing most future wars?
+
+::: notes
+
+TIME REMAINING: Questions on the paper? Writing workshop time
+
+:::
+
+
+
+
+
+
+##
+
+Slides for different number of classes this week
 
 ## Assignment for Next Class {background-image="Images/background-blue_triangles.jpg" .center}
 
@@ -357,30 +393,4 @@ Friday we will have a writing workshop.
 - Bring in your drafts to get feedback from each other and to work!
 
 :::
-
-
-##
-
-Slides for different number of classes this week
-
-
-
-## Assignment for Next Class {background-image="Images/background-blue_triangles.jpg" .center}
-
-<br>
-
-1. "Democratic Peace" readings in the syllabus
-
-2. **Before class** submit to our Canvas discussion board:
-
-Generally speaking, do you believe Kant's proposal, or any other international rules, could succeed in preventing most future wars?
-
-::: notes
-
-TIME REMAINING: Questions on the paper? Writing workshop time
-:::
-
-
-
-
 
