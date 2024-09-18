@@ -12,11 +12,13 @@ library(readxl)
 
 <br>
 
-<br>
+::: {.r-fit-text}
 
 **II. Why Are There Wars?**
 
 - Is peace worth the Economic Liberal price?
+
+:::
 
 <br>
 
@@ -80,15 +82,17 @@ Your next job is to reflect on that feedback and then to revise the paper to mak
 
 ## Revise and Resubmit Paper 1 {background-image="Images/background-worldmap4.png" .center}
 
-**(Due Mar 1st)**
-
 <br>
+
+::: {.r-fit-text}
 
 **Submit to Canvas** a revision of your first draft that:
 
 1. Addresses **ALL** of the feedback, AND
 
 2. Highlights **ALL** of your changes.
+
+:::
 
 ::: notes
 
@@ -258,6 +262,7 @@ Nope. Mostly just increasing suffering on all sides!
 :::
 
 
+
 ## {background-image="Images/background-worldmap4.png"}
 
 ![](Images/11_2-Example-US_China1.png){.absolute left=200 top=0 width="70%"}
@@ -266,7 +271,7 @@ Nope. Mostly just increasing suffering on all sides!
 
 ::: notes
 
-The Biden administration is sending signals that they will continue the policy for the time being.
+The Biden administration has essentially continued the policies for the time being.
 
 <br>
 
@@ -558,5 +563,8 @@ If class seems totally sold on Rodrik:
 
 <br>
 
-No readings assigned
+::: {.r-fit-text}
 
+Get to work on those paper revisions!
+
+:::

@@ -8,7 +8,7 @@
 <link href="05-3-Trade_Risks_and_Benefits_files/libs/quarto-html/light-border.css" rel="stylesheet">
 <link href="05-3-Trade_Risks_and_Benefits_files/libs/quarto-html/quarto-html.min.css" rel="stylesheet" data-mode="light">
 <link href="05-3-Trade_Risks_and_Benefits_files/libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
-  <meta name="generator" content="quarto-1.3.433">
+  <meta name="generator" content="quarto-1.4.555">
 
   <title>trade_risks_and_benefits</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
@@ -155,7 +155,8 @@
   }
 
   .callout.callout-titled .callout-body > .callout-content > :last-child {
-    margin-bottom: 0.5rem;
+    padding-bottom: 0.5rem;
+    margin-bottom: 0;
   }
 
   .callout.callout-titled .callout-icon::before {
@@ -327,11 +328,12 @@
 <section id="todays-agenda" class="slide level2 center" data-background-image="Images/background-worldmap4.png">
 <h2>Today’s Agenda</h2>
 <p><br></p>
-<p><br></p>
+<div class="r-fit-text">
 <p><strong>II. Why Are There Wars?</strong></p>
 <ul>
 <li>Is peace worth the Economic Liberal price?</li>
 </ul>
+</div>
 <p><br></p>
 <div class="r-stack">
 <p>Justin Leinaweaver (Fall 2024)</p>
@@ -395,13 +397,14 @@
 </section>
 <section id="revise-and-resubmit-paper-1" class="slide level2 center" data-background-image="Images/background-worldmap4.png">
 <h2>Revise and Resubmit Paper 1</h2>
-<p><strong>(Due Mar 1st)</strong></p>
 <p><br></p>
+<div class="r-fit-text">
 <p><strong>Submit to Canvas</strong> a revision of your first draft that:</p>
 <ol type="1">
 <li><p>Addresses <strong>ALL</strong> of the feedback, AND</p></li>
 <li><p>Highlights <strong>ALL</strong> of your changes.</p></li>
 </ol>
+</div>
 <aside class="notes">
 <p>Arguably, THIS is the more important step in the process.</p>
 <ul>
@@ -519,7 +522,7 @@
 <div class="cell-output-display">
 <div class="quarto-figure quarto-figure-left">
 <figure>
-<p><img data-src="Images/08-2-trump_trade_war.webp"></p>
+<p><img data-src="Images/08-2-trump_trade_war.webp" class="quarto-figure quarto-figure-left"></p>
 </figure>
 </div>
 </div>
@@ -529,7 +532,7 @@
 <div class="cell-output-display">
 <div class="quarto-figure quarto-figure-right">
 <figure>
-<p><img data-src="Images/11_2-Example-US_China3.jpg"></p>
+<p><img data-src="Images/11_2-Example-US_China3.jpg" class="quarto-figure quarto-figure-right" width="488"></p>
 </figure>
 </div>
 </div>
@@ -597,7 +600,7 @@
 <p><img data-src="Images/11_2-Example-US_China1.png" class="absolute" style="top: 0px; left: 200px; width: 70%; "></p>
 <p><img data-src="Images/11_2-Example-US_China2.png" class="absolute" style="left: 200px; bottom: 0px; width: 70%; "></p>
 <aside class="notes">
-<p>The Biden administration is sending signals that they will continue the policy for the time being.</p>
+<p>The Biden administration has essentially continued the policies for the time being.</p>
 <p><br></p>
 <h3 id="what-is-going-on-here-if-the-us-is-suffering-why-keep-this-going">What is going on here? If the US is suffering, why keep this going?</h3>
 <ul>
@@ -885,9 +888,13 @@
 <section id="assignment-for-next-class" class="slide level2 center" data-background-image="Images/background-blue_triangles.jpg">
 <h2>Assignment for Next Class</h2>
 <p><br></p>
-<p>No readings assigned</p>
+<div class="r-fit-text">
+<p>Get to work on those paper revisions!</p>
+</div>
+<div class="quarto-auto-generated-content">
 <div class="footer footer-default">
 
+</div>
 </div>
 </section>
     </div>
@@ -916,7 +923,6 @@
       Reveal.initialize({
 'controlsAuto': true,
 'previewLinksAuto': false,
-'smaller': false,
 'pdfSeparateFragments': false,
 'autoAnimateEasing': "ease",
 'autoAnimateDuration': 1,
@@ -1215,10 +1221,27 @@
         // clear code selection
         e.clearSelection();
       });
-      function tippyHover(el, contentFn) {
+        var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+        var mailtoRegex = new RegExp(/^mailto:/);
+          var filterRegex = new RegExp('/' + window.location.host + '/');
+        var isInternal = (href) => {
+            return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+        }
+        // Inspect non-navigation links and adorn them if external
+     	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool)');
+        for (var i=0; i<links.length; i++) {
+          const link = links[i];
+          if (!isInternal(link.href)) {
+            // undo the damage that might have been done by quarto-nav.js in the case of
+            // links that we want to consider external
+            if (link.dataset.originalHref !== undefined) {
+              link.href = link.dataset.originalHref;
+            }
+          }
+        }
+      function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
         const config = {
           allowHTML: true,
-          content: contentFn,
           maxWidth: 500,
           delay: 100,
           arrow: false,
@@ -1228,8 +1251,17 @@
           interactive: true,
           interactiveBorder: 10,
           theme: 'light-border',
-          placement: 'bottom-start'
+          placement: 'bottom-start',
         };
+        if (contentFn) {
+          config.content = contentFn;
+        }
+        if (onTriggerFn) {
+          config.onTrigger = onTriggerFn;
+        }
+        if (onUntriggerFn) {
+          config.onUntrigger = onUntriggerFn;
+        }
           config['offset'] = [0,0];
           config['maxWidth'] = 700;
         window.tippy(el, config); 
@@ -1243,7 +1275,11 @@
           try { href = new URL(href).hash; } catch {}
           const id = href.replace(/^#\/?/, "");
           const note = window.document.getElementById(id);
-          return note.innerHTML;
+          if (note) {
+            return note.innerHTML;
+          } else {
+            return "";
+          }
         });
       }
       const findCites = (el) => {

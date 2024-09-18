@@ -12,11 +12,13 @@ library(readxl)
 
 <br>
 
-<br>
+::: {.r-fit-text}
 
 **II. Why Are There Wars?**
 
 - The Economic Liberal Answer
+
+:::
 
 <br>
 
