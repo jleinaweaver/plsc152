@@ -251,24 +251,24 @@ Let's work today on making sure everyone feels comfortable using these five mode
 
 
 
-## Diagramming the Models {background-image="Images/background-worldmap4.png" .center}
+## Diagramming the Models {background-image="Images/background-worldmap4.png" .center .smaller}
 
 <br>
 
 :::: {.columns}
-::: {.column width="50%"}
-1. Prisoner's Dilemma
+::: {.column width="60%"}
+1. Prisoner's Dilemma (Axelrod & Hamilton 1981*)
 
-2. Two-Level Bargaining
+2. Two-Level Bargaining (Putnam 1988)
 
-3. Constructivism
+3. Constructivism (Hopf 1998)
 
-4. Feminist Theory
+4. Feminist Theory (Enloe 2014)
 
-5. Postcolonial Theory
+5. Postcolonial Theory (Vucetic & Persaud 2018)
 :::
 
-::: {.column width="50%"}
+::: {.column width="40%"}
 
 **This model explains international political events by emphasizing...**
 
@@ -281,6 +281,10 @@ Let's work today on making sure everyone feels comfortable using these five mode
 ::::
 
 ::: notes
+
+*There isn't really a widely accepted cite for PD. This is the first big article to push the concept into IR.
+
+<br>
 
 *Assign each model to a group*
 
