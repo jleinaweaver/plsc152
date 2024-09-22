@@ -12,11 +12,13 @@ library(readxl)
 
 <br>
 
-<br>
+::: {.r-fit-text}
 
 **II. Why Are There Wars?**
 
 - Simulating the bargaining model of war
+
+:::
 
 <br>
 
@@ -83,7 +85,7 @@ knitr::include_graphics("Images/06_1-Offensive_world.webp")
 
 
 
-## The Democratic Peace Answer {background-image="Images/06_1-ICC_v2.png"}
+## The Liberal Institutionalist Answer {background-image="Images/06_1-ICC_v2.png"}
 
 ::: notes
 **What is the Democratic Peace answer?**

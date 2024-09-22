@@ -117,21 +117,18 @@ Everybody click on Chapter 1 and read Article 1 on "The Purposes of the United N
 
 
 
-## {background-image="Images/07_2-UN_Flag.png"}
+## {background-image="Images/07_2-UN_Flag.png" .center}
 
+::: {.r-fit-text}
 The Purposes of the United Nations are:
-
-<br>
 
 1. Maintain international peace and security
 
-<br>
-
 2. Solve international problems
 
-<br>
-
 3. Promote respect for human rights
+
+:::
 
 ::: notes
 **How on Earth can these three things be controversial? Shouldn't everybody want an international organization focused on these things?**
@@ -156,23 +153,11 @@ The Purposes of the United Nations are:
 
 
 
-## Critics: The UN is Too Weak {background-image="Images/background-worldmap4.png" .center}
+## Critics: The UN is Too Weak {background-image="Images/background-worldmap4.png"}
 
-<br>
+![](Images/07_2-UN_weak_meme1.jpg){.absolute left=0 width=500}
 
-:::: {.columns}
-::: {.column width="50%"}
-```{r, fig.align = 'left'}
-knitr::include_graphics("Images/07_2-UN_weak_meme1.jpg")
-```
-:::
-
-::: {.column width="50%"}
-```{r, fig.align = 'right'}
-knitr::include_graphics("Images/07_2-UN_weak_meme2.jpg")
-```
-:::
-::::
+![](Images/07_2-UN_weak_meme2.jpg){.absolute right=0 width=500}
 
 ::: notes
 
@@ -192,26 +177,11 @@ Arguments like this tend depend on the audience not thinking very hard about the
 
 
 
-## Critics: The UN is Too Strong {background-image="Images/background-worldmap4.png" .center}
+## Critics: The UN is Too Strong {background-image="Images/background-worldmap4.png"}
 
-:::: {.columns}
-::: {.column width="50%"}
+![](Images/07_2-UN_danger_meme1.jpg){.absolute left=0 width=500}
 
-<br>
-
-<br>
-
-```{r, fig.align = 'left'}
-knitr::include_graphics("Images/07_2-UN_danger_meme1.jpg")
-```
-:::
-
-::: {.column width="50%"}
-```{r, fig.align = 'right'}
-knitr::include_graphics("Images/07_2-UN_danger_meme2.png")
-```
-:::
-::::
+![](Images/07_2-UN_danger_meme2.png){.absolute right=0 width=500}
 
 ::: notes
 
@@ -540,7 +510,7 @@ Alright, let's evaluate this model of politics.
 
 - Offensive Realism
 
-- Democratic Peace
+- Liberal Institutionalism
 
 - Economic Liberalism
 

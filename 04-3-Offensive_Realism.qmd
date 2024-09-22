@@ -64,7 +64,7 @@ Last class we began exploring the next section of our class: Why Are There Wars?
 
 - Offensive Realism
 
-- Democratic Peace
+- Liberal Institutionalism
 
 - Economic Liberalism
 
@@ -102,7 +102,7 @@ Last class I introduced you to interests, institutions and interactions as a way
 
 
 
-## Neorealism {background-image="Images/background-slate_v2.png" .center}
+## Neorealism (Waltz 1988) {background-image="Images/background-slate_v2.png" .center}
 
 **Interests**
 
@@ -136,7 +136,7 @@ Last class I introduced you to interests, institutions and interactions as a way
 
 
 
-## Offensive Realism {background-image="Images/05_2-putin_with_gun_v2.png" .center}
+## Offensive Realism (Mearsheimer 2001) {background-image="Images/05_2-putin_with_gun_v2.png" .center}
 
 <br>
 
@@ -171,7 +171,7 @@ Consolidate diagrams with the person next to you
 
 
 
-## Offensive Realism {background-image="Images/background-slate_v2.png" .center}
+## Offensive Realism (Mearsheimer 2001) {background-image="Images/background-slate_v2.png" .center}
 
 **Interests**
 

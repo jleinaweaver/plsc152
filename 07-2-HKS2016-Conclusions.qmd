@@ -101,23 +101,14 @@ knitr::include_graphics('Images/06_3-diplomacy1.png')
 <br>
 
 **How does it connect UN troops to the costs, risks and inefficiency of war?**
-:::
-
-
-## Assignment for Next Class {background-image="Images/background-blue_triangles.jpg" .center}
 
 <br>
 
-Hultman, Kathman & Shannon (2016) on United Nations Peacekeeping
-
-- Read the analysis and conclusion (p238-246)
-
-::: notes
-
 For today I asked you to come to class ready to evaluate the analyses in this paper.
 
-### How did that go?
-### - What parts of the analysis were hardest to understand?
+- **How did that go?**
+
+- **What parts of the analysis were hardest to understand?**
 
 <br>
 
@@ -327,13 +318,9 @@ Population is also in the log scale
 
 **High, Low or No Confidence?**
 :::
-
-::: {.column width="50%"}
-```{r, fig.align='center'}
-knitr::include_graphics('Images/07_3-table2.png')
-```
-:::
 ::::
+
+![](Images/07_3-table2.png)
 
 ::: notes
 
@@ -512,7 +499,7 @@ Good research papers will always include some attempt to visualize the regressio
 
 Review your notes for all of the models we've explored in class
 
-- Models: Neorealism, Offensive Realism, Democratic Peace, Economic Liberalism, and the Bargaining Model of War
+- Models: Neorealism, Offensive Realism, Liberal Institutionalism, Economic Liberalism, and the Bargaining Model of War
 
 ::: notes
 

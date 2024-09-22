@@ -8,7 +8,7 @@
 <link href="07-2-HKS2016-Conclusions_files/libs/quarto-html/light-border.css" rel="stylesheet">
 <link href="07-2-HKS2016-Conclusions_files/libs/quarto-html/quarto-html.min.css" rel="stylesheet" data-mode="light">
 <link href="07-2-HKS2016-Conclusions_files/libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
-  <meta name="generator" content="quarto-1.3.433">
+  <meta name="generator" content="quarto-1.4.555">
 
   <title>hks2016-conclusions</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
@@ -155,7 +155,8 @@
   }
 
   .callout.callout-titled .callout-body > .callout-content > :last-child {
-    margin-bottom: 0.5rem;
+    padding-bottom: 0.5rem;
+    margin-bottom: 0;
   }
 
   .callout.callout-titled .callout-icon::before {
@@ -409,33 +410,16 @@
 <h2></h2>
 <p><strong>Is this paper a “good” test of the bargaining model of war?</strong></p>
 
-<img data-src="Images/06_3-diplomacy1.png" class="r-stretch quarto-figure-center"><aside class="notes">
+<img data-src="Images/06_3-diplomacy1.png" class="quarto-figure quarto-figure-center r-stretch" width="240"><aside class="notes">
 <p><strong>In what specific ways is this paper a “good” test of the Bargaining Model of War?</strong></p>
 <p><br></p>
 <p><strong>How does it connect UN troops to the costs, risks and inefficiency of war?</strong></p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section id="assignment-for-next-class" class="slide level2 center" data-background-image="Images/background-blue_triangles.jpg">
-<h2>Assignment for Next Class</h2>
 <p><br></p>
-<p>Hultman, Kathman &amp; Shannon (2016) on United Nations Peacekeeping</p>
-<ul>
-<li>Read the analysis and conclusion (p238-246)</li>
-</ul>
-<aside class="notes">
 <p>For today I asked you to come to class ready to evaluate the analyses in this paper.</p>
-<h3 id="how-did-that-go">How did that go?</h3>
-<h3 id="what-parts-of-the-analysis-were-hardest-to-understand">- What parts of the analysis were hardest to understand?</h3>
+<ul>
+<li><p><strong>How did that go?</strong></p></li>
+<li><p><strong>What parts of the analysis were hardest to understand?</strong></p></li>
+</ul>
 <p><br></p>
 <p>I think the easiest way to start this process is by identifying the final conclusions of the paper.</p>
 <p><br></p>
@@ -651,19 +635,10 @@
 <div class="column" style="width:50%;">
 <p><strong>Analyses</strong></p>
 <p><strong>High, Low or No Confidence?</strong></p>
-</div><div class="column" style="width:50%;">
-<div class="cell" data-layout-align="center">
-<div class="cell-output-display">
-<div class="quarto-figure quarto-figure-center">
-<figure>
-<p><img data-src="Images/07_3-table2.png"></p>
-</figure>
 </div>
 </div>
-</div>
-</div>
-</div>
-<aside class="notes">
+
+<img data-src="Images/07_3-table2.png" class="r-stretch"><aside class="notes">
 <p>Here are the main regression results from their analyses.</p>
 <h3 id="does-anybody-have-prior-experience-reading-or-working-with-regression-results">Does anybody have prior experience reading or working with regression results?</h3>
 <h3 id="based-only-on-the-writing-in-the-paper-do-the-authors-do-a-good-job-helping-you-understand-what-we-learn-from-this-why-or-why-not">Based only on the writing in the paper, do the authors do a good job helping you understand what we learn from this? Why or why not?</h3>
@@ -842,12 +817,12 @@
           display:block!important;
       }</style></aside>
 </section>
-<section id="assignment-for-next-class-1" class="slide level2 center" data-background-image="Images/background-blue_triangles.jpg">
+<section id="assignment-for-next-class" class="slide level2 center" data-background-image="Images/background-blue_triangles.jpg">
 <h2>Assignment for Next Class</h2>
 <p><br></p>
 <p>Review your notes for all of the models we’ve explored in class</p>
 <ul>
-<li>Models: Neorealism, Offensive Realism, Democratic Peace, Economic Liberalism, and the Bargaining Model of War</li>
+<li>Models: Neorealism, Offensive Realism, Liberal Institutionalism, Economic Liberalism, and the Bargaining Model of War</li>
 </ul>
 <aside class="notes">
 <p>Friday we start working on your second paper.</p>
@@ -869,8 +844,10 @@
           overflow: hidden!important;
           display:block!important;
       }</style></aside>
+<div class="quarto-auto-generated-content">
 <div class="footer footer-default">
 
+</div>
 </div>
 </section>
     </div>
@@ -899,7 +876,6 @@
       Reveal.initialize({
 'controlsAuto': true,
 'previewLinksAuto': false,
-'smaller': false,
 'pdfSeparateFragments': false,
 'autoAnimateEasing': "ease",
 'autoAnimateDuration': 1,
@@ -1198,10 +1174,27 @@
         // clear code selection
         e.clearSelection();
       });
-      function tippyHover(el, contentFn) {
+        var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+        var mailtoRegex = new RegExp(/^mailto:/);
+          var filterRegex = new RegExp('/' + window.location.host + '/');
+        var isInternal = (href) => {
+            return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+        }
+        // Inspect non-navigation links and adorn them if external
+     	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool)');
+        for (var i=0; i<links.length; i++) {
+          const link = links[i];
+          if (!isInternal(link.href)) {
+            // undo the damage that might have been done by quarto-nav.js in the case of
+            // links that we want to consider external
+            if (link.dataset.originalHref !== undefined) {
+              link.href = link.dataset.originalHref;
+            }
+          }
+        }
+      function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
         const config = {
           allowHTML: true,
-          content: contentFn,
           maxWidth: 500,
           delay: 100,
           arrow: false,
@@ -1211,8 +1204,17 @@
           interactive: true,
           interactiveBorder: 10,
           theme: 'light-border',
-          placement: 'bottom-start'
+          placement: 'bottom-start',
         };
+        if (contentFn) {
+          config.content = contentFn;
+        }
+        if (onTriggerFn) {
+          config.onTrigger = onTriggerFn;
+        }
+        if (onUntriggerFn) {
+          config.onUntrigger = onUntriggerFn;
+        }
           config['offset'] = [0,0];
           config['maxWidth'] = 700;
         window.tippy(el, config); 
@@ -1226,7 +1228,11 @@
           try { href = new URL(href).hash; } catch {}
           const id = href.replace(/^#\/?/, "");
           const note = window.document.getElementById(id);
-          return note.innerHTML;
+          if (note) {
+            return note.innerHTML;
+          } else {
+            return "";
+          }
         });
       }
       const findCites = (el) => {

@@ -12,9 +12,13 @@ library(readxl)
 
 <br>
 
-<br>
+::: {.r-fit-text}
 
 **Working on Paper 2**
+
+- Reviewing the models and brainstorming connections
+
+:::
 
 <br>
 
@@ -39,7 +43,7 @@ Make an argument that one of the IR theories we've studied in class so far this 
 
 Your paper must consider and evaluate how **THREE** of the IR theories from class explain your chosen event.
 
-- Options: Neorealism, Offensive Realism, Democratic Peace, Economic Liberalism, and the Bargaining Model of War
+- Options: Neorealism, Offensive Realism, Liberal Institutionalism, Economic Liberalism, and the Bargaining Model of War
 
 ::: notes
 
@@ -59,7 +63,7 @@ Here is the prompt for the second paper.
 
 - Offensive Realism
 
-- Liberal Peace
+- Liberal Institutionalism
 
 - Economic Liberalism
 
@@ -136,7 +140,7 @@ PRESENT and DISCUSS each
 
 **Interests**
 
-- States want (gains?)
+- States want benefits (two actors?)
 
 **Institutions**
 

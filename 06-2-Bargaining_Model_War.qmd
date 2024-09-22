@@ -12,11 +12,13 @@ library(readxl)
 
 <br>
 
-<br>
+::: {.r-fit-text}
 
 **II. Why Are There Wars?**
 
 - Fearon's (1995) Bargaining Model of War
+
+:::
 
 <br>
 
@@ -29,7 +31,7 @@ Prep for Class
 
 1. Review canvas submissions
 
-2. Remember, we don't diagram this model using III until next Friday
+2. **Remember, we don't diagram this model using III until next Friday**
 
 <br>
 

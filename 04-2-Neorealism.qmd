@@ -31,6 +31,14 @@ Prep for Class
 
 1. Bring playing cards to class
 
+2. Make sure to keep things moving to cover all exercises
+    - Refresher on science
+    - Why wars?
+    - Survive or die game
+    - Introduce IIIs
+    - Diagram neorealism
+    - Step through security dilemma illustration
+
 <br>
 
 Reminder: Paper is due Friday!
@@ -231,7 +239,7 @@ It is the incredible death and destruction of WW1 and WW2 that leads to the birt
 
 - Offensive Realism
 
-- Democratic Peace
+- Liberal Institutionalism
 
 - Economic Liberalism
 
@@ -470,7 +478,7 @@ Think of interests, interactions and institutions as a shortcut to designing a m
 
 
 
-## Neorealism {background-image="Images/05_2-putin_with_gun_v2.png" .center}
+## Neorealism (Waltz 1988) {background-image="Images/05_2-putin_with_gun_v2.png" .center}
 
 <br>
 
@@ -509,7 +517,7 @@ Pairs group up and let's get these diagrams on the board!
 
 
 
-## Neorealism {background-image="Images/background-slate_v2.png" .center}
+## Neorealism (Waltz 1988) {background-image="Images/background-slate_v2.png" .center}
 
 **Interests**
 
@@ -562,7 +570,7 @@ Neorealists focus on states as the key units embedded in the international syste
 
 
 
-## Neorealism {background-image="Images/background-slate_v2.png" .center}
+## Neorealism (Waltz 1988) {background-image="Images/background-slate_v2.png" .center}
 
 **Interests**
 
@@ -820,7 +828,7 @@ This is an example of an arms race created by the security dilemma.
 :::
 
 
-## Neorealism {background-image="Images/background-slate_v2.png" .center}
+## Neorealism (Waltz 1988) {background-image="Images/background-slate_v2.png" .center}
 
 **Interests**
 

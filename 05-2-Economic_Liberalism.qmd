@@ -60,12 +60,12 @@ Prep for Class
 <br>
 
 ::: {.r-fit-text}
-<p style="color: white;">**Democratic Peace Theory**</p>
+<p style="color: white;">**Liberal Institutionalism**</p>
 :::
 
 ::: notes
 
-Last class we explored the roots of democratic peace theory.
+Last class we explored the roots of the democratic peace in Liberal Institutionalism.
 
 <br>
 
@@ -75,11 +75,11 @@ Last class we explored the roots of democratic peace theory.
 :::
 
 
-## Democratic Peace Theory {background-image="Images/background-worldmap4.png" .center .smaller}
+## {background-image="Images/background-worldmap4.png" .center}
 
-**(similar to Liberal Institutionalism)**
-
-<br>
+::: {.r-fit-text}
+**Liberal Institutionalism (Keohane 1984)**
+:::
 
 **Interests**
 
@@ -137,9 +137,7 @@ According to Robert Keohane and other liberal institutionalists, institutions fa
 
 
 
-## Economic Liberalism {background-image="Images/background-worldmap4.png" .center .smaller}
-
-<br>
+## Economic Liberalism (Nye 2007) {background-image="Images/background-worldmap4.png" .center}
 
 **Interests**
 
@@ -153,8 +151,6 @@ According to Robert Keohane and other liberal institutionalists, institutions fa
 
 - ?
 
-Therefore, increasing trade should reduce the occurrence of war.
-
 ::: notes
 
 To start, everybody focus on the Nye reading to diagram this argument.
@@ -166,6 +162,8 @@ Take 5 minutes on your own.
 - Remember, our models are built on interests, institutions and interactions.
 
 - Focus on clarifying those three pieces of the model.
+
+- Think about how Nye describes trade reducing the likelihood of war
 
 <br>
 
@@ -193,9 +191,7 @@ Now combine diagrams with the person next to you (small groups).
 
 
 
-## Economic Liberalism {background-image="Images/background-worldmap4.png" .center .smaller}
-
-<br>
+## Economic Liberalism (Nye 2007) {background-image="Images/background-worldmap4.png" .center .smaller}
 
 **Interests**
 
@@ -209,9 +205,7 @@ Now combine diagrams with the person next to you (small groups).
 
 - War is risky
 - The returns to trade grow over time
-- Increasing trade transforms the state's "social structure"
-
-Therefore, increasing trade should reduce the occurrence of war.
+- Increasing trade transforms the state's "social structure" to see war as less desirable
 
 ::: notes
 
@@ -240,9 +234,11 @@ Let's talk about whether or not this is convincing.
 
 
 
-## Economic Liberalism {background-image="Images/background-worldmap4.png" .center .smaller}
+## {background-image="Images/background-worldmap4.png" .center .smaller}
 
-<br>
+::: {.r-fit-text}
+**Economic Liberalism (Rosecrance 1986)**
+:::
 
 **Interests**
 
@@ -258,13 +254,13 @@ Let's talk about whether or not this is convincing.
 - The returns to trade grow over time
 - **...?**
 
-Therefore, increasing trade should reduce the occurrence of war.
-
 ::: notes
 
 We need more detail about the mechanism itself in order to be convinced.
 
 ### With the person next to you, use the Rosecrance excerpt to modify and clarify this model of international politics.
+
+- Let's replace the vague "social structures" with something more concrete
 
 - Focus on his description of "the trading world."
 
@@ -277,9 +273,11 @@ We need more detail about the mechanism itself in order to be convinced.
 
 
 
-## Economic Liberalism {background-image="Images/background-worldmap4.png" .center .smaller}
+## {background-image="Images/background-worldmap4.png" .center .smaller}
 
-<br>
+::: {.r-fit-text}
+**Economic Liberalism (Rosecrance 1986)**
+:::
 
 **Interests**
 
@@ -294,8 +292,7 @@ We need more detail about the mechanism itself in order to be convinced.
 - War is risky **and disrupts trade**
 - The returns to trade grow over time
 - **Specialized economies are dependent on trade for growth**
-
-Therefore, increasing trade should reduce the occurrence of war.
+- Therefore, increasing trade should reduce the occurrence of war.
 
 ::: notes
 
@@ -388,9 +385,11 @@ At that level EVERYONE has been made worse off by your attempt to diversify your
 :::
 
 
-## Economic Liberalism {background-image="Images/background-worldmap4.png" .center .smaller}
+## {background-image="Images/background-worldmap4.png" .center .smaller}
 
-<br>
+::: {.r-fit-text}
+**Economic Liberalism (Rosecrance 1986)**
+:::
 
 **Interests**
 
@@ -402,11 +401,11 @@ At that level EVERYONE has been made worse off by your attempt to diversify your
 
 **Interactions**
 
-- War is risky and disrupts trade
+- War is risky **and disrupts trade**
 - The returns to trade grow over time
-- Specialized economies are dependent on trade for growth
+- **Specialized economies are dependent on trade for growth**
+- Therefore, increasing trade should reduce the occurrence of war.
 
-Therefore, increasing trade should reduce the occurrence of war.
 
 ::: notes
 **What is the advantage of this version of the argument over the earlier version proposed by Nye?**
@@ -424,11 +423,11 @@ Therefore, increasing trade should reduce the occurrence of war.
 :::
 
 
-## Democratic Peace Theory {background-image="Images/background-worldmap4.png" .center .smaller}
+## {background-image="Images/background-worldmap4.png" .center}
 
-**(similar to Liberal Institutionalism)**
-
-<br>
+::: {.r-fit-text}
+**Liberal Institutionalism (Keohane 1984)**
+:::
 
 **Interests**
 
@@ -518,9 +517,11 @@ As the ice melts it is getting MUCH easier for states to see the Arctic seabed a
 
 
 
-## Economic Liberalism {background-image="Images/background-worldmap4.png" .center .smaller}
+## {background-image="Images/background-worldmap4.png" .center .smaller}
 
-<br>
+::: {.r-fit-text}
+**Economic Liberalism (Rosecrance 1986)**
+:::
 
 **Interests**
 
@@ -532,11 +533,10 @@ As the ice melts it is getting MUCH easier for states to see the Arctic seabed a
 
 **Interactions**
 
-- War is risky and disrupts trade
+- War is risky **and disrupts trade**
 - The returns to trade grow over time
-- Specialized economies are dependent on trade for growth
-
-Therefore, increasing trade should reduce the occurrence of war
+- **Specialized economies are dependent on trade for growth**
+- Therefore, increasing trade should reduce the occurrence of war.
 
 ::: notes
 **Ok, at this point, how convincing do you find this model of international politics?**
