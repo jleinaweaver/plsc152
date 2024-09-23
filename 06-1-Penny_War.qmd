@@ -31,7 +31,7 @@ Prep for Class
 
 1. Cards for bargaining game:
     - Print and cut out cards in Google Drive, OR
-    - Sets of 2-9 from multiple decks (**TEST** no aces and only 2-9)
+    - Sets of cards from multiple decks (**TEST** no aces and 2-10)
 
 2. Bring pennies or use paper to track scores
     - 10 per student
@@ -425,6 +425,7 @@ Your goal in this game is to have the most pennies at the end of five rounds.
 
 3. Complete five rounds and write down:
 	  - Who won overall?
+	  - How many pennies does the winner have?
 	  - How many wars did you fight?
 
 ::: notes
