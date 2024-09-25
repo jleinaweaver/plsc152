@@ -44,22 +44,24 @@ Prep for Class
 ## {background-image="Images/background-worldmap4.png" .center}
 
 ```{r, message=FALSE, warning=FALSE, fig.align='center', fig.asp=0.618, fig.width=8}
-## Fall 2024 (11 pairs)
+## Fall 2024 (13 pairs)
 library(tidyverse)
 
 # Record class data 
+# Wars and number of pennies for the winner
 d <- tibble(
-  Version1 = c(3, 3, 3, 3, 3, 4, 1, 3, 4, 3, 4), # 34 total 
-  Version2 = c(3, 2, 3, 3, 3, 4, 3, 4, 2, 3, 5), # 35 total 
-  Version3 = c(3, 2, 2, 2, 3, 2, 1, 4, 1, 1, 2), # 23 total 
-  Version4 = c(0, 0, 0, 0, 1, 1, 2, 1, 3, 3, 3) # 14 total 
+  Version1 = c(4, 4, 1, 5, 4, 5, 4, 3, 5, 4, 3, 3, 3), # 48 total 
+  Version2 = c(3, 5, 3, 2, 2, 5, 4, 3, 3, 5, 5, 3, 2), # 45 total 
+  Version3 = c(0, 2, 3, 0, 4, 3, 5, 3, 5, 5, 1, 3, 3), # 37 total 
+  Version4 = c(0, 0, 0, 0, 1, 0, 0, 4, 1, 2, 4, 0, 1) # 13 total 
 )
 
+
 da <- d |>
-  pivot_longer(cols = Version1:Version4, names_to = "Version", values_to = "Wars")
+  pivot_longer(cols = c(Version1, Version2, Version3, Version4), names_to = "Version", values_to = "Wars")
 
 d2 <- d %>%
-  pivot_longer(cols = Version1:Version4, names_to = "Version", values_to = "Wars") %>%
+  pivot_longer(cols = c(Version1, Version2, Version3, Version4), names_to = "Version", values_to = "Wars") %>%
   mutate(
     Uncertainty = case_when(
       Version == "Version1" ~ "High Uncertainty (All Hidden)",
@@ -125,23 +127,12 @@ Here are the overall results from our simulation.
 
 
 
-
 ## {background-image="Images/background-worldmap4.png" .center}
 
-:::: {.columns}
-::: {.column width="40%"}
-**Interests?**
-
-<br>
-
-**Institutions?**
-
-<br>
-
-**Interactions?**
+::: {.r-fit-text}
+**Interests, Institutions and Interactions?**
 :::
 
-::: {.column width="60%"}
 ```{r, fig.align='center', fig.asp=0.7}
 # Bar (all) 500x325
 p1 <- d2 %>%
@@ -156,61 +147,46 @@ p1 <- d2 %>%
 
 p1
 ```
-:::
-::::
 
 ::: notes
 
-Let's think of these results as a political outcome we need to explain.
+Remember we use models to explain international political events
+
+- And we can break most IR models into three components: interests, institutions and interactions
+
+- So, let's use these outcomes as a puzzle for us to explain.
 
 <br>
 
-**Outcome 1: Overall results**
-- In other words, this variation represents our international political event we're trying to explain.
+### How can you explain why we saw `r round(sum(da$Wars)/(nrow(da) * 5), 3) * 100`% of the rounds end in war?
+
+- Talk to the person next to you and get ready to report back to me how some specific interests, institutions, or interactions explain this outcome
 
 <br>
 
-### Take a few minutes on your own to think about our game and these results then make a list under each category.
-- How did the interests involved impact the outcomes of the game?
-- How did the institutions impact them?
-- And how did the interactions impact them?
+*REPORT BACK and put ON BOARD*
 
-<br>
+Interests
 
-### Compare your list with the person next to you.
-- Did you identify the same mechanisms?
+- Maximizing resources (pennies) vs a desire for murder!
+- Objective framed in relative gains / zero-sum
 
-<br>
+Institutions
 
-**Ok, what did we come up with?**
+- Social acceptance of violence?
+- No chance for allies to help
+- Odd number of rounds?
+- How many cards in my "deck"?
+- Sum vs avg?
 
-<br>
+Interactions
 
-*ON BOARD*
-
-### Key interests involved?
-
-- (Possible first preference:)
-    - Bonus points
-    - Social acceptance
-    - Murder and death
-
-### Key institutions involved?
-
-- (Objective framed in relative gains / zero-sum)
-- (No chance for allies to help)
-- (Odd number of rounds?)
-- (How many cards in my "deck"?)
-- (Sum vs avg?)
-
-### Key interactions involved?
-
-- (Uncertainty:)
+- Uncertainty!
     - I don't know what you have in your hand
     - I don't know your level of risk acceptance
-- (Do people play differently in first round than in the second?)
-- (Do people play differently in the lead than being behind?)
-- (How did revealing cards change the game?)
+- Do people play differently in first round than in the second?
+- Do people play differently in the lead than being behind?
+- How did revealing cards change the game?
 
 :::
 
@@ -218,51 +194,39 @@ Let's think of these results as a political outcome we need to explain.
 
 ## {background-image="Images/background-worldmap4.png" .center}
 
-:::: {.columns}
-::: {.column width="40%"}
-**Interests?**
-
-<br>
-
-**Institutions?**
-
-<br>
-
-**Interactions?**
+::: {.r-fit-text}
+**Interests, Institutions and Interactions?**
 :::
 
-::: {.column width="60%"}
 ```{r, fig.align='center', fig.asp=0.7}
 # Bar (game version 1) 500x325
 
 da_v1 <- da |> filter(Version == "Version1")
 
-# Note I added rows to get zero bars
+# Identify missing values 0-5 wars and add
+x1 <- d2 %>%
+  filter(Version == "Version1") %>%
+  count(Wars) |>
+  select(Wars)
+
+x2 <- 0:5 %in% x1[[1]]
+
+x3 <- 0:5
+
 d2 %>%
   filter(Version == "Version1") %>%
   count(Wars) %>%
-  add_row(Wars = c(0,1), n = 0) %>%
+  add_row(Wars = x3[!x2], n = 0) %>%
   arrange(Wars) %>%
-  ggplot(aes(x = Wars, y = n)) +
+  ggplot(aes(x = Wars, y=n)) +
   geom_col(width = .75) +
   theme_bw() +
   labs(x = "Wars Fought by Pairs of Students", y = "Count of Pairs", title = "Version 1: High Uncertainty (All Cards Hidden)",
        subtitle = str_c(sum(da_v1$Wars), " wars / ", nrow(da_v1) * 5, " rounds = ", round(sum(da_v1$Wars)/(nrow(da_v1) * 5), 3) * 100, "%")) +
-  scale_y_continuous(breaks = seq(0, 7, 1)) +
-  scale_x_continuous(limits = c(-.25,5.25), breaks = seq(0, 5, 1)) +
-  geom_hline(yintercept = seq(1, 7, 1), color = "white")
-
- # d2 %>%
- #   group_by(Version) %>%
- #   summarize(
- #     pairings = n(),
- #     wars = sum(Wars),
- #     possible = pairings * 5, #rounds per game
- #     proportion = wars/possible
- #   )
+  scale_x_continuous(breaks = 0:5) +
+  scale_y_continuous(breaks = 0:max(x1$Wars) + 1) +
+  geom_hline(yintercept = seq(1, max(x1$Wars) + 1), color = "white")
 ```
-:::
-::::
 
 ::: notes
 
@@ -305,13 +269,108 @@ Here are the results for just version 1 of the game.
 
 ## {background-image="Images/background-worldmap4.png" .center}
 
+::: {.r-fit-text}
+**Interests, Institutions and Interactions?**
+:::
+
+```{r, fig.align='center', fig.asp=0.7}
+# Bar (game version 1) 500x325
+
+da_v4 <- da |> filter(Version == "Version4")
+
+# Identify missing values 0-5 wars and add
+x1 <- d2 %>%
+  filter(Version == "Version4") %>%
+  count(Wars) |>
+  select(Wars)
+
+x2 <- 0:5 %in% x1[[1]]
+
+x3 <- 0:5
+
+d2 %>%
+  filter(Version == "Version4") %>%
+  count(Wars) %>%
+  add_row(Wars = x3[!x2], n = 0) %>%
+  arrange(Wars) %>%
+  ggplot(aes(x = Wars, y=n)) +
+  geom_col(width = .75) +
+  theme_bw() +
+  labs(x = "Wars Fought by Pairs of Students", y = "Count of Pairs", title = "Version 4: No Uncertainty (All Cards Revealed)",
+       subtitle = str_c(sum(da_v1$Wars), " wars / ", nrow(da_v1) * 5, " rounds = ", round(sum(da_v1$Wars)/(nrow(da_v1) * 5), 3) * 100, "%")) +
+  scale_x_continuous(breaks = 0:5) +
+  scale_y_continuous(breaks = 0:max(x1$Wars) + 1) +
+  geom_hline(yintercept = seq(1, max(x1$Wars) + 1), color = "white")
+
+
+```
+
+::: notes
+
+Let's shift our focus to a different political outcome.
+
+<br>
+
+Here are the results for just version 4 of the game.
+
+```{r}
+ d2 %>%
+   group_by(Version) %>%
+   summarize(
+     pairings = n(),
+     wars = sum(Wars),
+     possible = pairings * 5, #rounds per game
+     proportion = wars/possible
+   ) |>
+  filter(Version == "Version4")
+```
+
+<br>
+
+### Any suprises here? Is this consistent with the interests, institutions and interactions we just flagged?
+
+<br>
+
+### How did you approach version 4 of the game? Did you have a strategy?
+
+<br>
+
+### What strategies did you observe in your opponents? Purely random decision-making or something else?
+
+<br>
+
+### How did your strategy adapt or evolve from playing the game?
+:::
+
+
+
+
+
+## {background-image="Images/background-worldmap4.png" .center}
+
 **Interests, Institutions and Interactions?**
 
 <br>
 
-```{r}
+```{r, fig.retina=3, fig.asp=.65, fig.align='center'}
 # Summary stats
- d2 |>
+# d2 |>
+#   mutate(
+#     Uncertainty_f = factor(Uncertainty, levels = c("High Uncertainty (All Hidden)", "Medium Uncertainty (Most Hidden)", "Low Uncertainty (One Hidden)", "No Uncertainty"))
+#   ) |>
+#   group_by(Uncertainty_f) |>
+#    summarize(
+#      pairings = n(),
+#      wars = sum(Wars),
+#      possible = pairings * 5, #rounds per game
+#      proportion = round(wars/possible, 2)
+#    ) |>
+#   select(-pairings) |>
+#   kableExtra::kbl(col.names = c("Level of Uncertainty", "Wars", "Rounds", "Proportion")) |>
+#   kableExtra::kable_styling(font_size = 30)
+
+# Try a version as a plot
+tab1 <- d2 |>
   mutate(
     Uncertainty_f = factor(Uncertainty, levels = c("High Uncertainty (All Hidden)", "Medium Uncertainty (Most Hidden)", "Low Uncertainty (One Hidden)", "No Uncertainty"))
   ) |>
@@ -323,43 +382,53 @@ Here are the results for just version 1 of the game.
      proportion = round(wars/possible, 2)
    ) |>
   select(-pairings) |>
-  kableExtra::kbl() |>
-  kableExtra::kable_styling(font_size = 18)
+  mutate(
+    order1 = 1:4
+  )
+
+labs1 <- c("High Uncertainty (All Hidden)", "Medium Uncertainty (Most Hidden)", "Low Uncertainty (One Hidden)", "No Uncertainty")
+
+labs2 <- tab1$proportion
+
+tab1 |>
+  ggplot(aes(x = order1, y = proportion)) +
+  geom_line(linewidth = 1.2) +
+  geom_point(size = 5) +
+  scale_y_continuous(limits = c(0, 1), labels = scales::percent_format()) +
+  scale_x_continuous(labels = labs1, limits = c(.7,4.2), breaks = 1:4) +
+  theme_bw() +
+  labs(x = "", y = "Risk of War", title = "The risks of war fell dramatically as we reduced the uncertainty in the game") +
+  ggrepel::geom_text_repel(aes(label = str_c(100*labs2, "%")))
+
+
+
 ```
 
-```{r, message=FALSE, warning=FALSE, fig.align='center', fig.asp=.38, fig.width=10}
-# Plot
-d2 %>%
-  ggplot(aes(x = Wars)) +
-  geom_bar(width = .75) + #, fill = "darkgrey"
-  theme_bw() +
-  labs(x = "", y = "") + #, title = "Wars Fought (per round)"
-  facet_wrap(~Uncertainty3, nrow = 1) + #, scales = "free_y"
-  scale_x_continuous(breaks = seq(0, 5, 1)) +
-  geom_hline(yintercept = seq(2, 6, 2), color = "white") +
-  scale_y_continuous(breaks = seq(0, 7, 1))
-```
 
 ::: notes
 
 Now take a step back.
 
-### What happened as we went through the rounds?
-
 ```{r}
- d2 %>%
-   group_by(Version) %>%
+d2 |>
+  mutate(
+    Uncertainty_f = factor(Uncertainty, levels = c("High Uncertainty (All Hidden)", "Medium Uncertainty (Most Hidden)", "Low Uncertainty (One Hidden)", "No Uncertainty"))
+  ) |>
+  group_by(Uncertainty_f) |>
    summarize(
      pairings = n(),
      wars = sum(Wars),
      possible = pairings * 5, #rounds per game
-     proportion = wars/possible
-   ) 
+     proportion = round(wars/possible, 2)
+   ) |>
+  select(-pairings)
 ```
 
 <br>
 
-### Any suprises here? Is this consistent with the interests, institutions and interactions we just flagged?
+**What happened as we went through the rounds?**
+
+- **Any suprises here? Is this consistent with the interests, institutions and interactions we just flagged?**
 
 <br>
 
