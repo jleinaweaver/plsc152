@@ -31,7 +31,32 @@ Prep for Class
 
 <br>
 
+*FALL 24*
+
+**Make an argument: Iran bombing Israel yesterday is best explained using neorealism**
+
+<br>
+
+**Make an argument: Iran bombing Israel yesterday is best explained using offensive realism**
+
+<br>
+
+**Make an argument: Iran bombing Israel yesterday is best explained using economic liberalism**
+
+<br>
+
+**Make an argument: Iran bombing Israel yesterday is best explained using liberal institutionalism**
+
+<br>
+
+**Bottom line, which is the most useful model for this event? Why?**
+
+
+<br>
+
 ### DISCUSS: Name me an international political event that has happened since we last met as a class.
+
+
 :::
 
 
@@ -73,13 +98,16 @@ OK, map out the model for me.
 ### What are the key interests, institutions and interactions in this model?
 
 INTERESTS
+
 - Combatants who want peace
 - UN wants stabilization of a post-conflict area
 
 INSTITUTIONS
+
 - Anarchy of post-civil war conflict, no information, no trust
 
 INTERACTIONS
+
 - Combatants face commitment and information problems
 - UN uses the number, timing and type of PKOs to promote a durable peace.
 :::
@@ -129,11 +157,24 @@ Everybody go to the "Discussion and conclusion" section on p245.
 
 <br>
 
+::: {.r-fit-text}
+
+1. UN peacekeeping troops prolong peace
+
+2. UN observers / police do not
+
+:::
+
+::: notes
+
+The wordier versions from the text:
+
 1. Successful UN peacekeeping missions address "the security challenges to former belligerents" by providing "a greater number of troops" on the ground (246).
 
 2. "...increasing the deployment of observer and police personnel is not likely to yield positive outcomes" (246).
 
-::: notes
+
+<br>
 
 Assume for the moment these conclusions are "correct."
 
@@ -144,23 +185,14 @@ Assume for the moment these conclusions are "correct."
 ### How do we understand the effectiveness of troops against the ineffectiveness of observers? Doesn't that mean the model is unhelpful?
 
 - (Maybe this is the difference between bluffing with "observers" and signaling a serious international commitment with troops willing to use violence?)
-:::
-
-
-
-## High, Low or No Confidence? {background-image="Images/07_2-UN_Flag2.png" .center}
 
 <br>
-
-1. Successful UN peacekeeping missions address "the security challenges to former belligerents" by providing "a greater number of troops" on the ground (246).
-
-2. "...increasing the deployment of observer and police personnel is not likely to yield positive outcomes" (246).
-
-::: notes
 
 Our goal for today is to evaluate our level of confidence in these two conclusions.
 
 - Do we walk away from this paper thinking the UN is or is not effective at prolonging peace after civil wars?
+
+<br>
 
 ### Everybody clear on the goal?
 
@@ -168,108 +200,144 @@ Our goal for today is to evaluate our level of confidence in these two conclusio
 
 
 
-## High, Low or No Confidence? {background-image="Images/07_2-UN_Flag2.png" .center}
+## {background-image="Images/07_2-UN_Flag2.png" .center}
+
+::: {.r-fit-text}
+
+**Are we convinced by the conclusions?**
+
+1. UN peacekeeping troops prolong peace
+
+2. UN observers / police do not
+
+:::
 
 <br>
 
-1. Successful UN peacekeeping missions address "the security challenges to former belligerents" by providing "a greater number of troops" on the ground (246).
+::: {.fragment}
 
-2. "...increasing the deployment of observer and police personnel is not likely to yield positive outcomes" (246).
+**Evaluate the Case Selection**
 
-<br>
+1. What cases in the world are they analyzing?
 
-**Data Sources and Case Selection**
+2. Are we confident these are the "right" cases for answering this research question? Why or why not?
+
+:::
 
 ::: notes
 
-<br>
+Everybody take a look at the research design on p238
 
-Let's start with the data sources and case selection.
+- Talk to the people around you and get ready to answer two questions for me
 
-### Any questions on what those two concepts mean?
-- (Where did they get the data from?)
-- (What did they include and exclude in their dataset?)
+- REVEAL
 
 <br>
 
-Five minutes on your own, get ready to make an argument about our confidence in their data selection.
-- *note the research design section p238*
+**Ok, what cases are they studying and do those cases boost or reduce your confidence in the conclusions?**
 
-<br>
+- (Only African civil wars)
 
-Share your argument with the people around you, get ready to bring those arguments to the class.
+- (1989 - 2010 (post cold war))
 
-<br>
+- (Lots of variation in types of war and types of intervention)
 
-**Ok, what data did they use?**
+- (End of cold war should remove barrier to UNSC acting in these cases)
 
-Cases
-
-- Only African civil wars
-- 1989 - 2010 (post cold war)
-- Lots of variation in types of war and types of intervention
-- End of cold war should remove barrier to UNSC acting in these cases
-- Uppsala Conflict Data Program (UCDP)
-
-UN peacekeeping mission capacity
-- three variables
-
-<br>
-
-### How confident are you in the data they selected for the test they are running? High, low or no confidence?
 :::
 
 
 
-## {background-image="Images/07_3-Table1.png" background-size='85%'}
+## {background-image="Images/07_2-UN_Flag2.png" .center}
+
+**Are we convinced by the conclusions?**
+
+1. UN peacekeeping troops prolong peace
+
+2. UN observers / police do not
+
+![](Images/07_3-Table1.png){style="display: block; margin: 0 auto"}
 
 ::: notes
 
-Our next job is to evaluate the operationalizations and measurements in the paper.
+Now let's talk about the data
 
-- In other words, how do the researcher move from conceptual ideas to actual measures of these things in the real world?
-
-<br>
-
-The descriptive statistics table is SUPER useful for this discussion.
-
-- They often represent our only chance to audit the sample and to get a sense of what the world looks like in this research paper.
+- e.g. the specific empirical measures of the world these researchers are using to test their model
 
 <br>
 
-Let's briefly talk basic descriptive statistics.
+The descriptive statistics table in most quantitative research papers are SUPER useful for this discussion.
 
-### Explain to me what each column represents
-- (Mean: The average)
-- (SD: The spread of data around the average)
-- (Min: The smallest value)
-- (Max: The largest value)
+- **First, talk to the people around you, make sure you're all clear on what each variable measures**
 
 <br>
 
-Let's apply these stats to make sure that is clear.
+Let's make sure you're clear
 
-### What is the key outcome they are trying to explain and how is it measured?
-- (Peace duration in months (?))
+- **Which variable represents the outcome variable for this study? e.g. the thing they are trying to explain**
 
-### And what do we learn about post-conflict peace from these descriptive stats?
+- **Which variables represent the primary predictors? e.g. the things causing this outcome?**
+
+<br>
+
+Good!
+
+- The rest of these are what we call "control" variables
+
+- e.g. Other things we think are important for explaining the outbreak of war
+
+<br>
+
+**In terms of us being convinced by the conclusions, is this a good list of variables to study? Why or why not?**
+
+:::
+
+
+
+## {background-image="Images/07_2-UN_Flag2.png" .center}
+
+**Are we convinced by the conclusions?**
+
+1. UN peacekeeping troops prolong peace
+
+2. UN observers / police do not
+
+![](Images/07_3-Table1.png){style="display: block; margin: 0 auto"}
+
+::: notes
+
+Now let's use the table to learn about the world of the study
+
+- **Explain to me what each column represents**
+    
+    - (Mean: The average)
+    - (SD: The spread of data around the average)
+    - (Min: The smallest value)
+    - (Max: The largest value)
+
+<br>
+
+Now, talk to the people around you and focus just on the primary four variables (peace, UN troops, observers and police)
+
+- Get ready to report back what we learn from these descriptive statistics about each measure in the dataset
+
+<br>
+
+**Ok, what did we learn?**
+
+<br>
+
+**What do we learn about post-conflict peace from these descriptive stats?**
+
 - (On average, peace lasts almost 7 years after war)
-    - BUT shortest was only 1 month!
-    - Longest was 22 years!
-    
-<br>
-    
-So, the purpose of the research is to see if we can explain why some states prolong peace and others do not.
+- BUT shortest was only 1 month!
+- Longest was 22 years!
+- So, the purpose of the research is to see if we can explain why some states prolong peace and others do not.
 - AND could the UN be the difference?
 
-### Make sense?
-:::
+<br>
 
-
-## {background-image="Images/07_3-Table1.png" background-size='85%'}
-
-::: notes
-**Talk me through the other key variables: What do we learn from these statistics about UN missions to post conflict zones?**
+**What do we learn about how the UN sends troops, observers and police into post conflict zones?**
 
 - Troop missions WAY bigger than the other two
 - Troops > Police > Observers
@@ -277,31 +345,60 @@ So, the purpose of the research is to see if we can explain why some states prol
 
 <br>
 
+**In terms of us being convinced by the conclusions, does this data represent a good test of this model? Why or why not?**
+
+:::
+
+
+## {background-image="Images/07_2-UN_Flag2.png" .center}
+
+**Are we convinced by the conclusions?**
+
+1. UN peacekeeping troops prolong peace
+
+2. UN observers / police do not
+
+![](Images/07_3-Table1.png){style="display: block; margin: 0 auto"}
+
+::: notes
+
+**Do any of the stats on the control variables catch your eye as interesting?**
+
+<br>
+
 Regime type measure from Polity runs from -10 (full dictatorship) to +10 (full democracy)
 
-### - What do we learn about post-conflict states from this variable?
+- **What do we learn about post-conflict states from this variable?**
+
 - (Run the full gamut BUT avg near 0, anocracy)
+
 - Makes sense that conflict zones lack sufficient control for either dictators or democracies to thrive
 
 <br>
 
-### What proportion of the conflicts ended in a negotiation? What proportion in a victory? Make sense for places that need UN missions?
+**What proportion of the conflicts ended in a negotiation and what proportion in a victory?**
+
 - (33% negotiation, 21% victory)
+
+- Makes sense for places that need UN missions, no?
 
 <br>
 
 GDP per capita, e.g. average economic size or wealth of a country, is included here in the log scale.
+
 - The average GDP pc is only $972 (min $133, max $4,865)
 
-### What does that tell us about economic wealth in post-conflict zones?
+- **What does that tell us about economic wealth in post-conflict zones?**
 
 <br>
 
 Population is also in the log scale
+
 - The average population is only 10,614 (min 507, max 142,94)
+
 - I don't understand what country in the sample has a population of 500...
 
-### What does that tell us about the size of post-conflict zones?
+- **What does that tell us about the size of post-conflict zones?**
 
 <br>
 
@@ -461,13 +558,17 @@ Good research papers will always include some attempt to visualize the regressio
 
 
 
-## High, Low or No Confidence? {background-image="Images/07_2-UN_Flag2.png" .center}
+## Conclusion: The UN succeeds when... {background-image="Images/07_2-UN_Flag2.png" .center}
 
 <br>
 
-1. Successful UN peacekeeping missions address "the security challenges to former belligerents" by providing "a greater number of troops" on the ground (246).
+::: {.r-fit-text}
 
-2. "...increasing the deployment of observer and police personnel is not likely to yield positive outcomes" (246).
+1. UN peacekeeping troops prolong peace
+
+2. UN observers / police do not
+
+:::
 
 ::: notes
 **So, bottom line, how confident are you in these conclusions?**
