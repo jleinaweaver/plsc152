@@ -32,6 +32,8 @@ Data, slides and errata for my class at Drury University (PLSC 152: Intro to Int
 
 06-3-Debate_DPRK.html
 
+07-1-UN_and_HKS2016-Args.html
+
 07-2-HKS2016-Conclusions.html
 
 07-3-Developing_Paper2-Arg2.html

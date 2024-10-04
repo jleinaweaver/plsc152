@@ -29,7 +29,10 @@ Justin Leinaweaver (Fall 2024)
 ::: notes
 Prep for Class
 
-1. ...
+1. Timings
+    - Groups: Diagram models we've covered thoroughly
+    - Groups: Diagram bargaining model
+    - Review paper prompt and assignment for NEXT Friday (10 mins)
 
 :::
 
@@ -156,6 +159,7 @@ PRESENT and DISCUSS each
 ::: notes
 
 Assumptions
+
 - ONLY applies to conflict situations!
 - Two risk-averse or risk-neutral actors (or sides),
 - Dispute on a single dimension,
@@ -165,6 +169,7 @@ Assumptions
 - The issues at dispute must be divisible.
 
 Expectations
+
 - Because wars are costly, risky and inefficient, there should ALWAYS be a non-war outcome that both sides would prefer.
 - Therefore, war occurs because of private information and the incentive to misrepresent.
 - Therefore, war occurs as a consequence of commitment problems.

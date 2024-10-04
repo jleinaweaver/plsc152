@@ -8,7 +8,7 @@
 <link href="07-3-Developing_Paper2-Arg2_files/libs/quarto-html/light-border.css" rel="stylesheet">
 <link href="07-3-Developing_Paper2-Arg2_files/libs/quarto-html/quarto-html.min.css" rel="stylesheet" data-mode="light">
 <link href="07-3-Developing_Paper2-Arg2_files/libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
-  <meta name="generator" content="quarto-1.4.555">
+  <meta name="generator" content="quarto-1.5.57">
 
   <title>developing_paper2-arg2</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
@@ -341,7 +341,12 @@
 <aside class="notes">
 <p>Prep for Class</p>
 <ol type="1">
-<li>…</li>
+<li>Timings
+<ul>
+<li>Groups: Diagram models we’ve covered thoroughly</li>
+<li>Groups: Diagram bargaining model</li>
+<li>Review paper prompt and assignment for NEXT Friday (10 mins)</li>
+</ul></li>
 </ol>
 <style type="text/css">
         span.MJX_Assistive_MathML {
@@ -475,8 +480,23 @@
 <li>War occurs due to “issue indivisibilities”</li>
 </ul>
 <aside class="notes">
-<p>Assumptions - ONLY applies to conflict situations! - Two risk-averse or risk-neutral actors (or sides), - Dispute on a single dimension, - Winner of the war chooses the outcome position, - Amount you like the outcome increases across the line, - States must know there is a probability of victory, and - The issues at dispute must be divisible.</p>
-<p>Expectations - Because wars are costly, risky and inefficient, there should ALWAYS be a non-war outcome that both sides would prefer. - Therefore, war occurs because of private information and the incentive to misrepresent. - Therefore, war occurs as a consequence of commitment problems. - Therefore, war occurs due to “issue indivisibilities”</p>
+<p>Assumptions</p>
+<ul>
+<li>ONLY applies to conflict situations!</li>
+<li>Two risk-averse or risk-neutral actors (or sides),</li>
+<li>Dispute on a single dimension,</li>
+<li>Winner of the war chooses the outcome position,</li>
+<li>Amount you like the outcome increases across the line,</li>
+<li>States must know there is a probability of victory, and</li>
+<li>The issues at dispute must be divisible.</li>
+</ul>
+<p>Expectations</p>
+<ul>
+<li>Because wars are costly, risky and inefficient, there should ALWAYS be a non-war outcome that both sides would prefer.</li>
+<li>Therefore, war occurs because of private information and the incentive to misrepresent.</li>
+<li>Therefore, war occurs as a consequence of commitment problems.</li>
+<li>Therefore, war occurs due to “issue indivisibilities”</li>
+</ul>
 <p><br></p>
 <p><strong>SLIDE</strong>: Remember our advice from the first paper.</p>
 <style type="text/css">
@@ -873,18 +893,7 @@
         }
         return false;
       }
-      const clipboard = new window.ClipboardJS('.code-copy-button', {
-        text: function(trigger) {
-          const codeEl = trigger.previousElementSibling.cloneNode(true);
-          for (const childEl of codeEl.children) {
-            if (isCodeAnnotation(childEl)) {
-              childEl.remove();
-            }
-          }
-          return codeEl.innerText;
-        }
-      });
-      clipboard.on('success', function(e) {
+      const onCopySuccess = function(e) {
         // button target
         const button = e.trigger;
         // don't keep focus
@@ -916,7 +925,29 @@
         }, 1000);
         // clear code selection
         e.clearSelection();
+      }
+      const getTextToCopy = function(trigger) {
+          const codeEl = trigger.previousElementSibling.cloneNode(true);
+          for (const childEl of codeEl.children) {
+            if (isCodeAnnotation(childEl)) {
+              childEl.remove();
+            }
+          }
+          return codeEl.innerText;
+      }
+      const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+        text: getTextToCopy
       });
+      clipboard.on('success', onCopySuccess);
+      if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+        // For code content inside modals, clipBoardJS needs to be initialized with a container option
+        // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
+        const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+          text: getTextToCopy,
+          container: window.document.getElementById('quarto-embedded-source-code-modal')
+        });
+        clipboardModal.on('success', onCopySuccess);
+      }
         var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
         var mailtoRegex = new RegExp(/^mailto:/);
           var filterRegex = new RegExp('/' + window.location.host + '/');
@@ -924,7 +955,7 @@
             return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
         }
         // Inspect non-navigation links and adorn them if external
-     	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool)');
+     	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
         for (var i=0; i<links.length; i++) {
           const link = links[i];
           if (!isInternal(link.href)) {
