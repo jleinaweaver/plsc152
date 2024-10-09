@@ -14,11 +14,13 @@ library(kableExtra)
 
 <br>
 
+::: {.r-fit-text}
+
 **III. Why is it so Hard to Cooperate with Other Countries?**
 
 - Interests, Institutions and Interactions
 
-<br>
+:::
 
 <br>
 
@@ -200,13 +202,13 @@ Last big picture question!
 ```{r}
 tribble(
   ~Round, ~Group_A, ~Group_B,
-  1, "Cooperate", "Defect",
-  2, "Defect", "Defect",
-  3, "Cooperate", "Defect",
-  4, "Cooperate", "Cooperate",
-  5, "Defect", "Defect",
-  6, "Defect", "Defect",
-  7, "Defect", "Defect"
+  1, "Defect", "Defect",
+  2, "Cooperate", "Defect",
+  3, "Defect", "Defect",
+  4, "Cooperate", "Defect",
+  5, "Cooperate", "Defect"
+  #6, "Defect", "Defect",
+  #7, "Defect", "Defect"
 ) |>
   kbl(align = "c", col.names = c("Round", "Group A", "Group B")) |>
   kable_styling(bootstrap_options = c("striped", "hover", "condensed", "responsive"), font_size = 40) |>
@@ -254,15 +256,20 @@ We need to start by getting this research team all working from the same page.
 
 
 
-## Building a Model of the Prisoner's Dilemma {background-image="Images/background-cloth_v3.png" .center}
+## A Prisoner's Dilemma {background-image="Images/background-cloth_v3.png" .center}
 
 <br>
+
+::: {.r-fit-text}
+**Let's build a model of this political event**
 
 + Interests
 
 + Institutions
 
 + Interactions
+
+:::
 
 ::: notes
 
@@ -291,6 +298,8 @@ Work in small groups to diagram the interests, institutions and interactions.
 
 ## A Model of the Prisoner's Dilemma {background-image="Images/background-blue_cubes_lighter3.png" .smaller}
 
+<br>
+
 **Interests:** 
 
 - Rational individuals pursuing "gains"
@@ -305,7 +314,7 @@ Work in small groups to diagram the interests, institutions and interactions.
 
 - Biggest rewards for short-term defection OR long-term cooperation
 
-Therefore, a risk averse actor's dominant strategy is to defect
+- A risk averse actor's dominant strategy is to defect
 
 ::: notes
 
@@ -399,6 +408,8 @@ A kind of prisoner's dilemma!
 
 ## A Model of the Prisoner's Dilemma {background-image="Images/background-blue_cubes_lighter3.png" .smaller}
 
+<br>
+
 **Interests:** 
 
 - Rational individuals pursuing "gains"
@@ -413,7 +424,7 @@ A kind of prisoner's dilemma!
 
 - Biggest rewards for short-term defection OR long-term cooperation
 
-Therefore, a risk averse actor's dominant strategy is to defect
+- A risk averse actor's dominant strategy is to defect
 
 ::: notes
 
@@ -500,13 +511,13 @@ Here is the prompt for the second paper.
 
 **Apply/Evaluate Theory 1**
 
-+ Evidence x 2
++ Evidence
 
 **Apply/Evaluate Theory 2**
 
-+ Evidence x 2
++ Evidence
 
 **Apply/Evaluate Theory 3**
 
-+ Evidence x 2
++ Evidence
 

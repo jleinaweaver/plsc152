@@ -8,7 +8,7 @@
 <link href="08-2-Interests_Institutions_Interactions_files/libs/quarto-html/light-border.css" rel="stylesheet">
 <link href="08-2-Interests_Institutions_Interactions_files/libs/quarto-html/quarto-html.min.css" rel="stylesheet" data-mode="light">
 <link href="08-2-Interests_Institutions_Interactions_files/libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
-  <meta name="generator" content="quarto-1.3.433">
+  <meta name="generator" content="quarto-1.5.57">
 
   <title>interests_institutions_interactions</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
@@ -155,7 +155,8 @@
   }
 
   .callout.callout-titled .callout-body > .callout-content > :last-child {
-    margin-bottom: 0.5rem;
+    padding-bottom: 0.5rem;
+    margin-bottom: 0;
   }
 
   .callout.callout-titled .callout-icon::before {
@@ -318,7 +319,6 @@
       margin-right: 0; 
     }
   </style>
-  
   <script src="08-2-Interests_Institutions_Interactions_files/libs/kePrint-0.0.1/kePrint.js"></script>
   <link href="08-2-Interests_Institutions_Interactions_files/libs/lightable-0.0.1/lightable.css" rel="stylesheet">
 </head>
@@ -330,11 +330,12 @@
 <section id="todays-agenda" class="slide level2 center" data-background-image="Images/background-worldmap4.png">
 <h2>Today’s Agenda</h2>
 <p><br></p>
+<div class="r-fit-text">
 <p><strong>III. Why is it so Hard to Cooperate with Other Countries?</strong></p>
 <ul>
 <li>Interests, Institutions and Interactions</li>
 </ul>
-<p><br></p>
+</div>
 <p><br></p>
 <div class="r-stack">
 <p>Justin Leinaweaver (Fall 2024)</p>
@@ -389,7 +390,7 @@
 <p><strong>What did you learn about yourself from the game?</strong></p>
 <p><br></p>
 
-<img data-src="Images/08_2-Individual_Stick_Figures_v2.png" style="width:95.0%" class="r-stretch quarto-figure-center"><aside class="notes">
+<img data-src="Images/08_2-Individual_Stick_Figures_v2.png" class="quarto-figure quarto-figure-center r-stretch" style="width:95.0%"><aside class="notes">
 <p>Take a moment to reflect on this question.</p>
 <ul>
 <li>Get ready to report back to me what you learned about yourself.</li>
@@ -423,7 +424,7 @@
 <p><strong>What did you learn about the people on your team?</strong></p>
 <p><br></p>
 
-<img data-src="Images/07_2-The_Team.png" style="width:90.0%" class="r-stretch quarto-figure-center"><aside class="notes">
+<img data-src="Images/07_2-The_Team.png" class="quarto-figure quarto-figure-center r-stretch" style="width:90.0%"><aside class="notes">
 <p>Your experience of the game was almost entirely a negotiation INSIDE your team, not with the other side.</p>
 <ul>
 <li>So, your direct experience gives you the most insight into your own behavior and second to that, into your team’s behavior.</li>
@@ -499,7 +500,7 @@
 <div class="cell">
 <div class="cell-output-display">
 <div class="table-responsive">
-<table class="table table-striped table-hover table-condensed" data-quarto-postprocess="true" style="font-size: 40px; margin-left: auto; margin-right: auto;">
+<table class="table table-striped table-hover table-condensed caption-top" data-quarto-postprocess="true" style="font-size: 40px; margin-left: auto; margin-right: auto;">
 <thead>
 <tr class="header">
 <th style="text-align: center;" data-quarto-table-cell-role="th">Round</th>
@@ -510,37 +511,27 @@
 <tbody>
 <tr class="odd">
 <td style="text-align: center;">1</td>
-<td style="text-align: center; width: 7em;">Cooperate</td>
+<td style="text-align: center; width: 7em;">Defect</td>
 <td style="text-align: center; width: 7em;">Defect</td>
 </tr>
 <tr class="even">
 <td style="text-align: center;">2</td>
-<td style="text-align: center; width: 7em;">Defect</td>
+<td style="text-align: center; width: 7em;">Cooperate</td>
 <td style="text-align: center; width: 7em;">Defect</td>
 </tr>
 <tr class="odd">
 <td style="text-align: center;">3</td>
-<td style="text-align: center; width: 7em;">Cooperate</td>
+<td style="text-align: center; width: 7em;">Defect</td>
 <td style="text-align: center; width: 7em;">Defect</td>
 </tr>
 <tr class="even">
 <td style="text-align: center;">4</td>
 <td style="text-align: center; width: 7em;">Cooperate</td>
-<td style="text-align: center; width: 7em;">Cooperate</td>
+<td style="text-align: center; width: 7em;">Defect</td>
 </tr>
 <tr class="odd">
 <td style="text-align: center;">5</td>
-<td style="text-align: center; width: 7em;">Defect</td>
-<td style="text-align: center; width: 7em;">Defect</td>
-</tr>
-<tr class="even">
-<td style="text-align: center;">6</td>
-<td style="text-align: center; width: 7em;">Defect</td>
-<td style="text-align: center; width: 7em;">Defect</td>
-</tr>
-<tr class="odd">
-<td style="text-align: center;">7</td>
-<td style="text-align: center; width: 7em;">Defect</td>
+<td style="text-align: center; width: 7em;">Cooperate</td>
 <td style="text-align: center; width: 7em;">Defect</td>
 </tr>
 </tbody>
@@ -583,14 +574,17 @@
           display:block!important;
       }</style></aside>
 </section>
-<section id="building-a-model-of-the-prisoners-dilemma" class="slide level2 center" data-background-image="Images/background-cloth_v3.png">
-<h2>Building a Model of the Prisoner’s Dilemma</h2>
+<section id="a-prisoners-dilemma-4" class="slide level2 center" data-background-image="Images/background-cloth_v3.png">
+<h2>A Prisoner’s Dilemma</h2>
 <p><br></p>
+<div class="r-fit-text">
+<p><strong>Let’s build a model of this political event</strong></p>
 <ul>
 <li><p>Interests</p></li>
 <li><p>Institutions</p></li>
 <li><p>Interactions</p></li>
 </ul>
+</div>
 <aside class="notes">
 <p>Let’s all work together to try and turn all of this excellent analysis into a model of the prisoner’s dilemma.</p>
 <ul>
@@ -622,6 +616,7 @@
 </section>
 <section id="a-model-of-the-prisoners-dilemma" class="slide level2 smaller" data-background-image="Images/background-blue_cubes_lighter3.png">
 <h2>A Model of the Prisoner’s Dilemma</h2>
+<p><br></p>
 <p><strong>Interests:</strong></p>
 <ul>
 <li>Rational individuals pursuing “gains”</li>
@@ -634,9 +629,9 @@
 </ul>
 <p><strong>Interactions:</strong></p>
 <ul>
-<li>Biggest rewards for short-term defection OR long-term cooperation</li>
+<li><p>Biggest rewards for short-term defection OR long-term cooperation</p></li>
+<li><p>A risk averse actor’s dominant strategy is to defect</p></li>
 </ul>
-<p>Therefore, a risk averse actor’s dominant strategy is to defect</p>
 <aside class="notes">
 <p>Notes:</p>
 <ul>
@@ -690,7 +685,7 @@
 <div class="cell-output-display">
 <div class="quarto-figure quarto-figure-center">
 <figure>
-<p><img data-src="Images/08_2-cars_pollution.jpg" style="width:80.0%"></p>
+<p><img data-src="Images/08_2-cars_pollution.jpg" class="quarto-figure quarto-figure-center" style="width:80.0%"></p>
 </figure>
 </div>
 </div>
@@ -700,13 +695,12 @@
 <div class="cell-output-display">
 <div class="quarto-figure quarto-figure-center">
 <figure>
-<p><img data-src="Images/08_2-Business-Man-Walking-to-work.jpg" style="width:75.0%"></p>
+<p><img data-src="Images/08_2-Business-Man-Walking-to-work.jpg" class="quarto-figure quarto-figure-center" style="width:75.0%"></p>
 </figure>
 </div>
 </div>
 </div>
-</div>
-</div>
+</div></div>
 <aside class="notes">
 <p>We know that manmade GHG emissions are changing the climate system in some scary ways.</p>
 <ul>
@@ -734,6 +728,7 @@
 </section>
 <section id="a-model-of-the-prisoners-dilemma-1" class="slide level2 smaller" data-background-image="Images/background-blue_cubes_lighter3.png">
 <h2>A Model of the Prisoner’s Dilemma</h2>
+<p><br></p>
 <p><strong>Interests:</strong></p>
 <ul>
 <li>Rational individuals pursuing “gains”</li>
@@ -746,9 +741,9 @@
 </ul>
 <p><strong>Interactions:</strong></p>
 <ul>
-<li>Biggest rewards for short-term defection OR long-term cooperation</li>
+<li><p>Biggest rewards for short-term defection OR long-term cooperation</p></li>
+<li><p>A risk averse actor’s dominant strategy is to defect</p></li>
 </ul>
-<p>Therefore, a risk averse actor’s dominant strategy is to defect</p>
 <aside class="notes">
 <p><strong>Given our model, what can we do to solve real-world problems that look like PDs?</strong></p>
 <ul>
@@ -835,18 +830,20 @@
 </ul>
 <p><strong>Apply/Evaluate Theory 1</strong></p>
 <ul>
-<li>Evidence x 2</li>
+<li>Evidence</li>
 </ul>
 <p><strong>Apply/Evaluate Theory 2</strong></p>
 <ul>
-<li>Evidence x 2</li>
+<li>Evidence</li>
 </ul>
 <p><strong>Apply/Evaluate Theory 3</strong></p>
 <ul>
-<li>Evidence x 2</li>
+<li>Evidence</li>
 </ul>
+<div class="quarto-auto-generated-content">
 <div class="footer footer-default">
 
+</div>
 </div>
 </section>
     </div>
@@ -875,7 +872,6 @@
       Reveal.initialize({
 'controlsAuto': true,
 'previewLinksAuto': false,
-'smaller': false,
 'pdfSeparateFragments': false,
 'autoAnimateEasing': "ease",
 'autoAnimateDuration': 1,
@@ -1130,18 +1126,7 @@
         }
         return false;
       }
-      const clipboard = new window.ClipboardJS('.code-copy-button', {
-        text: function(trigger) {
-          const codeEl = trigger.previousElementSibling.cloneNode(true);
-          for (const childEl of codeEl.children) {
-            if (isCodeAnnotation(childEl)) {
-              childEl.remove();
-            }
-          }
-          return codeEl.innerText;
-        }
-      });
-      clipboard.on('success', function(e) {
+      const onCopySuccess = function(e) {
         // button target
         const button = e.trigger;
         // don't keep focus
@@ -1173,11 +1158,50 @@
         }, 1000);
         // clear code selection
         e.clearSelection();
+      }
+      const getTextToCopy = function(trigger) {
+          const codeEl = trigger.previousElementSibling.cloneNode(true);
+          for (const childEl of codeEl.children) {
+            if (isCodeAnnotation(childEl)) {
+              childEl.remove();
+            }
+          }
+          return codeEl.innerText;
+      }
+      const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+        text: getTextToCopy
       });
-      function tippyHover(el, contentFn) {
+      clipboard.on('success', onCopySuccess);
+      if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+        // For code content inside modals, clipBoardJS needs to be initialized with a container option
+        // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
+        const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+          text: getTextToCopy,
+          container: window.document.getElementById('quarto-embedded-source-code-modal')
+        });
+        clipboardModal.on('success', onCopySuccess);
+      }
+        var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+        var mailtoRegex = new RegExp(/^mailto:/);
+          var filterRegex = new RegExp('/' + window.location.host + '/');
+        var isInternal = (href) => {
+            return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+        }
+        // Inspect non-navigation links and adorn them if external
+     	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+        for (var i=0; i<links.length; i++) {
+          const link = links[i];
+          if (!isInternal(link.href)) {
+            // undo the damage that might have been done by quarto-nav.js in the case of
+            // links that we want to consider external
+            if (link.dataset.originalHref !== undefined) {
+              link.href = link.dataset.originalHref;
+            }
+          }
+        }
+      function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
         const config = {
           allowHTML: true,
-          content: contentFn,
           maxWidth: 500,
           delay: 100,
           arrow: false,
@@ -1187,8 +1211,17 @@
           interactive: true,
           interactiveBorder: 10,
           theme: 'light-border',
-          placement: 'bottom-start'
+          placement: 'bottom-start',
         };
+        if (contentFn) {
+          config.content = contentFn;
+        }
+        if (onTriggerFn) {
+          config.onTrigger = onTriggerFn;
+        }
+        if (onUntriggerFn) {
+          config.onUntrigger = onUntriggerFn;
+        }
           config['offset'] = [0,0];
           config['maxWidth'] = 700;
         window.tippy(el, config); 
@@ -1202,7 +1235,11 @@
           try { href = new URL(href).hash; } catch {}
           const id = href.replace(/^#\/?/, "");
           const note = window.document.getElementById(id);
-          return note.innerHTML;
+          if (note) {
+            return note.innerHTML;
+          } else {
+            return "";
+          }
         });
       }
       const findCites = (el) => {
