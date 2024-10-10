@@ -44,15 +44,15 @@ Prep for Class
 
 **Apply/Evaluate Theory 1**
 
-+ Evidence x 2
++ Evidence
 
 **Apply/Evaluate Theory 2**
 
-+ Evidence x 2
++ Evidence
 
 **Apply/Evaluate Theory 3**
 
-+ Evidence x 2
++ Evidence
 
 ::: notes
 **Everybody ready to go with this?**
@@ -132,15 +132,15 @@ This criteria piece is new
 
 **Apply/Evaluate Theory 1**
 
-+ Evidence x 2
++ Evidence
 
 **Apply/Evaluate Theory 2**
 
-+ Evidence x 2
++ Evidence
 
 **Apply/Evaluate Theory 3**
 
-+ Evidence x 2
++ Evidence
 
 ::: notes
 Now that you've heard some more arguments and gotten feedback on yours it's time to revise.
