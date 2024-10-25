@@ -31,9 +31,10 @@ Prep for Class
 
 1. **FORCE the groups to sit together! Leaders sit up front!**
 
-2. Update slides with:
+2. RUN SLIDES ON LAPTOP and update slides with:
     - Current EC points earned from PD v1 to complicate leader's task AND highlight the leader
     - Actual decisions by round for discussion
+    - Remove anybody who doesn't come to class today
 
 3. YOU need to decide the leadership rewards AFTER hearing how much each valued being the leader
 
@@ -82,22 +83,22 @@ Your leadership rewards can't be calculated yet, you still have work to do!
 ```{r}
 tribble(
   ~Name, ~EC,
-  "Elayna", 0,
-  "Mariana", 0,
-  "Rylie", 0,
-  "Shaeley", 0,
-  "Chloe", 0,
-  "Andrew", 0,
-  "Jack", 0,
-  #"Isaiah", 0, # Absent
-  "Kal", 7,
-  "Carson", 7,
-  "Madalene", 7,
-  "Saige", 7,
-  "Austin", 7
+  "Autumn", 0,
+  "Benny", 0,
+  "Daniel", 9,
+  "Andrea", 0,
+  "Elsa", 0,
+  "Ben", 0,
+  "Curtis", 0,
+  "Cohen", 9, 
+  "Ruby", 9,
+  "Avian", 9,
+  "Kennedy", 9,
+  "Lachlan", 9,
+  "Eliza", 9
 ) |>
   kbl(align = c('l', 'c')) |>
-  kable_styling(bootstrap_options = c("striped", "hover", "condensed"), font_size = 30) |>
+  kable_styling(bootstrap_options = c("striped", "hover", "condensed"), font_size = 28) |>
   column_spec(1, width = '8em') |>
   row_spec(1, background = "gold")
 ```
@@ -107,22 +108,25 @@ tribble(
 ```{r}
 tribble(
   ~Name, ~EC,
-  "Gabe", 0,
-  "Cameron", 0,
-  "Max", 0,
-  "Annabelle", 0,
+  "Ava H.", 0,
+  "Nolan", 9,
+  "Sergio", 0,
   "Grant", 0,
-  "Donna", 7,
-  #"Aaron", 0, # absent
-  "Isa", 7,
-  "Garrison", 7,
-  "Matteo", 7,
-  "Gracie", 7
+  "Ava D.", 0,
+  "Abby R.", 0,
+  "Abby S.", 0,
+  "Audrey", 9,
+  "Hailey", 0,
+  "Joe", 9,
+  "Alexandra", 9,
+  "Lucas", 9,
+  "Lux", 9
 ) |>
   kbl(align = c('l', 'c')) |>
-  kable_styling(bootstrap_options = c("striped", "hover", "condensed"), font_size = 30) |>
+  kable_styling(bootstrap_options = c("striped", "hover", "condensed"), font_size = 28) |>
   column_spec(1, width = '8em') |>
-  row_spec(1, background = "gold")
+  row_spec(1, background = "gold") |>
+  row_spec(2, background = "gold3")
 ```
 :::
 ::::
@@ -165,21 +169,21 @@ As is true in the real world, inequality exists!
 ```{r}
 tribble(
   ~Round, ~Group_A, ~Group_B,
-  "1", "Cooperate", "Defect",
+  "1", "Cooperate", "Cooperate",
   "2", "Cooperate", "Cooperate",
   "3", "Cooperate", "Cooperate",
   "4", "Cooperate", "Cooperate",
   "5", "Cooperate", "Cooperate",
   "6", "Cooperate", "Cooperate",
   "7", "Defect", "Defect",
-  "8", "Defect", "Defect",
-  "", "+11", "+18"
+  "8", "Cooperate", "Cooperate",
+  "", "+20", "+20"
 ) |>
   kbl(align = "c", col.names = c("Round", "Group A", "Group B")) |>
   kable_styling(bootstrap_options = c("striped", "hover", "condensed", "responsive"), font_size = 30) |>
   column_spec(2:3, width = '7em') |>
-  column_spec(2, background = c(rep("white", 6), "gold", "gold", "white")) |>
-  column_spec(3, background = c("gold", rep("white", 5), "gold", "gold", "white"))
+  column_spec(2, background = c(rep("white", 6), "pink3", "white", "gold")) |>
+  column_spec(3, background = c(rep("white", 6), "pink3", "white", "gold"))
 ```
 
 ::: notes
@@ -346,23 +350,12 @@ Ok, leaders, your turn!
 :::
 
 
-## A Two-Level Prisoner's Dilemma {background-image="Images/background-worldmap4.png" .center}
 
-<br>
+## A Two-Level Prisoner's Dilemma {background-image="Images/background-worldmap4.png"}
 
-:::: {.columns}
-::: {.column width="50%"}
-```{r, fig.align='right'}
-knitr::include_graphics("Images/10_2-arafat_clinton.webp")
-```
-:::
+![](Images/10_2-arafat_clinton.webp){.absolute left=0 bottom=200 width=500}
 
-::: {.column width="50%"}
-```{r, fig.align='right'}
-knitr::include_graphics("Images/10_2-patronage_v2.png")
-```
-:::
-::::
+![](Images/10_2-patronage_v2.png){.absolute right=0 bottom=200 width=500}
 
 ::: notes
 Given EVERYTHING we've just discussed and highlighted I hope you can see that there are really two outcomes of interest to this game

@@ -350,31 +350,85 @@ Groups, your job is to test YOUR strategy against all of the others
 
 <br>
 
-*While they work, you make a table on the board to capture points from the perspective of each strategy*
+*When everyone is done, SLIDE for the reporting back*
 
-- *Columns represent the strategy of each opponent: C, D, GT, TT, M*
-- *Rows represent the player: C, D, GT, TT, M*
-
-From the Perspective of thr player
-- C vs C (20pts), D (-60), GT (20), TT (20), M (-20)
-- D vs C (40pts), D (-10), GT (-5), TT (-5), M (15)
-- GT vs C (20), D (-15), GT (20), TT (20), M (+8)
-- TT vs C (20), D (-15), GT (20), TT (20), M (2-6+4-6+4-6+4-6+4-6 = -12)
-- M vs C (12), D (-35), GT (2+4-6-1-6-1-6-1-6-1 = -22), TT (-2), M (+5)
+:::
 
 
+
+## Prisoner's Dilemma Strategies {background-image="Images/background-worldmap4.png" .center}
 
 <br>
 
-Report back results! *(overlap across groups means they can check each other and make sure that everyone got the same totals for each strategy dyad)*
+GROUPS get ready to report back
+
+1. Best case scenario?
+
+2. Worst case scenario?
+
+3. Average result across all opponents?
+
+4. How many positive (out of five)?
+
+::: notes
+
+*Collect results on the board*
+
+- *DISCUSS ALL*
 
 <br>
 
-### What do we learn from these results?
+SLIDE: Your version of the table (if needed)
 
-### - Is one strategy more effective than the others?
+:::
 
-### - Is one strategy least effective?
+
+
+
+## {background-image="Images/background-worldmap4.png" .center}
+
+```{r}
+tab1 <- tibble(
+  You = c("Cooperate", "Defect", "Grim Trigger", "Tit for Tat", "Mixed"),
+  All_Coop = c(20, 40, 20, 20, 30),
+  All_Def = c(-60, -10, -15, -15, -35),
+  GT = c(20, -5, 20, 20, -22),
+  TT = c(20, -5, 20, 20, -2),
+  Mixed = c(-20, 15, 8, -12, 5)
+) |>
+  mutate(
+    Average = c(-4, 7, 10.6, 6.6, -4.8),
+    Minimum = c(-60, -10, -15, -15, -35),
+    Maximum = c(20, 40, 20, 20, 30),
+    Positive = c(3, 2, 4, 3, 2)
+  )
+
+tab1 |>
+  kbl(col.names = c("Strategy", "Cooperate", "Defect", "Grim Trigger", "Tit for Tat", "Mixed", "Mean", "Minimum", "Maximum", "Positive"), align = c("l", rep("c", 9))) |>
+  kable_styling(bootstrap_options = c("striped", "hover"), font_size = 20) |>
+  add_header_above(c("", "Opponent's Strategy"= 5, "Results" = 4)) |>
+  column_spec(1, background = "lightgrey") |>
+  column_spec(2:6, background = "lightyellow") |>
+  column_spec(7:10, background = "orange")
+
+```
+
+::: notes
+
+**Groups, what is the minimum, the maximum and the mean result across the five strategies for you?**
+
+<br>
+
+**Ok, where do we end up?**
+
+- **Which is your best strategy if you don't know the "type" of your opponent?**
+
+<br>
+
+**Could we mix any of these strategies to make them more effective?**
+
+- **e.g. lengthen the punishment of tit for tat?**
+
 
 <br>
 
