@@ -150,6 +150,7 @@ Within the institution of slavery there were many, many "rules."
 ::: notes
 
 For the most part we live in a world of institutions.
+
 - And some, like slavery, are incredibly objectionable.
 
 - The problem is that challenging institutions is REALLY, REALLY hard.
@@ -157,6 +158,7 @@ For the most part we live in a world of institutions.
 <br>
 
 HOWEVER, individual norms can be challenged much more easily.
+
 - Still hard, but doable.
 
 - And if you alter enough of the underlying norms, the institution changes (or disappears).
@@ -164,6 +166,7 @@ HOWEVER, individual norms can be challenged much more easily.
 <br>
 
 Abolitionists couldn't simply end the institution of slavery all at once, but they could work to alter the fundamental rules under it.
+
 - They pushed on understandings about respect for family units, 
 
 - emphasized the inconsistency between slavery and founding principles of the country, and 
@@ -183,7 +186,10 @@ Chipping away at these smaller rules helped weaken the entire structure.
 
 So, studying norms allows us to look inside our social institutions.
 
+<br>
+
 While institutions are important, to really understand them we have to understand their basic units first.
+
 - How did each norm come into being?
 - Who defends it and why?
 
@@ -207,6 +213,8 @@ Then we can start to explore how many norms come together as an institution.
 
 I went to FSU for my undergrad.
 
+<br>
+
 At football games, if you were in the student section there were important norms to follow:
 
 1. Everyone stands the entire game!
@@ -216,6 +224,7 @@ At football games, if you were in the student section there were important norms
 <br>
 
 Rules not written down, but powerfully effect all students' behavior.
+
 - We all want to belong to the group!
 :::
 
@@ -317,8 +326,13 @@ All states apply tariffs to goods made in other countries but sold in theirs.
 First, we have to recognize that some norms are much harder to change than others.
 
 ### Which type of norm is harder to change? Why?
-- Much harder to change a constitutive norm as it is fundamental to an activity.
-    - Regulative norms are made to be tweaked...
+
+<br>
+
+FIRST, much harder to change a constitutive norm as it is fundamental to an activity.
+
+- Regulative norms are made to be tweaked...
+
 - We can change the taunting penalty to be 5 or 20 yards but altering what a touchdown is worth would dramatically change the sport.
 
 <br>
@@ -326,8 +340,19 @@ First, we have to recognize that some norms are much harder to change than other
 Second, we need to recognize that violations of some norms are a MUCH bigger deal than others.
 
 ### Which type of norm carries a bigger stigma when you violate it?
-- (Constitutive!)
-    - Violate the rules that make up the heart of the system and people will notice.
+
+<br>
+
+(Constitutive!)
+
+- Violate the rules that make up the heart of the system and people will notice.
+
+<br>
+
+Third, we must recognize that norms are linked to identity, not to normative beliefs about truth, justice or goodness.
+
+- SLIDE
+
 :::
 
 
@@ -336,28 +361,45 @@ Second, we need to recognize that violations of some norms are a MUCH bigger dea
 
 ::: notes
 
-Third, we must recognize that norms are linked to identity, not to normative beliefs about truth, justice or goodness.
+**Can anybody identify the WW2 era dictators on the slide?**
+
+- (Stalin, Hitler, Pinochet (Chile), Mao, Mussolini and Kim Il-Sung)
 
 <br>
-
-### Can anybody identify the WW2 era dictators on the slide?
-- (Stalin, Hitler, Pinochet (Chile), Mao, Mussolini and Kim Il-Sung)
 
 All of these leaders adopted and tried to spread some incredibly offensive norms.
 
+- Take for example, Hitler's views on his "master" race.
+
 <br>
 
-Take for example, Hitler's views on his "master" race.
+In the excerpt you read for today, Finnemore and Sikkink make the argument that racist norms aren't "bad"
 
-### What do Finnemore and Sikkink mean when they write that these racist norms weren't "bad"?
+- **What do they mean by that? Are they defending racism?**
 
-- Remember, a norm is a standard of appropriate behavior for actors with a given identity.
-    - If you were a Nazi, then these beliefs were considered "good" to you.
+<br>
 
-- What matters is that the group that holds the norm believes it is appropriate.
-    - Not that we approve of it.
+Remember, a norm is a standard of appropriate behavior for actors with a given identity.
+
+- If you were a Nazi, then these beliefs were considered "good" to you.
+
+- What matters is that the group that holds the norm believes it is appropriate. NOT that we approve of it.
 
 - We really want to be careful not to assume norms are somehow linked to objective values of goodness.
+
+<br>
+
+For constructivists, the aim remains focused on explaining international political events
+
+- Doing THAT requires thinking about how community's define rules tied to their identity
+
+- And very often that identity exists in opposition to others
+
+- It's not good or bad, it is an attempt to understand behavior
+
+<br>
+
+**Make sense?**
 :::
 
 
@@ -368,11 +410,19 @@ Take for example, Hitler's views on his "master" race.
 
 Finnemore and Sikkink tell us that norms are created as a product of the norm "life cycle."
 
-### How does this figure help us impact international political events?
+<br>
 
-- If we adopt a constructivist view, then we accept that societal norms have a powerful effect on actor behavior.
+**Explain to me how this figure helps constructivists explain international political events.**
 
-- This means that if we can control or modify societal norms, we can control the behavior of the actors around us!
+<br>
+
+This figure helps us think about how change happens in a society
+
+- Actors and structures are mutually constituted AND change is a constant
+
+- This means that often changes in outcomes are the result of changes in societal norms
+
+- For us, if we can control or modify societal norms, we can control the behavior of the actors around us!
 
 <br>
 
@@ -390,6 +440,8 @@ Let's discuss the stages.
 ### Who are the "norm entrepreneurs" and what do they do? 
 - (They actively try to convince their community that some behavior is either desirable and should be required OR undesirable and should be stopped.)
 
+<br>
+
 A very important idea.
 
 - Norms are intentionally created by people who want things.
@@ -397,10 +449,8 @@ A very important idea.
 
 <br>
 
-### According to Finnemore and Sikkink, how do norm entrepreneurs convince society to adopt their norm?
-- (Issue framing)
+### According to Finnemore and Sikkink, how do norm entrepreneurs use issue framing to convince society to adopt their norm?
 
-### What does that mean? What is framing?
 - (Use language that names, interprets and dramatizes an issue.)
 :::
 
@@ -502,6 +552,8 @@ Anti-vote Arguments for Men
 
 ### What can we learn about the "no" side from this pamphlet?
 
+<br>
+
 (A direct appeal to men of the time.)
 
 - Invokes sexist beliefs about competency and presents women's voting as a threat to men's influence.
@@ -567,15 +619,23 @@ SECOND, there is almost never a chance to create norms where no social rules exi
 
 For today I gave you a New York Times article on Putin's rationale for annexing Crimea.
 
-I know this feels INSANELY outdated right now, but his argument is quite pertinent.
+- I know this feels INSANELY outdated right now, but his argument is quite pertinent.
 
-### What was Putin's rationale for annexing crimea? What issue framing did he utilize?
+<br>
 
-- The Ukrainian government is oppressing the Crimean people.
-    - The Crimean people demanded it democratically!
-    
-- Russian citizens lived there and were in danger.
-    - States must protect their citizens!
+**What was Putin's rationale for annexing crimea?**
+
+- **What issue framing did he utilize?**
+
+<br>
+
+1. All people have the right to self-determination
+
+    - e.g. The Ukrainian government was oppressing the Crimean people and they wanted to be free
+
+2. States are OBLIGATED to protect their citizens
+
+    - Russian citizens lived there and were in danger.
 
 <br>
 
