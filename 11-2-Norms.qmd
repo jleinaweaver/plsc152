@@ -32,6 +32,12 @@ Prep for Class
 
 1. Review Canvas submissions
 
+2. TWO big aims today to keep in mind:
+    
+    1. How does constructivism help US create change? (ID the institution, decompose into its norms, classify norms as regulative vs constitutive, target the regulative norms FIRST using issue framing)
+    
+    2. How does constructivism help US explain international political events? (events are often the result of actors trying to influence/alter/change norms and behavior)
+
 <br>
 
 ### DISCUSS: Name me an international political event that has happened since we last met as a class.
@@ -357,52 +363,6 @@ Third, we must recognize that norms are linked to identity, not to normative bel
 
 
 
-## {background-image="Images/11-1-totalitarian_leaders.jpg" background-size="75%"}
-
-::: notes
-
-**Can anybody identify the WW2 era dictators on the slide?**
-
-- (Stalin, Hitler, Pinochet (Chile), Mao, Mussolini and Kim Il-Sung)
-
-<br>
-
-All of these leaders adopted and tried to spread some incredibly offensive norms.
-
-- Take for example, Hitler's views on his "master" race.
-
-<br>
-
-In the excerpt you read for today, Finnemore and Sikkink make the argument that racist norms aren't "bad"
-
-- **What do they mean by that? Are they defending racism?**
-
-<br>
-
-Remember, a norm is a standard of appropriate behavior for actors with a given identity.
-
-- If you were a Nazi, then these beliefs were considered "good" to you.
-
-- What matters is that the group that holds the norm believes it is appropriate. NOT that we approve of it.
-
-- We really want to be careful not to assume norms are somehow linked to objective values of goodness.
-
-<br>
-
-For constructivists, the aim remains focused on explaining international political events
-
-- Doing THAT requires thinking about how community's define rules tied to their identity
-
-- And very often that identity exists in opposition to others
-
-- It's not good or bad, it is an attempt to understand behavior
-
-<br>
-
-**Make sense?**
-:::
-
-
 
 ## The Norm Life Cycle {background-image="Images/13_2-norm_life_cycle.png" background-size="92%"}
 
@@ -492,23 +452,11 @@ Just kidding, don't shout out ideas for that!
 
 
 
-## {background-image="Images/background-worldmap4.png" .center}
+## {background-image="Images/background-worldmap4.png"}
 
-:::: {.columns}
+![](Images/13_2-no_votes_for_women3.jpg){.absolute left=50 width=450}
 
-::: {.column width="50%"}
-```{r, fig.align='center'}
-knitr::include_graphics("Images/13_2-no_votes_for_women3.jpg")
-```
-:::
-
-::: {.column width="50%"}
-```{r, fig.align='center', out.width='78%'}
-knitr::include_graphics("Images/13_2-no_votes_for_women2.jpg")
-```
-:::
-
-::::
+![](Images/13_2-no_votes_for_women2.jpg){.absolute right=50 width=450}
 
 ::: notes
 

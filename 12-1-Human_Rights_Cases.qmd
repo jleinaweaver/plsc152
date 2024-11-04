@@ -30,9 +30,8 @@ Prep for Class
 
 1. Check the Google sheet for participation
 
-2. Data: Consider a few slides presenting data on their chosen cases to aid discussion of the sample
+2. Use the [V-Dem graphing tools](https://www.v-dem.net/graphing/graphing-tools/) to update the maps in the slides
 
-3. Spreadsheet with CIRIGHTS data for selected countries
 :::
 
 
@@ -101,29 +100,13 @@ I'm hoping we can do some of all three of those things today.
 
 
 
-## Sources of our Knowledge {background-image="Images/background-worldmap4.png" .center}
+## Sources of our Knowledge {background-image="Images/background-worldmap4.png"}
 
-<br>
+![](Images/12_1-USDepartment_of_State.png){.absolute left=0 bottom=0 width=350}
 
-:::: {.columns}
-::: {.column width="33%"}
-```{r, fig.align='center'}
-knitr::include_graphics("Images/12_1-USDepartment_of_State.png")
-```
-:::
+![](Images/12_1-Amnesty_Logo.jpg){.absolute left=335 width=350}
 
-::: {.column width="33%"}
-```{r, fig.align='center'}
-knitr::include_graphics("Images/12_1-Amnesty_Logo.jpg")
-```
-:::
-
-::: {.column width="33%"}
-```{r, fig.align='center'}
-knitr::include_graphics("Images/12_1-Human_Rights_Watch_logo.png")
-```
-:::
-::::
+![](Images/12_1-Human_Rights_Watch_logo.png){.absolute bottom=0 right=0 width=350}
 
 ::: notes
 
@@ -221,31 +204,108 @@ Groups, compare and contrast the dictatorship cases and get ready to report back
 
 
 
-## {background-image="Images/12_1-human-rights-vdem.svg" background-size='85%'}
+## Based on our comparative case study, is regime type a useful predictor of human rights around the world? {background-image="Images/background-worldmap4.png" .center}
 
 ::: notes
-Ok, that said, let's compare and contrast across our cases.
 
-### Based on this comparative case study how comfortable are you in asserting that regime type is a predictor of human rights behavior?
+**Based on this comparative case study how comfortable are you in asserting that regime type is a predictor of human rights behavior?**
 
-### - Why or why not?
-
-<br>
-
-### - Do the regime types differ significantly in terms of their most common "human rights" violations?
+- **Why or why not?**
 
 <br>
 
-### - Do the regime types differ significantly in terms of who specifically in the country is doing the harms?
+**Do the regime types differ significantly in terms of their most common "human rights" violations?**
 
 <br>
 
-### - Do the regime types differ significantly in terms of how the victims are being targeted?
+**Do the regime types differ significantly in terms of who specifically in the country is doing the harms?**
 
 <br>
 
-### - Any evidence in the cases of any of these identified harms being addressed?
+**Do the regime types differ significantly in terms of how the victims are being targeted?**
+
+<br>
+
+**Any evidence in the cases of any of these identified harms being addressed?**
+
+<br>
+
+SLIDE: Let's look at some more comprehensive data on this question
 :::
+
+
+
+
+## {background-image="Images/background-worldmap4.png" .center}
+
+**Varieties of Democracy (V-Dem) Civil Liberties Index**
+
+- Freedom from political killings
+- Freedom from torture
+- Freedom of expression
+- Freedom of discussion
+- Government censorship
+- Harassment of journalists
+- Barriers to opposition parties
+- Freedom of movement (domestic and international)
+- Freedom of religion
+- Freedom from forced labor
+
+::: notes
+
+The V-Dem project is a massive research effort undertaken by scholars around the world to measure many, many aspects of states and people.
+
+<br>
+
+For example, these are the broad components of a measure they have constructed called "the Civil Liberties Index"
+
+- Big Picture: "Civil liberty is constituted by the absence of physical violence committed by government agents and the absence of constraints of private liberties and political liberties by the government" (V-Dem Codebook, 301).
+
+<br>
+
+**What do you think of using these as the key components of measuring civil liberties around the world?**
+
+- **Anything here you think doesn't belong?**
+
+<br>
+
+**Anything missing you think is important based on your review of the cases for today?**
+
+<br>
+
+SLIDE: The world in 2023...
+
+:::
+
+
+
+
+## {background-image="Images/background-worldmap4.png" .center}
+
+![](Images/12_1-civil-liberties-index-20.png)
+
+::: notes
+
+Here are the V-Dem measurements of civil liberties around the world in 2023.
+
+- Each country gets a score running from 0 (low) to 1 (high)
+
+- We can kind of think of these like country grades from 0% to 100%
+
+<br>
+
+FIRST, audit your case studies on the map.
+
+- **Do you broadly agree with the kind of grade your two countries received here? Why or why not?**
+
+<br>
+
+SECOND, back to our big question.
+
+- **Based on this global data, how comfortable are you in asserting that regime type is a predictor of human rights behavior?**
+
+:::
+
 
 
 
@@ -254,6 +314,8 @@ Ok, that said, let's compare and contrast across our cases.
 ::: notes
 
 Last big question for us today.
+
+<br>
 
 ### Do you think human rights violations should compel American action?
 
@@ -280,7 +342,8 @@ Here we see the Fragile States Index.
 
 <br>
 
-### Are you buying that logic? Why or why not?
+**Does this change how you answer the question about American involvement in conflicts overseas? Why or why not?**
+
 :::
 
 
@@ -289,11 +352,15 @@ Here we see the Fragile States Index.
 
 <br>
 
+::: {.r-fit-text}
+
 1. Krain (2012) p574-578
 
 2. **Before class** submit to our Canvas discussion board: 
     - What is the research question in this paper?
-    - What is their Krain's answer to the question?
+    - What is Krain's answer to the question? (e.g. the model)
+
+:::
 
 ::: notes
 For the rest of this week we'll be digging deeply into our next research article of the semester!

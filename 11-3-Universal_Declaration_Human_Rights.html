@@ -8,7 +8,7 @@
 <link href="11-3-Universal_Declaration_Human_Rights_files/libs/quarto-html/light-border.css" rel="stylesheet">
 <link href="11-3-Universal_Declaration_Human_Rights_files/libs/quarto-html/quarto-html.min.css" rel="stylesheet" data-mode="light">
 <link href="11-3-Universal_Declaration_Human_Rights_files/libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
-  <meta name="generator" content="quarto-1.3.433">
+  <meta name="generator" content="quarto-1.5.57">
 
   <title>universal_declaration_human_rights</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
@@ -155,7 +155,8 @@
   }
 
   .callout.callout-titled .callout-body > .callout-content > :last-child {
-    margin-bottom: 0.5rem;
+    padding-bottom: 0.5rem;
+    margin-bottom: 0;
   }
 
   .callout.callout-titled .callout-icon::before {
@@ -411,33 +412,33 @@
           display:block!important;
       }</style></aside>
 </section>
-<section id="classify-us-performance-on-each-article-in-the-un-dhr" class="slide level2 center" data-background-image="Images/background-blue_cubes_lighter3.png">
-<h2>Classify US Performance on each article in the UN DHR</h2>
+<section id="has-the-us-public-internalized-the-norms-in-each-article" class="slide level2 center" data-background-image="Images/background-blue_cubes_lighter3.png">
+<h2>Has the US public internalized the norms in each article?</h2>
 <p><br></p>
 <div class="r-fit-text">
 <ul>
-<li><p>Completely Meets the Standard (Y)</p></li>
-<li><p>Does Not Meet the Standard (N)</p></li>
+<li><p>Completely internalized</p></li>
+<li><p>Somewhat internalized</p></li>
+<li><p>Not internalized</p></li>
 </ul>
 </div>
 <aside class="notes">
-<p><em>Split class into small groups (3-4)</em></p>
+<p><em>Split class into FOUR groups</em></p>
 <p><br></p>
-<p>Groups, I want you to classify all of the articles as either of these two options.</p>
+<p>GROUPS, work directly on the board</p>
 <ul>
-<li>Two Lists</li>
+<li><p>Three columns</p></li>
+<li><p>Classify each article by these three levels</p></li>
+<li><p>Have we internalized the norms in each article?</p></li>
+<li><p>e.g.&nbsp;Do most people behave like this is a rule in our society?</p></li>
 </ul>
-<h3 id="questions-on-the-task">Questions on the task?</h3>
-<p>Get to it!</p>
 <p><br></p>
-<p><em>Make long table ON BOARD</em></p>
+<p><strong>Questions on the task?</strong></p>
 <ul>
-<li>29 columns, 1 row per group</li>
+<li>Get to it!</li>
 </ul>
+<p><br></p>
 <p><em>Report Back and Discuss</em></p>
-<ul>
-<li>Fill in the board</li>
-</ul>
 <p><br></p>
 <h3 id="evaluate-the-performance-of-the-us-in-terms-of-meeting-the-standards-established-by-the-uns-universal-declaration-of-human-rights.">Evaluate the performance of the US in terms of meeting the standards established by the UN’s Universal Declaration of Human Rights.</h3>
 <h3 id="areas-of-disagreement-across-the-groups">- Areas of disagreement across the groups?</h3>
@@ -459,7 +460,7 @@
 <h2>Should the US enshrine the UN DHR in domestic law?</h2>
 <p><br></p>
 
-<img data-src="Images/11_3-UNDHR_Full.jpeg" style="width:60.0%" class="r-stretch quarto-figure-center"><aside class="notes">
+<img data-src="Images/11_3-UNDHR_Full.jpeg" class="quarto-figure quarto-figure-center r-stretch" style="width:60.0%"><aside class="notes">
 <p>Everybody take a moment to review the argument submissions on Canvas.</p>
 <p><br></p>
 <h3 id="ok-what-are-the-pros-and-cons-of-enshrining-the-un-dhr-in-domestic-law">Ok, what are the pros and cons of enshrining the UN DHR in domestic law?</h3>
@@ -530,8 +531,10 @@
           overflow: hidden!important;
           display:block!important;
       }</style></aside>
+<div class="quarto-auto-generated-content">
 <div class="footer footer-default">
 
+</div>
 </div>
 </section>
     </div>
@@ -560,7 +563,6 @@
       Reveal.initialize({
 'controlsAuto': true,
 'previewLinksAuto': false,
-'smaller': false,
 'pdfSeparateFragments': false,
 'autoAnimateEasing': "ease",
 'autoAnimateDuration': 1,
@@ -815,18 +817,7 @@
         }
         return false;
       }
-      const clipboard = new window.ClipboardJS('.code-copy-button', {
-        text: function(trigger) {
-          const codeEl = trigger.previousElementSibling.cloneNode(true);
-          for (const childEl of codeEl.children) {
-            if (isCodeAnnotation(childEl)) {
-              childEl.remove();
-            }
-          }
-          return codeEl.innerText;
-        }
-      });
-      clipboard.on('success', function(e) {
+      const onCopySuccess = function(e) {
         // button target
         const button = e.trigger;
         // don't keep focus
@@ -858,11 +849,50 @@
         }, 1000);
         // clear code selection
         e.clearSelection();
+      }
+      const getTextToCopy = function(trigger) {
+          const codeEl = trigger.previousElementSibling.cloneNode(true);
+          for (const childEl of codeEl.children) {
+            if (isCodeAnnotation(childEl)) {
+              childEl.remove();
+            }
+          }
+          return codeEl.innerText;
+      }
+      const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+        text: getTextToCopy
       });
-      function tippyHover(el, contentFn) {
+      clipboard.on('success', onCopySuccess);
+      if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+        // For code content inside modals, clipBoardJS needs to be initialized with a container option
+        // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
+        const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+          text: getTextToCopy,
+          container: window.document.getElementById('quarto-embedded-source-code-modal')
+        });
+        clipboardModal.on('success', onCopySuccess);
+      }
+        var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+        var mailtoRegex = new RegExp(/^mailto:/);
+          var filterRegex = new RegExp('/' + window.location.host + '/');
+        var isInternal = (href) => {
+            return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+        }
+        // Inspect non-navigation links and adorn them if external
+     	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+        for (var i=0; i<links.length; i++) {
+          const link = links[i];
+          if (!isInternal(link.href)) {
+            // undo the damage that might have been done by quarto-nav.js in the case of
+            // links that we want to consider external
+            if (link.dataset.originalHref !== undefined) {
+              link.href = link.dataset.originalHref;
+            }
+          }
+        }
+      function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
         const config = {
           allowHTML: true,
-          content: contentFn,
           maxWidth: 500,
           delay: 100,
           arrow: false,
@@ -872,8 +902,17 @@
           interactive: true,
           interactiveBorder: 10,
           theme: 'light-border',
-          placement: 'bottom-start'
+          placement: 'bottom-start',
         };
+        if (contentFn) {
+          config.content = contentFn;
+        }
+        if (onTriggerFn) {
+          config.onTrigger = onTriggerFn;
+        }
+        if (onUntriggerFn) {
+          config.onUntrigger = onUntriggerFn;
+        }
           config['offset'] = [0,0];
           config['maxWidth'] = 700;
         window.tippy(el, config); 
@@ -887,7 +926,11 @@
           try { href = new URL(href).hash; } catch {}
           const id = href.replace(/^#\/?/, "");
           const note = window.document.getElementById(id);
-          return note.innerHTML;
+          if (note) {
+            return note.innerHTML;
+          } else {
+            return "";
+          }
         });
       }
       const findCites = (el) => {
