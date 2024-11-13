@@ -8,7 +8,7 @@
 <link href="13-2-Where_are_the_Women-Enloe_files/libs/quarto-html/light-border.css" rel="stylesheet">
 <link href="13-2-Where_are_the_Women-Enloe_files/libs/quarto-html/quarto-html.min.css" rel="stylesheet" data-mode="light">
 <link href="13-2-Where_are_the_Women-Enloe_files/libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
-  <meta name="generator" content="quarto-1.4.555">
+  <meta name="generator" content="quarto-1.5.57">
 
   <title>where_are_the_women-enloe</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
@@ -503,7 +503,7 @@
 <li><p>Use this as a chance to refresh your memory on the chapter and see where people are leaning.</p></li>
 </ul>
 <p><br></p>
-<p><strong>SLIDE</strong>: Let’s now make sure we are gappling with the arguments in the chapter!</p>
+<p><strong>SLIDE</strong>: Let’s now make sure we are grappling with the arguments in the chapter!</p>
 <p><br></p>
 <h3 id="notes-from-first-part-of-chapter">Notes from first part of chapter</h3>
 <ul>
@@ -549,8 +549,7 @@
 <li><p>Where Are the Men? (28-32)</p></li>
 <li><p>Beyond the Global Victim (32-36)</p></li>
 </ol>
-</div>
-</div>
+</div></div>
 <aside class="notes">
 <p><em>Split class into five groups, assign one to each section</em></p>
 <p><br></p>
@@ -560,7 +559,10 @@
 </ul>
 <p><br></p>
 <ol type="1">
-<li><p>What is the central conclusion of this section?</p></li>
+<li><p>What is the central conclusion of this section?</p>
+<ul>
+<li>Please phrase the conculsion as: “IR theory does not do X or IR theory misunderstands Y”</li>
+</ul></li>
 <li><p>What are the key premises/evidence underpinning this conclusion?</p></li>
 </ol>
 <style type="text/css">
@@ -662,32 +664,10 @@
           display:block!important;
       }</style></aside>
 </section>
-<section id="what-we-miss-case-studies-p21-28" class="slide level2 center" data-background-image="Images/background-worldmap4.png">
+<section id="what-we-miss-case-studies-p21-28" class="slide level2" data-background-image="Images/background-worldmap4.png">
 <h2>What We Miss: Case Studies (p21-28)</h2>
-<div class="columns">
-<div class="column" style="width:50%;">
-<div class="cell" data-layout-align="center">
-<div class="cell-output-display">
-<div class="quarto-figure quarto-figure-center">
-<figure>
-<p><img data-src="Images/13-1-philadelphia-female-anti-slavery-society.jpg" class="quarto-figure quarto-figure-center" width="175"></p>
-</figure>
-</div>
-</div>
-</div>
-</div><div class="column" style="width:50%;">
-<p><br></p>
-<div class="cell" data-layout-align="center">
-<div class="cell-output-display">
-<div class="quarto-figure quarto-figure-center">
-<figure>
-<p><img data-src="Images/13-1-arms_trade_treaty.png" class="quarto-figure quarto-figure-center" width="500"></p>
-</figure>
-</div>
-</div>
-</div>
-</div>
-</div>
+<p><img data-src="Images/13-1-philadelphia-female-anti-slavery-society.jpg" class="absolute" style="left: 0px; width: 400px; "></p>
+<p><img data-src="Images/13-1-arms_trade_treaty.png" class="absolute" style="right: 0px; width: 550px; "></p>
 <aside class="notes">
 <p>Group 3 walk us through the arguments in: What We Miss: Two Brief Case Studies (21-28)</p>
 <h3 id="what-is-the-central-argument-in-this-section-2">What is the central argument in this section?</h3>
@@ -1126,18 +1106,7 @@
         }
         return false;
       }
-      const clipboard = new window.ClipboardJS('.code-copy-button', {
-        text: function(trigger) {
-          const codeEl = trigger.previousElementSibling.cloneNode(true);
-          for (const childEl of codeEl.children) {
-            if (isCodeAnnotation(childEl)) {
-              childEl.remove();
-            }
-          }
-          return codeEl.innerText;
-        }
-      });
-      clipboard.on('success', function(e) {
+      const onCopySuccess = function(e) {
         // button target
         const button = e.trigger;
         // don't keep focus
@@ -1169,7 +1138,29 @@
         }, 1000);
         // clear code selection
         e.clearSelection();
+      }
+      const getTextToCopy = function(trigger) {
+          const codeEl = trigger.previousElementSibling.cloneNode(true);
+          for (const childEl of codeEl.children) {
+            if (isCodeAnnotation(childEl)) {
+              childEl.remove();
+            }
+          }
+          return codeEl.innerText;
+      }
+      const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+        text: getTextToCopy
       });
+      clipboard.on('success', onCopySuccess);
+      if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+        // For code content inside modals, clipBoardJS needs to be initialized with a container option
+        // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
+        const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+          text: getTextToCopy,
+          container: window.document.getElementById('quarto-embedded-source-code-modal')
+        });
+        clipboardModal.on('success', onCopySuccess);
+      }
         var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
         var mailtoRegex = new RegExp(/^mailto:/);
           var filterRegex = new RegExp('/' + window.location.host + '/');
@@ -1177,7 +1168,7 @@
             return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
         }
         // Inspect non-navigation links and adorn them if external
-     	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool)');
+     	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
         for (var i=0; i<links.length; i++) {
           const link = links[i];
           if (!isInternal(link.href)) {

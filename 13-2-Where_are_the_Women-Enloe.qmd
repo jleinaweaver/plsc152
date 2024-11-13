@@ -168,7 +168,7 @@ For class today I asked each of you to highlight the strongest critiques of IR m
 
 <br>
 
-**SLIDE**: Let's now make sure we are gappling with the arguments in the chapter!
+**SLIDE**: Let's now make sure we are grappling with the arguments in the chapter!
 
 <br>
 
@@ -222,7 +222,10 @@ Groups, diagram the argument in this section
 
 1. What is the central conclusion of this section?
 
+    - Please phrase the conculsion as: "IR theory does not do X or IR theory misunderstands Y"
+
 2. What are the key premises/evidence underpinning this conclusion?
+
 :::
 
 
@@ -320,24 +323,11 @@ Group 2 walk us through the argument in: Who Takes Seriously the Ideas of Transn
 
 
 
-## What We Miss: Case Studies (p21-28) {background-image="Images/background-worldmap4.png" .center}
+## What We Miss: Case Studies (p21-28) {background-image="Images/background-worldmap4.png"}
 
-:::: {.columns}
-::: {.column width="50%"}
-```{r, fig.align='center'}
-knitr::include_graphics('Images/13-1-philadelphia-female-anti-slavery-society.jpg')
-```
-:::
+![](Images/13-1-philadelphia-female-anti-slavery-society.jpg){.absolute left=0 width=400}
 
-::: {.column width="50%"}
-
-<br>
-
-```{r, fig.align='center'}
-knitr::include_graphics('Images/13-1-arms_trade_treaty.png')
-```
-:::
-::::
+![](Images/13-1-arms_trade_treaty.png){.absolute right=0 width=550}
 
 ::: notes
 
