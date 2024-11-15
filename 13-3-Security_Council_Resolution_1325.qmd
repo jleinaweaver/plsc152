@@ -35,9 +35,6 @@ Prep for Class
     - Introduced on [podcast](https://www.gcsp.ch/digital-hub/tea-1325-bonus-episode)
 
 3. **SAVE TIME AT THE END OF CLASS TO DIAGRAM FEMINIST THEORY AS A CLASS: INTERESTS, INSTITUTIONS AND INTERACTIONS**
-    - They don't have to crack it but they need to get started on it in a meaningful way today
-    - CONSIDER adding a slide to encourage them to think about their cases from Monday (e.g. intl political events that have gone under-investigated/explained), Enloe's arguments from Wednesday (e.g. where does power lie? how do the rules actually work? whose roles in history are acknowledged and celebrated?), today's research on the UN's efforts to solve problems in resolution 1325
-    - That means YOU need a clearer idea of what a good diagram looks like
 
 <br>
 
@@ -120,16 +117,22 @@ perspectives in post conflict: comparative study between Somalia, Rwanda and Eri
 Last detour!
 
 Before we shift to the article let's talk about the UN Resolution at the heart of the analysis.
+
 - I asked each of you to read it before class.
 
 - I know you don't have a lot of experience reading international law, but...
+
+<br>
 
 ### What did you think of it? First impressions?
 
 <br>
 
 Skip past the very long preamble to the part of the resolution that is numbered.
+
 - That's where the meat in the meal really begins.
+
+<br>
 
 ### What would you say are the "strongest" obligations in the resolution? e.g. Rules that should impact state behavior the most?
 
@@ -142,11 +145,14 @@ Skip past the very long preamble to the part of the resolution that is numbered.
 ::: notes
 
 Most references to the resolution point to these elements.
+
 - They sound important and determinitive, BUT the language in the resolution implementing each of these provisions is weak.
 
 - In terms of international law, and domestic law really, rules using words like "must" and "shall" carry the most weight.
 
 - Although, "shall" is being replaced by "must" in domestic US law because "shall" can sometimes be taken as "may" and that gets confusing...
+
+<br>
 
 ### How many instances of "shall" or "must" do we see in Resolution 1325?
 
@@ -353,6 +359,56 @@ I don't think it does at all.
 ### Based on our work this week (or across the semester), do we have any sense of what might accomplish the goals Dr. Puechguirbal argues we need to aim for?
 
 #### - e.g. maintstreaming gender issues in peacekeeping
+
+<br>
+
+SLIDE: Diagramming the model...
+:::
+
+
+
+## Feminist Critical Theory (Enloe 2014) {background-image="Images/background-slate_v2.png" .center}
+
+**Interests**
+
+- ?
+
+**Institutions**
+
+- ?
+
+**Interactions**
+
+- ?
+
+::: notes
+
+Let's use all of our work from this week to start fleshing out a feminist critical theory of International Relations.
+
+- The case studies Monday showed us intl political events that have gone under-investigated / explained
+
+- Enloe's (2014) chapter Wednesday pushed us to explore a bunch of important questions and ideas
+
+- And then Puechguirbal's article today represents an attempt to use this perspective in a research paper
+
+<br>
+
+**So, what are the key elements or assumptions underpinning our work from this week?**
+
+- **In other words, what would this map of international political events need to include?**
+
+- Let's get some ideas on the board!
+
+<br>
+
+*Notes: they'll get another shot at this in a few weeks in class. Your general ideas follow:*
+
+- Interests: Don’t forget to think about ALL the actors involved in the functioning of states, organizations movements
+
+- Institutions: Gender stereotypes as a kind of institution we should be aware of and how they structure interests and interactions
+
+- Interactions: Power is way more complicated and suffuses all interactions way more then the other theories think it does.
+
 :::
 
 
