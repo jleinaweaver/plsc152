@@ -78,10 +78,10 @@ Data, slides and errata for my class at Drury University (PLSC 152: Intro to Int
 
 14-3-Review_All_Models.html
 
-15-1-Thanksgiving-Paper3_Events.html
+14-4-COVID_REVISED.html
 
-15-2-Paper3_Theories.html
+15-1-Paper3_Theories.html
 
-15-3-Paper3_Outline.html
+15-2-Paper3_Outline.html
 
-15-4-Paper3_Workshop.html
+15-3-Paper3_Workshop.html

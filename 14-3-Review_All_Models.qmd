@@ -68,11 +68,11 @@ You all did such a good job on the second papers that we're going to run this cl
 
 <br>
 
-1) You may not select more than one of the realist or liberal theories 
+1. You may not select more than one of the realist or liberal theories 
 
-- Either neorealism or offensive realism, not both
+    - Either neorealism or offensive realism, not both
 
-- Either economic liberalism or liberal institutionalism, not both
+    - Either economic liberalism or liberal institutionalism, not both
 
 ::: notes
 
@@ -91,14 +91,14 @@ You don't have to select any of these four theories, but if you do you can't dou
 
 2) You must select at least one of the theories from the second half of the class
 
-- e.g. Prisoner's Dilemma, Two-Level Bargaining, Constructivism, Feminist Theory, Postcolonial Theory
+    - e.g. Prisoner's Dilemma, Two-Level Bargaining, Constructivism, Feminist Theory, Postcolonial Theory
 
 ::: notes
 **Questions on this requirement?**
 :::
 
 
-## {background-image="Images/background-blue_triangles2.png" .center}
+## {background-image="Images/background-blue_triangles2.png" .center .smaller}
 
 ::: {.r-fit-text}
 3) You **may not** select one of the topics explored in anyone's second paper:
@@ -106,23 +106,34 @@ You don't have to select any of these four theories, but if you do you can't dou
 
 :::: {.columns}
 ::: {.column width="50%"}
-- Russian invasion Ukraine
-- Houthi attacks on international shipping
-- China v Taiwan
-- International efforts to land on the moon
-- UN Sustainable Development Goals
-- ICJ cases against Israel
-- Immigration policy in the EU
+- Israel assassinating Hamas leaders
+- Spain negotiates to limit immigration
+- US charging Hamas with terrorism (Oct 7th)
+- Russian airstrikes in Ukraine
+- Israeli strikes in Lebanon
+- Iranian airstrikes on Israel
+- Genocide in Myanmar
+- Russia and China defensive alliance
+- Ukrainian FM resigns
+- Mexican government limits democracy
+- Russia-DPRK alliance
+- DPRK trash balloons
 :::
 
 ::: {.column width="50%"}
-- Farmer protests in Europe
-- Israel v Palestine
-- US vs Mexico (drugs/immigration)
-- The Cuban Missile Crisis
-- China v US (fentanyl)
-- Russia's ban from Eurovision
-- Collapse of the Iranian nuclear deal
+- Russian interference in US elections
+- Putin visits Mongolia
+- Humanitarian crises in Venezuela
+- Boko Haram destabilizes the region
+- Polio vaccinations in Gaza
+- Fires in the Amazon rainforest
+- Brazil bans Twitter
+- NATO condemns China's support for Russia
+- Chinese investments in Africa
+- US attacks ISIS in Iraq
+- UAE support for Sudanese civil war
+- Chinese tourists spying in the US
+- Ukraine sinking Russian ships
 :::
 ::::
 
@@ -331,9 +342,20 @@ Constructivism
 
 Feminist Theory
 
-- Interests: Don't forget to think about ALL the actors involved in the functioning of states, organizations movements 
-- Institutions: Gender stereotypes as a kind of institution we should be aware of and how they structure interests and interactions
-- Interactions: Power is way more complicated and suffuses all interactions way more then the other theories think it does.
+Interests: 
+
+- Don’t forget to think about ALL the actors involved in the functioning of states, organizations movements
+- Who participated in decision-making?
+- Who are we ignoring?
+
+Institutions: 
+
+- Gender stereotypes as a kind of institution we should be aware of and how they structure interests and interactions
+- Is anarchy replaced by patriarchy?
+
+Interactions: 
+
+- Power is way more complicated and suffuses all interactions way more then the other theories think it does.
 
 Postcolonial Theory
 
