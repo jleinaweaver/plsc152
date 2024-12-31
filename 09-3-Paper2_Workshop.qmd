@@ -1,0 +1,112 @@
+---
+format: revealjs
+---
+
+
+## Today's Agenda {background-image="Images/background-worldmap4.png" .center}
+
+```{r}
+# background-size="1920px 1080px"
+library(tidyverse)
+library(readxl)
+library(kableExtra)
+```
+
+<br>
+
+**III. Why is it so Hard to Cooperate with Other Countries?**
+
+- Writing Workshop
+
+<br>
+
+<br>
+
+::: r-stack
+Justin Leinaweaver (Spring 2025)
+:::
+
+::: notes
+TBD
+:::
+
+
+
+## Paper 2 {background-image="Images/background-blue_triangles.jpg" .center}
+
+<br>
+
+Make an argument that one of the IR theories we've studied in class so far this term **"best"** explains the event you explored in Paper 1. 
+
+Your paper must consider and evaluate how **THREE** of the IR theories from class explain your chosen event.
+
+- Options: Neorealism, Offensive Realism, Liberal Institutionalism, Economic Liberalism, and the Bargaining Model of War
+
+::: notes
+Paper is due today!
+
+<br>
+
+### Any final questions on the assignment?
+
+<br>
+
+**SLIDE**: The rubric...
+:::
+
+
+
+## Paper Rubric {background-image="Images/background-blue_triangles2.png" .center}
+
+<br>
+
+**Convincing arguments...**
+
++ **Logical**: Do the premises support the conclusion?
+
++ **Clear**: Is the paper easy to read and understand?
+
++ **Credible**: Is there enough high quality evidence (cited using APA)?
+
++ **Critical**: Does the paper address weaknesses in the argument (e.g. logic, evidence, consider counter-arguments)?
+]
+
+::: notes
+
+Keep my writing rubric in mind as you write and revise!
+
+<br>
+
+### Any questions on the rubric?
+
+<br>
+
+**SLIDE**: Before I let you get to work...
+:::
+
+
+
+## Assignment for Next Class  {background-image="Images/background-blue_triangles2.png" .center}
+
+<br>
+
+Is the world free-riding on US contributions to the United Nations?
+
+1. Council on Foreign Relations Editors (2023, Mar 13)
+
+2. Bolton (2017)
+
+3. Martin (2017)
+
+::: notes
+Next class we explore a real-world collective action problem
+
+- Is the world free-riding on US contributions to the United Nations?
+
+- If so, what should we do about it?
+:::
+
+
+
+
+

@@ -1,0 +1,125 @@
+---
+format: revealjs
+---
+
+## Today's Agenda {background-image="Images/background-worldmap4.png" .center}
+
+```{r}
+# background-size="1920px 1080px"
+library(tidyverse)
+library(readxl)
+library(kableExtra)
+```
+
+<br>
+
+::: {.r-fit-text}
+
+**Final Paper Preparations**
+
+- Getting and giving feedback on the outlines
+
+:::
+
+<br>
+
+::: r-stack
+Justin Leinaweaver (Spring 2025)
+:::
+
+::: notes
+Prep for Class
+
+1. Review submitted outlines on Canvas
+:::
+
+
+## Final Exam (Due Dec 9, 10am) {background-image="Images/background-blue_triangles2.png" .center}
+
+<br>
+
+Select a **NEW** international political event and make an argument that one of the IR theories / models we've studied in class this term "best" explains the event. 
+
+Your paper must consider and evaluate how **THREE** of the IR theories from class explain your chosen event.
+
+- No double-dipping on realism/liberalism
+
+- At least one theory from the second half of class
+
+- No events used in the prior paper
+
+::: notes
+
+**Questions on the assignment?**
+
+:::
+
+
+## For Today: Outline {background-image="Images/background-blue_triangles2.png" .center .smaller}
+
+**Intro**
+
++ What is the question?
++ Why do we care?
++ Thesis statement
+
+**Apply Theory 1**
+
++ Evidence
+
+**Apply Theory 2**
+
++ Evidence
+
+**Apply Theory 3**
+
++ Evidence
+
+::: notes
+**Does everybody have a their outline printed or on a screen they can share?**
+
+<br>
+
+*Split class into NEW small groups (no more than 3 each)*
+
+- Please make sure you are not working with the same people as last class
+:::
+
+
+## Review Outlines in Groups {background-image="Images/background-blue_triangles2.png" .center}
+
+<br>
+
+15 minutes to discuss each outline
+
+1. Is the group convinced by your pros/cons lists for each theory?
+
+2. Any additional ideas for the lists?
+
+3. Brainstorm real-world examples you could include to support your claims.
+
+::: notes
+
+I'll keep the time for you and announce when to switch to each new paper.
+
+<br>
+
+### Questions on your job in class today?
+
+Get to it!
+:::
+
+
+## Final Exam (Due Dec 9, 10am) {background-image="Images/background-blue_triangles2.png" .center}
+
+<br>
+
+Select a **NEW** international political event and make an argument that one of the IR theories / models we've studied in class this term "best" explains the event. 
+
+Your paper must consider and evaluate how **THREE** of the IR theories from class explain your chosen event.
+
+- No double-dipping on realism/liberalism
+
+- At least one theory from the second half of class
+
+- No events used in the prior paper

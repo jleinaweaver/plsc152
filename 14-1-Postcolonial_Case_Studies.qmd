@@ -1,0 +1,180 @@
+---
+format: revealjs
+---
+
+## Today's Agenda {background-image="Images/background-worldmap4.png" .center}
+
+```{r}
+# background-size="1920px 1080px"
+library(tidyverse)
+library(readxl)
+library(kableExtra)
+```
+
+<br>
+
+**IV. What is the Future of Transnational Politics and IR?**
+
+- Exploring current international political events that deal with issues of colonialism, exploitation by the strong against the weak or race
+
+<br>
+
+<br>
+
+::: r-stack
+Justin Leinaweaver (Spring 2025)
+:::
+
+::: notes
+Prep for Class
+
+1. EVAL Day!
+
+2. Review cases submitted to Canvas
+
+:::
+
+
+
+## IDEA Course Evaluations {background-image="Images/background-blue_triangles.jpg" .center}
+
+<br>
+
+**https://drury.campuslabs.com/eval-home/**
+
+
+
+## Assignment for Today  {background-image="Images/background-blue_triangles2.png" .center}
+
+1. Find a current, or recent, international political event that **explicitly deals with issues of colonialism, exploitation by the strong against the weak or race**
+
+2. **Before class** submit to our Canvas discussion board: 
+    - The APA citation for your evidence, and
+    
+    - A short explanation for why this case illustrates an under-explored issue in international politics
+    
+[My Case...](https://www.youtube.com/embed/jBBsv0QyscE?&autoplay=1)
+
+::: notes
+I'd like to follow a similar approach today to how we used case studies as our first steps into feminist IR theory.
+
+- I think it's incredibly useful to begin discussions like this from a real-world perspective.
+
+- If we can identify a type of real-world case that our current theories fail to explain well then that will help us understand what a new theory needs to do to be useful.
+
+<br>
+
+Like last time I'll kick you off with mine!
+
+<br>
+
+My research recently has focused a great deal on the dynamics of the ongoing global climate change negotiations
+
+- Each year the world's countries get together to negotiate and plan at the annual Conference of the Parties (COP) meetings
+
+- You will not be surprised to hear that the developed world, e.g. rich countries, hold a great deal of influence over how those negotiations progress and what they produce
+
+<br>
+
+So, what do you do if you are a small country facing extinction to raise your voice above the din?
+
+- Play video linked on slide
+:::
+
+
+
+
+## {background-image="Images/14_1-Tuvalu_Minister_Sea_Speech.avif"}
+
+<p style="color: white;">**How can the developing world make its voice heard in global climate change negotiations?**</p>
+
+::: notes
+Foreign Minister Simon Kofe of Tuvalu submitted a video statement to COP 26 (Nov 2021) while standing in the ocean
+
+<br>
+
+I grant you, this photo that his government released to the media undermines the seriousness of his message
+
+- But this event importantly tries to remind us of the real world consequences facing millions around the world, and
+
+- Asks us to reconsider how we've organized our global negotiations and how we set priorities of action for those negotiations
+:::
+
+
+
+
+## Postcolonial Case Studies {background-image="Images/background-worldmap4.png" .center}
+
+<br>
+
+1. What is the "event"?
+
+2. Why is it "international"?
+
+3. Why is it "political"?
+
+4. Why did you choose this case? (e.g. colonialism, exploitation, race, etc?)
+
+::: notes
+
+Ok, I want each of you to introduce your case to us by answering these four questions.
+
+- Take a few minutes to get ready to present your cases.
+
+<br>
+
+Alright, let's hear the cases.
+
+- **After we hear each case, give me takeaways or lessons for the board!**
+
+- *PRESENT and DISCUSS each*
+
+:::
+
+
+
+## Can these models of IR be used to "usefully" explain our cases from today? {background-image="Images/background-blue_cubes_lighter3.png" .center}
+
++ Neorealism
+
++ Offensive Realism
+
++ Bargaining Model of War
+
++ Liberal Institutionalism
+
++ Economic Liberalism
+
++ Two-Level Games
+
++ Constructivism
+
+::: notes
+
+*Encourage debate*
+
+- Strongest reasons why?
+
+- Strongest reasons why not?
+
+<br>
+
+**Does flipping our focus on the "great powers" and towards the weakest states help us better explain international political events? Why or why not?**
+:::
+
+
+
+
+## Assignment for Next Class  {background-image="Images/background-blue_triangles2.png" .center}
+
+<br>
+
+1. Vucetic and Persaud (2018) on race in International Relations
+
+2. **Before class** submit to Canvas: 
+    - What do Vucetic & Persaud mean by "race" in this reading? How does their definition of the concept compare to how "race" is used in the world around us?
+
+::: notes
+**Questions on the assignment?**
+:::
+

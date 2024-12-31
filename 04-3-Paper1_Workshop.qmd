@@ -1,0 +1,152 @@
+---
+format: revealjs
+---
+
+## Today's Agenda {background-image="Images/background-worldmap4.png" .center}
+
+```{r}
+# background-size="1920px 1080px"
+library(tidyverse)
+library(readxl)
+```
+
+<br>
+
+<br>
+
+**I. Arguments, Evidence and International Relations**
+
+Writing Workshop
+
+<br>
+
+::: r-stack
+Justin Leinaweaver (Spring 2025)
+:::
+
+::: notes
+Prep for Class
+
+1. Review and record participation submissions
+
+2. ...
+:::
+
+
+
+## Paper 1 {background-image="Images/background-worldmap4.png" .center}
+
+<br>
+
+Find an international political event that you find interesting and would like to explore more deeply. 
+
+Your first paper must make an argument that it is important we understand why this event happened.
+
+::: notes
+
+Here is the prompt for your first paper.
+
+### Questions on the prompt?
+
+:::
+
+
+
+## Farrell's (2010) Writing Advice {background-image="Images/background-worldmap4.png" .center}
+
+<br>
+
+1. Read the Requirements for the Assignment
+
+2. Avoid Data Dumps
+
+3. Cut to the Chase
+
+4. Organize, Organize, Organize
+
+5. Exercises in Style
+
+::: notes
+
+**Questions on Farrell's advice?**
+
+:::
+
+
+
+## To be convincing an argument should be logical, clear, credible and critical {background-image="Images/background-worldmap4.png" .center}
+
+<br>
+
+- **Logical**: Do the premises support the conclusion?
+
+- **Clear**: Is the paper easy to read and understand?
+
+- **Credible**: Is there enough high quality evidence (cited using APA)?
+
+- **Critical**: Does the paper address weaknesses in the argument (e.g. logic, evidence, consider counter-arguments)?
+
+::: notes
+A very good series of questions to ask yourself before submitting!
+
+### Any questions on the rubric or my expectations?
+
+<br>
+
+Alright, let's use our time to finish these papers!
+
+:::
+
+
+
+## Assignment for Next Class {background-image="Images/background-blue_triangles.jpg" .center}
+
+<br>
+
+1. Liberal institutionalist readings in the syllabus
+
+2. **Before class** submit to our Canvas discussion board:
+
+Generally speaking, do you believe Kant's proposal, or any other international rules, could succeed in preventing most future wars?
+
+::: notes
+
+TIME REMAINING: Questions on the paper? Writing workshop time
+
+:::
+
+
+
+
+## old slides
+
+
+## Assignment for Next Class {background-image="Images/background-worldmap4.png" .center}
+
+<br>
+
+1. Read Farrell (2010)
+
+2. **Before class** submit to our Canvas discussion board: 
+    - Your CHOSEN answer, and
+    
+    - Brainstorm a list of 10 premises supporting your importance argument
+
+::: notes
+
+The Farrell (2010) reading is all about how to write a political science paper.
+
+- Super helpful advice in there!
+
+<br>
+
+Your assignment is to brainstorm ten reasons your chosen event is an important one for us to better understand.
+
+- I know this sounds like a lot of reasons, but I want you to push yourself to build a big list of possible premises.
+
+- You're going to narrow down to three or four in the end, but we want to intentionally start very broadly.
+
+<br>
+
+### Questions on the assignment?
+:::

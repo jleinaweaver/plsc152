@@ -1,0 +1,113 @@
+---
+format: revealjs
+---
+
+
+## Today's Agenda {background-image="Images/background-worldmap4.png" .center}
+
+```{r}
+# background-size="1920px 1080px"
+library(tidyverse)
+library(readxl)
+library(kableExtra)
+```
+
+<br>
+
+**III. Why is it so Hard to Cooperate with Other Countries?**
+
+- Two-level Bargaining Games: Cases
+
+<br>
+
+<br>
+
+::: r-stack
+Justin Leinaweaver (Spring 2025)
+:::
+
+::: notes
+Prep for Class
+
+1. Review cases submitted on Canvas
+
+2. Review your case so you can introduce it to the class
+
+<br>
+
+SLIDE: Let's refresh our memories!
+:::
+
+
+
+
+
+## {background-image="Images/09_2-chess.png"}
+
+::: notes
+
+Ok, talk me through Putnam's two-level game model of international relations.
+
+- **What are the key elements? What is this model?**
+
+- (SLIDE) 
+:::
+
+
+
+## Putnam's (1988) Two-Level Game {background-image="Images/background-blue_cubes_lighter3.png" .smaller}
+
+**Interests:** 
+
+- Leaders want political survival
+- Constituents want specific policies or goods
+
+**Institutions:**
+
+- International negotiations require leaders to agree a policy (Level I)
+- Domestic negotiations require leaders to get approval from constituents (Level II)
+
+**Interactions:**
+
+- Win-set size matters: Larger Level I = more likely agreement, smaller Level II = more influential leader
+- Leaders should strategically try to influence win-set sizes home and abroad
+
+::: notes
+
+Bottom line: Therefore, domestic politics complicates all international bargaining
+
+<br>
+
+So, how do we use the win-sets and the two levels to explain and better understand international political events?
+
+- Let's use your cases today to answer that question!
+
+<br>
+
+SLIDE: My case
+
+:::
+
+
+
+
+## Two-Level Games are Everywhere  {background-image="Images/background-worldmap4.png"}
+
+![](Images/10_2-nyt_uk_fr2.png){.absolute right=0 top=100 width="700"}
+
+![](Images/10_2-nyt_uk_fr.png){.absolute left=0 top=250 width="500"}
+
+::: notes
+
+Macron's goals vs Boris Johnson's goals
+
+:::
+
+
+
+## Assignment for Next Class  {background-image="Images/background-blue_triangles2.png" .center}
+
+<br>
+
+Hopf, T. (1998). The Promise of Constructivism in International Relations Theory. International Security. 23(1), 171–200.
+
