@@ -119,9 +119,7 @@ INTERACTIONS
 
 **Is this paper a "good" test of the bargaining model of war?**
 
-```{r, fig.align='center'}
-knitr::include_graphics('Images/06_3-diplomacy1.png')
-```
+![](Images/06_3-diplomacy1.png){style="display: block; margin: 0 auto"}
 
 ::: notes
 **In what specific ways is this paper a "good" test of the Bargaining Model of War?**

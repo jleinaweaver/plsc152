@@ -12,7 +12,7 @@ library(readxl)
 
 <br>
 
-<br>
+::: {.r-fit-text}
 
 **I. Arguments, Evidence and International Relations**
 
@@ -20,7 +20,7 @@ library(readxl)
     
 2. Evaluating our examples
 
-<br>
+:::
 
 <br>
 
@@ -31,7 +31,7 @@ Justin Leinaweaver (Spring 2025)
 ::: notes
 Prep for Class
 
-1. Review and record participation submissions
+1. Review Canvas submissions
 
 <br>
 
@@ -41,20 +41,14 @@ Welcome back all
 :::
 
 
-## Assignment for Today {background-image="Images/background-worldmap4.png"  .center}
+## Unpacking an Argument {background-image="Images/background-worldmap4.png"  .center}
 
-```{r, fig.align='center'}
-knitr::include_graphics("Images/01_1-Canvas_Modules2_SP24.png")
-```
+![](Images/01_1-woman-desk-paperwork.webp){style="display: block; margin: 0 auto"}
 
 ::: notes
 **Before we talk about the arguments themselves, how did the task go for you?**
 
 - **How often have you been asked to do this kind of exercise before?**
-
-<br>
-
-**Did you scroll through the responses after submitting?**
 
 <br>
 
@@ -69,7 +63,15 @@ knitr::include_graphics("Images/01_1-Canvas_Modules2_SP24.png")
 
 Bad arguments are everywhere and are common in the political arena.
 
-- **How do you, personally, judge whether an argument is "good" or "bad"?**
+- In fact, when you say "politics" I think many people's minds go to something like this.
+
+- Clearly this is not what we aspire to.
+
+<br>
+
+**How do you, personally, judge whether an argument is "good" or "bad"?**
+
+- **In other words, in your mind what are the characteristics of a good argument?**
 
 <br>
 
@@ -77,8 +79,9 @@ In academic terms, our definition of a good argument tends to focus on whether i
 
 - **What is a thesis?**
 
-+ (The central idea of your argument.)
-+ The thing you want people to take away from it.
+    - (The central idea of your argument.)
+    
+    - The thing you want people to take away from it.
 
 <br>
 
@@ -209,6 +212,10 @@ REVEAL: Induction represents how we think about the quality of the connection be
 :::
 
 ::: notes
+REVEAL x 3
+
+<br>
+
 **Does everyone see how each of these arguments build from a specific premise to a general conclusion?**
 
 - Inductive arguments use specific premises to support a more general conclusion
@@ -272,14 +279,14 @@ Keep in mind: strong inductive arguments DOES NOT MEAN convincing!
 
 ## To be convincing an argument should be logical, clear, credible and critical {background-image="Images/background-slate_v2.png" .center}
 
-<br>
+::: {.r-fit-text}
 
 + Conclusion
 
 + Premise
 
 + Inductive Arguments
-
+:::
 
 ::: notes
 
@@ -625,32 +632,13 @@ Therefore, the US should oppose the "resumption of hostilities" until Israel pro
 
 - The Oct 7 attack by Hamas on Israel "was an unconscionable, heinous act of terrorism"
 
-- There is no allowable justification for war crimes
+- There is no allowable justification for war crimes by anyone
 
 - The US is at least partly responsible for Israel's actions
 
-- How Israel prosecutes this war matters and will impact not only Israel’s security but also the future of the entire region.
+- If Israel commits war crimes, they will be less secure in future
 
-
-::: notes
-
-FA 24 redo in class focused on the big ideas
-
-
-:::
-
-
-
-
-## {background-image="Images/background-worldmap4.png" .center .smaller}
-
-- The Oct 7 attack by Hamas on Israel "was an unconscionable, heinous act of terrorism"
-
-- We have witnessed a massive level of death, destruction and displacement in Gaza and the Netanyahu government has allowed only a trickle of aid to reach civilians (possible violations of international law)
-
-- The US government has demanded changes to Israel's prosecution of the war which have mostly been ignored (we look feckless)
-
-- How Israel prosecutes this war matters and will impact not only Israel’s security but also the future of the entire region.
+- If Israel commits war crimes, the region will be less secure in future
 
 Therefore, the US should condition future military aid to Israel on a requirement they reduce civilian casualties and "fully cooperate with our efforts to provide humanitarian assistance"
 
@@ -691,7 +679,7 @@ We'll be doing this kind of exercise a LOT this semester so you'll get plenty of
 
 ::: notes
 
-Our job next week is to lay the foundations we need to study international relations this semester.
+Our job over the next three classes is to lay the foundations we need to study international relations this semester.
 
 - That will mean defining our key concepts, 
 
@@ -701,7 +689,7 @@ Our job next week is to lay the foundations we need to study international relat
 
 <br>
 
-For Monday we start by trying to define the most important concepts of our semester.
+For next class we start by trying to define the most important concepts of our semester.
 
 - What are these "international political events" we are trying to explain?
 
@@ -722,11 +710,17 @@ For Monday we start by trying to define the most important concepts of our semes
 
 <br>
 
-1. Find a **recent** "international political event" described in the news, and
+Find a recent "international political event" described in the news. 
+- No overlapping events! First-come, first-served! 
 
-2. **Before class** submit to Canvas:
-    - An APA citation for your source, and 
-    - Explain why this event is "international," "political" and "specific" (one sentence each).
+1. An APA citation for your source 
+
+2. Explain why this event is "international" (at least 1-2 sentences) 
+
+3. Explain why this event is "political" (at least 1-2 sentences) 
+
+4. Explain why this event is "specific" (at least 1-2 sentences).
+
 
 <br>
 

@@ -512,9 +512,7 @@ This is a huge first assumption in this paper, so let's evaluate it.
 
 ## Fearon (1995) {background-image="Images/background-worldmap4.png" .center}
 
-```{r, fig.align='center'}
-knitr::include_graphics("Images/06_2-Fearon_Figure1.png") 
-```
+![](Images/06_2-Fearon_Figure1.png){style="display: block; margin: 0 auto"}
 
 ::: notes
 
@@ -552,9 +550,7 @@ Let's start with just these elements that set the stage.
 
 ## Fearon (1995): Key Assumptions {background-image="Images/background-worldmap4.png" .center}
 
-```{r, fig.align='center'}
-knitr::include_graphics("Images/06_2-Fearon_Figure1.png") 
-```
+![](Images/06_2-Fearon_Figure1.png){style="display: block; margin: 0 auto"}
 
 1. Only 2 actors, 
 
@@ -591,21 +587,21 @@ Ok, let's now talk about the bargaining dynamics in the model.
 
 :::: {.columns}
 ::: {.column width="25%"}
-```{r, fig.align='left'}
-knitr::include_graphics("Images/05_2-Bbeard_Sword.jpg")
-```
+
+![](Images/05_2-Bbeard_Sword.jpg)
+
 :::
 
 ::: {.column width="50%"}
-```{r, fig.align='center'}
-knitr::include_graphics("Images/05_2-treasure.jpg")
-```
+
+![](Images/05_2-treasure.jpg)
+
 :::
 
 ::: {.column width="25%"}
-```{r, fig.align='right'}
-knitr::include_graphics("Images/05_2-Pirate2_v2.png")
-```
+
+![](Images/05_2-Pirate2_v2.png)
+
 :::
 ::::
 
@@ -630,21 +626,21 @@ Instead of states and war, let's talk pirates and gold.
 
 :::: {.columns}
 ::: {.column width="25%"}
-```{r, fig.align='left'}
-knitr::include_graphics("Images/05_2-Bbeard_Sword.jpg")
-```
+
+![](Images/05_2-Bbeard_Sword.jpg)
+
 :::
 
 ::: {.column width="50%"}
-```{r, fig.align='center'}
-knitr::include_graphics("Images/05_2-treasure.jpg")
-```
+
+![](Images/05_2-treasure.jpg)
+
 :::
 
 ::: {.column width="25%"}
-```{r, fig.align='right'}
-knitr::include_graphics("Images/05_2-Pirate2_v2.png")
-```
+
+![](Images/05_2-Pirate2_v2.png)
+
 :::
 ::::
 
@@ -673,21 +669,21 @@ The first pirate knows that for 20 gold he can buy a gun that will allow him to 
 
 :::: {.columns}
 ::: {.column width="25%"}
-```{r, fig.align='left'}
-knitr::include_graphics("Images/05_2-Bbeard_Sword.jpg")
-```
+
+![](Images/05_2-Bbeard_Sword.jpg)
+
 :::
 
 ::: {.column width="50%"}
-```{r, fig.align='center'}
-knitr::include_graphics("Images/05_2-treasure.jpg")
-```
+
+![](Images/05_2-treasure.jpg)
+
 :::
 
 ::: {.column width="25%"}
-```{r, fig.align='right'}
-knitr::include_graphics("Images/05_2-Pirate2_v2.png")
-```
+
+![](Images/05_2-Pirate2_v2.png)
+
 :::
 ::::
 
@@ -717,21 +713,21 @@ In this case it's really simple to use.
 
 :::: {.columns}
 ::: {.column width="25%"}
-```{r, fig.align='left'}
-knitr::include_graphics("Images/05_2-Bbeard_Sword.jpg")
-```
+
+![](Images/05_2-Bbeard_Sword.jpg)
+
 :::
 
 ::: {.column width="50%"}
-```{r, fig.align='center'}
-knitr::include_graphics("Images/05_2-treasure.jpg")
-```
+
+![](Images/05_2-treasure.jpg)
+
 :::
 
 ::: {.column width="25%"}
-```{r, fig.align='right'}
-knitr::include_graphics("Images/05_2-Pirate2_v2.png")
-```
+
+![](Images/05_2-Pirate2_v2.png)
+
 :::
 ::::
 
@@ -747,21 +743,21 @@ knitr::include_graphics("Images/05_2-Pirate2_v2.png")
 
 :::: {.columns}
 ::: {.column width="25%"}
-```{r, fig.align='left'}
-knitr::include_graphics("Images/05_2-Bbeard_Sword.jpg")
-```
+
+![](Images/05_2-Bbeard_Sword.jpg)
+
 :::
 
 ::: {.column width="50%"}
-```{r, fig.align='center'}
-knitr::include_graphics("Images/05_2-treasure.jpg")
-```
+
+![](Images/05_2-treasure.jpg)
+
 :::
 
 ::: {.column width="25%"}
-```{r, fig.align='right'}
-knitr::include_graphics("Images/05_2-Pirate2_v2.png")
-```
+
+![](Images/05_2-Pirate2_v2.png)
+
 :::
 ::::
 
@@ -777,21 +773,21 @@ knitr::include_graphics("Images/05_2-Pirate2_v2.png")
 
 :::: {.columns}
 ::: {.column width="25%"}
-```{r, fig.align='left'}
-knitr::include_graphics("Images/05_2-Bbeard_Sword.jpg")
-```
+
+![](Images/05_2-Bbeard_Sword.jpg)
+
 :::
 
 ::: {.column width="50%"}
-```{r, fig.align='center'}
-knitr::include_graphics("Images/05_2-treasure.jpg")
-```
+
+![](Images/05_2-treasure.jpg)
+
 :::
 
 ::: {.column width="25%"}
-```{r, fig.align='right'}
-knitr::include_graphics("Images/05_2-Pirate2_v2.png")
-```
+
+![](Images/05_2-Pirate2_v2.png)
+
 :::
 ::::
 
@@ -811,9 +807,7 @@ knitr::include_graphics("Images/05_2-Pirate2_v2.png")
 
 1. Winning Reward = Treasure - Costs of Fighting
 
-```{r, fig.align='center'}
-knitr::include_graphics("Images/06_2-Fearon_Figure1.png") 
-```
+![](Images/06_2-Fearon_Figure1.png)
 
 ::: notes
 
@@ -851,21 +845,21 @@ Also, this isn't just a vague expression, the model helps us think precisely abo
 
 :::: {.columns}
 ::: {.column width="25%"}
-```{r, fig.align='left'}
-knitr::include_graphics("Images/05_2-Bbeard_Sword.jpg")
-```
+
+![](Images/05_2-Bbeard_Sword.jpg)
+
 :::
 
 ::: {.column width="50%"}
-```{r, fig.align='center'}
-knitr::include_graphics("Images/05_2-treasure.jpg")
-```
+
+![](Images/05_2-treasure.jpg)
+
 :::
 
 ::: {.column width="25%"}
-```{r, fig.align='right'}
-knitr::include_graphics("Images/05_2-Pirate2_v2.png")
-```
+
+![](Images/05_2-Pirate2_v2.png)
+
 :::
 ::::
 
@@ -921,21 +915,21 @@ Imagine the gun for sale is actually an old flint lock pistol.
 
 :::: {.columns}
 ::: {.column width="25%"}
-```{r, fig.align='left'}
-knitr::include_graphics("Images/05_2-Bbeard_Sword.jpg")
-```
+
+![](Images/05_2-Bbeard_Sword.jpg)
+
 :::
 
 ::: {.column width="50%"}
-```{r, fig.align='center'}
-knitr::include_graphics("Images/05_2-treasure.jpg")
-```
+
+![](Images/05_2-treasure.jpg)
+
 :::
 
 ::: {.column width="25%"}
-```{r, fig.align='right'}
-knitr::include_graphics("Images/05_2-Pirate2_v2.png")
-```
+
+![](Images/05_2-Pirate2_v2.png)
+
 :::
 ::::
 
@@ -961,9 +955,7 @@ knitr::include_graphics("Images/05_2-Pirate2_v2.png")
 
 2. Expected Outcome = p(Winning Reward) + p(Losing Reward)
 
-```{r, fig.align='center'}
-knitr::include_graphics("Images/06_2-Fearon_Figure1.png") 
-```
+![](Images/06_2-Fearon_Figure1.png)
 
 ::: notes
 
@@ -1107,9 +1099,7 @@ e.g. anarchy, preventive war and positive expected utility
 
 1. Readings in syllabus
 
-2. **Before class** submit to our Canvas discussion board: 
-
-Are you more convinced by the Bolton (2018) or Sagan (2018) argument? Why?
+2. **Before class** submit to our Canvas discussion board your analysis of this debate
 
 ::: notes
 **Questions on the assignment?**

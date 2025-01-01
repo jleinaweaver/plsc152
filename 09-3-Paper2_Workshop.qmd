@@ -14,11 +14,13 @@ library(kableExtra)
 
 <br>
 
+::: {.r-fit-text}
+
 **III. Why is it so Hard to Cooperate with Other Countries?**
 
 - Writing Workshop
 
-<br>
+:::
 
 <br>
 
@@ -32,13 +34,13 @@ TBD
 
 
 
-## Paper 2 {background-image="Images/background-blue_triangles.jpg" .center}
+## Paper 2 {background-image="Images/background-worldmap4.png" .center}
 
 <br>
 
-Make an argument that one of the IR theories we've studied in class so far this term **"best"** explains the event you explored in Paper 1. 
+Make an argument that one of the IR theories / models we've studied in class so far this term is **the most useful explanation of the event you explored in Paper 1**. 
 
-Your paper must consider and evaluate how **THREE** of the IR theories from class explain your chosen event.
+Your paper must include a counter-argument that applies and evaluates a second theory to the case.
 
 - Options: Neorealism, Offensive Realism, Liberal Institutionalism, Economic Liberalism, and the Bargaining Model of War
 
@@ -82,6 +84,20 @@ Keep my writing rubric in mind as you write and revise!
 <br>
 
 **SLIDE**: Before I let you get to work...
+:::
+
+
+
+## Assignment for Next Class  {background-image="Images/background-blue_triangles2.png" .center}
+
+<br>
+
+1. Read excerpt from Tomz (2007) "Domestic Audience Costs in International Relations: An Experimental Approach" 
+
+2. **Submit to Canvas** your reflections on the reading (prompts on Canvas)
+
+::: notes
+**Questions on the assignment?**
 :::
 
 

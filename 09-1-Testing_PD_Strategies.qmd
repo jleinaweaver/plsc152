@@ -461,7 +461,6 @@ Smale, Alison and Shear, Michael D. (2014, Mar 24). [Russia Is Ousted From Group
 :::
 
 
-
 ## {background-image="Images/background-worldmap4.png"}
 
 ::: {.r-fit-text}
@@ -480,19 +479,6 @@ Shkrum, A, Natalukha, D. and Vasylenko, L. (2023, Feb 23). [Russia Doesn’t Bel
 
 ### Should the world escalate its strategy here by kicking Russia out of the UN? Why or why not?
 :::
-
-
-
-## Assignment for Next Class  {background-image="Images/background-blue_triangles2.png" .center}
-
-<br>
-
-::: {.r-fit-text}
-Writing Workshop
-:::
-
-
-
 
 
 ## Assignment for Next Class  {background-image="Images/background-blue_triangles2.png" .center}
@@ -514,4 +500,22 @@ Next class we explore a real-world collective action problem
 
 - If so, what should we do about it?
 :::
+
+
+## Slides for other terms
+
+
+## Assignment for Next Class  {background-image="Images/background-blue_triangles2.png" .center}
+
+<br>
+
+::: {.r-fit-text}
+Writing Workshop
+:::
+
+
+
+
+
+
 

@@ -12,11 +12,13 @@ library(readxl)
 
 <br>
 
-<br>
+::: {.r-fit-text}
 
 **I. Arguments, Evidence and International Relations**
 
-Writing Workshop
+- Writing Workshop
+
+:::
 
 <br>
 
@@ -38,9 +40,11 @@ Prep for Class
 
 <br>
 
-Find an international political event that you find interesting and would like to explore more deeply. 
+Find an international political event from the last six months that you find interesting and would like to explore more deeply. 
 
-Your first paper must make an argument that it is important we understand why this event happened.
+- Your first paper must make an argument that it is important we understand why this event happened.
+
+- Your selected event must be framed as a specific actor taking a specific action against a specific target.
 
 ::: notes
 

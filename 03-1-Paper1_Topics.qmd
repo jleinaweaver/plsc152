@@ -12,13 +12,15 @@ library(readxl)
 
 <br>
 
-<br>
+::: {.r-fit-text}
 
 **I. Arguments, Evidence and International Relations**
 
 1. What makes evidence high quality?
 
 2. Brainstorming answers to our paper prompt
+
+:::
 
 <br>
 
@@ -43,22 +45,13 @@ Prep for Class
 
 <br>
 
-**Find an important international political event (from the recent past) that you find interesting and would like to explore more deeply.**
-
-<br>
-
-1. Read Engle (2018)
-
-2. **Before class** submit to our Canvas discussion board: 
-    - Describe the event,
-    - Argue why "important", and
-    - An APA citation for one piece of **HIGH QUALITY** published evidence supporting your argument
+### Find an international political event from the last six months that you find interesting and would like to explore more deeply.
 
 ::: notes
 
 This week we work on your first paper!
 
-- Prompt: Find an important international political event (from the recent past) that you find interesting and would like to explore more deeply. Your first paper must make an argument that it is important we understand why this event happened.
+- Prompt: Find an international political event from the last six months that you find interesting and would like to explore more deeply. Your selected event must be framed as a specific actor taking a specific action against a specific target. Your first paper must make an argument that it is important we understand why this event happened.
 
 <br>
 
@@ -123,7 +116,7 @@ Keep in mind, the quality of the evidence at least **partially depends on what y
 
 ## Assignment for Today {background-image="Images/background-worldmap4.png" .center}
 
-**Find an important international political event (from the recent past) that you find interesting and would like to explore more deeply**
+**Find an international political event from the last six months that you find interesting and would like to explore more deeply.**
 
 <br>
 
@@ -149,7 +142,7 @@ First things first, let's make sure everyone has selected an international polit
 
 ## Assignment for Today {background-image="Images/background-worldmap4.png" .center}
 
-**Find an important international political event (from the recent past) that you find interesting and would like to explore more deeply**
+**Find an international political event from the last six months that you find interesting and would like to explore more deeply.**
 
 <br>
 
@@ -196,7 +189,7 @@ Get to it!
 
 ## Assignment for Today {background-image="Images/background-worldmap4.png" .center}
 
-**Find an important international political event (from the recent past) that you find interesting and would like to explore more deeply**
+**Find an international political event from the last six months that you find interesting and would like to explore more deeply.**
 
 <br>
 
@@ -246,9 +239,11 @@ Is everybody clear on how evidence quality is incredibly important but depends o
 
 <br>
 
-Find an international political event that you find interesting and would like to explore more deeply. 
+Find an international political event from the last six months that you find interesting and would like to explore more deeply. 
 
-Your first paper must make an argument that it is important we understand why this event happened.
+- Your selected event must be framed as a specific actor taking a specific action against a specific target. 
+
+- Your paper must make an argument that it is important we understand why this event happened. 
 
 ::: notes
 
@@ -271,9 +266,13 @@ Let's hear them all and give each other feedback!
 
 
 
-## Assignment for Next Class {background-image="Images/background-worldmap4.png" .center}
+## For Next Class {background-image="Images/background-blue_triangles.jpg" .center}
 
 <br>
+
+### What do you have to have completed before our next class?
+
+::: notes
 
 1. Read Farrell (2010)
 
@@ -282,7 +281,7 @@ Let's hear them all and give each other feedback!
     
     - Brainstorm a list of 10 premises supporting your importance argument
 
-::: notes
+<br>
 
 The Farrell (2010) reading is all about how to write a political science paper.
 

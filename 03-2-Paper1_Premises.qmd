@@ -12,7 +12,7 @@ library(readxl)
 
 <br>
 
-<br>
+::: {.r-fit-text}
 
 **I. Arguments, Evidence and International Relations**
 
@@ -20,7 +20,7 @@ library(readxl)
 
 2. Select your strongest reasons for an outline
 
-<br>
+:::
 
 ::: r-stack
 Justin Leinaweaver (Spring 2025)
@@ -365,6 +365,7 @@ In a moment we're all going to walk around and offer suggestions on everyones' l
 
 <br>
 
+::: {.r-fit-text}
 ::: {.incremental}
 
 1. Clear,
@@ -374,6 +375,7 @@ In a moment we're all going to walk around and offer suggestions on everyones' l
 3. Logically connected to the conclusion, and
 
 4. Could be supported by evidence.
+:::
 :::
 
 ::: notes
@@ -391,7 +393,7 @@ Keep in mind, not all premises are created equal.
 
 ## {background-image="Images/background-worldmap4.png" .center}
 
-**Find an international political event that you find interesting and would like to explore more deeply. Your first paper must make an argument that it is important we understand why this event happened.**
+**Find an international political event from the last six months that you find interesting and would like to explore more deeply. Your first paper must make an argument that it is important we understand why this event happened.**
 
 <br>
 
@@ -439,15 +441,17 @@ Ok, take a look at the votes.
 ::: {.r-fit-text}
 **Submit your Outline**
 :::
+::::
 
+:::: {.column width="10%"}
 
 ::::
 
-:::: {.column width="60%"}
+:::: {.column width="50%"}
 **Intro**
 
 - What is the question?
-- Why do we care?
+- Why do we care about the question?
 - Thesis statement
 
 **Reason 1 (premise)**

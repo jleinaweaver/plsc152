@@ -244,12 +244,190 @@ Ok, Group 1, you're up!
 
 ### Define the article for us. What does a "Republican" constitution require?
 
-(Government in two dimensions)
-1. Who holds sovereign power?
-    - Autocracy (held by one) vs Aristocracy (held by a few) vs Democracy (sovereignty held by all in society)
-2. Two possible forms of government: Republican vs Despotic
-    - Republican: Separates the executive from the legislative power
-    - Despotic: Government makes and enforces its own laws
+(**SLIDE**: Illustrate government in two dimensions)
+
+:::
+
+
+
+## {background-image="Images/background-worldmap4.png" .center}
+
+```{r, fig.retina=3, fig.align='center', fig.asp=.7, fig.width=6}
+d1 <- tibble(
+  x1 = c(-1, -1, 1, 1),
+  y1 = c(-1, 1, -1, 1)
+)
+
+d1 |>
+  ggplot(aes(x = x1, y = y1)) +
+  geom_point(color = "white") +
+  theme_void() +
+  scale_x_continuous(limits = c(-2,2)) +
+  scale_y_continuous(limits = c(-2,2)) +
+  #geom_vline(xintercept = 0) +
+  geom_hline(yintercept = 0) +
+  annotate("text", x = c(-1.85, 0, 1.85), y = -.25, label = c("One\nSovereign", "A few are\nSovereign", "All are\nSovereign")) +
+  labs(title = "Typology of Governments: Dimension 1")
+```
+
+::: notes
+
+Let's start with the first dimension
+
+- Per Kant, all governments in the world can be arrayed along this dimension
+
+- Dimension 1: Who holds sovereign power?
+
+<br>
+
+On the extreme left are systems where all supreme authority is invested in one person
+
+- e.g. dictatorships
+
+<br>
+
+The middle are the systems where all supreme authority is invested in a few or to the benefit of only a few
+
+- e.g. aristocracies and other forms of oligarchy
+
+<br>
+
+On the other extreme is a system in which supreme authority belongs to everyone
+
+- e.g. a democracy!
+
+<br>
+
+**Where would you put the US on this dimension? Why?**
+
+<br>
+
+**SLIDE**: Dimension 2
+
+:::
+
+
+
+## {background-image="Images/background-worldmap4.png" .center}
+
+```{r, fig.retina=3, fig.align='center', fig.asp=.7, fig.width=6}
+d1 <- tibble(
+  x1 = c(-1, -1, 1, 1),
+  y1 = c(-1, 1, -1, 1)
+)
+
+d1 |>
+  ggplot(aes(x = x1, y = y1)) +
+  geom_point(color = "white") +
+  theme_void() +
+  scale_x_continuous(limits = c(-2,2)) +
+  scale_y_continuous(limits = c(-2,2)) +
+  geom_vline(xintercept = 0) +
+  geom_hline(yintercept = 0) +
+  annotate("text", x = c(-1.85, 1.85), y = -.25, label = c("One\nSovereign", "All are\nSovereign")) +
+  annotate("text", x = .75, y = c(-1.8, 1.8), label = c("Gov't makes and\nenforces laws", "Legislature makes laws\nExecutive enforces laws")) +
+  labs(title = "Typology of Governments: Dimension 2")
+```
+
+::: notes
+
+Dimension 2: What is the form of government? 
+
+- aka how is power arranged in the government?
+
+<br>
+
+On one end the government is empowered to make AND enforce all of the rules in society
+
+- e.g. despotism
+
+<br>
+
+On the other end, the institutions that make the laws are separated from those that enforce the laws
+
+- e.g. republicanism
+
+<br>
+
+**Everybody clear on this typology?**
+
+- **Where would you put the US on this dimension? Why?**
+
+<br>
+
+**SLIDE**: Important observation time!
+
+:::
+
+
+
+
+## {background-image="Images/background-worldmap4.png" .center}
+
+```{r, fig.retina=3, fig.align='center', fig.asp=.7, fig.width=6}
+d1 <- tibble(
+  x1 = c(-1, -1, 1, 1),
+  y1 = c(-1, 1, -1, 1)
+)
+
+d1 |>
+  ggplot(aes(x = x1, y = y1)) +
+  geom_point(color = "white") +
+  theme_void() +
+  scale_x_continuous(limits = c(-2,2)) +
+  scale_y_continuous(limits = c(-2,2)) +
+  geom_vline(xintercept = 0) +
+  geom_hline(yintercept = 0) +
+  annotate("text", x = c(-1.85, 1.85), y = -.25, label = c("Dictatorship", "Democracy")) +
+  annotate("text", x = .35, y = c(-1.8, 1.8), label = c("Despotic", "Republic")) +
+  labs(title = "Kant's Typology of Governmental Systems")
+```
+
+::: notes
+
+**Has anyone heard the argument that America is a republic and not a democracy?**
+
+- **How does this typology help us think about that claim?**
+
+<br>
+
+It's an argument built on EITHER a fundamental misunderstanding of government typologies OR an intentionally misleading argument
+
+1. Democracy and republic are not the opposite ends of a spectrum, they are two different ways of describing the variation in a system
+
+2. IFF we take the argument at face value, then an argument that we are a republic but not a democracy is an argument that we were designed as a dictatorship which is just stupid.
+
+<br>
+
+**Everybody clear on this?**
+
+<br>
+
+**SLIDE**: Back to the Kant!
+
+:::
+
+
+
+## {background-image="Images/background-worldmap4.png" .center}
+
+**The First Definitive Article for Perpetual Peace**
+
+- "The Civil Constitution of Every State Should Be Republican"
+
+<br>
+
+### Would the world be more peaceful (fewer wars) if every country adopted this article?
+
+1. What does this article require us to do?
+
+2. Why might it work?
+
+3. Why might it fail?
+
+::: notes
+
+**What are the pros and cons of adopting this article to achieve world peace?**
 
 <br>
 
@@ -569,7 +747,7 @@ Institutions:
 :::
 
 
-## {background-image="Images/background-worldmap4.png" .center .smaller}
+## {background-image="Images/background-worldmap4.png" .center}
 
 ::: {.r-fit-text}
 **Liberal Institutionalism (Keohane 1984)**
@@ -585,7 +763,7 @@ Institutions:
 
 **Interactions**
 
-- International institutions can set standards of behavior, verify compliance, reduce the costs of cooperation and resolve disputes
+- International institutions can help to overcome cooperation dilemmas, reduce uncertainty, distribute benefits
 
 ::: notes
 
@@ -618,11 +796,15 @@ Interactions:
 
 <br>
 
+::: {.r-fit-text}
+
 The Economic Liberal answer
 
 1. Nye (2007)
 
 2. Rosecrance (1986)
+
+:::
 
 ::: notes
 ...

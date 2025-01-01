@@ -280,22 +280,21 @@ SLIDE: However...
 
 
 
-## {background-image="Images/background-blue_cubes_lighter3.png" .center}
+## {background-image="Images/background-worldmap4.png" .center}
 
 :::: {.columns}
 ::: {.column width="50%"}
 
 <br>
 
-```{r, fig.align='center'}
-knitr::include_graphics("Images/02_2-mbta_map.png")
-```
+![](Images/02_2-mbta_map.png)
+
 :::
 
 ::: {.column width="50%"}
-```{r, fig.align='center'}
-knitr::include_graphics("Images/02_2-mbta_map2.png")
-```
+
+![](Images/02_2-mbta_map2.png)
+
 :::
 ::::
 
@@ -322,7 +321,7 @@ If you tried to use the T map to navigate by foot or car you would get incredibl
 
 
 
-## {background-image="Images/background-blue_cubes_lighter3.png" .center}
+## {background-image="Images/background-worldmap4.png" .center}
 
 :::: {.columns}
 ::: {.column width="50%"}
@@ -358,7 +357,7 @@ Generally there is a trade-off between the number of purposes you can use a map 
 
 
 
-## {background-image="Images/background-blue_cubes_lighter3.png" .center}
+## {background-image="Images/background-worldmap4.png" .center}
 
 :::: {.columns}
 ::: {.column width="40%"}
@@ -412,7 +411,7 @@ We evaluate a map's usefulness based on what we need it to do for us, NOT ON ITS
 
 
 
-## {background-image="Images/background-blue_cubes_lighter3.png" .center}
+## {background-image="Images/background-worldmap4.png" .center}
 
 :::: {.columns}
 ::: {.column width="40%"}
@@ -584,6 +583,7 @@ Ok, so for today you got a crash course in the broad approaches to modeling or t
 
 ## "Useful" Scientific Models... {background-image="Images/background-worldmap4.png" .center}
 
+::: {.r-fit-text}
 ::: {.incremental}
 1. are logical
 
@@ -592,6 +592,7 @@ Ok, so for today you got a crash course in the broad approaches to modeling or t
 3. explain more stuff than other theories
 
 4. need fewer assumptions to explain the same things
+:::
 :::
 
 ::: notes
@@ -677,6 +678,7 @@ This required thousands of people to cooperate and keep their secrecy about:
 
 ## "Useful" Scientific Models... {background-image="Images/background-worldmap4.png" .center}
 
+::: {.r-fit-text}
 1. are logical
 
 2. accurately explain outcomes
@@ -684,6 +686,7 @@ This required thousands of people to cooperate and keep their secrecy about:
 3. explain more stuff than other theories
 
 4. need fewer assumptions to explain the same things
+:::
 
 ::: notes
 The big lesson for today is about the nature of theories and models.
@@ -701,18 +704,11 @@ The big lesson for today is about the nature of theories and models.
 
 
 
-## Assignment for Next Class {background-image="Images/background-blue_triangles2.png" .center .smaller}
+## For Next Class {background-image="Images/background-blue_triangles.jpg" .center}
 
 <br>
 
-**Find an important international political event (from the recent past) that you find interesting and would like to explore more deeply.**
-
-1. Read Engle (2018)
-
-2. **Before class** submit to our Canvas discussion board: 
-    - Describe the event,
-    - Argue why "important", and
-    - An APA citation for one piece of **HIGH QUALITY** published evidence supporting your argument
+### What do you have to have completed before our next class?
 
 ::: notes
 
@@ -724,7 +720,18 @@ We will spend all of next week working in class on your first paper.
 
 <br>
 
-### Questions on the assignment for Monday?
+Find an important international political event (from the recent past) that you find interesting and would like to explore more deeply.
+
+1. Read Engle (2018)
+
+2. **Before class** submit to our Canvas discussion board: 
+    - Describe the event,
+    - Argue why "important", and
+    - An APA citation for one piece of **HIGH QUALITY** published evidence supporting your argument
+
+<br>
+
+### Questions on the assignment?
 :::
 
 

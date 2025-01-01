@@ -38,7 +38,7 @@ Prep for Class
 
 
 
-## So far in this class we've... {background-image="Images/background-cloth_v3.png" .center}
+## So far in this class we've... {background-image="Images/background-worldmap4.png" .center}
 
 ::: {.incremental}
 + Used simulations and real-world cases to define international political events,
@@ -57,7 +57,7 @@ That's an impressive amount of stuff!
 :::
 
 
-## Make an argument that one of the IR theories we've studied in class so far this term **"best"** explains the event you explored in Paper 1 {background-image="Images/background-cloth_v3.png" .center}
+## Make an argument that one of the IR theories we've studied in class so far this term **"best"** explains the event you explored in Paper 1 {background-image="Images/background-worldmap4.png" .center}
 
 <br>
 
@@ -74,7 +74,7 @@ Don't forget, your outline of the second paper is due at the end of the week.
 :::
 
 
-## Semester Outline {background-image="Images/background-cloth_v3.png" .center}
+## Semester Outline {background-image="Images/background-worldmap4.png" .center}
 
 Section 1: Arguments, Evidence and International Relations
 
@@ -101,7 +101,7 @@ Rather than start with the theory of this topic, I prefer to start with practice
 
 
 
-## A Prisoner's Dilemma {background-image="Images/background-cloth_v3.png" .center}
+## A Prisoner's Dilemma {background-image="Images/background-worldmap4.png" .center}
 
 + Each round your group must choose to cooperate or defect.
 
@@ -118,7 +118,7 @@ What do I mean by "reward"?
 
 
 
-## A Prisoner's Dilemma {background-image="Images/background-cloth_v3.png" .center}
+## A Prisoner's Dilemma {background-image="Images/background-worldmap4.png" .center}
 
 + Each round your group must choose to cooperate or defect.
 
@@ -140,7 +140,7 @@ Here's what I mean by saying your reward depends on the choice of the other team
 
 
 
-## A Prisoner's Dilemma {background-image="Images/background-cloth_v3.png" .center}
+## A Prisoner's Dilemma {background-image="Images/background-worldmap4.png" .center}
 
 + Each round your group must choose to cooperate or defect.
 
@@ -177,13 +177,11 @@ Group 1 stay here, group 2 across the hall.
 :::
 
 
-## Assignment for Next Class {background-image="Images/background-cloth_v3.png" .center}
+## Assignment for Next Class {background-image="Images/background-blue_triangles.jpg" .center}
 
 <br>
 
-```{r, fig.align='center', out.width='100%'}
-knitr::include_graphics("Images/08_1-Assignment.png")
-```
+### Do the reading and submit your analysis of our PD game as a model of IR
 
 ::: notes
 

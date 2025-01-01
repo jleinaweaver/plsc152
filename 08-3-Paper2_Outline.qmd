@@ -35,26 +35,25 @@ Prep for Class
 
 
 
-## For Today: Draft an Outline {background-image="Images/background-blue_triangles.jpg" .smaller}
+## For Today: Draft an Outline {background-image="Images/background-worldmap4.png" .smaller}
 
 **Intro**
 
-- What are you trying to explain and why is it important?
+- What is the question?
+- Why is the question important?
 - Thesis statement: Theory X is most useful because...
 
-**Apply/Evaluate Theory 1**
+**Premise 1: Theory 1 is most useful because... (with evidence)**
 
-- How does this theory explain your event?
+**Premise 2: Theory 1 is most useful because... (with evidence)**
+
+**Premise 3: Theory 1 is most useful because... (with evidence)**
+
+**Counter-Argument: Theory 2**
+
 - What are the strengths of this explanation?
 - What are the weaknesses of this explanation?
-
-**Apply/Evaluate Theory 2**
-
-- As above
-
-**Apply/Evaluate Theory 3**
-
-- As above
+- Why is it not ultimately more useful than Theory 1?
 
 ::: notes
 **Everybody ready to go with this?**
@@ -72,7 +71,7 @@ In a moment I'll split you into pairs...
 
 
 
-## Review the Outlines in Pairs {background-image="Images/background-blue_cubes_lighter3.png" .center}
+## Review the Outlines in Pairs {background-image="Images/background-worldmap4.png" .center}
 
 <br>
 
@@ -84,7 +83,7 @@ Person 1 presents their paper outline
 
 
 
-## Review the Outlines in Pairs {background-image="Images/background-blue_cubes_lighter3.png" .center}
+## Review the Outlines in Pairs {background-image="Images/background-worldmap4.png" .center}
 
 <br>
 
@@ -120,25 +119,25 @@ This criteria piece is new
 :::
 
 
-## Revise your Outline {background-image="Images/background-blue_triangles.jpg" .smaller}
+## Revise your Outline {background-image="Images/background-worldmap4.png" .smaller}
 
 **Intro**
 
-+ What is the question?
-+ Why do we care?
-+ Thesis statement
+- What is the question?
+- Why is the question important?
+- Thesis statement: Theory X is most useful because...
 
-**Apply/Evaluate Theory 1**
+**Premise 1: Theory 1 is most useful because... (with evidence)**
 
-+ Evidence
+**Premise 2: Theory 1 is most useful because... (with evidence)**
 
-**Apply/Evaluate Theory 2**
+**Premise 3: Theory 1 is most useful because... (with evidence)**
 
-+ Evidence
+**Counter-Argument: Theory 2**
 
-**Apply/Evaluate Theory 3**
-
-+ Evidence
+- What are the strengths of this explanation?
+- What are the weaknesses of this explanation?
+- Why is it not ultimately more useful than Theory 1?
 
 ::: notes
 Now that you've heard some more arguments and gotten feedback on yours it's time to revise.

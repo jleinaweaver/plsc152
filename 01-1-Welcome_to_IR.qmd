@@ -68,11 +68,17 @@ Welcome all.
 
 3. Major
 
-4. Earliest memory of a "big" international event
+4. "Important" international events are...
 
 :::
 
 ::: notes
+
+My aim with this last one is to get a sense for how the class thinks about "importance" on the world stage
+
+- In other words, what kinds of events should we be paying attention to? Why?
+
+<br>
 
 1. Name: I'm Dr. Leinaweaver.
 
@@ -80,11 +86,7 @@ Welcome all.
 
 3. Major: Political scientist with primary research interests in international policy-making and problem-solving
 
-4. Earliest memory? Berlin wall coming down and finding out our world map had to change. Kind of blew my mind.
-
-<br>
-
-### Your turn!
+4. **Let's see what you guys think!**
 
 <br>
 
@@ -130,14 +132,18 @@ Today's Agenda: Set up our class and plan for the semester
 
 ## Learning Outcomes {background-image="Images/background-worldmap4.png"  .center}
 
+<br>
+
+### Explaining international political events like an IR scholar requires learning...
+
+::: {.r-fit-text}
 ::: {.incremental}
-- LO 1: Learn about the big ideas and debates of IR scholars
+- LO 1: The big ideas and basic definitions of the field
 
-- LO 2: Learn to use the tools of IR scholars to explain events
+- LO 2 & 3: To use the tools of social scientists
 
-- LO 3: Use the tools to explain international political events
-
-- LO 4: Write convincing arguments
+- LO 4: To write convincing arguments
+:::
 :::
 
 ::: notes
@@ -176,6 +182,8 @@ Big picture, we have four learning outcomes this semester.
 
 <br>
 
+::: {.r-fit-text}
+
 **Arguments, Evidence and International Relations**
 
 - Making logical arguments,
@@ -184,9 +192,25 @@ Big picture, we have four learning outcomes this semester.
 
 - Learning to think in terms of models
 
+:::
+
 ::: notes
 
 Section 1 sets us up for the semester.
+
+- Here we learn the basic structure we will use for making and evaluating arguments in this class
+
+<br>
+
+This means learning to study politics "scientifically"
+
+- Which is a whole other can of worms...
+
+<br>
+
+Once this is done we can start digging into the BIG questions that inspired the creation of international relations
+
+- **SLIDE**: Such as...
 
 :::
 
@@ -239,7 +263,13 @@ In Section 2 of our we explore the grand-daddy of all IR research questions.
 
 <br>
 
-**Is this a "good" list if our aim is to be able to explain where wars are likely to start in the future? Why or why not?**
+**Is this a "good" list if our aim is to be able to explain where wars are likely to start in the future?**
+
+- **In other words, would knowing just these things about a random country help you predict the likelihood of war? Why or why not?**
+
+<br>
+
+**SLIDE**: Let's kick off our next question with another old dude!
 
 :::
 
@@ -256,7 +286,19 @@ In Section 2 of our we explore the grand-daddy of all IR research questions.
 
 <br>
 
-To be clear, this is Ali Khamenei not to be confused with his predecessor Ruhollah Khomeini
+**SLIDE**
+
+:::
+
+
+
+## {background-image="Images/01_1-Kahmeni_khomeni.jpg"}
+
+::: notes
+
+To be clear, this on the left is Ali Khamenei, the current Supreme Leader of Iran
+
+- Not to be confused with his predecessor Ruhollah Khomeini, the former supreme leader...
 
 - Not confusing at all.
 
@@ -356,7 +398,15 @@ Why is it so Hard to Cooperate With Other Countries?
 
 In Section 3 of the class we ask why is it so Hard to Cooperate with Other Countries?
 
+<br>
+
+Most countries would prefer to live in a world where Iran stops doing all this destabilizing stuff, but for so many reasons it's hard to get to that world!
+
 - We have a good start here to mapping out the challenges of cooperation when the stakes are so high!
+
+<br>
+
+**SLIDE**: Last photo quiz!
 
 :::
 
@@ -367,9 +417,7 @@ In Section 3 of the class we ask why is it so Hard to Cooperate with Other Count
 
 ::: notes
 
-Last photo quiz!
-
-- **Who are these three gentlemen and what are we looking at here?**
+**Who are these three gentlemen and what are we looking at here?**
 
 - Churchill, FDR and Stalin at the Yalta Conference
 
@@ -383,11 +431,9 @@ Clearly the world has changed a lot since 1945.
 
 <br>
 
-**What are the biggest differences between today and 1945?**
+**How much has the world changed since 1945?**
 
-<br>
-
-**And what are the biggest similarities between today and 1945?**
+- **What are the biggest differences between today and 1945?**
 
 :::
 
@@ -407,7 +453,17 @@ What is the Future of Transnational Politics and IR?
 
 Here's the thing, most of the world's international infrastructure was designed at the end of WWII
 
-- The United Nations, the International Court of Justice, the World Bank, the International Monetary Fund, etc. all founded in around 1944/1945
+- The United Nations was designed to maintain peace 
+
+- The International Court of Justice was designed to help countries settle disputes without fighting
+
+- The World Bank was designed to reduce poverty and promote long-term economic development
+
+- The International Monetary Fund was designed to do a bunch of stuff related to promoting trade and growth
+
+<br>
+
+Basically all of these, and more, were founded in around 1944/1945
 
 <br>
 
@@ -423,6 +479,8 @@ In Section 4 of the class I want us to ask if 80 years later these institutions 
 
 <br>
 
+::: {.r-fit-text}
+
 1. Arguments, Evidence and International Relations
 
 2. Why Are There Wars?
@@ -430,6 +488,7 @@ In Section 4 of the class I want us to ask if 80 years later these institutions 
 3. Why is it so Hard to Cooperate With Other Countries?
 
 4. What is the Future of Transnational Politics and IR?
+:::
 
 ::: notes
 
@@ -494,27 +553,37 @@ knitr::include_graphics("Images/01_1-Course_Syllabus.png")
 
 Everybody open the syllabus and let's hit the highlights!
 
-- LOs
-
-- Grade composition
-
-- Attendance cliff (> 3 unexcused absences = Grade cap of 'C')
-
-- Excused absence coming up? **It is your responsibility to email me BEFORE the absence in order to receive a make-up assignment.**
-
-- Participation points!
-
-- Paper requirements: APA, submitted on Canvas, NO AI TOOLS
-
-- Weekly plan (should essentially match the modules on Canvas)
+- *Give them time to do this*
 
 <br>
 
-**Any questions on our aims for the semester or my expectations for you as represented by the syllabus?**
+1. **Any questions about the LOs or components of your grade?**
+
+2. **Any questions about the attendance policy?**
+    
+    - Attendance cliff (> 3 unexcused absences = Grade cap of 'C')
+    
+    - YOU are required to contact me by email for excused absences
+    
+    - Coach emails alone DO NOT COUNT
+
+3. **Any questions about the participation points?**
+
+    - MOST classes have short pre-class assignments that must be submitted to Canvas
+    
+    - Other ways to lose participation: Lateness, distracting classmates
+
+4. **Any questions about the Submission Requirements for the Argument Papers?**
 
 <br>
 
-Please keep me in the loop this semester!
+The Modules page of our Canvas site is where I will provide all of the readings and links to the daily assignments.
+
+- **Any question on the Modules page?**
+
+<br>
+
+Bottom line, please keep me in the loop this semester!
 
 - I genuinely want you to make progress on our learning outcomes
 
@@ -525,15 +594,17 @@ Please keep me in the loop this semester!
 <br>
 
 **Questions on this?**
+
 :::
 
 
 
-## For Next Class {background-image="Images/background-worldmap4.png"}
+## For Next Class {background-image="Images/background-worldmap4.png" .center}
 
-```{r, fig.align='center'}
-knitr::include_graphics("Images/01_1-Canvas_Modules2_SP24.png")
-```
+<br>
+
+### Check the syllabus and Modules page for the readings and the discussion assignment.
+
 
 ::: notes
 Readings and an assignment for next class

@@ -54,15 +54,17 @@ REFLECTIONS SP24
 ::: {.r-fit-text}
 **Submit your Outline**
 :::
+::::
 
+:::: {.column width="10%"}
 
 ::::
 
-:::: {.column width="60%"}
+:::: {.column width="50%"}
 **Intro**
 
 - What is the question?
-- Why do we care?
+- Why do we care about the question?
 - Thesis statement
 
 **Reason 1 (premise)**
@@ -103,15 +105,19 @@ Ok, time to get some feedback!
 
 <br>
 
+::: {.r-fit-text}
+
 **Person 1: Present your Outline**
 
 - What is the question? 
 
-- Why do we care?
+- Why do we care about the question?
 
 - Thesis
 
 - Each premise with evidence
+
+:::
 
 ::: notes
 
@@ -248,7 +254,7 @@ Reflect on the feedback, revise your outline and start writing!
 
 <br>
 
-Paper is due at the end of the week!
+Paper is due at the end of next week!
 :::
 
 

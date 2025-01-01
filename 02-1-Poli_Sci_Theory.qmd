@@ -12,7 +12,7 @@ library(readxl)
 
 <br>
 
-<br>
+::: {.r-fit-text}
 
 **I. Arguments, Evidence and International Relations**
 
@@ -21,6 +21,8 @@ library(readxl)
 2. What is "politics"?
 
 3. Can it be studied "scientifically"?
+
+:::
 
 <br>
 
@@ -33,16 +35,14 @@ Prep for Class
 
 1. Review and record participation submissions
 
-2. Publish next discussion post
+2. Print "get out of jail free" cards for our distribution game (print from GDrive)
 
-3. Print "get out of jail free" cards for our distribution game (print from GDrive)
-
-4. Update with class notes from trying to define our concepts
+3. Update with class notes from trying to define our concepts
     - International: Involves the actions of more than one country
     - Political: *we didn't really get to this*
     - Event: A thing that happened
     
-5. Note that you don't open today with refresher of last class, that comes in the middle of today's plan
+4. Note that you don't open today with refresher of last class, that comes in the middle of today's plan
 
 <br>
 
@@ -62,15 +62,15 @@ Today we continue laying important foundations for the rest of the semester.
 
 :::: {.columns}
 ::: {.column width="50%"}
-```{r, fig.align='center'}
-knitr::include_graphics("Images/02_1-chair_v2.png")
-```
+
+![](Images/02_1-chair_v2.png)
+
 :::
 
 ::: {.column width="50%"}
-```{r, fig.align='center'}
-knitr::include_graphics("Images/02_1-scrooge.jpg")
-```
+
+![](Images/02_1-scrooge.jpg)
+
 :::
 ::::
 
@@ -103,15 +103,15 @@ Concepts are "names for things, feelings and ideas generated or acquired by peop
 
 :::: {.columns}
 ::: {.column width="50%"}
-```{r, fig.align='center'}
-knitr::include_graphics("Images/02_1-chair_v2.png")
-```
+
+![](Images/02_1-chair_v2.png)
+
 :::
 
 ::: {.column width="50%"}
-```{r, fig.align='center'}
-knitr::include_graphics("Images/02_1-scrooge.jpg")
-```
+
+![](Images/02_1-scrooge.jpg)
+
 :::
 ::::
 
@@ -176,9 +176,7 @@ Where this gets complicated is when we disagree about the meaning of a specific 
 
 ## {background-image="Images/background-worldmap4.png"}
 
-```{r, fig.align='center'}
-knitr::include_graphics("Images/02_1-dog_toddler.png")
-```
+![](Images/02_1-dog_toddler.png){style="display: block; margin: 0 auto"}
 
 ::: notes
 
@@ -269,15 +267,14 @@ BUT, what we should do about it depends entirely on how you define the problem.
 
 <br>
 
-```{r, fig.align='center'}
-knitr::include_graphics("Images/02_1-anti_immigrant2.jpg")
-```
+![](Images/02_1-anti_immigrant2.jpg)
+
 :::
 
 ::: {.column width="50%"}
-```{r, fig.align='center'}
-knitr::include_graphics("Images/02_1-anti_immigrant.jpg")
-```
+
+![](Images/02_1-anti_immigrant.jpg)
+
 :::
 ::::
 
@@ -304,15 +301,15 @@ knitr::include_graphics("Images/02_1-anti_immigrant.jpg")
 
 :::: {.columns}
 ::: {.column width="50%"}
-```{r, fig.align='center'}
-knitr::include_graphics("Images/02_1-No_human_being_is_illegal.jpg")
-```
+
+![](Images/02_1-No_human_being_is_illegal.jpg)
+
 :::
 
 ::: {.column width="50%"}
-```{r, fig.align='center'}
-knitr::include_graphics("Images/02_1-asylum_cropped.png")
-```
+
+![](Images/02_1-asylum_cropped.png)
+
 :::
 ::::
 
@@ -339,15 +336,15 @@ knitr::include_graphics("Images/02_1-asylum_cropped.png")
 
 :::: {.columns}
 ::: {.column width="50%"}
-```{r, fig.align='center'}
-knitr::include_graphics("Images/02_1-No_human_being_is_illegal.jpg")
-```
+
+![](Images/02_1-No_human_being_is_illegal.jpg)
+
 :::
 
 ::: {.column width="50%"}
-```{r, fig.align='center'}
-knitr::include_graphics("Images/02_1-anti_immigrant.jpg")
-```
+
+![](Images/02_1-anti_immigrant.jpg)
+
 :::
 ::::
 
@@ -434,11 +431,8 @@ For the purposes of this class we really can't accomplish much if we don't first
 
 <br>
 
-<br>
+![](Images/02_1-politics-word-cloud.webp)
 
-```{r, fig.align='center'}
-knitr::include_graphics("Images/02_1-politics-word-cloud.webp")
-```
 :::
 ::::
 
@@ -489,9 +483,8 @@ Our job is to agree on a shared definition we can use to begin exploring the wor
 
 <br>
 
-```{r, fig.align='center'}
-knitr::include_graphics("Images/02_1-politics-word-cloud.webp")
-```
+![](Images/02_1-politics-word-cloud.webp)
+
 :::
 ::::
 
@@ -529,9 +522,8 @@ knitr::include_graphics("Images/02_1-politics-word-cloud.webp")
 
 <br>
 
-```{r, fig.align='center'}
-knitr::include_graphics("Images/02_1-politics-word-cloud.webp")
-```
+![](Images/02_1-politics-word-cloud.webp)
+
 :::
 ::::
 
@@ -768,7 +760,9 @@ Now let's talk about the "science" part of our reading for today.
 
 
 
-## {background-image="Images/02_1-monkey_darts_politics.jpg" background-size='85%'}
+## {background-image="Images/background-worldmap4.png" .center}
+
+![](Images/02_1-monkey_darts_politics.jpg){style="display: block; margin: 0 auto"}
 
 ::: notes
 **Based on the reading, what do you think is the biggest challenge to doing political science as a "science"?**
@@ -790,7 +784,9 @@ Now let's talk about the "science" part of our reading for today.
 
 
 
-## {background-image="Images/02_1-science_process_meme.png" background-size='50%'}
+## {background-image="Images/background-worldmap4.png" .center}
+
+![](Images/02_1-science_process_meme.png){style="display: block; margin: 0 auto"}
 
 ::: notes
 
@@ -891,11 +887,11 @@ I think that's super cool.
 
 <br>
 
-Mingst & Arreguin-Toft (2017) "Chapter 3, International Relations Theories"
+### What do you have to have completed before our next class?
 
 ::: notes
 
-For Friday you'll be reading a chapter that will introduce you to some of the big, grand-daddy theories of International Relations.
+For next class you'll be reading a chapter that will introduce you to some of the big, grand-daddy theories of International Relations.
 
 <br>
 

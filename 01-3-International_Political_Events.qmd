@@ -12,13 +12,13 @@ library(readxl)
 
 <br>
 
-<br>
+::: {.r-fit-text}
 
 **I. Arguments, Evidence and International Relations**
 
 - Defining International Political Events
 
-<br>
+:::
 
 <br>
 
@@ -31,11 +31,9 @@ Prep for Class
 
 1. Review and record participation submissions
 
-2. Publish next discussion board
-
 <br>
 
-This week we'll be laying our foundations for the rest of the semester.
+This week we've been laying our foundations for the rest of the semester.
 
 - Before we can really dig into explaining international politics, we need to get on the same page about what we are studying
 
@@ -44,15 +42,9 @@ This week we'll be laying our foundations for the rest of the semester.
 
 
 
-## For Next Class {background-image="Images/background-blue_triangles.jpg" .center}
+## For Today {background-image="Images/background-blue_triangles.jpg" .center}
 
-<br>
-
-1. Find a **recent** "international political event" described in the news, and
-
-2. **Before class** submit to Canvas:
-    - An APA citation for your source, and 
-    - Explain why this event is "international," "political" and "specific" (one sentence each).
+![](Images/01_1-newspapers.jpg){style="display: block; margin: 0 auto"}
 
 ::: notes
 
@@ -71,7 +63,7 @@ Let's quickly zip around the room so you can introduce us to your chosen cases.
 
 
 
-## APA Citations: General Advice {background-image="Images/background-blue_triangles.jpg" .center .smaller}
+## APA Citations: General Advice {background-image="Images/background-blue_triangles.jpg" .center}
 
 **Books**
 
@@ -177,9 +169,21 @@ Here's one version we might consider that sort of holds off on the "politics" de
 
 
 
-## Assignment for Next Class {background-image="Images/background-worldmap4.png" .center}
+## For Next Class {background-image="Images/background-blue_triangles.jpg" .center}
 
 <br>
 
+### What do you have to have completed before our next class?
+
+::: notes
+
 Donovan, T., & Hoover, K. (2014). "The Elements of Science." In *The Elements of Social Scientific Thinking*.
 
+and 
+
+Assignment: Based on the reading, what do you think is the biggest challenge to doing political science as a "science"? 
+
+- Use a real-world example to highlight the challenge as you understand it. (3+ sentences)
+
+
+:::
