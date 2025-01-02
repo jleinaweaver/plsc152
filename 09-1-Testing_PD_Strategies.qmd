@@ -56,7 +56,7 @@ Today I'd like us to explore PD strategies and what those strategies tell us abo
 
 
 
-## The Prisoner's Dilemma {background-image="Images/background-blue_cubes_lighter3.png" .smaller}
+## The Prisoner's Dilemma {background-image="Images/background-worldmap4.png" .smaller}
 
 <br>
 

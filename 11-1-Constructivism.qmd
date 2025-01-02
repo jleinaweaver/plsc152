@@ -355,15 +355,15 @@ However, if you are walking alone at night down a dark street your sense of "ana
 :::: {.columns}
 
 ::: {.column width="50%"}
-```{r, fig.align='center'}
-knitr::include_graphics("Images/13_1-hippies.jpg")
-```
+
+![](Images/13_1-hippies.jpg)
+
 :::
 
 ::: {.column width="50%"}
-```{r, fig.align='center'}
-knitr::include_graphics("Images/13_1-dark_street.png")
-```
+
+![](Images/13_1-dark_street.png)
+
 :::
 
 ::::
@@ -424,15 +424,15 @@ Here we see the border between North and South Korea.
 :::: {.columns}
 
 ::: {.column width="50%"}
-```{r, fig.align='center'}
-knitr::include_graphics("Images/13_1-us_canada.jpg")
-```
+
+![](Images/13_1-us_canada.jpg)
+
 :::
 
 ::: {.column width="50%"}
-```{r, fig.align='center'}
-knitr::include_graphics("Images/13_1-korean_border.jpg")
-```
+
+![](Images/13_1-korean_border.jpg)
+
 :::
 
 ::::
@@ -799,11 +799,9 @@ Weaknesses:
 
 <br>
 
-1. Finnemore and Sikkink (1998)
+1. Read Finnemore and Sikkink (1998)
 
-2. **Before class** submit to our Canvas discussion board: 
-
-What is a "norm entrepreneur" and how does understanding this mechanism help us think about achieving change in international politics?
+2. Submit a reflection and real-world case to our Canvas discussion board
 
 ::: notes
 **Questions on the assignment?**

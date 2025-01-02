@@ -57,13 +57,13 @@ https://drury.campuslabs.com/eval-home/
 
 
 
-## Final Exam (Due Dec 9, 10am) {background-image="Images/background-blue_triangles2.png" .center}
+## Final Exam (Due May 8th, 10am) {background-image="Images/background-blue_triangles2.png" .center}
 
 <br>
 
-Select a **NEW** international political event and make an argument that one of the IR theories / models we've studied in class this term "best" explains the event. 
+Select a **NEW** international political event and make an argument that one of the IR theories / models we’ve studied in class this term “best” explains the event. 
 
-Your paper must consider and evaluate how **THREE** of the IR theories from class explain your chosen event.
+- Your paper must include a counter-argument that applies and evaluates a second theory to the case.
 
 - No double-dipping on realism/liberalism
 
@@ -83,9 +83,14 @@ Your paper must consider and evaluate how **THREE** of the IR theories from clas
 
 <br>
 
-1. Find a **NEW** international political event to explain in the final paper (no overlap), and
+Find a NEW international political event you want to focus on for the final paper
 
-2. Submit **at least TWO** pieces of evidence that help us understand why this is an international political event.
+1. Submit TWO pieces of evidence that each provide the basic details of the event (APA format)
+
+2. Explain the event you have chosen (2+ sentences)
+
+3. Make an argument this is an "international political event" (2+ sentences) 
+
 
 ::: notes
 
@@ -93,11 +98,7 @@ Our aim for today is to make sure everyone has an international political event 
 
 <br>
 
-### Did everybody submit their case and evidence?
-
-<br>
-
-*Split class into groups of four*
+*Split class into groups of three*
 
 - Go sit with your group!
 :::
@@ -112,7 +113,7 @@ Our aim for today is to make sure everyone has an international political event 
 
 1. Is this an international political event?
 
-2. Is the evidence high quality?
+2. Is the evidence high enough quality?
 
 :::
 
@@ -133,15 +134,27 @@ Alright, let's hear all the cases you've picked!
 
 
 
-## For Next Class {background-image="Images/background-blue_triangles2.png" .center}
+## Assignment for Next Class  {background-image="Images/background-blue_triangles2.png" .center}
 
 <br>
 
-1. Submit a description of your chosen event, and
-
-2. Use each theory you have selected to explain your event (2-3 sentences for **EACH** theory)
+### Check the Modules page for the assignment prompt
 
 ::: notes
+
+Canvas: Paper 3 - Applying Models (8 pts)
+
+1. Break your event down into its key components and describe each:
+    - Who is the actor?
+    
+    - What is the action they performed that you are explaining?
+
+2. Briefly explain the event using THREE of the theories from class (note the assignment prompt for theory selection). 
+    - Each explanation must be a minimum of three sentences each. 
+    - Three theories x three sentences = minimum of nine sentences.
+
+<br>
+
 **Questions on the assignment?**
 
 <br>

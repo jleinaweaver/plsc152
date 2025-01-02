@@ -136,18 +136,17 @@ Postcolonial IR theory pushes us to think more broadly about the "interests" in 
 
 :::: {.columns}
 ::: {.column width="50%"}
-```{r, fig.align='center'}
-knitr::include_graphics('Images/14_1-US_Israel_Iran_Combat_Apr2024.png')
-```
+
+![](Images/14_1-US_Israel_Iran_Combat_Apr2024.png)
+
 :::
 
 ::: {.column width="50%"}
 
 <br>
 
-```{r, fig.align='center'}
-knitr::include_graphics('Images/14_1-Haiti_Apr2024.png')
-```
+![](Images/14_1-Haiti_Apr2024.png)
+
 :::
 ::::
 

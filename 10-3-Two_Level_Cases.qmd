@@ -14,11 +14,13 @@ library(kableExtra)
 
 <br>
 
+::: {.r-fit-text}
+
 **III. Why is it so Hard to Cooperate with Other Countries?**
 
 - Two-level Bargaining Games: Cases
 
-<br>
+:::
 
 <br>
 
@@ -31,7 +33,7 @@ Prep for Class
 
 1. Review cases submitted on Canvas
 
-2. Review your case so you can introduce it to the class
+2. Bring at least four markers to class
 
 <br>
 
@@ -84,22 +86,49 @@ So, how do we use the win-sets and the two levels to explain and better understa
 
 <br>
 
-SLIDE: My case
+To start, everybody review the cases submitted today on Canvas
+
+1. Are the citations correctly in APA format?
+
+2. Are the descriptions clear enough for you to understand? Ask for clarifications if you need them!
+
+<br>
+
+*Split class into four groups (6 people each) and have groups claim board space*
+
+- Go sit with your group!
 
 :::
 
 
 
+## {background-image="Images/09_2-Chess_3.png" .center}
 
-## Two-Level Games are Everywhere  {background-image="Images/background-worldmap4.png"}
-
-![](Images/10_2-nyt_uk_fr2.png){.absolute right=0 top=100 width="700"}
-
-![](Images/10_2-nyt_uk_fr.png){.absolute left=0 top=250 width="500"}
+### Therefore, useful explanations of international political events should always include domestic politics.
 
 ::: notes
 
-Macron's goals vs Boris Johnson's goals
+Groups, your job will be to reflect on our work in class and the cases submitted to Canvas in order to make this argument
+
+- To be clear, NONE of the classic IR theories we have studied this semester support this conclusion!
+
+- But that doesn't mean it is wrong!
+
+<br>
+
+**Questions?**
+
+- Get to work! Work directly on the board!
+
+<br>
+
+*Next step: Build class consensus diagram by taking best of the options*
+
+<br>
+
+**How convincing do you find this argument? Why or why not?**
+
+- **Are there any serious counterarguments we need to consider?**
 
 :::
 
@@ -110,4 +139,53 @@ Macron's goals vs Boris Johnson's goals
 <br>
 
 Hopf, T. (1998). The Promise of Constructivism in International Relations Theory. International Security. 23(1), 171–200.
+
+
+
+## Save
+
+
+## Two-Level Games are Everywhere  {background-image="Images/background-worldmap4.png"}
+
+![](Images/10_3-US_SK_Drills.png){style="display: block; margin: 0 auto"}
+
+::: notes
+
+The US and South Korea typically run huge joint military exercises each year
+
+- As an international interaction this makes sense, e.g. two allies demonstrating the strength of their alliance to an international enemy
+
+<br>
+
+HOWEVER, this also serves important domestic constituencies for each country!
+
+- The US 
+
+
+- As close allies this is a chance to ensure seamless operation between them, and for us to show off the military tech we have for sale!
+
+<br>
+
+Needless to say given this headline, these drills also tend to threaten the stability of Kim Jong Un's regime in North Korea
+
+- These drills are BIG and they are far too close to the DPRK for Kim Jong Un's comfort
+
+- **SLIDE**: Therefore, these tend to be moments when the North's military figures get antsy, so...
+
+:::
+
+
+
+
+## Two-Level Games are Everywhere  {background-image="Images/background-worldmap4.png"}
+
+![](Images/10_3-Kim_Jong_Un.png){style="display: block; margin: 0 auto"}
+
+::: notes
+
+Kim Jong Un tends to reply forcefully!
+
+
+
+:::
 
