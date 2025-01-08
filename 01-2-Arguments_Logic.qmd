@@ -33,11 +33,24 @@ Prep for Class
 
 1. Review Canvas submissions
 
+2. Readings
+    - Labossiere (2008) on the logic of arguments
+    - [Kohdorkovsky (2023)](https://www.washingtonpost.com/opinions/2023/12/21/warning-west-putin-appeasement-russia/) on not appeasing Putin
+    - [Riley (2025)](https://www.wsj.com/opinion/banning-tiktok-wont-solve-your-data-security-problem-supreme-court-case-869877cd) on banning TikTok
+
 <br>
 
-Welcome back all
+Welcome back all!
 
-### Before we dive in, any questions on the syllabus?
+<br>
+
+**Before we dive in, any questions on the syllabus?**
+
+- Attendance cliff?
+
+- Participation assignments?
+
+- etc?
 :::
 
 
@@ -100,7 +113,7 @@ While being "convincing" is the goal, that's also a subjective test of quality.
 :::
  
 
-## To be convincing an argument should be logical, clear, credible and critical {background-image="Images/background-slate_v2.png" .center}
+## To be convincing an argument should be logical, clear, credible and critical {background-image="Images/background-worldmap4.png" .center}
 
 ::: notes
 
@@ -114,7 +127,7 @@ Let's talk through each of these elements.
 :::
 
 
-## To be convincing an argument should be logical, clear, credible and critical {background-image="Images/background-slate_v2.png" .center}
+## To be convincing an argument should be logical, clear, credible and critical {background-image="Images/background-worldmap4.png" .center}
 
 ::: {.incremental}
 - **Logical** arguments support their conclusion with well specified premises.
@@ -134,9 +147,9 @@ The rubric is in the syllabus so you can consult it as you write and revise for 
 
 <br>
 
-### What questions do you have about this rubric?
+**What questions do you have about this rubric?**
 
-#### - Which elements need more explanation?
+- **Which elements need more explanation?**
 
 <br>
 
@@ -147,11 +160,9 @@ During the course of the semester we will spend time exploring each of these cri
 
 
 
-## Argument Basics {background-image="Images/background-slate_v2.png" .center}
+## Argument Basics {background-image="Images/background-worldmap4.png" .center}
 
-```{r, fig.align='center'}
-knitr::include_graphics("Images/01_2-Labossiere-header.png")
-```
+![](Images/01_2-Labossiere-header.png){style="display: block; margin: 0 auto"}
 
 ::: {.incremental}
 - Conclusion
@@ -197,7 +208,7 @@ REVEAL: Induction represents how we think about the quality of the connection be
 
 
 
-## Inductive Arguments {background-image="Images/background-slate_v2.png" .center}
+## Inductive Arguments {background-image="Images/background-worldmap4.png" .center}
 
 **From the Specific to the General**
 
@@ -226,12 +237,12 @@ REVEAL x 3
 
 <br>
 
-### Questions on the basic structure of an inductive argument?
+**Questions on the basic structure of an inductive argument?**
 
 :::
 
 
-## Inductive Arguments {background-image="Images/background-slate_v2.png" .center}
+## Inductive Arguments {background-image="Images/background-worldmap4.png" .center}
 
 **Quality: Weak to Strong**
 
@@ -277,15 +288,19 @@ Keep in mind: strong inductive arguments DOES NOT MEAN convincing!
 :::
 
 
-## To be convincing an argument should be logical, clear, credible and critical {background-image="Images/background-slate_v2.png" .center}
+## To be convincing an argument should be logical, clear, credible and critical {background-image="Images/background-worldmap4.png" .center}
+
+<br>
 
 ::: {.r-fit-text}
 
+The Components of a Logical Argument:
+
 + Conclusion
 
-+ Premise
++ Premise(s)
 
-+ Inductive Arguments
++ Inductive Reasoning (in this class)
 :::
 
 ::: notes
@@ -304,7 +319,7 @@ The arguments you make in this class must be logical and that means they are:
 
 <br>
 
-### Questions on any of this?
+**Questions on any of this?**
 
 <br>
 
@@ -314,9 +329,7 @@ The arguments you make in this class must be logical and that means they are:
 
 ## {background-image="Images/background-worldmap4.png" .center}
 
-```{r, fig.align='center'}
-knitr::include_graphics("Images/01_2-Khodorkovsky2023.png")
-```
+![](Images/01_2-Khodorkovsky2023.png){style="display: block; margin: 0 auto"}
 
 ::: notes
 
@@ -338,7 +351,7 @@ Ok, the first argument we need to evaluate was written by Mikhail Khodorkovsky. 
 
 <br>
 
-### Before digging into the argument itself, anything about this source we should keep in mind? Any concerns?
+**Before digging into the argument itself, anything about this source we should keep in mind? Any concerns?**
 :::
 
 
@@ -349,9 +362,7 @@ Ok, the first argument we need to evaluate was written by Mikhail Khodorkovsky. 
 What is the conclusion of this argument?
 :::
 
-```{r, fig.align='center'}
-knitr::include_graphics("Images/01_2-Khodorkovsky2023.png")
-```
+![](Images/01_2-Khodorkovsky2023.png){style="display: block; margin: 0 auto"}
 
 ::: notes
 
@@ -363,9 +374,9 @@ Let's start by identifying the central conclusion in the argument.
 
 <br>
 
-### So, what's the conclusion of his argument?
+**So, what's the conclusion of his argument?**
 
-### - What is he trying to convince us to do?
+- **What is he trying to convince us to do?**
 
 - (**SLIDE**)
 :::
@@ -375,11 +386,7 @@ Let's start by identifying the central conclusion in the argument.
 
 ## {background-image="Images/background-worldmap4.png"}
 
-```{r, fig.align='center'}
-knitr::include_graphics("Images/01_2-Khodorkovsky2023.png")
-```
-
-<br>
+![](Images/01_2-Khodorkovsky2023.png){style="display: block; margin: 0 auto"}
 
 Therefore, the US must increase its financial and military support for Ukraine immediately (and stop any consideration of negotiations or ceasefires).
 
@@ -391,13 +398,13 @@ This represents my summary of the central argument here.
 
 <br>
 
-### Everybody ok with using this as our target?
+**Everybody ok with using this as our target?**
 
-### - Any tweaks needed?
+- **Any tweaks needed?**
 
 <br>
 
-### Per the Labossiere reading and the argument rubric for our class, what do we need to evaluate?
+**Per the Labossiere reading and the argument rubric for our class, what do we need to evaluate?**
 
 <br>
 
@@ -410,11 +417,7 @@ We have to evaluate the Logic, Clarity, Credibility and Critical Analysis in the
 
 ## {background-image="Images/background-worldmap4.png"}
 
-```{r, fig.align='center'}
-knitr::include_graphics("Images/01_2-Khodorkovsky2023.png")
-```
-
-<br>
+![](Images/01_2-Khodorkovsky2023.png){style="display: block; margin: 0 auto"}
 
 Identify the **three most important premises** in this argument
 
@@ -429,7 +432,7 @@ Take a few minutes on your own to identify the three most important premises in 
 
 <br>
 
-### Questions? 
+**Questions?**
 
 Let's get to it!
 
@@ -447,7 +450,8 @@ Alright, let's get ideas up *ON THE BOARD*
 
 <br>
 
-#### Notes
+**Notes**
+
 - Putin is an "expansionist fascist dictator"
 - Appeasing an expansionist cannot work, they will continuously increase their demands
 - Putin invaded, Ukraine because it was developing into a vibrant democracy aligned with European values
@@ -487,9 +491,9 @@ Therefore, the US must increase its financial and military support for Ukraine i
 
 Let's talk evidence.
 
-### What evidence does the author provide to support the first premise?
+**What evidence does the author provide to support the first premise?**
 
-### - Is it high quality and cited appropriately?
+- **Is it high quality and cited appropriately?**
 
 *Repeat for each additional premise*
 
@@ -497,52 +501,48 @@ Let's talk evidence.
 
 The final element of the rubric is critical analysis.
 
-### Is there any critical analysis in the argument (e.g. counter-arguments or acknowledging limitations in evidence)?
+**Is there any critical analysis in the argument (e.g. counter-arguments or acknowledging limitations in evidence)?**
 
 <br>
 
 Ok let's talk.
 
-### Are you convinced by this argument? Why or why not?
+**Are you convinced by this argument? Why or why not?**
 
 <br>
 
-### Any questions on the procedure for diagramming and evaluating an academic argument?
+**Any questions on the procedure for diagramming and evaluating an academic argument?**
 
-- SLIDE: Let's practice this again!
+- **SLIDE**: Let's practice this again!
 :::
 
 
 
 ## {background-image="Images/background-worldmap4.png" .center}
 
-```{r, fig.align='center'}
-knitr::include_graphics("Images/01_2-VanHollen2023.png")
-```
+![](Images/01_2-Riley2025.png){style="display: block; margin: 0 auto"}
 
 ::: notes
 
-Our second argument comes from Senator Chris Van Hollen
-
-- A Democrat from Maryland
-
-- Serves on the Appropriations and Foreign Relations committees
+Our second argument comes from Jason Riley, an opinion columnist at The Wall Street Journal
 
 <br>
 
-**Again, always take time to consider the source!**
+**Before digging into the argument itself, anything about this source or type of source we should keep in mind?**
+
+- **Any concerns?**
 
 <br>
 
-### Before digging into the argument itself, anything about this source we should keep in mind? Any concerns?
+I typically avoid "opinion columnists" at ALL COSTS. Life is too short to read ill-informed hot takes
+
+- HOWEVER, this makes it an excellent target for our critique!
 :::
 
 
 ## {background-image="Images/background-worldmap4.png" .center}
 
-```{r, fig.align='center'}
-knitr::include_graphics("Images/01_2-VanHollen2023.png")
-```
+![](Images/01_2-Riley2025.png){style="display: block; margin: 0 auto"}
 
 ::: {.r-fit-text}
 What is the **conclusion** in this argument?
@@ -554,40 +554,33 @@ Just as we did before, let's start by identifying the conclusion.
 
 <br>
 
-### What is the conclusion to this argument?
-### - What is he trying to convince us to believe?
+**What is the conclusion to this argument?**
+
+- **What is he trying to convince us to believe?**
 :::
 
 
 ## {background-image="Images/background-worldmap4.png" .center}
 
-```{r, fig.align='center'}
-knitr::include_graphics("Images/01_2-VanHollen2023.png")
-```
+![](Images/01_2-Riley2025.png){style="display: block; margin: 0 auto"}
 
-<br>
-
-Therefore, the US should condition future military aid to Israel on a requirement they reduce civilian casualties and "fully cooperate with our efforts to provide humanitarian assistance"
+::: {.r-fit-text}
+Therefore, the US government should not ban TikTok.
+:::
 
 ::: notes
-Long version: Therefore, the US should condition future military aid to Israel on a requirement they produce "a verifiable plan" to reduce civilian casualties and "fully cooperate with our efforts to provide humanitarian assistance to civilians in Gaza"
-
-<br>
 
 **Everybody ok with using this as our target?**
 
-- **Any tweaks needed?**
+- **Any tweaks needed or requested?**
+
 :::
 
 
 
 ## {background-image="Images/background-worldmap4.png"}
 
-```{r, fig.align='center'}
-knitr::include_graphics("Images/01_2-VanHollen2023.png")
-```
-
-<br>
+![](Images/01_2-Riley2025.png){style="display: block; margin: 0 auto"}
 
 Identify the **three most important premises** in this argument
 
@@ -595,34 +588,25 @@ Identify the **three most important premises** in this argument
 
 Alright, 30,000 foot view.
 
-### What are the key premises in this argument?
+**What are the key premises in this argument?**
 
-*if enough time have them work on their own or in pairs first.*
+- *if enough time have them work on their own or in pairs first.*
 
-*ON BOARD*
+- *ON BOARD*
 
 <br>
 
 **SLIDE**: My version
 
-#### Notes
-- The Oct 7 attack by Hamas on Israel "was an unconscionable, heinous act of terrorism"
-- US as friend and partner to Israel wants a return of the hostages and an end to the military threat of Hamas
-- US government obligation to our people that assistance is consistent with our interests, values, and in line with U.S. and international humanitarian law.
-- Future money and arms to Israel should include new rules
-    - Weapons must be used "in accordance with U.S. law, international humanitarian law and the law of armed conflict."
-    - President must report to Congress on Israel's compliance on these rules
-    - Denies future aid if Israel prevents humanitarian assistance to those in need
-- It is essential, for both moral and strategic reasons, that Israel distinguish between Hamas and the more than 2 million Palestinian civilians in the Gaza Strip, half of them children, who have nothing to do with Hamas.
-- The fact that Hamas uses the despicable practice of hiding among the population does not absolve the Netanyahu government of its responsibility to take all necessary measures to reduce harm to civilians.
-- In just eight weeks of war, we have witnessed a massive level of death, destruction and displacement.
-- The Netanyahu government has allowed only a trickle of aid into Gaza
-- When strong words are not matched by strong actions, the United States looks feckless.
-- And right now, bombs and artillery made in America and paid for by Americans are being used in Gaza.
-- we must keep one eye on the future and the need not only to prevent a regional war that could burn for more than a decade but also to advance a political solution to enable millions of Israelis and Palestinians living side by side to do so in peace and dignity.
-- How Israel prosecutes this war matters and will impact not only Israel’s security but also the future of the entire region.
-- US has many goals in this situation: return of hostages, ending the military threat of Hamas
-Therefore, the US should oppose the "resumption of hostilities" until Israel produces "a verifiable plan to reduce the unacceptable level of civilian casualties and fully cooperate with our efforts to provide humanitarian assistance to civilians in Gaza"
+**Notes**
+
+- Democrats use TikTok during campaigns so it can't be that "grave" a security threat
+- Trump has grown to like TikTok as his "views" on the app grew
+- Law passed to force a sale of, or ban, TikTok was bipartisan
+- Courts are unlikely to overturn the law as it is written (the federal government has a compelling national-security interest in preventing a foreign adversary from harvesting the personal data of 170 million Americans)
+- It is "worrisome" that Congress acted also to prevent “misinformation,” “propaganda,” and “divisive narratives” which are subjective
+- HOWEVER, TikTok isn't the only social media site plagued by misinformation (and isn't even the only Chinese owned site with the issue)
+- Banning TikTok is "security theater": Google and Meta do way more data collection and sell the info globally
 
 :::
 
@@ -630,47 +614,43 @@ Therefore, the US should oppose the "resumption of hostilities" until Israel pro
 
 ## {background-image="Images/background-worldmap4.png" .center}
 
-- The Oct 7 attack by Hamas on Israel "was an unconscionable, heinous act of terrorism"
+- US politicians are hypocrites when it comes to TikTok 
 
-- There is no allowable justification for war crimes by anyone
+- The bipartisan law to force a sale (ban) of TikTok is justified, in part, by subjective criteria (stopping misinformation, propaganda, divisive narratives)
 
-- The US is at least partly responsible for Israel's actions
+- TikTok is not the only social media site with these problems, but is the only one being targeted
 
-- If Israel commits war crimes, they will be less secure in future
+- Google and Meta do WAY more of this and sell the information globally, so China loses zero access to our information
 
-- If Israel commits war crimes, the region will be less secure in future
-
-Therefore, the US should condition future military aid to Israel on a requirement they reduce civilian casualties and "fully cooperate with our efforts to provide humanitarian assistance"
+Therefore, the US government should not ban TikTok.
 
 ::: notes
 
-Feckless: lacking initiative or strength of character
-
-### Per the rubric, are these premises clear?
+**Per the rubric, are these premises clear?**
 
 <br>
 
-### Is the argument inductively logical? Why or why not?
+**Is the argument inductively logical? Why or why not?**
 
 <br>
 
-### What high quality evidence does the author provide to support each premise?
+**What high quality evidence does the author provide to support each premise?**
 
 <br>
 
-### Is there any critical analysis in the argument (e.g. counter-arguments or acknowledging limitations in evidence)?
+**Is there any critical analysis in the argument (e.g. counter-arguments or acknowledging limitations in evidence)?**
 
 <br>
 
 Ok let's talk.
 
-### Are you convinced by this argument? Why or why not?
+**Are you convinced by this argument? Why or why not?**
 
 <br>
 
 We'll be doing this kind of exercise a LOT this semester so you'll get plenty of practice at it!
 
-### Any questions on the procedure for diagramming and evaluating an academic argument?
+- **Any questions on the procedure for diagramming and evaluating an academic argument?**
 :::
 
 
