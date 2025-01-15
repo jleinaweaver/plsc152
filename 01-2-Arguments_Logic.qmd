@@ -160,7 +160,9 @@ During the course of the semester we will spend time exploring each of these cri
 
 
 
-## Argument Basics {background-image="Images/background-worldmap4.png" .center}
+## Argument Basics: Logic {background-image="Images/background-worldmap4.png" .center}
+
+<br>
 
 ![](Images/01_2-Labossiere-header.png){style="display: block; margin: 0 auto"}
 
@@ -214,16 +216,78 @@ REVEAL: Induction represents how we think about the quality of the connection be
 
 <br>
 
-::: {.incremental}
-- In the summer, there are ducks on our pond. Therefore, summer will likely bring ducks to our pond.
+- Premise 1
 
-- Every cat that you've observed purrs. Therefore, most cats must purr.
+- Premise 2
 
-- All the children in this daycare center like to play with Lego. Therefore, all children probably like to play with Lego.
-:::
+- Premise 3
+
+Conclusion
 
 ::: notes
-REVEAL x 3
+
+This is the structure we'll use for diagramming the logic of an argument in this class
+
+- A series of premises listed as bullets leading to a conclusion
+
+<br>
+
+**SLIDE**: Inductive example 1
+
+:::
+
+
+
+
+## Inductive Arguments {background-image="Images/background-worldmap4.png" .center}
+
+**From the Specific to the General**
+
+<br>
+
+- Every cat that you've observed purrs.
+
+Therefore, all cats purr.
+
+::: notes
+
+The premise comes from your specific experience.
+
+- All the cats you've seen have purred
+
+- Premises don't just have to be based on your experience, but this is how most reasoning you do day-to-day happens
+
+<br>
+
+The conclusion is you drawing an inference about the wider population from those experiences
+
+- Assuming the cats you've seen represent all the cats in the world, then you reach this inductive conclusion
+
+<br>
+
+**Make sense?**
+
+<br>
+
+**SLIDE**: Example 2
+
+:::
+
+
+
+## Inductive Arguments {background-image="Images/background-worldmap4.png" .center}
+
+**From the Specific to the General**
+
+<br>
+
+- All the children in this daycare center like to play with Lego. 
+
+Therefore, all children like to play with Lego.
+
+::: notes
+
+Again, we build the argument using a specific premise and use it to support a general, or broader, conclusion.
 
 <br>
 
@@ -231,28 +295,33 @@ REVEAL x 3
 
 - Inductive arguments use specific premises to support a more general conclusion
 
-- Inductive arguments often use indicator words: probably, likely, tends to, etc
-
 - Inductive arguments often make claims about the future based on the way things have typically happened in the past
 
 <br>
 
-**Questions on the basic structure of an inductive argument?**
+**SLIDE** Strength of an inductive argument
 
 :::
 
 
-## Inductive Arguments {background-image="Images/background-worldmap4.png" .center}
 
-**Quality: Weak to Strong**
+## {background-image="Images/background-worldmap4.png" .center}
+
+::: {.r-fit-text}
+**The Quality of Inductive Arguments: Weak to Strong**
+:::
 
 <br>
 
-- In the summer, there are ducks on our pond. Therefore, summer will likely bring ducks to our pond.
+- Every cat that you've observed purrs. 
 
-- Every cat that you've observed purrs. Therefore, most cats must purr.
+Therefore, all cats must purr.
 
-- All the children in this daycare center like to play with Lego. Therefore, all children probably like to play with Lego.
+<br>
+
+- All the children in this daycare center like to play with Lego. 
+
+Therefore, all children like to play with Lego.
 
 ::: notes
 
@@ -268,13 +337,47 @@ A "strong" inductive argument "succeeds in having its conclusion be probably tru
 
 **Are all of these "strong" inductive arguments? Why or why not?**
 
-- (Yes!)
+- (**SLIDE**: Could be stronger with probabilistic language!)
+
+:::
+
+
+
+## {background-image="Images/background-worldmap4.png" .center}
+
+::: {.r-fit-text}
+**The Quality of Inductive Arguments: Weak to Strong**
+:::
 
 <br>
 
-**Are these convincing arguments? Why or why not?**
+- Every cat that you've observed purrs. 
 
-- **What could you add to each to make them more convincing?**
+Therefore, ~~all~~ **most** cats **likely** purr.
+
+<br>
+
+- All the children in this daycare center like to play with Lego. 
+
+Therefore, ~~all~~ **most** children **probably** like to play with Lego.
+
+::: notes
+
+**Does everybody understand why these are stronger inductive arguments?**
+
+<br>
+
+Our premises in the social sciences can NEVER definitively prove something
+
+1. We build from evidence which means our arguments can always get stronger, and
+
+2. Human behavior is probabilistic, not deterministic
+
+    - Our theories focus on human tendencies not hard and fast rules
+    
+<br>
+
+Put these elements together and this means that our conclusions are ALWAYS uncertain
 
 <br>
 
@@ -283,9 +386,12 @@ Keep in mind: strong inductive arguments DOES NOT MEAN convincing!
 - You're making an educated or informed guess based on the information or data that you have.
 
 - No amount of supporting observations can EVER prove an inductive argument.
+
     - It's all about strength of the argument, never certainty
     
 :::
+
+
 
 
 ## To be convincing an argument should be logical, clear, credible and critical {background-image="Images/background-worldmap4.png" .center}
@@ -388,7 +494,7 @@ Let's start by identifying the central conclusion in the argument.
 
 ![](Images/01_2-Khodorkovsky2023.png){style="display: block; margin: 0 auto"}
 
-Therefore, the US must increase its financial and military support for Ukraine immediately (and stop any consideration of negotiations or ceasefires).
+Therefore, the US must increase its financial and military support for Ukraine immediately.
 
 ::: notes
 
@@ -480,7 +586,7 @@ Alright, let's get ideas up *ON THE BOARD*
 
 - If we don't act now to defend Ukraine (arms and money) we will be forced to fight in the future
 
-Therefore, the US must increase its financial and military support for Ukraine immediately (and stop any consideration of negotiations or ceasefires).
+Therefore, the US must increase its financial and military support for Ukraine immediately.
 
 ::: notes
 **Per the rubric, are these premises clear?**
@@ -616,11 +722,11 @@ Alright, 30,000 foot view.
 
 - US politicians are hypocrites when it comes to TikTok 
 
-- The bipartisan law to force a sale (ban) of TikTok is justified, in part, by subjective criteria (stopping misinformation, propaganda, divisive narratives)
+- The law to force a sale/ban of TikTok is based on subjective criteria (stopping misinformation, propaganda, divisive narratives)
 
 - TikTok is not the only social media site with these problems, but is the only one being targeted
 
-- Google and Meta do WAY more of this and sell the information globally, so China loses zero access to our information
+- Google and Meta do WAY more of this and sell the information globally (China loses nothing)
 
 Therefore, the US government should not ban TikTok.
 
