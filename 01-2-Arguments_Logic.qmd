@@ -510,26 +510,7 @@ This represents my summary of the central argument here.
 
 <br>
 
-**Per the Labossiere reading and the argument rubric for our class, what do we need to evaluate?**
-
-<br>
-
-We have to evaluate the Logic, Clarity, Credibility and Critical Analysis in the argument.
-
-- **SLIDE**: Let's build up to this.
-:::
-
-
-
-## {background-image="Images/background-worldmap4.png"}
-
-![](Images/01_2-Khodorkovsky2023.png){style="display: block; margin: 0 auto"}
-
-Identify the **three most important premises** in this argument
-
-::: notes
-
-Take a few minutes on your own to identify the three most important premises in the article.
+Take a few minutes on your own to identify the THREE most important premises in the article.
 
 - Try to think about this from a 30,000 foot view
 - What are the big reasons he gives to support the conclusion?
@@ -680,17 +661,7 @@ Therefore, the US government should not ban TikTok.
 
 - **Any tweaks needed or requested?**
 
-:::
-
-
-
-## {background-image="Images/background-worldmap4.png"}
-
-![](Images/01_2-Riley2025.png){style="display: block; margin: 0 auto"}
-
-Identify the **three most important premises** in this argument
-
-::: notes
+<br>
 
 Alright, 30,000 foot view.
 

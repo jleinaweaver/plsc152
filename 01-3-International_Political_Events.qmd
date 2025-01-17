@@ -31,6 +31,8 @@ Prep for Class
 
 1. Review and record participation submissions
 
+2. Markers needed for 5 groups (?)
+
 <br>
 
 This week we've been laying our foundations for the rest of the semester.
@@ -42,7 +44,7 @@ This week we've been laying our foundations for the rest of the semester.
 
 
 
-## For Today {background-image="Images/background-blue_triangles.jpg" .center}
+## For Today {background-image="Images/background-worldmap4.png" .center}
 
 ![](Images/01_1-newspapers.jpg){style="display: block; margin: 0 auto"}
 
@@ -63,7 +65,7 @@ Let's quickly zip around the room so you can introduce us to your chosen cases.
 
 
 
-## APA Citations: General Advice {background-image="Images/background-blue_triangles.jpg" .center}
+## APA Citations: General Advice {background-image="Images/background-worldmap4.png" .center}
 
 **Books**
 
@@ -169,7 +171,7 @@ Here's one version we might consider that sort of holds off on the "politics" de
 
 
 
-## For Next Class {background-image="Images/background-blue_triangles.jpg" .center}
+## For Next Class {background-image="Images/background-worldmap4.png" .center}
 
 <br>
 
