@@ -438,9 +438,14 @@ We evaluate a map's usefulness based on what we need it to do for us, NOT ON ITS
 ::: notes
 All of this applies equally to scientific models.
 
+<br>
+
 "Scientific" models are like maps.
+
 - limited accuracy
+
 - represent reality
+
 - REFLECT the interest of the USER
 
 <br>
@@ -457,9 +462,9 @@ This applies to the natural sciences as well.
 ::: notes
 **Anybody recognize this model? What is it?**
 
-(Testing designs for airplane wings using an airfoil model)
+- Testing designs for airplane wings using an airfoil model
 
-Airfoil: a structure with curved surfaces designed to give the most favorable ratio of lift to drag in flight, used as the basic form of the wings, fins, and horizontal stabilizer of most aircraft.
+- An "airfoil" is a structure with curved surfaces designed to give the most favorable ratio of lift to drag in flight, used as the basic form of the wings, fins, and horizontal stabilizer of most aircraft.
 
 <br>
 
