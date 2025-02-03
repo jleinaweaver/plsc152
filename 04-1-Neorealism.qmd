@@ -51,61 +51,46 @@ Reminder: Paper is due Friday!
 
 <br>
 
-For the rest of this week we dive into our first set of International Relations theories: Neorealism and Offensive Realism.
-
-- **SLIDE**: Before we do, let's just hit the highlights of our Week 2 material that set us up for the semester.
-:::
-
-
-
-## Political Science is a "Science" {background-image="Images/background-worldmap4.png" .center}
-
-<br>
-
-:::: {.columns}
-::: {.column width="45%"}
-
-::: {.r-fit-text}
-
-- Goal is inference
-
-- Procedures are public 
-
-- Uncertain conclusions
-
-- Content is method
+**SLIDE**: It's a trade war!!
 
 :::
 
-:::
 
-::: {.column width="5%"}
 
-:::
+## {background-image="Images/background-worldmap4.png" .center .smaller}
 
-::: {.column width="50%"}
+![](Images/00-WSJ_Headline_OpEd_Dumb_Trade_War.png){style="display: block; margin: 0 auto"}
 
-![](Images/05_1-science_meme.jpg)
+- "This reminds us of the old Bernard Lewis joke that it’s risky to be America’s enemy but it can be fatal to be its friend."
 
-:::
-::::
+- "Leaving China aside, Mr. Trump’s justification for this economic assault on the neighbors makes no sense."
+
+- "None of this is supposed to happen under the U.S.-Mexico-Canada trade agreement that Mr. Trump negotiated and signed in his first term. The U.S. willingness to ignore its treaty obligations, even with friends, won’t make other countries eager to do deals. Maybe Mr. Trump will claim victory and pull back if he wins some token concessions. But if a North American trade war persists, it will qualify as one of the dumbest in history."
 
 ::: notes
 
-First, we aim to explore "politics" in a "scientific" manner.
+When a Republican president has lost the WSJ editorial board, you know they've lost their way!
 
-- Our goal is to generate knowledge about the world using empirical observations (data)
+- None of the president's justifications for targeting Canada make any sense
 
-- Every step we follow when answering questions must be recorded and transparent so others can evaluate every step in our arguments
-
-- All scientific conclusions are uncertain, our job is to identify the uncertainty and work to limit it.
+- AND, both Canada and Mexico worked hard to give him what he wanted over the last two weeks, he didn't care about that at all
 
 <br>
 
-### Questions on this material?
+So, WTF is going on here?
 
-- Remember, that Hoover and Donovan chapter from week 2 is always available if you need a refresher.
+- For the rest of this week we dive into our first set of International Relations theories: Neorealism and Offensive Realism.
+
+- Maybe they can help us!
+
+<br>
+
+**SLIDE**: First things first, our focus in IR is on explaining international political events!
 :::
+
+
+
+
 
 
 
@@ -129,11 +114,13 @@ First, we aim to explore "politics" in a "scientific" manner.
 
 ::: notes
 
-Also established in Week 2, the specific job of International Relations is to explain international political events
+As your first papers are ongoing let's check in on this
+
+- **Is everybody clear that they are working on a SINGLE, DISTINCT international political event for the paper?**
 
 <br>
 
-### Are we developing a better understanding of what this means?
+**SLIDE**: The plan for the semester
 :::
 
 
@@ -158,11 +145,11 @@ Section 4: What is the Future of Transnational Politics and IR?
 
 ::: notes
 
-Today we start section 2 of our class which is all focused on trying to answer a really big question: Why Are There Wars?
+Today we start section 2 of our class which is focused on trying to answer a really big question: Why Are There Wars?
 
 <br>
 
-### Why is the existence of war in international politics a puzzle?
+**Why is the existence of war in international politics a puzzle?**
 
 - (**SLIDE**)
 :::
@@ -188,6 +175,7 @@ World War I Example
 - Costs hundreds of billions of dollars
 
 - Leads to the collapse of four empires
+
     - The Russian Empire, the German Empire, the Austro-Hungarian Empire and the Ottoman Empire
 
 - Results in the Bolsheviks taking over Russia and fascists taking over Italy
@@ -198,7 +186,7 @@ World War I Example
 
 <br>
 
-### What lesson do the countries and leaders of the world learn from all these horrible outcomes?
+**What lesson do the countries and leaders of the world learn from all these horrible outcomes?**
 
 - (**SLIDE**: Let's do it again!)
 :::
@@ -214,6 +202,7 @@ And then 20 years later we decided to do it all again!
 <br>
 
 World War 2: 
+
 - kills **MORE** people, 
 
 - costs **MORE** money,
@@ -247,7 +236,7 @@ It is the incredible death and destruction of WW1 and WW2 that leads to the birt
 
 ::: notes
 
-We will explore this question by testing out five IR models that purport to help us answer it.
+We will explore this question by testing out five IR models that each offer different answers
 
 <br>
 
