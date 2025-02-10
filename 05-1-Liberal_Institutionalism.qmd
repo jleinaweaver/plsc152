@@ -42,11 +42,12 @@ Prep for Class
     
 <br>
 
-Currently omitting the Doyle reading which offers the counter-arguments to Kant. May want to bring this back in.
+NOTES:
 
-<br>
+- Currently omitting the Doyle reading which offers the counter-arguments to Kant. May want to bring this back in.
 
-**DISCUSS: Name me an international political event that has happened since we last met as a class.**
+- Skip the current events discussion to save time for evaluating America
+
 :::
 
 
@@ -197,7 +198,7 @@ The question is, how close does Kant get us to achieving that goal?
 
 <br>
 
-Groups, you have 15 minutes to prepare an answer to this question: 
+Groups, you have 10 minutes to prepare an answer to this question: 
 
 - Would the global adoption of this article advance the cause of global peace?
 
@@ -242,9 +243,23 @@ Ok, Group 1, you're up!
 
 - Start us off with the broad strokes before we get into your analyses.
 
-### Define the article for us. What does a "Republican" constitution require?
+- **Define the article for us. What does a "Republican" constitution require?**
 
-(**SLIDE**: Illustrate government in two dimensions)
+<br>
+
+Kant is arguing ONLY about the preferred "form of government" NOT who holds the sovereign power
+
+- Per Kant, a republican constitution is "established ... by principles of":
+
+    1. Freedom: "...the freedom of the members of a society (as men)"
+    
+    2. The rule of law: "...dependence of all upon a single common legislation (as subjects)"
+    
+    3. Equality: "by the law of their equality (as citizens)"
+    
+<br>
+
+**SLIDE**: Let's illustrate this distinction in two dimensions
 
 :::
 
@@ -266,33 +281,32 @@ d1 |>
   scale_y_continuous(limits = c(-2,2)) +
   #geom_vline(xintercept = 0) +
   geom_hline(yintercept = 0) +
-  annotate("text", x = c(-1.85, 0, 1.85), y = -.25, label = c("One\nSovereign", "A few are\nSovereign", "All are\nSovereign")) +
-  labs(title = "Typology of Governments: Dimension 1")
+  annotate("text", x = c(-1.75, 0, 1.85), y = c(-.3, -.45, -.45), label = c("Dictatorship:\nOne sovereign", "Oligarchy:\nA few are\nsovereign", "Democracy:\nAll are\nsovereign")) +
+  labs(title = "Typology of Governments: Dimension 1",
+       subtitle = "Who 'possesses the sovereign power'?")
 ```
 
 ::: notes
 
-Let's start with the first dimension
+Per Kant, all governments in the world can be arrayed along this first dimension
 
-- Per Kant, all governments in the world can be arrayed along this dimension
-
-- Dimension 1: Who holds sovereign power?
+- The question is, what persons "possesses the sovereign power?"
 
 <br>
 
-On the extreme left are systems where all supreme authority is invested in one person
+On the extreme left are systems where all supreme authority is invested in one person for the benefit of that person
 
 - e.g. dictatorships
 
 <br>
 
-The middle are the systems where all supreme authority is invested in a few or to the benefit of only a few
+The middle are the systems where all supreme authority is invested in a few persons/groups or to the benefit of only a few persons/groups
 
 - e.g. aristocracies and other forms of oligarchy
 
 <br>
 
-On the other extreme is a system in which supreme authority belongs to everyone
+On the other extreme is a system in which supreme authority belongs to everyone and the state exists to benefit everyone
 
 - e.g. a democracy!
 
@@ -322,18 +336,20 @@ d1 |>
   theme_void() +
   scale_x_continuous(limits = c(-2,2)) +
   scale_y_continuous(limits = c(-2,2)) +
-  geom_vline(xintercept = 0) +
+  #geom_vline(xintercept = 0) +
   geom_hline(yintercept = 0) +
-  annotate("text", x = c(-1.85, 1.85), y = -.25, label = c("One\nSovereign", "All are\nSovereign")) +
-  annotate("text", x = .75, y = c(-1.8, 1.8), label = c("Gov't makes and\nenforces laws", "Legislature makes laws\nExecutive enforces laws")) +
-  labs(title = "Typology of Governments: Dimension 2")
+  annotate("text", x = c(-1.7, 1.5), y = -.5, label = c("Despotic:\nGov't makes and\nenforces laws", "Republic:\nLegislature makes laws\nExecutive enforces laws")) +
+  labs(title = "Typology of Governments: Dimension 2",
+       subtitle = "How 'does the state use its power'?")
 ```
 
 ::: notes
 
-Dimension 2: What is the form of government? 
+Per Kant, all governments in the world can also be arrayed along this second dimension
 
-- aka how is power arranged in the government?
+- The question is, what is the form of government? 
+
+- Put differently, how "does the state use its power?"
 
 <br>
 
@@ -349,16 +365,17 @@ On the other end, the institutions that make the laws are separated from those t
 
 <br>
 
-**Everybody clear on this typology?**
+**Everybody clear on this Dimension?**
 
-- **Where would you put the US on this dimension? Why?**
+<br>
+
+**Where would you put the US on this dimension? Why?**
 
 <br>
 
 **SLIDE**: Important observation time!
 
 :::
-
 
 
 
@@ -387,19 +404,249 @@ d1 |>
 
 **Has anyone heard the argument that America is a republic and not a democracy?**
 
-- **How does this typology help us think about that claim?**
+- **How does Kant's typology, e.g. two dimensions of government variation, help us evaluate that claim?**
 
 <br>
 
-It's an argument built on EITHER a fundamental misunderstanding of government typologies OR an intentionally misleading argument
+Unfortunately, given this is an incredibly common argument, it is based on:
 
-1. Democracy and republic are not the opposite ends of a spectrum, they are two different ways of describing the variation in a system
+1. A fundamental misunderstanding of what these words mean, and 
 
-2. IFF we take the argument at face value, then an argument that we are a republic but not a democracy is an argument that we were designed as a dictatorship which is just stupid.
+2. A fundamental misunderstanding of the ways we describe variation in the form and function of government
+
+<br>
+
+**Big picture 1:** Democracy and republic are not the opposite ends of a single  spectrum, they are two different ways of describing the variation in a system
+
+- Governments vary BOTH in how democratic they are AND how republican
+
+- Governments can exist in any of the four quadrants
+
+- e.g. democratic republics AND despotic republics
+
+- So, an argument presenting republic and democracy as opposites is a misunderstanding or a lie
+    
+<br>
+
+**Big picture 2:** IFF we take the argument at face value, then an argument that we are a republic but not a democracy is an argument that we were designed by the founding fathers to be an oligarchy or a dictatorship
+
+- That strikes me as very hard to support as an argument given our founding documents and history
+
+- Also, I think most Americans would object strongly to that idea
 
 <br>
 
 **Everybody clear on this?**
+
+- **Was this a helpful breakdown?**
+
+<br>
+
+Let's use this typology to talk about current events just for a second
+
+- **SLIDE**: I think this visualization helps to illustrate why so many academics are incredibly worried right now
+
+:::
+
+
+
+## {background-image="Images/background-worldmap4.png" .center}
+
+```{r, fig.retina=3, fig.align='center', fig.asp=.7, fig.width=6}
+d1 |>
+  ggplot(aes(x = x1, y = y1)) +
+  geom_point(color = "white") +
+  theme_void() +
+  scale_x_continuous(limits = c(-2,2)) +
+  scale_y_continuous(limits = c(-2,2)) +
+  geom_vline(xintercept = 0) +
+  geom_hline(yintercept = 0) +
+  annotate("text", x = c(-1.85, 1.85), y = -.25, label = c("Dictatorship", "Democracy")) +
+  annotate("text", x = .35, y = c(-1.8, 1.8), label = c("Despotic", "Republic")) +
+  labs(title = "Kant's Typology of Government: The US Case") +
+  annotate("segment", x = .75, xend = 1.5, y = 1.5, yend=1.5, arrow = arrow(length = unit(.1, units = "in")), color = "blue") +
+  annotate("text", x = 1.1, y = 1.3, label = "1791 - 2001", color = "blue")
+```
+
+::: notes
+
+Much of American history can be plotted on this typology
+
+<br>
+
+We were founded as a constitutional republic but with some seriously shaky democratic foundations
+
+- e.g. the electoral college, appointment of senators, and much more
+
+<br>
+
+Over time we have struggled to become more democratic (expand who is included in the sovereign "people")
+
+- Abolished slavery in the 1860s
+    
+- Moved to using "secret" ballot voting in the 1880s and 1890s
+    
+- Giving women the right to vote in the 1920s
+    
+- Guaranteeing African-Americans the right to vote in the 1960s
+    
+<br>
+
+This progress slowed after 9/11 with the spread of rules meant to police voting more strictly and regarding the treatment of religious minorities
+
+- **SLIDE**: Today...
+
+:::
+
+
+
+## {background-image="Images/background-worldmap4.png" .center}
+
+```{r, fig.retina=3, fig.align='center', fig.asp=.7, fig.width=6}
+d1 |>
+  ggplot(aes(x = x1, y = y1)) +
+  geom_point(color = "white") +
+  theme_void() +
+  scale_x_continuous(limits = c(-2,2)) +
+  scale_y_continuous(limits = c(-2,2)) +
+  geom_vline(xintercept = 0) +
+  geom_hline(yintercept = 0) +
+  annotate("text", x = c(-1.85, 1.85), y = -.25, label = c("Dictatorship", "Democracy")) +
+  annotate("text", x = .35, y = c(-1.8, 1.8), label = c("Despotic", "Republic")) +
+  labs(title = "Kant's Typology of Government: The US Case") +
+  annotate("segment", x = .75, xend = 1.5, y = 1.5, yend=1.5, color = "blue") +
+  annotate("text", x = 1.1, y = 1.3, label = "1791 - 2001", color = "blue") +
+  annotate("segment", x = 1.5, xend = 1.5, y = 1.3, yend=-1.3, color = "red", arrow = arrow(length = unit(.1, units = "in"))) +
+  annotate("text", x = 1.5, y = -1.5, label = "2025?", color = "red")
+```
+
+::: notes
+
+What we are currently experiencing is less an attack on democracy and more an attack on our republic
+
+<br>
+
+So far the rhetoric of the government has not been to threaten the concept of popular sovereignty (e.g. the state belongs to the people)
+
+- The actions of the current government have been to claim both the law-making and enforcement powers for itself
+
+- By Kant's definition that IS despotism
+
+<br>
+
+I include the question mark here intentionally
+
+- Classifying our current status is not so cut and dried
+
+- However, the evidence is accumulating quite rapidly that this is what is happening currently
+
+- This change would make America today a despotic democracy
+
+<br>
+
+The danger is that despotic democracies don't tend to be stable equliibria
+
+- **SLIDE**: Meaning they tend to be transition states between regime types
+
+:::
+
+
+
+## {background-image="Images/background-worldmap4.png" .center}
+
+```{r, fig.retina=3, fig.align='center', fig.asp=.7, fig.width=6}
+d1 |>
+  ggplot(aes(x = x1, y = y1)) +
+  geom_point(color = "white") +
+  theme_void() +
+  scale_x_continuous(limits = c(-2,2)) +
+  scale_y_continuous(limits = c(-2,2)) +
+  geom_vline(xintercept = 0) +
+  geom_hline(yintercept = 0) +
+  annotate("text", x = c(-1.85, 1.85), y = -.25, label = c("Dictatorship", "Democracy")) +
+  annotate("text", x = .35, y = c(-1.8, 1.8), label = c("Despotic", "Republic")) +
+  labs(title = "Kant's Typology of Government: The US Case") +
+  # annotate("segment", x = .75, xend = 1.5, y = 1.5, yend=1.5, color = "blue") +
+  # annotate("text", x = 1.1, y = 1.3, label = "1791 - 2001", color = "blue") +
+  #annotate("segment", x = 1.5, xend = 1.5, y = -1.3, yend=1.3, color = "blue", arrow = arrow(length = unit(.1, units = "in"))) +
+  annotate("text", x = 1.5, y = -1.5, label = "2025?", color = "red") +
+  annotate("segment", x = 1.3, xend = -1, y = -1.5, yend=-1.5, color = "red", arrow = arrow(length = unit(.1, units = "in"))) +
+  annotate("text", x = -1.35, y = -1.5, label = "The Bad\nTimeline", color = "red") #+
+  #annotate("text", x = 1.5, y = 1.6, label = "The Good\nTimeline", color = "blue")
+```
+
+::: notes
+    
+The danger we see as political scientists is knowing that despotism almost always comes for democracy
+
+- You know the old saw, "power corrupts and absolute power corrupts absolutely"?
+
+<br>
+
+Once a government has all the power, they tend to come to see that maximizing their gains is easiest by restricting democracy
+
+- Why gamble with your control over government in something like a free and fair election?
+
+- Especially when it is SO easy to slant the odds in your favor
+
+<br>
+
+**SLIDE**: But that's not the only way this can play out!
+
+:::
+
+
+
+## {background-image="Images/background-worldmap4.png" .center}
+
+```{r, fig.retina=3, fig.align='center', fig.asp=.7, fig.width=6}
+d1 |>
+  ggplot(aes(x = x1, y = y1)) +
+  geom_point(color = "white") +
+  theme_void() +
+  scale_x_continuous(limits = c(-2,2)) +
+  scale_y_continuous(limits = c(-2,2)) +
+  geom_vline(xintercept = 0) +
+  geom_hline(yintercept = 0) +
+  annotate("text", x = c(-1.85, 1.85), y = -.25, label = c("Dictatorship", "Democracy")) +
+  annotate("text", x = .35, y = c(-1.8, 1.8), label = c("Despotic", "Republic")) +
+  labs(title = "Kant's Typology of Government: The US Case") +
+  # annotate("segment", x = .75, xend = 1.5, y = 1.5, yend=1.5, color = "blue") +
+  # annotate("text", x = 1.1, y = 1.3, label = "1791 - 2001", color = "blue") +
+  annotate("segment", x = 1.5, xend = 1.5, y = -1.3, yend=1.3, color = "blue", arrow = arrow(length = unit(.1, units = "in"))) +
+  annotate("text", x = 1.5, y = -1.5, label = "2025?", color = "red") +
+  annotate("segment", x = 1.3, xend = -1, y = -1.5, yend=-1.5, color = "red", arrow = arrow(length = unit(.1, units = "in"))) +
+  annotate("text", x = -1.35, y = -1.5, label = "The Bad\nTimeline", color = "red") +
+  annotate("text", x = 1.5, y = 1.6, label = "The Good\nTimeline", color = "blue")
+```
+
+::: notes
+
+If we're willing to put in the work we can reclaim our republic!
+
+<br>
+
+I want to be VERY clear: None of this is a critique of the policy aims of the current government
+
+- I am not arguing for or against shrinking the size of the federal bureaucracy
+
+- I am not arguing for or against closing down agencies like the Department of Education or USAID
+
+<br>
+
+I am using Kant to show you that **HOW** the government does these things matters!
+
+- The Republicans control Congress and the presidency, so there is NO reason they cannot pass a law doing all of these things
+
+- Government should enforce the laws and Congress should make them
+
+- THAT is how we protect our freedom
+
+- For those of us who care about our republic, we must demand they return to the law
+
+<br>
+
+**Any questions on all this?**
 
 <br>
 
@@ -558,66 +805,20 @@ Generally speaking, Doyle seems enthusiastic when reframing the third article to
 
 <br>
 
-### What are the strongest part's of Kant's argument?
+**What are the strongest part's of Kant's argument?**
 
-#### - Which would be the easiest one to implement? Why?
-
-<br>
-
-### What are the weakest parts?
-
-#### - Which would be the hardest to implement? Why?
+- **Which would be the easiest one to implement? Why?**
 
 <br>
 
-*Depending on Time Remaining*
-- Next slide are the six preliminary articles from Kant
-- **After that diagram the model (skip to this if time is short!)**
-:::
+**What are the weakest parts?**
 
-
-
-## Kant's Preliminary Articles {background-image="Images/background-worldmap4.png" .center .smaller}
-
-1. No secret treaty of peace shall be held valid in which there is tacitly reserved matter for a future war
-
-2. No independent states, large or small, shall come under the dominion of another state by inheritance, exchange, purchase, or donation
-
-3. Standing armies shall in time be totally abolished
-
-4. National debts shall not be contracted with a view to the external friction of states
-
-5. No state shall by force interfere with the constitution or government of another state
-
-6. No state shall, during war, permit such acts of hostility which would make mutual confidence in the subsequent peace impossible: such are the employment of assassins (percussores), poisoners (venefici), breach of capitulation, and incitement to treason (perduellio) in the opposing state
-
-::: notes
-
-So, here's the deal, in Kant's full essay he proposes six preliminary articles that must be adopted in order for his main three articles to achieve peace.
-
-### Do you think adding these preliminary articles make the plan stronger or weaker? Why?
+- **Which would be the hardest to implement? Why?**
 
 <br>
 
-### Which would be the easiest ones to implement? Why?
+**SLIDE**: Model time!
 
-<br>
-
-### Which would be the hardest to implement? Why?
-
-<br>
-
-**SLIDE**: Let's diagram the model!
-
-<br>
-
-*Notes on Each*
-1. No reservations or agreements to decide contentious issues later. Settle everything now.
-2. A state is not property, it is a society of men who no one outside their state has a right to command or dispose of.
-3. Also applies to bulding up of massive treasuries, building up these resources is a threat to others.
-4. Trade built on credit systems (blames England explicitly) leads to amassing treasure and seeking war
-5. However, you can jump in and pick sides in a civil war. For some reason that's not a problem.
-6. ?
 :::
 
 
@@ -673,6 +874,7 @@ Ok, based on everything we've done today in exploring Kant and your reading of F
 <br>
 
 ### Who are the key interests making decisions in this model of international politics and what do they want?
+
 - (**SLIDE**)
 :::
 
@@ -699,6 +901,7 @@ Ok, based on everything we've done today in exploring Kant and your reading of F
 ::: notes
 
 Interests: 
+
 - Accept the Realist structure (unitary states) but with a tweak to the interests.
 
 - This is what, I suspect, Kant hoped for with the adoption of Republican Constitutions: Systems that prioritize absolute, not relative, gains.
@@ -733,6 +936,7 @@ Interests:
 ::: notes
 
 Institutions: 
+
 - Accept the Realist baseline (anarchy), BUT
 
 - Argue that states have worked hard to infringe on the anarchy by creating international institutions (e.g. the UN, ICJ, ICC, IMF, World Bank, and on and on...)
@@ -768,6 +972,7 @@ Institutions:
 ::: notes
 
 Interactions: 
+
 - Institutional rules change the dynamics of decision-making by states in important ways (see Keohane)
     - Reducing transaction costs
     - Providing information
@@ -792,7 +997,7 @@ Interactions:
 
 
 
-## Assignment for Next Class {background-image="Images/background-blue_triangles.jpg" .center}
+## Assignment for Next Class {background-image="Images/background-worldmap4.png" .center}
 
 <br>
 
@@ -808,4 +1013,46 @@ The Economic Liberal answer
 
 ::: notes
 ...
+:::
+
+
+## Old slides
+
+## Kant's Preliminary Articles {background-image="Images/background-worldmap4.png" .center .smaller}
+
+1. No secret treaty of peace shall be held valid in which there is tacitly reserved matter for a future war
+
+2. No independent states, large or small, shall come under the dominion of another state by inheritance, exchange, purchase, or donation
+
+3. Standing armies shall in time be totally abolished
+
+4. National debts shall not be contracted with a view to the external friction of states
+
+5. No state shall by force interfere with the constitution or government of another state
+
+6. No state shall, during war, permit such acts of hostility which would make mutual confidence in the subsequent peace impossible: such are the employment of assassins (percussores), poisoners (venefici), breach of capitulation, and incitement to treason (perduellio) in the opposing state
+
+::: notes
+
+So, here's the deal, in Kant's full essay he proposes six preliminary articles that must be adopted in order for his main three articles to achieve peace.
+
+### Do you think adding these preliminary articles make the plan stronger or weaker? Why?
+
+<br>
+
+### Which would be the easiest ones to implement? Why?
+
+<br>
+
+### Which would be the hardest to implement? Why?
+
+<br>
+
+*Notes on Each*
+1. No reservations or agreements to decide contentious issues later. Settle everything now.
+2. A state is not property, it is a society of men who no one outside their state has a right to command or dispose of.
+3. Also applies to bulding up of massive treasuries, building up these resources is a threat to others.
+4. Trade built on credit systems (blames England explicitly) leads to amassing treasure and seeking war
+5. However, you can jump in and pick sides in a civil war. For some reason that's not a problem.
+6. ?
 :::
