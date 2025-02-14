@@ -31,7 +31,7 @@ Prep for Class
 
 1. Cards for bargaining game:
     - Print and cut out cards in Google Drive, OR
-    - Sets of cards from multiple decks (**TEST** no aces and 2-10)
+    - Sets of cards from multiple decks (**TEST** no aces and 2-9)
 
 2. Bring pennies or use paper to track scores
     - 10 per student
@@ -65,6 +65,7 @@ Let's run through the competing answers to this puzzle again!
 **What is the Neorealist answer?**
 
 - (A: Anarchy -> Fear)
+
 - (Neorealism: States want to survive, war comes from uncertainty and the security dilemma.)
 :::
 
@@ -80,6 +81,7 @@ knitr::include_graphics("Images/06_1-Offensive_world.webp")
 **What is the Offensive Realist answer?**
 
 - (A: Anarchy -> Great powers must pursue regional hegemony)
+
 - (Offensive realism: Powerful states want hegemony and war comes from the pursuit of it!)
 :::
 
@@ -91,7 +93,9 @@ knitr::include_graphics("Images/06_1-Offensive_world.webp")
 **What is the Democratic Peace answer?**
 
 - Kant argues we need republican constitutions, a federation of free states and hospitality to all
+
 - Clearly this model has been updated since 1800...
+
 - A: If we could all agree on a few rules everything would be fine e.g. republican democracy and respect for sovereignty (in other words, anarchy is bad but we can deal with it!)
 :::
 
@@ -104,8 +108,10 @@ knitr::include_graphics("Images/06_1-Offensive_world.webp")
 **What is the Economic Liberal answer?**
 
 - (Trade -> specialization -> peace)
-- 1) Where states are self-sufficient they will not be transformed by trade and therefore might still view war as a means to grow economically.
-- 2) Where resources are limited and rules do not exist, conflict over those resources is still likely.
+
+1) Where states are self-sufficient they will not be transformed by trade and therefore might still view war as a means to grow economically.
+
+2) Where resources are limited and rules do not exist, conflict over those resources is still likely.
 :::
 
 
@@ -327,19 +333,19 @@ d |> ggplot(aes(x = x, y = y)) +
 
 Shuffle your cards, pay the ante and THEN draw three
 
-### Does everybody now have 9 pennies and three randomly chosen cards in their hands?
+**Does everybody now have 9 pennies and three randomly chosen cards in their hands?**
 
 <br>
 
 *Make everybody on your left of each pair P1*
 
-### What's the strongest hand you can have in this game?
+**What's the strongest hand you can have in this game?**
 
-- (24)
+- 24
 
-### And the weakest?
+**And the weakest?**
 
-- (6)
+- 9
 
 <br>
 
@@ -421,7 +427,7 @@ Your goal in this game is to have the most pennies at the end of five rounds.
 
 1. Find an opponent
 
-2. Make sure you have 10 pennies and 9 numbered cards
+2. Make sure you have 10 pennies and 8 numbered cards
 
 3. Complete five rounds and write down:
 	  - Who won overall?
@@ -467,7 +473,9 @@ Ok, let's change it up this time.
 
 - Start of game: Pay the ante, draw your cards and randomly reveal one of them to your opponent.
 
-### Everybody clear on the rule change?
+<br>
+
+**Everybody clear on the rule change?**
 
 Go!
 
