@@ -44,16 +44,17 @@ Prep for Class
 ## {background-image="Images/background-worldmap4.png" .center}
 
 ```{r, message=FALSE, warning=FALSE, fig.align='center', fig.asp=0.618, fig.width=8}
-## Spring 2025 (13 pairs)
+## Spring 2025 (12 pairs)
 library(tidyverse)
 
 # Record class data 
+# Last time: 48, 45, 37, 13
 # Wars and number of pennies for the winner
 d <- tibble(
-  Version1 = c(4, 4, 1, 5, 4, 5, 4, 3, 5, 4, 3, 3, 3), # 48 total 
-  Version2 = c(3, 5, 3, 2, 2, 5, 4, 3, 3, 5, 5, 3, 2), # 45 total 
-  Version3 = c(0, 2, 3, 0, 4, 3, 5, 3, 5, 5, 1, 3, 3), # 37 total 
-  Version4 = c(0, 0, 0, 0, 1, 0, 0, 4, 1, 2, 4, 0, 1) # 13 total 
+  Version1 = c(2, 4, 5, 4, 5, 3, 3, 2, 2, 3, 1, 4), # 38 total 
+  Version2 = c(3, 3, 3, 2, 3, 2, 3, 3, 5, 3, 2, 3), # 35 total 
+  Version3 = c(3, 2, 1, 3, 1, 3, 3, 1, 3, 1, 3, 3), # 27 total 
+  Version4 = c(0, 0, 0, 3, 0, 0, 0, 0, 0, 0, 0, 0) # 3 total 
 )
 
 
@@ -80,12 +81,12 @@ d2 <- d %>%
 d2 %>%
   ggplot(aes(x = Wars)) +
   geom_bar(width = .75) + #, fill = "darkgrey"
-  ggthemes::theme_tufte() +
+  theme_bw() +
   labs(x = "Wars Fought by Pairs of Students", y = "Count of Pairs", title = "All Games Combined",
        subtitle = str_c(sum(da$Wars), " wars / ", nrow(da) * 5, " rounds = ", round(sum(da$Wars)/(nrow(da) * 5), 3) * 100, "%")) +
-  scale_y_continuous(breaks = seq(0, 20, 1)) +
+  scale_y_continuous(breaks = seq(0, 20, 5)) +
   scale_x_continuous(breaks = seq(0, 5, 1)) +
-  geom_hline(yintercept = seq(2, 20, 2), color = "white")
+  geom_hline(yintercept = seq(0, 20, 5), color = "white")
 
 # d2 %>%
 #    summarize(
@@ -133,7 +134,7 @@ Here are the overall results from our simulation.
 **Interests, Institutions and Interactions?**
 :::
 
-```{r, fig.align='center', fig.asp=0.7}
+```{r, fig.align='center', fig.asp=0.7, fig.retina=3, fig.width=6}
 # Bar (all) 500x325
 p1 <- d2 %>%
   ggplot(aes(x = Wars)) +
@@ -141,9 +142,9 @@ p1 <- d2 %>%
   theme_bw() +
   labs(x = "Wars Fought by Pairs of Students", y = "Count of Pairs", title = "All Games Combined",
        subtitle = str_c(sum(da$Wars), " wars / ", nrow(da) * 5, " rounds = ", round(sum(da$Wars)/(nrow(da) * 5), 3) * 100, "%")) +
-  scale_y_continuous(breaks = seq(0, 20, 2)) +
+  scale_y_continuous(breaks = seq(0, 20, 5)) +
   scale_x_continuous(breaks = seq(0, 5, 1)) +
-  geom_hline(yintercept = seq(2, 20, 2), color = "white")
+  geom_hline(yintercept = seq(0, 20, 5), color = "white")
 
 p1
 ```
@@ -198,7 +199,7 @@ Interactions
 **Interests, Institutions and Interactions?**
 :::
 
-```{r, fig.align='center', fig.asp=0.7}
+```{r, fig.align='center', fig.asp=0.7, fig.retina=3, fig.width=6}
 # Bar (game version 1) 500x325
 
 da_v1 <- da |> filter(Version == "Version1")
@@ -207,7 +208,7 @@ da_v1 <- da |> filter(Version == "Version1")
 x1 <- d2 %>%
   filter(Version == "Version1") %>%
   count(Wars) |>
-  select(Wars)
+  select(n)
 
 x2 <- 0:5 %in% x1[[1]]
 
@@ -224,8 +225,8 @@ d2 %>%
   labs(x = "Wars Fought by Pairs of Students", y = "Count of Pairs", title = "Version 1: High Uncertainty (All Cards Hidden)",
        subtitle = str_c(sum(da_v1$Wars), " wars / ", nrow(da_v1) * 5, " rounds = ", round(sum(da_v1$Wars)/(nrow(da_v1) * 5), 3) * 100, "%")) +
   scale_x_continuous(breaks = 0:5) +
-  scale_y_continuous(breaks = 0:max(x1$Wars) + 1) +
-  geom_hline(yintercept = seq(1, max(x1$Wars) + 1), color = "white")
+  scale_y_continuous(breaks = 0:max(x1$n) + 1) +
+  geom_hline(yintercept = seq(1, max(x1$n) + 1), color = "white")
 ```
 
 ::: notes
@@ -273,7 +274,7 @@ Here are the results for just version 1 of the game.
 **Interests, Institutions and Interactions?**
 :::
 
-```{r, fig.align='center', fig.asp=0.7}
+```{r, fig.align='center', fig.asp=0.7, fig.width=6, fig.retina=3}
 # Bar (game version 1) 500x325
 
 da_v4 <- da |> filter(Version == "Version4")
@@ -281,8 +282,7 @@ da_v4 <- da |> filter(Version == "Version4")
 # Identify missing values 0-5 wars and add
 x1 <- d2 %>%
   filter(Version == "Version4") %>%
-  count(Wars) |>
-  select(Wars)
+  count(Wars)
 
 x2 <- 0:5 %in% x1[[1]]
 
@@ -297,10 +297,10 @@ d2 %>%
   geom_col(width = .75) +
   theme_bw() +
   labs(x = "Wars Fought by Pairs of Students", y = "Count of Pairs", title = "Version 4: No Uncertainty (All Cards Revealed)",
-       subtitle = str_c(sum(da_v1$Wars), " wars / ", nrow(da_v1) * 5, " rounds = ", round(sum(da_v1$Wars)/(nrow(da_v1) * 5), 3) * 100, "%")) +
+       subtitle = str_c(sum(da_v4$Wars), " wars / ", nrow(da_v4) * 5, " rounds = ", round(sum(da_v4$Wars)/(nrow(da_v4) * 5), 3) * 100, "%")) +
   scale_x_continuous(breaks = 0:5) +
-  scale_y_continuous(breaks = 0:max(x1$Wars) + 1) +
-  geom_hline(yintercept = seq(1, max(x1$Wars) + 1), color = "white")
+  scale_y_continuous(breaks = 0:max(x1$n) + 1) +
+  geom_hline(yintercept = seq(1, max(x1$n) + 1), color = "white")
 
 
 ```
@@ -352,7 +352,7 @@ Here are the results for just version 4 of the game.
 
 <br>
 
-```{r, fig.retina=3, fig.asp=.65, fig.align='center'}
+```{r, fig.retina=3, fig.asp=.65, fig.align='center', fig.width=8}
 # Summary stats
 # d2 |>
 #   mutate(
@@ -386,7 +386,7 @@ tab1 <- d2 |>
     order1 = 1:4
   )
 
-labs1 <- c("High Uncertainty (All Hidden)", "Medium Uncertainty (Most Hidden)", "Low Uncertainty (One Hidden)", "No Uncertainty")
+labs1 <- c("High Uncertainty\n(All Hidden)", "Medium Uncertainty\n(Most Hidden)", "Low Uncertainty\n(One Hidden)", "No Uncertainty")
 
 labs2 <- tab1$proportion
 
@@ -1091,6 +1091,32 @@ e.g. anarchy, preventive war and positive expected utility
 **SLIDE**: For Friday
 :::
 
+
+
+## Assignment for Next Class {background-image="Images/background-worldmap4.png" .center}
+
+<br>
+
+1. Hultman, Kathman & Shannon (2016) on United Nations Peacekeeping (p231-238)
+
+2. **Before class** submit to our Canvas discussion board: 
+    - What is the research question in this paper?
+    
+    - Diagram the model in this paper (e.g. interests, institutions and interactions)
+
+::: notes
+Next class we dig into a research paper that explores the effect of the United Nations on war.
+
+- Your job is to read the set-up of the paper (231-238) so we can explore the model they propose to test.
+
+<br>
+
+### Questions on the assignment?
+:::
+
+
+
+## SLIDES for non-snow interrupted semesters
 
 
 ## Assignment for Next Class {background-image="Images/background-blue_triangles.jpg" .center}

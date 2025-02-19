@@ -506,7 +506,7 @@ Groups, help me clarify the debate at the heart of these arguments
 
 
 
-## Assignment for Next Class {background-image="Images/background-blue_triangles.jpg" .center}
+## Assignment for Next Class {background-image="Images/background-worldmap4.png" .center}
 
 <br>
 
@@ -515,7 +515,7 @@ Groups, help me clarify the debate at the heart of these arguments
 2. **Before class** submit to our Canvas discussion board: 
     - What is the research question in this paper?
     
-    - What is their proposed answer to the question?
+    - Diagram the model in this paper (e.g. interests, institutions and interactions)
 
 ::: notes
 Next class we dig into a research paper that explores the effect of the United Nations on war.
