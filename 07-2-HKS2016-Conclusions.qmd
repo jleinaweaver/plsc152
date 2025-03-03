@@ -266,23 +266,41 @@ Now let's talk about the data
 
 The descriptive statistics table in most quantitative research papers are SUPER useful for this discussion.
 
-- **First, talk to the people around you, make sure you're all clear on what each variable measures**
+- *Step through the descriptive stats with them: e.g. what is a mean?*
+
+- *Step through what we can learn from focusing on row 1, the DV, peace duration only*
+
+    - (On average, peace lasts almost 7 years after war)
+
+    - BUT shortest was only 1 month!
+
+    - Longest was 22 years!
+
+    - So, the purpose of the research is to see if we can explain why some states prolong peace and others do not.
+
+    - AND could the UN be the difference?
 
 <br>
 
-Let's make sure you're clear
+PAIRS, focus just on the three key predictor variables
 
-- **Which variable represents the outcome variable for this study? e.g. the thing they are trying to explain**
+- Analyze them using these descriptive stats and report back
 
-- **Which variables represent the primary predictors? e.g. the things causing this outcome?**
+- **What do we learn from these?**
+
+    - Troop missions WAY bigger than the other two
+    
+    - Troops > Police > Observers
+    
+    - avg troops deployed 1,400 vs only 44 police! Of course the effect of police is smaller/unable to be measured?!?
 
 <br>
 
-Good!
+PAIRS, focus just on the control variables
 
-- The rest of these are what we call "control" variables
+- Analyze them using these descriptive stats and report back
 
-- e.g. Other things we think are important for explaining the outbreak of war
+- **What do we learn from these?**
 
 <br>
 
@@ -290,62 +308,6 @@ Good!
 
 :::
 
-
-
-## {background-image="Images/07_2-UN_Flag2.png" .center}
-
-**Are we convinced by the conclusions?**
-
-1. UN peacekeeping troops prolong peace
-
-2. UN observers / police do not
-
-![](Images/07_3-Table1.png){style="display: block; margin: 0 auto"}
-
-::: notes
-
-Now let's use the table to learn about the world of the study
-
-- **Explain to me what each column represents**
-    
-    - (Mean: The average)
-    - (SD: The spread of data around the average)
-    - (Min: The smallest value)
-    - (Max: The largest value)
-
-<br>
-
-Now, talk to the people around you and focus just on the primary four variables (peace, UN troops, observers and police)
-
-- Get ready to report back what we learn from these descriptive statistics about each measure in the dataset
-
-<br>
-
-**Ok, what did we learn?**
-
-<br>
-
-**What do we learn about post-conflict peace from these descriptive stats?**
-
-- (On average, peace lasts almost 7 years after war)
-- BUT shortest was only 1 month!
-- Longest was 22 years!
-- So, the purpose of the research is to see if we can explain why some states prolong peace and others do not.
-- AND could the UN be the difference?
-
-<br>
-
-**What do we learn about how the UN sends troops, observers and police into post conflict zones?**
-
-- Troop missions WAY bigger than the other two
-- Troops > Police > Observers
-- avg troops deployed 1,400 vs only 44 police! Of course the effect of police is smaller/unable to be measured?!?
-
-<br>
-
-**In terms of us being convinced by the conclusions, does this data represent a good test of this model? Why or why not?**
-
-:::
 
 
 ## {background-image="Images/07_2-UN_Flag2.png" .center}
