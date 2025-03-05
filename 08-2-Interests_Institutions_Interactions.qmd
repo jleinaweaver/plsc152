@@ -41,7 +41,7 @@ Prep for Class
 
 *Opening Discussion: From this point forward students need to practice identifying international political events everyday in class. These are more than just 'things happening far away'!*
 
-### DISCUSS: Name me an international political event that has happened since we last met as a class.
+**DISCUSS: Name me an international political event that has happened since we last met as a class.**
 :::
 
 
@@ -87,17 +87,19 @@ Take a moment to reflect on this question.
 
 <br>
 
-### How well did you work inside your group? 
-### - How did you see your role?
+**How well did you work inside your group?**
+
+- **How did you see your role?**
 
 <br>
 
-### How did you personally weigh the risks and the rewards at stake in each round?
-### - Which was more important to you? Why?
+**How did you personally weigh the risks and the rewards at stake in each round?**
+
+- **Which was more important to you? Why?**
 
 <br>
 
-### Was this a useful simulation for learning about yourself as a political decision-maker? Why or why not?
+**Was this a useful simulation for learning about yourself as a political decision-maker? Why or why not?**
 
 <br>
 
@@ -134,17 +136,19 @@ Take a moment to reflect on this question.
 
 <br>
 
-### Did you fall into certain kinds of roles?
-### - Were you happy about those roles? Why or why not?
+**Did you fall into certain kinds of roles?**
+
+- **Were you happy about those roles? Why or why not?**
 
 <br>
 
-### Did everyone in your team weight the risks and rewards the same way? Why or why not?
+**Did everyone in your team weight the risks and rewards the same way? Why or why not?**
 
 <br>
 
-### Do you have a better sense of who the people on your team are after the game?
-### - e.g. a sense of their character?
+**Do you have a better sense of who the people on your team are after the game?**
+
+- **e.g. a sense of their character?**
 :::
 
 
@@ -181,15 +185,15 @@ Last big picture question!
 
 <br>
 
-### - Do you have a good sense of who they are and what they value?
+- **Do you have a good sense of who they are and what they value?**
 
 <br>
 
-### - How about their decision-making processes?
+- **How about their decision-making processes?**
 
 <br>
 
-### Bottom line, do you believe this simulation is a good test of a person's character? Why or why not?
+**Bottom line, do you believe this simulation is a good test of a person's character? Why or why not?**
 :::
 
 
@@ -197,18 +201,17 @@ Last big picture question!
 
 ## A Prisoner's Dilemma {background-image="Images/background-cloth_v3.png" .center}
 
-<br>
-
 ```{r}
 tribble(
   ~Round, ~Group_A, ~Group_B,
   1, "Defect", "Defect",
-  2, "Cooperate", "Defect",
+  2, "Defect", "Cooperate",
   3, "Defect", "Defect",
-  4, "Cooperate", "Defect",
-  5, "Cooperate", "Defect"
-  #6, "Defect", "Defect",
-  #7, "Defect", "Defect"
+  4, "Defect", "Defect",
+  5, "Defect", "Defect",
+  6, "Defect", "Defect",
+  7, "Cooperate", "Defect",
+  8, "Defect", "Defect"
 ) |>
   kbl(align = "c", col.names = c("Round", "Group A", "Group B")) |>
   kable_styling(bootstrap_options = c("striped", "hover", "condensed", "responsive"), font_size = 40) |>
@@ -326,9 +329,9 @@ Notes:
 
 <br>
 
-### Questions on the diagram?
+**Questions on the diagram?**
 
-### - Want to make any modifications?
+- **Want to make any modifications?**
 
 <br>
 
@@ -337,7 +340,7 @@ As you know, Section 3 of our class is trying to answer a new question:
 
 <br>
 
-### Based on this model, why do PD scenarios make it so hard for countries to cooperate with each other?
+**Based on this model, why do PD scenarios make it so hard for countries to cooperate with each other?**
 
 - Some international problems are structured in such a way that they make cooperation very hard to achieve
 
@@ -347,9 +350,9 @@ As you know, Section 3 of our class is trying to answer a new question:
 
 Alright let's take this out of the hypothetical world and into the real world.
 
-### What is an international problem that is likely to represent a real world prisoner's dilemma?
+**What is an international problem that is likely to represent a real world prisoner's dilemma?**
 
-- Brainstorm with the people around you and then report back!
+- **Brainstorm with the people around you and then report back!**
 
 <br>
 
@@ -401,7 +404,7 @@ A kind of prisoner's dilemma!
 
 <br>
 
-### Make sense?
+**Make sense?**
 :::
 
 
@@ -467,11 +470,13 @@ Huge questions have to be broken down into smaller pieces.
 
 <br>
 
-### In other words, are you starting to see how models can be used to manipulate complex social systems?
+**In other words, are you starting to see how models can be used to manipulate complex social systems?**
 
 - Scary powerful once you see the world this way...
 
-### Any questions on this?
+<br>
+
+**Any questions on this?**
 
 <br>
 
@@ -494,7 +499,7 @@ Make an argument that one of the IR theories we've studied in class so far this 
 
 Here is the prompt for the second paper.
 
-### Any questions on it?
+- **Any questions on it?**
 
 <br>
 
