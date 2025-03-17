@@ -51,6 +51,7 @@ Today I'd like us to explore PD strategies and what those strategies tell us abo
 <br>
 
 ### What are the key assumptions in this model of IR?
+
 - (**SLIDE**)
 :::
 
@@ -137,7 +138,7 @@ I've updated the outcomes table since the last time we played.
 
 <br>
 
-### Everybody still clear on how to read this game board?
+**Everybody still clear on how to read this game board?**
 
 <br>
 
@@ -154,11 +155,12 @@ In short, I've maintained the same Nash Equilibrium that gives us a dominant str
 - For this version of the game there is no talking / negotiating allowed between or during rounds
 
 - Your goal is to maximize your points
+
     - Our work today is focused on tactics, NOT differences in actor preferences
 
 <br>
 
-SLIDE: Here's how I suggest you do it...
+**SLIDE**: Here's how to track the game
 :::
 
 
@@ -207,7 +209,9 @@ tibble(
 
 ::: notes
 
-- Take a out a piece of paper and make a list from 1-10 (with space for your decision and points earned each round)
+EACH player needs their own sheet of paper for tracking the game
+
+- On your sheet make a list from 1-10 (with space for your decision and points earned each round)
 
 - Each round each player makes their decision, defect or cooperate, and writes it on the paper next to the number for the round
 
@@ -350,8 +354,32 @@ Groups, your job is to test YOUR strategy against all of the others
 
 <br>
 
-*When everyone is done, SLIDE for the reporting back*
+*Results table at bottom so you can check their work as they go*
 
+<br>
+
+*When everyone is done have each group analyze their results BEFORE reporting back*
+
+- **SLIDE**: Before you report back, let me ask for some specific analyses!
+
+<br>
+
+*NOTES*
+
+```{r, echo=FALSE}
+tab1 <- tibble(
+  You = c("Cooperate", "Defect", "Grim Trigger", "Tit for Tat", "Mixed"),
+  All_Coop = c(20, 40, 20, 20, 30),
+  All_Def = c(-60, -10, -15, -15, -35),
+  GT = c(20, -5, 20, 20, -22),
+  TT = c(20, -5, 20, 20, -2),
+  Mixed = c(-20, 15, 8, -12, 5)
+)
+
+tab1 |>
+  kbl(col.names = c("Strategy", "Cooperate", "Defect", "Grim Trigger", "Tit for Tat", "Mixed"), align = c("l", rep("c", 6))) |>
+  kable_styling(bootstrap_options = c("striped", "hover"), font_size = 35)
+```
 :::
 
 
@@ -360,25 +388,71 @@ Groups, your job is to test YOUR strategy against all of the others
 
 <br>
 
-GROUPS get ready to report back
+::: {.r-fit-text}
 
-1. Best case scenario?
+For your strategy:
 
-2. Worst case scenario?
+1. Who do you want to play against (positive outcomes)?
 
-3. Average result across all opponents?
+2. Who do you want to avoid (negative outcomes)?
 
-4. How many positive (out of five)?
+3. How many types give you a positive return?
+
+4. Best and worst case results?
+
+:::
 
 ::: notes
 
-*Collect results on the board*
+Groups, get ready to report back your findings on these four questions.
 
-- *DISCUSS ALL*
+- Go!
 
 <br>
 
-SLIDE: Your version of the table (if needed)
+*ON BOARD: Track how often each strategy is mentioned as worth challenging or avoiding in the analyses*
+
+- *Rows: Cooperate, Defect, Grim, Tit for Tat, Mixed*
+
+- *Cols: Challenge them, Avoid them*
+
+<br>
+
+*PRESENT and DISCUSS each*
+
+<br>
+
+**SLIDE**: Overall table and discussion
+
+<br>
+
+*NOTES*
+
+**Results Table**
+
+```{r, echo=FALSE}
+tab1 <- tibble(
+  You = c("Cooperate", "Defect", "Grim Trigger", "Tit for Tat", "Mixed"),
+  All_Coop = c(20, 40, 20, 20, 30),
+  All_Def = c(-60, -10, -15, -15, -35),
+  GT = c(20, -5, 20, 20, -22),
+  TT = c(20, -5, 20, 20, -2),
+  Mixed = c(-20, 15, 8, -12, 5)
+)
+
+tab1 |>
+  kbl(col.names = c("Strategy", "Cooperate", "Defect", "Grim Trigger", "Tit for Tat", "Mixed"), align = c("l", rep("c", 6))) |>
+  kable_styling(bootstrap_options = c("striped", "hover"), font_size = 35)
+```
+
+**Play vs Avoid Table**
+
+- Strategy, Play vs Avoid
+- Cooperate, 5 vs 0
+- Defect, 0 vs 5
+- Grim, 3 vs 2
+- TT, 3 vs 2
+- Mixed, 3 vs 2
 
 :::
 
@@ -388,28 +462,21 @@ SLIDE: Your version of the table (if needed)
 ## {background-image="Images/background-worldmap4.png" .center}
 
 ```{r}
-tab1 <- tibble(
-  You = c("Cooperate", "Defect", "Grim Trigger", "Tit for Tat", "Mixed"),
-  All_Coop = c(20, 40, 20, 20, 30),
-  All_Def = c(-60, -10, -15, -15, -35),
-  GT = c(20, -5, 20, 20, -22),
-  TT = c(20, -5, 20, 20, -2),
-  Mixed = c(-20, 15, 8, -12, 5)
-) |>
+tab2 <- tab1 |>
   mutate(
-    Average = c(-4, 7, 10.6, 6.6, -4.8),
+    #Average = c(-4, 7, 10.6, 6.6, -4.8),
     Minimum = c(-60, -10, -15, -15, -35),
     Maximum = c(20, 40, 20, 20, 30),
     Positive = c(3, 2, 4, 3, 2)
   )
 
-tab1 |>
-  kbl(col.names = c("Strategy", "Cooperate", "Defect", "Grim Trigger", "Tit for Tat", "Mixed", "Mean", "Minimum", "Maximum", "Positive"), align = c("l", rep("c", 9))) |>
-  kable_styling(bootstrap_options = c("striped", "hover"), font_size = 20) |>
-  add_header_above(c("", "Opponent's Strategy"= 5, "Results" = 4)) |>
+tab2 |>
+  kbl(col.names = c("Strategy", "Cooperate", "Defect", "Grim Trigger", "Tit for Tat", "Mixed", "Minimum", "Maximum", "Positive"), align = c("l", rep("c", 8))) |>
+  kable_styling(bootstrap_options = c("striped", "hover"), font_size = 23) |>
+  add_header_above(c("", "Opponent's Strategy"= 5, "Results" = 3)) |>
   column_spec(1, background = "lightgrey") |>
   column_spec(2:6, background = "lightyellow") |>
-  column_spec(7:10, background = "orange")
+  column_spec(7:9, background = "orange")
 
 ```
 
@@ -447,17 +514,36 @@ Smale, Alison and Shear, Michael D. (2014, Mar 24). [Russia Is Ousted From Group
 
 <br>
 
-### What elements of a prisoner's dilemma does this case study illustrate? Why?
-
-### - What strategies are being attempted here by each set of actors?
+Let's discuss this international political event as an example of a real-world prisoner's dilemma
 
 <br>
 
-### Did this act work to change Russian behavior? Why or why not?
+**In what ways does this event match the assumptions of the PD theory?**
+
+- Rational actors pursuing gains?
+
+- No restrictions on choosing defect or cooperate?
+
+- High uncertainty (e.g. simultaneous decisions, unknown time horizons)?
+
+- Benefits depend on choices of all actors?
+
+- Biggest rewards for short-term defection OR long-term cooperation?
+
+- A risk averse actor’s dominant strategy is to defect?
 
 <br>
 
-### Was this the right strategy given the features of this PD structure? Why or why not?
+**What strategies are being attempted here by each set of actors?**
+
+<br>
+
+**Did this act work to change Russian behavior? Why or why not?**
+
+<br>
+
+**Was this the right strategy given the features of this PD structure? Why or why not?**
+
 :::
 
 
@@ -477,7 +563,8 @@ Shkrum, A, Natalukha, D. and Vasylenko, L. (2023, Feb 23). [Russia Doesn’t Bel
 
 <br>
 
-### Should the world escalate its strategy here by kicking Russia out of the UN? Why or why not?
+**At this point, should the world escalate its punishment strategy by kicking Russia out of the UN? Why or why not?**
+
 :::
 
 
