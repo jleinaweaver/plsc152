@@ -29,27 +29,33 @@ Justin Leinaweaver (Spring 2025)
 ::: notes
 Prep for Class
 
-1. Reserve the extra room(s) or use Meador Center
-
-2. Print your PD v2 notes
+1. Get ready for PD game
     
-3. Record participation points from Canvas
+    - Reserve the extra room(s) or use Meador Center
+    - Print your PD v2 notes
+    
+3. AFTER CLASS: Update slides for next class (10-2)
 
-4. Update 8-2 slides with current EC standings
+    - Current EC points from attendance sheet
+    
+    - Results of this game
 
-5. Game notes
+4. Game notes
+    
     - Group leaders MUST take a census (make a list of all members of their group at beginning of exercise)
+    
     - You will need to record who is leader every round
+    
     - Don't tell them the leader reward! Just that it is related to term in office
     
-6. IMPORTANT: New groups need to mix up the PD v1 groups so the leaders have a harder task distributing points at end. More fun if inequality exists within each group
+    - IMPORTANT: New groups need to mix up the PD v1 groups so the leaders have a harder task distributing points at end. More fun if inequality exists within each group
 :::
 
 
 
-## {background-image="Images/10_1-Switzerland_Biden_Putin.jpg"}
+## Do Audience Costs Matter? {background-image="Images/background-worldmap4.png" .center}
 
-<p style="color: white;">**Do Audience Costs Matter?**</p>
+![](Images/10_1-Trump_Putin.jpg){style="display: block; margin: 0 auto"}
 
 
 ::: notes
@@ -67,7 +73,7 @@ For today's class I had you read and reflect on a big ongoing debate in Internat
 
 <br>
 
-### Do both Biden and Putin have to worry about audience costs in the same way? Why or why not?
+### Do both Trump and Putin have to worry about audience costs in the same way? Why or why not?
 
 <br>
 
@@ -171,10 +177,11 @@ Let's talk about the leaders.
 
 ## Prisoner's Dilemma (v2) {background-image="Images/background-worldmap4.png" .center}
 
-<br>
-
 :::: {.columns}
 ::: {.column width='50%'}
+
+<br>
+
 **Your Fearless Leader**
 
 + Elected (50% + 1)
@@ -187,9 +194,9 @@ Let's talk about the leaders.
 :::
 
 ::: {.column width='50%'}
-```{r, fig.align='right', fig.retina=3}
-knitr::include_graphics('Images/09_1-skipper.jpg')
-```
+
+![](Images/09_1-skipper.jpg)
+
 :::
 ::::
 
@@ -277,6 +284,7 @@ On Wednesday I want you to announce how you will be distributing the spoils.
 
 <br>
 
-*Different number of days, consider assigning the Landler 2021 again as an example*
+*Different number of days, consider assigning the Landler 2021 again as an example*images
+
 :::
 

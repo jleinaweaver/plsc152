@@ -83,19 +83,18 @@ Your leadership rewards can't be calculated yet, you still have work to do!
 ```{r}
 tribble(
   ~Name, ~EC,
-  "Autumn", 0,
-  #"Benny", 0,
-  "Daniel", 9,
-  "Andrea", 0,
-  "Elsa", 0,
-  "Ben", 0,
-  #"Curtis", 0,
-  "Cohen", 9, 
-  "Ruby", 9,
-  "Avian", 9,
-  "Kennedy", 9,
-  "Lachlan", 9,
-  "Eliza", 9
+  "Luke", 2,
+  "Catherine", 2,
+  "Antonio", 2,
+  "Sara", 2,
+  "Alena", 2,
+  "Devin", 2,
+  "Jillian", 2,
+  "Michael", 2, 
+  "Gavin", 2,
+  "Madeline", 2,
+  "Sadie", 2,
+  "Caylee", 0
 ) |>
   kbl(align = c('l', 'c')) |>
   kable_styling(bootstrap_options = c("striped", "hover", "condensed"), font_size = 28) |>
@@ -108,19 +107,18 @@ tribble(
 ```{r}
 tribble(
   ~Name, ~EC,
-  "Ava H.", 0,
-  "Nolan", 9,
-  "Sergio", 0,
-  "Grant", 0,
-  "Ava D.", 0,
-  "Abby R.", 0,
-  "Abby S.", 0,
-  "Audrey", 9,
-  #"Hailey", 0,
-  #"Joe", 9,
-  "Alexandra", 9,
-  "Lucas", 9,
-  "Lux", 9
+  "Brock", 2,
+  "Levi", 0,
+  "Graham", 2,
+  "Joe", 2,
+  "Cole", 2,
+  "Natalynn", 2,
+  "Nika", 2,
+  "Meyer", 2, 
+  "Savannah", 2,
+  "Austin", 2,
+  "Gabriel", 2,
+  "Blake", 2
 ) |>
   kbl(align = c('l', 'c')) |>
   kable_styling(bootstrap_options = c("striped", "hover", "condensed"), font_size = 28) |>
