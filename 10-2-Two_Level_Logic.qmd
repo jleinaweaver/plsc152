@@ -61,17 +61,17 @@ On Monday we re-played our prisoners' dilemma from a few weeks ago but with a fe
 
 Before we dig into what happened, the leaders have a job to do.
 
-### Leaders are you ready to announce your decisions?
+- *Don't let them do it yet!*
 
-<br>
+- **Leaders (Luke and Meyer) are you ready to announce your decisions?**
 
-*They will inevitably ask about their reward for being leader*
+- *They will inevitably ask about their reward for being leader*
 
 Your leadership rewards can't be calculated yet, you still have work to do!
 
 <br>
 
-**SLIDE**: Oh and just one more thing...
+**SLIDE**: Let's distribute those rewards!
 :::
 
 
@@ -84,22 +84,23 @@ Your leadership rewards can't be calculated yet, you still have work to do!
 tribble(
   ~Name, ~EC,
   "Luke", 2,
-  "Catherine", 2,
+  "Gavin", 2,
+  "Caylee", 0,
+  "Jillian", 2,
   "Antonio", 2,
   "Sara", 2,
+  "Catherine", 2,
   "Alena", 2,
   "Devin", 2,
-  "Jillian", 2,
   "Michael", 2, 
-  "Gavin", 2,
   "Madeline", 2,
-  "Sadie", 2,
-  "Caylee", 0
+  "Sadie", 2
 ) |>
   kbl(align = c('l', 'c')) |>
   kable_styling(bootstrap_options = c("striped", "hover", "condensed"), font_size = 28) |>
   column_spec(1, width = '8em') |>
-  row_spec(1, background = "gold")
+  row_spec(1, background = "gold") |>
+  row_spec(2:6, background = "yellow3")
 ```
 :::
 
@@ -107,6 +108,7 @@ tribble(
 ```{r}
 tribble(
   ~Name, ~EC,
+  "Meyer", 2, 
   "Brock", 2,
   "Levi", 0,
   "Graham", 2,
@@ -114,7 +116,6 @@ tribble(
   "Cole", 2,
   "Natalynn", 2,
   "Nika", 2,
-  "Meyer", 2, 
   "Savannah", 2,
   "Austin", 2,
   "Gabriel", 2,
@@ -123,8 +124,7 @@ tribble(
   kbl(align = c('l', 'c')) |>
   kable_styling(bootstrap_options = c("striped", "hover", "condensed"), font_size = 28) |>
   column_spec(1, width = '8em') |>
-  row_spec(1, background = "gold") |>
-  row_spec(2, background = "gold3")
+  row_spec(1, background = "gold")
 ```
 :::
 ::::
@@ -137,19 +137,21 @@ As is true in the real world, inequality exists!
 
 - I thought you might want to consider the EC points already earned by the people in your state before you announce your decision.
 
+- Also, the colored rows represent the various past leaders in your country
+
 <br>
 
-### Leaders are you ready?
+**Leaders are you ready?**
 
 - Please announce your decision.
 
 <br>
 
-### Groups, any objections to the leaders' proposed actions?
+**Groups, any objections to the leaders' proposed actions?**
 
 <br>
 
-### Anybody want to call for an election?
+**Anybody want to call for an election?**
 
 - Let this play out...
 
@@ -162,8 +164,6 @@ As is true in the real world, inequality exists!
 
 ## What Happened? {background-image="Images/background-worldmap4.png" .center}
 
-<br>
-
 ```{r}
 tribble(
   ~Round, ~Group_A, ~Group_B,
@@ -174,14 +174,15 @@ tribble(
   "5", "Cooperate", "Cooperate",
   "6", "Cooperate", "Cooperate",
   "7", "Defect", "Defect",
-  "8", "Cooperate", "Cooperate",
-  "", "+20", "+20"
+  "8", "Defect", "Defect",
+  "9", "Defect", "Defect",
+  "", "+15", "+15"
 ) |>
   kbl(align = "c", col.names = c("Round", "Group A", "Group B")) |>
   kable_styling(bootstrap_options = c("striped", "hover", "condensed", "responsive"), font_size = 30) |>
   column_spec(2:3, width = '7em') |>
-  column_spec(2, background = c(rep("white", 6), "pink3", "white", "gold")) |>
-  column_spec(3, background = c(rep("white", 6), "pink3", "white", "gold"))
+  column_spec(2, background = c(rep("white", 6), rep("pink3", 3), "gold")) |>
+  column_spec(3, background = c(rep("white", 6), rep("pink3", 3), "gold"))
 ```
 
 ::: notes
@@ -247,8 +248,6 @@ In trying to explain the outcome of our game we also have to consider the histor
 
 **How did the history of our class simulations impact your approach to the game?**
 
-- **Did it matter that one group CRUSHED and BETRAYED the other group last time? Why or why not?**
-
 <br>
 
 **SLIDE**: Let's talk power!
@@ -298,6 +297,10 @@ Let's also consider how the individuals, e.g. non-leader citizens, influenced th
 
 Ok, leaders, your turn!
 
+- Team A: Luke (2 rds), Gavin (2 rds), Caylee (2 rds), Antonio (1 rd), Sara (1 rd), Jillian (1 rd)
+
+- Team B: Meyer
+
 <br>
 
 **Leaders, how powerful did you feel in this game? Why?**
@@ -322,9 +325,13 @@ Ok, leaders, your turn!
 
 *Use these answers to announce leader rewards!*
 
-- *If they hated it, make the reward tiny (1 point)*
+- *If they hated it, make the reward tiny (0-1 points)*
+
+- *If they passed it around the room to spread the wealth then make the reward tiny (1 points)*
 
 - *If they loved it, make it kind of obscene... (5 points?)*
+
+
 
 <br>
 
@@ -507,7 +514,7 @@ and coalitions (442-448)
 :::
 
 
-## Putnam's (1988) Two-Level Game {background-image="Images/background-blue_cubes_lighter3.png" .center}
+## Putnam's (1988) Two-Level Game {background-image="Images/background-worldmap4.png" .center}
 
 <br>
 
@@ -531,7 +538,7 @@ and coalitions (442-448)
 
 
 
-## Putnam's (1988) Two-Level Game {background-image="Images/background-blue_cubes_lighter3.png" .center}
+## Putnam's (1988) Two-Level Game {background-image="Images/background-worldmap4.png" .center}
 
 **Interests:** 
 
@@ -557,7 +564,7 @@ and coalitions (442-448)
 
 
 
-## Putnam's (1988) Two-Level Game {background-image="Images/background-blue_cubes_lighter3.png" .smaller}
+## Putnam's (1988) Two-Level Game {background-image="Images/background-worldmap4.png" .smaller}
 
 **Interests:** 
 
@@ -581,7 +588,7 @@ and coalitions (442-448)
 :::
 
 
-## Putnam's (1988) Two-Level Game {background-image="Images/background-blue_cubes_lighter3.png" .smaller}
+## Putnam's (1988) Two-Level Game {background-image="Images/background-worldmap4.png" .smaller}
 
 **Interests:** 
 
