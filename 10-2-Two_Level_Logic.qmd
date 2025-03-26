@@ -32,9 +32,12 @@ Prep for Class
 1. **FORCE the groups to sit together! Leaders sit up front!**
 
 2. RUN SLIDES ON LAPTOP and update slides with:
+
     - Current EC points earned from PD v1 to complicate leader's task AND highlight the leader
+
     - Actual decisions by round for discussion
-    - Remove anybody who doesn't come to class today
+
+    - **Remove anybody who doesn't come to class today**
 
 3. YOU need to decide the leadership rewards AFTER hearing how much each valued being the leader
 
@@ -87,13 +90,13 @@ tribble(
   "Gavin", 2,
   "Caylee", 0,
   "Jillian", 2,
-  "Antonio", 2,
+  #"Antonio", 2,
   "Sara", 2,
   "Catherine", 2,
   "Alena", 2,
   "Devin", 2,
   "Michael", 2, 
-  "Madeline", 2,
+  #"Madeline", 2,
   "Sadie", 2
 ) |>
   kbl(align = c('l', 'c')) |>
@@ -109,17 +112,17 @@ tribble(
 tribble(
   ~Name, ~EC,
   "Meyer", 2, 
-  "Brock", 2,
+  #"Brock", 2,
   "Levi", 0,
   "Graham", 2,
   "Joe", 2,
   "Cole", 2,
   "Natalynn", 2,
   "Nika", 2,
-  "Savannah", 2,
+  #"Savannah", 2,
   "Austin", 2,
-  "Gabriel", 2,
-  "Blake", 2
+  "Gabriel", 2
+  #"Blake", 2
 ) |>
   kbl(align = c('l', 'c')) |>
   kable_styling(bootstrap_options = c("striped", "hover", "condensed"), font_size = 28) |>
@@ -137,7 +140,15 @@ As is true in the real world, inequality exists!
 
 - I thought you might want to consider the EC points already earned by the people in your state before you announce your decision.
 
-- Also, the colored rows represent the various past leaders in your country
+<br>
+
+Two other notes:
+
+1. The colored rows represent the various past leaders in your country
+
+2. I have removed anyone who isn't in class today from eligibility
+
+    - Not nearly awkward enough if they aren't here for it
 
 <br>
 
@@ -149,11 +160,21 @@ As is true in the real world, inequality exists!
 
 **Groups, any objections to the leaders' proposed actions?**
 
+- **Anybody want to call for an election?**
+
 <br>
 
-**Anybody want to call for an election?**
+*IF neither group wants to call an election you dive in*
 
-- Let this play out...
+1. **Proposal 1: I just heard group leader X say he'd like to claim all of the points for himself. Group members, any concerns with this new plan?**
+
+    - *Let this play out...*
+
+<br>
+
+2. **Proposal 2: How about I propose a bare majority of your group take ALL the points for themselves?**
+
+    - *Let this play out...*
 
 <br>
 
@@ -323,7 +344,7 @@ Ok, leaders, your turn!
 
 <br>
 
-*Use these answers to announce leader rewards!*
+*Use these answers to announce hypothetical leader rewards then invite discussion of whether these points accurately reflect the motivations of the leaders*
 
 - *If they hated it, make the reward tiny (0-1 points)*
 
@@ -331,7 +352,11 @@ Ok, leaders, your turn!
 
 - *If they loved it, make it kind of obscene... (5 points?)*
 
+- **Do these points accurately reflect what motivated the leaders? Why or why not?**
 
+<br>
+
+*Feel free to give all leaders one point after the conversation*
 
 <br>
 
@@ -510,125 +535,12 @@ and coalitions (442-448)
     
 <br>
 
-**SLIDE**: Let's now diagram the model!
-:::
-
-
-## Putnam's (1988) Two-Level Game {background-image="Images/background-worldmap4.png" .center}
-
-<br>
-
-**Interests:** 
-
-- ?
-
-**Institutions:**
-
-- ?
-
-**Interactions:**
-
-- ?
-
-::: notes
-**Who are the interests in this model?**
-
-- (**SLIDE**)
+**SLIDE**: Assignment for next class
 :::
 
 
 
-## Putnam's (1988) Two-Level Game {background-image="Images/background-worldmap4.png" .center}
-
-**Interests:** 
-
-- Leaders want political survival
-- Constituents want specific policies or goods
-
-**Institutions:**
-
-- ?
-
-**Interactions:**
-
-- ?
-
-::: notes
-
-**And what are the institutions in the model?**
-
-- **What rules structure the decision-making?**
-
-- (**SLIDE**)
-:::
-
-
-
-## Putnam's (1988) Two-Level Game {background-image="Images/background-worldmap4.png" .smaller}
-
-**Interests:** 
-
-- Leaders want political survival
-- Constituents want specific policies or goods
-
-**Institutions:**
-
-- International negotiations require leaders to agree a policy (Level I)
-- Domestic negotiations require leaders to get approval from constituents (Level II)
-
-**Interactions:**
-
-- ?
-
-
-::: notes
-**And what are the interactions that make this decision-making so difficult?**
-
-- (**SLIDE**)
-:::
-
-
-## Putnam's (1988) Two-Level Game {background-image="Images/background-worldmap4.png" .smaller}
-
-**Interests:** 
-
-- Leaders want political survival
-- Constituents want specific policies or goods
-
-**Institutions:**
-
-- International negotiations require leaders to agree a policy (Level I)
-- Domestic negotiations require leaders to get approval from constituents (Level II)
-
-**Interactions:**
-
-- Win-set size matters: Larger Level I = more likely agreement, smaller Level II = more influential leader
-- Leaders should strategically try to influence win-set sizes home and abroad
-
-::: notes
-
-Bottom line: Therefore, domestic politics complicates all international bargaining
-
-<br>
-
-### What kinds of situations / outcomes can we use this model to explain?
-
-- (BIG: Two-level game can be applied to more situations and not just a shared resource)
-- (More useful than a pure PD game which focuses on resource division/use)
-
-<br>
-
-### Questions on this model?
-
-<br>
-
-**SLIDE**: Your job is to find us examples of this model in action!
-:::
-
-
-
-
-## Assignment for Next Class  {background-image="Images/background-blue_triangles2.png" .center}
+## Assignment for Next Class  {background-image="Images/background-worldmap4.png" .center}
 
 <br>
 
@@ -641,6 +553,7 @@ Find us a real world case illustrating at least some of the dynamics of Putnam's
 ::: notes
 **Questions on the assignment?**
 :::
+
 
 
 

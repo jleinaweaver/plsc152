@@ -37,7 +37,7 @@ Prep for Class
 
 <br>
 
-SLIDE: Let's refresh our memories!
+**SLIDE:** Let's refresh our memories!
 :::
 
 
@@ -52,33 +52,49 @@ Ok, talk me through Putnam's two-level game model of international relations.
 
 - **What are the key elements? What is this model?**
 
-- (SLIDE) 
+<br>
+
+- Explaining international political events as a two-level game
+
+    - Level I: The international negotiation between leaders (or their representatives).
+    
+    - Level II: The leader's negotiation with constituents to accept their international deal.
+
+- The key is that these levels interact!
+    
+    - International negotiations impact domestic politics, AND
+    
+    - Domestic politics changes international negotiations
+    
+- Win-set sizes matter!
+
+    - Level I Win-Sets: The range of outcomes the leader would accept in the international bargain.
+    
+    - Level II Win-Sets: The range of outcomes that could be ratified by domestic institutions.
+    
+    - larger win-sets make Level I agreement more likely
+    
+    - leaders benefit from having small Level II win-sets
+
+<br>
+
+**SLIDE**: To your cases!
+
 :::
 
 
 
-## Putnam's (1988) Two-Level Game {background-image="Images/background-blue_cubes_lighter3.png" .smaller}
-
-**Interests:** 
-
-- Leaders want political survival
-- Constituents want specific policies or goods
-
-**Institutions:**
-
-- International negotiations require leaders to agree a policy (Level I)
-- Domestic negotiations require leaders to get approval from constituents (Level II)
-
-**Interactions:**
-
-- Win-set size matters: Larger Level I = more likely agreement, smaller Level II = more influential leader
-- Leaders should strategically try to influence win-set sizes home and abroad
-
-::: notes
-
-Bottom line: Therefore, domestic politics complicates all international bargaining
+## Assignment for Today  {background-image="Images/background-worldmap4.png" .center}
 
 <br>
+
+Find us a real world case illustrating at least some of the dynamics of Putnam's Two-Level Game (e.g. domestic politics complicating international bargaining or vice versa).
+
+1. Submit APA citation,
+2. Explain what happened, and 
+3. Explain how it is an example of two-level game dynamics
+
+::: notes
 
 So, how do we use the win-sets and the two levels to explain and better understand international political events?
 
@@ -99,6 +115,7 @@ To start, everybody review the cases submitted today on Canvas
 - Go sit with your group!
 
 :::
+
 
 
 
@@ -130,6 +147,125 @@ Groups, your job will be to reflect on our work in class and the cases submitted
 
 - **Are there any serious counterarguments we need to consider?**
 
+<br>
+
+**SLIDE**: Time to diagram the model!
+
+:::
+
+
+
+## Putnam's (1988) Two-Level Game {background-image="Images/background-worldmap4.png" .center}
+
+<br>
+
+**Interests:** 
+
+- ?
+
+**Institutions:**
+
+- ?
+
+**Interactions:**
+
+- ?
+
+::: notes
+**Who are the interests in this model?**
+
+- (**SLIDE**)
+:::
+
+
+
+## Putnam's (1988) Two-Level Game {background-image="Images/background-worldmap4.png" .center}
+
+**Interests:** 
+
+- Leaders want political survival
+- Constituents want specific policies or goods
+
+**Institutions:**
+
+- ?
+
+**Interactions:**
+
+- ?
+
+::: notes
+
+**And what are the institutions in the model?**
+
+- **What rules structure the decision-making?**
+
+- (**SLIDE**)
+:::
+
+
+
+## Putnam's (1988) Two-Level Game {background-image="Images/background-worldmap4.png" .smaller}
+
+**Interests:** 
+
+- Leaders want political survival
+- Constituents want specific policies or goods
+
+**Institutions:**
+
+- International negotiations require leaders to agree a policy (Level I)
+- Domestic negotiations require leaders to get approval from constituents (Level II)
+
+**Interactions:**
+
+- ?
+
+
+::: notes
+**And what are the interactions that make this decision-making so difficult?**
+
+- (**SLIDE**)
+:::
+
+
+## Putnam's (1988) Two-Level Game {background-image="Images/background-worldmap4.png" .smaller}
+
+**Interests:** 
+
+- Leaders want political survival
+- Constituents want specific policies or goods
+
+**Institutions:**
+
+- International negotiations require leaders to agree a policy (Level I)
+- Domestic negotiations require leaders to get approval from constituents (Level II)
+
+**Interactions:**
+
+- Win-set size matters
+    - Larger Level I = more likely agreement
+    - Smaller Level II = more influential leader
+- Leaders should strategically try to influence win-set sizes home and abroad
+
+::: notes
+
+Bottom line: Therefore, domestic politics complicates all international bargaining
+
+<br>
+
+### What kinds of situations / outcomes can we use this model to explain?
+
+- (BIG: Two-level game can be applied to more situations and not just a shared resource)
+- (More useful than a pure PD game which focuses on resource division/use)
+
+<br>
+
+### Questions on this model?
+
+<br>
+
+**SLIDE**: Next class
 :::
 
 
