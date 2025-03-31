@@ -680,7 +680,9 @@ To make sure we understand what all this means for understanding the world let's
 <br>
 
 1. Purely defensive moves look threatening in a world of uncertainty and anarchy.
+
     - At no point did either you or your neighbor act with the intention of attacking the other person.
+
     - These were entirely defensive moves only and they still spiral out of control!
 
 2. Cooperation should be almost impossible to start and maintain in any meaningful ways.
@@ -693,15 +695,17 @@ To make sure we understand what all this means for understanding the world let's
 
 The security dilemma is born from uncertainty.
 
-- I can't know for sure what you are doing / if you're a threat.
+- I can't know for sure what you are doing or if you're a threat to me or not.
 
-Empirically not a useful model for lots of different pairs of states: "members of the same alliance, members of the same economic institution, perhaps two peaceful states or two neutral states, and so on.")
+<br>
 
-Why?
+BUT, that's not true for lots of different pairs of states
 
-- Because identity reduces uncertainty.
+- "members of the same alliance, members of the same economic institution, perhaps two peaceful states or two neutral states, and so on."
 
-The Constructivist model acknowledges this and helps us study identity formation and transformation!
+- Why? Because identity reduces uncertainty.
+
+- The Constructivist model acknowledges this and helps us study identity formation and transformation!
 
 <br>
 
