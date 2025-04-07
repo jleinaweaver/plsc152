@@ -32,6 +32,8 @@ Prep for Class
 
 2. Use the [V-Dem graphing tools](https://www.v-dem.net/graphing/graphing-tools/) to update the maps in the slides
 
+3. Use the [Fragile States Index web tool](https://fragilestatesindex.org/analytics/fsi-heat-map/) to do the same
+
 :::
 
 
@@ -268,9 +270,11 @@ SLIDE: Let's look at some more comprehensive data on this question
 
 
 
-## {background-image="Images/background-worldmap4.png" .center}
+## {background-image="Images/background-worldmap4.png" .center .smaller}
 
+::: {.r-fit-text}
 **Varieties of Democracy (V-Dem) Civil Liberties Index**
+:::
 
 - Freedom from political killings
 - Freedom from torture
@@ -314,7 +318,7 @@ SLIDE: The world in 2023...
 
 ## {background-image="Images/background-worldmap4.png" .center}
 
-![](Images/12_1-civil-liberties-index-20.png)
+![](Images/12_1-civil-liberties-index-2024.png)
 
 ::: notes
 
@@ -356,7 +360,7 @@ Last big question for us today.
 
 
 
-## {background-image="Images/12_1-Fragile_States2023.png" background-size='85%'}
+## {background-image="Images/12_1-Fragile_States2024.png" background-size='85%'}
 
 ::: notes
 
@@ -380,7 +384,7 @@ Here we see the Fragile States Index.
 
 
 
-## Assignment for Next Class  {background-image="Images/background-blue_triangles2.png" .center}
+## Assignment for Next Class  {background-image="Images/background-worldmap4.png" .center}
 
 <br>
 
