@@ -32,7 +32,7 @@ Prep for Class
 
 <br>
 
-### DISCUSS: Name me an international political event that has happened since we last met as a class.
+**DISCUSS: Name me an international political event that has happened since we last met as a class.**
 :::
 
 
@@ -53,7 +53,9 @@ What do we learn about human rights violations in the world today?
 
 On Monday we explored a series of case studies describing human rights abuses around the world and the naming and shaming efforts made by certain NGOs to stop them.
 
-### What conclusions did we draw from comparing and contrasting those cases?
+<br>
+
+**What conclusions did we draw from comparing and contrasting those cases?**
 :::
 
 
@@ -64,22 +66,28 @@ On Monday we explored a series of case studies describing human rights abuses ar
 
 Today we shift our focus to a research article that hopefully advances our knowledge about the topic.
 
-### What is the research question in the Krain (2012) paper?
+<br>
+
+**What is the research question in the Krain (2012) paper?**
+
+<br>
 
 The title is a big hint, right?
+
 - Does Naming and Shaming Perpetrators Reduce the Severity of Genocides or Politicides?
 
 <br>
 
-### Based only on the introduction of this article, how has the author tried to convince you that this is a clear and important question?
+**Based only on the introduction of this article, how has the author tried to convince you that this is a clear and important question?**
 
-*Force this discussion*
+- *Force this discussion*
 
 <br>
 
 Let's clarify a few elements of this before diagramming the model in this paper.
 
-### First, why is this paper a good test of Constructivism as we began exploring it last week?
+- **First, why is this paper a good test of Constructivism as we began exploring it last week?**
+
 :::
 
 
@@ -96,7 +104,7 @@ Let's clarify a few elements of this before diagramming the model in this paper.
 
 <br>
 
-The first reason this paper is a good test of Constructivism is it puts the discourse as power mechanism to the test.
+**The first reason** this paper is a good test of Constructivism is it puts the discourse as power mechanism to the test.
 
 - We assume states commit violent acts for reasons they feel strongly about.
 
@@ -108,7 +116,7 @@ The first reason this paper is a good test of Constructivism is it puts the disc
 
 ::: notes
 
-The second reason this paper is a good test of Constructivism is it explores how much global norms matter.
+**The second reason** this paper is a good test of Constructivism is it explores how much global norms matter.
 
 - Do widely accepted rules, not written down international laws, constrain state actions?
 
@@ -128,7 +136,9 @@ The Chinese government is working hard on the international stage to build the p
 
 So, Krain (2012) is playing with mechanisms that constructivism makes clear should be very important for explaining international political outcomes. 
 
-### Any questions on this?
+<br>
+
+**Any questions on this?**
 :::
 
 
@@ -137,22 +147,25 @@ So, Krain (2012) is playing with mechanisms that constructivism makes clear shou
 
 ::: notes
 
-Let's also clarify the central outcome concepts in the paper.
-
-### What are the specific international violations Krain (2012) is focused on?
-
-#### - What is the outcome variable in the study?
-(Genocide and politicide)
+Before we talk about the model, let's clarify the central outcome concepts in the paper.
 
 <br>
 
-### How does Krain define a "genocide" and a "politicide"?
+**What are the specific international violations Krain (2012) is focused on?**
 
-(SLIDE: Footnote 2, p574)
+- **What is the outcome variable in the study?**
+
+- (Genocide and politicide)
+
+<br>
+
+**How does Krain define a "genocide" and a "politicide"?**
+
+- (**SLIDE**: Footnote 2, p574)
 :::
 
 
-## Krain (2012): Key Concepts {background-image="Images/background-slate_v2.png" .center}
+## Krain (2012): Key Concepts {background-image="Images/background-worldmap4.png" .center}
 
 <br>
 
@@ -172,7 +185,7 @@ Both are lethal policies carried out by the state or some sovereign nonstate act
 
 <br>
 
-### Why do we need both concepts? Doesn't genocide cover it all?
+**Why do we need both concepts? Doesn't genocide cover it all?**
 
 - (Krain not super interested in litigating the specific form of objectionable murder.)
 
@@ -180,7 +193,7 @@ Both are lethal policies carried out by the state or some sovereign nonstate act
 :::
 
 
-## Krain (2012): Hypothesis {background-image="Images/background-slate_v2.png" .center}
+## Krain (2012): Hypothesis {background-image="Images/background-worldmap4.png" .center}
 
 <br>
 
@@ -190,7 +203,9 @@ Both are lethal policies carried out by the state or some sovereign nonstate act
 
 Here is the hypothesis in the paper.
 
-### One more time, remind me, how do the hypotheses relate to the model?
+- **Remind me, how do the hypotheses relate to the model?**
+
+<br>
 
 (The hypotheses represent the testable implications of a model)
 
@@ -202,14 +217,40 @@ Here is the hypothesis in the paper.
 
 <br>
 
-So, what we have here is a prediction about the world generated using Krain's (2012) model.
+Let's make sure we're clear on this with some practice
+
+<br>
+
+**What is a testable hypothesis of neorealism?**
+
+- (The premises focused on states pursuing security in an anarchic world lead to hypotheses about)
+    
+    - (The security dilemma)
+
+    - (Lack of meaningful cooperation)
+
+<br>
+
+**What is a testable hypothesis of economic liberalism?**
+
+- (The premises focused on states pursuing gains through trade lead to hypotheses about)
+
+    - (Specialization and peace)
+
+<br>
+
+Back to the slide
+
+- What we have here is a prediction about the world generated using Krain's (2012) model.
+
+<br>
 
 Our first job is to figure out the key elements of this model so we can evaluate it.
 :::
 
 
 
-## Krain (2012) {background-image="Images/background-slate_v2.png" .center}
+## Krain (2012) {background-image="Images/background-worldmap4.png" .center}
 
 <br>
 
@@ -225,36 +266,103 @@ Our first job is to figure out the key elements of this model so we can evaluate
 
 ::: notes
 
-Everybody take five minutes on your own to diagram the model.
-
-Focus on the theory section of the paper and make a list of the key interests, institutions and interactions involved.
+Canvas assignment for today means everybody has taken a first stab at this exercise.
 
 <br>
 
-**PAIRS**: Now take five minutes to share your lists with the person next to you.
+Work in small groups with the people around you
 
-Combine and consolidate your lists.
+- Let's focus first on the **interests** of the model
 
-<br>
-
-**GROUPS**: Finally, take 5-7 minutes to discuss your lists with a nearby pair.
-
-Combine and consolidate your lists.
+- Share what you came up with and get ready to report back to the class.
 
 <br>
 
-### Ok, what have we got?
+**Ok, who are the interests in Krain's model and what do they want?**
 
-**ON BOARD**
+- (**SLIDE**: Interests)
 
-<br>
-
-(**SLIDE**: Your diagram)
 :::
 
 
 
-## {background-image="Images/background-slate_v2.png" .center .smaller}
+## {background-image="Images/background-worldmap4.png" .center .smaller}
+
+**Interests**
+
++ Leaders of states care about their reputations and legitimacy
++ NGOs / IOs want less genocide / politicide
+
+::: {.fragment}
+
+**Institutions**
+
++ Global norm: Genocide / Politicide is not legitimate
+
+:::
+
+::: {.fragment}
+
+**Interactions**, e.g. Naming and Shaming (N&S):
+
++ Exposes the crimes (public not private)
++ Raises the profile of the crimes (global not domestic)
++ May change perpetrators' self-perceptions
++ Activates bystanders
++ Encourages state sanctions
++ May cost the perpetrator state access to aid or trade
+
+:::
+
+::: notes
+
+Ok, talk to me about this modeling choice.
+
+- Remember, the aim of the Krain model is to explain how discourse could reduce political violence
+
+- **So, what are the strengths and weaknesses of analyzing political violence by focusing exclusively on these actors?**
+
+- **Any other actors mentioned in the theory section?**
+
+<br>
+
+Back to your small groups!
+
+- Get ready to report back on the institutions in this model
+
+<br>
+
+**Ok, report back!**
+
+<br>
+
+**REVEAL: And what are the strengths and weaknesses of analyzing political violence by focusing exclusively on these institutions?**
+
+- **Anything important missing from this list?**
+
+<br>
+
+Back to your small groups!
+
+- Get ready to report back on the interactions in this model
+
+- **Specifically, how does naming and shaming impact the key interests in this model?**
+
+<br>
+
+**Ok, what do you got?**
+
+<br>
+
+**REVEAL: And what are the strengths and weaknesses of assuming naming and shaming can do all of these things?**
+
+- **Are you convinced by them?**
+
+:::
+
+
+
+## {background-image="Images/background-worldmap4.png" .center .smaller}
 
 **Interests**
 
@@ -276,27 +384,18 @@ Combine and consolidate your lists.
 
 ::: notes
 
-Alright, let's evaluate this model of politics.
+Alright, let's evaluate this model of political violence.
 
 <br>
 
-Remember, models are like maps.
-
-### What is this map supposed to help us find?
-(The key outcome of interest...)
+**Big picture, what do we think is most useful about this model?**
 
 <br>
 
-### Does this model focus on this outcome? Why or why not?
+**And what concerns do we have with using it?**
 
-<br>
+- **Is it missing anything you intuitively believe is important for explaining mass killings?**
 
-### What are the strengths of this as a model of politics?
-
-<br>
-
-### What are the weaknesses of this as a model of politics?
-#### - What possibly important things does it ignore?
 :::
 
 
@@ -314,7 +413,4 @@ Friday we dig into the data analyses in the paper.
 
 - Your job for Friday is to start thinking about what specifically he did to test the model and whether you are convinced by it or not.
 
-<br>
-
-### Questions on the assignment?
 :::

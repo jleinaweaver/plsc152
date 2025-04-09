@@ -164,6 +164,7 @@ I'll be totally honest with you here: Each of these sources has its own problems
 
 ## Analyze the Democracy Cases {background-image="Images/background-worldmap4.png" .center}
 
+::: {.fragment}
 - In general, how good is the respect for human rights in these cases?
   	- Excellent
     - Good
@@ -173,12 +174,13 @@ I'll be totally honest with you here: Each of these sources has its own problems
 - Most targeted groups?
 
 - Most violated rights?
+:::
 
 ::: notes
 
 *Split into groups of four*
 
-Try to work with new people!
+- Try to work with new people!
 
 - Work directly on the board!
 
@@ -186,21 +188,36 @@ Try to work with new people!
 
 <br>
 
-Before you report back, let's make sure we're clear on the "ruler" we're using!
+**REVEAL**: Before you get to work let's make sure we're clear on the "ruler" we're using!
 
-- I assume each group spent time defining what excellent, good, fair and poor mean, right?
+- **GROUPS, take a moment to get on the same page re how to apply this short Likert scale.**
 
-- **Good! Report back on the differences between each level of the ruler!**
-
-
+- **Get ready to report back to the class how you plan on classifying a country on this scale**
 
 <br>
 
-### Ok, any early conclusions we can draw at this point about human rights practices in democracies?
+*REPORT back and DISCUSS*
 
-*Report Back and Discuss*
+- (Human rights respect as)
 
-- *ON BOARD*
+    - number of violations? 
+    
+    - severity of violations?
+    
+    - efforts by the state to correct/prevent violations?
+
+<br>
+
+Ok, get to work!
+
+- Work directly on the board!
+
+<br>
+
+**Any early conclusions we can draw at this point about human rights practices in democracies?**
+
+- *Report Back and Discuss*
+
 :::
 
 
@@ -227,13 +244,14 @@ Mix up the groups!
 
 Groups, compare and contrast the dictatorship cases and get ready to report back your findings.
 
+- Work directly on the board!
+
 <br>
 
 ### Ok, any early conclusions we can draw at this point about human rights practices in dictatorships?
 
-*Report Back and Discuss*
+- *Report Back and Discuss*
 
-- *ON BOARD*
 :::
 
 
