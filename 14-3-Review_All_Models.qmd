@@ -43,7 +43,7 @@ Alright everybody, from here on out we shift our focus to your final papers for 
 
 
 
-## Final Exam (Due May 8, 10am) {background-image="Images/background-blue_triangles2.png" .center}
+## Final Exam (Due May 8, 10am) {background-image="Images/background-worldmap4.png" .center}
 
 <br>
 
@@ -64,7 +64,7 @@ You all did such a good job on the second papers that we're going to run this cl
 
 
 
-## Final Paper Tweaks {background-image="Images/background-blue_triangles2.png" .center}
+## Final Paper Tweaks {background-image="Images/background-worldmap4.png" .center}
 
 <br>
 
@@ -85,7 +85,7 @@ You don't have to select any of these four theories, but if you do you can't dou
 
 
 
-## Final Paper Tweaks {background-image="Images/background-blue_triangles2.png" .center}
+## Final Paper Tweaks {background-image="Images/background-worldmap4.png" .center}
 
 <br>
 
@@ -98,7 +98,7 @@ You don't have to select any of these four theories, but if you do you can't dou
 :::
 
 
-## {background-image="Images/background-blue_triangles2.png" .center .smaller}
+## {background-image="Images/background-worldmap4.png" .center .smaller}
 
 ::: {.r-fit-text}
 3) You **may not** select one of the topics explored in anyone's second paper:
@@ -106,34 +106,33 @@ You don't have to select any of these four theories, but if you do you can't dou
 
 :::: {.columns}
 ::: {.column width="50%"}
-- Israel assassinating Hamas leaders
-- Spain negotiates to limit immigration
-- US charging Hamas with terrorism (Oct 7th)
-- Russian airstrikes in Ukraine
-- Israeli strikes in Lebanon
-- Iranian airstrikes on Israel
-- Genocide in Myanmar
-- Russia and China defensive alliance
-- Ukrainian FM resigns
-- Mexican government limits democracy
-- Russia-DPRK alliance
-- DPRK trash balloons
+- Belarus and Russia nuke deal
+- China vs Philippines in South China Sea
+- Colombia vs the ELN
+- Israel bombing Syrian weapons depots
+- Israel-Gaza ceasefire
+- NATO spending in Europe
+- Niger, Mali, and Burkina Faso withdraw from ECOWAS
+- Russia and DPRK alliance
+- Syrian civil war
+- The severing of Baltic Sea cables / attack on NATO
+- Trump revoking executive order 14115
+
 :::
 
 ::: {.column width="50%"}
-- Russian interference in US elections
-- Putin visits Mongolia
-- Humanitarian crises in Venezuela
-- Boko Haram destabilizes the region
-- Polio vaccinations in Gaza
-- Fires in the Amazon rainforest
-- Brazil bans Twitter
-- NATO condemns China's support for Russia
-- Chinese investments in Africa
-- US attacks ISIS in Iraq
-- UAE support for Sudanese civil war
-- Chinese tourists spying in the US
-- Ukraine sinking Russian ships
+
+- Trump tariff threats against Colombia
+- Tuareg vs Mali government
+- Turkey attack on Kurdish forces in Syria
+- US deportation flights to Colombia
+- US deportation flights to Mexico
+- US leaves the WHO
+- US leaving Paris Agreement
+- US prisoner exchange with Taliban
+- US sanctions on Russia
+- US supplies weapons to Ukraine
+- US suspends all foreign aid / USAID
 :::
 ::::
 
@@ -157,9 +156,6 @@ The international section of every newspaper will give you a list of specific ev
 ### Any questions on the final paper assignment?
 
 
-
-
-Israel v Palestine, UN Sustainable Development Goals, South Africa's case against Israel at the ICJ, farmer protests in Europe, immigration policy in the EU, China v Taiwan, China vs the US fentanyl trade, Houthi attacks on international shipping, Hamas' October terror attack against Israel, US and Mexico vs the drug cartels, 21st century space race, the Cuban Missile Crisis, Russia's ban from the Eurovision, Israel bombing a UN shelter, Russian invasion of Ukraine (Crimea too), India's moon mission, US failing to provide more aid to Ukraine, collapse of the Iranian nuclear deal, Taiwan's election as a problem for China
 :::
 
 
@@ -365,7 +361,7 @@ Postcolonial Theory
 :::
 
 
-## Assignment for Next Class  {background-image="Images/background-blue_triangles2.png" .center}
+## Assignment for Next Class  {background-image="Images/background-worldmap4.png" .center}
 
 <br>
 

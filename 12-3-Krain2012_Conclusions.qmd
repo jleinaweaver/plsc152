@@ -100,6 +100,15 @@ Days later we saw big announcements come out of the UN General Assembly.
 #### - That Human Rights Watch succeeded in stopping the UN from recognizing the Taliban?
 
 *DISCUSS*
+
+<br>
+
+Bringing this forward in time:
+
+1. As of Dec 2023 the United Nations Credentials Committee had postponed the decision on handing over Afghanistan’s seat in the UN to the Taliban THREE times [LINK](https://www.afintl.com/en/202312197990)
+
+2. As of May 2024 "Afghanistan has lost its voting rights in the General Assembly due to unpaid membership dues and failure to provide reasonable explanations for the non-payment" [LINK](https://amu.tv/97702/)
+
 :::
 
 
@@ -121,7 +130,7 @@ This week we've been exploring research by Matt Krain (2012).
 
 
 
-## {background-image="Images/background-slate_v2.png" .center .smaller}
+## {background-image="Images/background-worldmap4.png" .center .smaller}
 
 **Interests**
 
@@ -164,7 +173,7 @@ Here are the interests, institutions and interactions we identified on Wednesday
 
 
 
-## Make an Argument {background-image="Images/background-slate_v2.png" .center}
+## Make an Argument {background-image="Images/background-worldmap4.png" .center}
 
 **Based on the data and methods used here do we have high, low or no confidence in each of these conclusions?**
 
@@ -192,7 +201,7 @@ Let's evaluate the analyses in order to clarify the conclusions and figure out h
 :::
 
 
-## Krain (2012): Cases {background-image="Images/background-slate_v2.png" .center}
+## Krain (2012): Cases {background-image="Images/background-worldmap4.png" .center}
 
 ```{r, fig.retina=3, fig.align='center', out.width='80%'}
 knitr::include_graphics("Images/15_3-Table1.png")
@@ -236,7 +245,7 @@ Makes sense if data analysis is year to year change BUT
 
 
 
-## Krain (2012): Outcome {background-image="Images/background-slate_v2.png" .center}
+## Krain (2012): Outcome {background-image="Images/background-worldmap4.png" .center}
 
 ```{r, fig.retina=3, fig.align='center', out.width='92%'}
 knitr::include_graphics("Images/15_3-Table2.png")
@@ -287,7 +296,7 @@ This is the variation the paper aims to explain.
 
 
 
-## Krain (2012): Predictors {background-image="Images/background-slate_v2.png"}
+## Krain (2012): Predictors {background-image="Images/background-worldmap4.png"}
 
 ```{r, fig.align='center'}
 knitr::include_graphics("Images/15_3-key_predictors.png")
@@ -395,7 +404,7 @@ Let's examine Table 5 together.
 
 
 
-## {background-image="Images/background-slate_v2.png" .center}
+## {background-image="Images/background-worldmap4.png" .center}
 
 :::: {.columns}
 ::: {.column width="50%"}
@@ -491,7 +500,7 @@ Let's zoom in here on just the first column.
 
 
 
-## {background-image="Images/background-slate_v2.png" .center}
+## {background-image="Images/background-worldmap4.png" .center}
 
 ```{r, fig.align='center', fig.width=9, fig.asp=.45, cache=TRUE}
 # Visualize both
@@ -553,7 +562,7 @@ Now, the minimum to the maximum is probably not the effect we are most intereste
 :::
 
 
-## {background-image="Images/background-slate_v2.png" .center}
+## {background-image="Images/background-worldmap4.png" .center}
 
 ```{r, fig.align='center', fig.width=9, fig.asp=.45, cache=TRUE}
 ## Table 5 but use mean and mean + 1 sd
@@ -591,7 +600,7 @@ A small shift but hard to see this way.
 
 
 
-## {background-image="Images/background-slate_v2.png" .center}
+## {background-image="Images/background-worldmap4.png" .center}
 
 ```{r, fig.align='center', fig.asp=.618, cache=FALSE}
 # Animate the shift
@@ -637,7 +646,7 @@ Table 6 focuses on the effect of Amnesty International reports.
 
 
 
-## {background-image="Images/background-slate_v2.png" .center}
+## {background-image="Images/background-worldmap4.png" .center}
 
 ```{r, fig.align='center', fig.asp=.618, cache=FALSE}
 ## Table 6 but use mean and mean + 1 sd
@@ -696,7 +705,7 @@ Not as big as media at the extremes, BUT slightly bigger in the middle changes!
 
 
 
-## {background-image="Images/background-slate_v2.png" .center}
+## {background-image="Images/background-worldmap4.png" .center}
 
 ```{r, fig.align='center', fig.asp=.618, cache=FALSE}
 ## Table 8
@@ -744,7 +753,7 @@ d8a |>
 
 
 
-## Make an Argument {background-image="Images/background-slate_v2.png" .center}
+## Make an Argument {background-image="Images/background-worldmap4.png" .center}
 
 **Based on the data and methods used here do we have .textred[high, low or no] confidence in each of these conclusions?**
 
