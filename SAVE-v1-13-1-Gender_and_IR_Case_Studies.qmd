@@ -30,9 +30,7 @@ Prep for Class
 
 1. Review cases submitted to Canvas
 
-2. Bring markers x 3
-
-3. Your Case: Patel, Kasha. (2021, Nov 8). How climate change is disproportionately affecting girls in low-income countries. *The Washington Post*. [LINK](https://www.washingtonpost.com/weather/2021/11/08/cop26-girls-education-climate-weather/)
+2. Your Case: Patel, Kasha. (2021, Nov 8). How climate change is disproportionately affecting girls in low-income countries. *The Washington Post*. [LINK](https://www.washingtonpost.com/weather/2021/11/08/cop26-girls-education-climate-weather/)
 
 <br>
 
@@ -76,6 +74,8 @@ For today I asked each of you to go find us a real-world case that includes an i
 
 ## {background-image="Images/13_1-gender_climate.avif"}
 
+![](Images/13_1-Climate_Change_Gender1.png){.absolute left=0 width="5.3in" height="1.5in"}
+
 ::: notes
 As you may or may not know, my research tends to focus on international problem-solving using policy
 
@@ -95,65 +95,61 @@ One particular policy challenge I have been studying for a long time is the disp
 
 
 
-## {background-image="Images/13_1-gender_climate.avif"}
+## {background-image="Images/background-worldmap4.png" .center}
 
-![](Images/13_1-Climate_Change_Gender1.png){.absolute left=0 width="5.3in" height="1.5in"}
+```{r, fig.align='center'}
+knitr::include_graphics("Images/13_1-Climate_Change_Gender1.png")
+```
+
+<br>
+
+1. What is the "event"?
+
+2. Why "international"?
+
+3. Why "political"?
+
+4. What is the role of "gender" in this event?
 
 ::: notes
-
 What is the event?
 
-- Just before the 26th Conference of the Parties to the UN Framework Convention on Climate Change a weather disaster struck Malawi (muh-laa-wee)
+- In the build-up to the 26th Conference of the Parties to the UN Framework Convention on Climate Change a weather disaster struck Malawi
 
-- Specifically, a severe storm destroyed the schools in a number of villages
+- Specifically, as the climate change conference was beginning a storm in Malawi destroyed the schools in a number of villages
 
 <br>
 
 Why is this international?
 
-- Research growing in confidence that climate change is increasing the frequency and intensity of extreme weather events
+- Extreme weather events made worse/more likely by climate change are increasing around the world.
 
-- So, countries are being made to pay dearly for the behavior of other countries
+- Many of the poorest countries who contributed almost nothing to the problem are being hit the hardest.
+
+- So, poor countries are being made to pay dearly for the behavior of people in other countries
 
 <br>
     
 Why is this political?
 
-- Many of the poorest countries who contributed almost nothing to the problem are being hit the hardest.
-
 - Countries with limited resources have to make VERY difficult decisions about where to spend to prevent this damage and where to spend to fix the damage
 
-<br>
+<br>    
+4. Why is gender important here?
 
-Why is gender important here?
+- Per UNESCO, Malawi currently enrolls approximately 37% of eligible students in secondary school (US is basically 100%) and to maintain that rate they estimate a need for 30,000 more classrooms.
 
-- Per UNESCO, before the storm, Malawi (muh-laa-wee) ONLY enrolls about 37% of eligible students in secondary school
+- This is BEFORE dealing with the current storm damage.
 
-- In Malawi (muh-laa-wee), when serious storm damages occur, girls are:
-
-    - Often kept home to save money for food, 
+- In developing countries like Malawi when serious storm damages occur girls are often kept home to save money for food, are expected to work in the fields or by gathering water from long distances or are married off to older men. 
     
-    - Expected to work in the fields or by gathering water from long distances, or 
-    
-    - Married off to older men.
-
 <br>
     
-So, bottom line: 
+So, bottom line, "bad" behavior by other countries creates damage for the developing world and those damages appear to disproportionately harm women and girls.
 
-- Behavior by other countries creates damage for the developing world,
-
-- Developing world climate damages disproportionately harm women and girls
-
-- Harm to women and girls in the developing world tends to harm the growth potential for these countries
-
-- THEREFORE, we CANNOT explain development in the developing world without analyzing gender!
-
-<br>
-
-**Does this case make sense?**
-
+- **Does this case make sense?**
 :::
+
 
 
 ## Gender Case Studies {background-image="Images/background-worldmap4.png" .center}
@@ -168,100 +164,120 @@ So, bottom line:
 
 4. What is the role of "gender" in this event?
 
-5. What are the implications of this case for IR theory?
-
 :::
 
 ::: notes
 
-Ok, I want each of you to analyze your own case using these prompts
+Ok, I want each of you to introduce your case to us by answering these four questions.
 
-- Take a few minutes to make sure you could introduce your case as an answer to these five questions
-
-<br>
-
-*Split class into 3 groups*
-
-- Go sit with your group and claim some space on the board!
+- Take a few minutes to get ready to present your cases.
 
 <br>
 
-Today I want us to reflect on the role of gender in international political events.
+Alright, let's hear the cases.
 
-- I'm going to ask each group to develop and present a series of arguments
+- **After we hear each case, give me takeaways or lessons for the board!**
 
-- **SLIDE**: Argument 1
-
-:::
-
-
-
-## Gender Case Studies {background-image="Images/background-worldmap4.png" .center}
+- *PRESENT and DISCUSS each*
 
 <br>
 
-- ?
+(4/17/23)
 
-- ?
+- TBD
 
-- ?
+(4/20/22)
 
-### Therefore, we cannot usefully explain THESE specific international political events without analyzing the role of gender
-
-::: notes
-
-Ok groups, share your events with each other and then build an argument on the board
-
-- The conclusion of that argument is: we cannot usefully explain these specific international political events without analyzing the role of gender
-
-<br>
-
-**Questions on the task?**
-
-- Go!
+- Inequality is structural and deep rooted
+- Women as asylum seekers more vulnerable
+- Policy responds more to men than women
+- Women under-represented in gov't around the world
+- Only 6/27 leaders of EU countries are female (were female?)
+- Recruitment by political parties shows gender biases
 
 <br>
 
-*PRESENT and DISCUSS each*
-
-<br>
-
-**SLIDE**: Argument 2
+**SLIDE**: The question is, are our current theories of IR missing these important dynamics or not?
 :::
 
 
 
 ## Gender Case Studies {background-image="Images/background-worldmap4.png" .center}
 
-<br>
+:::: {.columns}
+::: {.column width="50%"}
+```{r, fig.align='center', out.width='80%'}
+knitr::include_graphics("Images/02_2-drury_map.jpg")
+```
+:::
 
-- ?
+::: {.column width="50%"}
+**Scientific models are:**
 
-- ?
++ Neither true nor false
 
-- ?
++ Limited in their accuracy
 
-### Therefore, we cannot usefully explain ANY specific international political events without analyzing the role of gender
++ Partial representations
+
++ Useful for only some uses
+
++ A reflection of the interests of the designer
+:::
+::::
 
 ::: notes
 
-Ok groups, now I want a second version of your argument
-
-- The conclusion of that argument is: we cannot usefully explain ANY specific international political events without analyzing the role of gender
-
-<br>
-
-**Questions on the task?**
-
-- Go!
+To refresh our memories!
+- Scientific models are, by definition, limited representations of reality!
+- And, they reflect the interests of their designers.
 
 <br>
 
-*PRESENT and DISCUSS each*
+We have to acknowledge that none of the theories we have studied this term were designed expressly to center gender dynamics in our explanations.
 
 <br>
 
-**SLIDE**: Our next question...
+**SLIDE**: The question is, even without making this dynamic central to their "maps" can they still usefully explain today's international political events?
+:::
+
+
+
+## Theories of International Relations (so far) {background-image="Images/background-worldmap4.png" .center}
+
++ Neorealism
+
++ Offensive Realism
+
++ Bargaining Model of War
+
++ Liberal Institutionalism
+
++ Economic Liberalism
+
++ Two-Level Games
+
++ Constructivism
+
+::: notes
+
+Here is an abbreviated list of the models we've explored in class so far.
+
+- Each is a purpose-built "map" of international political events
+
+- None are "true" or "false" but each was designed to be useful!
+
+<br>
+
+### Any questions on these models or how we mapped each as a function of interests, institutions and interactions?
+
+<br>
+
+Make sure you have this list written down!
+
+- It may prove useful in the near future...
+
+- *final exam hint...*
 :::
 
 
