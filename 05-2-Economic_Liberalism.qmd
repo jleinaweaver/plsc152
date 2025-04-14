@@ -125,6 +125,7 @@ The thing is, various scholars have advanced different mechanisms to explain how
 #### Notes
 
 According to Robert Keohane and other liberal institutionalists, institutions facilitate cooperation by:
+
 - Reducing transaction costs
 - Providing information
 - Making commitments more credible
@@ -420,7 +421,39 @@ At that level EVERYONE has been made worse off by your attempt to diversify your
 
 ### What evidence could we look for to evaluate the 'war disrupts trade' premise?
 - (Cases where war breaks out between two states and trade continues at same level as before.)
+
+<br>
+
+**SLIDE**: Example of specialization and the complexities of trade
+
 :::
+
+
+
+## {background-image="Images/background-worldmap4.png" .center .smaller}
+
+:::: {.columns}
+
+::: {.column width="50%"}
+
+Alloway, T. (2022, Dec). How a Semiconductor Shortage Can Impact the Supply of Gummy Bears. *Bloomberg News*. 
+
+:::
+
+::: {.column width="50%"}
+![](Images/05_2-Trade_Complications_Gummy_Bears.jpg)
+:::
+
+::::
+
+::: notes
+
+Global trade aims to achieve maxiumum efficiency which leads to both specialization and some crazy supply chains!
+
+- Why let anything go to waste if someone can use it?
+
+:::
+
 
 
 ## {background-image="Images/background-worldmap4.png" .center}
