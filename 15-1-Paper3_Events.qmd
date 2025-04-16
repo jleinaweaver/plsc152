@@ -49,7 +49,7 @@ By the end of today EVERYONE must have their new international political event c
 <br>
 
 ::: {.r-fit-text}
-https://drury.campuslabs.com/eval-home/
+[https://drury.campuslabs.com/eval-home/](https://drury.campuslabs.com/eval-home/)
 :::
 
 
@@ -57,7 +57,7 @@ https://drury.campuslabs.com/eval-home/
 
 
 
-## Final Exam (Due May 8th, 10am) {background-image="Images/background-blue_triangles2.png" .center}
+## Final Exam (Due May 8th, 10am) {background-image="Images/background-worldmap4.png" .center}
 
 <br>
 
@@ -79,7 +79,7 @@ Select a **NEW** international political event and make an argument that one of 
 
 
 
-## For Today {background-image="Images/background-blue_triangles2.png" .center}
+## For Today {background-image="Images/background-worldmap4.png" .center}
 
 <br>
 
@@ -105,7 +105,7 @@ Our aim for today is to make sure everyone has an international political event 
 
 
 
-## Present Each Event {background-image="Images/background-blue_triangles2.png" .center}
+## Present Each Event {background-image="Images/background-worldmap4.png" .center}
 
 <br>
 
@@ -134,7 +134,7 @@ Alright, let's hear all the cases you've picked!
 
 
 
-## Assignment for Next Class  {background-image="Images/background-blue_triangles2.png" .center}
+## Assignment for Next Class  {background-image="Images/background-worldmap4.png" .center}
 
 <br>
 
