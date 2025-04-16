@@ -32,9 +32,7 @@ Prep for Class
 
 1. Review Canvas submissions
 
-2. Make sure you have dry eraser markers for five groups
-
-3. Move through the set-up slides promptly, get those groups to work!
+2. Bring markers x 5
 :::
 
 
@@ -65,82 +63,31 @@ To refresh, on Monday you each brought in a case study meant to highlight some a
 - We used those cases to re-evaluate the theories of IR we have been studying this semester.
 
 - In short we asked, does IR have a blind spot for gender issues in international political events?
-:::
 
+<br>
 
+Now let's keep the test of a model in mind
 
-## {background-image="Images/13-1-World_Map_Old.jpg"}
-
-::: notes
-Important to that discussion and where we need to go today we must keep a clear definition of "theory" in mind.
-
-### Remind me, what is true about every map (and scientific model) you've ever encountered?
 - Neither true nor false
+
 - Limited in their accuracy
+
 - Partial representations
+
 - Useful for only some uses
+
 - A reflection of the interests of the designer
 
 <br>
 
-### So, if all maps are, by definition, "false," why can't we just pick the one we like the best and drop the rest?
+That means that simply excluding the word "gender" or "woman" from your theory isn't a problem, by definition.
 
-- (**SLIDE**: Maps/Models are purpose-built!)
-:::
-
-
-
-## {background-image="Images/13-1-weather_map.webp"}
-
-::: notes
-Key for us is to remember that maps are purpose-built
-
-- They are useful for helping us understand something specific about the world.
+- It matters if the theory offers incorrect predictions because of the omission!
 
 <br>
 
-This is a pretty darn good map for answering the question, where is it currently raining or snowing.
+**SLIDE**: Our work today is to reconsider the role of gender in IR theory
 
-<br>
-
-However, a terrible map for driving across town or finding a dentist.
-:::
-
-
-
-
-## {background-image="Images/13-1-topo-map.jpg"}
-
-::: notes
-Here is a very handy topographical map for the next time you go for a hike!
-
-<br>
-
-However, utterly useless for driving directions to the trail, weather to expect, or the location of nice spots for lunch.
-:::
-
-
-
-## {background-image="Images/13-1-us_map_population.jpg"}
-
-::: notes
-Finally, here's a map of the US states resized by population.
-
-- Please don't use this for driving directions...
-
-<br>
-
-This map is a useful way to think about population density in the US, and
-
-- A damning indictment of the apportionment rules in the Senate.
-
-<br>
-
-Bottom line, the usefulness of a map depends on what you are trying to do or explain in a given moment.
-
-<br>
-
-**SLIDE**: Ok, why the long preamble before we get to work?
 :::
 
 
