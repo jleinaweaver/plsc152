@@ -1,0 +1,133 @@
+---
+format: revealjs
+---
+
+
+## Today's Agenda {background-image="Images/background-worldmap4.png" .center}
+
+```{r}
+# background-size="1920px 1080px"
+library(tidyverse)
+library(readxl)
+library(kableExtra)
+```
+
+<br>
+
+::: {.r-fit-text}
+
+**III. Why is it so Hard to Cooperate with Other Countries?**
+
+- Writing Workshop
+
+:::
+
+<br>
+
+::: r-stack
+Justin Leinaweaver (Fall 2025)
+:::
+
+::: notes
+TBD
+:::
+
+
+
+## Paper 2 {background-image="Images/background-worldmap4.png" .center}
+
+<br>
+
+Make an argument that one of the IR theories / models we've studied in class so far this term is **the most useful explanation of the event you explored in Paper 1**. 
+
+Your paper must include a counter-argument that applies and evaluates a second theory to the case.
+
+- Options: Neorealism, Offensive Realism, Liberal Institutionalism, Economic Liberalism, and the Bargaining Model of War
+
+::: notes
+Paper is due today!
+
+<br>
+
+### Any final questions on the assignment?
+
+<br>
+
+**SLIDE**: The outline
+:::
+
+
+
+## {background-image="Images/background-worldmap4.png" .smaller}
+
+**Intro**
+
+- What is the question?
+- Why is the question important?
+- Thesis statement: Theory X is most useful because...
+
+**Premise 1: Theory 1 is most useful because... (with evidence)**
+
+**Premise 2: Theory 1 is most useful because... (with evidence)**
+
+**Premise 3: Theory 1 is most useful because... (with evidence)**
+
+**Counter-Argument: Theory 2**
+
+- What are the strengths of this explanation?
+- What are the weaknesses of this explanation?
+- Why is it not ultimately more useful than Theory 1?
+
+::: notes
+
+Keep my writing rubric in mind as you write and revise!
+
+<br>
+
+### Any questions on the rubric?
+
+<br>
+
+**SLIDE**: Before I let you get to work...
+:::
+
+
+
+## Assignment for Next Class  {background-image="Images/background-blue_triangles2.png" .center}
+
+<br>
+
+1. Read excerpt from Tomz (2007) "Domestic Audience Costs in International Relations: An Experimental Approach" 
+
+2. **Submit to Canvas** your reflections on the reading (prompts on Canvas)
+
+::: notes
+**Questions on the assignment?**
+:::
+
+
+
+## Assignment for Next Class  {background-image="Images/background-blue_triangles2.png" .center}
+
+<br>
+
+Is the world free-riding on US contributions to the United Nations?
+
+1. Council on Foreign Relations Editors (2023, Mar 13)
+
+2. Bolton (2017)
+
+3. Martin (2017)
+
+::: notes
+Next class we explore a real-world collective action problem
+
+- Is the world free-riding on US contributions to the United Nations?
+
+- If so, what should we do about it?
+:::
+
+
+
+
+
