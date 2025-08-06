@@ -15,7 +15,7 @@ library(readxl)
 
 <br>
 
-Make a list of **positive** and **negative** things the US has done on the world stage in the last 20 years.
+Make a list of **positive** and **negative** things the US has done on the world stage in the last 10 years.
 
 <br>
 
@@ -82,7 +82,7 @@ My aim with this last one is to get a sense for how the class thinks about "impo
 
 1. Name: I'm Dr. Leinaweaver.
 
-2. Year in school: 12th year at Drury
+2. Year in school: 13th year at Drury
 
 3. Major: Political scientist with primary research interests in international policy-making and problem-solving
 
@@ -94,7 +94,7 @@ My aim with this last one is to get a sense for how the class thinks about "impo
 :::
 
 
-## On balance, has the US been a net positive or negative influence on the world over the last 20 years? {background-image="Images/background-worldmap4.png" .center}
+## On balance, has the US been a net positive or negative influence on the world over the last 10 years? {background-image="Images/background-worldmap4.png" .center}
 
 ::: notes
 
@@ -595,7 +595,45 @@ Bottom line, please keep me in the loop this semester!
 
 **Questions on this?**
 
+<br>
+
+**SLIDE**: AI policy
+
 :::
+
+
+
+## {background-image="Images/background-worldmap4.png" .center}
+
+![](Images/01_1-No_AI_Tools.jpg){style="display: block; margin: 0 auto"}
+
+::: notes
+
+You may not use any AI tools in the preparation or writing of the papers for this class. 
+
+- No AI search
+
+- No AI summaries of articles or books
+
+- No AI for outlining or writing
+
+- No AI for data analysis
+
+- No AI to simply clean up your grammar (e.g. Grammarly).
+
+<br>
+
+The purpose of this class is to help you become a better thinker and writer and AI represents the antithesis of these skills. 
+
+- Therefore, the use of AI on any assignment will be treated as plagiarism
+
+<br>
+
+**Questions on this policy?**
+
+:::
+
+
 
 
 
