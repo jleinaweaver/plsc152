@@ -53,6 +53,17 @@ Welcome back everybody!
 Today we continue laying important foundations for the rest of the semester.
 
 - We need to make sure we're clear on what we're exploring and how we explore it.
+
+<br>
+
+For today you read Hoover and Donovan on "The Elements of Science."
+
+- Let's make sure it was clear.
+
+<br>
+
+**SLIDE**: Define what you see!
+
 :::
 
 
@@ -76,13 +87,8 @@ Today we continue laying important foundations for the rest of the semester.
 
 ::: notes
 
-For today you read Hoover and Donovan on "The Elements of Science."
+**What do you see on the slide?**
 
-- Let's make sure it was clear.
-
-<br>
-
-### What do you see on the slide?
 - *Push them to name more than just a chair and a duck!*
 
 - Left: Chair, comfort, ease, wood, cheapness, ...
@@ -690,8 +696,6 @@ Decision-making in a community
 
 - **Decision-making in a community**
 
-<br>
-
 - **How we make and enforce "the rules"**
 
 ::: notes
@@ -724,11 +728,7 @@ While these definitions seem pretty anodyne on their faces, these choices can be
 
 - **Decision-making in a community**
 
-<br>
-
 - **How we make and enforce "the rules"**
-
-<br>
 
 - **Who gets what, when and how?**
 
@@ -883,11 +883,13 @@ I think that's super cool.
 
 
 
-## For Next Class {background-image="Images/background-blue_triangles.jpg" .center}
+## For Next Class {background-image="Images/background-worldmap4.png" .center}
 
 <br>
 
-### What do you have to have completed before our next class?
+### International Relations Theories
+
+- Read Mingst and Arreguin-Toft (2017)
 
 ::: notes
 

@@ -28,8 +28,7 @@ Justin Leinaweaver (Fall 2025)
 ::: notes
 Prep for Class
 
-1. Reserve an extra, nearby classroom
-    - SP23: OBT 307, 309, 311 and 313 
+1. Reserve an extra, nearby classroom (OBT 307, 309, 311 and 313) or just use the Meador Center
     
 2. Set up the other rooms with game board and tracking
 
@@ -57,13 +56,13 @@ That's an impressive amount of stuff!
 :::
 
 
-## Make an argument that one of the IR theories we've studied in class so far this term **"best"** explains the event you explored in Paper 1 {background-image="Images/background-worldmap4.png" .center}
+## {background-image="Images/background-worldmap4.png" .center}
+
+**Make an argument that one of the IR theories we've studied in class so far this term "best" explains the event you analyzed in Paper 1**
 
 <br>
 
-```{r, fig.align='center', out.width='100%'}
-knitr::include_graphics("Images/03_1-syllabus.png")
-```
+![](Images/03_1-syllabus.png){style="display: block; margin: 0 auto"}
 
 ::: notes
 Don't forget, your outline of the second paper is due at the end of the week.
@@ -177,7 +176,7 @@ Group 1 stay here, group 2 across the hall.
 :::
 
 
-## Assignment for Next Class {background-image="Images/background-blue_triangles.jpg" .center}
+## Assignment for Next Class {background-image="Images/background-worldmap4.png" .center}
 
 <br>
 

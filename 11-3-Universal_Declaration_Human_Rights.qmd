@@ -28,7 +28,9 @@ Justin Leinaweaver (Fall 2025)
 ::: notes
 Prep for Class
 
-1. Review Canvas submissions AND track which articles claimed to be most problematic (line 237-ish)
+1. IN CLASS: Review Canvas submissions AND track which articles claimed to be most problematic (line 237-ish)
+    
+    - Update slides as needed
 
 2. Bring markers x 4
 
@@ -41,111 +43,6 @@ Prep for Class
 Today I want us to analyze the UN's role as a norm entrepreneur in creating and propagating the Universal Declaration of Human Rights
 
 - We're undoubtedbly going to get sidetracked a lot, but let's try to keep our eye on evaluating the norm creation process
-
-<br>
-
-**SLIDE**: President Trump has launched a global trade war
-
-:::
-
-
-
-## {background-image="Images/background-worldmap4.png" .center}
-
-![](Images/00-Trump_trade_war3.png){style="display: block; margin: 0 auto"}
-
-::: notes
-
-What is going on in this administration?
-
-- How does anyone look at American history and think, those Smoot-Hawley tariffs led to a global depression and world wars
-
-- I'll have some of that, please!
-
-<br>
-
-And you'll not be shocked to hear, this will likely be more damaging to us today
-
-- Per the St Louis Federal Reserve and the Bureau of Economic Analysis
-
-- In 1920, total trade with the world made up under 10% of the US economy (GDP)
-
-- In 2023, per the World Bank, it was 25%.
-
-<br>
-
-When Smoot-Hawley acted they were gambling with 10% of our economy.
-
-- President Trump is jeopardizing one quarter of our economy.
-
-<br>
-
-**SLIDE**: Even more dangerous, the world doesn't seem to believe him anymore
-
-:::
-
-
-
-## {background-image="Images/background-worldmap4.png" .center}
-
-![](Images/00-Trump_trade_war2.png){style="display: block; margin: 0 auto"}
-
-::: notes
-
-Why aren't these tariffs increasing the value of the dollar?
-
-<br>
-
-Per Nobel Prize winning economist Paul Krugman
-
-- Standard economic analysis says that tariffs strengthen a nation’s currency. 
-
-- If the United States puts taxes on imports, this discourages businesses and consumers from buying foreign goods, which reduces the supply of dollars to the foreign exchange market and should drive the value of the dollar up.
-
-- But the dollar fell once investors began to see Trump policy in action. 
-
-- What business can’t deal with is a regime under which trade policy reflects the whims of a mad king, where nobody knows what tariffs will be next week, let alone over the next five years. Are these tariffs going to be permanent? Are they a negotiating ploy? The administration can’t even get its talking points straight
-
-- Under these conditions, how is a business supposed to make investments, or any kind of long-term commitment? Everyone is going to sit on their hands, waiting for clarity that may never come.
-
-<br>
-
-**SLIDE**: Are they wrong to think the administration doesn't know what it is doing?
-
-:::
-
-
-
-
-
-
-## {background-image="Images/background-worldmap4.png" .center}
-
-![](Images/00-Trump_trade_war1.png){style="display: block; margin: 0 auto"}
-
-::: notes
-
-Why has Russia been excluded from these tariffs?
-
-- We have a trade deficit with them, why isn't that one a problem?
-
-<br>
-
-Why are we applying tariffs to small islands that have no economic trade and no inhabitants?
-
-<br>
-
-Why have we applied a tariff to the US military base at Diego Garcia in the Indian Ocean?
-
-<br>
-
-I'm not even getting into the insane way these "reciprocal" tariff rates have been determined.
-
-- Amusingly described on BlueSky as: “You might as well divide the numbers of apples in your kitchen by the number of bagels & use it to calculate your mortgage rate. To criticise it on political or economic grounds is too generous”.
-
-<br>
-
-So, yeah, if it weren't all so horrible it'd be funny.
 
 <br>
 

@@ -63,9 +63,6 @@ Last class we started digging into our next answer to the question, why do wars 
 
 - (**SLIDE**)
 
-<br>
-
-
 :::
 
 
@@ -220,91 +217,13 @@ Now, zoom in on China.
 
 ## {background-image="Images/background-worldmap4.png" .center}
 
-:::: {.columns}
-::: {.column width="50%"}
-
 <br>
 
-<br>
-
-```{r, fig.align='left'}
-knitr::include_graphics("Images/08-2-trump_trade_war.webp")
-```
-:::
-
-::: {.column width="50%"}
-```{r, fig.align='right'}
-knitr::include_graphics("Images/11_2-Example-US_China3.jpg")
-```
-:::
-::::
+Effects of trade war
 
 ::: notes
 
-So, of course, Donald Trump launched a trade war with China.
-
-<br>
-
-Here we see the series of tit-for-tat escalations in terms of tariffs applied by each country on goods from the other.
-
-- Each set of tariffs harms the flow of goods across the world, e.g. disrupts trade.
-
-<br>
-
-### How does economic liberalism help us think about this trade war?
-
-#### - Why did it happen? Why did Trump start this "trade war"?
-(Protectionism!)
-
-<br>
-
-### How do we know if we are "winning"?
-(Manufacturing comes back to the US!)
-
-<br>
-
-### Are we winning?
-:::
-
-
-## The Effect? {background-image="Images/background-worldmap4.png" .center}
-
-"The trade war caused **economic pain on both sides** and led to diversion of trade flows away from both China and the United States. As described by Heather Long at the Washington Post, '**U.S. economic growth slowed, business investment froze, and companies didn't hire as many people**. Across the nation, a lot of farmers went bankrupt, and the manufacturing and freight transportation sectors have hit lows not seen since the last recession. **Trump's actions amounted to one of the largest tax increases in years**'" (Hass and Denmark 2020).
-
-::: notes
-
-Nope. Mostly just increasing suffering on all sides!
-
-- Prices have gone up,
-- Other countries are diverting trade away from both of us,
-- Taiwan, Mexico and Vietnam and other SE asian nations have done great (trade diversion)!
-- etc.
-
-<br>
-
-### What does Economic Liberalism tell us comes after all this?
-#### - What are the risks of it continuing?
-
-<br>
-
-### And where is the Biden admin on this?
-:::
-
-
-
-## {background-image="Images/background-worldmap4.png"}
-
-![](Images/11_2-Example-US_China1.png){.absolute left=200 top=0 width="70%"}
-
-![](Images/11_2-Example-US_China2.png){.absolute left=200 bottom=0 width="70%"}
-
-::: notes
-
-The Biden administration has essentially continued the policies for the time being.
-
-<br>
-
-### What is going on here? If the US is suffering, why keep this going?
+**What is going on here? If the US is suffering, why keep this going?**
 
 - From a Realist's perspective, the trade war MIGHT make sense
     - Some economic harm to consumers in exchange for slowing China's economic growth (e.g. power).
@@ -545,7 +464,7 @@ If class seems totally sold on Rodrik:
 
 
 
-## Assignment for Next Class {background-image="Images/background-blue_triangles.jpg" .center}
+## Assignment for Next Class {background-image="Images/background-worldmap4.png" .center}
 
 <br>
 
@@ -734,7 +653,7 @@ If class seems totally sold on Rodrik:
 
 
 
-## Assignment for Next Class {background-image="Images/background-blue_triangles.jpg" .center}
+## Assignment for Next Class {background-image="Images/background-worldmap4.png" .center}
 
 <br>
 

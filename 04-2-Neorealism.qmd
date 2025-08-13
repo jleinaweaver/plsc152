@@ -51,45 +51,14 @@ Reminder: Paper is due Friday!
 
 <br>
 
-**SLIDE**: It's a trade war!!
+For the rest of this week we dive into our first set of International Relations theories: Neorealism and Offensive Realism.
 
-:::
-
-
-
-## {background-image="Images/background-worldmap4.png" .center .smaller}
-
-![](Images/00-WSJ_Headline_OpEd_Dumb_Trade_War.png){style="display: block; margin: 0 auto"}
-
-- "This reminds us of the old Bernard Lewis joke that it’s risky to be America’s enemy but it can be fatal to be its friend."
-
-- "Leaving China aside, Mr. Trump’s justification for this economic assault on the neighbors makes no sense."
-
-- "None of this is supposed to happen under the U.S.-Mexico-Canada trade agreement that Mr. Trump negotiated and signed in his first term. The U.S. willingness to ignore its treaty obligations, even with friends, won’t make other countries eager to do deals. Maybe Mr. Trump will claim victory and pull back if he wins some token concessions. But if a North American trade war persists, it will qualify as one of the dumbest in history."
-
-::: notes
-
-When a Republican president has lost the WSJ editorial board, you know they've lost their way!
-
-- None of the president's justifications for targeting Canada make any sense
-
-- AND, both Canada and Mexico worked hard to give him what he wanted over the last two weeks, he didn't care about that at all
-
-<br>
-
-So, WTF is going on here?
-
-- For the rest of this week we dive into our first set of International Relations theories: Neorealism and Offensive Realism.
-
-- Maybe they can help us!
+- Maybe they can help us understand the world!
 
 <br>
 
 **SLIDE**: First things first, our focus in IR is on explaining international political events!
 :::
-
-
-
 
 
 
@@ -866,7 +835,7 @@ Connect this to current events for me!
 
 
 
-## Assignment for Next Class {background-image="Images/background-blue_triangles.jpg" .center}
+## Assignment for Next Class {background-image="Images/background-worldmap4.png" .center}
 
 <br>
 

@@ -485,7 +485,7 @@ Huge questions have to be broken down into smaller pieces.
 
 
 
-## Paper 2 {background-image="Images/background-blue_triangles.jpg" .center}
+## Paper 2 {background-image="Images/background-worldmap4.png" .center}
 
 <br>
 
@@ -507,7 +507,7 @@ Here is the prompt for the second paper.
 :::
 
 
-## For Friday: Draft an Outline {background-image="Images/background-blue_triangles.jpg" .smaller}
+## For Friday: Draft an Outline {background-image="Images/background-worldmap4.png" .smaller}
 
 **Intro**
 

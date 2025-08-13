@@ -29,9 +29,9 @@ Justin Leinaweaver (Fall 2025)
 ::: notes
 Prep for Class
 
-1. Review and record participation submissions
+1. Grade Canvas submissions
 
-2. Markers needed for 5 groups (?)
+2. Bring markers x 5
 
 <br>
 
@@ -71,13 +71,9 @@ Let's quickly zip around the room so you can introduce us to your chosen cases.
 
 Author, A. A. (Year of publication). *Title of work: Capital letter also for subtitle*. Publisher Name. DOI (if available)
 
-<br>
-
 **Articles**
 
 Author, A. A., Author, B. B., & Author, C. C. (Year). Title of article. *Title of Periodical, volume number*(issue number), pages. https://doi.org/xx.xxx/yyyy
-
-<br>
 
 **Web Pages**
 
@@ -175,9 +171,17 @@ Here's one version we might consider that sort of holds off on the "politics" de
 
 <br>
 
-### What do you have to have completed before our next class?
+### Putting the "science" in political science
+
+- Read Donovan and Hoover (2014)
+
+- Submit the Canvas assignment
 
 ::: notes
+
+**Any questions on what you need to have done for next class?**
+
+<br>
 
 Donovan, T., & Hoover, K. (2014). "The Elements of Science." In *The Elements of Social Scientific Thinking*.
 

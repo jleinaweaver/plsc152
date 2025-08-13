@@ -61,10 +61,12 @@ Our pre-class assignment prompt should have helped us collect a bunch of possibl
 
 <br>
 
-### Any APA citations need to be cleaned up?
+**Any APA citations need to be cleaned up?**
 
-Remember, the goal here is to help each other.
+- Remember, the goal here is to help each other.
+
 - You're not calling anybody out!
+
 - We want everyone to format correctly!
 :::
 
@@ -230,9 +232,11 @@ Much higher threshold!
 Is everybody clear on how evidence quality is incredibly important but depends on the context of the argument?
 
 - The Berlin Wall was torn down in 1991.
+
     - The NYT works!
 
 - The Berlin Wall coming down signaled the end of the Cold War and transformed US-Soviet relations
+
     - You better go get some HIGH quality academic sources and examples to support that argument!
 :::
 
@@ -270,11 +274,17 @@ Let's hear them all and give each other feedback!
 
 
 
-## For Next Class {background-image="Images/background-blue_triangles.jpg" .center}
+## For Next Class {background-image="Images/background-worldmap4.png" .center}
 
 <br>
 
-### What do you have to have completed before our next class?
+::: {.r-fit-text}
+
+1. Read Farrell (2010)
+
+2. Submit 10 possible premises for your argument
+
+:::
 
 ::: notes
 

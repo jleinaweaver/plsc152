@@ -37,7 +37,7 @@ Prep for Class
 
 
 
-## Final Exam (Due May 8th, 10am) {background-image="Images/background-blue_triangles2.png" .center}
+## Final Exam (Due Dec 10th, 10am) {background-image="Images/background-worldmap4.png" .center}
 
 <br>
 
@@ -120,7 +120,7 @@ Focus on each paper for 15 minutes (use all the time!)
 
 
 
-## For Friday: Outline {background-image="Images/background-blue_triangles2.png" .center .smaller}
+## For Friday: Outline {background-image="Images/background-worldmap4.png" .center .smaller}
 
 **Intro**
 

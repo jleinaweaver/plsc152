@@ -252,7 +252,7 @@ GROUPS, give this theory a test run as well!
 
 
 
-## Outline Due NEXT Friday {background-image="Images/background-blue_triangles2.png" .center .smaller}
+## Outline Due NEXT Friday {background-image="Images/background-worldmap4.png" .center .smaller}
 
 **Intro**
 

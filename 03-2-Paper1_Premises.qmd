@@ -427,7 +427,7 @@ Ok, take a look at the votes.
 
 
 
-## Next Class {background-image="Images/background-blue_triangles2.png" .center .smaller}
+## Next Class {background-image="Images/background-worldmap4.png" .center .smaller}
 
 ::::: {.columns}
 :::: {.column width="40%"}

@@ -40,7 +40,7 @@ REFLECTIONS SP24
 
 
 
-## For Today {background-image="Images/background-blue_triangles2.png" .center .smaller}
+## For Today {background-image="Images/background-worldmap4.png" .center .smaller}
 
 ::::: {.columns}
 :::: {.column width="40%"}
@@ -224,7 +224,7 @@ For today, I want you to help each other brainstorm a counter-argument for each 
 
 
 
-## Revise your Outline {background-image="Images/background-blue_triangles2.png" .center}
+## Revise your Outline {background-image="Images/background-worldmap4.png" .center}
 
 <br>
 

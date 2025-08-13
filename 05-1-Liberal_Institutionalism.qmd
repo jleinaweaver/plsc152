@@ -517,7 +517,7 @@ d1 |>
   annotate("segment", x = .75, xend = 1.5, y = 1.5, yend=1.5, color = "blue") +
   annotate("text", x = 1.1, y = 1.3, label = "1791 - 2001", color = "blue") +
   annotate("segment", x = 1.5, xend = 1.5, y = 1.3, yend=-1.3, color = "red", arrow = arrow(length = unit(.1, units = "in"))) +
-  annotate("text", x = 1.5, y = -1.5, label = "2025?", color = "red")
+  annotate("text", x = 1.5, y = -1.5, label = "2025", color = "red")
 ```
 
 ::: notes
@@ -534,13 +534,11 @@ So far the rhetoric of the government has not been to threaten the concept of po
 
 <br>
 
-I include the question mark here intentionally
-
-- Classifying our current status is not so cut and dried
+Classifying our current status is not so cut and dried
 
 - However, the evidence is accumulating quite rapidly that this is what is happening currently
 
-- This change would make America today a despotic democracy
+- America today is leaving behind its republican roots
 
 <br>
 
@@ -569,7 +567,7 @@ d1 |>
   # annotate("segment", x = .75, xend = 1.5, y = 1.5, yend=1.5, color = "blue") +
   # annotate("text", x = 1.1, y = 1.3, label = "1791 - 2001", color = "blue") +
   #annotate("segment", x = 1.5, xend = 1.5, y = -1.3, yend=1.3, color = "blue", arrow = arrow(length = unit(.1, units = "in"))) +
-  annotate("text", x = 1.5, y = -1.5, label = "2025?", color = "red") +
+  annotate("text", x = 1.5, y = -1.5, label = "2025", color = "red") +
   annotate("segment", x = 1.3, xend = -1, y = -1.5, yend=-1.5, color = "red", arrow = arrow(length = unit(.1, units = "in"))) +
   annotate("text", x = -1.35, y = -1.5, label = "The Bad\nTimeline", color = "red") #+
   #annotate("text", x = 1.5, y = 1.6, label = "The Good\nTimeline", color = "blue")
