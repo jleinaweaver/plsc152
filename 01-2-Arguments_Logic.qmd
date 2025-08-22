@@ -733,11 +733,15 @@ For next class we start by trying to define the most important concepts of our s
 
 
 
-## For Next Class {background-image="Images/background-blue_triangles.jpg" .center}
+## For Next Class {background-image="Images/background-worldmap4.png" .center}
 
 <br>
 
-### What do you have to have completed before our next class?
+### Case Study:
+
+- Find and submit a recent "international political event"
+
+- Details on Canvas
 
 ::: notes
 
@@ -759,7 +763,7 @@ Find a recent "international political event" described in the news.
 
 <br>
 
-### Has anybody ever used APA formatting for references and citations before?
+**Has anybody ever used APA formatting for references and citations before?**
 
 That's what we'll be using in this class (and all the social sciences).
 
