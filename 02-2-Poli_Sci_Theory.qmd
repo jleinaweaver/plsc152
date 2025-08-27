@@ -44,6 +44,8 @@ Prep for Class
     
 4. Note that you don't open today with refresher of last class, that comes in the middle of today's plan
 
+5. ALSO, move it along to get to the final exercise where they propose changes to the game and predict changes in the outcome. THAT'S to address the considerable skepticism raised in the discussion board about political "science"
+
 <br>
 
 Welcome back everybody!
@@ -248,7 +250,7 @@ Let's bring this idea about conceptual fights to the current day.
 
 
 
-## What should we do about the large number of people trying to cross our southern border with Mexico? {background-image="Images/background-worldmap4.png" .center}
+## What should we do about the people trying to cross our southern border with Mexico? {background-image="Images/background-worldmap4.png" .center}
 
 ::: notes
 This is a big policy problem facing the government right now.
@@ -266,7 +268,7 @@ BUT, what we should do about it depends entirely on how you define the problem.
 
 ## {background-image="Images/background-worldmap4.png" .center}
 
-**What should we do about the large number of people trying to cross our southern border with Mexico?**
+**What should we do about the people trying to cross our southern border with Mexico?**
 
 :::: {.columns}
 ::: {.column width="50%"}
@@ -303,7 +305,7 @@ BUT, what we should do about it depends entirely on how you define the problem.
 
 ## {background-image="Images/background-worldmap4.png" .center}
 
-**What should we do about the large number of people trying to cross our southern border with Mexico?**
+**What should we do about the people trying to cross our southern border with Mexico?**
 
 :::: {.columns}
 ::: {.column width="50%"}
@@ -359,60 +361,18 @@ When fundamental definitions are incompatible, we end up just talking past each 
 
 - These two sides cannot possibly have a productive conversation about this topic.
 
-- They can't even agree on what the problem actually is, let alonw how to solve it.
+- They can't even agree on what the problem actually is, let alone how to solve it.
 
 <br>
 
-### Make sense?
+**Make sense?**
 
 <br>
 
-**SLIDE**: One more example of the importance of definitions
+**SLIDE**: For the purposes of this class we really can't accomplish much if we don't first define a few key concepts!
+
 :::
 
-
-
-## "Legitimate" government actions? {background-image="Images/02_1-us_capitol_v2.png"}
-
-::: notes
-**Name for me a "legitimate" government action.**
-
-- **Something you believe the government can do that is fully consistent with the law**
-
-- *ON BOARD*
-
-- (Protection against invasion by a foreign army?)
-
-- (Taxation?)
-
-- (Providing public goods e.g. building roads, maintaining safe air travel)
-:::
-
-
-
-## "Illegitimate" government actions? {background-image="Images/02_1-us_capitol_v2.png"}
-
-::: notes
-**Name for me an "illegitimate" government action**
-
-- **Something you believe the government should not do!**
-
-- *ON BOARD*
-
-<br>
-
-### Compare and contrast these lists for me!
-
-### - Does everybody in here define government legitimacy the same way?
-
-<br>
-
-### Questions on the importance and power of defining concepts?
-
-<br>
-
-For the purposes of this class we really can't accomplish much if we don't first define a few key concepts!
-:::
 
 
 
@@ -597,9 +557,11 @@ Each of these is a "get out of jail free" card.
 
 <br>
 
-All I ask is that the class reach a consensus on the outcome.
+Basic Rules
 
-- Once you have all agreed, let me know and I'll distribute the cards.
+1. The class must reach a consensus on the outcome
+
+2. You have 5 minutes to decide or I tear up the cards
 
 <br>
 
@@ -618,11 +580,12 @@ All I ask is that the class reach a consensus on the outcome.
 
 ::: notes
 In a moment I'm going to ask you to answer these three questions.
+
 - So, take two minutes to reflect on our game and get ready to answer.
 
 <br>
 
-Ok, what just happened?
+REPORT BACK: Ok, what just happened?
 
 ### 1. How did you approach this game? What was your strategy? 
 
@@ -735,6 +698,7 @@ While these definitions seem pretty anodyne on their faces, these choices can be
 ::: notes
 
 Who gets what, when and how?
+
 - Why do groups form? Often it is to produce greater resources than any individual could do on their own
 
 - This could be money, food, a division of labor, or collective security
@@ -747,7 +711,7 @@ Who gets what, when and how?
 
 Bottom line, anytime a group of people have to come together to make a decision, a political scientist can be found who is interested in the process.
 
-### Any questions on this broad definition of the concept "politics"?
+- **Any questions on this broad definition of the concept "politics"?**
 
 <br>
 
@@ -755,7 +719,89 @@ Now let's talk about the "science" part of our reading for today.
 
 - Hoover and Donovan do a really nice job laying out how social scientists can follow a process in order to generate useful knowledge about the world.
 
-- For your participation point today I asked each of you to answer a fairly important question for me...
+- **What are the key elements of the scientific process according to the reading?**
+
+- (**SLIDE**)
+
+:::
+
+
+
+## {background-image="Images/background-worldmap4.png" .center}
+
+:::: {.columns}
+
+::: {.column width="50%"}
+
+::: {.r-fit-text}
+
+**Science**
+
+- A method, not a subject
+
+- Goal is inference
+
+- Uncertain conclusions
+
+- Procedures are public 
+
+:::
+:::
+
+::: {.column width="5%"}
+
+:::
+
+::: {.column width="45%"}
+![](Images/02_1-science_process_meme.png)
+:::
+
+::::
+
+::: notes
+
+The important takeaway for us.
+
+<br>
+
+Science is a process for generating knowledge, not a bucket of facts about the natural world.
+
+<br>
+
+The goal is to develop inferences about the world
+
+- e.g. derive generalizations from specific evidence
+
+- Key here is a reliance on “observable evidence”
+
+<br>
+
+All scientific conclusions are uncertain!
+
+- They depend on data, theory and method
+
+- And as you all noted in your Canvas discussions for today, all measurements include error!
+
+<br>
+
+Science is NEVER just about taking someone’s word for something.
+
+- Knowledge that cannot be independently confirmed is not useful.
+
+<br>
+
+Bottom line, you can study anything "scientifically."
+
+- Even politics!
+
+<br>
+
+**Make sense?**
+
+<br>
+
+**SLIDE**: For your participation point today I asked each of you to answer a fairly important question for me...
+
 :::
 
 
@@ -767,77 +813,20 @@ Now let's talk about the "science" part of our reading for today.
 ::: notes
 **Based on the reading, what do you think is the biggest challenge to doing political science as a "science"?**
 
+- You all submitted excellent attacks on my discipline to Canvas so let's discuss them!
+
 - *Give them time to explain and explore. Call on people if you must!*
 
+- *PRESENT and DISCUSS each*
+
 <br>
 
-### Can social scientists follow the scientific method? Why or why not?
-+ ("The point is that the scientific method seeks to test thoughts against observable evidence in a disciplined manner, with each step in the process made explicit" (H&D old p24))
+You've all raised some concerns about whether or not theories of politics can be useful given how unpredictable human beings are
 
-(p29: One version of the scientific method)
-1. Identify the concepts / variables to be studied
-2. Form a hypothesis (...proposes a relationship between two or more variables p26)
-3. Gather evidence
-4. Compare evidence to hypotheses, derive conclusions
-5. Discuss the uncertainty in those conclusions
+- **SLIDE**: Let's consider that...
+
 :::
 
-
-
-## {background-image="Images/background-worldmap4.png" .center}
-
-![](Images/02_1-science_process_meme.png){style="display: block; margin: 0 auto"}
-
-::: notes
-
-The important takeaway for us.
-
-<br>
-
-Science is a process for generating knowledge, not a bucket of facts about the natural world.
-
-- Science is NEVER just about taking someone’s word for something.
-
-- Knowledge that cannot be independently confirmed is not useful.
-
-- We rely only on “observable evidence”
-
-- “each step...made explicit” (p24)
-
-<br>
-
-You can study anything "scientifically."
-
-- Even politics!
-
-### Make sense?
-:::
-
-
-
-## {background-image="Images/02_1-theory_defined.png"}
-
-::: notes
-
-I also want to introduce the idea of theory today.
-
-"...a set of related propositions that suggest why events occur in the manner that they do" (p32).
-
-<br>
-
-### Any famous theories come to mind?
-+ (Relativity?)
-+ (Gravity?)
-+ (The big bang?)
-
-<br>
-
-In simple terms, theories are the arguments we use to explain why things happen.
-
-- We'll get more into this on Friday.
-
-- The bottom-line at this point is that thinking theoretically makes you a much smarter and more capable citizen.
-:::
 
 
 
@@ -845,30 +834,43 @@ In simple terms, theories are the arguments we use to explain why things happen.
 
 ::: notes
 
-Let's end today by applying a scientific perspective to our distribution game.
+Imagine we were about to run the "get out of jail free" card distribution game in a different class.
 
-- You guys all have models of politics deep in your gut so let's examine them! 
+- Lets start with some predictions
 
 <br>
 
-Imagine you're going to run this simulation in a different class. 
+Before we play the game I want you to make a series of predictions
 
-### What would you want to know about that class to help you predict the outcome of the game? Why?
+1. Will the class successfully distribute the cards before the time runs out?
 
-### - Explain the assumptions you are making!
+2. Who will get them?
+
+<br>
+
+I'm willing to give you any details about the class that you want to help you make your predictions.
+
+- **What specifically would you want to know? Why?**
+
+- *Force this discussion and connect each to an intuitive theory of group behavior*
 
 - *ON BOARD*
 
 <br>
 
-### BRAINSTORM: Propose a rule change to the game and tell me how it would impact the outcome
+Now let's go the other way with this.
 
-- *ON BOARD*
-- (Gender breakdown?)
-- (% Student athletes?)
-- (Extroverts vs introverts?)
-- (Class size?)
-- (When during the semester is it?)
+- **How could we change the game itself (e.g. the rules) to get different outcomes?**
+
+<br>
+
+Prompts if helpful:
+
+1. Rules that prevent the class from deciding?
+
+2. Rules that ensure that a fight breaks out?
+
+3. Rules that ensure only male students get a card?
 
 <br>
 
@@ -877,6 +879,8 @@ All of your ideas here on the board represent EITHER:
 1. A reflection of the theories/models in your head that guide your assessment of how politics works, OR
 
 2. the building blocks of new political science theories in the making.
+
+<br>
 
 I think that's super cool.
 :::
@@ -898,4 +902,81 @@ For next class you'll be reading a chapter that will introduce you to some of th
 <br>
 
 ### Questions on anything from today?
+:::
+
+
+
+
+
+## Old slides
+
+
+
+
+## "Legitimate" government actions? {background-image="Images/02_1-us_capitol_v2.png"}
+
+::: notes
+**Name for me a "legitimate" government action.**
+
+- **Something you believe the government can do that is fully consistent with the law**
+
+- *ON BOARD*
+
+- (Protection against invasion by a foreign army?)
+
+- (Taxation?)
+
+- (Providing public goods e.g. building roads, maintaining safe air travel)
+:::
+
+
+
+## "Illegitimate" government actions? {background-image="Images/02_1-us_capitol_v2.png"}
+
+::: notes
+**Name for me an "illegitimate" government action**
+
+- **Something you believe the government should not do!**
+
+- *ON BOARD*
+
+<br>
+
+### Compare and contrast these lists for me!
+
+### - Does everybody in here define government legitimacy the same way?
+
+<br>
+
+### Questions on the importance and power of defining concepts?
+
+<br>
+
+For the purposes of this class we really can't accomplish much if we don't first define a few key concepts!
+:::
+
+
+
+## {background-image="Images/02_1-theory_defined.png"}
+
+::: notes
+
+Theory, per the reading, is "...a set of related propositions that suggest why events occur in the manner that they do" (p32).
+
+<br>
+
+**Any famous theories come to mind?**
+
++ (Relativity?)
++ (Gravity?)
++ (The big bang?)
+
+<br>
+
+In simple terms, theories are the arguments we use to explain why things happen.
+
+- You've all raised some concerns about whether or not theories of politics can be useful given how unpredictable human beings are
+
+- **SLIDE**: Let's consider that...
+
 :::
