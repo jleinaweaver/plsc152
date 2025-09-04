@@ -134,7 +134,7 @@ First things first, let's make sure everyone has selected an international polit
 
 <br>
 
-### Refresh my memory, how did we define these key concepts in class?
+**Refresh my memory, how did we define these key concepts in class?**
 
 <br>
 
@@ -144,19 +144,21 @@ First things first, let's make sure everyone has selected an international polit
 
 
 
-## Assignment for Today {background-image="Images/background-worldmap4.png" .center}
+## {background-image="Images/background-worldmap4.png" .center}
 
 **Find an international political event from the last six months that you find interesting and would like to explore more deeply.**
 
 <br>
 
-A thing or happening with a global impact or involving more than one state that impacts
+The event must:
 
-- Community decision-making,
+- Be a thing or happening from the past, 
 
-- Who gets what, when and how, or
+- Have a global impact or involve more than one state,
 
-- How rules are made or enforced
+- Impact community decision-making, resource distribution or how rules are made or enforced
+
+- Must be explainable as actor X took action Y on date Z
 
 ::: notes
 
@@ -199,9 +201,9 @@ Get to it!
 
 <br>
 
-Is this an important international political event?
+Evaluate the submitted evidence
 
-- Evaluate the submitted evidence
+- Is this high quality enough to establish the basic elements?
 
 ::: notes
 
