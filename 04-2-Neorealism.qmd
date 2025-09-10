@@ -470,7 +470,7 @@ Pairs group up and let's get these diagrams on the board!
 
 <br>
 
-**SLIDE**: Here's the traditional view of neorealism's key assumptions.
+**SLIDE**: Let's start with the interests in neorealism
 :::
 
 
@@ -483,12 +483,11 @@ Pairs group up and let's get these diagrams on the board!
 
 **Institutions**
 
-- International anarchy
+- ?
 
 **Interactions**
 
-- You must fend for yourself (threats are everywhere)
-- Security dilemmas dominate
+- ?
 
 
 ::: notes
@@ -497,24 +496,32 @@ Let's start by discussing the interests in this model
 
 <br>
 
-### What is meant by a unitary state? 
-### - Does it help if I tell you this is often referred to as the black box assumption?
+**What is meant by a unitary state?**
+
+- **Does it help if I tell you this is often referred to as the black box assumption?**
+
 - (By unitary, we mean forming a single entity.)
 
 - The black box: All of the characteristics of the state (e.g. wealth, regime type, voting system) go inside the box and the lid is closed.
 
-### Since we cannot see inside the box, should we spend time measuring or debating what is inside?
+<br>
+
+**Since we cannot see inside the box, should we spend time measuring or debating what is inside?**
+
 - (Nope.)
 
 <br>
 
-### What does 'security, not power' mean?
+**What does 'security, not power' mean?**
+
 - (Power is the means to the end, not the end.)
+
     - The end is survival
 
 <br>
 
-### What is the counterintuitive conclusion about power raised by Waltz?
+**What is the counterintuitive conclusion about power raised by Waltz?**
+
 - (Too much power makes you a threat to everyone else!)
 
 <br>
@@ -524,6 +531,50 @@ Neorealists focus on states as the key units embedded in the international syste
 - HOWEVER, what they care about is the placement of units in the system, NOT by reference to their internal qualities themselves.
 
 - Neorealism is a view of international politics with black boxes of different sizes running into each other on a map of the world.
+
+<br>
+
+**SLIDE**: Institutions next
+:::
+
+
+
+## Neorealism (Waltz 1988) {background-image="Images/background-slate_v2.png" .center}
+
+**Interests**
+
+- Unitary states want security, not power
+
+**Institutions**
+
+- International anarchy
+
+**Interactions**
+
+- ?
+
+::: notes
+
+Now let's talk about the institutions in Neorealism
+
+<br>
+
+**What is meant by anarchy?**
+
+- (“...absence of a central monopoly of legitimate force.”)
+
+<br>
+
+**What does that mean in practical, real-world terms?**
+
+- (No world police.)
+
+- No actor holds a monopoly (e.g. exclusive control) on the use of legitimate force (e.g. legal / allowable violence)
+
+<br>
+
+**SLIDE**: What does all of this mean for states?
+
 :::
 
 
@@ -545,23 +596,11 @@ Neorealists focus on states as the key units embedded in the international syste
 
 ::: notes
 
-Now let's talk about the institutions in Neorealism
-
-<br>
-
-### What is meant by anarchy?
-- (“...absence of a central monopoly of legitimate force.”)
-
-### What does that mean?
-- (No world police.)
-    - monopoly: exclusive control of
-    - legitimate force: legal / allowable violence
-
-<br>
-
 The final element of this model is the interactions.
 
-### Why does everything look like a threat to states?
+<br>
+
+**Why does everything look like a threat to states?**
 
 - Every state will feel more secure in a world where its security is greater than yours
 
