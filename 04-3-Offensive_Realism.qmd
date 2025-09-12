@@ -33,9 +33,12 @@ Prep for Class
 
 2. NOTE: Made tweaks before class FA23 and created a saved version of prior plan with replay of game ("SAVE-04-3-Offensive_Realism.Rmd")
 
+3. Markers x 4
+
 <br>
 
-### Any new international political events catching your eye this week? What's going on out there?
+**Any new international political events catching your eye this week? What's going on out there?**
+
 :::
 
 
@@ -51,7 +54,13 @@ knitr::include_graphics('Images/06_1-WW1-2.jpg')
 
 Last class we began exploring the next section of our class: Why Are There Wars?
 
-### Refresh my memory, why is this a puzzling question?
+<br>
+
+**Refresh my memory, why is this a puzzling question?**
+
+<br>
+
+**SLIDE**: Section 2 of the class
 
 :::
 
@@ -74,7 +83,9 @@ Last class we began exploring the next section of our class: Why Are There Wars?
 
 Let's refresh our work from last class:
 
-### What does it mean to say that scientific models are like maps? What does that mean is true of all the models on this list?
+<br>
+
+**What does it mean to say that scientific models are like maps? What does that mean is true of all the models on this list?**
 
 <br>
 
@@ -86,15 +97,15 @@ So, all of these models are simplifications of reality that are neither true nor
 
 Last class I introduced you to interests, institutions and interactions as a way to diagram and analyze a model.
 
-### Refresh my memory, what are the "interests" in a model?
+- **Refresh my memory, what are the "interests" in a model?**
 
-### What are the "institutions" in a model?
+- **What are the "institutions" in a model?**
 
-### What are the "interactions" in a model?
+- **What are the "interactions" in a model?**
 
 <br>
 
-### Ok, put this all together for me, what is the map of international political events provided by neorealism?
+**Ok, put this all together for me, what is the map of international political events provided by neorealism?**
 
 - (**SLIDE**)
 
@@ -102,7 +113,7 @@ Last class I introduced you to interests, institutions and interactions as a way
 
 
 
-## Neorealism (Waltz 1988) {background-image="Images/background-slate_v2.png" .center}
+## Neorealism (Waltz 1988) {background-image="Images/background-worldmap4.png" .center}
 
 **Interests**
 
@@ -119,15 +130,15 @@ Last class I introduced you to interests, institutions and interactions as a way
 
 ::: notes
 
-### Name an international political event that this model explains really well.
+**Name an international political event that this model explains really well.**
 
 <br>
 
-### Name an international political event that this model does NOT explain well.
+**Name an international political event that this model does NOT explain well.**
 
 <br>
 
-### Overall, what are the strengths and weaknesses of this as our model of international politics?
+**Overall, what are the strengths and weaknesses of this as our model of international politics?**
 
 <br>
 
@@ -156,22 +167,96 @@ Let's diagram the model!
 
 On your own, 5 mins, diagram Neorealism as an answer to these three questions
 
-<br>
+- Force yourself to write this down!
 
-Consolidate diagrams with the person next to you
+- It's way harder, and much more productive, when you have to put pencil to paper
 
-<br>
-
-### PAIRS, report back!
+- Go!
 
 <br>
 
-**SLIDE**: Here's the traditional view of Offensive Realism's key assumptions.
+Ok, consolidate diagrams with the person next to you
+
+- Get ready to report back your diagrams
+
+<br>
+
+**Ok, pairs, who are the interests in offensive realism?**
+
+- (**SLIDE**)
+
 :::
 
 
 
-## Offensive Realism (Mearsheimer 2001) {background-image="Images/background-slate_v2.png" .center}
+## Offensive Realism (Mearsheimer 2001) {background-image="Images/background-worldmap4.png" .center}
+
+**Interests**
+
+- Great powers seeking hegemony
+
+**Institutions**
+
+- ?
+
+**Interactions**
+
+- ?
+
+::: notes
+
+**Clarify this for me, how is this first assumption different from neorealism?**
+
+- (Not all states matter for explaining international political events)
+
+- (Not about security, but hegemony, e.g. the pursuit of regional dominance)
+
+<br>
+
+So, Mearsheimer looked at neorealism and thought, world politics is driven by the most powerful states pursuing power, not all states worried about survival.
+
+<br>
+
+**Ok, pairs, who are the institutions in offensive realism?**
+
+- (**SLIDE**)
+
+:::
+
+
+
+## Offensive Realism (Mearsheimer 2001) {background-image="Images/background-worldmap4.png" .center}
+
+**Interests**
+
+- Great powers seeking hegemony
+
+**Institutions**
+
+- International anarchy
+
+**Interactions**
+
+- ?
+
+::: notes
+
+The same!
+
+- This is probably what most closely unites the two theories as "realist"
+
+<br>
+
+**Ok, pairs, who are the interactions in offensive realism?**
+
+- (**SLIDE**)
+
+:::
+
+
+
+
+## Offensive Realism (Mearsheimer 2001) {background-image="Images/background-worldmap4.png" .center}
 
 **Interests**
 
@@ -188,17 +273,14 @@ Consolidate diagrams with the person next to you
 - Weakness invites attack (rational opponents)
 
 ::: notes
-**Any questions on the key assumptions in Offensive Realism?**
+
+So, for Mearsheimer world politics are not a security dilemma, they are driven by powerful states constantly seeking advantage over their neighbors!
 
 <br>
 
-Clearly the big distinction here focuses on "greatness".
+Before we dig into the theory, let's explore the idea of "greatness" here
 
-- So, let's explore that idea.
-
-<br>
-
-*Split class into groups of 5*
+- *Split class into groups of 5*
 
 - Go sit with your group!
 
@@ -231,9 +313,9 @@ Groups I want you to put two things on the board:
 
 <br>
 
-### Questions on the task?
+**Questions on the task?**
 
-- PRESENT and DISCUSS each
+- *PRESENT and DISCUSS each*
 
 :::
 
@@ -263,20 +345,22 @@ Waltz, K. (1979). *Theory of International Politics*. McGraw-Hill.
 
 Here is Kenneth Waltz’s criteria for qualifying as a "great power."
 
-### Whose list is better, his or ours? Why?
+- **Whose list is better, his or ours? Why?**
 
 <br>
 
-### Can everybody see how this is a huge problem for this theory?
+**Can everybody see how this is a huge problem for this theory?**
+
 - (No single definition of “great” or “powerful” will be appropriate in all contexts.)
 
 <br>
 
-### Given that defining a "great power" is so problematic, why in the world might someone prefer offensive to neorealism?
+**Given that defining a "great power" is so problematic, why in the world might someone prefer offensive to neorealism?**
 
 <br>
 
 1) We prefer simple models to more complex ones
+
 - Fewer moving parts means easier to apply.
 
 - Need less information / time to make predictions
@@ -286,11 +370,13 @@ Here is Kenneth Waltz’s criteria for qualifying as a "great power."
 <br>
 
 2) While "great" is debatable, most definitions identify the same countries
+
 - If you expand the list enough it gets hazy, but identifying the absolutely most powerful states isn't that hard to do.
 
 <br>
 
 3) Offensive realism allows us to make different predictions than the others
+
 - **SLIDE**: Let's talk about how!
 
 :::
@@ -305,13 +391,14 @@ Here is Kenneth Waltz’s criteria for qualifying as a "great power."
 ::: notes
 
 Offensive realism covers essentially the same ground as neorealism.
+
 - Makes sense given the shared assumptions about unitary states and anarchy.
 
 - However, they disagree fundamentally about who matters and what they want
 
 <br>
 
-### So, in what specific ways would offensive realism make different predictions from Neorealism?
+**So, in what specific ways would offensive realism make different predictions from Neorealism?**
 
 <br>
 
@@ -325,17 +412,19 @@ OR emphasizes "power maximization" as an expectation rather than just stopping w
     
 <br>
 
-### Why does Mearsheimer argue great powers MUST pursue hegemony? Why not stop when you feel safe?
+**Why does Mearsheimer argue great powers MUST pursue hegemony? Why not stop when you feel safe?**
 
 1. (Hard to assess relative power.)
+
     - I can’t tell precisely by how much I am stronger or weaker than you.
 
 2. (Even harder to project into the future.)
+
     - Across time I can’t know how our powers’ will change.
 
 <br>
 
-### Does that make sense?
+**Does that make sense?**
 
 <br>
 
@@ -357,6 +446,38 @@ This dude is hard core.
 
 <br>
 
+1. Liberal institutionalist readings in the syllabus
+
+2. **Before class** submit to our Canvas discussion board:
+
+Generally speaking, do you believe Kant's proposal, or any other international rules, could succeed in preventing most future wars?
+
+::: notes
+
+**TIME REMAINING: Questions on the paper? Writing workshop time**
+
+<br>
+
+Canvas: The "Liberal" Answer
+
+Generally speaking, do you believe Kant's proposal, or any other international rules, could succeed in preventing most future wars? (2-3 sentences)
+
+:::
+
+
+
+##
+
+Slides for different number of classes this week
+
+
+
+
+
+## Assignment for Next Class {background-image="Images/background-worldmap4.png" .center}
+
+<br>
+
 ::: {.r-fit-text}
 **Writing Workshop**
 :::
@@ -368,29 +489,3 @@ Friday we will have a writing workshop.
 - Bring in your drafts to get feedback from each other and to work!
 
 :::
-
-
-
-
-
-##
-
-Slides for different number of classes this week
-
-
-## Assignment for Next Class {background-image="Images/background-worldmap4.png" .center}
-
-<br>
-
-1. Liberal institutionalist readings in the syllabus
-
-2. **Before class** submit to our Canvas discussion board:
-
-Generally speaking, do you believe Kant's proposal, or any other international rules, could succeed in preventing most future wars?
-
-::: notes
-
-TIME REMAINING: Questions on the paper? Writing workshop time
-
-:::
-
