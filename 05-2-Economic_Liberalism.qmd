@@ -29,11 +29,11 @@ Justin Leinaweaver (Fall 2025)
 ::: notes
 Prep for Class
 
-1. Check Canvas participation
+1. *Save current events check-in for institutionalism applied discussion on next slide*
 
 <br>
 
-### DISCUSS: Name me an international political event that has happened since we last met as a class.
+**SLIDE**: This week we have begun exploring our next set of answers to the question, why are there wars?
 
 :::
 
@@ -69,7 +69,7 @@ Last class we explored the roots of the democratic peace in Liberal Institutiona
 
 <br>
 
-### What are the key interests, institutions and interactions in this model of international politics? 
+**Refresh my memory, what are the key interests, institutions and interactions in this model of international politics?**
 
 - (**SLIDE**)
 :::
@@ -95,22 +95,35 @@ Last class we explored the roots of the democratic peace in Liberal Institutiona
 
 ::: notes
 
-Let's give this theory a test run.
+**Does everybody have this model diagram in their notes?**
 
-### Name a recent international political event and use this theory to explain it.
+- Make sure you cite Keohane when using this model
 
-- *Force this discussion / exploration*
+- The FLS chapter was meant to give you an easier set of examples for HOW and WHY institutions can make cooperation easier
+
+- BUT the real source for this model is Keohane's book
 
 <br>
 
-Liberalism, in broad strokes, is an argument that even though **it'll be REALLY hard, it IS possible for countries and people to cooperate.**
+**Okay, it's current events time! Name me a recent international political event.**
+
+- **How would neorealists explain this event?**
+
+- **How would offensive realists explain this event?**
+
+- **And how would liberal institutionalists explain this event?**
+
+<br>
+
+**Do it again! Name another international political event**
+
+- *Repeat above*
+
+<br>
+
+Please keep in mind: Liberal approaches to IR tend to argue that peace and cooperation is possible in the world but it will be REALLY hard to achieve
 
 - This runs counter to the arguments of realists who argue that meaningful cooperation is basically impossible.
-
-- This maps nicely onto the development of IR as a subfield of Poli Sci.
-    - WW1 and WW2 devastate the world, hence realism
-    - Post-war reconstruction and institution building not quite as terrifying as feared.
-    - The question was, why not?
 
 <br>
 
@@ -122,7 +135,7 @@ The thing is, various scholars have advanced different mechanisms to explain how
 
 <br>
 
-#### Notes
+*Notes*
 
 According to Robert Keohane and other liberal institutionalists, institutions facilitate cooperation by:
 
@@ -168,26 +181,94 @@ Take 5 minutes on your own.
 
 <br>
 
-Now combine diagrams with the person next to you (small groups).
+Ok, small groups time, get ready to report back on the interests in this model.
 
-- Consolidate to a single argument.
+- Go!
 
 <br>
 
-*ON BOARD*
+**SLIDE**: Interests - States want growth
 
-### Ok, give me premises, let's diagram this version of the argument.
+:::
 
-##### (Interests)
-- States want to grow
 
-##### (Institutions)
-- States may choose to start wars or to seek trade (international anarchy). International anarchy means it's basically up to them.
 
-##### (Interactions)
-- War is risky (you may lose)
-- The returns to trade grow over time
-- Increasing trade transforms the state's "social structure"
+## Economic Liberalism (Nye 2007) {background-image="Images/background-worldmap4.png" .center}
+
+**Interests**
+
+- States want growth
+
+**Institutions**
+
+- ?
+
+**Interactions**
+
+- ?
+
+::: notes
+
+**What does this mean?**
+
+- (Get bigger? More powerful? Richer?)
+
+- Somewhat ambiguous to allow the model to adapt to different kinds of states
+
+<br>
+
+**How different is this from the realist models?**
+
+<br>
+
+Groups, get ready to report back, what are the relevant institutions that constrain these "growth" seeking states?
+
+- Go!
+
+<br>
+
+**SLIDE**: Institutions - Anarchy
+
+:::
+
+
+
+## Economic Liberalism (Nye 2007) {background-image="Images/background-worldmap4.png" .center}
+
+**Interests**
+
+- States want growth
+
+**Institutions**
+
+- International anarchy (States may choose to start wars or seek trade)
+
+**Interactions**
+
+- ?
+
+::: notes
+
+Thanks to international anarchy, states may choose to start wars or to seek trade
+
+- International anarchy means it's basically up to them
+
+<br>
+
+Very similar perspective to the realists
+
+- The difference here is in considering options OTHER than war for growing a state
+
+<br>
+
+Groups, get ready to report back on the last one, what are the relevant interactions in this model?
+
+- Go!
+
+<br>
+
+**SLIDE**: Interactions
+
 :::
 
 
@@ -200,7 +281,7 @@ Now combine diagrams with the person next to you (small groups).
 
 **Institutions**
 
-- States may choose to start wars or seek trade (anarchy)
+- International anarchy (States may choose to start wars or seek trade)
 
 **Interactions**
 
@@ -210,27 +291,36 @@ Now combine diagrams with the person next to you (small groups).
 
 ::: notes
 
-My version of the diagram.
-
-- Therefore, increasing trade should reduce the likelihood of war.
-
-- Very much still in line with the realists view of institutions, right?
+**Is this a logical argument? Why or why not?**
 
 <br>
 
-### Is this a logical argument? Why or why not?
+**As a series of assumptions, what are the strongest parts of this model? Why?**
 
 <br>
 
-Let's talk about whether or not this is convincing.
-
-### What are the strongest and weakest parts of this model?
+**What are the weakest parts of this model? Why?**
 
 <br>
 
-### What evidence could I show you to convince you of each premise?
+Two problems with the model
 
-(Fourth premise is too vague to be evaluated with evidence.)
+1. Useful models can explain real world events and it is easy to show evidence for every assumption here except the last one
+
+    - The fourth premise is a bit too unclear to be evaluated
+    
+    - What is a transformed social structure?
+    
+2. In addition, this vagueness undermines the logic of the model
+
+    - The transformed social structure is HUGELY important to reaching the conclusion that trade reduces war
+    
+    - This vagueness weakens the model in terms of its inductive logic
+
+<br>
+
+**SLIDE**: And that's why I also assigned you the Rosecrance excerpt
+
 :::
 
 
@@ -238,7 +328,7 @@ Let's talk about whether or not this is convincing.
 ## {background-image="Images/background-worldmap4.png" .center .smaller}
 
 ::: {.r-fit-text}
-**Economic Liberalism (Rosecrance 1986)**
+**Economic Liberalism ([Rosecrance 1986]{style="color:red;"})**
 :::
 
 **Interests**
@@ -247,29 +337,28 @@ Let's talk about whether or not this is convincing.
 
 **Institutions**
 
-- States may choose to start wars or seek trade (anarchy)
+- International anarchy (States may choose to start wars or seek trade)
 
 **Interactions**
 
 - War is risky
 - The returns to trade grow over time
-- **...?**
+- [**...?**]{style="color:red;"}
 
 ::: notes
 
-We need more detail about the mechanism itself in order to be convinced.
+Groups, focus on Rosecrance's description of "the trading world" and get ready to report back on how we need to change the model
 
-### With the person next to you, use the Rosecrance excerpt to modify and clarify this model of international politics.
-
-- Let's replace the vague "social structures" with something more concrete
-
-- Focus on his description of "the trading world."
+- Go!
 
 <br>
 
-### Ok, give me options?
+**Ok, give me options**
 
-*DISCUSS EXAMPLES*
+<br>
+
+**SLIDE**: My approach
+
 :::
 
 
@@ -277,7 +366,7 @@ We need more detail about the mechanism itself in order to be convinced.
 ## {background-image="Images/background-worldmap4.png" .center .smaller}
 
 ::: {.r-fit-text}
-**Economic Liberalism (Rosecrance 1986)**
+**Economic Liberalism ([Rosecrance 1986]{style="color:red;"})**
 :::
 
 **Interests**
@@ -286,13 +375,13 @@ We need more detail about the mechanism itself in order to be convinced.
 
 **Institutions**
 
-- States may choose to start wars or seek trade (anarchy)
+- International anarchy (States may choose to start wars or seek trade)
 
 **Interactions**
 
-- War is risky **and disrupts trade**
+- War is risky [**and disrupts trade**]{style="color:red;"}
 - The returns to trade grow over time
-- **Specialized economies are dependent on trade for growth**
+- [**Specialized economies are dependent on trade for growth**]{style="color:red;"}
 - Therefore, increasing trade should reduce the occurrence of war.
 
 ::: notes
@@ -389,7 +478,7 @@ At that level EVERYONE has been made worse off by your attempt to diversify your
 ## {background-image="Images/background-worldmap4.png" .center .smaller}
 
 ::: {.r-fit-text}
-**Economic Liberalism (Rosecrance 1986)**
+**Economic Liberalism ([Rosecrance 1986]{style="color:red;"})**
 :::
 
 **Interests**
@@ -398,15 +487,14 @@ At that level EVERYONE has been made worse off by your attempt to diversify your
 
 **Institutions**
 
-- States may choose to start wars or seek trade (anarchy)
+- International anarchy (States may choose to start wars or seek trade)
 
 **Interactions**
 
-- War is risky **and disrupts trade**
+- War is risky [**and disrupts trade**]{style="color:red;"}
 - The returns to trade grow over time
-- **Specialized economies are dependent on trade for growth**
+- [**Specialized economies are dependent on trade for growth**]{style="color:red;"}
 - Therefore, increasing trade should reduce the occurrence of war.
-
 
 ::: notes
 **What is the advantage of this version of the argument over the earlier version proposed by Nye?**
@@ -451,6 +539,14 @@ Alloway, T. (2022, Dec). How a Semiconductor Shortage Can Impact the Supply of G
 Global trade aims to achieve maxiumum efficiency which leads to both specialization and some crazy supply chains!
 
 - Why let anything go to waste if someone can use it?
+
+<br>
+
+**So, when president Trump argues that other countries are taking advantage of us because they sell us more stuff than we buy from them, what point is he missing according to this model?**
+
+<br>
+
+**SLIDE**: Connect the dots back to liberal institutionalism
 
 :::
 
@@ -553,7 +649,7 @@ As the ice melts it is getting MUCH easier for states to see the Arctic seabed a
 ## {background-image="Images/background-worldmap4.png" .center .smaller}
 
 ::: {.r-fit-text}
-**Economic Liberalism (Rosecrance 1986)**
+**Economic Liberalism ([Rosecrance 1986]{style="color:red;"})**
 :::
 
 **Interests**
@@ -562,13 +658,13 @@ As the ice melts it is getting MUCH easier for states to see the Arctic seabed a
 
 **Institutions**
 
-- States may choose to start wars or seek trade (anarchy)
+- International anarchy (States may choose to start wars or seek trade)
 
 **Interactions**
 
-- War is risky **and disrupts trade**
+- War is risky [**and disrupts trade**]{style="color:red;"}
 - The returns to trade grow over time
-- **Specialized economies are dependent on trade for growth**
+- [**Specialized economies are dependent on trade for growth**]{style="color:red;"}
 - Therefore, increasing trade should reduce the occurrence of war.
 
 ::: notes
