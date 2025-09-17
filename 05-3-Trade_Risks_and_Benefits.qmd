@@ -33,6 +33,8 @@ Prep for Class
 
 2. NOTE: You made tweaks to the following during class in FA24 to set this up as splitting the class in half and having them work directly on the board
 
+3. NOTE 2: You removed the trade war stuff for now
+
 <br>
 
 *Depends on grading*
@@ -178,88 +180,6 @@ Trade -> specialization -> peace
 :::
 
 
-
-
-## {background-image="Images/11_2-Example-US_China_Trade.png"}
-
-::: notes
-
-Let's use this model to help us analyze the US position as a trading partner to the world.
-
-- Here we see the top 15 trade partners of the US in 2011.
-
-<br>
-
-### What do we learn from this about the US position in the world?
-
-<br>
-
-### What does Economic Liberalism tell us to expect based on this data? What kinds of behavior should we see from the US and from its trade partners?
-
-<br>
-
-Now, zoom in on China.
-
-<br>
-
-### What is the benefit to us of all these imports coming in from China?
-
-- (Cheap stuff for consumers means quality of life increasing!)
-    - Prices fall
-    - You get more stuff for your spending
-
-<br>
-
-### And what does economic liberalism tell us to expect about this deep trade relationship between the US and China?
-:::
-
-
-
-## {background-image="Images/background-worldmap4.png" .center}
-
-<br>
-
-Effects of trade war
-
-::: notes
-
-**What is going on here? If the US is suffering, why keep this going?**
-
-- From a Realist's perspective, the trade war MIGHT make sense
-    - Some economic harm to consumers in exchange for slowing China's economic growth (e.g. power).
-    
-- If the Biden admin believes China is a growing threat then some costs are worth paying to try and slow their growth.
-
-<br>
-
-### Bottom line, what do we think, is the trade war with China worth the risks and the costs? Why or why not?
-
-*DISCUSS*
-
-<br>
-
-**Notes**
-
-From an Economic Liberal perspective this trade war gives us:
-- Slower economic growth,
-- higher taxes for consumers, and
-- fewer houses and jobs for all of us.
-
-Why? Specialization!
-- We must now begin investing in production of goods we are less efficient at producing in order to replace buying them from abroad. Resources spent on this are by definition less efficient.
-
-- We are trading economic growth for self-sufficiency (and a more conflict prone world according to econ lib).
-
-- The key framing of trade by economic liberalism is one of expanding the proverbial pie.
-
-- Engaging in trade is not being exploited.
-    - You get something for your money.
-
-- The current US trade deficit is big because US consumers like to buy cheap stuff from China.
-    - The deficit does NOT mean China is stealing from us.
-
-- AND, the more we depend on other countries for stuff, the safer the world becomes!
-:::
 
 
 
