@@ -30,10 +30,13 @@ Justin Leinaweaver (Fall 2025)
 Prep for Class
 
 1. Cards for bargaining game:
+
     - Print and cut out cards in Google Drive, OR
+
     - Sets of cards from multiple decks (**TEST** no aces and 2-9)
 
 2. Bring pennies or use paper to track scores
+
     - 10 per student
 
 3. Open Wednesday slides in rmarkdown for tracking results
@@ -145,6 +148,8 @@ My plan for today is that each of you experience the dynamics of the model befor
 
 <br>
 
+::: {.r-fit-text}
+
 - Two players fight each other five times
 
 - Your "strength" depends on your cards
@@ -152,6 +157,8 @@ My plan for today is that each of you experience the dynamics of the model befor
 - Your "resources" are measured in pennies
 
 - Objective: Have the most pennies at end of round 5
+
+:::
 
 ::: notes
 
@@ -296,7 +303,7 @@ Each round you'll alternate being P1 and we'll play five rounds.
 
 <br>
 
-### Questions on the game?
+**Questions on the game?**
 :::
 
 
@@ -365,15 +372,17 @@ P2s, you look at your hand and decide its pretty darn strong too!
 
 Both sides pay the costs of war!
 
-### Is everybody now holding three cards and only 8 pennies?
+<br>
+
+**Is everybody now holding three cards and only 8 pennies?**
 
 <br>
 
-### Ok, who wins the pot?
+**Ok, who wins the pot?**
 
 <br>
 
-### Everybody clear on how to play the game?
+**Everybody clear on how to play the game?**
 :::
 
 
@@ -415,7 +424,7 @@ Your goal in this game is to have the most pennies at the end of five rounds.
 
 <br>
 
-### Questions on the game?
+**Questions on the game?**
 :::
 
 
@@ -425,14 +434,16 @@ Your goal in this game is to have the most pennies at the end of five rounds.
 
 <br>
 
+::: {.r-fit-text}
+
 1. Find an opponent
 
-2. Make sure you have 10 pennies and 8 numbered cards
+2. Make sure you have 10 pennies + 8 cards
 
-3. Complete five rounds and write down:
-	  - Who won overall?
-	  - How many pennies does the winner have?
-	  - How many wars did you fight?
+3. Complete five rounds, and 
+
+4. **Write down how many wars you fought**
+:::
 
 ::: notes
 
@@ -453,13 +464,17 @@ Each pair tell us your final score and how many wars you fought.
 
 ## Simulating the Bargaining Model {background-image="Images/background-triangles_grey_v2.png" .center}
 
-**Version 2**
-
 <br>
+
+::: {.r-fit-text}
+
+**Version 2**
 
 + Find a new opponent, and
 
 + Keep **ONE** card face up each round (random choice).
+
+:::
 
 ::: notes
 
@@ -492,13 +507,17 @@ Each pair tell us your final score and how many wars you fought.
 
 ## Simulating the Bargaining Model {background-image="Images/background-triangles_grey_v2.png" .center}
 
-**Version 3**
-
 <br>
+
+::: {.r-fit-text}
+
+**Version 3**
 
 + Find a new opponent, and
 
 + Keep **TWO** cards face up each round (random choice).
+
+:::
 
 ::: notes
 
@@ -521,13 +540,17 @@ Each pair tell us your final score and how many wars you fought.
 
 ## Simulating the Bargaining Model {background-image="Images/background-triangles_grey_v2.png" .center}
 
-**Version 4**
-
 <br>
+
+::: {.r-fit-text}
+
+**Version 4**
 
 + Find a new opponent, and
 
 + Keep **ALL** cards face up each round.
+
+:::
 
 ::: notes
 
