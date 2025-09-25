@@ -1045,51 +1045,78 @@ Because wars are **costly**, **risky** and **inefficient**, there should **ALWAY
 
 Fearon draws out three big hypotheses from his bargaining model.
 
-<br>
-
-### How does our game from Monday illustrate the first argument?
-
-### - How does private information and misrepresentation play a role in the start of costly wars?
+- *Step through each*
 
 <br>
 
-### How does our game from Monday illustrate the second argument?
-
-### - How do commitment problems increase the likelihood of costly wars?
+**Arg 1: Did anybody try bluffing in the game on Monday? How did that go?**
 
 <br>
 
-### How does our game from Monday illustrate the third argument?
-
-### - How do "issue indivisibilities" increase the likelihood of costly wars?
+**Arg 2: What would you have done in the game if your opponent had promised not to go to war? Would that assure peaceful outcomes? Why or why not?**
 
 <br>
 
-Finally, let's connect all of this to the real world.
+I think this model shines in terms of its usefulness!
 
-### BRAINSTORM: How does all of this help us reduce the onset of war?
+- **If you are a neorealist, what is your best advice for lowering the risks of war around the world?** (Nothing: War is inevitable due to security dilemmas)
 
-- The UN?
-- Increasing transparency of arms sales?
-- ?
+- **If you are an offensive realist, what is your best advice for lowering the risks of war around the world?** (Nothing: War is inevitable due to power competition and the pursuit of hegemony)
 
-<br>
+- **If you are a liberal institutionalist, what is your best advice for lowering the risks of war around the world?** (Better, more empowered international orgs and rules)
 
-### Bottom line, how convinced are you by Fearon's model?
-
-### - Is it better than the alternatives he considers? Why or why not?
-e.g. anarchy, preventive war and positive expected utility
+- **If you are an economic liberal, what is your best advice for lowering the risks of war around the world?** (More trade! Even if it exploits the developing world!)
 
 <br>
 
-### Does this model change how you think about war and international politics? Why or why not?
+Ok, now let's talk Fearon's bargaining model!
 
-### - Any concerns or limitations?
+- **What specific things can we do to reduce the risks of war?**
+
+<br>
+
+- Lib inst isn't wrong, but let's give the international laws some bite
+
+    - Adopt universal jurisdiction
+    
+    - Give the ICC a police force
+    
+    - Eliminate the P5 veto at the UN
+    
+- More transparency
+
+    - Fully fund and support the IEA and its inspectors
+    
+    - Encourage security cooperation and coalitions to produce and manage arms procurement
+    
+- More and better adjudication
+
+    - Empower the ICJ and lower the barriers standing
+    
+- Give the UN blue helmets the ability to enforce and maintain peace!
+
+- etc.
+
+<br>
+
+This model is built on some huge and possibly problematic assumptions BUT it directly connects to the world we live in in concrete and specific ways
 
 <br>
 
 **SLIDE**: For Friday
 :::
+
+
+
+## Assignment for Next Class {background-image="Images/background-worldmap4.png" .center}
+
+<br>
+
+### What do we do about North Korea?
+
+- Bolton (2018) vs Sagan and Weiner (2018)
+
+
 
 
 
