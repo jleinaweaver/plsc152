@@ -51,9 +51,11 @@ Today we will explore the model of politics presented in this paper.
 
 <br>
 
-### Was this anybody's first time reading a political science journal article?
+**Was this anybody's first time reading a political science journal article?**
 
-### What did you think of it? Did you like the style? Was it clear?
+<br>
+
+**What did you think of it? Did you like the style? Was it clear?**
 
 <br>
 
@@ -71,13 +73,14 @@ Today we will explore the model of politics presented in this paper.
 
 I'm curious, as a point of reference I'd like to know what you think of when you think of the United Nations.
 
-### In other words, in your life to this point when you thought about the UN, if at all, what came to mind?
+- **In other words, in your life to this point when you thought about the UN, if at all, what came to mind?**
 
-#### - Did it seem to impact your life at all?
+- **Did it seem to impact your life at all?**
 
 <br>
 
 Let's talk about the UN in broad strokes.
+
 - I've posted a link to the UN Charter on Canvas in our Modules section.
 - Everybody open that link.
 
@@ -86,6 +89,7 @@ Let's talk about the UN in broad strokes.
 The UN Charter (1945) is like the Constitution for the United Nations.
 
 Each chapter focuses on one aspect of the wider organization.
+
 - Who can join and how?
 - What are its decision-making processes?
 - How does it settle internal disputes?
@@ -110,9 +114,11 @@ The Purposes of the United Nations are:
 
 Everybody click on Chapter 1 and read Article 1 on "The Purposes of the United Nations" [LINK](https://www.un.org/en/about-us/un-charter/chapter-1)
 
-### Summarize these four points for me, what are the distinct main purposes of the UN?
+<br>
 
-(SLIDE)
+**Summarize these four points for me, what are the distinct main purposes of the UN?**
+
+- (SLIDE)
 :::
 
 
@@ -135,15 +141,15 @@ The Purposes of the United Nations are:
 
 <br>
 
-### - How could "maintaining international peace and security" be something a state might oppose?
+- **How could "maintaining international peace and security" be something a state might oppose?**
 
 <br>
 
-### - How could "solving international problems" be something a state might oppose?
+- **How could "solving international problems" be something a state might oppose?**
 
 <br>
 
-### - How could "promoting respect for human rights" be something a state might oppose?
+- **How could "promoting respect for human rights" be something a state might oppose?**
 
 <br>
 
@@ -221,6 +227,7 @@ knitr::include_graphics('Images/07_2-UN_Critics.png')
 ::: notes
 
 Frankly, both arguments represent stupid "hot takes" that typically jump from something real into the realm of the absurd.
+
 - The problem is that this tends to be the level of debate we hear in society and that's SUPER disappointing.
 
 <br>
@@ -299,14 +306,17 @@ HOWEVER, I promise this gets easier with practice.
 For our purposes this semester I will ask you to focus on three things when reading academic research articles.
 
 1. What is the research question?
+
     - What are they trying to explain?
     - And importantly, why should we care?
 
 2. What is their argument?
+
     - What is the "map" they have designed to explain the central argument?
     - What are the testable implications of it?
 
 3. How confident are we in their conclusions?
+
     - Where did they get their data?
     - Are they examining the right data?
     - How did they measure the data?
@@ -316,9 +326,13 @@ For our purposes this semester I will ask you to focus on three things when read
 
 If you can answer these questions then you should have a much better sense of the world than you did before.
 
-### Any questions on this?
+- **Any questions on this?**
+
+<br>
 
 Today we focus on items 1 and 2, Friday on item 3.
+
+- **SLIDE**:  Back to the paper!
 :::
 
 
@@ -327,17 +341,18 @@ Today we focus on items 1 and 2, Friday on item 3.
 
 ::: notes
 
-Back to the paper!
+**Now, what is the research question in this paper?**
 
-### Now, what is the research question in this paper?
-#### Everybody open up our Canvas discussion and review the options
+- **Everybody open up our Canvas discussion and review the options**
+
 - (How effective is the UN in promoting peace after civil wars?)
 - (Does it matter how many or what kinds of troops are needed to promote peace after civil wars?)
 
 <br>
 
-### Based only on the introduction of this article, what are the specific reasons the authors give for why this is an important question?
-#### Are you convinced? Why or why not?
+**Based only on the introduction of this article, what are the specific reasons the authors give for why this is an important question?**
+
+- **Are you convinced? Why or why not?**
 
 *Force this discussion*
 
@@ -366,11 +381,13 @@ Now we need to figure out their argument.
 ::: notes
 
 Everybody turn to the hypotheses in the paper, p234-238.
+
 - When you are looking for the model in a paper, start by finding the section with the hypotheses.
 
 <br>
 
 The hypotheses represent the testable implications of a model.
+
 - The model lays out a set of assumptions about the world.
 - When you combine those assumptions you generate predictions about what we should see happen in a specific situation.
 - Those predictions are the hypotheses.
@@ -378,6 +395,7 @@ The hypotheses represent the testable implications of a model.
 <br>
 
 So, what we have here is a list of predictions about the world generated by the Hultman, Kathman and Shannon's (2016) model.
+
 - Our job is to figure out the key elements of the model that produced these predictions.
 :::
 
@@ -398,50 +416,155 @@ So, what we have here is a list of predictions about the world generated by the 
 
 ::: notes
 
-This semester I have been trying to organize our analyses of theories using the three I's from Frieden, Lake and Schultz.
+Ok, everybody submitted their draft version of this model to Canvas today.
 
-### Does everybody remember what each of these prompts covers? Let's get clarifications!
+- Work in small groups to consolidate diagrams
 
-<br>
-
-Everybody take five minutes on your own to diagram the model.
-
-- Focus on the theory section of the paper and make a list of the key interests, institutions and interactions involved.
+- Go!
 
 <br>
 
-PAIRS: Now take five minutes to share your lists with the person next to you.
+*Let them work for a few minutes and then...*
 
-- Combine and consolidate your lists.
+Let's make sure we're all working from the same basic understanding
+
+- **Who are the interests in this model?**
+
+- (**SLIDE**)
+
+:::
+
+
+
+
+## Hultman, Kathman & Shannon (2016) {background-image="Images/background-worldmap4.png" .center}
+
+**Interests**
+
+- The UN &#8594; peace and stability
+- The combatants &#8594; peace and stability
+
+**Institutions**
+
+- ?
+
+**Interactions**
+
+- ?
+
+::: notes
+
+In this case, all of the key actors want the exact same thing!
+
+- The question is, why can't they get it?
 
 <br>
 
-GROUPS: Finally, take 5-7 minutes to discuss your lists with a nearby pair.
+Groups, now focus on the first obstacle to peace, the institutions!
 
-- Combine and consolidate your lists.
+- Go!
+
+<br>
+
+**Ok, what are the institutions in this model?**
+
+- (**SLIDE**)
+
+:::
+
+
+
+## Hultman, Kathman & Shannon (2016) {background-image="Images/background-worldmap4.png" .center}
+
+**Interests**
+
+- The UN &#8594; peace and stability
+- The combatants &#8594; peace and stability
+
+**Institutions**
+
+- Domestic anarchy (recently ended/paused civil war)
+- International anarchy + UN Charter
+
+**Interactions**
+
+- ?
+
+::: notes
+
+At the domestic level, a civil war means there is conflict over the basic rules of society
+
+<br>
+
+At the international level is a mix of anarchy with an overlay of some international rules
+
+- e.g. the ability to send PKOs into post-civil war states
+
+<br>
+
+GROUPS, focus on the interactions now
+
+- **What are the interaction obstacles to peace and how can PKOs address them?**
+
+- Go!
+
+<br>
+
+**Ok, what are the interactions in this model?**
+
+- (**SLIDE**)
+
+:::
+
+
+
+## Hultman, Kathman & Shannon (2016) {background-image="Images/background-worldmap4.png" .center .smaller}
+
+**Interests**
+
+- The UN &#8594; peace and stability
+- The combatants &#8594; peace and stability
+
+**Institutions**
+
+- Domestic anarchy (recently ended/paused civil war)
+- International anarchy + UN Charter
+
+**Interactions**
+
+- Combatants cannot trust the commitments made by the other side
+- Combatants lack information on what the other side is actually doing
+- PKOs can promote peace by monitoring behavior, enforcing commitments and providing information 
+
+
+::: notes
 
 <br>
 
 **Ok, what have we got? ON BOARD**
 
 **INTERESTS**
+
 - Combatants -> peace
 - UN -> peace / stability
 
 **INSTITUTIONS**
+
 - Domestic anarchy of post-civil war conflict (neither side has sufficient control)
 - International anarchy + UN Charter
 
 **INTERACTIONS**
+
 Serious obstacles to bargaining:
+
 - Lack of information / channels of information (information deficit) between the combatants
 - Lack of trust / mechanisms for promoting trust between the combatants
 
 <br>
 
-### If this represents the model, then what are the implications of it? What should the world look like if this map is useful?
+**If this represents the model, then what are the implications of it? What should the world look like if this map is useful?**
 
-- SLIDE: They hypotheses!
+- **SLIDE**: Back to the hypotheses!
 :::
 
 

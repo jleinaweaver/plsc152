@@ -27,11 +27,17 @@ Justin Leinaweaver (Fall 2025)
 ::: notes
 Prep for Class
 
-1. ...
+1. TBD
 
 <br>
 
-### DISCUSS: Name me an international political event that has happened since we last met as a class.
+**DISCUSS: Name me an international political event that has happened since we last met as a class.**
+
+- *DO THIS. There is plenty of time here for this discussion before we hit the stats*
+
+<br>
+
+**SLIDE**: Setting up today's work
 
 
 :::
@@ -46,7 +52,8 @@ Today we continue working on our analyses of the Hultman, L., Kathman, J. & Shan
 
 <br>
 
-### Remind me, what is the big research question here?
+**Remind me, what is the big research question here?**
+
 - (Does UN intervention in post-conflict zones promote peace?)
 
 - (How effective is the UN in promoting peace after civil wars?)
@@ -72,7 +79,17 @@ Today we continue working on our analyses of the Hultman, L., Kathman, J. & Shan
 
 OK, map out the model for me.
 
-### What are the key interests, institutions and interactions in this model?
+- **Who are the key interests?**
+
+- **The institutions?**
+
+- **And the interactions?**
+
+<br>
+
+(**SLIDE**: the model diagram)
+
+<br>
 
 INTERESTS
 
@@ -91,19 +108,39 @@ INTERACTIONS
 
 
 
+## Hultman, Kathman & Shannon (2016) {background-image="Images/background-worldmap4.png" .center .smaller}
 
-## {background-image="Images/background-worldmap4.png" .center}
+**Interests**
 
-**Is this paper a "good" test of the bargaining model of war?**
+- The UN &#8594; peace and stability
+- The combatants &#8594; peace and stability
 
-![](Images/06_3-diplomacy1.png){style="display: block; margin: 0 auto"}
+**Institutions**
+
+- Domestic anarchy (recently ended/paused civil war)
+- International anarchy + UN Charter
+
+**Interactions**
+
+- Combatants cannot trust the commitments made by the other side
+- Combatants lack information on what the other side is actually doing
+- PKOs can promote peace by monitoring behavior, enforcing commitments and providing information 
 
 ::: notes
-**In what specific ways is this paper a "good" test of the Bargaining Model of War?**
+
+**Questions on the model diagram?**
+
+<br>
+
+**In what specific ways is this paper a "good" test of Fearon's (1995) bargaining model of war?**
 
 <br>
 
 **How does it connect UN troops to the costs, risks and inefficiency of war?**
+
+<br>
+
+**Is there any part of this that doesn't fit into Fearon's model? Or any piece of his model that is missing?**
 
 <br>
 
@@ -121,7 +158,7 @@ I think the easiest way to start this process is by identifying the final conclu
 
 Everybody go to the "Discussion and conclusion" section on p245.
 
-### What are the final conclusions made by the authors at the end of the paper?
+- **What are the final conclusions made by the authors at the end of the paper?**
 
 - (**SLIDE**)
 :::
