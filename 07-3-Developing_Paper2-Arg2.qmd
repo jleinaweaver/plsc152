@@ -29,13 +29,20 @@ Justin Leinaweaver (Fall 2025)
 ::: notes
 Prep for Class
 
-1. Timings
-    - Groups: Diagram models we've covered thoroughly
-    - Groups: Diagram bargaining model
-    - Review paper prompt and assignment for NEXT Friday (10 mins)
-    
-2. WHILE the groups work on first diagrams go find current events in the news. Ask each group to present their model and use it to explain the event.
+1. Bring markers x 4
 
+2. Timings
+    - Groups: Diagram models we've covered thoroughly and practice applying all (30 mins)
+    - Groups: Diagram bargaining model (10 mins)
+    - Review assignment for NEXT Friday (5 mins)
+    
+3. Options for applying the models
+    - Find and assign a current event from today's paper, OR
+    - Have the class apply each model to their own Paper 1 events
+
+<br>
+
+**SLIDE**: Paper 2 prompt
 :::
 
 
@@ -60,9 +67,10 @@ Here is the prompt for the second paper.
 
 
 
-## IR Models (so far) {background-image="Images/background-worldmap4.png" .center}
+## {background-image="Images/background-worldmap4.png" .center}
 
-<br>
+::: {.r-fit-text}
+**Models of International Relations (so far)**
 
 - Neorealism
 
@@ -73,6 +81,8 @@ Here is the prompt for the second paper.
 - Economic Liberalism
 
 - *Bargaining Model of War*
+
+:::
 
 ::: notes
 
@@ -100,11 +110,57 @@ GROUPS:
 
 <br>
 
-GROUPS, rotate through the four theories practicing applying each to their events
+GROUPS, move to the next theory diagram
+
+1. Any edits needed to the model diagram?
+
+2. Make sure each of you can use THAT model to explain your international political event
 
 <br>
 
-**Any clarifications needed?**
+*REPEAT x 2*
+
+<br>
+
+**SLIDE:** Bargaining model time
+
+<br>
+
+*NOTES*
+
+Neorealism
+
+- Interests: Unitary states want security, not power
+- Institutions: International anarchy
+- Interactions:
+    - You must fend for yourself (threats are everywhere)
+    - Security dilemmas dominate
+
+Offensive Realism
+
+- Interests: Great powers seeking hegemony
+- Institutions: International anarchy
+- Interactions:
+    - Great powers have offensive military capacity
+    - Attack may come at any time (uncertain intentions)
+    - Weakness invites attack (rational opponents)
+
+Liberal Institutionalism
+
+- Interests: Unitary, rational states pursuing absolute (not relative) gains
+- Institutions: International anarchy PLUS international institutions (e.g. laws and organizations)
+- Interactions: International institutions can help to overcome cooperation dilemmas, reduce uncertainty, distribute benefits
+
+Economic Liberalism
+
+- Interests: States want growth
+- Institutions: International anarchy (States may choose to start wars or seek trade)
+- Interactions
+    - War is risky and disrupts trade
+    - The returns to trade grow over time
+    - Specialized economies are dependent on trade for growth
+    - Therefore, increasing trade should reduce the occurrence of war.
+
 
 :::
 
