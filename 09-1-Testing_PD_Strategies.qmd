@@ -211,11 +211,13 @@ tibble(
 
 EACH player needs their own sheet of paper for tracking the game
 
-- On your sheet make a list from 1-10 (with space for your decision and points earned each round)
+- On your sheet make a list from 1-10 with space for your decision and points earned each round
 
 - Each round each player makes their decision, defect or cooperate, and writes it on the paper next to the number for the round
 
-- Both written down, simultaneously reveal your choices, tally up the points and move to the next round
+- **Both written down THEN simultaneously reveal your choices**
+
+- Tally up the points and move to the next round
 
 <br>
 
@@ -263,20 +265,27 @@ Game theorists of every stripe, e.g. political scientists, economists, etc, have
 
 <br>
 
-REVEAL x 5: Let's discuss five "pure" strategies to the Prisoner's dilemma.
+Let's discuss five "pure" strategies to the Prisoner's dilemma.
 
-1. Always cooperate is a strategy wherein you cooperate every round, no matter what.
+- **REVEAL x 5**
 
-2. Always defect is a strategy wherein you defect every round, no matter what.
+1. Always cooperate means you cooperate every round, no matter what.
 
-3. The grim trigger is a strategy wherein you cooperate in every round until the other side defects and then you defect forever
+2. Always defect means you defect every round, no matter what.
+
+3. The grim trigger means you cooperate in round 1 and then keep cooperating UNTIL the other side defects
+
+    - Once the other side defects, you defect FOREVER
+
     - Defection triggers a grim outcome, no?
     
-4. Tit for tat is a strategy wherein you cooperate in the first round and then in future rounds you do whatever the other person did last round
-    - If they cooperated last time, you cooperate next time
-    - If they defected last round, you defect next time
+4. Tit for tat means you cooperate in the first round and then, starting in round 2, you do whatever the other person did last round
 
-5. Mixed is a strategy wherein you alternate cooperation and defection every other round regardless of what the other player does
+    - If they cooperated in round 1, you cooperate in round 2
+
+    - If they defected in round 1, you defect in round 2
+
+5. Mixed is a strategy where you alternate cooperation and defection every other round regardless of what the other player does
 
 <br>
 
@@ -514,7 +523,15 @@ Smale, Alison and Shear, Michael D. (2014, Mar 24). [Russia Is Ousted From Group
 
 <br>
 
-Let's discuss this international political event as an example of a real-world prisoner's dilemma
+For pre-class today I asked each of you to analyze the events in the Smale and Shear article using the PD model
+
+- Assignment prompt: Use the interests, institutions and interactions of a Prisoner's Dilemma to explain the events in Smale and Shear (2014). (2+ sentences)
+
+<br>
+
+Discuss the event with your group and get ready to report back to me
+
+- **Is the PD model a useful way of explaining this event? Why or why not?**
 
 <br>
 
@@ -544,6 +561,10 @@ Let's discuss this international political event as an example of a real-world p
 
 **Was this the right strategy given the features of this PD structure? Why or why not?**
 
+<br>
+
+**SLIDE**: Article 2 from canvas assignment
+
 :::
 
 
@@ -563,10 +584,37 @@ Shkrum, A, Natalukha, D. and Vasylenko, L. (2023, Feb 23). [Russia Doesn’t Bel
 
 <br>
 
+Let's jump to the second international political event
+
+- Discuss the Shkrum, Natalukha and Vasylenko article with your group and get ready to report back to me
+
+- **Is the PD model a useful way of explaining this event? Why or why not?**
+
+<br>
+
 **At this point, should the world escalate its punishment strategy by kicking Russia out of the UN? Why or why not?**
+
+<br>
+
+**SLIDE**: Assignment for next class
 
 :::
 
+
+
+## Assignment for Next Class  {background-image="Images/background-worldmap4.png" .center}
+
+<br>
+
+::: {.r-fit-text}
+Writing Workshop
+:::
+
+
+
+
+
+## Slides for other terms
 
 ## Assignment for Next Class  {background-image="Images/background-worldmap4.png" .center}
 
@@ -588,17 +636,6 @@ Next class we explore a real-world collective action problem
 - If so, what should we do about it?
 :::
 
-
-## Slides for other terms
-
-
-## Assignment for Next Class  {background-image="Images/background-blue_triangles2.png" .center}
-
-<br>
-
-::: {.r-fit-text}
-Writing Workshop
-:::
 
 
 
