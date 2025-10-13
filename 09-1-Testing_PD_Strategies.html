@@ -343,8 +343,9 @@
 <aside class="notes">
 <p>Prep for Class</p>
 <ol type="1">
-<li><p>Markers needed for each group (x4)</p></li>
 <li><p>Review canvas submissions</p></li>
+<li><p>Markers needed for each group (x4)</p></li>
+<li><p>Bring pennies for the mixed strategy group</p></li>
 </ol>
 <p><br></p>
 <p>Today I’d like us to explore PD strategies and what those strategies tell us about real world situations.</p>
@@ -700,7 +701,11 @@ Player 2
 <li><p>If they cooperated in round 1, you cooperate in round 2</p></li>
 <li><p>If they defected in round 1, you defect in round 2</p></li>
 </ul></li>
-<li><p>Mixed is a strategy where you alternate cooperation and defection every other round regardless of what the other player does</p></li>
+<li><p>In a mixed strategy you randomize your choice of cooperate and defect each round regardless of what the other player does</p>
+<ul>
+<li><p>This can be done by assigning a probability distribution to your choices (e.g.&nbsp;50-50, 60-40, 70-30, etc)</p></li>
+<li><p>I will ask anyone doing the mixed strategy to flip a coin with heads as cooperate and tails as defect</p></li>
+</ul></li>
 </ol>
 <p><br></p>
 <p><strong>Is everybody clear on how to implement each of these strategies?</strong></p>
@@ -896,7 +901,7 @@ Player 2
 <p><br></p>
 <p><em>ON BOARD: Track how often each strategy is mentioned as worth challenging or avoiding in the analyses</em></p>
 <ul>
-<li><p><em>Rows: Cooperate, Defect, Grim, Tit for Tat, Mixed</em></p></li>
+<li><p><em>Rows: Cooperate, Defect, Grim, Tit for Tat, Mixed 50%</em></p></li>
 <li><p><em>Cols: Challenge them, Avoid them</em></p></li>
 </ul>
 <p><br></p>
@@ -953,7 +958,7 @@ Player 2
 <td style="text-align: center;">-12</td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;">Mixed</td>
+<td style="text-align: left;">Mixed (50%)</td>
 <td style="text-align: center;">30</td>
 <td style="text-align: center;">-35</td>
 <td style="text-align: center;">-22</td>
@@ -1019,7 +1024,7 @@ Results
 <th style="text-align: center;" data-quarto-table-cell-role="th">Defect</th>
 <th style="text-align: center;" data-quarto-table-cell-role="th">Grim Trigger</th>
 <th style="text-align: center;" data-quarto-table-cell-role="th">Tit for Tat</th>
-<th style="text-align: center;" data-quarto-table-cell-role="th">Mixed</th>
+<th style="text-align: center;" data-quarto-table-cell-role="th">Mixed (50%)</th>
 <th style="text-align: center;" data-quarto-table-cell-role="th">Minimum</th>
 <th style="text-align: center;" data-quarto-table-cell-role="th">Maximum</th>
 <th style="text-align: center;" data-quarto-table-cell-role="th">Positive</th>
@@ -1071,7 +1076,7 @@ Results
 <td style="text-align: center; background-color: orange !important;">3</td>
 </tr>
 <tr class="odd">
-<td style="text-align: left; background-color: lightgrey !important;">Mixed</td>
+<td style="text-align: left; background-color: lightgrey !important;">Mixed (50%)</td>
 <td style="text-align: center; background-color: lightyellow !important;">30</td>
 <td style="text-align: center; background-color: lightyellow !important;">-35</td>
 <td style="text-align: center; background-color: lightyellow !important;">-22</td>
@@ -1088,6 +1093,11 @@ Results
 </div>
 </div>
 <aside class="notes">
+<p>Note: I implemented the “mixed” strategy here by simply flipping from co-op to defect each round</p>
+<ul>
+<li>Not actually a random choice here…</li>
+</ul>
+<p><br></p>
 <p><strong>Groups, what is the minimum, the maximum and the mean result across the five strategies for you?</strong></p>
 <p><br></p>
 <p><strong>Ok, where do we end up?</strong></p>

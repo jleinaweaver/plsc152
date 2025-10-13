@@ -31,9 +31,11 @@ Justin Leinaweaver (Fall 2025)
 ::: notes
 Prep for Class
 
-1. Markers needed for each group (x4)
+1. Review canvas submissions
 
-2. Review canvas submissions
+2. Markers needed for each group (x4)
+
+3. Bring pennies for the mixed strategy group
 
 <br>
 
@@ -285,7 +287,11 @@ Let's discuss five "pure" strategies to the Prisoner's dilemma.
 
     - If they defected in round 1, you defect in round 2
 
-5. Mixed is a strategy where you alternate cooperation and defection every other round regardless of what the other player does
+5. In a mixed strategy you randomize your choice of cooperate and defect each round regardless of what the other player does
+
+    - This can be done by assigning a probability distribution to your choices (e.g. 50-50, 60-40, 70-30, etc)
+    
+    - I will ask anyone doing the mixed strategy to flip a coin with heads as cooperate and tails as defect
 
 <br>
 
@@ -421,7 +427,7 @@ Groups, get ready to report back your findings on these four questions.
 
 *ON BOARD: Track how often each strategy is mentioned as worth challenging or avoiding in the analyses*
 
-- *Rows: Cooperate, Defect, Grim, Tit for Tat, Mixed*
+- *Rows: Cooperate, Defect, Grim, Tit for Tat, Mixed 50%*
 
 - *Cols: Challenge them, Avoid them*
 
@@ -441,7 +447,7 @@ Groups, get ready to report back your findings on these four questions.
 
 ```{r, echo=FALSE}
 tab1 <- tibble(
-  You = c("Cooperate", "Defect", "Grim Trigger", "Tit for Tat", "Mixed"),
+  You = c("Cooperate", "Defect", "Grim Trigger", "Tit for Tat", "Mixed (50%)"),
   All_Coop = c(20, 40, 20, 20, 30),
   All_Def = c(-60, -10, -15, -15, -35),
   GT = c(20, -5, 20, 20, -22),
@@ -480,7 +486,7 @@ tab2 <- tab1 |>
   )
 
 tab2 |>
-  kbl(col.names = c("Strategy", "Cooperate", "Defect", "Grim Trigger", "Tit for Tat", "Mixed", "Minimum", "Maximum", "Positive"), align = c("l", rep("c", 8))) |>
+  kbl(col.names = c("Strategy", "Cooperate", "Defect", "Grim Trigger", "Tit for Tat", "Mixed (50%)", "Minimum", "Maximum", "Positive"), align = c("l", rep("c", 8))) |>
   kable_styling(bootstrap_options = c("striped", "hover"), font_size = 23) |>
   add_header_above(c("", "Opponent's Strategy"= 5, "Results" = 3)) |>
   column_spec(1, background = "lightgrey") |>
@@ -490,6 +496,12 @@ tab2 |>
 ```
 
 ::: notes
+
+Note: I implemented the "mixed" strategy here by simply flipping from co-op to defect each round
+
+- Not actually a random choice here...
+
+<br>
 
 **Groups, what is the minimum, the maximum and the mean result across the five strategies for you?**
 
