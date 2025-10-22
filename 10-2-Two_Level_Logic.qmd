@@ -31,19 +31,16 @@ Prep for Class
 
 1. **FORCE the groups to sit together! Leaders sit up front!**
 
-2. RUN SLIDES ON LAPTOP and update slides with:
+2. Make sure slides today reflect choices from last class
 
-    - Current EC points earned from PD v1 to complicate leader's task AND highlight the leader
+3. **Remove anybody who doesn't come to class today**
 
-    - Actual decisions by round for discussion
-
-    - **Remove anybody who doesn't come to class today**
-
-3. YOU need to decide the leadership rewards AFTER hearing how much each valued being the leader
+4. YOU need to decide the leadership rewards AFTER hearing how much each valued being the leader
 
 <br>
 
-#### Putnam (1988) Notes
+**Putnam (1988) Notes**
+
 - p427-430 intro real-world examples, 
 - p433-440 two level games metaphor, 
 - p441-452 determinants of win set size, 
@@ -66,15 +63,17 @@ Before we dig into what happened, the leaders have a job to do.
 
 - *Don't let them do it yet!*
 
-- **Leaders (Luke and Meyer) are you ready to announce your decisions?**
+- **Leaders are you ready to announce your decisions?**
 
 - *They will inevitably ask about their reward for being leader*
+
+<br>
 
 Your leadership rewards can't be calculated yet, you still have work to do!
 
 <br>
 
-**SLIDE**: Let's distribute those rewards!
+**SLIDE**: Before you announce your decision
 :::
 
 
@@ -129,51 +128,53 @@ tribble(
 
 ::: notes
 
-As is true in the real world, inequality exists!
+1. As is true in the real world, inequality exists!
 
-- Wealth and opportunity are not equally distributed across the population.
-
-- I thought you might want to consider the EC points already earned by the people in your state before you announce your decision.
-
-<br>
-
-Two other notes:
-
-1. The colored rows represent the various past leaders in your country
+    - Wealth and opportunity are not equally distributed across the population.
 
 2. I have removed anyone who isn't in class today from eligibility
 
     - Not nearly awkward enough if they aren't here for it
+    
+3. I have highlighted all prior leaders in your group
 
 <br>
 
-**Leaders are you ready?**
+Leaders, please take a moment to reflect on your proposal
+
+- You don't have to make changes but I'd like you to reflect on this for a moment
+
+- **Ready to go?**
+
+<br>
+
+Ok wait, one more thing to consider, the design of your domestic institutions
+
+<br>
+
+**Leader 1** you are in charge of a competitive authoritarian country. 
+
+- You have implemented extreme gerrymandering, you use your secret police to punish your political enemies, you have bent the media to your control and you use your access to tax money to reward your allies (e.g. corruption)
+
+- This means whatever plan for the EC points you have, you only need THREE yes votes to pass the plan (not counting your vote)
+
+<br>
+
+**Leader 2** you are in charge of a healthy democracy
+
+- The right to vote is guaranteed to all citizens, your elections are free and fair and there are extensive checks and balances on your power
+
+- This means whatever plan for the EC points you have, you need a super-majority of yes votes to pass the plan (not counting your vote)
+
+<br>
+
+**Any questions?**
 
 - Please announce your decision.
 
 <br>
 
-**Groups, any objections to the leaders' proposed actions?**
-
-- **Anybody want to call for an election?**
-
-<br>
-
-*IF neither group wants to call an election you dive in*
-
-1. **Proposal 1: I just heard group leader X say he'd like to claim all of the points for himself. Group members, any concerns with this new plan?**
-
-    - *Let this play out...*
-
-<br>
-
-2. **Proposal 2: How about I propose a bare majority of your group take ALL the points for themselves?**
-
-    - *Let this play out...*
-
-<br>
-
-**SLIDE**: Alright, let's talk about what happened!
+**SLIDE**: Alright, let's talk about what happened in our game!
 :::
 
 
