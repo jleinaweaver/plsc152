@@ -58,22 +58,142 @@ Prep for Class
 
 ::: notes
 
-*Set up the leaders to make their big announcement but then make them wait until after we discuss everything!*
-
-- *If they ask about leader rewards tell them "that comes later"*
+On Monday we re-played our prisoners' dilemma from a few weeks ago but with a few added wrinkles.
 
 <br>
 
-On Monday we re-played our prisoners' dilemma from a few weeks ago but with a few added wrinkles.
+Before we dig into what happened, the leaders have a job to do.
 
-- Before we dig into what happened, the leaders have a job to do.
+- *Don't let them do it yet!*
 
 - **Leaders are you ready to announce your decisions?**
 
+- *They will inevitably ask about their reward for being leader*
+
 <br>
 
-**SLIDE**: Before you announce your decision, let's talk about the simulation
+Your leadership rewards can't be calculated yet, you still have work to do!
 
+<br>
+
+**SLIDE**: Before you announce your decision
+:::
+
+
+
+## {background-image="Images/09_1-patronage_filter80.png"}
+
+:::: {.columns}
+::: {.column width="50%"}
+```{r}
+tribble(
+  ~Name, ~EC,
+  "Grant", 2,
+  "Miya", 2,
+  "Jasper", 0,
+  "Corah", 2,
+  "Kylei", 0,
+  "Isabel", 2,
+  "Beau", 2,
+  "Owen", 2,
+  "Jack", 2
+) |>
+  kbl(align = c('l', 'c')) |>
+  kable_styling(bootstrap_options = c("striped", "hover", "condensed"), font_size = 33) |>
+  column_spec(1, width = '8em') |>
+  row_spec(1, background = "gold") #|>
+  #row_spec(2:6, background = "yellow3")
+```
+:::
+
+::: {.column width="50%"}
+```{r}
+tribble(
+  ~Name, ~EC,
+  "Kai", 2,
+  "Yevheniia", 2,
+  "Topi", 0,
+  "Isaiah", 2,
+  "Tahrea", 2,
+  "Parker", 2,
+  "Brianna", 2,
+  "Jacob", 0,
+  "Bennett", 2,
+  "Killian", 0
+) |>
+  kbl(align = c('l', 'c')) |>
+  kable_styling(bootstrap_options = c("striped", "hover", "condensed"), font_size = 33) |>
+  column_spec(1, width = '8em') |>
+  row_spec(1, background = "gold")
+```
+:::
+::::
+
+::: notes
+
+1. As is true in the real world, inequality exists!
+
+    - Wealth and opportunity are not equally distributed across the population.
+
+2. I have removed anyone who isn't in class today from eligibility
+
+    - Not nearly awkward enough if they aren't here for it
+    
+3. I have highlighted all prior leaders in your group
+
+<br>
+
+Leaders, please take a moment to reflect on your proposal
+
+- You don't have to make changes but I'd like you to reflect on this for a moment
+
+- **Ready to go?**
+
+<br>
+
+Ok wait, one more thing to consider, the design of your domestic institutions
+
+<br>
+
+**Leaders, what are the current rules of the game governing decision-making?**
+
+- **In other words, how many of your citizens do you have to keep happy to stay in charge?**
+
+- (50% + 1)
+
+- 
+
+
+
+
+- Please announce your decision.
+
+
+
+
+
+
+<br>
+
+**Leader 1** you are in charge of a competitive authoritarian country. 
+
+- You have implemented extreme gerrymandering, you use masked police to punish your political enemies, you have bent the media to your control and you use your access to tax money to reward your friends and family
+
+- This means whatever plan for the EC points you have, you only need THREE yes votes to pass the plan (not counting your vote)
+
+<br>
+
+**Leader 2** you are in charge of a healthy democracy
+
+- The right to vote is guaranteed to all citizens, your elections are free and fair and there are extensive checks and balances on your power
+
+- This means whatever plan for the EC points you have, you need a super-majority of yes votes to pass the plan (not counting your vote)
+
+
+
+<br>
+
+**SLIDE**: Alright, let's talk about what happened in our game!
 :::
 
 
@@ -178,64 +298,30 @@ Let's also consider how the individuals, e.g. non-leader citizens, influenced th
 
 <br>
 
-**Citizens, how powerful did you feel in this game?**
+**Non-leaders, how powerful did you feel in this game?**
 
 <br>
 
 **What specific elements of the simulation existed to grant you power in the game?**
 
-- (**SLIDE**: Advocate for policy, Advocate for an election, Vote)
+- *ON BOARD*
 
-:::
-
-
-
-## Explaining the Outcome {background-image="Images/10_2-Decision_v3.png"}
-
-:::: {.columns}
-
-::: {.column width="45%"}
-
-:::
-
-::: {.column width="55%"}
-
-<br>
-
-<br>
-
-::: {.r-fit-text}
-1. Advocate for policy
-
-2. Advocate for an election
-
-3. Vote
-:::
-:::
-
-::::
-
-::: notes
-
-1. Advocate for policy
-
-    - You know what the group should do this round, help them understand!
+1. Vote
+    - If there is an election, do you vote?
     
-2. Advocate for an election
-
-    - The leader isn't listening or succeeding, let's pick a new one!
+2. Participate
+    - Do you talk while the group is deciding what to do?
     
-3. Vote
+3. Advocate
+    - Do you push a specific choice during the discussion?
 
-    - Time to make a hard choice!
-    
 <br>
 
 **Did you personally make use of these tools? Why or why not?**
 
 <br>
 
-**Citizens, bottom-line, to what degree did you feel control over the leader of your group? Why?**
+**Non-leaders, bottom-line, to what degree did you feel control over the leader of your group? Why?**
 :::
 
 
@@ -246,13 +332,7 @@ Let's also consider how the individuals, e.g. non-leader citizens, influenced th
 
 Ok, leaders, your turn!
 
-<br>
-
-**Leaders, how powerful did you feel in this game? Why?**
-
-- **What was the most fun part about being in charge?**
-
-- **What was the least fun part?**
+- **Leaders, how powerful did you feel in this game? Why?**
 
 <br>
 
@@ -260,64 +340,34 @@ Ok, leaders, your turn!
 
 <br>
 
-**Leaders, how did our domestic institutions impact your approach to being leader?**
-
-- **In other words, how did you think about the 50%+1 rule as a constraint on your behavior?**
+**Leaders, did you feel constrained by the other citizens in your state? Why or why not?**
 
 <br>
 
-Let's talk for a sec about the impact of different kinds of domestic institutions on this simulation
+**Did either side elect a new leader during the game? Why or why not?**
 
 <br>
 
-Imagine you were the leader of a healthy, egalitarian style democracy
+**Leaders, bottom-line, how much did you enjoy being in charge? Why or why not?**
 
-- That means the right to vote is guaranteed to all citizens, 
-
-- your elections are free and fair, and
-
-- there are extensive checks and balances on your power
+- **What did you get out of being in charge?**
 
 <br>
 
-Add it all up and let's say that this means your plan to distribute the bonus points must be accepted by a super-majority of your citizens or it will not happen
+*Use these answers to announce hypothetical leader rewards then invite discussion of whether these points accurately reflect the motivations of the leaders*
 
-- **If the leader had to get 75% yes votes from the group, how would that influence the points distribution?**
+- *If they hated it, no reward (0 points)*
 
-<br>
+- *If they passed it around the room to spread "the wealth" then it wasn't valuable, was it? (0 points)*
 
-Now, imagine you are the leader of a competitive authoritarian country. 
+- *If they loved it, make it kind of obscene... (5 points?)*
 
-- The right to vote is restricted using threats and red tape,
-
-- Your voting districts are organized to benefit your own party (extreme gerrymandering),
-
-- You use a masked police force to punish your political enemies and threaten dissenters, 
-
-- You have bent the media to your control, and 
-
-- You use your access to tax money to reward your friends and family
+- **Do these points accurately reflect what motivated the leaders? Why or why not?**
 
 <br>
 
-Add it all up and let's say that this means your plan to distribute the bonus points must be accepted by only a small sliver of the population
-
-- **If the leader only had to get yes votes from 25% of the population, how would that influence the points distribution?**
-
-<br>
-
-**So, is everybody clear how domestic institutions in this game matter A TON?**
-
-<br>
-
-**And which one of those hypotheticals describes America today?**
-
-<br>
-
-**SLIDE**: We can't discuss the leaders without also talking about the negotiations
-
+**SLIDE**: Let's talk about the negotiations
 :::
-
 
 
 ## Explaining the Outcome {background-image="Images/10-2-How-to-negotiate-a-deal.jpg"}
@@ -333,119 +383,7 @@ Add it all up and let's say that this means your plan to distribute the bonus po
 <br>
 
 **Did you trust the word of the other team's leader as a negotiator? Why or why not?**
-
-<br>
-
-**SLIDE**: Enough stalling, let's divy out the treasure!
-
 :::
-
-
-
-## {background-image="Images/09_1-patronage.jpg"}
-
-::: notes
-
-**Leaders, are we ready to go with this?**
-
-- **Are you ready to reward your loyal servants?**
-
-<br>
-
-**SLIDE**: Sorry, sorry, wait a sec
-
-:::
-
-
-
-## {background-image="Images/09_1-patronage_filter80.png"}
-
-:::: {.columns}
-::: {.column width="50%"}
-```{r}
-tribble(
-  ~Name, ~EC,
-  "Grant", 2,
-  "Miya", 2,
-  "Jasper", 0,
-  "Corah", 2,
-  "Kylei", 0,
-  "Isabel", 2,
-  "Beau", 2,
-  "Owen", 2,
-  "Jack", 2
-) |>
-  kbl(align = c('l', 'c')) |>
-  kable_styling(bootstrap_options = c("striped", "hover", "condensed"), font_size = 33) |>
-  column_spec(1, width = '8em') |>
-  row_spec(1, background = "gold") #|>
-  #row_spec(2:6, background = "yellow3")
-```
-:::
-
-::: {.column width="50%"}
-```{r}
-tribble(
-  ~Name, ~EC,
-  "Kai", 2,
-  "Yevheniia", 2,
-  "Topi", 0,
-  "Isaiah", 2,
-  "Tahrea", 2,
-  "Parker", 2,
-  "Brianna", 2,
-  "Jacob", 0,
-  "Bennett", 2,
-  "Killian", 0
-) |>
-  kbl(align = c('l', 'c')) |>
-  kable_styling(bootstrap_options = c("striped", "hover", "condensed"), font_size = 33) |>
-  column_spec(1, width = '8em') |>
-  row_spec(1, background = "gold")
-```
-:::
-::::
-
-::: notes
-
-1. As is true in the real world, inequality exists!
-
-    - Wealth and opportunity are not equally distributed across the population.
-
-2. I have removed anyone who isn't in class today from eligibility
-
-    - Not nearly awkward enough if they aren't here for it
-    
-3. I have highlighted all prior leaders in your group
-
-<br>
-
-Leaders, please take a moment to reflect on your proposal
-
-- You don't have to make changes but I'd like you to reflect on this for a moment
-
-- **Ready to go?**
-
-- Please announce your decision.
-
-<br>
-
-**Leaders, bottom-line, if we played the game again in the future, how hard would you fight to be chosen leader?**
-
-- *Use these answers to announce hypothetical leader rewards then invite discussion of whether these points accurately reflect the motivations of the leaders*
-
-- *If they wouldn't, no reward (0 points)*
-
-- *If they passed it around the room to spread "the wealth" then it wasn't valuable, was it? (0 points)*
-
-- *If they loved it, make it kind of obscene... (5 points?)*
-
-<br>
-
-**SLIDE**: Alright, let's connect the dots to our next model!
-
-:::
-
 
 
 
