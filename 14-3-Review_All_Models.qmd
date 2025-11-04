@@ -43,7 +43,7 @@ Alright everybody, from here on out we shift our focus to your final papers for 
 
 
 
-## Final Exam (Due May 8, 10am) {background-image="Images/background-worldmap4.png" .center}
+## Final Exam (Due Dec 10, 10am) {background-image="Images/background-worldmap4.png" .center}
 
 <br>
 
@@ -106,33 +106,31 @@ You don't have to select any of these four theories, but if you do you can't dou
 
 :::: {.columns}
 ::: {.column width="50%"}
-- Belarus and Russia nuke deal
-- China vs Philippines in South China Sea
-- Colombia vs the ELN
-- Israel bombing Syrian weapons depots
-- Israel-Gaza ceasefire
-- NATO spending in Europe
-- Niger, Mali, and Burkina Faso withdraw from ECOWAS
-- Russia and DPRK alliance
-- Syrian civil war
-- The severing of Baltic Sea cables / attack on NATO
-- Trump revoking executive order 14115
-
+- Palestine's Exclusion from the UNGA
+- U.S and Vietnam Tariff Deal
+- May 2025 meeting between US and Syria
+- Brazil seeks to join the IEA
+- Insurgency in and around Nigeria
+- DPRK alliance with Russia
+- The spread of the No Kings protests
+- Niger’s withdrawal from the MNJTF
+- Trump's tariffs against Brazil
+- Bulgaria & Romania join Schengen
+- Trump's tariffs on the world
+- International punishment for Israel's war
 :::
 
 ::: {.column width="50%"}
-
-- Trump tariff threats against Colombia
-- Tuareg vs Mali government
-- Turkey attack on Kurdish forces in Syria
-- US deportation flights to Colombia
-- US deportation flights to Mexico
-- US leaves the WHO
-- US leaving Paris Agreement
-- US prisoner exchange with Taliban
-- US sanctions on Russia
-- US supplies weapons to Ukraine
-- US suspends all foreign aid / USAID
+- Israel attacks Iranian nuclear sites
+- US attacks Iranian nuclear sites
+- Cross-border shootings in Korea
+- Israeli airstrikes on Yemen
+- Trade deal between DPRK, China & Russia
+- The conflict between Rwanda and the DRC
+- US strikes on "drug runners" in international waters
+- France, Germany, and UK snapback sanctions against Iran
+- UAE's involvement in Sudanese Civil War
+- US visa restrictions against Palestinians
 :::
 ::::
 

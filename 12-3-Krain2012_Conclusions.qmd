@@ -755,7 +755,7 @@ d8a |>
 
 ## Make an Argument {background-image="Images/background-worldmap4.png" .center}
 
-**Based on the data and methods used here do we have .textred[high, low or no] confidence in each of these conclusions?**
+**Based on the data and methods used here do we have high, low or no confidence in each of these conclusions?**
 
 "The results suggest that naming and shaming by...
 

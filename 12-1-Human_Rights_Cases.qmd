@@ -28,11 +28,13 @@ Justin Leinaweaver (Fall 2025)
 ::: notes
 Prep for Class
 
-1. Check the Google sheet for participation
+1. Review Canvas submissions
 
-2. Use the [V-Dem graphing tools](https://www.v-dem.net/graphing/graphing-tools/) to update the maps in the slides
+2. Markers x 4
 
-3. Use the [Fragile States Index web tool](https://fragilestatesindex.org/analytics/fsi-heat-map/) to do the same
+3. Use the [V-Dem graphing tools](https://www.v-dem.net/graphing/graphing-tools/) to update the maps in the slides
+
+4. Use the [Fragile States Index web tool](https://fragilestatesindex.org/analytics/fsi-heat-map/) to do the same
 
 :::
 
@@ -178,7 +180,7 @@ I'll be totally honest with you here: Each of these sources has its own problems
 
 ::: notes
 
-*Split into groups of four*
+*Split into four groups (preserve board space)*
 
 - Try to work with new people!
 
