@@ -10,7 +10,30 @@ library(tidyverse)
 library(readxl)
 library(kableExtra)
 
-d <- read_excel("../../Data/WDI/GDP_pc-1970-2022.xlsx", na = "NA")
+# If pulled in long format from WDI
+# Rename columns in spreadsheet and remove the bottom two rows
+d <- read_excel("../../Data/WDI/GDP_pc-1970-2024.xlsx", na = "NA")
+
+# # WDI database not working so downloaded in wide format from (current USD)
+# # https://data.worldbank.org/indicator/NY.GDP.PCAP.CD
+# # THEN remove empty headers and save as version 2
+# ### CRAP, this includes country aggregates and not just countries. BOOOOOO!
+# d <- read_excel("../../Data/WDI/API_NY.GDP.PCAP.CD_DS2_en_excel_v2_130121 v2.xls", na = "NA")
+# 
+# # Convert wide to long format
+# d <- d |>
+#   select(-`Indicator Code`, -`Indicator Name`) |>
+#   rename(country = `Country Name`, ccode = `Country Code`) |>
+#   pivot_longer(cols = `1960`:`2024`, names_to = "year", values_to = "gdp_pc_current_usd")
+# 
+# # Check for earliest year wide available data
+# d |>
+#   group_by(year) |>
+#   summarize(
+#     missing = sum(is.na(gdp_pc_current_usd))
+#   ) |> print(n=1000)
+
+
 ```
 
 <br>
@@ -329,8 +352,11 @@ Ok then, assuming we accept definition of "race," how does it help us explain in
 
 ```{r, fig.align='center', fig.asp=.618}
 # Map current year
-d2022 <- d |>
-  filter(year == 2022)
+d2024 <- d |>
+  filter(year == 2024)
+
+d2023 <- d |>
+  filter(year == 2023)
 
 library(sf)
 library(rnaturalearth)
@@ -343,7 +369,36 @@ worldmap <- ne_countries(scale = 'medium', type = 'map_units', returnclass = 'sf
 # countrycode::guess_field(d$ccode) # wb 100% and iso3c 99%
 # countrycode::guess_field(worldmap$adm0_a3) # wb 88%
 
-d10 <- left_join(worldmap, d2022, by = c("adm0_a3" = "ccode"))
+# Obvious countries being missed in the merge (per my view of the map)
+# Venezuela - NO RELIABLE DATA
+# South Sudan
+# Ethiopia - No data
+# Eritrea - No data
+# Yemen - No data
+# Kosovo
+# Afghanistan - No data
+# North Korea - No data
+# South Korea - No data
+
+# Update code in d2024
+# worldmap$adm0_a3[worldmap$admin == "Venezuela"]
+# d2024$ccode[d2024$country == "Venezuela"]
+
+#worldmap$adm0_a3[worldmap$admin == "South Sudan"]
+d2024$ccode[d2024$country == "South Sudan"] <- "SDS"
+
+# worldmap$adm0_a3[worldmap$admin == "Ethiopia"]
+# d2024$ccode[d2024$country == "Ethiopia"]
+
+# worldmap$adm0_a3[worldmap$admin == "Eritrea"]
+# d2024$ccode[d2024$country == "Eritrea"]
+
+# Use 2023 data for S Korea
+# worldmap$adm0_a3[worldmap$admin == "South Korea"]
+# d2024$ccode[d2024$country == "Korea, Rep."]
+d2024$gdp_pc_current_usd[d2024$country == "Korea, Rep."] <- d2023$gdp_pc_current_usd[d2023$country == "Korea, Rep."]
+
+d10 <- left_join(worldmap, d2024, by = c("adm0_a3" = "ccode"))
 
 ## Make the map by quartiles
 #summary(d10$gdp_pc_current_usd)
@@ -351,15 +406,15 @@ d10 <- left_join(worldmap, d2022, by = c("adm0_a3" = "ccode"))
 d10 |>
   mutate(
     gdp_quartiles = case_when(
-      gdp_pc_current_usd <= quantile(d2022$gdp_pc_current_usd, probs = .25, na.rm = TRUE) ~ "Quartile 1",
-      gdp_pc_current_usd <= quantile(d2022$gdp_pc_current_usd, probs = .5, na.rm = TRUE) ~ "Quartile 2",
-      gdp_pc_current_usd <= quantile(d2022$gdp_pc_current_usd, probs = .75, na.rm = TRUE) ~ "Quartile 3",
-      gdp_pc_current_usd > quantile(d2022$gdp_pc_current_usd, probs = .75, na.rm = TRUE) ~ "Quartile 4"
+      gdp_pc_current_usd <= quantile(d2024$gdp_pc_current_usd, probs = .25, na.rm = TRUE) ~ "Quartile 1",
+      gdp_pc_current_usd <= quantile(d2024$gdp_pc_current_usd, probs = .5, na.rm = TRUE) ~ "Quartile 2",
+      gdp_pc_current_usd <= quantile(d2024$gdp_pc_current_usd, probs = .75, na.rm = TRUE) ~ "Quartile 3",
+      gdp_pc_current_usd > quantile(d2024$gdp_pc_current_usd, probs = .75, na.rm = TRUE) ~ "Quartile 4"
     )
   ) |>
   ggplot() +
   geom_sf(aes(fill = gdp_quartiles)) +
-  labs(fill = "", title = "GDP per capita (2022 USD)",
+  labs(fill = "", title = "GDP per capita (2024 USD)",
        caption = "Source: World Bank WDI") +
   theme(legend.position = "bottom") +
   scale_fill_brewer(type = "div", palette = 5, na.translate = F)
@@ -367,7 +422,7 @@ d10 |>
 
 ::: notes
 
-This is 2022 data from the World Bank on the size of country economies around the world
+This is 2024 data from the World Bank on the size of country economies around the world
 
 - GDP per capita is a measure that scales the size of an economy by the size of the population
 
@@ -462,7 +517,7 @@ rbind(x1, x2) |>
   guides(color = "none") +
   annotate("text", x = 1972, y = 0, label = "Poorest Quartile", color = "darkred", hjust = 0) +
 annotate("text", x = 1972, y = 4000, label = "Richest Quartile", color = "darkblue", hjust = 0) +
-  coord_cartesian(ylim = c(0, 60000), xlim = c(1970, 2020))
+  coord_cartesian(ylim = c(0, 60000), xlim = c(1970, 2024))
 
 ```
 
@@ -506,8 +561,8 @@ rbind(x1, x2) |>
        caption = "Source: World Bank WDI") +
   guides(color = "none") +
   annotate("text", x = 1972, y = 0, label = "Poorest Quartile", color = "darkred", hjust = 0) +
-annotate("text", x = 1972, y = 4000, label = "Richest Quartile", color = "darkblue", hjust = 0) +
-  coord_cartesian(ylim = c(0, 60000), xlim = c(1970, 2020)) +
+  annotate("text", x = 1972, y = 4000, label = "Richest Quartile", color = "darkblue", hjust = 0) +
+  coord_cartesian(ylim = c(0, 60000), xlim = c(1970, 2024)) +
   transition_reveal(year)
 ```
 
