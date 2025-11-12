@@ -32,7 +32,11 @@ Prep for Class
 
 1. Review Canvas submissions
 
-2. Bring markers x 5
+2. *NOTE*: This semester's class has been awful with the autonomy of group work so let's do a version today where you steer more aggressively.
+
+<br>
+
+**SLIDE**: Refresher
 :::
 
 
@@ -58,7 +62,8 @@ Prep for Class
 + Constructivism
 
 ::: notes
-To refresh, on Monday you each brought in a case study meant to highlight some aspect of the intersection between gender and international political events.
+
+On Monday you each brought in a case study meant to highlight some aspect of the intersection between gender and international political events.
 
 - We used those cases to re-evaluate the theories of IR we have been studying this semester.
 
@@ -66,39 +71,29 @@ To refresh, on Monday you each brought in a case study meant to highlight some a
 
 <br>
 
-Now let's keep the test of a model in mind
-
-- Neither true nor false
-
-- Limited in their accuracy
-
-- Partial representations
-
-- Useful for only some uses
-
-- A reflection of the interests of the designer
+**Which of our theories does the worst job explaining the cases we discussed on Monday? Why?**
 
 <br>
 
-That means that simply excluding the word "gender" or "woman" from your theory isn't a problem, by definition.
-
-- It matters if the theory offers incorrect predictions because of the omission!
+**Which does the best job? Why?**
 
 <br>
 
-**SLIDE**: Our work today is to reconsider the role of gender in IR theory
+**SLIDE**: Today I want to reinforce our case study work with an academic argument
 
 :::
 
 
 
-## "Gender Makes the World Go Round: Where are the women?" {background-image="Images/background-worldmap4.png" .center}
+## {background-image="Images/background-worldmap4.png"}
 
-<br>
+::: {.r-fit-text}
+**Gender Makes the World Go Round:**
 
-```{r, fig.align='center'}
-knitr::include_graphics("Images/13-1-Enloe_Book_Cover.jpg")
-```
+**Where are the women?**
+:::
+
+![](Images/13-1-Enloe_Book_Cover.jpg){.absolute width="300" bottom=0 left=400}
 
 ::: notes
 Today we continue our exploration of gender and international relations using the first chapter in Cynthia Enloe's book, *Bananas, Beaches and Bases: Making Feminist Sense of International Politics*
@@ -109,7 +104,7 @@ Today we continue our exploration of gender and international relations using th
 
 For class today I asked each of you to highlight the strongest critiques of IR made in the chapter.
 
-- Everybody take a few minutes to review the submissions on Canvas.
+- **Everybody take a few minutes to review the submissions on Canvas**
 
 - Use this as a chance to refresh your memory on the chapter and see where people are leaning.
 
@@ -137,9 +132,7 @@ For class today I asked each of you to highlight the strongest critiques of IR m
 
 :::: {.columns}
 ::: {.column width="30%"}
-```{r}
-knitr::include_graphics("Images/13-1-Enloe_Book_Cover.jpg")
-```
+![](Images/13-1-Enloe_Book_Cover.jpg)
 :::
 
 ::: {.column width="70%"}
@@ -157,21 +150,11 @@ knitr::include_graphics("Images/13-1-Enloe_Book_Cover.jpg")
 
 ::: notes
 
-*Split class into five groups, assign one to each section*
+I want us to work through these sections as they collectively make the argument that IR theory is currently doing a bad job explaining a wide range of international political events
 
 <br>
 
-Groups, diagram the argument in this section
-
-- Work directly on the board.
-
-<br>
-
-1. What is the central conclusion of this section?
-
-    - Please phrase the conclusion as: "IR theory is doing a bad job because..."
-
-2. What are the key premises/evidence underpinning this conclusion?
+**SLIDE**: Section 1
 
 :::
 
@@ -181,20 +164,18 @@ Groups, diagram the argument in this section
 
 <br>
 
-```{r, fig.align='center'}
-knitr::include_graphics("Images/13-1-women_power_politics_v2.png")
-```
+![](Images/13-1-women_power_politics_v2.png){style="display: block; margin: 0 auto"}
 
 ::: notes
 
-Group 1 walk us through the argument in: Where Does Power Operate? (8-13)
+**Ok, what is the central critique of IR theory in this section?**
 
-### What is the central critique of IR theory in this section?
 - (IR theories fundamentally misunderstand power!)
 
 <br>
 
-### What are the key premises supporting this conclusion?
+**What are the key premises supporting this conclusion?**
+
 - (EVERYTHING has been made (e.g. receding glacier, low-cost sweatshirt, heavily weaponized police force), so who made it and how does it sustain or reflect their power?)
 
 - (There are more types of power and wielders of power than we might have assumed (11))
@@ -207,7 +188,13 @@ Group 1 walk us through the argument in: Where Does Power Operate? (8-13)
 
 <br>
 
-### Are you persuaded by it? Do Feminist approaches do a better job modeling power than the realisms? Why or why not?
+**Are you persuaded by this critique?**
+
+- **Do Feminist approaches do a better job modeling power than the realisms? Why or why not?**
+
+<br>
+
+**SLIDE**: Next section
 
 <br>
 
@@ -231,20 +218,20 @@ Group 1 walk us through the argument in: Where Does Power Operate? (8-13)
 
 <br>
 
-```{r, fig.align='center'}
-knitr::include_graphics("Images/13_2-Equity_Now_March.png")
-```
+![](Images/13_2-Equity_Now_March.png){style="display: block; margin: 0 auto"}
 
 ::: notes
-Group 2 walk us through the argument in: Who Takes Seriously the Ideas of Transnational Feminists? (13-20)
 
-### What is the central critique of IR theory in this section?
+**Ok, what is the central critique of IR theory in this section?**
+
 - (IR theories have a too narrow understanding of stability, security, etc.)
+
 - (IR theories treat gender-focused groups treated as special interests, NOT representative of the broader body politic)
 
 <br>
 
-### What are the key premises supporting this conclusion?
+**What are the key premises supporting this conclusion?**
+
 - (Media: women suffering commented on by men)
 
 - (We fail to appreciate the connections between the public and private spheres)
@@ -255,7 +242,9 @@ Group 2 walk us through the argument in: Who Takes Seriously the Ideas of Transn
 
 <br>
 
-### Are you persuaded by it? Why or why not?
+**Are you persuaded by this critique?**
+
+- **Do the current theories of IR misunderstand stability and security by ignoring gender?**
 
 <br>
 
@@ -275,18 +264,18 @@ Group 2 walk us through the argument in: Who Takes Seriously the Ideas of Transn
 
 ![](Images/13-1-philadelphia-female-anti-slavery-society.jpg){.absolute left=0 width=400}
 
-![](Images/13-1-arms_trade_treaty.png){.absolute right=0 width=550}
+![](Images/13-1-arms_trade_treaty.png){.absolute right=0 bottom=100 width=550}
 
 ::: notes
 
-Group 3 walk us through the arguments in: What We Miss: Two Brief Case Studies (21-28)
+**Ok, what is the central critique of IR theory in this section?**
 
-### What is the central critique of IR theory in this section?
 - (IR theory's lack of gendered lens means we fail to understand many important international political events!)
 
 <br>
 
-### What are the key premises supporting this conclusion?
+**What are the key premises supporting this conclusion?**
+
 - (The "big" abolitionst groups that get all the history book space excluded women, so women made their own! And those roots led directly into social pressure for the vote!)
 
 - (We completely miss the internal tensions in these abolitionist groups key to understanding what they do and how)
@@ -297,20 +286,25 @@ Group 3 walk us through the arguments in: What We Miss: Two Brief Case Studies (
 
 <br>
 
-### Are you persuaded by it? Why or why not?
+**Are you persuaded by this critique?**
+
+- **Does ignoring the role of women in international events likely mean we are misunderstanding them?**
 
 <br>
 
 ### Notes
 
 What We Miss: Two Brief Case Studies (21-)
+
 First Case: The transatlantic antislavery movement
+
 - While many abolitionist groups already existed at this time, most excluded women in favor of an all male membership.
 - Why have the massive contributions of women been omitted from the history of this movement?
 1) "...we grossly underestimate how much racialized gendered power it took for proslavery advocates to sustain the slave trade and systems of slave labor for as long as they did." 2) Ignoring the women means underestimating the internal tensions that marked the movement, 3) ignoring the women means missing the roots of the suffrage movement to come.
 - How can we ignore women's roles and power in any course that purports to "make reliable sense of democratization, political mobilization, and international politics?" (22)
 
 Second Case: The international Arms Trade Treaty
+
 - Art 7, para 4 includes "gender-based violence" which is a HUGE accomplishment for women's activists and groups like WILPF, IANSA, Women's Network and Global Action to Prevent War and Armed Conflict
 - Unlike the other governments and groups lobbying to influence the treaty's terms in broader ways, these groups were bringing the research to bear showing the gendered effects of arms and violence. Interviews with women around the world discussing what guns in the home did to the dynamics of their home life, even when they weren't being used to fire a shot were powerful messages.
 - Surprising opposition from the Vatican! It wanted to remove "gender-based violence" and preferred the patriarchal "violence against women and children" as a part of the preamble and not a binding obligation. Their allies were Syria, Iran and North Korea!
@@ -327,13 +321,14 @@ knitr::include_graphics("Images/13_2-Stereotypical_gender_roles.jpg")
 
 ::: notes
 
-Group 4 walk us through the argument in: Where Are the Men? (28-32)
+**Ok, what is the central critique of IR theory in this section?**
 
-### What is the central critique of IR theory in this section?
 - (IR theory fails to understand the agency and roles of men as much as those of women)
+
 <br>
 
-### What are the key premises supporting this conclusion?
+**What are the key premises supporting this conclusion?**
+
 - What does masculinity refer to?
 
 - Why does referring to the world as "dangerous" after 9/11 matter? Frames men as protectors, women as needing protection. Defines women's role as "in the home" thus making them non-expert in what is happening "out there." 
@@ -344,11 +339,12 @@ Group 4 walk us through the argument in: Where Are the Men? (28-32)
 
 <br>
 
-### Are you persuaded by it? Why or why not?
+**Does this critique run true for our theories of IR? Why or why not?**
 
 <br>
 
 ### Notes
+
 - In a funny way, we come to better understand politics using a gender lens even when our focus is on the behavior of men!
 - What does masculinity refer to?
 - Why does referring to the world as "dangerous" after 9/11 matter? Frames men as protectors, women as needing protection. Defines women's role as "in the home" thus making them non-expert in what is happening "out there." 
@@ -362,14 +358,14 @@ Group 4 walk us through the argument in: Where Are the Men? (28-32)
 
 ::: notes
 
-Group 5 walk us through the argument in: Beyond the Global Victim (p32-36)
+**Ok, last one, what is the central critique of IR theory in this section?**
 
-### What is the central critique of IR theory in this section?
 - (None of us are powerless in international politics!)
 
 <br>
 
-### What are the key premises supporting this conclusion?
+**What are the key premises supporting this conclusion?**
+
 - The "women-need-to-learn-more-about-foreign-affairs" perspective is problematic because it keeps women as objects the world is doing things to, not as thinkers and actors actively shaping the world.
 
 - Funnily enough, standard treatments of international politics that present things as hopelessly complicated make us all feel disempowered and helpless!
@@ -378,11 +374,12 @@ Group 5 walk us through the argument in: Beyond the Global Victim (p32-36)
 
 <br>
 
-### Are you persuaded by it? Why or why not?
+**Does this critique run true for our theories of IR? Why or why not?**
 
 <br>
 
 ### Notes
+
 - The "women-need-to-learn-more-about-foreign-affairs" perspective is problematic because it keeps women as objects the world is doing things to, not as thinkers and actors actively shaping the world.
 - Funnily enough, standard treatments of international politics that present things as hopelessly complicated make us all feel disempowered and helpless!
 - We need to "remap the boundaries" of "international" and "political" so that we can see "how one's family dynamics, consumer behaviors, travel choices, relationships with others, and ways of thinking about the world actually help shape that world. We are not just acted upon; we are actors. ... One discovers that one is often complicit in creating the very world that one finds so dismaying." (35)
@@ -407,7 +404,13 @@ Group 5 walk us through the argument in: Beyond the Global Victim (p32-36)
 + Constructivism
 
 ::: notes
-?
+
+**Bottom line, has Enloe convinced you that we need entirely new models of IR that center gender dynamics? Why or why not?**
+
+<br>
+
+**SLIDE**: Next class
+
 :::
 
 

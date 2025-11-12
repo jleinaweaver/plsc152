@@ -28,13 +28,12 @@ Justin Leinaweaver (Fall 2025)
 :::
 
 ::: notes
+
 Prep for Class
 
 1. Review cases submitted to Canvas
 
-2. Bring markers x 3
-
-3. Your Case: Patel, Kasha. (2021, Nov 8). How climate change is disproportionately affecting girls in low-income countries. *The Washington Post*. [LINK](https://www.washingtonpost.com/weather/2021/11/08/cop26-girls-education-climate-weather/)
+2. Your Case: Patel, Kasha. (2021, Nov 8). How climate change is disproportionately affecting girls in low-income countries. *The Washington Post*. [LINK](https://www.washingtonpost.com/weather/2021/11/08/cop26-girls-education-climate-weather/)
 
 <br>
 
@@ -180,19 +179,11 @@ Ok, I want each of you to analyze your own case using these prompts
 
 - Take a few minutes to make sure you could introduce your case as an answer to these five questions
 
-<br>
-
-*Split class into 3 groups*
-
-- Go sit with your group and claim some space on the board!
+- In a moment, you will be!
 
 <br>
 
-Today I want us to reflect on the role of gender in international political events.
-
-- I'm going to ask each group to develop and present a series of arguments
-
-- **SLIDE**: Argument 1
+**SLIDE**: Our work
 
 :::
 
@@ -200,36 +191,64 @@ Today I want us to reflect on the role of gender in international political even
 
 ## Gender Case Studies {background-image="Images/background-worldmap4.png" .center}
 
-<br>
+:::: {.columns}
+::: {.column width="45%"}
+**The Cases**
 
-- ?
+1. What is the "event"?
 
-- ?
+2. Why is it "international"?
 
-- ?
+3. Why is it "political"?
 
-### Therefore, we cannot usefully explain THESE specific events without the role of gender (e.g. the other theories will fail to explain the outcome)
+4. What is the role of "gender" in this event?
+
+5. What are the implications of this case for IR theory?
+:::
+
+::: {.column width="7%"}
+:::
+
+::: {.column width="43%"}
+**IR Theories**
+
++ Neorealism
+
++ Offensive Realism
+
++ Bargaining Model of War
+
++ Liberal Institutionalism
+
++ Economic Liberalism
+
++ Two-Level Games
+
++ Constructivism
+
+:::
+::::
 
 ::: notes
 
-Ok groups, share your events with each other and then build an argument on the board
-
-- The conclusion of that argument is: we cannot usefully explain these specific international political events without analyzing the role of gender
-
-<br>
-
-**Questions on the task?**
+Ok, we'll take turns introducing your cases to the class and then we'll evaluate them using our IR theories
 
 - Go!
 
 <br>
 
-*PRESENT and DISCUSS each*
+*For Each Case:*
+
+- **Which theories do the best job with these cases? Why?**
+
+- **Which theories do the worst job? Why?**
 
 <br>
 
-**SLIDE**: Argument 2
+**SLIDE**: As an argument 
+
 :::
+
 
 
 
@@ -247,9 +266,11 @@ Ok groups, share your events with each other and then build an argument on the b
 
 ::: notes
 
-Ok groups, now I want a second version of your argument
+Ok take all this on board and help me flesh out this argument
 
 - The conclusion of that argument is: we cannot usefully explain ANY specific international political events without analyzing the role of gender
+
+- Work in small groups and get ready to report back!
 
 <br>
 
@@ -264,33 +285,6 @@ Ok groups, now I want a second version of your argument
 <br>
 
 **SLIDE**: Our next question...
-:::
-
-
-
-## Can these models of IR be used to "accurately" explain our cases from today? {background-image="Images/background-worldmap4.png" .center}
-
-+ Neorealism
-
-+ Offensive Realism
-
-+ Bargaining Model of War
-
-+ Liberal Institutionalism
-
-+ Economic Liberalism
-
-+ Two-Level Games
-
-+ Constructivism
-
-::: notes
-
-*Encourage debate*
-
-- Strongest reasons why?
-
-- Strongest reasons why not?
 :::
 
 
