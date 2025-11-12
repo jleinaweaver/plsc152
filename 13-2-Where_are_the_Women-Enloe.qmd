@@ -32,8 +32,10 @@ Prep for Class
 
 1. Review Canvas submissions
 
-2. *NOTE*: This semester's class has been awful with the autonomy of group work so let's do a version today where you steer more aggressively.
+2. *NOTE*: This semester's class has struggled with group work (way too much screwing around and free riding). Keep the group work option for the future, but this group needs something else
 
+    - Let's avoid too many group work days in a row, encourages free-riding
+    
 <br>
 
 **SLIDE**: Refresher
@@ -85,46 +87,6 @@ On Monday you each brought in a case study meant to highlight some aspect of the
 
 
 
-## {background-image="Images/background-worldmap4.png"}
-
-::: {.r-fit-text}
-**Gender Makes the World Go Round:**
-
-**Where are the women?**
-:::
-
-![](Images/13-1-Enloe_Book_Cover.jpg){.absolute width="300" bottom=0 left=400}
-
-::: notes
-Today we continue our exploration of gender and international relations using the first chapter in Cynthia Enloe's book, *Bananas, Beaches and Bases: Making Feminist Sense of International Politics*
-
-- Dr. Enloe uses this book to make a series of compelling arguments about how our current models fail or miss important elements in international politics.
-
-<br>
-
-For class today I asked each of you to highlight the strongest critiques of IR made in the chapter.
-
-- **Everybody take a few minutes to review the submissions on Canvas**
-
-- Use this as a chance to refresh your memory on the chapter and see where people are leaning.
-
-<br>
-
-**SLIDE**: Let's now make sure we are grappling with the arguments in the chapter!
-
-<br>
-
-### Notes from first part of chapter
-- Making feminist sense of international politics takes curiosity and imagination. It requires us to make a serious effort to view the world through the eyes of diverse women in spheres typically considered "private", "domestic", "local" or "trivial" (p3)
-- Example: Feminist scholars have learned much about the "behind the curtain" workings of foreign policy making by studying and taking seriously the role of the women working as secretaries in foreign affairs ministries. "Devoting attention to women who are government secretaries, for instance, exposes the far-reaching political consequences of feminized loyalty, feminized record -keeping, feminized routine, masculinized status, and masculinized control" (4).
-- What do we mean by "gendered causes and consequences"? Examples as thought experiment (p6-7): the woman tourist and the chambermaid, the schoolteacher and her students, the film star, her studio owners, the banana company executives, ...
-- "If one fails to pay close attention to women--all sorts of women--one will miss who wields power and for what ends" (9).
-- The international political impacts of marriage example is super fascinating (to me at least)
-- Is it possible feminist IR theory takes power more seriously than any of the other standard models (realism included!)? (p10)
-- EVERYTHING has been made (e.g. receding glacier, low-cost sweatshirt, heavily weaponized police force, masculinized peace negotiation, the romantic marriage, the all-male Joint Chiefs of Staff) and that means we have to think about: Who made it and how does it sustain or reflect their power?
-:::
-
-
 
 ## "Gender Makes the World Go Round: Where are the women?" {background-image="Images/background-worldmap4.png" .center}
 
@@ -150,11 +112,30 @@ For class today I asked each of you to highlight the strongest critiques of IR m
 
 ::: notes
 
-I want us to work through these sections as they collectively make the argument that IR theory is currently doing a bad job explaining a wide range of international political events
+Today we continue our exploration of gender and international relations using the first chapter in Cynthia Enloe's book, *Bananas, Beaches and Bases: Making Feminist Sense of International Politics*
+
+- Dr. Enloe uses this book to make a series of compelling arguments about how our current models fail or miss important elements in international politics.
+
+<br>
+
+In a sense, each of these sections in the chapter represent a premise in Enloe's argument that our current theories of International Relations have a serious problem
+
+- Today we'll work through these together and everybody will get a chance to weigh in on the argument!
 
 <br>
 
 **SLIDE**: Section 1
+
+<br>
+
+### Notes from first part of chapter
+- Making feminist sense of international politics takes curiosity and imagination. It requires us to make a serious effort to view the world through the eyes of diverse women in spheres typically considered "private", "domestic", "local" or "trivial" (p3)
+- Example: Feminist scholars have learned much about the "behind the curtain" workings of foreign policy making by studying and taking seriously the role of the women working as secretaries in foreign affairs ministries. "Devoting attention to women who are government secretaries, for instance, exposes the far-reaching political consequences of feminized loyalty, feminized record -keeping, feminized routine, masculinized status, and masculinized control" (4).
+- What do we mean by "gendered causes and consequences"? Examples as thought experiment (p6-7): the woman tourist and the chambermaid, the schoolteacher and her students, the film star, her studio owners, the banana company executives, ...
+- "If one fails to pay close attention to women--all sorts of women--one will miss who wields power and for what ends" (9).
+- The international political impacts of marriage example is super fascinating (to me at least)
+- Is it possible feminist IR theory takes power more seriously than any of the other standard models (realism included!)? (p10)
+- EVERYTHING has been made (e.g. receding glacier, low-cost sweatshirt, heavily weaponized police force, masculinized peace negotiation, the romantic marriage, the all-male Joint Chiefs of Staff) and that means we have to think about: Who made it and how does it sustain or reflect their power?
 
 :::
 
@@ -167,6 +148,23 @@ I want us to work through these sections as they collectively make the argument 
 ![](Images/13-1-women_power_politics_v2.png){style="display: block; margin: 0 auto"}
 
 ::: notes
+
+Ok, everybody take two minutes to reflect just on this first section of the chapter
+
+- Get ready to report back your summary of the central critique of IR theory in this section
+
+- I'll then call on people to hear your version of the critique AND your evaluation of it
+
+- **Make sense? Questions?**
+
+- Go!
+
+<br>
+
+*COLD-CALL different people to lead / participate in our conversation*
+
+<br>
+
 
 **Ok, what is the central critique of IR theory in this section?**
 
@@ -190,7 +188,7 @@ I want us to work through these sections as they collectively make the argument 
 
 **Are you persuaded by this critique?**
 
-- **Do Feminist approaches do a better job modeling power than the realisms? Why or why not?**
+- **Do Feminist approaches do a better job modeling power than even the realist approaches? Why or why not?**
 
 <br>
 
@@ -221,6 +219,16 @@ I want us to work through these sections as they collectively make the argument 
 ![](Images/13_2-Equity_Now_March.png){style="display: block; margin: 0 auto"}
 
 ::: notes
+
+Two minutes, get ready to idenitfy and evaluate the critique in this section of the chapter!
+
+- Go!
+
+<br>
+
+*COLD-CALL different people to lead / participate in our conversation*
+
+<br>
 
 **Ok, what is the central critique of IR theory in this section?**
 
@@ -267,6 +275,16 @@ I want us to work through these sections as they collectively make the argument 
 ![](Images/13-1-arms_trade_treaty.png){.absolute right=0 bottom=100 width=550}
 
 ::: notes
+
+Two minutes, get ready to idenitfy and evaluate the critique in this section of the chapter!
+
+- Go!
+
+<br>
+
+*COLD-CALL different people to lead / participate in our conversation*
+
+<br>
 
 **Ok, what is the central critique of IR theory in this section?**
 
@@ -321,6 +339,16 @@ knitr::include_graphics("Images/13_2-Stereotypical_gender_roles.jpg")
 
 ::: notes
 
+Two minutes, get ready to idenitfy and evaluate the critique in this section of the chapter!
+
+- Go!
+
+<br>
+
+*COLD-CALL different people to lead / participate in our conversation*
+
+<br>
+
 **Ok, what is the central critique of IR theory in this section?**
 
 - (IR theory fails to understand the agency and roles of men as much as those of women)
@@ -358,7 +386,19 @@ knitr::include_graphics("Images/13_2-Stereotypical_gender_roles.jpg")
 
 ::: notes
 
-**Ok, last one, what is the central critique of IR theory in this section?**
+Ok, last one.
+
+- Two minutes, get ready to idenitfy and evaluate the critique in this section of the chapter!
+
+- Go!
+
+<br>
+
+*COLD-CALL different people to lead / participate in our conversation*
+
+<br>
+
+**What is the central critique of IR theory in this section?**
 
 - (None of us are powerless in international politics!)
 
