@@ -368,26 +368,25 @@ Constructivism
 
 Feminist Theory
 
-Interests: 
-
-- Don’t forget to think about ALL the actors involved in the functioning of states, organizations movements
-- Who participated in decision-making?
-- Who are we ignoring?
-
-Institutions: 
-
-- Gender stereotypes as a kind of institution we should be aware of and how they structure interests and interactions
-- Is anarchy replaced by patriarchy?
-
-Interactions: 
-
-- Power is way more complicated and suffuses all interactions way more then the other theories think it does.
+- Interests:
+    - Unpack the state! Don’t forget to think about ALL the actors involved in the functioning of states, organizations movements
+    - Who participated in decision-making?
+    - Who are we ignoring?
+- Institutions: 
+    - Gender stereotypes as a kind of institution we should be aware of and how they structure interests and interactions
+    - Is anarchy replaced by patriarchy?
+- Interactions: 
+    - Power is way more complicated and suffuses all interactions way more then the other theories think it does.
+    - We cannot understand outcomes related to stability, security, crisis, development without exploring the interests and institutions above
 
 Postcolonial Theory
 
-- Interests: 
-- Institutions: Many rules of the system were designed to perpetuate established power dynamics (not even-handed or designed for cooperation)
-- Interactions: Race as a social construct designed for control, not objective description
+Interests: **Challenges us to reconceptualize what states want: Exploitation, hierarchy, reinforcing the status quo.**
+
+Institutions: Institutional anarchy BUT also policy drift!
+    - Many rules of the system were designed to perpetuate established power dynamics (not even-handed or designed for cooperation)
+
+Interactions: Race as a social construct designed for control, not objective description
 :::
 
 

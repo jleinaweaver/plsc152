@@ -130,17 +130,37 @@ SMALL GROUPS: Discuss each case and give the presenter feedback on these two poi
 <br>
 
 Alright, let's hear all the cases you've picked!
+
+<br>
+
+**SLIDE** Model brainstorming
 :::
 
 
 
-## Assignment for Next Class  {background-image="Images/background-worldmap4.png" .center}
+## For Next Class  {background-image="Images/background-worldmap4.png" .center}
 
 <br>
 
-### Check the Modules page for the assignment prompt
+::: {.r-fit-text}
+**Applying the Models to your Event**
+
+1. Unpack the event
+
+2. Explain the event using THREE theories from class
+:::
 
 ::: notes
+
+Assignment for next class pushes you forward on your project!
+
+- Details on Canvas
+
+<br>
+
+**Questions on the assignment?**
+
+<br>
 
 Canvas: Paper 3 - Applying Models (8 pts)
 
@@ -153,16 +173,5 @@ Canvas: Paper 3 - Applying Models (8 pts)
     - Each explanation must be a minimum of three sentences each. 
     - Three theories x three sentences = minimum of nine sentences.
 
-<br>
-
-**Questions on the assignment?**
-
-<br>
-
-With the time remaining today everyone needs to select their three theories!
-
-- Use each other as resources, bounce ideas around!
-
-- Go!
 :::
 
