@@ -118,12 +118,16 @@ Focus on each paper for 15 minutes (use all the time!)
 
 - Go!
 
+<br>
+
+**SLIDE**: Assignment - outline
+
 :::
 
 
 
 
-## For Friday: Outline {background-image="Images/background-worldmap4.png" .center .smaller}
+## Next Class: Outline {background-image="Images/background-worldmap4.png" .center .smaller}
 
 **Intro**
 
@@ -145,15 +149,15 @@ Focus on each paper for 15 minutes (use all the time!)
 
 ::: notes
 
-Outline due in class on Friday
+Outline due next class
 
 - Submit as an assignment, NOT a Canvas discussion posting
 
-- Bring your outline to class
+- **Bring your outline to class**
 
 <br>
 
-### Questions?
+**Questions?**
 
 - Get to it!
 :::
