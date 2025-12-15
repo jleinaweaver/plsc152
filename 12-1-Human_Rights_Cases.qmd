@@ -1,0 +1,432 @@
+---
+format: revealjs
+---
+
+## Today's Agenda {background-image="Images/background-worldmap4.png" .center}
+
+```{r}
+# background-size="1920px 1080px"
+library(tidyverse)
+library(readxl)
+library(kableExtra)
+```
+
+<br>
+
+**IV. What is the Future of Transnational Politics and IR?**
+
+- Explore the current state of human rights conditions around the world
+
+<br>
+
+<br>
+
+::: r-stack
+Justin Leinaweaver (Spring 2026)
+:::
+
+::: notes
+Prep for Class
+
+1. Review Canvas submissions
+
+2. Markers x 4
+
+3. Use the [V-Dem graphing tools](https://www.v-dem.net/graphing/graphing-tools/) to update the maps in the slides
+
+4. Use the [Fragile States Index web tool](https://fragilestatesindex.org/analytics/fsi-heat-map/) to do the same
+
+:::
+
+
+
+## Assignment for Today {background-image="Images/background-worldmap4.png" .center}
+
+<br>
+
+Claim a democracy and a dictatorship (first-come, first-served) and review their current human rights record using:
+
+1. The country reports by the US Department of State
+2. The country reports by Amnesty International
+3. The country reports by Human Rights Watch
+
+Submit a summary of each country to Canvas before class (2-3 sentences each)
+
+::: notes
+
+For today I asked each of you to perform two case studies that would help us think about the state of human rights in the world.
+
+### Everybody ready to go?
+:::
+
+
+
+## A Case Study {background-image="Images/background-worldmap4.png" .center}
+
+<br>
+
+"A case study is an **in-depth examination**, often undertaken over time, of **a single case** – such as a policy, programme, intervention site, implementation process or participant" (Goodrick 2014, 1).
+
+::: notes
+
+Your work for today is what we refer to as a "case study."
+
+- Although, to be fair to what we did, we did a very brief case study at a single moment in recent time...
+
+- Still, I think you get the gist.
+
+<br>
+
+**SLIDE**: Thanks to all of your work before class, we can now use our time in class to perform a comparative case analysis.
+:::
+
+
+## A Comparative Case Study {background-image="Images/background-worldmap4.png" .center}
+
+<br>
+
+"Comparative case studies involve the **analysis and synthesis of the similarities, differences and patterns across two or more cases** that share a common focus or goal in a way that **produces knowledge** that is easier to generalize about causal questions – how and why particular programmes or policies work or fail to work" (Goodrick 2014).
+
+::: notes
+
+In other words, comparing all of your cases allows us to:
+
+1. Broaden our descriptive knowledge of the world,
+
+2. Identify puzzles that need some explanation (generates new research projects), and
+
+3. Develop generalizations about how certain mechanisms or processes might work.
+
+<br>
+
+I'm hoping we can do some of all three of those things today.
+:::
+
+
+
+## Sources of our Knowledge {background-image="Images/background-worldmap4.png"}
+
+![](Images/12_1-USDepartment_of_State.png){.absolute left=0 bottom=0 width=350}
+
+![](Images/12_1-Amnesty_Logo.jpg){.absolute left=335 width=350}
+
+![](Images/12_1-Human_Rights_Watch_logo.png){.absolute bottom=0 right=0 width=350}
+
+::: notes
+
+*NOTE TO YOU: Shorten discussion of bias in the sources*
+
+<br>
+
+Before we dig into the cases, let's talk about our data sources.
+
+- Heading into areas we know nothing about puts even more pressure on us to build knowledge using "high quality" sources.
+
+- **So, what concerns do you have about using these three data sources for learning about human rights behaviors around the world?**
+
+<br>
+
+Key lesson: There is "bias" or "perspective" in everything, but that's not a deal-breaker!
+
+- All rulers are imperfect, but we can still learn something about the world using that ruler
+
+- The measurements only have meaning given the context of the ruler you are using!
+
+- Science means being transparent about the quality of your ruler and acknowledging the uncertainty in using it
+
+<br>
+
+We did this on Friday with the UN DHR!
+
+- We used that treaty as a tool for measuring the behavior of America
+
+- Whether we like the treaty or not, it let us measure something useful about American behavior
+
+<br>
+
+I'll be totally honest with you here: Each of these sources has its own problems
+
+- The US State Dept is explicitly a political entity with a very specific perspective
+
+- Both AI and HRW are NGOs that face funding pressures and must be careful to ensure access to the places they want to do work in.
+
+<br>
+
+### So, what is our best bet for establishing "high confidence" facts from these three sources?
+
+(Most confident where all three reports agree with each other?)
+- This assumes all three asking the same question, right?
+
+(Least confident when:)
+- only one mentions something,
+- when a "fact" lies at the heart of the source's bias,
+:::
+
+
+
+## Analyze the Democracy Cases {background-image="Images/background-worldmap4.png" .center}
+
+::: {.fragment}
+- In general, how good is the respect for human rights in these cases?
+  	- Excellent
+    - Good
+    - Fair
+    - Poor
+
+- Most targeted groups?
+
+- Most violated rights?
+:::
+
+::: notes
+
+*Split into four groups (preserve board space)*
+
+- Try to work with new people!
+
+- Work directly on the board!
+
+- Your job is to compare and contrast the democracy cases and get ready to report back your findings.
+
+<br>
+
+**REVEAL**: Before you get to work let's make sure we're clear on the "ruler" we're using!
+
+- **GROUPS, take a moment to get on the same page re how to apply this short Likert scale.**
+
+- **Get ready to report back to the class how you plan on classifying a country on this scale**
+
+<br>
+
+*REPORT back and DISCUSS*
+
+- (Human rights respect as)
+
+    - number of violations? 
+    
+    - severity of violations?
+    
+    - efforts by the state to correct/prevent violations?
+
+<br>
+
+Ok, get to work!
+
+- Work directly on the board!
+
+<br>
+
+**Any early conclusions we can draw at this point about human rights practices in democracies?**
+
+- *Report Back and Discuss*
+
+:::
+
+
+
+## Analyze the Dictatorship Cases {background-image="Images/background-worldmap4.png" .center}
+
+- In general, how good is the respect for human rights in these cases?
+  	- Excellent
+    - Good
+    - Fair
+    - Poor
+
+- Most targeted groups?
+
+- Most violated rights?
+
+::: notes
+
+Mix up the groups!
+
+- Go work with new people!
+
+<br>
+
+Groups, compare and contrast the dictatorship cases and get ready to report back your findings.
+
+- Work directly on the board!
+
+<br>
+
+### Ok, any early conclusions we can draw at this point about human rights practices in dictatorships?
+
+- *Report Back and Discuss*
+
+:::
+
+
+
+## Based on our comparative case study, is regime type a useful predictor of human rights around the world? {background-image="Images/background-worldmap4.png" .center}
+
+::: notes
+
+**Based on this comparative case study how comfortable are you in asserting that regime type is a predictor of human rights behavior?**
+
+- **Why or why not?**
+
+<br>
+
+**Do the regime types differ significantly in terms of their most common "human rights" violations?**
+
+<br>
+
+**Do the regime types differ significantly in terms of who specifically in the country is doing the harms?**
+
+<br>
+
+**Do the regime types differ significantly in terms of how the victims are being targeted?**
+
+<br>
+
+**Any evidence in the cases of any of these identified harms being addressed?**
+
+<br>
+
+SLIDE: Let's look at some more comprehensive data on this question
+:::
+
+
+
+
+## {background-image="Images/background-worldmap4.png" .center .smaller}
+
+::: {.r-fit-text}
+**Varieties of Democracy (V-Dem) Civil Liberties Index**
+:::
+
+- Freedom from political killings
+- Freedom from torture
+- Freedom of expression
+- Freedom of discussion
+- Government censorship
+- Harassment of journalists
+- Barriers to opposition parties
+- Freedom of movement (domestic and international)
+- Freedom of religion
+- Freedom from forced labor
+
+::: notes
+
+The V-Dem project is a massive research effort undertaken by scholars around the world to measure many, many aspects of states and people.
+
+<br>
+
+For example, these are the broad components of a measure they have constructed called "the Civil Liberties Index"
+
+- Big Picture: "Civil liberty is constituted by the absence of physical violence committed by government agents and the absence of constraints of private liberties and political liberties by the government" (V-Dem Codebook, 301).
+
+<br>
+
+**What do you think of using these as the key components of measuring civil liberties around the world?**
+
+- **Anything here you think doesn't belong?**
+
+<br>
+
+**Anything missing you think is important based on your review of the cases for today?**
+
+<br>
+
+SLIDE: The world in 2023...
+
+:::
+
+
+
+
+## {background-image="Images/background-worldmap4.png" .center}
+
+![](Images/12_1-civil-liberties-index-2024.png)
+
+::: notes
+
+Here are the V-Dem measurements of civil liberties around the world in 2023.
+
+- Each country gets a score running from 0 (low) to 1 (high)
+
+- We can kind of think of these like country grades from 0% to 100%
+
+<br>
+
+FIRST, audit your case studies on the map.
+
+- **Do you broadly agree with the kind of grade your two countries received here? Why or why not?**
+
+<br>
+
+SECOND, back to our big question.
+
+- **Based on this global data, how comfortable are you in asserting that regime type is a predictor of human rights behavior?**
+
+:::
+
+
+
+
+## {background-image="Images/12_1-Team_America.jpg"}
+
+::: notes
+
+Last big question for us today.
+
+<br>
+
+### Do you think human rights violations should compel American action?
+
+### - Should we be the world's policeman when human rights are under assault? Why or why not?
+:::
+
+
+
+## {background-image="Images/12_1-Fragile_States2024.png" background-size='85%'}
+
+::: notes
+
+The question might not be so cut and dry.
+
+<br>
+
+Here we see the Fragile States Index.
+
+- Some have demonstrated that states with increasing levels of human rights violations raise their risk of failure (e.g. governmental collapse).
+
+- And state failures tend not to stay isolated within their borders, e.g. one failed state tends to destabilize those around them.
+
+- Therefore, preventing small conflicts from becoming wider wars may require earlier interference in states when human rights violations increase.
+
+<br>
+
+**Does this change how you answer the question about American involvement in conflicts overseas? Why or why not?**
+
+:::
+
+
+
+## Assignment for Next Class  {background-image="Images/background-worldmap4.png" .center}
+
+<br>
+
+::: {.r-fit-text}
+
+1. Krain (2012) p574-578
+
+2. **Before class** submit to our Canvas discussion board: 
+    - What is the research question in this paper?
+    - Diagram Krain's model
+
+:::
+
+::: notes
+For the rest of this week we'll be digging deeply into our next research article of the semester!
+
+- For Wed, your job is to read the set-up of the paper (574-578) so we can explore the model he proposes to test.
+
+- Friday we'll dig into the data analyses.
+
+<br>
+
+### Questions on the assignment?
+:::
+

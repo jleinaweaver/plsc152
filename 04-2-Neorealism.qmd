@@ -1,0 +1,896 @@
+---
+format: revealjs
+---
+
+## Today's Agenda {background-image="Images/background-worldmap4.png" .center}
+
+```{r}
+# background-size="1920px 1080px"
+library(tidyverse)
+library(readxl)
+```
+
+<br>
+
+::: {.r-fit-text}
+
+**II. Why Are There Wars?**
+
+- The neorealist answer (Waltz 1988)
+
+:::
+
+<br>
+
+::: r-stack
+Justin Leinaweaver (Spring 2026)
+:::
+
+::: notes
+Prep for Class
+
+1. Bring playing cards to class
+
+2. Make sure to keep things moving to cover all exercises
+    - Refresher on science
+    - Why wars?
+    - Survive or die game
+    - Introduce IIIs
+    - Diagram neorealism
+    - Step through security dilemma illustration
+
+<br>
+
+Reminder: Paper is due Friday!
+
+<br>
+
+*Opening Discussion: From this point forward students need to practice identifying international political events everyday in class. These are more than just 'things happening far away'!*
+
+### DISCUSS: Name me an international political event that has happened since we last met as a class.
+
+<br>
+
+For the rest of this week we dive into our first set of International Relations theories: Neorealism and Offensive Realism.
+
+- Maybe they can help us understand the world!
+
+<br>
+
+**SLIDE**: First things first, our focus in IR is on explaining international political events!
+:::
+
+
+
+
+## The Outcome to Explain {background-image="Images/background-worldmap4.png" .center .smaller}
+
+<br>
+
+**International**
+
+- Global impact or involving more than one state
+
+**Political**
+
+- Decision-making in a community
+- How we make and enforce "the rules"
+- Who gets what, when and how?
+
+**Event**
+
+- A thing or happening
+
+::: notes
+
+As your first papers are ongoing let's check in on this
+
+- **Is everybody clear that they are working on a SINGLE, DISTINCT international political event for the paper?**
+
+<br>
+
+**SLIDE**: The plan for the semester
+:::
+
+
+
+## Semester Outline {background-image="Images/background-worldmap4.png" .center}
+
+<br>
+
+Section 1: Arguments, Evidence and International Relations
+
+<br>
+
+**Section 2: Why Are There Wars?**
+
+<br>
+
+Section 3: Why is it so Hard to Cooperate With Other Countries?
+
+<br>
+
+Section 4: What is the Future of Transnational Politics and IR?
+
+::: notes
+
+Today we start section 2 of our class which is focused on trying to answer a really big question: Why Are There Wars?
+
+<br>
+
+**Why is the existence of war in international politics a puzzle?**
+
+- (**SLIDE**)
+:::
+
+
+
+## {background-image="Images/06_1-WW1.jpg" .center}
+
+::: notes
+
+The question of "why do wars happen?" is actually a MUCH tougher to answer than you might think.
+
+- Wars are IMMENSELY costly in terms of blood and treasure
+
+<br>
+
+World War I Example
+
+- 4 years, approx 30 countries
+
+- Nearly 10 million soldiers killed, 21 million wounded
+
+- Costs hundreds of billions of dollars
+
+- Leads to the collapse of four empires
+
+    - The Russian Empire, the German Empire, the Austro-Hungarian Empire and the Ottoman Empire
+
+- Results in the Bolsheviks taking over Russia and fascists taking over Italy
+
+- Spreads the flu epidemic that killed 25 million around the world
+
+- and on, and on.
+
+<br>
+
+**What lesson do the countries and leaders of the world learn from all these horrible outcomes?**
+
+- (**SLIDE**: Let's do it again!)
+:::
+
+
+
+## {background-image="Images/06_1-WW1-2.jpg" .center}
+
+::: notes
+
+And then 20 years later we decided to do it all again! 
+
+<br>
+
+World War 2: 
+
+- kills **MORE** people, 
+
+- costs **MORE** money,
+
+- destroys **MORE** of the global economy
+
+- Pushes us to **develop and USE NUCLEAR WEAPONS**!
+
+<br>
+
+It is the incredible death and destruction of WW1 and WW2 that leads to the birth of International Relations as a subfield of political science.
+
+- The idea is to understand these horrible events so we can prevent them.
+:::
+
+
+
+## Section 2: Why Are There Wars? {background-image="Images/background-worldmap4.png" .center}
+
+<br>
+
+- Neorealism
+
+- Offensive Realism
+
+- Liberal Institutionalism
+
+- Economic Liberalism
+
+- Bargaining Model of War
+
+::: notes
+
+We will explore this question by testing out five IR models that each offer different answers
+
+<br>
+
+Remember, models are like maps
+
+- Not true/false but useful or not
+
+- Purpose-built!
+
+<br>
+
+Each of these will encourage you to answer the big question by emphasizing different important mechanisms in the world.
+
+- Your job as a sharp IR scholar is to understand all of them and the pros and cons of using each to explain the world and make predictions about the future!
+
+<br>
+
+IMPORTANT NOTE: Your notes on these models will almost certainly prove VERY useful on the assignments for this class!
+
+:::
+
+
+
+## The Realist Paradigm {background-image="Images/05_2-putin_with_gun_v1.png"}
+
+::: notes
+
+This week we explore our first two models, both of which fit snugly in what we call a realist paradigm.
+
+- In other words, they share similar roots but are both distinct models of IR.
+
+<br>
+
+**SLIDE**: As a segue into Neorealism, let's play a game!
+:::
+
+
+
+
+## {background-image="Images/background-space1.jpg" .center}
+
+::: {.r-fit-text}
+<p style="color: white;">**Survive or Die!**</p>
+:::
+
+<br>
+
+<p style="color: white;">The object of this game is to survive.</p>
+
+<br>
+
+<p style="color: white;">If you lose your card, you **DIE**</p>
+
+::: notes
+*Have someone distribute the cards while you explain the game*
+
+<br>
+
+It's a pretty simple game.
+
+- SLIDE: How it works...
+:::
+
+
+## {background-image="Images/background-space1.jpg" .center}
+
+<p style="color: white;">**Survive or Die!**</p>
+
+<br>
+
+::: {.incremental}
+1. <p style="color: white;"> You may challenge anyone to a duel (no refusals)</p>
+
+2. <p style="color: white;"> Duel: Rock-paper-scissors (best 2 out of 3)</p>
+
+3. <p style="color: white;"> Winner survives, loser hands over ONE card</p>
+
+4. <p style="color: white;"> **0 cards left = You're Dead**</p>
+
+5. <p style="color: white;"> At end of game the cards = Bonus Points!</p>
+:::
+
+::: notes
+
+Go!
+
+<br>
+
+### Ok, what just happened? Report back!
+
+<br>
+
+A useful way to analyze an event, like our game, is to break down your analysis of it into three parts: the interests, the institutions and the interactions.
+
+- Think of this like learning the alphabet of social science modeling / theory building.
+:::
+
+
+
+## Frieden, Lake and Schultz (2016) {background-image="Images/background-worldmap4.png" .center}
+
+<br>
+
+**Interests**
+
+"...[The] preferences of actors over the possible outcomes that might result from their political choices" (45).
+
+::: notes
+
+The first element we should clarify are the interests.
+
+- "…[The] preferences of actors over the possible outcomes that might result from their political choices" (45).
+
+<br>
+
+In other words:
+
+- Who are the actors making the key decisions in this event? AND
+
+- What do they want?
+
+<br>
+
+A useful model of IR should identify the key actors and what they want.
+
+### Questions?
+
+<br>
+
+### In our game who/what were the interests?
+:::
+
+
+## Frieden, Lake and Schultz (2016) {background-image="Images/background-worldmap4.png" .center}
+
+<br>
+
+**Institutions**
+
+"A set of rules, known and shared by the community, that structure political interactions in particular ways" (67).
+
+::: notes
+
+The second element we should clarify are the institutions
+
+- "A set of rules, known and shared by the community, that structure political interactions in particular ways" (67).
+
+- In other words: What are the important rules that structure the decision-making of the actors you are focusing on?
+
+<br>
+
+A useful model of IR should define the key rules of the system.
+
+### Questions?
+
+<br>
+
+### In our game who/what were the institutions?
+:::
+
+
+
+
+## Frieden, Lake and Schultz (2016) {background-image="Images/background-worldmap4.png" .center}
+
+<br>
+
+**Interactions**
+
+"The ways in which the choices of two or more actors combine to produce political outcomes" (51).
+
+::: notes
+
+The third element we should clarify are the Interactions
+
+- "The ways in which the choices of two or more actors combine to produce political outcomes" (51).
+
+- How does the collision of the interests in a situation complicate things?
+
+- In other words, why can't each actor get what they want from a situation?
+
+<br>
+
+A useful model of IR should define how interactions happen and how they change the game.
+
+### Questions?
+
+<br>
+
+### In our game who/what were the interactions and how did they complicate your decisions?
+:::
+
+
+
+## Frieden, Lake and Schultz (2016) {background-image="Images/background-worldmap4.png" .center .smaller}
+
+<br>
+
+**Interests**
+
+"...[The] preferences of actors over the possible outcomes that might result from their political choices" (45).
+
+**Interactions**
+
+"The ways in which the choices of two or more actors combine to produce political outcomes" (51).
+
+**Institutions**
+
+"A set of rules, known and shared by the community, that structure political interactions in particular ways" (67).
+
+::: notes
+
+Think of interests, interactions and institutions as a shortcut to designing a model of political behavior.
+
+### Any questions on these three concepts?
+
+<br>
+
+### Do we understand how these help us design a model of behavior or decision-making?
+
++ The interests tell us who is making the decisions and what they want.
+
++ The institutions tell us what are the rules that matter.
+
++ The interactions tells us what happens when these different interests collide.
+:::
+
+
+
+
+## Neorealism (Waltz 1988) {background-image="Images/05_2-putin_with_gun_v2.png" .center}
+
+<br>
+
+::: {.r-fit-text}
+
+Let's diagram the model!
+
++ Who are the key interests?
+
++ What are the key institutions?
+
++ What are the primary interactions that matter?
+
+:::
+
+::: notes
+
+On your own, 5 mins, diagram Neorealism as an answer to these three questions
+
+<br>
+
+Consolidate diagrams with the person next to you
+
+<br>
+
+Pairs group up and let's get these diagrams on the board!
+
+<br>
+
+### Groups, report back!
+
+<br>
+
+**SLIDE**: Let's start with the interests in neorealism
+:::
+
+
+
+## Neorealism (Waltz 1988) {background-image="Images/background-slate_v2.png" .center}
+
+**Interests**
+
+- Unitary states want security, not power
+
+**Institutions**
+
+- ?
+
+**Interactions**
+
+- ?
+
+
+::: notes
+
+Let's start by discussing the interests in this model
+
+<br>
+
+**What is meant by a unitary state?**
+
+- **Does it help if I tell you this is often referred to as the black box assumption?**
+
+- (By unitary, we mean forming a single entity.)
+
+- The black box: All of the characteristics of the state (e.g. wealth, regime type, voting system) go inside the box and the lid is closed.
+
+<br>
+
+**Since we cannot see inside the box, should we spend time measuring or debating what is inside?**
+
+- (Nope.)
+
+<br>
+
+**What does 'security, not power' mean?**
+
+- (Power is the means to the end, not the end.)
+
+    - The end is survival
+
+<br>
+
+**What is the counterintuitive conclusion about power raised by Waltz?**
+
+- (Too much power makes you a threat to everyone else!)
+
+<br>
+
+Neorealists focus on states as the key units embedded in the international system.
+
+- HOWEVER, what they care about is the placement of units in the system, NOT by reference to their internal qualities themselves.
+
+- Neorealism is a view of international politics with black boxes of different sizes running into each other on a map of the world.
+
+<br>
+
+**SLIDE**: Institutions next
+:::
+
+
+
+## Neorealism (Waltz 1988) {background-image="Images/background-slate_v2.png" .center}
+
+**Interests**
+
+- Unitary states want security, not power
+
+**Institutions**
+
+- International anarchy
+
+**Interactions**
+
+- ?
+
+::: notes
+
+Now let's talk about the institutions in Neorealism
+
+<br>
+
+**What is meant by anarchy?**
+
+- (“...absence of a central monopoly of legitimate force.”)
+
+<br>
+
+**What does that mean in practical, real-world terms?**
+
+- (No world police.)
+
+- No actor holds a monopoly (e.g. exclusive control) on the use of legitimate force (e.g. legal / allowable violence)
+
+<br>
+
+**SLIDE**: What does all of this mean for states?
+
+:::
+
+
+
+## Neorealism (Waltz 1988) {background-image="Images/background-slate_v2.png" .center}
+
+**Interests**
+
+- Unitary states want security, not power
+
+**Institutions**
+
+- International anarchy
+
+**Interactions**
+
+- You must fend for yourself (threats are everywhere)
+- Security dilemmas dominate
+
+::: notes
+
+The final element of this model is the interactions.
+
+<br>
+
+**Why does everything look like a threat to states?**
+
+- Every state will feel more secure in a world where its security is greater than yours
+
+- And, every time a state acts to enhance its own security it impacts your security!
+
+<br>
+
+**SLIDE**: Let's talk about this Security Dilemma dynamic.
+:::
+
+
+
+
+## The Security Dilemma {background-image="Images/02_3-neighbors_v1.png"}
+
+::: notes
+
+One of the key predictions of neorealism is the security dilemma.
+
+<br>
+
+Just because it makes me deeply happy, let me briefly illustrate the security dilemma.
+
+<br>
+
+Imagine new neighbors move in next door to you.
+
+- You don't know them and you're not sure what they are up to so you decide to build a fence.
+:::
+
+
+
+
+## The Security Dilemma {background-image="Images/background-worldmap4.png" .center}
+
+<br>
+
+:::: {.columns}
+::: {.column width="50%"}
+
+![](Images/02_3-Wilson.jpg)
+
+:::
+
+::: {.column width="50%"}
+
+:::
+::::
+
+::: notes
+
+That seems eminently reasonable, right?
+
+From your new neighbors perspective, they just bought their dream house and the day after they moved in their new neighbors build a fence and start watching them suspiciously.
+
+#### How would you react to that?
+:::
+
+
+## The Security Dilemma {background-image="Images/background-worldmap4.png" .center}
+
+<br>
+
+:::: {.columns}
+::: {.column width="50%"}
+
+![](Images/02_3-Wilson.jpg)
+
+:::
+
+::: {.column width="50%"}
+
+![](Images/02_3-dog_hatchet_v1.png)
+
+:::
+::::
+
+::: notes
+
+Of course, you buy a guard dog to protect you.
+
+The big, mean guard dog makes you feel much safer.
+
+- No one can get near your house or your family without you knowing about it.
+
+<br>
+
+Unfortunately, your neighbor is terrified of dogs.
+
+- He didn’t like you but had no intention of ever going near your house.
+
+- He starts having nightmares about the dog, so...
+:::
+
+## The Security Dilemma {background-image="Images/background-worldmap4.png" .center}
+
+<br>
+
+:::: {.columns}
+::: {.column width="50%"}
+
+![](Images/02_3-handgun.jpg)
+
+:::
+
+::: {.column width="50%"}
+
+![](Images/02_3-dog_hatchet_v1.png)
+
+:::
+::::
+
+::: notes
+
+He buys himself a gun to feel safe.
+
+<br>
+
+You are now living next to a guy you don’t know very well who has been acting strangely since you moved in and has now bought a gun.
+
+- Your dog stands no chance against a gun and now you are having nightmares about being unsafe.
+
+- You decide the only solution is to up your security!
+
+<br>
+
+If one dog made you feel safe, then...
+:::
+
+## The Security Dilemma {background-image="Images/background-worldmap4.png" .center}
+
+<br>
+
+:::: {.columns}
+::: {.column width="50%"}
+
+![](Images/02_3-handgun.jpg)
+
+:::
+
+::: {.column width="50%"}
+
+![](Images/02_3-wolves.jpg)
+
+:::
+::::
+
+::: notes
+
+A pack of ravenous wolves will make you feel safer!
+
+<br>
+
+This makes your neighbor absolutely crap himself in terror.
+
+His small gun will be useless against a pack of wolves so he ups his own security...
+:::
+
+
+## The Security Dilemma {background-image="Images/background-worldmap4.png" .center}
+
+<br>
+
+:::: {.columns}
+::: {.column width="50%"}
+
+![](Images/04_1-Tank_v1.png)
+
+:::
+
+::: {.column width="50%"}
+
+![](Images/02_3-wolves.jpg)
+
+:::
+::::
+
+::: notes
+A tank is a nice centerpiece for your front yard, no?
+:::
+
+
+
+## The Security Dilemma {background-image="Images/background-worldmap4.png" .center}
+
+<br>
+
+:::: {.columns}
+::: {.column width="50%"}
+
+![](Images/04_1-Tank_v1.png)
+
+:::
+
+::: {.column width="50%"}
+
+![](Images/04_1-angry_bear.jpg)
+
+:::
+::::
+
+::: notes
+
+This forces you to do the only logical thing you can.
+
+- Bears...
+
+<br>
+
+This is an example of an arms race created by the security dilemma.
+
+### So, what is the fundamental lesson of a security dilemma?
+- (Purely defensive moves look threatening in a world of uncertainty and anarchy.)
+
+- At no point did either you nor your neighbor act with the intention of attacking the other person.
+
+- These were entirely defensive moves only and they still spiral out of control!
+
+<br>
+
+### Do we believe the security dilemma is a useful prediction for state behavior in the world? Why or why not?
+:::
+
+
+## Neorealism (Waltz 1988) {background-image="Images/background-slate_v2.png" .center}
+
+**Interests**
+
+- Unitary states want security, not power
+
+**Institutions**
+
+- International anarchy
+
+**Interactions**
+
+- You must fend for yourself (threats are everywhere)
+- Security dilemmas dominate
+
+::: notes
+
+OK, summarize this all for me.
+
+### Per the Neorealist model, how likely is cooperation?
+- (1. Cooperation super unlikely)
+    - Cooperation hard to start and even harder to maintain.
+
+### What should be the most important part of every state's budget?
+- (2. Defense!)
+    - States should actively seek to build up their own protections
+
+### How should a state react when a natural disaster strikes in a faraway land? Send aid?
+- (3. Aid to people in desperate places unlikely, unless...)
+
+<br>
+
+### As a "map" of international politics, what possibly important things does this leave out?
+
+### - Any key interests, institutions or interactions?
+
+*FORCE THIS DISCUSSION*
+
+<br>
+
+Connect this to current events for me!
+
+### Examples of current international political events going on in the world that are well explained by this model?
+
+*FORCE THIS DISCUSSION*
+:::
+
+
+
+## Assignment for Next Class {background-image="Images/background-worldmap4.png" .center}
+
+<br>
+
+::: {.r-fit-text}
+
+1. Read the Mearsheimer (2001) excerpt
+
+2. Keep working on those papers!
+
+:::
+
+::: notes
+**Questions on the assignment?**
+:::
+
+
+
+
+

@@ -1,0 +1,327 @@
+---
+format: revealjs
+---
+
+
+## Today's Agenda {background-image="Images/background-worldmap4.png" .center}
+
+```{r}
+# background-size="1920px 1080px"
+library(tidyverse)
+library(readxl)
+library(kableExtra)
+```
+
+<br>
+
+::: {.r-fit-text}
+
+**III. Why is it so Hard to Cooperate with Other Countries?**
+
+- Two-level Bargaining Games: Cases
+
+:::
+
+<br>
+
+::: r-stack
+Justin Leinaweaver (Spring 2026)
+:::
+
+::: notes
+Prep for Class
+
+1. Review cases submitted on Canvas
+
+2. Bring at least four markers to class
+
+<br>
+
+**SLIDE:** Let's refresh our memories!
+:::
+
+
+
+
+
+## {background-image="Images/09_2-chess.png"}
+
+::: notes
+
+Ok, talk me through Putnam's two-level game model of international relations.
+
+- **What are the key elements? What is this model?**
+
+<br>
+
+- Explaining international political events as a two-level game
+
+    - Level I: The international negotiation between leaders (or their representatives).
+    
+    - Level II: The leader's negotiation with constituents to accept their international deal.
+
+- The key is that these levels interact!
+    
+    - International negotiations impact domestic politics, AND
+    
+    - Domestic politics changes international negotiations
+    
+- Win-set sizes matter!
+
+    - Level I Win-Sets: The range of outcomes the leader would accept in the international bargain.
+    
+    - Level II Win-Sets: The range of outcomes that could be ratified by domestic institutions.
+    
+    - larger win-sets make Level I agreement more likely
+    
+    - leaders benefit from having small Level II win-sets
+
+<br>
+
+**SLIDE**: To your cases!
+
+:::
+
+
+
+## Assignment for Today  {background-image="Images/background-worldmap4.png" .center}
+
+<br>
+
+Find us a real world case illustrating at least some of the dynamics of Putnam's Two-Level Game (e.g. domestic politics complicating international bargaining or vice versa).
+
+1. Submit APA citation,
+2. Explain what happened, and 
+3. Explain how it is an example of two-level game dynamics
+
+::: notes
+
+So, how do we use the win-sets and the two levels to explain and better understand international political events?
+
+- Let's use your cases today to answer that question!
+
+<br>
+
+To start, everybody review the cases submitted today on Canvas
+
+1. Are the citations correctly in APA format?
+
+2. Are the descriptions clear enough for you to understand? Ask for clarifications if you need them!
+
+<br>
+
+*Split class into four groups (6 people each) and have groups claim board space*
+
+- Go sit with your group!
+
+:::
+
+
+
+
+## {background-image="Images/09_2-Chess_3.png" .center}
+
+### Therefore, useful explanations of international political events should always include domestic politics.
+
+::: notes
+
+Groups, your job will be to reflect on our work in class and the cases submitted to Canvas in order to make this argument
+
+- To be clear, NONE of the classic IR theories we have studied this semester support this conclusion!
+
+- But that doesn't mean it is wrong!
+
+<br>
+
+**Questions?**
+
+- Get to work! Work directly on the board!
+
+<br>
+
+*Next step: Build class consensus diagram by taking best of the options*
+
+<br>
+
+**How convincing do you find this argument? Why or why not?**
+
+- **Are there any serious counterarguments we need to consider?**
+
+<br>
+
+**SLIDE**: Time to diagram the model!
+
+:::
+
+
+
+## Putnam's (1988) Two-Level Game {background-image="Images/background-worldmap4.png" .center}
+
+<br>
+
+**Interests:** 
+
+- ?
+
+**Institutions:**
+
+- ?
+
+**Interactions:**
+
+- ?
+
+::: notes
+**Who are the interests in this model?**
+
+- (**SLIDE**)
+:::
+
+
+
+## Putnam's (1988) Two-Level Game {background-image="Images/background-worldmap4.png" .center}
+
+**Interests:** 
+
+- Leaders want political survival
+- Constituents want specific policies or goods
+
+**Institutions:**
+
+- ?
+
+**Interactions:**
+
+- ?
+
+::: notes
+
+**And what are the institutions in the model?**
+
+- **What rules structure the decision-making?**
+
+- (**SLIDE**)
+:::
+
+
+
+## Putnam's (1988) Two-Level Game {background-image="Images/background-worldmap4.png" .smaller}
+
+**Interests:** 
+
+- Leaders want political survival
+- Constituents want specific policies or goods
+
+**Institutions:**
+
+- Leaders participate in international negotiations (Level I)
+- Constituents must approve deals (and their leaders) (Level II)
+
+**Interactions:**
+
+- ?
+
+
+::: notes
+**And what are the interactions that make this decision-making so difficult?**
+
+- (**SLIDE**)
+:::
+
+
+## Putnam's (1988) Two-Level Game {background-image="Images/background-worldmap4.png" .smaller}
+
+**Interests:** 
+
+- Leaders want political survival
+- Constituents want specific policies or goods
+
+**Institutions:**
+
+- Leaders participate in international negotiations (Level I)
+- Constituents must approve deals (and their leaders) (Level II)
+
+**Interactions:**
+
+- Win-set size matters
+    - Larger Level I = more likely agreement
+    - Smaller Level II = more influential leader
+- Leaders should strategically try to influence win-set sizes home and abroad
+
+::: notes
+
+Bottom line: Therefore, domestic politics complicates all international bargaining
+
+<br>
+
+### What kinds of situations / outcomes can we use this model to explain?
+
+- (BIG: Two-level game can be applied to more situations and not just a shared resource)
+- (More useful than a pure PD game which focuses on resource division/use)
+
+<br>
+
+### Questions on this model?
+
+<br>
+
+**SLIDE**: Next class
+:::
+
+
+
+## Assignment for Next Class  {background-image="Images/background-worldmap4.png" .center}
+
+<br>
+
+Hopf, T. (1998). The Promise of Constructivism in International Relations Theory. International Security. 23(1), 171–200.
+
+
+
+## Save
+
+
+## Two-Level Games are Everywhere  {background-image="Images/background-worldmap4.png"}
+
+![](Images/10_3-US_SK_Drills.png){style="display: block; margin: 0 auto"}
+
+::: notes
+
+The US and South Korea typically run huge joint military exercises each year
+
+- As an international interaction this makes sense, e.g. two allies demonstrating the strength of their alliance to an international enemy
+
+<br>
+
+HOWEVER, this also serves important domestic constituencies for each country!
+
+- The US 
+
+
+- As close allies this is a chance to ensure seamless operation between them, and for us to show off the military tech we have for sale!
+
+<br>
+
+Needless to say given this headline, these drills also tend to threaten the stability of Kim Jong Un's regime in North Korea
+
+- These drills are BIG and they are far too close to the DPRK for Kim Jong Un's comfort
+
+- **SLIDE**: Therefore, these tend to be moments when the North's military figures get antsy, so...
+
+:::
+
+
+
+
+## Two-Level Games are Everywhere  {background-image="Images/background-worldmap4.png"}
+
+![](Images/10_3-Kim_Jong_Un.png){style="display: block; margin: 0 auto"}
+
+::: notes
+
+Kim Jong Un tends to reply forcefully!
+
+
+
+:::
+

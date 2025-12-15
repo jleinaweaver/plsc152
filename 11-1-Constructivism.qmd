@@ -1,0 +1,869 @@
+---
+format: revealjs
+---
+
+
+## Today's Agenda {background-image="Images/background-worldmap4.png" .center}
+
+```{r}
+# background-size="1920px 1080px"
+library(tidyverse)
+library(readxl)
+library(kableExtra)
+```
+
+<br>
+
+::: {.r-fit-text}
+**IV. What is the Future of Transnational Politics and IR?**
+
+- The Constructivist Model
+:::
+
+<br>
+
+<br>
+
+::: r-stack
+Justin Leinaweaver (Spring 2026)
+:::
+
+::: notes
+Prep for Class
+
+1. NOTE for you: Don't rush through the steps of evaluating each assumption as a modeling choice. After discussing them force a discussion about how this would change our models.
+
+<br>
+
+### DISCUSS: Name me an international political event that has happened since we last met as a class.
+
+<br>
+
+This week we begin exploring a VERY different approach to explaining international political events.
+
+- Constructivism is going to push us to question everything.
+
+<br>
+
+Constructivism is a challenging view to summarize so, instead of summarizing, Hopf (1988) tells us how constructivists think about some of the biggest puzzles in international relations.
+:::
+
+
+
+
+## Hopf (1998) Reframes the Question {background-image="Images/background-worldmap4.png" .center}
+
+<br>
+
+::: {.r-fit-text}
+
+**How do we explain international politics?**
+
+1. Who matters and what do they want?
+
+2. What is the effect of anarchy?
+
+3. What is power?
+
+4. What explains changes in the system?
+
+:::
+
+::: notes
+
+Before we get to Hopf's answers to these questions and to exploring the constructivist model, let's evaluate the framing.
+
+<br>
+
+**Based on our work over the last 10 weeks tell me, is this a useful way to organize an exploration of international politics? Why or why not?**
+
+- **In other words, is Hopf asking the right questions if what you want is to understand international politics?**
+
+<br>
+
+I've encouraged you all semester to think about models of international politics in terms of interests, interactions and institutions.
+
+### Would Hopf be opposed to these shortcuts to model building? Why or why not?
+
+<br>
+
+(It depends!)
+
+- So, a constructivist would say that, fundamentally, if you organize your theory of IR around anarchy or interests as fixed concepts you've badly missed the point.
+
+- **SLIDE**: Let's start with this first question, who matters and what do they want?
+:::
+
+
+## 1. Actors and Structures are Mutually Constituted {background-image="Images/background-worldmap4.png" .center}
+
+::: notes
+Here is Hopf's answer to the question of who matters and what do they want.
+
+### What does this mean in English?
+
+<br>
+
+Let's break this into its component parts.
+
+### What does he mean by "actors"?
+- (The units whose behavior we are trying to understand)
+
+<br>
+
+### What does he mean by "structures"?
+- ("a set of relatively unchangeable constraints on the behavior of states" p172.)
+- Sounds like our working definition of institutions, no?
+
+<br>
+
+### What does mutually mean? 
+- (with mutual action; experienced or done by each of two or more parties toward the other or others.)
+
+<br>
+
+### What does constituted mean?
+- (combine to form; be a part of a whole)
+
+<br>
+
+### Ok, somebody put this together and explain to us the first assumption of Constructivism.
+
+### - And what does this tell us about how international politics works?
+
+- **SLIDE**...
+:::
+
+
+## {background-image="Images/background-worldmap4.png" .center}
+
+::: {.r-fit-text}
+**1. Actors and Structures are Mutually Constituted**
+:::
+
+<br>
+
+```{r, fig.align='center'}
+knitr::include_graphics("Images/13_1-circle.png")
+```
+
+::: notes
+Constructivists are advising us to think about politics as a series of interactions that cannot be understood in the absence of those interactions!
+
+- Actors create structures by taking action.
+
+- Structures define what actors can and cannot do
+
+<br>
+
+Neither can be understood without the other.
+
+- Neither is fixed...
+
+<br>
+
+**SLIDE**: The movie theater...
+:::
+
+
+
+## {background-image="Images/13_1-movies.jpg" .center}
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+::: {.r-fit-text}
+<p style="color: white;">**1. Actors and Structures are Mutually Constituted**</p>
+:::
+
+
+::: notes
+**How does the movie theater example in the Hopf excerpt help us understand this first assumption of Constructivism?**
+
+<br>
+
+Reaction to the fire?
+
+- Order or chaos? An orderly line forms or a mad rush for the doors? Women and children first? Violence and looting breaks out?
+
+<br>
+
+Peoples' reaction to the fire depends on the "culture, norms, institutions, procedures, rules and social practices that constitute the actors and the structure alike" (p103).
+
+- In other words, behavior depends on much more than just actors and institutions.
+
+<br>
+
+**Do we buy this?**
+
+- **Would your personal reaction to the fire be influenced in those ways?**
+:::
+
+
+
+## {background-image="Images/11_1-Putin_v_Ukraine.jpg"}
+
+::: notes
+Let's try top tie this back to current events.
+
+### How have various stripes of realist tried to explain why Putin invaded Ukraine?
+- Neorealists: NATO expansion threatens security, creates security dilemma, Russia acts to re-establish safety.
+- Offensive realists: The path to Russian regional hegemony requires reclaiming former soviet territory.
+
+<br>
+
+### How might Economic liberals seek to explain this?
+- Economic lib: Russia controls a scarce resource which Putin believed gave him flexibility to act without expecting sever, long-term punishment?
+
+<br>
+
+### Now, what about a constructivist who focuses on how "Actors and Structures are Mutually Constituted"?
+
+- International law says you are not allowed to steal other country's lands, BUT...
+    - Russia destabilized Georgia and the world shrugged,
+    - Russia supported Syria with arms and the world shrugged,
+    - Russia annexed Crimea and the world shrugged...
+
+Ultimately, if the world refuses to enforce the rule against invasion then THERE IS NO RULE AGAINST INVASION.
+
+<br>
+
+### Does this make sense?
+:::
+
+
+
+## {background-image="Images/11_1-Putin_v_Ukraine2.png"}
+
+::: {.r-fit-text}
+**1. Actors and Structures are Mutually Constituted**
+:::
+
+::: notes
+
+*FORCE THIS DISCUSSION/EXPLORATION*
+
+<br>
+
+**1. Is this a useful assumption for explaining international politics?**
+
+- **What are the pros and cons of building from this premise?**
+
+<br>
+
+**2. How is this different from our prior models of international politics?**
+
++ (The rules are not fixed, they come from our interactions.)
++ (Which actors matter depends on the situation and the societal rules.)
++ (Structure is meaningless without societal context.)
+
+<br>
+
+**SLIDE**: Hopf's second question, what is the effect of anarchy?
+:::
+
+
+
+## 2. Anarchy as Imagined Community {background-image="Images/background-worldmap4.png"}
+
+::: notes
+
+Hopf's second argument is that anarchy is an imagined community.
+
+### First, remind me, how do realists and liberals define anarchy?
+- The fact that there is no higher authority to appeal to, no supranational government.
+
+### Does this require any "imagination"?
+- Ummm, no.
+
+<br>
+
+### So, what does Hopf mean by "imagined community"?
+- (The implications of anarchy depend on societal context.)
+:::
+
+
+
+
+## 2. Anarchy as Imagined Community {background-image="Images/background-worldmap4.png" .center}
+
+<br>
+
+```{r, fig.align='center', out.width='75%'}
+knitr::include_graphics("Images/13_1-hippies.jpg")
+```
+
+::: notes
+
+We might believe "anarchy" is a good descriptor for the international system.
+
+- HOWEVER, anarchy does not, by definition, have to represent a scary, survival threatening prospect.
+
+<br>
+
+Imagine you live on a commune and everyone shares everything and all rules are enforced by consensus.
+
+- In this case, your strong sense of community shapes the meaning of the anarchy you live under.
+
+- Life and death are not constantly at stake so you are unlikely to approach every decision with fear.
+
+- This community shapes the anarchy you experience.
+
+<br>
+
+### Make sense?
+:::
+
+
+
+## 2. Anarchy as Imagined Community {background-image="Images/background-worldmap4.png" .center}
+
+<br>
+
+```{r, fig.align='center', out.width='75%'}
+knitr::include_graphics("Images/13_1-dark_street.png")
+```
+
+::: notes
+
+However, if you are walking alone at night down a dark street your sense of "anarchy" is likely very different.
+
+- In this case, you have no sense of shared community with the stranger in the distance.
+
+- This unfamiliarity gives the anarchy of the moment a much more frightening set of stakes.
+
+<br>
+
+### Make sense?
+:::
+
+
+
+## 2. Anarchy as Imagined Community {background-image="Images/background-worldmap4.png" .center}
+
+<br>
+
+:::: {.columns}
+
+::: {.column width="50%"}
+
+![](Images/13_1-hippies.jpg)
+
+:::
+
+::: {.column width="50%"}
+
+![](Images/13_1-dark_street.png)
+
+:::
+
+::::
+
+::: notes
+
+Both scenarios exist under anarchy, BUT only one generates the fear response that is central to realist theories of international relations.
+
+- The point is that context matters for determining how you will react to anarchy.
+
+### Somebody give us a real-world example of a dispute in international politics where fear and obliteration are not at stake.
+
+<br>
+
+### Now give me an example of a dispute in international politics where anarchy is terrifying and infects state behavior.
+
+<br>
+
+- **SLIDE**: Examples
+:::
+
+
+
+## {background-image="Images/13_1-us_canada.jpg"}
+
+::: notes
+
+Here we see the border between the US and Canada.
+
+- Ineternational border crossings are some of the most fraught and dangerous places in the world.
+
+<br>
+
+### How would you describe this border crossing?
+
+<br>
+
+### Any sense that the anarchy on this line is changing state behavior in a defensive way?
+:::
+
+
+
+## {background-image="Images/13_1-korean_border.jpg"}
+
+::: notes
+
+Here we see the border between North and South Korea.
+
+### How would you describe this border crossing?
+:::
+
+
+
+## 2. Anarchy as Imagined Community {background-image="Images/background-worldmap4.png" .center}
+
+<br>
+
+:::: {.columns}
+
+::: {.column width="50%"}
+
+![](Images/13_1-us_canada.jpg)
+
+:::
+
+::: {.column width="50%"}
+
+![](Images/13_1-korean_border.jpg)
+
+:::
+
+::::
+
+::: notes
+
+*FORCE THIS DISCUSSION/EXPLORATION*
+
+<br>
+
+### Ok, what do we think of this as a second assumption in the approach?
+
+#### - Pros vs cons of building models using this?
+
+<br>
+
+**SLIDE**: Hopf's third question, What is power?
+:::
+
+
+
+## 3. The Power of Practice {background-image="Images/background-worldmap4.png" .center}
+
+::: {.r-fit-text}
+**Criteria to be a Great Power (Waltz 1979)**
+
++ Size of population & territory
+
++ Resource endowment
+
++ Economic capability
+
++ Military strength
+
++ Political stability and competence
+
+:::
+
+::: notes
+
+Here's a list of criteria Kenneth Waltz proposed for determining which states in the world are the "great" powers.
+
+- This is a list that is often used to think about what a superpower is in today's language.
+
+<br>
+
+### What do constructivists like Hopf (1998) add to traditional definitions of power?
+:::
+
+
+
+## {background-image="Images/13_1-MLK.jpg"}
+
+::: {.r-fit-text}
+<p style="color: white;">**3. The Power of Practice**</p>
+:::
+
+::: notes
+
+**In what concrete ways was MLK powerful?**
+
+- **Are any of those ways reflected on Waltz's criteria?**
+
+:::
+
+
+
+## {background-image="Images/13_1-Gandhi_v2.png" .center}
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+::: {.r-fit-text}
+**3. The Power of Practice**
+:::
+
+::: notes
+
+**In what concrete ways was Ghandi powerful?**
+
+- **Are any of those ways reflected on Waltz's criteria?**
+:::
+
+
+
+## 3. The Power of Practice {background-image="Images/background-worldmap4.png" .center}
+
+<br>
+
++ Size of population & territory
+
++ Resource endowment
+
++ Economic capability
+
++ Military strength
+
++ Political stability and competence
+
++ **Discourse (Hopf 1988)**
+
+::: notes
+
+Constructivists agree that power is all of these things, but adds DISCOURSE!
+
+- Constructivists believe that the other theories conceive of power far too narrowly.
+
+<br>
+
+### How does Hopf define discourse?
+- (Knowledge, ideas, culture, ideology and language.)
+
+### Does "discourse" belong on this list? Why or why not?
+
+<br>
+
+*FORCE THIS DISCUSSION/EXPLORATION*
+
+<br>
+
+### Ok, what do we think of this as a third assumption in the approach?
+
+#### - Pros vs cons of building models using this?
+
+<br>
+
+**SLIDE**: Hopf's 4th question, What explains changes in the system?
+:::
+
+
+## {background-image="Images/13_1-change.png"}
+
+::: notes
+
+**According to Hopf (1998), where does change in world politics come from?**
+
+<br>
+
+Change is inherent in constructivism (e.g. built into the theory) 
+
+- Happening all the time.
+
+- Evolutionary as actors and structures interact and mutually constitute each other.
+
+- Constructivists argue our "goals" are fluid and depend on our identity and the current context of the situation.
+
+<br>
+
+*FORCE THIS DISCUSSION/EXPLORATION*
+
+<br>
+
+### Ok, what do we think of this as a fourth assumption in the approach?
+
+#### - Pros vs cons of building models using this?
+
+<br>
+
+Think back to our Putin and Ukraine example.
+
+- According to Constructivists, what the world does right now to help or hinder Ukraine will have a MASSIVE impact on what wars we see in the next 10 years.
+
+- The rules are constantly in flux, change is everywhere and if we want a world with fewer invasions we have to punish them when they happen.
+:::
+
+
+
+## {background-image="Images/13_1-raphael.png"}
+
+::: notes
+
+**Finally, what role does identity play in Constructivist theory?**
+
+- (Identities tell others who you are and tell you who others are.)
+- (They are the source of our interests / preferences.)
+
+*Save the meat of this for norms on Wed*
+
+*Just: 1. What is your identity? 2. How does it influence your behavior?*
+
+<br>
+
+### What is your identity?
+
+- We all have many identities: Human being, DU student, family member, MO, Springfieldian, American, etc.
+- e.g citizenship, residence, geographic origin, gender, class, politics, profession, employment, food habits, sports interests, taste in music, social commitments, etc.
+
+<br>
+
+### How does your identity influence your behavior? Do you behave the same way at home as you do on a night out with friends?
+1. We all use identities as shortcuts to making judgements about other people.
+2. Helps us to define who is on our team and who is not.
+
+<br>
+
+*FORCE THIS DISCUSSION/EXPLORATION*
+
+<br>
+
+**Ok, what do we think of this as a fifth assumption in the approach?**
+
+- **Pros vs cons of building models using this?**
+:::
+
+
+
+## Applying Constructivism to IR Puzzles {background-image="Images/background-worldmap4.png" .center}
+
+<br>
+
+::: {.r-fit-text}
++ Security Dilemma
+
++ Neoliberal Cooperation (Economic Liberalism)
+:::
+
+::: notes
+
+To make sure we understand what all this means for understanding the world let's examine Hopf's approach to some of the common puzzles we encounter in international relations.
+
+- Specifically, let's discuss how constructivism explains the security dilemma, neoliberal cooperation and the democratic peace.
+:::
+
+
+## {background-image="Images/13_1-security_dilemma.png"}
+
+::: notes
+
+**Refresh my memory, what is the security dilemma?**
+- **How does it work and why do Realists expect it to happen?**
+
+<br>
+
+1. Purely defensive moves look threatening in a world of uncertainty and anarchy.
+
+    - At no point did either you or your neighbor act with the intention of attacking the other person.
+
+    - These were entirely defensive moves only and they still spiral out of control!
+
+2. Cooperation should be almost impossible to start and maintain in any meaningful ways.
+
+<br>
+
+**So, how does Hopf explain this puzzle using Constructivism?**
+
+(p188)
+
+The security dilemma is born from uncertainty.
+
+- I can't know for sure what you are doing or if you're a threat to me or not.
+
+<br>
+
+BUT, that's not true for lots of different pairs of states
+
+- "members of the same alliance, members of the same economic institution, perhaps two peaceful states or two neutral states, and so on."
+
+- Why? Because identity reduces uncertainty.
+
+- The Constructivist model acknowledges this and helps us study identity formation and transformation!
+
+<br>
+
+**Do we buy this?**
+
+- **Any drawback to replacing the realist security dilemma prediction with the study of identities?**
+
+*Force this discussion*
+:::
+
+
+
+## Economic Liberalism {background-image="Images/background-worldmap4.png" .center .smaller}
+
+**Interests**
+
++ States want growth
+
+**Institutions**
+
++ States may choose to start wars or seek trade (anarchy)
+
+**Interactions**
+
++ War is risky and disrupts trade
++ The returns to trade grow over time
++ Specialized economies are dependent on trade for growth
+
+Therefore, increasing trade should reduce the occurrence of war.
+
+::: notes
+
+Hopf's second example focuses on what he calls neoliberal cooperation.
+
+- For our purposes, let's re-examine Economic Liberalism.
+
+<br>
+
+### How does a Constructivist approach live in this model?
+- (p188)
+
+- (Similar to last critique: We need to study identities, norms and practices to understand why institutions facilitate cooperation and how they change over time)
+
+- (Specialization through interaction = actors and structures are mutually constituted)
+
+<br>
+
+### Which approach do you think is a more useful way to think about this outcome: trade leads to less war? Why?
+:::
+
+
+
+
+## Constructivism (Hopf 1998) {background-image="Images/background-worldmap4.png" .center}
+
+<br>
+
++ Actors and structures are mutually constituted
+
++ Interests and identities are linked and multi-layered
+
++ Anarchy is an imagined community
+
++ Power is material AND discursive
+
++ Change is possible, difficult and a normal part of the process
+
+::: notes
+In sum.
+
+**What are the strengths and weaknesses of a Constructivist perspective on international politics?**
+
+<br>
+
+Strengths:
+
+- Identifies some powerful mechanisms that influence human behavior: identity, norms, context
+
+Weaknesses:
+
+- Adds tons of complexity to our work
+
+<br>
+
+**BIG final question, how would we map this onto our model diagram structure focused on interests, institutions and interactions?**
+
+- (Tough to say...)
+- Is this all just saying that interactions matter and everything else follows from that?
+    - The interaction determines the interests and relevant institutions?
+:::
+
+
+
+## Assignment for Next Class  {background-image="Images/background-worldmap4.png" .center}
+
+<br>
+
+1. Read Finnemore and Sikkink (1998)
+
+2. Submit a reflection and real-world case to our Canvas discussion board
+
+::: notes
+**Questions on the assignment?**
+:::
+
+
+
+## OLD
+
+
+
+## Neoliberal Cooperation {background-image="Images/background-worldmap4.png" .center}
+
+<br>
+
+:::: {.columns}
+
+::: {.column width="50%"}
++ Setting standards of behavior
+
++ Verifying compliance
+
++ Resolving disputes
+
++ Reducing the costs of joint decision making
+:::
+
+::: {.column width="50%"}
+```{r, fig.align='center'}
+knitr::include_graphics("Images/07_2-UN_Flag.png")
+```
+:::
+::::
+
+
+::: notes
+?
+:::
+
+
+
+## {background-image="Images/13_1-global_peace_index.png"}
+
+::: notes
+
+The Democratic Peace
+
+### And finally, how does Hopf hope to help us understand the democratic peace using a Constructivist model of politics?
+
+(p191)
+
+1. ("Its approach aims at apprehending how the social practices and norms of states construct the identities and interests of the same. Ergo, if democracies do not fight each other, then it must be because of the way they understand each other, their intersubjective accounts of each other, and the socio-international practices that accompany those accounts.")
+
+2. ("But constructivism could offer a more general account of zones of peace, one not limited to democracies. Different periods of the histories of both Africa and Latin America have been marked by long stretches of little or no warfare between states. These pacific periods are obviously not associated with any "objective" indicators of democracy. By investigating how African and Latin American states constructed themselves and others, it might be possible to understand these neglected zones of "authoritarian peace.")
+
+<br>
+
+### Do those two arguments make sense?
+
+#### - Does being able to do those two things make constructivism more useful than our other models? Why or why not?
+:::

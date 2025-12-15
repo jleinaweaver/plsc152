@@ -1,0 +1,689 @@
+---
+format: revealjs
+---
+
+
+## Intro to International Relations {background-image="./Images/background-worldmap4.png" .center}
+
+```{r}
+# background-size="1920px 1080px"
+library(tidyverse)
+library(readxl)
+```
+
+<br>
+
+<br>
+
+Make a list of **positive** and **negative** things the US has done on the world stage in the last 10 years.
+
+<br>
+
+<br>
+
+::: r-stack
+Justin Leinaweaver (Spring 2026)
+:::
+
+::: notes
+Prep for Class
+
+1. Update attendance list before class
+
+2. Make sure this week's modules visible in Canvas
+
+3. Log into Canvas on classroom PC
+
+<br>
+
+*As students come in*
+
+Welcome all.
+
+- Sit down, introduce yourself to the people around you and get chatting about my prompt on the board.
+
+- Build two lists as a group!
+
+<br>
+
+*ON BOARD*
+
+### Ok, what is on your lists?
+
+- SHARE and DISCUSS
+
+<br>
+
+**SLIDE**: Let's make sure we're all in the right place!
+:::
+
+
+## Introductions {background-image="Images/background-worldmap4.png"  .center}
+
+::: {.r-fit-text}
+
+1. Name
+
+2. Year in school
+
+3. Major
+
+4. "Important" international events are...
+
+:::
+
+::: notes
+
+My aim with this last one is to get a sense for how the class thinks about "importance" on the world stage
+
+- In other words, what kinds of events should we be paying attention to? Why?
+
+<br>
+
+1. Name: I'm Dr. Leinaweaver.
+
+2. Year in school: 13th year at Drury
+
+3. Major: Political scientist with primary research interests in international policy-making and problem-solving
+
+4. **Let's see what you guys think!**
+
+<br>
+
+**SLIDE**: Back to the board!
+:::
+
+
+## On balance, has the US been a net positive or negative influence on the world over the last 10 years? {background-image="Images/background-worldmap4.png" .center}
+
+::: notes
+
+All of this adds up to a big, tough to handle question.
+
+- I don't want to pretend our lists on the board are comprehensive or that this question isn't crazy reductive.
+
+<br>
+
+However, I'd like to take this opportunity to get a sense of how our class thinks about the role of the US in the world BEFORE we start our work this semester.
+
+### So, what do you think?
+
+:::
+
+
+
+## {background-image="Images/01_1-international-certificate.jpg"}
+
+::: notes
+
+Welcome to International Relations (IR).
+
+<br>
+
+Our job this semester is to analyze "politics" happening at the international level.
+
+- What does that mean? We'll get there!
+
+<br>
+
+Today's Agenda: Set up our class and plan for the semester
+:::
+
+
+## Learning Outcomes {background-image="Images/background-worldmap4.png"  .center}
+
+<br>
+
+### Explaining international political events like an IR scholar requires learning...
+
+::: {.r-fit-text}
+::: {.incremental}
+- LO 1: The big ideas and basic definitions of the field
+
+- LO 2 & 3: To use the tools of social scientists
+
+- LO 4: To write convincing arguments
+:::
+:::
+
+::: notes
+
+Big picture, we have four learning outcomes this semester.
+
+- All four are in the syllabus, but let me simplify them for you.
+
+<br>
+
+1. Content Knowledge
+    - Learn the big ideas and basic definitions you need to explain international political events.
+
+2. Methods Knowledge
+    - Learn to use the tools of social scientists for analyzing international political events.
+
+3. Critical Thinking & Problem Solving Skills
+    - Practice applying social science tools to solve big problems and answer important questions.
+
+4. Communication Skills
+    - Practice writing logical, clear, credible and critical arguments so good that they will convince smart people you are right!
+
+<br>
+
+### Everybody good with these?
+
+<br>
+
+**SLIDE**: To make progress on these LOs I've divided the semester into four sections.
+
+:::
+
+
+
+## Semester Outline: Section 1 {background-image="Images/background-worldmap4.png" .center}
+
+<br>
+
+::: {.r-fit-text}
+
+**Arguments, Evidence and International Relations**
+
+- Making logical arguments,
+
+- Testing those arguments scientifically, and
+
+- Learning to think in terms of models
+
+:::
+
+::: notes
+
+Section 1 sets us up for the semester.
+
+- Here we learn the basic structure we will use for making and evaluating arguments in this class
+
+<br>
+
+This means learning to study politics "scientifically"
+
+- Which is a whole other can of worms...
+
+<br>
+
+Once this is done we can start digging into the BIG questions that inspired the creation of international relations
+
+- **SLIDE**: Such as...
+
+:::
+
+
+
+## {background-image="Images/01_1-Putin.jpg"}
+
+::: notes
+
+**Anybody recognize this fella?**
+
+- (President of Russia Vladimir Putin)
+
+<br>
+
+**And why has old Vladdy been in the news so much over the last few years?**
+
+- (SLIDE: Dude just will not stop invading Ukraine!)
+
+:::
+
+
+
+## Semester Outline: Section 2 {background-image="Images/background-worldmap4.png" .center}
+
+<br>
+
+**Why Are There Wars?**
+
+```{r, fig.align='center'}
+knitr::include_graphics('Images/05_2-putin_ukraine.jpg')
+```
+
+::: notes
+
+In Section 2 of our we explore the grand-daddy of all IR research questions.
+
+- Why Are There Wars?
+
+<br>
+
+**From what you've heard, why did Russia invade Ukraine?**
+
+*ON BOARD*
+
+- Power? 
+- Personality? 
+- Territory/Resources? 
+- Threats from Alliances?
+
+<br>
+
+**Is this a "good" list if our aim is to be able to explain where wars are likely to start in the future?**
+
+- **In other words, would knowing just these things about a random country help you predict the likelihood of war? Why or why not?**
+
+<br>
+
+**SLIDE**: Let's kick off our next question with another old dude!
+
+:::
+
+
+
+
+## {background-image="Images/01_1-Khamenei.png"}
+
+::: notes
+
+**Anybody recognize this kindly looking fella? Or the flag behind him?**
+
+- (Supreme Leader of Iran, Ali Khamenei)
+
+<br>
+
+**SLIDE**
+
+:::
+
+
+
+## {background-image="Images/01_1-Kahmeni_khomeni.jpg"}
+
+::: notes
+
+To be clear, this on the left is Ali Khamenei, the current Supreme Leader of Iran
+
+- Not to be confused with his predecessor Ruhollah Khomeini, the former supreme leader...
+
+- Not confusing at all.
+
+<br>
+
+**And what are some of the MANY reasons this guy, and his country, have been in the news over the last few years?**
+
+- Nuclear weapons program / nuclear enrichment
+
+- Providing aid and weapons to terror groups like Hamas, Hezbollah and the Houthi fighters in Yemen
+
+- Suppressing pro-democracy protests at home
+
+- Launching missile/drone attacks against Israel
+
+- Supporting groups that target American bases and troops in Iraq
+
+- and on and on and on...
+
+<br>
+
+SLIDE: militia support, houthi support, nuke program
+
+:::
+
+
+
+## {background-image="Images/background-worldmap4.png"}
+
+![](Images/01_1-Iranian_Militias_Economist_2024.png){.absolute top=0 left=0 width="450"}
+
+::: {.fragment}
+
+![](Images/01_1-Houthi_Attacks.webp){.absolute top=0 right=0 width="550"}
+
+:::
+
+::: {.fragment}
+
+![](Images/01_1-Iranian_nukes.jpg){.absolute bottom=0 right=200 width="550"}
+
+:::
+
+::: notes
+
+Iran has definitely been an active participant in Middle East politics for a long time, and to the extreme annoyance of many of its neighbors!
+
+- REVEAL: Offering support in terms of money, arms and expertise to militias throughout the region
+
+- REVEAL: The houthis in Yemen have used Iranian support to destabilize global trade using missile strikes against shipping in the Red Sea
+
+- REVEAL: And, of course, their threatened nuclear program!
+
+<br>
+
+**From what you've heard, why is Iran working so hard to destabilize the Middle East?**
+
+- **Why won't they simply "play nice" with their neighbors?**
+
+<br>
+
+*ON BOARD*
+
+- Pushing back against the US-led order?
+
+- Asserting their own domestic security?
+
+- Supporting their allies in the region / those with a similar view to their own?
+
+- Power projection?
+
+- Technological advancement?
+
+<br>
+
+**If you were the President of the US, what would you do to get Iran to act differently?**
+
+<br>
+
+**Setting aside threats and violence, what would you be willing to offer Iran to change its behavior? Anything?**
+
+:::
+
+
+
+## Semester Outline: Section 3 {background-image="Images/background-worldmap4.png" .center}
+
+```{r, fig.align='center'}
+knitr::include_graphics("Images/01_1-Iranian_nukes.jpg")
+```
+
+::: {.r-fit-text}
+Why is it so Hard to Cooperate With Other Countries?
+:::
+
+::: notes
+
+In Section 3 of the class we ask why is it so Hard to Cooperate with Other Countries?
+
+<br>
+
+Most countries would prefer to live in a world where Iran stops doing all this destabilizing stuff, but for so many reasons it's hard to get to that world!
+
+- We have a good start here to mapping out the challenges of cooperation when the stakes are so high!
+
+<br>
+
+**SLIDE**: Last photo quiz!
+
+:::
+
+
+
+
+## {background-image="Images/01_1-Yalta-Conference.jpg"}
+
+::: notes
+
+**Who are these three gentlemen and what are we looking at here?**
+
+- Churchill, FDR and Stalin at the Yalta Conference
+
+- The Yalta Conference held in 1945 in Crimea is where the winning powers of WW2 got together to plan the future of Europe.
+
+<br>
+
+Clearly the world has changed a lot since 1945.
+
+- For one thing, we now have color photographs!
+
+<br>
+
+**How much has the world changed since 1945?**
+
+- **What are the biggest differences between today and 1945?**
+
+:::
+
+
+
+## Semester Outline: Section 4 {background-image="Images/background-worldmap4.png" .center}
+
+```{r, fig.align='center'}
+knitr::include_graphics("Images/01_1-Old_Institutions.webp")
+```
+
+::: {.r-fit-text}
+What is the Future of Transnational Politics and IR?
+:::
+
+::: notes
+
+Here's the thing, most of the world's international infrastructure was designed at the end of WWII
+
+- The United Nations was designed to maintain peace 
+
+- The International Court of Justice was designed to help countries settle disputes without fighting
+
+- The World Bank was designed to reduce poverty and promote long-term economic development
+
+- The International Monetary Fund was designed to do a bunch of stuff related to promoting trade and growth
+
+<br>
+
+Basically all of these, and more, were founded in around 1944/1945
+
+<br>
+
+In Section 4 of the class I want us to ask if 80 years later these institutions are still adapted well to the complexities of today
+
+- If not, what do we do about it?
+
+:::
+
+
+
+## Semester Outline {background-image="Images/background-worldmap4.png" .center}
+
+<br>
+
+::: {.r-fit-text}
+
+1. Arguments, Evidence and International Relations
+
+2. Why Are There Wars?
+
+3. Why is it so Hard to Cooperate With Other Countries?
+
+4. What is the Future of Transnational Politics and IR?
+:::
+
+::: notes
+
+Alright, so that's our plan for the semester.
+
+### Questions on this?
+
+:::
+
+
+
+## {background-image="Images/01_1-newspapers.jpg"}
+
+::: notes
+
+We will kick off most classes with current events discussions.
+
+- This REQUIRES you to follow global news!
+
+<br>
+
+**Part of your job in this class is to keep up with international current events!**
+
+- Skim the international section of a good news site everyday.
+
+- Let's make sure we always have current events we can draw on in our discussions!
+:::
+
+
+
+## All Supporting Material is on Canvas  {background-image="Images/background-worldmap4.png"  .center}
+
+```{r, fig.align='center'}
+knitr::include_graphics("Images/01_1-Canvas_Homepage.png")
+```
+
+::: notes
+Everybody log into Canvas with me and let's get oriented in our class infrastructure!
+
+<br>
+
+*Log into Canvas, set to student view and step them through the main pages*
+
+- Home page,
+
+- Grades,
+
+- Assignments,
+
+- Modules (with readings and assignment for Thursday)
+:::
+
+
+
+## The answer is in the syllabus  {background-image="Images/background-worldmap4.png" .center}
+
+```{r, fig.align='center'}
+knitr::include_graphics("Images/01_1-Course_Syllabus.png")
+```
+
+::: notes
+
+Everybody open the syllabus and let's hit the highlights!
+
+- *Give them time to do this*
+
+<br>
+
+1. **Any questions about the LOs or components of your grade?**
+
+2. **Any questions about the attendance policy?**
+    
+    - Attendance cliff (> 3 unexcused absences = Grade cap of 'C')
+    
+    - YOU are required to contact me by email for excused absences
+    
+    - Coach emails alone DO NOT COUNT
+
+3. **Any questions about the participation points?**
+
+    - MOST classes have short pre-class assignments that must be submitted to Canvas
+    
+    - Other ways to lose participation: Lateness, distracting classmates
+
+4. **Any questions about the Submission Requirements for the Argument Papers?**
+
+<br>
+
+The Modules page of our Canvas site is where I will provide all of the readings and links to the daily assignments.
+
+- **Any question on the Modules page?**
+
+<br>
+
+Bottom line, please keep me in the loop this semester!
+
+- I genuinely want you to make progress on our learning outcomes
+
+- So, if things are getting rough for you please come talk to me.
+
+- I will always offer you flexibility in the face of struggle IF YOU COME TO ME BEFORE DEADLINES HAVE PASSED!
+
+<br>
+
+**Questions on this?**
+
+<br>
+
+**SLIDE**: AI policy
+
+:::
+
+
+
+## {background-image="Images/background-worldmap4.png" .center}
+
+![](Images/01_1-No_AI_Tools.jpg){style="display: block; margin: 0 auto"}
+
+::: notes
+
+You may not use any AI tools in this class. Any AI use will be treated as plagiarism.
+
+<br>
+
+That means: 
+
+- No AI search
+
+- No AI summaries of articles or books
+
+- No AI for outlining or writing
+
+- No AI for data analysis
+
+- No AI to simply clean up your grammar (e.g. Grammarly).
+
+<br>
+
+Think of this class like training to play a sport
+
+- The time you spend in the gym getting stronger and more flexible makes you a better athlete regardless of the sport you end up playing. 
+
+- That's what we're doing in this class when we learn to critically analyze texts and become better writers.
+
+- I'm getting you ready to succeed out in the real world
+
+- Using AI tools is like bringing a forklift into the weight room. Yeah, you lifted the weights, but it was a waste of your time.
+
+<br>
+
+Other key point: Lots of people are worried about AI taking their jobs, e.g. replacing them in the workforce. 
+
+- If you use AI to do your thinking for you then you are literally replacing yourself with AI
+
+- You are setting yourself up with skills that are basically without value
+
+<br>
+
+So, let's not waste this opportunity working together this semester
+
+- Let's get stronger and be better adapted to whatever the world looks like when you graduate
+
+<br>
+
+**Questions on this policy?**
+
+:::
+
+
+
+
+
+## For Next Class {background-image="Images/background-worldmap4.png" .center}
+
+<br>
+
+### Check the syllabus and Modules page for the readings and the discussion assignment.
+
+
+::: notes
+Readings and an assignment for next class
+
+1. The readings: I am giving you the Labossiere reading on logical arguments and two op-eds for us to unpack
+
+2. The pre-class assignment: I have found that requiring these pre-class questions sets us up for much livelier engagement in class!
+
+    - Plus makes tracking participation points easier!
+
+<br>
+
+**Questions on what I'm asking you to do?**
+
+- NOTE: The forum closes BEFORE class starts (9:59 am) so make sure to get these in!
+
+<br>
+
+Welcome to the class and let me know if you have any questions!
+:::

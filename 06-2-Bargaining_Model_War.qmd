@@ -1,0 +1,1159 @@
+---
+format: revealjs
+---
+
+## Today's Agenda {background-image="Images/background-worldmap4.png" .center}
+
+```{r}
+# background-size="1920px 1080px"
+library(tidyverse)
+library(readxl)
+```
+
+<br>
+
+::: {.r-fit-text}
+
+**II. Why Are There Wars?**
+
+- Fearon's (1995) Bargaining Model of War
+
+:::
+
+<br>
+
+::: r-stack
+Justin Leinaweaver (Spring 2026)
+:::
+
+::: notes
+Prep for Class
+
+1. Review canvas submissions
+
+2. **Remember, we don't diagram this model using III until next Friday**
+
+<br>
+
+**DISCUSS: Name me an international political event that has happened since we last met as a class.**
+:::
+
+
+
+
+## {background-image="Images/background-worldmap4.png" .center}
+
+```{r, message=FALSE, warning=FALSE, fig.align='center', fig.asp=0.618, fig.width=8}
+## Spring 2026 (9 pairs)
+library(tidyverse)
+
+# Record class data 
+# Last time (SP25): 48, 45, 37, 13
+# Wars and number of pennies for the winner
+d <- tibble(
+  Version1 = c(3, 2, 4, 2, 4, 3, 4, 2, 2), # 26 total 
+  Version2 = c(4, 5, 4, 5, 5, 3, 4, 3, 5), # 38 total 
+  Version3 = c(4, 3, 5, 2, 4, 4, 3, 1, 2), # 28 total 
+  Version4 = c(0, 1, 0, 0, 0, 0, 1, 0, 0) # 2 total 
+)
+
+
+da <- d |>
+  pivot_longer(cols = c(Version1, Version2, Version3, Version4), names_to = "Version", values_to = "Wars")
+
+d2 <- d %>%
+  pivot_longer(cols = c(Version1, Version2, Version3, Version4), names_to = "Version", values_to = "Wars") %>%
+  mutate(
+    Uncertainty = case_when(
+      Version == "Version1" ~ "High Uncertainty (All Hidden)",
+      Version == "Version2" ~ "Medium Uncertainty (Most Hidden)",
+      Version == "Version3" ~ "Low Uncertainty (One Hidden)",
+      Version == "Version4" ~ "No Uncertainty"),
+    Uncertainty2 = case_when(
+      Version == "Version1" ~ "All Cards Hidden",
+      Version == "Version2" ~ "Reveal One Card",
+      Version == "Version3" ~ "Reveal Two Cards",
+      Version == "Version4" ~ "Reveal All Cards"),
+    Uncertainty3 = factor(Uncertainty2, levels = c("All Cards Hidden", "Reveal One Card", "Reveal Two Cards", "Reveal All Cards"))
+  )
+
+# Bar (all) 500x325
+d2 %>%
+  ggplot(aes(x = Wars)) +
+  geom_bar(width = .75) + #, fill = "darkgrey"
+  theme_bw() +
+  labs(x = "Wars Fought by Pairs of Students", y = "Count of Pairs", title = "All Games Combined",
+       subtitle = str_c(sum(da$Wars), " wars / ", nrow(da) * 5, " rounds = ", round(sum(da$Wars)/(nrow(da) * 5), 3) * 100, "%")) +
+  scale_y_continuous(breaks = seq(0, 20, 5)) +
+  scale_x_continuous(breaks = seq(0, 5, 1)) +
+  geom_hline(yintercept = seq(0, 20, 5), color = "white")
+
+# d2 %>%
+#    summarize(
+#      pairings = n(),
+#      wars = sum(Wars),
+#      possible = pairings * 5, #rounds per game
+#      proportion = wars/possible
+#    )
+```
+
+::: notes
+
+On Monday we ran a simulation in class to help us think carefully about the causes of war.
+
+<br>
+
+Here are the overall results from our simulation.
+
+- The x-axis represents the number of wars fought by one pair of students.
+
+- Each bar counts the number of pairs in each category.
+
+<br>
+
+### Does the visualization make sense?
+
+<br>
+
+### So, what do we see here in overall results?
+
+- `r sum(da$Wars == 0)` pairs fought zero wars in their five rounds together.
+
+- `r sum(da$Wars == 5)` pairs fought in all five rounds they played together.
+
+- Out of `r nrow(da)` pairings and `r nrow(da) * 5` possible conflicts we observed `r sum(da$Wars)` wars.
+
+- So, `r round(sum(da$Wars)/(nrow(da) * 5), 3) * 100`% of the time your conflicts led to war.
+:::
+
+
+
+## {background-image="Images/background-worldmap4.png" .center}
+
+::: {.r-fit-text}
+**Interests, Institutions and Interactions?**
+:::
+
+```{r, fig.align='center', fig.asp=0.7, fig.retina=3, fig.width=6}
+# Bar (all) 500x325
+p1 <- d2 %>%
+  ggplot(aes(x = Wars)) +
+  geom_bar(width = .75) + #, fill = "darkgrey"
+  theme_bw() +
+  labs(x = "Wars Fought by Pairs of Students", y = "Count of Pairs", title = "All Games Combined",
+       subtitle = str_c(sum(da$Wars), " wars / ", nrow(da) * 5, " rounds = ", round(sum(da$Wars)/(nrow(da) * 5), 3) * 100, "%")) +
+  scale_y_continuous(breaks = seq(0, 20, 5)) +
+  scale_x_continuous(breaks = seq(0, 5, 1)) +
+  geom_hline(yintercept = seq(0, 20, 5), color = "white")
+
+p1
+```
+
+::: notes
+
+Remember we use models to explain international political events
+
+- And we can break most IR models into three components: interests, institutions and interactions
+
+- So, let's use these outcomes as a puzzle for us to explain.
+
+<br>
+
+### How can you explain why we saw `r round(sum(da$Wars)/(nrow(da) * 5), 3) * 100`% of the rounds end in war?
+
+- Talk to the person next to you and get ready to report back to me how some specific interests, institutions, or interactions explain this outcome
+
+<br>
+
+*REPORT BACK and put ON BOARD*
+
+Interests
+
+- Maximizing resources (pennies) vs a desire for murder!
+- Objective framed in relative gains / zero-sum
+
+Institutions
+
+- Social acceptance of violence?
+- No chance for allies to help
+- Odd number of rounds?
+- How many cards in my "deck"?
+- Sum vs avg?
+
+Interactions
+
+- Uncertainty!
+    - I don't know what you have in your hand
+    - I don't know your level of risk acceptance
+- Do people play differently in first round than in the second?
+- Do people play differently in the lead than being behind?
+- How did revealing cards change the game?
+
+:::
+
+
+
+## {background-image="Images/background-worldmap4.png" .center}
+
+::: {.r-fit-text}
+**Interests, Institutions and Interactions?**
+:::
+
+```{r, fig.align='center', fig.asp=0.7, fig.retina=3, fig.width=6}
+# Bar (game version 1) 500x325
+
+da_v1 <- da |> filter(Version == "Version1")
+
+# Identify missing values 0-5 wars and add
+x1 <- d2 %>%
+  filter(Version == "Version1") %>%
+  count(Wars) |>
+  select(n)
+
+x2 <- 0:5 %in% x1[[1]]
+
+x3 <- 0:5
+
+d2 %>%
+  filter(Version == "Version1") %>%
+  count(Wars) %>%
+  add_row(Wars = x3[!x2], n = 0) %>%
+  arrange(Wars) %>%
+  ggplot(aes(x = Wars, y=n)) +
+  geom_col(width = .75) +
+  theme_bw() +
+  labs(x = "Wars Fought by Pairs of Students", y = "Count of Pairs", title = "Version 1: High Uncertainty (All Cards Hidden)",
+       subtitle = str_c(sum(da_v1$Wars), " wars / ", nrow(da_v1) * 5, " rounds = ", round(sum(da_v1$Wars)/(nrow(da_v1) * 5), 3) * 100, "%")) +
+  scale_x_continuous(breaks = 0:5) +
+  scale_y_continuous(breaks = 0:max(x1$n) + 1) +
+  geom_hline(yintercept = seq(1, max(x1$n) + 1), color = "white")
+```
+
+::: notes
+
+Let's shift our focus to a different political outcome.
+
+<br>
+
+Here are the results for just version 1 of the game.
+
+```{r}
+ d2 %>%
+   group_by(Version) %>%
+   summarize(
+     pairings = n(),
+     wars = sum(Wars),
+     possible = pairings * 5, #rounds per game
+     proportion = wars/possible
+   ) |>
+  filter(Version == "Version1")
+```
+
+<br>
+
+### Any suprises here? Is this consistent with the interests, institutions and interactions we just flagged?
+
+<br>
+
+### How did you approach version 1 of the game? Did you have a strategy?
+
+<br>
+
+### What strategies did you observe in your opponents? Purely random decision-making or something else?
+
+<br>
+
+### How did your strategy adapt or evolve from playing the game?
+:::
+
+
+
+## {background-image="Images/background-worldmap4.png" .center}
+
+::: {.r-fit-text}
+**Interests, Institutions and Interactions?**
+:::
+
+```{r, fig.align='center', fig.asp=0.7, fig.width=6, fig.retina=3}
+# Bar (game version 1) 500x325
+
+da_v4 <- da |> filter(Version == "Version4")
+
+# Identify missing values 0-5 wars and add
+x1 <- d2 %>%
+  filter(Version == "Version4") %>%
+  count(Wars)
+
+x2 <- 0:5 %in% x1[[1]]
+
+x3 <- 0:5
+
+d2 %>%
+  filter(Version == "Version4") %>%
+  count(Wars) %>%
+  add_row(Wars = x3[!x2], n = 0) %>%
+  arrange(Wars) %>%
+  ggplot(aes(x = Wars, y=n)) +
+  geom_col(width = .75) +
+  theme_bw() +
+  labs(x = "Wars Fought by Pairs of Students", y = "Count of Pairs", title = "Version 4: No Uncertainty (All Cards Revealed)",
+       subtitle = str_c(sum(da_v4$Wars), " wars / ", nrow(da_v4) * 5, " rounds = ", round(sum(da_v4$Wars)/(nrow(da_v4) * 5), 3) * 100, "%")) +
+  scale_x_continuous(breaks = 0:5) +
+  scale_y_continuous(breaks = 0:max(x1$n) + 1) +
+  geom_hline(yintercept = seq(1, max(x1$n) + 1), color = "white")
+
+
+```
+
+::: notes
+
+Let's shift our focus to a different political outcome.
+
+<br>
+
+Here are the results for just version 4 of the game.
+
+```{r}
+ d2 %>%
+   group_by(Version) %>%
+   summarize(
+     pairings = n(),
+     wars = sum(Wars),
+     possible = pairings * 5, #rounds per game
+     proportion = wars/possible
+   ) |>
+  filter(Version == "Version4")
+```
+
+<br>
+
+### Any suprises here? Is this consistent with the interests, institutions and interactions we just flagged?
+
+<br>
+
+### How did you approach version 4 of the game? Did you have a strategy?
+
+<br>
+
+### What strategies did you observe in your opponents? Purely random decision-making or something else?
+
+<br>
+
+### How did your strategy adapt or evolve from playing the game?
+:::
+
+
+
+
+
+## {background-image="Images/background-worldmap4.png" .center}
+
+**Interests, Institutions and Interactions?**
+
+<br>
+
+```{r, fig.retina=3, fig.asp=.65, fig.align='center', fig.width=8}
+# Summary stats
+# d2 |>
+#   mutate(
+#     Uncertainty_f = factor(Uncertainty, levels = c("High Uncertainty (All Hidden)", "Medium Uncertainty (Most Hidden)", "Low Uncertainty (One Hidden)", "No Uncertainty"))
+#   ) |>
+#   group_by(Uncertainty_f) |>
+#    summarize(
+#      pairings = n(),
+#      wars = sum(Wars),
+#      possible = pairings * 5, #rounds per game
+#      proportion = round(wars/possible, 2)
+#    ) |>
+#   select(-pairings) |>
+#   kableExtra::kbl(col.names = c("Level of Uncertainty", "Wars", "Rounds", "Proportion")) |>
+#   kableExtra::kable_styling(font_size = 30)
+
+# Try a version as a plot
+tab1 <- d2 |>
+  mutate(
+    Uncertainty_f = factor(Uncertainty, levels = c("High Uncertainty (All Hidden)", "Medium Uncertainty (Most Hidden)", "Low Uncertainty (One Hidden)", "No Uncertainty"))
+  ) |>
+  group_by(Uncertainty_f) |>
+   summarize(
+     pairings = n(),
+     wars = sum(Wars),
+     possible = pairings * 5, #rounds per game
+     proportion = round(wars/possible, 2)
+   ) |>
+  select(-pairings) |>
+  mutate(
+    order1 = 1:4
+  )
+
+labs1 <- c("High Uncertainty\n(All Hidden)", "Medium Uncertainty\n(Most Hidden)", "Low Uncertainty\n(One Hidden)", "No Uncertainty")
+
+labs2 <- tab1$proportion
+
+tab1 |>
+  ggplot(aes(x = order1, y = proportion)) +
+  geom_line(linewidth = 1.2) +
+  geom_point(size = 5) +
+  scale_y_continuous(limits = c(0, 1), labels = scales::percent_format()) +
+  scale_x_continuous(labels = labs1, limits = c(.7,4.2), breaks = 1:4) +
+  theme_bw() +
+  labs(x = "", y = "Risk of War", title = "The risks of war fell (?) as we reduced the uncertainty in the game") +
+  ggrepel::geom_text_repel(aes(label = str_c(100*labs2, "%")))
+
+
+
+```
+
+
+::: notes
+
+Now take a step back.
+
+```{r}
+d2 |>
+  mutate(
+    Uncertainty_f = factor(Uncertainty, levels = c("High Uncertainty (All Hidden)", "Medium Uncertainty (Most Hidden)", "Low Uncertainty (One Hidden)", "No Uncertainty"))
+  ) |>
+  group_by(Uncertainty_f) |>
+   summarize(
+     pairings = n(),
+     wars = sum(Wars),
+     possible = pairings * 5, #rounds per game
+     proportion = round(wars/possible, 2)
+   ) |>
+  select(-pairings)
+```
+
+<br>
+
+**What happened as we went through the rounds?**
+
+- **Any suprises here? Is this consistent with the interests, institutions and interactions we just flagged?**
+
+<br>
+
+Lots of good material here from this experience so let's now shift to the reading for today.
+:::
+
+
+
+## Fearon (1995) {background-image="Images/background-worldmap4.png" .center}
+
+<br>
+
+::: {.r-fit-text}
+Research Question?
+:::
+
+::: notes
+
+Today we pair that simulation with the research that inspired it, Fearon's (1995) article on the bargaining model of war.
+
+<br>
+
+Let's start where we always should: The Research Question!
+
+- In this case, the question is also a bit of a puzzle.
+
+<br>
+
+### What is Fearon's big research question?
+
+### - What are the three reasons he argues war should be unappealing as a strategy to get what you want?
+
+(**SLIDE**)
+:::
+
+
+
+## Fearon (1995) {background-image="Images/background-worldmap4.png" .center}
+
+<br>
+
+**Research Question**
+
+If wars are **costly**, **risky** and **inefficient** why do they happen?
+
+::: notes
+
+**According to Fearon why is war costly?**
+
+- (Costly: Requires resources to fight)
+
+### According to Fearon why is war risky?
+
+- (Risky: You might lose, no guarantees)
+
+### According to Fearon why is war inefficient?
+
+- (Inefficient: Fighting is costly, bargains are not (or are less so))
+
+<br>
+
+This is a huge first assumption in this paper, so let's evaluate it.
+
+### Are you persuaded that war is costly, risky and inefficient? why or why not?
+
+<br>
+
+### Any current events examples we could draw on?
+
+(US 20 year war in Afghanistan?)
+- Destabilization of the region
+- Distraction away from other global threats
+- Has created fractures with our allies in NATO
+- Has committed us to HUGE expenses over time as we pay medical care and retirement for the many, many Americans who served.
+- Higher taxes / more debt
+- Crowds out spending on economic growth
+:::
+
+
+
+
+## Fearon (1995) {background-image="Images/background-worldmap4.png" .center}
+
+![](Images/06_2-Fearon_Figure1.png){style="display: block; margin: 0 auto"}
+
+::: notes
+
+This brings us to Fearon's aim: Why does war happen if we all agree that war is a super messy way to get what you want.
+
+<br>
+
+This figure essentially summarizes Fearon's model of the "go to war" decision by states.
+
+<br>
+
+Keep in mind this is a model (e.g. a map) and like all models/maps it is a simplification of reality.
+
+- There are two states having a dispute, A and B
+
+- The possible outcomes of their dispute are represented by this line
+
+<br>
+
+Whatever outcome they reach represents a point along this line
+
+- A prefers outcomes closer to 1, B closer to 0.
+
+- Don't stress about the letter variables here, we'll explore the bargaining intuitions in a moment.
+
+<br>
+
+Let's start with just these elements that set the stage.
+
+### What are the key assumptions in this model? 
+
+### - In other words, as a "map" of war, what does Fearon choose to focus on?
+:::
+
+
+## Fearon (1995): Key Assumptions {background-image="Images/background-worldmap4.png" .center}
+
+![](Images/06_2-Fearon_Figure1.png){style="display: block; margin: 0 auto"}
+
+1. Only 2 actors, 
+
+2. Dispute on a single dimension, 
+
+3. Winner of the war chooses the outcome position, and
+
+4. Amount you like the outcome increases across the line.
+
+::: notes
+
+Let's reflect on this as a model for a sec.
+
+<br>
+
+### When you think about a state's decision to go to war, how well does this set of assumptions cover the elements you think would be important?
+
+### - Leaving anything important out? Why or why not?
+
+*encourage this discussion*
+
+<br>
+
+Ok, let's now talk about the bargaining dynamics in the model.
+:::
+
+
+
+## Fearon's Bargaining Model of War {background-image="Images/background-worldmap4.png" .center}
+
+- Treasure of 100 gold coins
+
+<br>
+
+:::: {.columns}
+::: {.column width="25%"}
+
+![](Images/05_2-Bbeard_Sword.jpg)
+
+:::
+
+::: {.column width="50%"}
+
+![](Images/05_2-treasure.jpg)
+
+:::
+
+::: {.column width="25%"}
+
+![](Images/05_2-Pirate2_v2.png)
+
+:::
+::::
+
+::: notes
+
+Instead of states and war, let's talk pirates and gold.
+
+- Imagine two pirates who meet to divide up a chest full of 100 gold coins.
+
+- Each pirate wants all 100 coins and neither is prepared to budge on their demand.
+:::
+
+
+
+## Fearon's Bargaining Model of War {background-image="Images/background-worldmap4.png" .center}
+
+- Treasure of 100 gold coins
+
+- Buy a gun (-20 gold) for a 100% chance to win
+
+<br>
+
+:::: {.columns}
+::: {.column width="25%"}
+
+![](Images/05_2-Bbeard_Sword.jpg)
+
+:::
+
+::: {.column width="50%"}
+
+![](Images/05_2-treasure.jpg)
+
+:::
+
+::: {.column width="25%"}
+
+![](Images/05_2-Pirate2_v2.png)
+
+:::
+::::
+
+::: notes
+
+The first pirate knows that for 20 gold he can buy a gun that will allow him to take all of the treasure.
+
+- It gives him a 100% chance of winning the fight.
+
+<br>
+
+### At that moment, before the gun is purchased, is there any amount of gold the second pirate could offer the first to avoid being killed?
+
+(81 gold!)
+- The treasure is worth 100 gold but the gun will cost 20 which nets you 80 gold.
+- 81 gold > 80 gold
+:::
+
+
+
+## Expected Value of War {background-image="Images/background-worldmap4.png" .center}
+
+- P(Win) x Winning Result + P(Lose) x Losing Result
+
+<br>
+
+:::: {.columns}
+::: {.column width="25%"}
+
+![](Images/05_2-Bbeard_Sword.jpg)
+
+:::
+
+::: {.column width="50%"}
+
+![](Images/05_2-treasure.jpg)
+
+:::
+
+::: {.column width="25%"}
+
+![](Images/05_2-Pirate2_v2.png)
+
+:::
+::::
+
+::: notes
+
+We can use the expected value formula to check our math.
+
+- The expected value is a tool for helping you think about how probability impacts a decision.
+
+- P(Win) x Winning Result + P(Lose) x Losing Result
+
+<br>
+
+In this case it's really simple to use.
+
+- You simply multiply the two possible outcomes by their probability of happening and add them together.
+:::
+
+
+## Expected Value of War {background-image="Images/background-worldmap4.png" .center}
+
+- P(Win) x Winning Result + P(Lose) x Losing Result
+
+- 100% x (100 - 20) + 0% x (0 - 20)
+
+<br>
+
+:::: {.columns}
+::: {.column width="25%"}
+
+![](Images/05_2-Bbeard_Sword.jpg)
+
+:::
+
+::: {.column width="50%"}
+
+![](Images/05_2-treasure.jpg)
+
+:::
+
+::: {.column width="25%"}
+
+![](Images/05_2-Pirate2_v2.png)
+
+:::
+::::
+
+
+
+## Expected Value of War {background-image="Images/background-worldmap4.png" .center}
+
+- P(Win) x Winning Result + P(Lose) x Losing Result
+
+- 100% x (100 - 20) + 0% x (0 - 20)
+
+- 100% x (80) + 0% x (-20)
+
+:::: {.columns}
+::: {.column width="25%"}
+
+![](Images/05_2-Bbeard_Sword.jpg)
+
+:::
+
+::: {.column width="50%"}
+
+![](Images/05_2-treasure.jpg)
+
+:::
+
+::: {.column width="25%"}
+
+![](Images/05_2-Pirate2_v2.png)
+
+:::
+::::
+
+
+
+## Expected Value of War {background-image="Images/background-worldmap4.png" .center}
+
+- P(Win) x Winning Result + P(Lose) x Losing Result
+
+- 100% x (100 - 20) + 0% x (0 - 20)
+
+- Expected Value of War = 80 gold
+
+:::: {.columns}
+::: {.column width="25%"}
+
+![](Images/05_2-Bbeard_Sword.jpg)
+
+:::
+
+::: {.column width="50%"}
+
+![](Images/05_2-treasure.jpg)
+
+:::
+
+::: {.column width="25%"}
+
+![](Images/05_2-Pirate2_v2.png)
+
+:::
+::::
+
+::: notes
+**Does that make sense?**
+
+<br>
+
+### So, what is the first really important thing this model helps us understand about the decision to start a war?
+
+(**SLIDE**)
+:::
+
+
+
+## Why is the model useful? {background-image="Images/background-worldmap4.png" .center}
+
+1. Winning Reward = Treasure - Costs of Fighting
+
+![](Images/06_2-Fearon_Figure1.png)
+
+::: notes
+
+Actual Outcome = Treasure - Costs of Fighting
+
+- Here we see how the cost of war becomes a factor in our decision-making.
+
+- The greater the cost of war, the less appealing it is as a tool for getting what you want.
+
+- The important part isn't necessarily the outcome, it's the cost of obtaining it.
+
+<br>
+
+Also, this isn't just a vague expression, the model helps us think precisely about how the impact is felt.
+
+### Make sense?
+
+<br>
+
+### How could we have tested this by modifying our simulation on Monday?
+
+(Increase the cost of going to war and see what happens!)
+- I'm guessing many fewer wars!
+:::
+
+
+
+## Fearon's Bargaining Model of War {background-image="Images/background-worldmap4.png" .center}
+
+- Treasure of 100 gold coins
+
+- Buy a gun (-20 gold) for a 50% chance to win
+
+<br>
+
+:::: {.columns}
+::: {.column width="25%"}
+
+![](Images/05_2-Bbeard_Sword.jpg)
+
+:::
+
+::: {.column width="50%"}
+
+![](Images/05_2-treasure.jpg)
+
+:::
+
+::: {.column width="25%"}
+
+![](Images/05_2-Pirate2_v2.png)
+
+:::
+::::
+
+::: notes
+
+That's just cost, now let's talk about risk.
+
+<br>
+
+Imagine the gun for sale is actually an old flint lock pistol.
+
+- Both inaccurate and hard to reload.
+
+- Let's say this gun actually gives the first pirate a 50% chance of winning the fight.
+
+<br>
+
+### At that moment, is there any amount of gold the second pirate could offer the first to avoid him buying a gun?
+:::
+
+
+
+## Fearon's Bargaining Model of War {background-image="Images/background-worldmap4.png" .center}
+
+**E(War) = P(Win) x Win Result + P(Lose) x Lose Result**
+
+<br>
+
+**Buy a gun (-20 gold) for a 50% chance to win**
+
+::: {.incremental}
+- E(War) = 50% x (100 - 20) + 50% x (0 - 20)
+
+- E(War) = 50% x (80) + 50% x (-20)
+
+- E(War) = 40 + (-10)
+:::
+
+::: notes
+**Everyone try to calculate the expected value of this decision.**
+
+- *REVEAL x3*
+:::
+
+
+## Fearon's Bargaining Model of War {background-image="Images/background-worldmap4.png" .center}
+
+- Treasure of 100 gold coins
+
+- **Expected Value of War = 30 gold!**
+
+<br>
+
+:::: {.columns}
+::: {.column width="25%"}
+
+![](Images/05_2-Bbeard_Sword.jpg)
+
+:::
+
+::: {.column width="50%"}
+
+![](Images/05_2-treasure.jpg)
+
+:::
+
+::: {.column width="25%"}
+
+![](Images/05_2-Pirate2_v2.png)
+
+:::
+::::
+
+::: notes
+**And now what does this mean for the decision to go to war?**
+
+- If Pirate B offers Pirate A 31 gold he can avoid being shot!
+
+- The guaranteed 31 gold outweighs the costs + the risks of the war.
+
+<br>
+
+### And what does this mean is the second important reason this model is useful?
+
+(**SLIDE**)
+:::
+
+
+
+## Why is the model useful? {background-image="Images/background-worldmap4.png" .center}
+
+1. Winning Reward = Treasure - Costs of Fighting
+
+2. Expected Outcome = p(Winning Reward) + p(Losing Reward)
+
+![](Images/06_2-Fearon_Figure1.png)
+
+::: notes
+
+Expected Outcome = p(Winning Reward) + p(Losing Reward)
+
+- Risk magnifies the costs of war in significant ways!
+
+- And now we see how the model helps us understand the role risk plays in lowering the attractiveness of war.
+
+<br>
+
+### Make sense?
+
+<br>
+
+### How could we have tested this by modifying our simulation on Monday?
+
+- (More cards in your hand?)
+
+- (More cards in the deck, e.g. 1-50?)
+
+- (Increase the punishment for losing, e.g. lose half your remaining points?)
+:::
+
+
+## Fearon (1995): The Argument {background-image="Images/background-worldmap4.png" .center}
+
+<br>
+
+Because wars are **costly**, **risky** and **inefficient**, there should **ALWAYS** be a non-war outcome that both sides would prefer.
+
+::: notes
+
+Fearon's first big idea!
+
+### Based on our simulation on Monday and discussion today, are you convinced this is a useful model for explaining the decision to go to war? Why or why not?
+
+<br>
+
+**SLIDE**: Let's examine the assumptions in the argument
+:::
+
+
+## Fearon (1995): The Argument {background-image="Images/background-worldmap4.png" .center .smaller}
+
+Because wars are **costly**, **risky** and **inefficient**, there should **ALWAYS** be a non-war outcome that both sides would prefer.
+
+<br>
+
+1. Only 2 actors, 
+2. Dispute on a single dimension, 
+3. Winner of the war chooses the outcome position,
+4. Amount you like the outcome increases across the line,
+5. States must know there is a probability of victory, 
+6. Leaders are risk-averse or risk-neutral, and
+7. The issues at dispute must be divisible.
+
+::: notes
+**Any problematic assumptions here?**
+
+- p388: Key problematic assumptions (5, 6 and 7 on the **SLIDE**)
+
+<br>
+
+### Ok, what are Fearon's conclusions?
+
+### - If his model is useful, why do wars keep happening?
+:::
+
+
+
+## Fearon (1995): The Argument {background-image="Images/background-worldmap4.png" .center}
+
+**Argument 1**
+
+- Therefore, war occurs because of private information and the incentive to misrepresent.
+
+**Argument 2**
+
+- Therefore, war occurs as a consequence of commitment problems.
+
+**Argument 3**
+
+- Therefore, war occurs due to "issue indivisibilities"
+
+::: notes
+
+Fearon draws out three big hypotheses from his bargaining model.
+
+- *Step through each*
+
+<br>
+
+**Arg 1: Did anybody try bluffing in the game on Monday? How did that go?**
+
+<br>
+
+**Arg 2: What would you have done in the game if your opponent had promised not to go to war? Would that assure peaceful outcomes? Why or why not?**
+
+<br>
+
+I think this model shines in terms of its usefulness!
+
+- **If you are a neorealist, what is your best advice for lowering the risks of war around the world?** (Nothing: War is inevitable due to security dilemmas)
+
+- **If you are an offensive realist, what is your best advice for lowering the risks of war around the world?** (Nothing: War is inevitable due to power competition and the pursuit of hegemony)
+
+- **If you are a liberal institutionalist, what is your best advice for lowering the risks of war around the world?** (Better, more empowered international orgs and rules)
+
+- **If you are an economic liberal, what is your best advice for lowering the risks of war around the world?** (More trade! Even if it exploits the developing world!)
+
+<br>
+
+Ok, now let's talk Fearon's bargaining model!
+
+- **What specific things can we do to reduce the risks of war?**
+
+<br>
+
+- Lib inst isn't wrong, but let's give the international laws some bite
+
+    - Adopt universal jurisdiction
+    
+    - Give the ICC a police force
+    
+    - Eliminate the P5 veto at the UN
+    
+- More transparency
+
+    - Fully fund and support the IEA and its inspectors
+    
+    - Encourage security cooperation and coalitions to produce and manage arms procurement
+    
+- More and better adjudication
+
+    - Empower the ICJ and lower the barriers standing
+    
+- Give the UN blue helmets the ability to enforce and maintain peace!
+
+- etc.
+
+<br>
+
+This model is built on some huge and possibly problematic assumptions BUT it directly connects to the world we live in in concrete and specific ways
+
+<br>
+
+**SLIDE**: For Friday
+:::
+
+
+
+## Assignment for Next Class {background-image="Images/background-worldmap4.png" .center}
+
+<br>
+
+### What do we do about North Korea?
+
+- Bolton (2018) vs Sagan and Weiner (2018)
+
+
+
+
+
+## Assignment for Next Class {background-image="Images/background-worldmap4.png" .center}
+
+<br>
+
+1. Hultman, Kathman & Shannon (2016) on United Nations Peacekeeping (p231-238)
+
+2. **Before class** submit to our Canvas discussion board: 
+    - What is the research question in this paper?
+    
+    - Diagram the model in this paper (e.g. interests, institutions and interactions)
+
+::: notes
+Next class we dig into a research paper that explores the effect of the United Nations on war.
+
+- Your job is to read the set-up of the paper (231-238) so we can explore the model they propose to test.
+
+<br>
+
+### Questions on the assignment?
+:::
+
+
+
+## SLIDES for non-snow interrupted semesters
+
+
+## Assignment for Next Class {background-image="Images/background-blue_triangles.jpg" .center}
+
+<br>
+
+1. Readings in syllabus
+
+2. **Before class** submit to our Canvas discussion board your analysis of this debate
+
+::: notes
+**Questions on the assignment?**
+:::

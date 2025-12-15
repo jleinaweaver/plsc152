@@ -1,0 +1,376 @@
+---
+format: revealjs
+---
+
+## Today's Agenda {background-image="Images/background-worldmap4.png" .center}
+
+```{r}
+# background-size="1920px 1080px"
+library(tidyverse)
+library(readxl)
+library(kableExtra)
+```
+
+<br>
+
+::: {.r-fit-text}
+
+**Final Paper Prep: Reviewing IR Models**
+
+:::
+
+<br>
+
+<br>
+
+::: r-stack
+Justin Leinaweaver (Spring 2026)
+:::
+
+::: notes
+Prep for Class
+
+1. ...
+
+<br>
+
+Alright everybody, from here on out we shift our focus to your final papers for the semester!
+
+<br>
+
+**SLIDE**: The final paper prompt
+:::
+
+
+
+## Final Exam (Due May 6, 10am) {background-image="Images/background-worldmap4.png" .center}
+
+<br>
+
+Select a **NEW** international political event and make an argument that one of the IR theories / models we’ve studied in class this term “best” explains the event. 
+
+- Your paper must include a counter-argument that applies and evaluates a second theory to the case.
+
+::: notes
+
+You all did such a good job on the second papers that we're going to run this classic back again!
+
+- Now that you've done this exercise once I'm excited to see how well you do it this time!
+
+<br>
+
+**SLIDE**: A couple of tweaks to the assignment this time
+:::
+
+
+
+## Final Paper Tweaks {background-image="Images/background-worldmap4.png" .center}
+
+<br>
+
+1. You may not select more than one of the realist or liberal theories 
+
+    - Either neorealism or offensive realism, not both
+
+    - Either economic liberalism or liberal institutionalism, not both
+
+::: notes
+
+You don't have to select any of these four theories, but if you do you can't double-dip in the same waters.
+
+<br>
+
+### Make sense?
+:::
+
+
+
+## Final Paper Tweaks {background-image="Images/background-worldmap4.png" .center}
+
+<br>
+
+2) You must select at least one of the theories from the second half of the class
+
+    - e.g. Prisoner's Dilemma, Two-Level Bargaining, Constructivism, Feminist Theory, Postcolonial Theory
+
+::: notes
+**Questions on this requirement?**
+:::
+
+
+## {background-image="Images/background-worldmap4.png" .center .smaller}
+
+::: {.r-fit-text}
+3) You **may not** select one of the topics explored in anyone's second paper:
+:::
+
+:::: {.columns}
+::: {.column width="50%"}
+- 
+
+:::
+
+::: {.column width="50%"}
+- 
+:::
+::::
+
+
+::: notes
+
+That's it, those are the tweaks.
+
+<br>
+
+The key for this part is that I need everyone to choose a MUCH more precise event.
+
+- Actor X did action Y to country or international group Z on a specific date
+
+<br>
+
+The international section of every newspaper will give you a list of specific events to explain
+
+<br>
+
+### Any questions on the final paper assignment?
+
+
+:::
+
+
+
+## IR Theories Explored this Semester {background-image="Images/background-worldmap4.png" .center}
+
+::: {.r-fit-text}
+- Realisms: Neorealism, Offensive Realism
+- Liberalisms: Liberal Institutionalism, Economic Liberalism
+- Bargaining Model of War
+- Prisoner's Dilemma
+- Two-Level Bargaining
+- Constructivism
+- Feminist Theory
+- Postcolonial Theory
+:::
+
+::: notes
+
+We have explored a number of IR models this semester.
+
+- My hope is that you now have a wide array of tools in your toolbox!
+
+<br>
+
+All of these theories represent simplifications of reality
+
+- e.g. they are not true or false, but hopefully are useful for explanation and prediction
+:::
+
+
+
+## IR Theories Explored this Semester {background-image="Images/background-worldmap4.png" .center}
+
+::: {.r-fit-text}
+- **Realisms: Neorealism, Offensive Realism**
+- **Liberalisms: Liberal Institutionalism, Economic Liberalism**
+- **Bargaining Model of War**
+- Prisoner's Dilemma
+- Two-Level Bargaining
+- Constructivism
+- Feminist Theory
+- Postcolonial Theory
+:::
+
+::: notes
+
+In week 7 we reviewed the diagrams for these first five models.
+
+### - Any questions on them?
+
+<br>
+
+The first five models we explored each attack the problem of explaining international political events in broadly the same way
+
+- States are the primary actors in the system and the rules and interactions that matter are interpreted from the state's perspective
+
+- Other actors might exist in the system, but the main focus of these models is on how the interests, institutions and interactions inform the state's actions.
+
+<br>
+
+### Make sense?
+:::
+
+
+
+## IR Theories Explored this Semester {background-image="Images/background-worldmap4.png" .center}
+
+::: {.r-fit-text}
+- Realisms: Neorealism, Offensive Realism
+- Liberalisms: Liberal Institutionalism, Economic Liberalism
+- Bargaining Model of War
+- **Prisoner's Dilemma**
+- **Two-Level Bargaining**
+- **Constructivism**
+- **Feminist Theory**
+- **Postcolonial Theory**
+:::
+
+::: notes
+
+These second five are somewhat different in their designs and approaches.
+
+- States still matter, but these models argue that researchers who want to explain international political events must stop relying on "the state" as the only important reference point.
+
+- These models focus on important causal mechanisms operating across states and within them.
+
+- These models challenge us to broaden our perspectives on who matters, what they want and how that drives outcomes at the international level
+
+<br>
+
+Let's work today on making sure everyone feels comfortable using these five models to explain international political events
+
+<br>
+
+*Split class into 5 groups*
+
+- Go sit with your group, claim some space on the board!
+:::
+
+
+
+## Diagramming the Models {background-image="Images/background-worldmap4.png" .center .smaller}
+
+<br>
+
+:::: {.columns}
+::: {.column width="60%"}
+1. Prisoner's Dilemma (Axelrod & Hamilton 1981*)
+
+2. Two-Level Bargaining (Putnam 1988)
+
+3. Constructivism (Hopf 1998)
+
+4. Feminist Theory (Enloe 2014)
+
+5. Postcolonial Theory (Vucetic & Persaud 2018)
+:::
+
+::: {.column width="40%"}
+
+**This model explains international political events by emphasizing...**
+
+- Interests?
+
+- Institutions?
+
+- Interactions?
+:::
+::::
+
+::: notes
+
+*There isn't really a widely accepted cite for PD. This is the first big article to push the concept into IR.
+
+<br>
+
+*Assign each model to a group*
+
+<br>
+
+Groups get your diagram of this model up on the board
+
+- Each model tells us how we should explain international political events
+
+- Your job is to get those elements on the board as clearly as you can
+
+<br>
+
+*PRESENT and DISCUSS each*
+
+- *Push them to add to each other's diagrams and keep working to clarify the elements*
+
+<br>
+
+#### Notes
+
+Prisoner's Dilemma
+
+- **The nature of some institutions/interactions leads actors to choose sub-optimal outcomes, even if they really don't want to!**
+- Interests: Rational actors pursuing positive return
+- Institutions: 1) Uncertainty is high (unknown time horizons, simultaneous decision-making); 2) Available resource is non-excludable (anyone can access it); 3) Biggest rewards for short-term defection OR long-term cooperation
+- Interactions: Rivalrous resource (Your use changes reward to other side)
+- Expectations: Therefore, best outcome is sustained cooperation but too risky so defection the dominant strategy
+
+Two-Level Bargaining
+
+- **Domestic politics is vital for understanding international outcomes!**
+- Interests: Leaders want political survival AND Constituents want specific policies
+- Institutions: Level I (International): Leader vs Leader for policy; Level II (Domestic): Leader vs Constituents for ratification/survival
+- Interactions: 1) Moves made on the Level I game board shift the pieces on Level II (and vice versa); 2) Larger Level I win-sets make agreement more likely; 3) Smaller Level II win-sets strengthen the leader; 4) Leaders can try to influence the size of the win-sets at home and abroad
+- Therefore, domestic politics complicates all international bargaining
+
+Constructivism
+
+- **International politics is international interaction**
+- Interests: Depends on the institutions and interactions
+- Institutions: Depends on the interactions
+- Interactions: Constantly in flux, change is constant, power of norms and discourse, importance of identity, meanings depend on behavior and interpretation
+
+Feminist Theory
+
+- Interests:
+    - Unpack the state! Don’t forget to think about ALL the actors involved in the functioning of states, organizations movements
+    - Who participated in decision-making?
+    - Who are we ignoring?
+- Institutions: 
+    - Gender stereotypes as a kind of institution we should be aware of and how they structure interests and interactions
+    - Is anarchy replaced by patriarchy?
+- Interactions: 
+    - Power is way more complicated and suffuses all interactions way more then the other theories think it does.
+    - We cannot understand outcomes related to stability, security, crisis, development without exploring the interests and institutions above
+
+Postcolonial Theory
+
+Interests: **Challenges us to reconceptualize what states want: Exploitation, hierarchy, reinforcing the status quo.**
+
+Institutions: Institutional anarchy BUT also policy drift!
+    - Many rules of the system were designed to perpetuate established power dynamics (not even-handed or designed for cooperation)
+
+Interactions: Race as a social construct designed for control, not objective description
+
+:::
+
+
+
+
+## Assignment for Next Class  {background-image="Images/background-worldmap4.png" .center}
+
+<br>
+
+Find a **NEW** international political event you want to focus on for the final paper (no overlap!)
+
+1. Submit TWO pieces of evidence,
+
+2. Explain the event you have chosen, and
+
+3. Make an argument this is an "international political event"
+
+::: notes
+
+Next week we do your final paper!
+
+<br>
+
+Canvas: Paper 3 - Select your Event (8 pts)
+
+Find a NEW international political event you want to focus on for the final paper (NO OVERLAP in class and nothing from the omitted list on the paper 3 prompt!).
+
+1. Submit TWO pieces of evidence that each provide the basic details of the event (APA format)
+
+2. Explain the event you have chosen (2+ sentences)
+
+3. Make an argument this is an "international political event" (2+ sentences) 
+
+<br>
+
+### Questions on the assignment?
+:::

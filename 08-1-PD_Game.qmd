@@ -1,0 +1,189 @@
+---
+format: revealjs
+---
+
+
+# Today's Agenda {background-image="Images/background-worldmap4.png"}
+
+```{r}
+# background-size="1920px 1080px"
+library(tidyverse)
+library(readxl)
+```
+
+<br>
+
+**III. Why is it so Hard to Cooperate with Other Countries?**
+
+- Welcome to the Prisoner's Dilemma
+
+<br>
+
+<br>
+
+::: r-stack
+Justin Leinaweaver (Spring 2026)
+:::
+
+::: notes
+Prep for Class
+
+1. Reserve an extra, nearby classroom (OBT 307, 309, 311 and 313) or just use the Meador Center
+    
+2. Set up the other rooms with game board and tracking
+
+3. Make sure to record per round choices on table in next class slides
+:::
+
+
+
+## So far in this class we've... {background-image="Images/background-worldmap4.png" .center}
+
+::: {.incremental}
++ Used simulations and real-world cases to define international political events,
+
++ Discussed the "science" of political science and the importance of theory (models),
+
++ Practiced critically engaging with arguments in terms of their logic, clarity and use of empirical evidence,
+
++ Utilized IR models to answer the question, why do wars happen?
+:::
+
+::: notes
+That's an impressive amount of stuff!
+
+### Any questions on all of that?
+:::
+
+
+## {background-image="Images/background-worldmap4.png" .center}
+
+**Make an argument that one of the IR theories we've studied in class so far this term "best" explains the event you analyzed in Paper 1**
+
+<br>
+
+![](Images/03_1-syllabus.png){style="display: block; margin: 0 auto"}
+
+::: notes
+Don't forget, your outline of the second paper is due at the end of the week.
+
+<br>
+
+### Questions on the assignment?
+:::
+
+
+## Semester Outline {background-image="Images/background-worldmap4.png" .center}
+
+Section 1: Arguments, Evidence and International Relations
+
+Section 2: Why Are There Wars?
+
+**Section 3: Why is it so Hard to Cooperate With Other Countries?**
+
+Section 4: What is the Future of Transnational Politics and IR?
+
+::: notes
+
+Today we start on Section 3 of the class.
+
+<br>
+
+Rather than start with the theory of this topic, I prefer to start with practice.
+
++ So, let's play a game!
+
+<br>
+
+**SLIDE**: In a moment I'll split the class into two groups.
+:::
+
+
+
+## A Prisoner's Dilemma {background-image="Images/background-worldmap4.png" .center}
+
++ Each round your group must choose to cooperate or defect.
+
++ Your reward depends on the choice made by the other group.
+
+::: notes
+
+What do I mean by "reward"?
+
+- Depending on how each group chooses, points are added or subtracted from your total
+
+- At end, all positive points earned by your group will be added to your next paper as EC.
+:::
+
+
+
+## A Prisoner's Dilemma {background-image="Images/background-worldmap4.png" .center}
+
++ Each round your group must choose to cooperate or defect.
+
++ Your reward depends on the choice made by the other group.
+
+```{r, fig.align='right', out.width='95%'}
+knitr::include_graphics("Images/04_1-PD_Table.png")
+```
+
+::: notes
+
+Here's what I mean by saying your reward depends on the choice of the other team.
+
+*Walk them through how to read the table*
+
+### Any questions about how the game works?
+:::
+
+
+
+
+## A Prisoner's Dilemma {background-image="Images/background-worldmap4.png" .center}
+
++ Each round your group must choose to cooperate or defect.
+
++ Your reward depends on the choice made by the other group.
+
+```{r, fig.align='right', out.width='95%'}
+knitr::include_graphics("Images/04_1-PD_Table.png")
+```
+
+::: notes
+
+*Split class in half*
+
+*Have everyone gather their stuff and head to their room*
+
+From this moment, no communication between the groups!
+
+No computers, no phones.
+
+<br>
+
+### In 5 minutes you will need to give me your decision for round 1.
+
+Group 1 stay here, group 2 across the hall.
+
+<br>
+
+*Gameplay notes for you:*
+
+- 6 rounds (x4-5 mins)
+- each group send one sentence message to other group
+- one final round (5 mins)
+- *After final round, all back to main room*
+:::
+
+
+## Assignment for Next Class {background-image="Images/background-worldmap4.png" .center}
+
+<br>
+
+### Do the reading and submit your analysis of our PD game as a model of IR
+
+::: notes
+
+**Questions on the assignment?**
+
+:::

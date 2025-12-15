@@ -1,0 +1,371 @@
+---
+format: revealjs
+---
+
+## Today's Agenda {background-image="Images/background-worldmap4.png" .center}
+
+```{r}
+# background-size="1920px 1080px"
+library(tidyverse)
+library(readxl)
+```
+
+<br>
+
+::: {.r-fit-text}
+
+**Working on Paper 2**
+
+- Reviewing the models and brainstorming connections
+
+:::
+
+<br>
+
+::: r-stack
+Justin Leinaweaver (Spring 2026)
+:::
+
+::: notes
+Prep for Class
+
+1. Bring markers x 4
+
+2. Timings
+    - Groups: Diagram models we've covered thoroughly and practice applying all (30 mins)
+    - Groups: Diagram bargaining model (10 mins)
+    - Review assignment for NEXT Friday (5 mins)
+    
+3. Options for applying the models
+    - Find and assign a current event from today's paper, OR
+    - Have the class apply each model to their own Paper 1 events
+
+<br>
+
+**SLIDE**: Paper 2 prompt
+:::
+
+
+
+## Paper 2 {background-image="Images/background-worldmap4.png" .center}
+
+Make an argument that one of the IR theories / models we've studied in class so far this term is **the most useful explanation of the event you explored in Paper 1**. 
+
+- Options: Neorealism, Offensive Realism, Liberal Institutionalism, Economic Liberalism, and the Bargaining Model of War
+
+::: {.fragment}
+Your paper must include a counter-argument that applies and evaluates a second theory to the case.
+
+- Your counter-argument may not be from the same paradigm as the main argument
+:::
+
+::: notes
+
+Here is the main prompt for the second paper.
+
+- **Does this make sense?**
+
+<br>
+
+Just like Paper 1, this paper also requires a counter-argument
+
+- **REVEAL**
+
+- e.g. no neorealism vs offensive realism or liberal institutionalism vs economic liberalism
+
+<br>
+
+**Questions on the prompt?**
+
+:::
+
+
+
+## {background-image="Images/background-worldmap4.png" .center}
+
+::: {.r-fit-text}
+**Models of International Relations (so far)**
+
+- Neorealism
+
+- Offensive Realism
+
+- Liberal Institutionalism
+
+- Economic Liberalism
+
+- *Bargaining Model of War*
+
+:::
+
+::: notes
+
+*Split class into 4 groups*
+
+Groups each take one of the models from class so far and get a diagram up on the board
+
+- **NOT INCLUDING the bargaining model!**
+
+<br>
+
+GROUPS:
+
+1. Diagram your model on the board, and then
+
+2. Make sure each of you can use THAT model to explain your international political event
+
+    - Help each other!
+
+<br>
+
+**Questions?**
+
+- Get to it!
+
+<br>
+
+GROUPS, move to the next theory diagram
+
+1. Any edits needed to the model diagram?
+
+2. Make sure each of you can use THAT model to explain your international political event
+
+<br>
+
+*REPEAT x 2*
+
+<br>
+
+**SLIDE:** Bargaining model time
+
+<br>
+
+*NOTES*
+
+Neorealism
+
+- Interests: Unitary states want security, not power
+- Institutions: International anarchy
+- Interactions:
+    - You must fend for yourself (threats are everywhere)
+    - Security dilemmas dominate
+
+Offensive Realism
+
+- Interests: Great powers seeking hegemony
+- Institutions: International anarchy
+- Interactions:
+    - Great powers have offensive military capacity
+    - Attack may come at any time (uncertain intentions)
+    - Weakness invites attack (rational opponents)
+
+Liberal Institutionalism
+
+- Interests: Unitary, rational states pursuing absolute (not relative) gains
+- Institutions: International anarchy PLUS international institutions (e.g. laws and organizations)
+- Interactions: International institutions can help to overcome cooperation dilemmas, reduce uncertainty, distribute benefits
+
+Economic Liberalism
+
+- Interests: States want growth
+- Institutions: International anarchy (States may choose to start wars or seek trade)
+- Interactions
+    - War is risky and disrupts trade
+    - The returns to trade grow over time
+    - Specialized economies are dependent on trade for growth
+    - Therefore, increasing trade should reduce the occurrence of war.
+
+
+:::
+
+
+
+## Bargaining Model (Fearon 1995) {background-image="Images/background-worldmap4.png" .center}
+
+<br>
+
+**Interests**
+
+- ?
+
+**Institutions**
+
+- ?
+
+**Interactions**
+
+- ?
+
+::: notes
+
+GROUPS, now tackle the Bargaining Model of War!
+
+- DIAGRAM on the BOARD!
+
+<br>
+
+PRESENT and DISCUSS each
+
+- **SLIDE x 3**: Reveal my version...
+
+:::
+
+
+
+
+## Bargaining Model (Fearon 1995) {background-image="Images/background-worldmap4.png" .center .smaller}
+
+<br>
+
+**Interests**
+
+- Rational actors pursuing relative gains
+
+**Institutions**
+
+- ?
+
+**Interactions**
+
+- ?
+
+::: notes
+
+Rational actors have preferences, can rank their preferences and act in line with those preferences
+
+<br>
+
+Relative gains follow from the other Fearon assumptions
+
+- Two risk-averse or risk-neutral actors (or sides),
+
+- Dispute on a single dimension,
+
+- Winner of the war chooses the outcome position,
+
+- Amount you like the outcome increases across the line,
+
+<br>
+
+**SLIDE**: Institutions
+
+:::
+
+
+
+## Bargaining Model (Fearon 1995) {background-image="Images/background-worldmap4.png" .center .smaller}
+
+<br>
+
+**Interests**
+
+- Rational actors pursuing relative gains
+
+**Institutions**
+
+- International anarchy: States may choose war or a bargain
+
+**Interactions**
+
+- ?
+
+::: notes
+
+
+
+:::
+
+
+
+## Bargaining Model (Fearon 1995) {background-image="Images/background-worldmap4.png" .center .smaller}
+
+<br>
+
+**Interests**
+
+- Rational actors pursuing relative gains
+
+**Institutions**
+
+- International anarchy: States may choose war or a bargain
+
+**Interactions**
+
+- Wars are costly, risky and inefficient
+- War occurs because of private information / incentive to misrepresent
+- War occurs as a consequence of commitment problems
+- War occurs due to "issue indivisibilities"
+
+::: notes
+
+Expectations
+
+- Because wars are costly, risky and inefficient, there should ALWAYS be a non-war outcome that both sides would prefer.
+- Therefore, war occurs because of private information and the incentive to misrepresent.
+- Therefore, war occurs as a consequence of commitment problems.
+- Therefore, war occurs due to "issue indivisibilities"
+
+<br>
+
+GROUPS, give this theory a test run as well!
+
+- Practice using it to explain each of your events
+
+- Help each other do it!
+
+<br>
+
+**SLIDE**: Outline due next Friday
+:::
+
+
+
+
+
+## Outline Due NEXT Friday {background-image="Images/background-worldmap4.png" .center .smaller}
+
+**Intro**
+
+- What is the question?
+- Why is the question important?
+- Thesis statement: Theory X is most useful because...
+
+**Premise 1: Theory 1 is most useful because... (with evidence)**
+
+**Premise 2: Theory 1 is most useful because... (with evidence)**
+
+**Premise 3: Theory 1 is most useful because... (with evidence)**
+
+**Counter-Argument: Theory 2**
+
+- What are the strengths of this explanation?
+- What are the weaknesses of this explanation?
+- Why is it not ultimately more useful than Theory 1?
+
+::: notes
+
+Everybody pick your two theories and get to work applying them to your Paper 1 event!
+
+- Outline due in class next Friday
+
+- Paper due in two weeks
+
+<br>
+
+With the rest of our time today you have work to do:
+
+1. Select the theories you will be evaluating, 
+
+2. Brainstorm how to apply that theory to your case, and then
+
+2. Write a draft thesis statement!
+
+<br>
+
+### Questions?
+
+- Get to it!
+
+:::
+
+

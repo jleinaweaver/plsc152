@@ -1,0 +1,980 @@
+---
+format: revealjs
+---
+
+## Today's Agenda {background-image="Images/background-worldmap4.png" .center}
+
+```{r}
+# background-size="1920px 1080px"
+library(tidyverse)
+library(readxl)
+library(kableExtra)
+
+d <- read_excel("../../Data/WDI/GDP_pc-1970-2022.xlsx", na = "NA")
+```
+
+<br>
+
+::: {.r-fit-text}
+
+**IV. What is the Future of Transnational Politics and IR?**
+
+- Critical Theories of IR: Postcolonialism and Race
+
+:::
+
+<br>
+
+::: r-stack
+Justin Leinaweaver (Spring 2026)
+:::
+
+::: notes
+Prep for Class
+
+1. Update WDI data and slides using it
+
+2. Review Canvas submissions
+
+3. Put the review case studies slide back if semester had time for race case studies
+
+<br>
+
+**SLIDE**: Today we shift to a second critical approach to IR theory, postcolonialism
+
+:::
+
+
+
+
+## Postcolonial IR Theory {background-image="Images/background-worldmap4.png" .center}
+
+:::: {.columns}
+::: {.column width="50%"}
+```{r, out.width='80%'}
+knitr::include_graphics('Images/14-1-book_cover.jpeg')
+```
+:::
+
+::: {.column width="50%"}
+
+<br>
+
+<br>
+
+Postcolonialism tends to emphasize "how societies, governments and peoples in the formerly colonised regions of the world experience international relations" (Nair 2017).
+:::
+::::
+
+::: notes
+
+*Read quote on slide*
+
+<br>
+
+Postcolonial IR theory pushes us to think more broadly about the "interests" in our models
+
+- It aims to take seriously the experiences of people in the non-western or less developed parts of the world.
+
+- In this way, broadening the 'interests' in our models, postcolonial IR has something in common with the feminist work we read last week
+
+<br>
+
+**In a big picture sense, are we convinced that the experience of international politics in the developing world is different than that of the developed world?**
+
+- **Give me examples from current events!**
+
+- (**SLIDE**)
+
+:::
+
+
+
+## Postcolonial IR Theory {background-image="Images/background-worldmap4.png" .center}
+
+:::: {.columns}
+::: {.column width="50%"}
+
+![](Images/14_1-US_Israel_Iran_Combat_Apr2024.png)
+
+:::
+
+::: {.column width="50%"}
+
+<br>
+
+![](Images/14_1-Haiti_Apr2024.png)
+
+:::
+::::
+
+::: notes
+
+It seems like the world is full of examples consistent with this key observation.
+
+- Not all countries experience "international politics" in the same way
+
+<br>
+
+Israel, as a lonely democracy in an autocratic part of the world, gets support and backing from powerful western countries
+
+- When those autocratic regimes threaten it, the West steps in
+
+- The US government condemned the Israeli strike on the Iranian generals, and YET we STILL sent armed forces into position to protect the Israelis AGAINST Iran!
+
+<br>
+
+On the other hand, Haiti's experience with the international community has been brutal and awful
+
+- A LONG history of international interference
+
+- First it was the destabilizing slave trade and colonization
+
+- Then frequent undermining of its attempts to rebuild itself
+
+- **SLIDE**: And even the multilateral events that tried to help may have made things much worse
+
+:::
+
+
+
+## Postcolonial IR Theory {background-image="Images/background-worldmap4.png" .center}
+
+```{r, fig.align='center'}
+knitr::include_graphics('Images/14_1-Haiti_Cholera_UN.png')
+```
+
+::: notes
+
+Postcolonial IR theory is a warning to us that if we want to explain international political events we need to consider these crucial differences.
+
+- Liberal institutional theory tells us the UN can facilitate cooperation and make the world more peaceful and stable
+
+- The experience of Haiti, and many other developing countries, raises some serious caveats to that story!
+
+<br>
+
+In order to take these postcolonial experiences seriously, these researchers argue we have to turn a critical eye to the concept of "race."
+
+- Everybody open up our Canvas discussion board and review the submissions for today.
+
+- Talk to the people around you and get ready to report back...
+
+- **Based on the Vucetic and Persaud (2018) reading you did for today, what is "race"? Define the concept**
+
+<br>
+
+*ON BOARD: Race is...* 
+
+<br>
+
+(**SLIDE**: Book notes)
+:::
+
+
+
+## Postcolonial IR Theory {background-image="Images/background-worldmap4.png" .center}
+
+:::: {.columns}
+::: {.column width="50%"}
+```{r, out.width='80%'}
+knitr::include_graphics('Images/14-1-book_cover.jpeg')
+```
+:::
+
+::: {.column width="50%"}
+
+<br>
+
+
+**Race is:**
+
++ a social phenomenon
+
++ a 'relation', not a 'thing'
+
++ a product of racism
+
++ a reflection of power
+:::
+::::
+
+::: notes
+
+In order to dig into this definition, let's focus on the argument made by the reading.
+
+<br>
+
+### What is the big conclusion in the section "Race in Global Society" (p11-16)?
+
+- (**SLIDE**: "Race" is a tool invented by the powerful in order to control, exclude and exploit the less powerful.)
+:::
+
+
+
+
+## "Race" is a tool invented by the powerful in order to control, exclude and exploit the less powerful {background-image="Images/14-1-Race-The-Power-of-an-Illusion_v3.png" background-size='98%'}
+
+::: notes
+
+Hot damn that's a huge argument!
+
+<br>
+
+These researchers are asking us to accept that "race" is not a fixed thing that exists in the world
+
+<br>
+
+IF this is correct, then your race is NOT defined by your genetics or any other immutable characteristic of who you are
+
+- It is a fluid concept invented by the powerful in society to protect and preserve their power
+
+<br>
+
+**SLIDE**: This is a big conclusion, so let's unpack the argument they are making before I ask you to reflect on it.
+:::
+
+
+## Race in Global Society (p11-16) {background-image="Images/background-worldmap4.png" .center}
+
++ ?
+
++ ?
+
++ ?
+
+Therefore, "race" is a tool invented by the powerful in order to control, exclude and exploit the less powerful.
+
+::: notes
+
+Focus on the section of the paper "Race in Global Society" (p11-16) and let's work to identify the key premises that support the conclusion of this part of their argument.
+
+- Take a few minutes on your own.
+
+<br>
+
+Compare notes with the people around you!
+
+- Report back and let's get this onto the board!
+
+<br>
+
+- (**SLIDE**: My version)
+
+<br>
+
+#### Notes Below
++ Definition of "race" fluid across time
+    + Sometimes refers to: ‘civilization,’ ‘spirit’, ‘blood’, ‘’nature’, ‘culture’, OR all of the above at once" (11).
+    
++ "Biological racism" (e.g. racism based on the color of your skin) arose to justify the slave trade.
+    + "...an effort to affix the indigenous peoples in the Americas and Africa as non-human or less-than-human indistinguishable from livestock for the purposes of their enslavement, dispossession, exploitation and extermination (11).
+
++ "Scientific racism" develops "a standard of civilization" test to adapt racism to a new age
+    + "...a pseudo-scientific body of thought that in essence sought to prove the inherent superiority of the cultures and races of the West" (11).
+    + A conceptual-legal yardstick invented by "the West" that took its own standards and approaches to development as the determiner of civilization and progress. 
+    + Staggering: In the 19th century "no colonial intervention could take place without a ‘civilization debate’—that is, on whether the target area can be, or should be, civilized through colonization" (13). "As architects of modern international order, white Europeans considered only themselves to be competent to adjudicate the civilization of others" (14).
+
++ Many examples of historical Western powers using the "standards of civilization" test
+    + Haitian Revolution (1791-1804) as example of how white supremacy was central to European thinking about the world. "...most European intellectuals at first refused to believe it. The notion that a successful slave revolt—on this island alone the colonizers had previously quashed at least eight such revolts—could give birth to an actually existing and radically revolutionary black polity in the New World island was simply unthinkable to them" (14). "This is why no other colonial power with interests in the Caribbean supported Haiti over France; in fact, the colonial powers scrambled together to prevent similar revolutions from occurring elsewhere" (15).
+    + The post-WW1 "mandate system" meant to transfer German and Ottoman colonies to new sovereign authorities (the winners of the war) continued to use the established "standard-of-civilization schema"
+    
++ Racism driving state actions up to the present day
+    + "In many ways, racialization is as central for understanding state sovereignty, migration and borders today as it was a century ago (Klotz 2017; also see Box 2)" (16).
+    + "...and these foundations later influenced "UN trusteeship systems (Toussaint 1956: 2-3) and thus today’s international state-building debates (Sabaratnam 2017: Ch: 2)" (16).
+    + Trump's ‘Muslim ban’, a new ‘voter fraud’ commission, refusals to condemn Nazism and neo-Nazis, etc.
+    + A growing use of "mandatory and indefinite detention for asylum seekers" across “advanced liberal democracies”
+:::
+
+
+## Race in Global Society (p11-16) {background-image="Images/background-worldmap4.png" .center}
+
++ "Race" sometimes means "civilization," "spirit," "blood," "nature," "culture" and any combination too
+
++ "Racism" has evolved and adapted to the times (from biological to pseudo-scientific standards of civilization)
+
++ Tons of examples across history and into the present day of states using race to maintain or extend their power
+
+Therefore, "race" is a tool invented by the powerful in order to control, exclude and exploit the less powerful.
+
+::: notes
+**On the whole, is this a logical argument?**
+
+<br>
+
+### Does it provide sufficiently high quality evidence for its premises?
+
+<br>
+
+### Bottom line then, is this a convincing argument? 
+
+### - Are you convinced "race" is an invention not tied to any fixed "truth" about you? Why or why not?
+
+<br>
+
+Ok then, assuming we accept definition of "race," how does it help us explain international political events?
+
+- The next two sections of the chapter aim to introduce us to the research on the intersection of race with economic development and international security.
+
+:::
+
+
+
+
+## {background-image="Images/background-worldmap4.png" .center}
+
+::: {.r-fit-text}
+**"Race and Global Economic Development" (p17-22)**
+:::
+
+```{r, fig.align='center', fig.asp=.618}
+# Map current year
+d2022 <- d |>
+  filter(year == 2022)
+
+library(sf)
+library(rnaturalearth)
+library(rnaturalearthdata)
+
+## Use rnaturalearth to define world map data
+worldmap <- ne_countries(scale = 'medium', type = 'map_units', returnclass = 'sf')
+
+## Merge data to map
+# countrycode::guess_field(d$ccode) # wb 100% and iso3c 99%
+# countrycode::guess_field(worldmap$adm0_a3) # wb 88%
+
+d10 <- left_join(worldmap, d2022, by = c("adm0_a3" = "ccode"))
+
+## Make the map by quartiles
+#summary(d10$gdp_pc_current_usd)
+
+d10 |>
+  mutate(
+    gdp_quartiles = case_when(
+      gdp_pc_current_usd <= quantile(d2022$gdp_pc_current_usd, probs = .25, na.rm = TRUE) ~ "Quartile 1",
+      gdp_pc_current_usd <= quantile(d2022$gdp_pc_current_usd, probs = .5, na.rm = TRUE) ~ "Quartile 2",
+      gdp_pc_current_usd <= quantile(d2022$gdp_pc_current_usd, probs = .75, na.rm = TRUE) ~ "Quartile 3",
+      gdp_pc_current_usd > quantile(d2022$gdp_pc_current_usd, probs = .75, na.rm = TRUE) ~ "Quartile 4"
+    )
+  ) |>
+  ggplot() +
+  geom_sf(aes(fill = gdp_quartiles)) +
+  labs(fill = "", title = "GDP per capita (2022 USD)",
+       caption = "Source: World Bank WDI") +
+  theme(legend.position = "bottom") +
+  scale_fill_brewer(type = "div", palette = 5, na.translate = F)
+```
+
+::: notes
+
+This is 2022 data from the World Bank on the size of country economies around the world
+
+- GDP per capita is a measure that scales the size of an economy by the size of the population
+
+- The quartiles break the world into four equally sized groups
+
+<br>
+
+**What do we learn from this map?**
+
+<br>
+
+Postcolonial scholars argue that we cannot understand the variation on this map without considering race and racism.
+
+<br>
+
+Focus on the "Race and Global Economic Development" (17-22) section of the reading.
+
+- Work with the people around you and get ready to report back
+
+- **Are you persuaded by the argument in this section that "race" and "economic development" are inextricably linked? Why or why not?**
+
+<br>
+
+*REPORT BACK and DISCUSS*
+
+<br>
+
+(**SLIDE**: One way to think about this is to visualize the growth in wealth over time)
+
+<br>
+
+**Chapter Notes**
+
+- "Immediately following WWII three major historical developments started almost simultaneously, namely, decolonization, the Cold War, and the dramatic rise of the United States as the unofficial leader of the Western world. All three of these global phenomena had major impacts on economic development, and all three were also implicated in **actually existing racism** that followed WWII" (19).
+
+- "The sustained anti-immigrant politics in the West which is dependent on the Third World for both ‘cheap’ and high-tech labor is not only a fetter on economic growth, but also a matter of massive insecurity for immigrants and migrant workers (see Box No.3)" (20).
+
+- "The first concerns the right of the Third World states and peoples to govern themselves. Discourses from the late nineteenth century were replete with the widespread belief in the Western world that colored people were not ready for self-government, and certainly not for leadership. The belief was itself ensconced in notions of Western white supremacy, and led to aggressive imperialism with the American military intervention in the Philippines, and the already well-known scramble for Africa" (21).
+
+- "...the widespread notion that the Third World is a late comer to modern life, meaning here a combination of capitalist economics, individualism, and ways of life. ... The work of Max Weber and W.W. Rostow, though not racialized, did however formulate a temporal model which has allowed other thinkers to treat the Third World as kind of a left behind deformity, bogged down by backward cultures. At times, the racialization has been expressed in religious terms as in the aforementioned claim by Harrison that Latin America has been held back because of Catholicism" (22).
+
+- "For one thing, like Euro-America before it, China is now practicing its own form of colonialism in Africa, much of it under the guise of economic development" (22).
+:::
+
+
+## {background-image="Images/background-worldmap4.png" .center}
+
+::: {.r-fit-text}
+**"Race and Global Economic Development" (p17-22)**
+:::
+
+```{r, fig.align='center', fig.asp=.618}
+# Identify the top and bottom quartile of countries at start
+q1_countries <- d |>
+  filter(year == 1970) |>
+  filter(gdp_pc_current_usd <= quantile(d$gdp_pc_current_usd[d$year == 1970], na.rm = T, probs = .25)) |>
+  select(country)
+
+q4_countries <- d |>
+  filter(year == 1970) |>
+  filter(gdp_pc_current_usd >= quantile(d$gdp_pc_current_usd[d$year == 1970], na.rm = T, probs = .75)) |>
+  select(country)
+
+x1 <- d |>
+  filter(country %in% q1_countries[[1]]) |> 
+  group_by(year) |> 
+  summarize(
+    gdp_pc_median = median(gdp_pc_current_usd, na.rm = T)
+  ) |>
+  mutate(
+    Group = "Poorest Countries"
+  )
+
+x2 <- d |>
+  filter(country %in% q4_countries[[1]]) |>
+  group_by(year) |>
+  summarize(
+    gdp_pc_median = median(gdp_pc_current_usd, na.rm = T)
+  ) |>
+  mutate(
+    Group = "Richest Countries"
+  )
+
+rbind(x1, x2) |>
+  filter(year == 1970) |>
+  ggplot(aes(x = year, y = gdp_pc_median, color = Group)) +
+  geom_point() +
+  theme_bw() +
+  scale_y_continuous(breaks = seq(0, 70000, 10000), labels = scales::dollar_format()) +
+  labs(x = "", y = "Current $USD", color = "",
+       caption = "Source: World Bank WDI") +
+  guides(color = "none") +
+  annotate("text", x = 1972, y = 0, label = "Poorest Quartile", color = "darkred", hjust = 0) +
+annotate("text", x = 1972, y = 4000, label = "Richest Quartile", color = "darkblue", hjust = 0) +
+  coord_cartesian(ylim = c(0, 60000), xlim = c(1970, 2020))
+
+```
+
+::: notes
+
+We'll start with 1970 which is over 50 years ago
+
+<br>
+
+In 1970:
+
+- The richest quartile of states had a median GDP per capita of $2,870
+
+- The poorest quartile of states had a median GDP per capita of $113
+
+<br>
+
+**SLIDE**: Let's watch what happened over the next 50 years!
+
+:::
+
+
+
+## {background-image="Images/background-worldmap4.png" .center}
+
+::: {.r-fit-text}
+**"Race and Global Economic Development" (p17-22)**
+:::
+
+```{r, fig.align='center', fig.asp=.618, eval=TRUE}
+# Identify the top and bottom quartile of countries at start
+library(gganimate)
+
+rbind(x1, x2) |>
+  #filter(year == 2022) |>
+  ggplot(aes(x = year, y = gdp_pc_median, color = Group)) +
+  geom_line(linewidth = 1.2) +
+  theme_bw() +
+  scale_y_continuous(breaks = seq(0, 70000, 10000), labels = scales::dollar_format()) +
+  labs(x = "", y = "Current $USD", color = "",
+       caption = "Source: World Bank WDI") +
+  guides(color = "none") +
+  annotate("text", x = 1972, y = 0, label = "Poorest Quartile", color = "darkred", hjust = 0) +
+annotate("text", x = 1972, y = 4000, label = "Richest Quartile", color = "darkblue", hjust = 0) +
+  coord_cartesian(ylim = c(0, 60000), xlim = c(1970, 2020)) +
+  transition_reveal(year)
+```
+
+::: notes
+
+50 years later and:
+
+- The richest quartile of states had a median GDP per capita of $52,085 (an 18 fold increase!)
+
+- The poorest quartile of states had a median GDP per capita of $1,036 (an 8 fold increase)
+
+<br>
+
+**So, do we want to argue that the poor world experiences international political events the same as the rich world?**
+
+:::
+
+
+
+## "Race and Security" (22-29) {background-image="Images/background-worldmap4.png" .center}
+
+```{r, fig.align='center'}
+knitr::include_graphics("Images/14-1-fragility_world_map2023.png")
+```
+
+::: notes
+
+Now shift to the "Race and Security" (22-29) section of the reading.
+
+<br>
+
+This map comes from the Fund for Peace which is a research group studying global peace and security
+
+- They produce a Fragile States Index that is supposed to warn us about places in the world teetering on the edge of state collapse.
+
+<br>
+
+**Any interesting observations from the map?**
+
+<br>
+
+Ok groups, work with the people around you and get ready to report back
+
+- **Are you persuaded by the argument in this section that "race" and "international security" are inextricably linked? Why or why not?**
+
+<br>
+
+*REPORT BACK and DISCUSS*
+
+<br>
+
+**Chapter Notes**
+
+- Example: "When nineteenth- and twentieth-century colonial agents conducted censuses of the local population and related research, they did so with imperial security in mind but what matters more are the new insecurities they created. Typically, the colonized peoples were enumerated and classified through a mix of interviews with local elites and the methods of scientific racism—skin color assessments and physiognomic measurements, some of which were done via photographs (Metcalfe 1995). In this process race was in fact grafted onto the intertwined and highly context-dependent local identities—caste, tribal, regional and religious—and the result was a system of knowledge that at once confirmed white supremacy and forced new divisions and discord on the colonized" (24).
+
+- "In World War II, the ‘war without mercy’ in the Pacific, like the treatment of ‘lower races’ as soldiers, prisoners of war, workers, and objects of strategy can all be regarded as continuations of the inter-racial politics that began in previous centuries (Dower 1986; Horne 2004)" (26).
+
+- "US race laws, and not just those associated with the Jim Crow regime in the South, impressed and inspired Nazi jurists in the 1930s" (26).
+
+- "Race has had a devastating impact in terms of security relation broadly defined" (31).
+
+- "In international relations, ‘security’ has traditionally focused on the military and economic security of mostly European great powers. This, too, has to do with a Eurocentric conception of the world" (22).
+
+- Empire as a key concept: "For postcolonial scholars, many analytical goals in this area revolve around structural power, that is, around the question of how empires produce political, cultural, and social subjectivities" (24).
+:::
+
+
+
+## {background-image="Images/background-worldmap4.png"}
+
+::: {.r-fit-text}
+**What does this mean for International Relations?**
+:::
+
+<br>
+
+```{r, fig.align='center'}
+knitr::include_graphics('Images/14-1-Henderson-Abstract.png')
+```
+
+::: notes
+
+All that said, I want to end today by highlighting one other important reason international relations needs to take these criticisms seriously.
+
+<br>
+
+Let's not beat around the bush, Henderson (2013) and many other scholars have sought to convince us of two things:
+
+<br>
+
+FIRST, racism is CENTRAL to the birth, development and current research product of International Relations
+
+<br>
+
+**SLIDE**: AND SECOND...
+:::
+
+
+
+## Henderson's (2013) Argument {background-image="Images/background-worldmap4.png" .center}
+
+<br>
+
+Therefore, most of the current IR theories cannot be used to produce meaningful research or policy for the "vast majority of the world's people" (90).
+
+::: notes
+
+Holy crap!
+
+<br>
+
+Our goal as social scientists is to explain the world using models and data.
+
+- In IR we aim to explain international political events.
+
+<br>
+
+Last week, Cynthia Enloe was pushing us to use our established tools to explore more stuff, to be more curious about the world!
+
+- Power matters in more places than we realize!
+
+- The experiences of more people are important to understand how foreign policy is made and shaped.
+
+<br>
+
+Henderson is definitely NOT arguing we need to apply our tools in more places or to more people.
+
+- He's arguing that our tools themselves are broken.
+
+<br>
+
+If we apply our current tools of IR to ignored peoples, races or places all we create are more inaccurate explanations!
+
+- Because IR research was built on racist foundations, the use of our models reinforces the racism in our global system.
+
+<br>
+
+It's a super tough article, so I didn't assign it.
+
+- However, it is on Canvas if you're curious.
+:::
+
+
+
+## {background-image="Images/14-1-FA_Magazines_Old_v2.png"}
+
+![](Images/14-1-FA_Magazine.jpg){.absolute right=0}
+
+::: notes
+
+With our time left today I'll present some of the highlights from the Henderson article so we can talk through the implications of this argument for IR today.
+
+<br>
+
+Henderson's paper presents a fairly damning history of how racism was deeply embedded in the birth of international relations as an academic discipline.
+
+<br>
+
+Take for example one of the most widely read IR academic journals, Foreign Affairs.
+
+- As V&P also note, this was not it's original name.
+
+<br>
+
+**SLIDE**: Let's take a look at the very first issue of Foreign Affairs under its original name!
+:::
+
+
+
+## {background-image="Images/background-worldmap4.png"}
+
+:::: {.columns}
+::: {.column width="50%"}
+```{r, out.width='75%'}
+knitr::include_graphics('Images/14-1-journal_race_devel.jpg')
+```
+:::
+
+::: {.column width="50%"}
+
+<br>
+
+Vol 1, Issue 1 (1910)
+
+<br>
+
+**The Point of View Toward Primitive Races**
+
+G. Stanley Hall
+:::
+::::
+
+::: notes
+
+Needless to say, the table of contents and these articles do not make for a pleasant read.
+
+- At the time, the Journal of Race Development was the central corpus of scholarship
+
+- The research in this journal placed race at the centre of the study of world politics
+
+- It advocated or acknowledged a ‘racialized and biological understanding of “development”’.
+
+<br>
+
+In other words, IR started from a place that assumed your biology (e.g. skin color) determined your ability to be successful or civilized.
+:::
+
+
+
+## {background-image="Images/background-worldmap4.png"}
+
+:::: {.columns}
+::: {.column width="50%"}
+```{r, out.width='75%'}
+knitr::include_graphics('Images/14-1-race_development.png')
+```
+:::
+
+::: {.column width="50%"}
+
+<br>
+
+Vol 9, Issue 4 (1918)
+
+<br>
+
+**Race Appreciation and Democracy**
+
+Philip Ainsworth Means
+:::
+::::
+
+::: notes
+
+After WWI the IR research in this journal got even more problematic
+
+- Shifted its focus from endorsing biological racism to raising alarms about a possible race war
+
+- The articles argued the teeming masses of nonwhite peoples were becomingly increasingly assertive (e.g. ‘race conscious’)" and this would lead to war.
+
+<br>
+
+So, not a great start.
+
+- Ok, IR scholars in the 20's were fixated on race but not in useful or helpful ways.
+
+<br>
+
+How does this matter for us in this class?
+
+- The problem is that these racist roots still exist in some of the foundational assumptions we use in models today.
+:::
+
+
+
+## {background-image="Images/05_1-Hobbes_quote.jpg"}
+
+::: notes
+
+Hobbes is essentially the father of modern Realist theory.
+
+- Essentially, Hobbes felt justified in arguing for a strong central government in order to protect us from a state of nature.
+
+<br>
+
+The problem is that his expectations about the violence of the "state of nature" are ahistorical.
+
+- The examples he draws from are made-up tales about "the savage people in many places of America" who live according to their "natural lust" and in a "brutish manner."
+
+- He contrasted these made-up stories with his experience of Europe where he argued rationality guided behavior of the "white" races.
+
+<br>
+
+Why is this a problem for modern Realists?
+
+- His empirical examples of why the "state of nature" is dangerous were not at all true, and
+
+- The "state of nature" premise evolves to become the premise about the dangers of international anarchy.
+
+- Why should his nasty and brutish state of nature operate at the international level if it doesn't operate at the domestic level?
+    
+<br>
+
+### Does this make sense?
+:::
+
+
+
+## Kant's (1798) Plan for Perpetual Peace {background-image="Images/background-worldmap4.png" .center .smaller}
+
+<br>
+
+**The First Definitive Article for Perpetual Peace**
+
+- "The Civil Constitution of Every State Should Be Republican"
+
+**The Second Definitive Article for Perpetual Peace**
+
+- "The Law of Nations Shall be Founded on a Federation of Free States"
+
+**The Third Definitive Article for Perpetual Peace**
+
+- "The Law of World Citizenship Shall Be Limited to Conditions of Universal Hospitality"
+
+::: notes
+
+Don't think this lets liberalism off the hook!
+
+<br>
+
+In our class we studied both economic liberalism and Kant's plan for perpetual democratic peace.
+
+<br>
+
+Are you ready to be shocked to find out that Kant was a raging racist who believed his articles should only apply to "persons" and that the color of your skin determined personhood?
+:::
+
+
+
+## Kant and the Nazis {background-image="Images/background-worldmap4.png" .center}
+
+<br>
+
+"...the embarrassing fact for the white West (which doubtless explains its concealment) is that their most important moral theorist of the past three hundred years is also the foundational theorist in the modern period of the division between Herrenvolk and Untermenschen, persons and subpersons, upon which Nazi theory would later draw" (Mills 1997, 72).
+
+::: notes
+
+Kant believed the color of your skin was 'evidence of an unchanging and unchangeable moral quality.'
+:::
+
+
+## {background-image="Images/background-worldmap4.png"}
+
+::: {.r-fit-text}
+**What does this mean for International Relations?**
+:::
+
+```{r, fig.align='center'}
+knitr::include_graphics('Images/14-1-flags.jpg')
+```
+
+::: notes
+**So, what does this mean for IR theories in the liberal tradition?**
+
+<br>
+
+Liberal IR theories are all built on the idea that institutions, and especially democracy, could be used to achieve peace on the global level.
+
+- But the theoretical framework by which those institutions could do their work DEPENDED on maintaining white supremacist views of personhood and citizenship!
+
+<br>
+
+Jay-sus!
+
+<br>
+
+So, what does this mean for us?
+
+- A big question with no easy answer
+
+- My hope over the last two weeks was to get you thinking about how different perspectives on international politics can help deepen our understandings of international political events.
+
+- Ultimately, my goal is always to be a better modeler of political outcomes and I find these theories intriguing for doing that.
+
+<br>
+
+Remember, models are like maps and the more maps you have access to, the better prepared you are to explain outcomes.
+
+- **Make sense?**
+:::
+
+
+
+## Assignment for Next Class  {background-image="Images/background-worldmap4.png" .center}
+
+<br>
+
+Get ready for Paper 3!
+
+- Collect and review your notes for all of the IR models we have explored this term
+
+::: notes
+**Questions on the assignment?**
+
+<br>
+
+- Neorealism
+- Offensive Realism
+- Liberal Peace
+- Economic Liberalism
+- Bargaining Model of War
+- Prisoner's Dilemma
+- Two-Level Bargaining
+- Constructivism
+- Feminist Theory
+- Postcolonial Theory
+:::
+
+
+## Slides to save for future
+
+
+## {background-image="Images/background-worldmap4.png"}
+
+```{r, fig.align='center'}
+knitr::include_graphics('Images/14_3-wsj_cover.png')
+```
+
+::: notes
+
+**Can we think of any current events that might illustrate the power of a postcolonial IR approach to explaining the world?**
+
+<br>
+
+Israel's invasion of Gaza?
+- Both sides justifying violence against civilians at least in part on the grounds of ethnicity and race
+
+- Does being a Palestinian in Gaza mean you are Hamas (e.g. a terrorist to be killed)?
+
+- Does being an Israeli near the border mean you can be slaughtered to punish the government for its policies?
+
+- It's all about colonialism! Who gets to own Gaza going forward? 
+:::
+
+
+## Assignment for Next Class  {background-image="Images/background-blue_triangles2.png" .center}
+
+<br>
+
+What is the single biggest international threat facing the United States over the next 25 years? 
+
+- Submit APA evidence and explanation to Canvas
+
+- Be specific, try to avoid overlap!
+
+::: notes
+
+### Questions on the assignment for next class?
+
+- Can be a "what" or a "who", it's up to you!
+
+- Help us build a wide array of options, try to avoid direct overlaps!
+:::
+
+
+
+## What does this mean for International Relations? {background-image="Images/background-worldmap4.png"}
+
+```{r, out.width='60%'}
+knitr::include_graphics('Images/14-1-flags.jpg')
+```
+
+::: notes
+
+Vucetic & Persaud argue that "race" has clearly shaped global history AND that it continues to shape our policies and actions today.
+
+- We cannot understand international political events without acknowledging race.
+
+<br>
+
+So, what does this mean for the academic field of International Relations?
+
+- It turns out, we may have a serious problem.
+:::
+
+
+
+
+
+

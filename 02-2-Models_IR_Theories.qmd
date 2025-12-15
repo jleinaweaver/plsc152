@@ -1,0 +1,746 @@
+---
+format: revealjs
+---
+
+## Today's Agenda {background-image="Images/background-worldmap4.png" .center}
+
+```{r}
+# background-size="1920px 1080px"
+library(tidyverse)
+library(readxl)
+```
+
+<br>
+
+::: {.r-fit-text}
+
+**I. Arguments, Evidence and International Relations**
+
+1. What is a scientific theory or model?
+
+2. What are the "big" theories of international relations?
+
+:::
+
+<br>
+
+::: r-stack
+Justin Leinaweaver (Spring 2026)
+:::
+
+::: notes
+Prep for Class
+
+1. Bring paper for map making
+
+2. ...
+
+<br>
+
+**Warm-up discussion**
+
+### Name me an international political event that has happened since we last met as a class.
+
+<br>
+
+This week we have been laying the foundation for our semester.
+
+- Monday we defined our key outcome, international political events, using case studies
+
+- Wednesday we defined politics and laid out a process we need to follow to work scientifically
+
+<br>
+
+Today we shift our focus to the theories and models that are so central to our search for verifiable answers.
+
+- To help us get started I gave you a chapter from an IR textbook that introduced you to the "big" theories of international relations.
+:::
+
+
+
+## Competing Definitions of "Theory" {background-image="Images/background-worldmap4.png" .center}
+
+<br>
+
+**Donovan and Hoover (2014)**
+
++ "...a set of related propositions that suggest why events occur in the manner that they do" (32).
+
+**Mingst and Arreguin-Toft (2017)**
+
++ "A theory is a set of propositions and concepts that combine to explain phenomena by specifying the relationships among the propositions. Theory's ultimate goal is to predict phenomena" (72).
+
+::: notes
+**Let's start with this, how does the definition of "theory" in today's reading compare to the definition from Hoover and Donovan we discussed on Wednesday?**
+
+- **Compare and contrast the definitions**
+
+D&H:
+
+- Much more general, cautious
+- "related propositions" that "suggest" explanations
+
+M&A-T
+
+- "specify relationships" to explain phenomena
+- Ultimate goal is prediction!
+
+<br>
+
+Ultimately, these are essentially compatible definitions but with some stark differences.
+
+- I include this to keep reminding you that even amongst scientists there is no perfect agreement on the tools and processes we utilize
+
+<br>
+
+### What theories does this chapter introduce?
+
+- (**SLIDE** has list of theories)
+:::
+
+
+## {background-image="Images/background-worldmap4.png" .center}
+
+::: {.r-fit-text}
+
+**The "Big" Theories of International Relations**
+
+:::
+
+<br>
+
+- Realism
+    - Neorealism
+
+- Liberalism
+    - Institutionalism
+
+- Radicalism
+
+- Constructivism
+
+::: notes
+Before we discuss these specific theories, let's talk about the purpose of theory in scientific inquiry 
+
+<br>
+
+**Everybody take out a blank piece of paper and something to write with.**
+:::
+
+
+
+## {background-image="Images/02_2-Drury_photo.jpg"}
+
+::: notes
+**Anybody recognize what's in this photo?**
+
++ (Drury's campus!)
+
+<br>
+
+### How could I use this photo to find my way from Burnham Hall to Sunderland?
+
+<br>
+
+### Is there a tool, perhaps, better suited to this question?
+
+(SLIDE)
+:::
+
+
+
+## {background-image="Images/02_2-Drury_Official_Map.png"}
+
+::: notes
+A map!
+
+- I'm assuming all of you have some experience using this map.
+
+<br>
+
+### Talk to me about how useful you have found this map.
+
+#### - How specifically has it been useful?
+
+#### - In what specific ways is it lacking?
+
+<br>
+
+I'd like each of you to take some ownership of the tool.
+
+- **SLIDE**: I'd like each of you to draw me a map of Drury University.
+:::
+
+
+
+
+## Draw a map of Drury University {background-image="Images/background-worldmap4.png" .center}
+
+<br>
+
+::: {.r-fit-text}
+
+1. Be as **accurate** as possible, and
+
+2. Identify the **FIVE** most important places
+
+:::
+
+::: notes
+
+Take a few minutes to draw me a map of Drury University.
+
+- Your job is to design an accurate map that will help us navigate, and
+
+- To locate the most important places on campus
+
+- Put your name on it too so we know who it belongs to!
+
+<br>
+
+**What questions do you have about the assignment?**
+
+- (DON'T ANSWER CLARIFICATION QUESTIONS!!! The point is that perspective matters!)
+
+<br>
+
+Alright, get to work!
+
+<br>
+
+*Don't ask for volunteers, go straight to the walking around exercise*
+
+<br>
+
+Ok, everybody stand up and walk around checking out all the maps.
+
+- As you review the maps call out the ones you like the most and I'll make a list on the board!
+
+- The "most accurate" one gets extra credit!
+:::
+
+
+
+## {background-image="Images/02_3-maps.jpg"}
+
+::: notes
+
+*Have students whose maps were "selected" onto the board explain the "rule" or "guide" that they used to make their map / select the five places*
+
+- (e.g. FA23 kids used "education major", "me", "student athlete", etc)
+
+<br>
+
+Talk to me about your process of designing and drawing the map.
+
+<br>
+
+**FIRST, what are the commonalities across the maps?**
+
+<br>
+
+**SECOND, how did you decide "importance"?**
+
+- **What did you decide to leave out?**
+
+<br>
+
+Let's take a step back and just try to define the concept.
+
+<br>
+
+**Based on these examples in our class, can someone define a map for us?**
+
+- **Assuming these are all examples of the concept, what do they have in common?**
+
+- *ON BOARD*
+:::
+
+
+
+## {background-image="Images/02_2-mbta_map.png" background-size='75%'}
+
+::: notes
+
+Let's come at this one more way before we settle on a definition.
+
+<br>
+
+The Boston subway system represents a really interesting challenge for map makers.
+
++ The T map is considered an excellent map.
+
++ It makes super clear how to get from point A to B using the subway even for tourists who don't speak English.
+
+<br>
+
+SLIDE: However...
+
+:::
+
+
+
+## {background-image="Images/background-worldmap4.png" .center}
+
+:::: {.columns}
+::: {.column width="50%"}
+
+<br>
+
+![](Images/02_2-mbta_map.png)
+
+:::
+
+::: {.column width="50%"}
+
+![](Images/02_2-mbta_map2.png)
+
+:::
+::::
+
+::: notes
+
+It is a wildly inaccurate as a spatial representation of Boston!
+
+- Red line: Braintree is WAY further south in reality than Mattapan.
+
+- Blue line north curves like crazy, not straight line at all.
+
+- The distance between the lines is mostly wrong too.
+
+<br>
+
+If you tried to use the T map to navigate by foot or car you would get incredibly lost.
+
+<br>
+
+**So, which of these two options is the more accurate map? Why?**
+
+- *DISCUSS*
+:::
+
+
+
+## {background-image="Images/background-worldmap4.png" .center}
+
+:::: {.columns}
+::: {.column width="50%"}
+
+![](Images/02_2-mbta_map.png)
+
+:::
+
+::: {.column width="50%"}
+
+![](Images/02_2-mbta_map3.png)
+
+:::
+::::
+
+::: notes
+"Correctness" or "truth" isn't a useful metric for maps.
+
++ The map on the left makes navigating on the T easy.
+
++ The map on the right makes navigating by car easier.
+
+<br>
+
+### Why not do both in one map?
+
+<br>
+
+Generally there is a trade-off between the number of purposes you can use a map for and its usefulness.
+
++ Usefulness is typically a function of simplicity!
+:::
+
+
+
+## {background-image="Images/background-worldmap4.png" .center}
+
+:::: {.columns}
+::: {.column width="40%"}
+
+![](Images/02_2-drury_map.jpg)
+
+:::
+
+::: {.column width="60%"}
+**Maps are:**
+
++ Neither true nor false
+
++ Limited in their accuracy
+
++ Partial representations
+
++ Useful for only some uses
+
++ A reflection of the interests of the designer
+:::
+::::
+
+::: notes
+So, keep in mind:
+
+- Maps are objects, not true or false
+
+- Maps have limited accuracy
+
+- Maps are partial (include some features of the world and omit others)
+
+- Maps are purpose relative (useful for a specific purpose only)
+
+<br>
+
+### Does this list fit for all the maps you've used in your life?
+
+<br>
+
+### Are all of these things true for the maps we've made in class today?
+
+<br>
+
+### So, if I ask, which of the maps you made in class is "best" what would you say?
+
+(It depends!)
+
+We evaluate a map's usefulness based on what we need it to do for us, NOT ON ITS ACCURACY.
+:::
+
+
+
+## {background-image="Images/background-worldmap4.png" .center}
+
+:::: {.columns}
+::: {.column width="40%"}
+
+![](Images/02_2-drury_map.jpg)
+
+:::
+
+::: {.column width="60%"}
+**Scientific models are:**
+
++ Neither true nor false
+
++ Limited in their accuracy
+
++ Partial representations
+
++ Useful for only some uses
+
++ A reflection of the interests of the designer
+:::
+::::
+
+::: notes
+All of this applies equally to scientific models.
+
+<br>
+
+"Scientific" models are like maps.
+
+- limited accuracy
+
+- represent reality
+
+- REFLECT the interest of the USER
+
+<br>
+
+One more important note for you, this isn't just a discussion about the "social" sciences.
+
+This applies to the natural sciences as well.
+:::
+
+
+
+## {background-image="Images/02_2-airfoil_wind_tunnel.gif"}
+
+::: notes
+**Anybody recognize this model? What is it?**
+
+- Testing designs for airplane wings using an airfoil model
+
+- An "airfoil" is a structure with curved surfaces designed to give the most favorable ratio of lift to drag in flight, used as the basic form of the wings, fins, and horizontal stabilizer of most aircraft.
+
+<br>
+
+### Who here has flown on an airplane?
+
+### - Do you like flying?
+
+Aerospace engineers test plane designs using a model that includes the assumption that air is a continuum.
+
+Represented here by long, straight lines.
+
+<br>
+
+### Anybody know what is wrong with this assumption?
+:::
+
+
+
+## {background-image="Images/02_2-air_particles.jpg"}
+
+::: notes
+The problem is that air is **DEFINITELY NOT** a continuum.
+
+- It is made up of many discrete particles.
+
+- This means when you fly **you entrust your life to a model that WE KNOW IS BUILT ON INCORRECT ASSUMPTIONS.**
+
+<br>
+
+So, why aren't planes dropping out of the sky all the time?
+:::
+
+
+
+## {background-image="Images/02_2-wind_tunnel_particles.gif"}
+
+::: notes
+Scientific Models: Simplifications of Reality
+
+<br>
+
+It turns out that under the very specific conditions of high speed flight, air behaves like a continuum.
+
++ This model allows for the MUCH easier design of new airplanes.
+
++ In other words, sometimes air behaves like a continuum and that sometimes is what flying a plane is like.
+
+### Does that make sense?
+
+<br>
+
+The "model" is absolutely wrong, but useful!
+
++ Remember, a model is a simplification of reality.
+
++ Reality is incredibly messy and complex.
+
++ We use models to identify the key components in reality that are relevant to what we are trying to explain.
+:::
+
+
+
+## Theory Defined {background-image="Images/background-worldmap4.png" .center}
+
+Donovan and Hoover (2014)
+
++ "...a set of related propositions that suggest why events occur in the manner that they do" (32).
+
+Mingst and Arreguin-Toft (2017)
+
++ "A theory is a set of propositions and concepts that combine to explain phenomena by specifying the relationships among the propositions. Theory's ultimate goal is to predict phenomena" (72).
+
+::: notes
+We can go back to our defintions of theory and use them to better understand the wind tunnel approach to building a plane.
+
+<br>
+
+The goal of the wind tunnel is to accurately predict flight NOT to precisely represent every molecule in the air.
+
+- The theory of the wind tunnel is inaccurate but very useful SO LONG AS THE ASSUMPTIONS ARE MET.
+
+### Does that make sense?
+:::
+
+
+
+## {background-image="Images/background-worldmap4.png" .center}
+
+::: {.r-fit-text}
+
+**The "Big" Theories of International Relations**
+
+:::
+
+<br>
+
+- Realism
+    - Neorealism
+
+- Liberalism
+    - Institutionalism
+
+- Radicalism
+
+- Constructivism
+
+::: notes
+
+Ok, so for today you got a crash course in the broad approaches to modeling or theorizing about international politics.
+
+### Are any of the theories "true"?
+- Just checking you were listening...
+
+<br>
+
+### Which of the theories (e.g. the "isms") presented in the reading struck you as the most useful way to explain international political events? Why?
+
+*Force discussion, call on people as needed*
+:::
+
+
+## "Useful" Scientific Models... {background-image="Images/background-worldmap4.png" .center}
+
+::: {.r-fit-text}
+::: {.incremental}
+1. are logical
+
+2. accurately explain outcomes
+
+3. explain more stuff than other theories
+
+4. need fewer assumptions to explain the same things
+:::
+:::
+
+::: notes
+So, how do we pick between competing models if both are at least somewhat wrong?
+
+As I've said, scientific models are like maps.
+
++ But maps can be compared and we can prefer some maps to others.
+
+<br>
+
+**REVEAL 1: Remind me, what is our test of logic in here?**
+
++ (Inductive arguments evaluated by strength of the argument.
++ ("A strong argument is such that if the premises were true, then the conclusion is likely to be true.")
++ ("A weak argument is such that if the premises were true, then the conclusion is not likely to be true.")
+
+<br>
+
+We will use the same skills for analyzing theories as we do for analyzing arguments.
+
+Each theory makes assumptions (e.g. our premises) and we expect that those assumptions to be logically coherent.
+
+<br>
+
+**REVEAL 2: How do we test this one?**
+
+- (Examine the world! Find some evidence!)
+
+<br>
+
+**REVEAL 3: Let's say you have two logical and equally concise theories.**
+
+If one explains event "A" and the other explains events "A" and "B" we would definitely rather keep "B."
+
+- It is way more powerful!
+
+<br>
+
+**REVEAL 4: Has anybody ever heard of Occam's Razor?**
+
+- **What is it?**
+
+(Technically: "entities should not be multiplied without necessity.")
+- More popularly: "the simplest explanation is most likely the right one".
+
+<br>
+
+Let me give you an example!
+
+- **SLIDE**: EITHER, NASA and a team of international scientists landed men on the moon, OR...
+:::
+
+
+
+## {background-image="Images/02-2-Moon-Landings-Blog.jpg" .center}
+
+::: notes
+The US government has undertaken the largest, most complicated hoax of all time.
+
+This required thousands of people to cooperate and keep their secrecy about:
+
+- Hiding the actual filming,
+
+- Tricking the Russians to believe it happened,
+
+- Keeping all of the actors and crew quiet,
+
+- Planting a mirror on the moon so experiments can be done from Earth,
+
+- Building the facilities where the shuttle and lander were built,
+
+- Writing 100ks of detailed plans, diagrams, budgets and other documents that currently exist and can be reviewed in archives showing the entirety of the project at every step of its development.
+
+- etc.
+
+<br>
+
+### So, you know, 50-50, right?
+:::
+
+
+
+## "Useful" Scientific Models... {background-image="Images/background-worldmap4.png" .center}
+
+::: {.r-fit-text}
+1. are logical
+
+2. accurately explain outcomes
+
+3. explain more stuff than other theories
+
+4. need fewer assumptions to explain the same things
+:::
+
+::: notes
+The big lesson for today is about the nature of theories and models.
+
+- What is a model / theory?
+
+- Why are they useful?
+
+- How do we evaluate them?
+
+<br>
+
+### Any questions on this?
+:::
+
+
+
+## For Next Class {background-image="Images/background-worldmap4.png" .center}
+
+<br>
+
+### Developing Paper 1
+
+- Read Engle (2018)
+
+- Submit an "important international political event" from the last six months
+
+::: notes
+
+We will spend all of next week working in class on your first paper.
+
+- Next class we brainstorm!
+
+- No overlap! First-come, first-served!
+
+<br>
+
+Find an important international political event (from the recent past) that you find interesting and would like to explore more deeply.
+
+1. Read Engle (2018)
+
+2. **Before class** submit to our Canvas discussion board: 
+    - Describe the event,
+    - Argue why "important", and
+    - An APA citation for one piece of **HIGH QUALITY** published evidence supporting your argument
+
+<br>
+
+### Questions on the assignment?
+:::
+
+

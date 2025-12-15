@@ -1,0 +1,123 @@
+---
+format: revealjs
+---
+
+
+## Today's Agenda {background-image="Images/background-worldmap4.png" .center}
+
+```{r}
+# background-size="1920px 1080px"
+library(tidyverse)
+library(readxl)
+library(kableExtra)
+```
+
+<br>
+
+**III. Why is it so Hard to Cooperate with Other Countries?**
+
+- Review outlines and write the paper
+
+<br>
+
+<br>
+
+::: r-stack
+Justin Leinaweaver (Spring 2026)
+:::
+
+::: notes
+Prep for Class
+
+1. Check Canvas submissions
+
+<br>
+
+**ANNOUNCE**: Pizza and politics is today
+:::
+
+
+
+
+## For Today: Draft an Outline {background-image="Images/background-worldmap4.png" .smaller}
+
+**Intro**
+
+- What is the question?
+- Why is the question important?
+- Thesis statement: Theory X is most useful because...
+
+**Premise 1: Theory 1 is most useful because... (with evidence)**
+
+**Premise 2: Theory 1 is most useful because... (with evidence)**
+
+**Premise 3: Theory 1 is most useful because... (with evidence)**
+
+**Counter-Argument: Theory 2**
+
+- What are the strengths of this explanation?
+- What are the weaknesses of this explanation?
+- Why is it not ultimately more useful than Theory 1?
+
+::: notes
+**Everybody ready to go with this?**
+
+- **Outline in hand?**
+
+<br>
+
+Ok, time to get some feedback
+
+- I want you to go see and give feedback on ALL of the outlines in class today!
+
+- You will benefit from seeing our theories applied to many different events, AND
+
+- You will benefit from making sure your arguments make sense to lots of different readers
+
+<br>
+
+**Questions?**
+
+- Go!
+
+<br>
+
+**SLIDE**: Take the feedback on board, revise the outline and start writing!
+:::
+
+
+
+
+
+## Revise your Outline {background-image="Images/background-worldmap4.png" .smaller}
+
+**Intro**
+
+- What is the question?
+- Why is the question important?
+- Thesis statement: Theory X is most useful because...
+
+**Premise 1: Theory 1 is most useful because... (with evidence)**
+
+**Premise 2: Theory 1 is most useful because... (with evidence)**
+
+**Premise 3: Theory 1 is most useful because... (with evidence)**
+
+**Counter-Argument: Theory 2**
+
+- What are the strengths of this explanation?
+- What are the weaknesses of this explanation?
+- Why is it not ultimately more useful than Theory 1?
+
+::: notes
+Now that you've heard some more arguments and gotten feedback on yours it's time to revise.
+
+- Reflect on the feedback, revise your outline and start writing!
+
+- Tighten up those premises
+
+<br>
+
+Paper is due next week, so start writing!
+
+:::

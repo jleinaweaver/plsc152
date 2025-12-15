@@ -1,0 +1,299 @@
+---
+format: revealjs
+---
+
+## Today's Agenda {background-image="Images/background-worldmap4.png" .center}
+
+```{r}
+# background-size="1920px 1080px"
+library(tidyverse)
+library(readxl)
+```
+
+<br>
+
+::: {.r-fit-text}
+**Review outlines and write the paper**
+:::
+
+<br>
+
+::: r-stack
+Justin Leinaweaver (Spring 2026)
+:::
+
+::: notes
+Prep for Class
+
+1. Check submissions on Canvas
+    - Review and give feedback during class
+    
+<br>
+
+REFLECTIONS SP24
+
+- This went GREAT today with a couple tweaks
+- Class focused most of their time in only one pairing
+- You made them work for 15 minutes on ONLY the first paper. Force them to push through and keep working on one paper. Make sure the person has a counter for every premise! THEN swap.
+
+:::
+
+
+
+## For Today {background-image="Images/background-worldmap4.png" .center .smaller}
+
+::::: {.columns}
+:::: {.column width="40%"}
+
+<br>
+
+<br>
+
+<br>
+
+::: {.r-fit-text}
+**Submit your Outline**
+:::
+::::
+
+:::: {.column width="10%"}
+
+::::
+
+:::: {.column width="50%"}
+**Intro**
+
+- What is the question?
+- Why do we care about the question?
+- Thesis statement
+
+**Reason 1 (premise)**
+
+- Evidence x 2
+
+**Reason 2 (premise)**
+
+- Evidence x 2
+
+**Reason 3 (premise)**
+
+- Evidence x 2
+::::
+:::::
+
+::: notes
+**Everybody ready to go with this?**
+
+- **Outline in hand?**
+
+<br>
+
+Ok, time to get some feedback!
+
+- Today you will get feedback from two people and have a chance to revise your outline to reflect that feedback.
+
+- In a moment I'll split you into pairs...
+
+<br>
+
+**SLIDE**: Plan of attack!
+:::
+
+
+
+## Review the Outlines in Pairs {background-image="Images/background-worldmap4.png" .center .smaller}
+
+<br>
+
+::: {.r-fit-text}
+
+**Person 1: Present your Outline**
+
+- What is the question? 
+
+- Why do we care about the question?
+
+- Thesis
+
+- Each premise with evidence
+
+:::
+
+::: notes
+
+Person 1: Present the outline of your paper
+
+- Each item should be a complete sentence
+    - or two for the why do we care question
+
+- Each premise should be stated and then supported by evidence
+:::
+
+
+## Review the Outlines in Pairs {background-image="Images/background-worldmap4.png" .center .smaller}
+
+<br>
+
+**Person 1: Present your Outline**
+
+- What is the question? 
+- Why do we care?
+- Thesis
+- Each premise with evidence
+
+**Person 2: To be convincing to you...**
+
+- Is each item clear?
+- Is each premise logical?
+- Is each piece of evidence high enough quality?
+
+::: notes
+Person 2 gives feedback focused on helping person 1 make it more convincing
+
+- Is each item clear?
+    - e.g. Does the sentence convey the idea in a simple and accessible way?
+
+- Is each premise logical?
+    - e.g. does it directly support the conclusion?
+
+- Is each piece of evidence high enough quality?
+
+<br>
+
+### Make sense?
+
+<br>
+
+**SLIDE**: I also want you to do one more thing!
+:::
+
+
+## Review the Outlines in Pairs {background-image="Images/background-worldmap4.png" .center .smaller}
+
+<br>
+
+**Person 1: Present your Outline**
+
+- What is the question? 
+- Why do we care?
+- Thesis
+- Each premise with evidence
+
+**Person 2: To be convincing to you...**
+
+- Is each item clear?
+- Is each premise logical?
+- Is each piece of evidence high enough quality?
+- **Identify a counter-argument for each premise**
+
+::: notes
+
+Let's talk about that counter-argument piece (which is new!)
+
+- Per the rubric, a convincing argument paper MUST include critical analysis!
+
+<br>
+
+Critical Analysis can be added to a paper with:
+
+1. A counter-argument
+    - Author X (2020) argues that... However, ...
+    - To be convincing it MUST always be the STRONGEST version of their argument
+    - No straw men! No "Some people argue"...
+    
+2. Discussions of the limitations of your evidence
+    - All measurement is done with error
+    - You can boost the depth of your argument by acknowledging how your evidence might be lacking, but making clear why that doesn't mess up your argument
+    
+<br>
+
+For today, I want you to help each other brainstorm a counter-argument for each premise
+
+- e.g. Here's why my argument might be wrong! And here's how I've addressed those concerns!
+
+- In the actual paper, you'll need to be able to cite evidence for the counter-arguments, but for today we can just generate them
+
+<br>
+
+The easiest way to attack this element for this paper is to think, what is a different recent event that meets this criteria as well? 
+
+- Make sure you're clear on why it meets the criteria AND why it doesn't change your argument
+
+<br>
+
+### Make sense?
+
+<br>
+
+*FOR YOU, SAVE TIME TO DO THIS EXERCISE 2x*
+:::
+
+
+
+## Revise your Outline {background-image="Images/background-worldmap4.png" .center}
+
+<br>
+
+**Intro**
+
+**Premise 1** (with evidence)
+
+**Premise 2** (with evidence)
+
+**Premise 3** (with evidence)
+
+**Counter-Argument**
+
+**Conclusion**
+
+::: notes
+
+Now that you've heard some more arguments and gotten feedback on yours it's time to revise.
+
+<br>
+
+Reflect on the feedback, revise your outline and start writing!
+
+- Tighten up those premises
+
+- Add a counter-argument paragraph
+
+<br>
+
+**SLIDE**: Assignment for next class
+
+:::
+
+
+
+## For Next Class {background-image="Images/background-worldmap4.png" .center}
+
+<br>
+
+Submit a REVISED outline of your first paper
+
+- Same requirements as before, and
+
+- Add a counter-argument paragraph outline (details on Canvas)
+
+
+
+
+::: notes
+
+Paper is due at the end of next week!
+
+<br>
+
+Counter-Argument
+
+- Describe the alternative international political event
+- What is the strongest argument you can make that this is "most" important?
+- Why does that argument not change the thesis of your paper?
+
+
+:::
+
+
+
+

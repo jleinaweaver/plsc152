@@ -1,0 +1,663 @@
+---
+format: revealjs
+---
+
+## Today's Agenda {background-image="Images/background-worldmap4.png" .center}
+
+```{r}
+# background-size="1920px 1080px"
+library(tidyverse)
+library(readxl)
+```
+
+<br>
+
+<br>
+
+Hultman, Kathman & Shannon (2016). United Nations Peacekeeping Dynamics and the Duration of Post-Civil Conflict Peace.
+
+- Critically analyze the paper's arguments
+
+<br>
+
+::: r-stack
+Justin Leinaweaver (Spring 2026)
+:::
+
+::: notes
+Prep for Class
+
+1. Review Canvas submissions
+
+2. Post the web link to the charter of the UN on LMS
+    - https://www.un.org/en/about-us/un-charter/preamble
+    - https://www.un.org/en/charter-united-nations/
+
+:::
+
+
+
+## {background-image="Images/07_2-HKS-page1.png" .center  background-size='88%'}
+
+::: notes
+
+This week we dig into our first research article in class.
+- Learning to understand and think critically about the world we live in using high quality research is central to our class LOs.
+
+<br>
+
+Today we will explore the model of politics presented in this paper.
+- Next class we will dig into the data and methods to help us evaluate its conclusions.
+
+<br>
+
+**Was this anybody's first time reading a political science journal article?**
+
+<br>
+
+**What did you think of it? Did you like the style? Was it clear?**
+
+<br>
+
+**SLIDE**: Let's start by talking about the UN itself.
+
+:::
+
+
+
+## {background-image="Images/07_1-UN_Building.webp"}
+
+<p style="color: white;">**The United Nations (UN)**</p>
+
+::: notes
+
+I'm curious, as a point of reference I'd like to know what you think of when you think of the United Nations.
+
+- **In other words, in your life to this point when you thought about the UN, if at all, what came to mind?**
+
+- **Did it seem to impact your life at all?**
+
+<br>
+
+Let's talk about the UN in broad strokes.
+
+- I've posted a link to the UN Charter on Canvas in our Modules section.
+- Everybody open that link.
+
+<br>
+
+The UN Charter (1945) is like the Constitution for the United Nations.
+
+Each chapter focuses on one aspect of the wider organization.
+
+- Who can join and how?
+- What are its decision-making processes?
+- How does it settle internal disputes?
+- etc.
+:::
+
+
+
+## {background-image="Images/background-worldmap4.png" .center .smaller}
+
+The Purposes of the United Nations are:
+
+1. To maintain international peace and security, and to that end: to take effective collective measures for the prevention and removal of threats to the peace, and for the suppression of acts of aggression or other breaches of the peace, and to bring about by peaceful means, and in conformity with the principles of justice and international law, adjustment or settlement of international disputes or situations which might lead to a breach of the peace;
+
+2. To develop friendly relations among nations based on respect for the principle of equal rights and self-determination of peoples, and to take other appropriate measures to strengthen universal peace;
+
+3. To achieve international co-operation in solving international problems of an economic, social, cultural, or humanitarian character, and in promoting and encouraging respect for human rights and for fundamental freedoms for all without distinction as to race, sex, language, or religion; and
+
+4. To be a centre for harmonizing the actions of nations in the attainment of these common ends (Chapter 1, Art. 1).
+
+::: notes
+
+Everybody click on Chapter 1 and read Article 1 on "The Purposes of the United Nations" [LINK](https://www.un.org/en/about-us/un-charter/chapter-1)
+
+<br>
+
+**Summarize these four points for me, what are the distinct main purposes of the UN?**
+
+- (SLIDE)
+:::
+
+
+
+## {background-image="Images/07_2-UN_Flag.png" .center}
+
+::: {.r-fit-text}
+The Purposes of the United Nations are:
+
+1. Maintain international peace and security
+
+2. Solve international problems
+
+3. Promote respect for human rights
+
+:::
+
+::: notes
+**How on Earth can these three things be controversial? Shouldn't everybody want an international organization focused on these things?**
+
+<br>
+
+- **How could "maintaining international peace and security" be something a state might oppose?**
+
+<br>
+
+- **How could "solving international problems" be something a state might oppose?**
+
+<br>
+
+- **How could "promoting respect for human rights" be something a state might oppose?**
+
+<br>
+
+**SLIDE**: Unfortunately, many of the most common attacks of the UN are straw men.
+
+:::
+
+
+
+## Critics: The UN is Too Weak {background-image="Images/background-worldmap4.png"}
+
+![](Images/07_2-UN_weak_meme1.jpg){.absolute left=0 width=500}
+
+![](Images/07_2-UN_weak_meme2.jpg){.absolute right=0 width=500}
+
+::: notes
+
+Straw Man 1: 
+
+- The UN was designed to stop bad things from happening
+
+- Bad things keep happening
+
+- Therefore, the UN is a waste of resources (time, money, attention, etc)
+
+<br>
+
+Arguments like this tend depend on the audience not thinking very hard about these assumptions AND not understanding how the UN functions.
+
+:::
+
+
+
+## Critics: The UN is Too Strong {background-image="Images/background-worldmap4.png"}
+
+![](Images/07_2-UN_danger_meme1.jpg){.absolute left=0 width=500}
+
+![](Images/07_2-UN_danger_meme2.png){.absolute right=0 width=500}
+
+::: notes
+
+Straw Man 2: 
+
+- The UN is incredibly powerful and influential
+
+- The UN wants every country to follow its rules
+
+- Therefore, the UN is a threat to our sovereignty and the end of our democracy.
+
+<br>
+
+Arguments like this also depend on the audience not thinking very hard about these assumptions AND not understanding how the UN functions.
+
+<br>
+
+These critics point to the small actions the UN has taken around the world to promote peace and then want you to extrapolate to the utter ridiculous.
+
+- Example: The UN organized a negotiation to reduce the number of assault rifles being sent to countries torn apart by civil war
+    - This does not mean they are coming to take away US guns.
+
+- Example: UN negotiations to provide food aid to countries experiencing a famine is not the same thing as colonialism or invasion
+
+:::
+
+
+
+## Let's avoid cheap critiques of the UN {background-image="Images/background-worldmap4.png" .center}
+
+<br>
+
+```{r, fig.align='center'}
+knitr::include_graphics('Images/07_2-UN_Critics.png')
+```
+
+::: notes
+
+Frankly, both arguments represent stupid "hot takes" that typically jump from something real into the realm of the absurd.
+
+- The problem is that this tends to be the level of debate we hear in society and that's SUPER disappointing.
+
+<br>
+
+Our job as social scientists is to examine the world in transparent and verifiable ways.
+
+- We need theories to help us understand what the UN is and what it does.
+
+- We need data to then examine its actual impact in the world.
+
+<br>
+
+THIS is what allows us to cut through the noise and figure out what is actually going on.
+:::
+
+
+
+## {background-image="Images/07_1-UNSC.jpg"}
+
+::: notes
+
+This week I want us to think about the role the UN plays in reducing war.
+
+- In a sense, the UN represents an international attempt to use the logic of the bargaining model to reduce the likelihood of war.
+
+<br>
+
+Today we'll explore the debate about funding the UN as a first step to thinking about the UN's role in the global bargain to prevent war.
+:::
+
+
+
+## {background-image="Images/07_2-components_research_paper_blank.png"}
+
+::: notes
+
+I know reading and analyzing academic research is hard.
+
+- Generating useful knowledge about the world isn't easy and there are no shortcuts.
+
+<br>
+
+HOWEVER, I promise this gets easier with practice.
+
+- Just keep trying and I think you'll be impressed to find that you understand the exercise a little more each time you do it.
+
+:::
+
+
+
+## {background-image="Images/07_2-components_research_paper_blank.png"}
+
+:::: {.columns}
+::: {.column width="50%"}
+
+:::
+
+::: {.column width="50%"}
+
+<br>
+
+<p style="color: white;">**1. Research Question**</p>
+
+<br>
+
+<p style="color: white;">**2. Argument**</p>
+
+<br>
+
+<p style="color: white;">**3. Are we confident in the conclusions?**</p>
+:::
+::::
+
+::: notes
+
+For our purposes this semester I will ask you to focus on three things when reading academic research articles.
+
+1. What is the research question?
+
+    - What are they trying to explain?
+    - And importantly, why should we care?
+
+2. What is their argument?
+
+    - What is the "map" they have designed to explain the central argument?
+    - What are the testable implications of it?
+
+3. How confident are we in their conclusions?
+
+    - Where did they get their data?
+    - Are they examining the right data?
+    - How did they measure the data?
+    - What statistical tools are they using?
+
+<br>
+
+If you can answer these questions then you should have a much better sense of the world than you did before.
+
+- **Any questions on this?**
+
+<br>
+
+Today we focus on items 1 and 2, Friday on item 3.
+
+- **SLIDE**:  Back to the paper!
+:::
+
+
+
+## {background-image="Images/07_2-HKS-page1.png" .center  background-size='88%'}
+
+::: notes
+
+**Now, what is the research question in this paper?**
+
+- **Everybody open up our Canvas discussion and review the options**
+
+- (How effective is the UN in promoting peace after civil wars?)
+- (Does it matter how many or what kinds of troops are needed to promote peace after civil wars?)
+
+<br>
+
+**Based only on the introduction of this article, what are the specific reasons the authors give for why this is an important question?**
+
+- **Are you convinced? Why or why not?**
+
+*Force this discussion*
+
+<br>
+
+Ok, that covers item 1, we now understand the question and why the authors believe it is important.
+
+Now we need to figure out their argument.
+- e.g. their map of the world
+:::
+
+
+
+## Hultman, Kathman & Shannon (2016) {background-image="Images/background-worldmap4.png" .center}
+
+<br>
+
+**Hypothesis 1 (H1)**
+
+- As the UN deploys more armed troops to a post-conflict state, the duration of peace increases.
+
+**Hypothesis 2 (H2)**
+
+- As the UN deploys more unarmed observers to a post-conflict state, the duration of peace increases.
+
+::: notes
+
+Everybody turn to the hypotheses in the paper, p234-238.
+
+- When you are looking for the model in a paper, start by finding the section with the hypotheses.
+
+<br>
+
+The hypotheses represent the testable implications of a model.
+
+- The model lays out a set of assumptions about the world.
+- When you combine those assumptions you generate predictions about what we should see happen in a specific situation.
+- Those predictions are the hypotheses.
+
+<br>
+
+So, what we have here is a list of predictions about the world generated by the Hultman, Kathman and Shannon's (2016) model.
+
+- Our job is to figure out the key elements of the model that produced these predictions.
+:::
+
+
+
+
+## Hultman, Kathman & Shannon (2016) {background-image="Images/background-worldmap4.png" .center}
+
+<br>
+
+**Diagram the Model**
+
+- Who are the key **Interests**?
+
+- What are the key **Institutions**?
+
+- What are the key **Interactions**?
+
+::: notes
+
+Ok, everybody submitted their draft version of this model to Canvas today.
+
+- Work in small groups to consolidate diagrams
+
+- Go!
+
+<br>
+
+*Let them work for a few minutes and then...*
+
+Let's make sure we're all working from the same basic understanding
+
+- **Who are the interests in this model?**
+
+- (**SLIDE**)
+
+:::
+
+
+
+
+## Hultman, Kathman & Shannon (2016) {background-image="Images/background-worldmap4.png" .center}
+
+**Interests**
+
+- The UN &#8594; peace and stability
+- The combatants &#8594; peace and stability
+
+**Institutions**
+
+- ?
+
+**Interactions**
+
+- ?
+
+::: notes
+
+In this case, all of the key actors want the exact same thing!
+
+- The question is, why can't they get it?
+
+<br>
+
+Groups, now focus on the first obstacle to peace, the institutions!
+
+- Go!
+
+<br>
+
+**Ok, what are the institutions in this model?**
+
+- (**SLIDE**)
+
+:::
+
+
+
+## Hultman, Kathman & Shannon (2016) {background-image="Images/background-worldmap4.png" .center}
+
+**Interests**
+
+- The UN &#8594; peace and stability
+- The combatants &#8594; peace and stability
+
+**Institutions**
+
+- Domestic anarchy (recently ended/paused civil war)
+- International anarchy + UN Charter
+
+**Interactions**
+
+- ?
+
+::: notes
+
+At the domestic level, a civil war means there is conflict over the basic rules of society
+
+<br>
+
+At the international level is a mix of anarchy with an overlay of some international rules
+
+- e.g. the ability to send PKOs into post-civil war states
+
+<br>
+
+GROUPS, focus on the interactions now
+
+- **What are the interaction obstacles to peace and how can PKOs address them?**
+
+- Go!
+
+<br>
+
+**Ok, what are the interactions in this model?**
+
+- (**SLIDE**)
+
+:::
+
+
+
+## Hultman, Kathman & Shannon (2016) {background-image="Images/background-worldmap4.png" .center .smaller}
+
+**Interests**
+
+- The UN &#8594; peace and stability
+- The combatants &#8594; peace and stability
+
+**Institutions**
+
+- Domestic anarchy (recently ended/paused civil war)
+- International anarchy + UN Charter
+
+**Interactions**
+
+- Combatants cannot trust the commitments made by the other side
+- Combatants lack information on what the other side is actually doing
+- PKOs can promote peace by monitoring behavior, enforcing commitments and providing information 
+
+
+::: notes
+
+<br>
+
+**Ok, what have we got? ON BOARD**
+
+**INTERESTS**
+
+- Combatants -> peace
+- UN -> peace / stability
+
+**INSTITUTIONS**
+
+- Domestic anarchy of post-civil war conflict (neither side has sufficient control)
+- International anarchy + UN Charter
+
+**INTERACTIONS**
+
+Serious obstacles to bargaining:
+
+- Lack of information / channels of information (information deficit) between the combatants
+- Lack of trust / mechanisms for promoting trust between the combatants
+
+<br>
+
+**If this represents the model, then what are the implications of it? What should the world look like if this map is useful?**
+
+- **SLIDE**: Back to the hypotheses!
+:::
+
+
+## Hultman, Kathman & Shannon (2016) {background-image="Images/background-worldmap4.png" .center}
+
+<br>
+
+**Hypothesis 1 (H1)**
+
+- As the UN deploys more armed troops to a post-conflict state, the duration of peace increases.
+
+**Hypothesis 2 (H2)**
+
+- As the UN deploys more unarmed observers to a post-conflict state, the duration of peace increases.
+
+::: notes
+**Does everybody see how these sets of assumptions lead to these expectations?**
+
+- **Any disconnects here? Problems in the logic?**
+
+Therefore,
+- UN must 'help share or reveal private information'
+- UN must 'uphold durable peaceful settlements'
+- The key here: Number, timing and type of PKOs matter for structuring interactions to prolong peace
+
+UN Troops
+- Greater weight due to capacity for violence
+- More troops = more global commitment to a peace
+- More troops = more area physically protected
+- More troops = More capacity for pacification
+
+Unarmed observers
+- Monitoring -> information increases and accountability
+:::
+
+
+
+## {background-image="Images/07-2-treasure_map.jpg"}
+
+::: notes
+
+Alright, let's evaluate this model of politics.
+- Remember, models are like maps.
+
+### Is this paper a good test of the bargaining model of war we studied last week? Why or why not?
+#### - Does it miss anything important
+#### - What parts of the model does this emphasize?
+
+<br>
+
+### What are the strengths of this as a model of politics?
+
+<br>
+
+### What are the weaknesses of this as a model of politics?
+#### - What possibly important things does it ignore?
+:::
+
+
+
+## Section 2: Why Are There Wars? {background-image="Images/background-worldmap4.png" .center}
+
+<br>
+
+- Neorealism
+
+- Offensive Realism
+
+- Liberal Institutionalism
+
+- Economic Liberalism
+
+- Bargaining Model of War
+
+::: notes
+**Does this paper's model fit in one of these paradigms? Why or why not?**
+
+<br>
+
+### How does this model address the Bargaining Model of War gaps from last week?
+
+:::
+
+
+
+## Assignment for Next Class {background-image="Images/background-worldmap4.png" .center}
+
+<br>
+
+Hultman, Kathman & Shannon (2016) on United Nations Peacekeeping
+
+- Read the analysis and conclusion (p238-246)
+
+::: notes
+**Questions on the assignment?**
+:::

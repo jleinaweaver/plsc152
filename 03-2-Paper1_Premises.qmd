@@ -1,0 +1,489 @@
+---
+format: revealjs
+---
+
+## Today's Agenda {background-image="Images/background-worldmap4.png" .center}
+
+```{r}
+# background-size="1920px 1080px"
+library(tidyverse)
+library(readxl)
+```
+
+<br>
+
+::: {.r-fit-text}
+
+**I. Arguments, Evidence and International Relations**
+
+1. Discuss paper structure
+
+2. Select your strongest reasons for an outline
+
+:::
+
+::: r-stack
+Justin Leinaweaver (Spring 2026)
+:::
+
+::: notes
+Prep for Class
+
+1. Bring paper to class
+
+2. Review and record participation submissions
+
+<br>
+
+Let's start today by discussing the very excellent writing advice in Farrell (2010).
+:::
+
+
+
+## Farrell's (2010) Writing Advice {background-image="Images/background-worldmap4.png" .center}
+
+<br>
+
+1. Read the Requirements for the Assignment
+
+::: notes
+**What's the advice in the "read the requirements for the assignment" section?**
+
+<br>
+
+(Make sure you are answering the question that was asked!)
+
+- I see this a lot and it results in a much lesser grade than the work might otherwise deserve.
+
+<br>
+
+Also, don't try to kill two birds with one stone (e.g. one paper for two classes)
+
+- It is WAY harder than you think to write one paper to cover two separate class prompts. 
+
+- Plagiarism
+
+<br>
+
+Also, a good chance to reinforce our AI policy in this class (as specified by the syllabus)
+
+- You may not use AI tools on these papers
+
+- That includes both chatGPT style generators that write from scratch or Grammarly style tools that simply clean up your writing
+
+- One of my primary goals in this class is to help you become a better writer. I can't do that unless I see your actual writing in the assignments.
+:::
+
+
+
+## Farrell's (2010) Writing Advice {background-image="Images/background-worldmap4.png" .center}
+
+<br>
+
+1. Read the Requirements for the Assignment
+
+2. Avoid Data Dumps
+
+::: notes
+**What's the advice in the "avoid data dumps" section?**
+
+<br>
+
+(You may know a lot of stuff about a topic, but "stuff" is not the same thing as an argument)
+
+- In fact, a long litany of stuff typically undermines your argument because it is distracting and confusing.
+
+- For today you each produced 10 supporting reasons for your argument but in the final paper more is almost never better (if not tightly connected).
+:::
+
+
+
+## Farrell's (2010) Writing Advice {background-image="Images/background-worldmap4.png" .center}
+
+<br>
+
+1. Read the Requirements for the Assignment
+
+2. Avoid Data Dumps
+
+3. Cut to the Chase
+
+::: notes
+**What's the advice in the "cut to the chase" section?**
+
+1) Make sure your argument paper gets to making its argument from the get-go
+- No, "since the beginning of time" or "Webster's dictionary defines..."
+
+<br>
+
+2) (Focus your introduction on making three things clear:)
+1. What is the question?
+
+2. Why should we care?
+
+3. What is your argument.
+
+<br>
+
+3) (Focus every paragraph on your argument!)
+- No background for the sake of background
+:::
+
+
+## Farrell's (2010) Writing Advice {background-image="Images/background-worldmap4.png" .center}
+
+<br>
+
+1. Read the Requirements for the Assignment
+
+2. Avoid Data Dumps
+
+3. Cut to the Chase
+
+4. Organize, Organize, Organize
+
+::: notes
+**What's the advice in the "organize, organize, organize" section?**
+
+- (**SLIDE**)
+:::
+
+
+## Farrell's (2010) Writing Advice {background-image="Images/background-worldmap4.png" .center}
+
+<br>
+
+1. Read the Requirements for the Assignment
+
+2. Avoid Data Dumps
+
+3. Cut to the Chase
+
+4. Organize, Organize, Organize
+    - **Macro Structure**
+
+::: notes
+
+### According to Farrell, what is a good macro structure?
+- (Every paper should have a clear beginning, middle and end)
+
+- This is probably the basic advice you've been getting since grade school.
+
+- Tell me what you're gonna tell me, tell me and tell me what you told me.
+
+<br>
+
+### How do you demonstrate in the outline that your macro structure is good?
+- (Differentiate the introduction from the body of the paper from the conclusion.)
+:::
+
+
+## Farrell's (2010) Writing Advice {background-image="Images/background-worldmap4.png" .center}
+
+<br>
+
+1. Read the Requirements for the Assignment
+
+2. Avoid Data Dumps
+
+3. Cut to the Chase
+
+4. Organize, Organize, Organize
+    - **Meso Structure**
+
+::: notes
+
+### What is a good meso structure?
+- (Each paragraph should build support for your argument.)
+
+- (Each paragraph should focus on one main point.)
+
+- (The point of each paragraph should build on that in the previous paragraph, and create the foundations of the next.)
+
+<br>
+
+In other words, your meso structure is taken care of if you clearly diagram your argument, premises to the conclusion, before you start writing.
+
+- The work you've done this week in building that diagram is the work you need to outline and write a well structured argument paper.
+
+<br>
+
+### What is the exercise Farrell proposes you use to check the meso structure of an argument paper?
+1. (Summarize each paragraph in one sentence.)
+
+2. (Read the summary sentences only and the paper should both make sense AND build logically.)
+
+<br>
+
+### What does it mean if you can't summarize the paragraph in one sentence?
+- (Paragraph is doing too much.)
+
+<br>
+
+I cannot emphasize this enough.
+- You should check your meso structure every time you write a paper!
+
+- An argument with a bad meso structure will NEVER be convincing.
+
+- No amount of evidence and critical analysis can overcome this weakness.
+
+<br>
+
+A weak argument with an awesome meso structure CAN still be effective.
+- The easier it is for the reader to follow the argument, the more likely they will be convinced.
+
+<br>
+
+### Does that make sense?
+:::
+
+
+## Farrell's (2010) Writing Advice {background-image="Images/background-worldmap4.png" .center}
+
+<br>
+
+1. Read the Requirements for the Assignment
+
+2. Avoid Data Dumps
+
+3. Cut to the Chase
+
+4. Organize, Organize, Organize
+    - **Micro Structure**
+
+::: notes
+
+### What is a good micro structure?
+1. (Sentences must be well constructed: Simple words, simple sentences, direct active language, no spelling or grammatical mistakes.)
+
+2. (Each sentence should flow logically, from one to the next.)
+
+<br>
+
+### Any questions on the three types of structure Farrell describes?
+:::
+
+
+
+## Farrell's (2010) Writing Advice {background-image="Images/background-worldmap4.png" .center}
+
+<br>
+
+1. Read the Requirements for the Assignment
+
+2. Avoid Data Dumps
+
+3. Cut to the Chase
+
+4. Organize, Organize, Organize
+
+5. Exercises in Style
+
+::: notes
+
+### Last one, 5. what's the advice in the "exercises in style" section?
+
+- (Use "simple, direct writing, which communicates its arguments and evidence as clearly and unambiguously as possible" p6)
+
+- Use the active voice (subject acts upon its verb) not passive (subject is a recipient of a verb’s action)
+    - e.g. Israel is threatening to bomb Iranian nuclear facilities NOT Iranian nuclear facilities are under Israeli threat.
+
+- Simple words are better than complex words
+
+- Simple sentences are better than complex ones.
+
+<br>
+
+### Any questions on the advice in the Farrell reading?
+:::
+
+
+## To be convincing an argument should be logical, clear, credible and critical {background-image="Images/background-worldmap4.png" .center}
+
+::: notes
+
+All of this good advice is, hopefully, represented by our class writing rubric.
+
+- Remember, our class writing rubric tells you that a convincing an argument should be logical, clear, credible and critical.
+
+<br>
+
+I grade using this rubric.
+
+- **SLIDE**: Basically, I read your paper and then ask myself four questions.
+:::
+
+
+## To be convincing an argument should be logical, clear, credible and critical {background-image="Images/background-worldmap4.png" .center}
+
+<br>
+
+::: {.incremental}
+
+- **Logical**: Do the premises support the conclusion?
+
+- **Clear**: Is the paper easy to read and understand?
+
+- **Credible**: Is there enough high quality evidence (cited using APA)?
+
+- **Critical**: Does the paper address weaknesses in the argument (e.g. logic, evidence, consider counter-arguments)?
+:::
+
+::: notes
+A very good series of questions to ask yourself before submitting!
+
+### Any questions on the rubric or my expectations?
+:::
+
+
+
+## Assignment for Today {background-image="Images/background-worldmap4.png" .center}
+
+<br>
+
+1. Read Farrell (2010)
+
+2. **Before class** submit to our Canvas discussion board: 
+    - Your CHOSEN answer, and
+    
+    - Brainstorm a list of 10 premises
+
+::: notes
+
+So, this is what everyone prepared for today.
+
+<br>
+
+In a moment we're all going to walk around and offer suggestions on everyones' lists.
+
+- **SLIDE**: But first, ...
+:::
+
+
+
+## The "best" premises are... {background-image="Images/background-worldmap4.png" .center}
+
+<br>
+
+::: {.r-fit-text}
+::: {.incremental}
+
+1. Clear,
+
+2. A complete idea (sentence),
+
+3. Logically connected to the conclusion, and
+
+4. Could be supported by evidence.
+:::
+:::
+
+::: notes
+
+Keep in mind, not all premises are created equal.
+
+- HOWEVER, to be an actual premise in an argument each needs to be:
+
+<br>
+
+### Questions on this list of criteria?
+:::
+
+
+
+## {background-image="Images/background-worldmap4.png" .center}
+
+**What is the most important international political event to occur in the last six months?**
+
+<br>
+
+1. Write your thesis statement across the top of a piece of paper
+
+2. Write your list of 10 reasons below the thesis
+
+::: notes
+
+As you do this, please keep the criteria for a good premise in mind!
+
+- These should be 8-10 complete sentences / ideas!
+
+<br>
+
+### Everybody ready?
+
+Ok, now stand up and review everyone elses' argument diagrams.
+
+- Bring a pen and vote on the premises you think are strongests in each diagram.
+
+- Put a check mark next to the ones you think are strongest.
+
+<br>
+
+Ok, take a look at the votes.
+
+- Be sure to reflect on the results of this before moving to your next steps.
+
+:::
+
+
+
+## Next Class {background-image="Images/background-worldmap4.png" .center .smaller}
+
+::::: {.columns}
+:::: {.column width="40%"}
+
+<br>
+
+<br>
+
+<br>
+
+::: {.r-fit-text}
+**Submit your Outline**
+:::
+::::
+
+:::: {.column width="10%"}
+
+::::
+
+:::: {.column width="50%"}
+**Intro**
+
+- What is the question?
+- Why do we care about the question?
+- Thesis statement
+
+**Reason 1 (premise)**
+
+- Evidence x 2
+
+**Reason 2 (premise)**
+
+- Evidence x 2
+
+**Reason 3 (premise)**
+
+- Evidence x 2
+::::
+:::::
+
+::: notes
+
+Your task for next class is to build an outline of your argument with all of these elements INCLUDING two pieces of evidence for each premise.
+
+- **IMPORTANT: This submission happens in the ASSIGNMENTS page of Canvas, NOT a discussion board!**
+
+<br>
+
+*REPEAT THIS FOR EFFECT*
+
+<br>
+
+This outline is your work and a very important step towards writing an excellent paper.
+
+<br>
+
+### Questions on the assignment or where to submit it?
+
+:::

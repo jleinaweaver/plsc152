@@ -1,0 +1,195 @@
+---
+format: revealjs
+---
+
+## Today's Agenda {background-image="Images/background-worldmap4.png" .center}
+
+```{r}
+# background-size="1920px 1080px"
+library(tidyverse)
+library(readxl)
+```
+
+<br>
+
+::: {.r-fit-text}
+
+**I. Arguments, Evidence and International Relations**
+
+- Defining International Political Events
+
+:::
+
+<br>
+
+::: r-stack
+Justin Leinaweaver (Spring 2026)
+:::
+
+::: notes
+Prep for Class
+
+1. Grade Canvas submissions
+
+2. Bring markers x 5
+
+<br>
+
+This week we've been laying our foundations for the rest of the semester.
+
+- Before we can really dig into explaining international politics, we need to get on the same page about what we are studying
+
+- Today we focus on defining the key outcome IR tries to explain: international political events.
+:::
+
+
+
+## For Today {background-image="Images/background-worldmap4.png" .center}
+
+![](Images/01_1-newspapers.jpg){style="display: block; margin: 0 auto"}
+
+::: notes
+
+For today, I sent out a group of highly motivated researchers to collect international politics case studies for us to examine.
+
+### Has everybody submitted their case on Canvas?
+
+<br>
+
+Let's quickly zip around the room so you can introduce us to your chosen cases.
+
+- In just a sentence or two tell us what you picked and why
+
+- *Don't fill in details or generalize, just let them present!*
+:::
+
+
+
+## APA Citations: General Advice {background-image="Images/background-worldmap4.png" .center}
+
+**Books**
+
+Author, A. A. (Year of publication). *Title of work: Capital letter also for subtitle*. Publisher Name. DOI (if available)
+
+**Articles**
+
+Author, A. A., Author, B. B., & Author, C. C. (Year). Title of article. *Title of Periodical, volume number*(issue number), pages. https://doi.org/xx.xxx/yyyy
+
+**Web Pages**
+
+Lastname, F. M. (Year, Month Date). *Title of page*. Site name. URL
+
+::: notes
+
+Ok, now let's review our citations.
+
+- This is the format you have to use on the papers you will submit in this class so we need to get up to speed on this.
+
+- On this slide I've given you the Purdue OWL formatting instructions for various kinds of web sources.
+
+- Everybody take a minute to review the APA citations in the discussion forum and let us know if any need to be revised.
+
+### Any need fixing?
+
+<br>
+
+*Split class into groups of 5*
+
+- Go sit with your groups!
+:::
+
+
+
+## Defining the Key Terms {background-image="Images/background-worldmap4.png" .center}
+
+<br>
+
+- International
+
+<br>
+
+- Political
+
+<br>
+
+- Event
+
+::: notes
+
+Ok groups, your job today is to use the examples collected by the class to define these three key concepts.
+
+<br>
+
+In 10 minutes I want each group to write their three definitions on the board.
+
+- Complete sentences, be specific!
+
+<br>
+
+### Questions?
+
+- Get to it!
+
+<br>
+
+*Share definitions, discuss and consolidate*
+:::
+
+
+## Defining the Key Terms {background-image="Images/background-worldmap4.png" .center}
+
+<br>
+
+- International: With a global impact or involving more than one state
+
+<br>
+
+- Political: ...?
+
+<br>
+
+- Event: A thing or happening
+
+::: notes
+
+Here's one version we might consider that sort of holds off on the "politics" definition.
+
+<br>
+
+### Does every case we collected meet these definitions? Why or why not?
+
+<br>
+
+### Within our cases, do any sub-groupings stand out?
+
+### - Cases that are similar in other important ways?
+:::
+
+
+
+## For Next Class {background-image="Images/background-worldmap4.png" .center}
+
+<br>
+
+### Putting the "science" in political science
+
+- Read Donovan and Hoover (2014)
+
+- Submit the Canvas assignment
+
+::: notes
+
+**Any questions on what you need to have done for next class?**
+
+<br>
+
+Donovan, T., & Hoover, K. (2014). "The Elements of Science." In *The Elements of Social Scientific Thinking*.
+
+and 
+
+Assignment: Based on the reading, what do you think is the biggest challenge to doing political science as a "science"? 
+
+- Use a real-world example to highlight the challenge as you understand it. (3+ sentences)
+
+
+:::

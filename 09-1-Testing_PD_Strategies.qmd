@@ -1,0 +1,665 @@
+---
+format: revealjs
+---
+
+
+## Today's Agenda {background-image="Images/background-worldmap4.png" .center}
+
+```{r}
+# background-size="1920px 1080px"
+library(tidyverse)
+library(readxl)
+library(kableExtra)
+```
+
+<br>
+
+::: {.r-fit-text}
+
+**III. Why is it so Hard to Cooperate with Other Countries?**
+
+- Can we solve the prisoner's dilemma?
+
+:::
+
+<br>
+
+::: r-stack
+Justin Leinaweaver (Spring 2026)
+:::
+
+::: notes
+Prep for Class
+
+1. Review canvas submissions
+
+2. Markers needed for each group (x5)
+
+<br>
+
+Today I'd like us to explore PD strategies and what those strategies tell us about real world situations.
+
+- My apologies for being vague...
+
+<br>
+
+**Refresh my memory, what is the dilemma that the Prisoner's Dilemma model is meant to help us understand?**
+
+- (Why is it so hard for groups to cooperate under certain conditions?)
+- (When goods are rivalrous and uncertainty is high, actors who prefer cooperation may still choose to defect!)
+
+<br>
+
+### What are the key assumptions in this model of IR?
+
+- (**SLIDE**)
+:::
+
+
+
+## The Prisoner's Dilemma {background-image="Images/background-worldmap4.png" .smaller}
+
+<br>
+
+**Interests:** 
+
+- Rational individuals pursuing "gains"
+
+**Institutions:**
+
+- No restrictions on choosing defect or cooperate
+- High uncertainty (e.g. simultaneous decisions, unknown time horizons)
+- Benefits depend on choices of all actors
+
+**Interactions:**
+
+- Biggest rewards for short-term defection OR long-term cooperation
+
+- A risk averse actor's dominant strategy is to defect
+
+::: notes
+**Questions on this model?**
+
+Notes:
+
+- Rational = Acts in accordance with transitive and ordered preferences
+
+- Two sources of uncertainty: Unknown time horizons (how many rounds to play), simultaneous decision-making
+
+- Non-excludable = Anyone can access it / hard to prevent access
+
+- Rivalrous = Your use changes reward to other side
+
+<br>
+
+Here we see the PD game's answer to the question, why is international cooperation hard?
+
+- Some international problems are structured in such a way that they make cooperation very hard to achieve (even when cooperating would make everyone better off!)
+
+- Problems that look like THIS often lead to bad outcomes EVEN THOUGH all involved would like to cooperate!
+
+<br>
+
+**SLIDE**: Today I'd like us to explore strategies for dealing with prisoner's dilemmas.
+:::
+
+
+
+## A Prisoner's Dilemma {background-image="Images/background-worldmap4.png"}
+
+```{r}
+tibble(
+  col1 = c("Player 1", ""),
+  col2 = c("Cooperate", "Defect"),
+  Cooperate = c("+2, +2", "+4, -6"),
+  Defect = c("-6, +4", "-1, -1")
+) |>
+  kbl(align = c("l", "l", "c", "c"), col.names = c("", "", "Cooperate", "Defect")) |>
+  add_header_above(c(" " = 2, "Player 2" = 2)) |>
+  column_spec(column = 1:2, bold = TRUE, width = "10em") |>
+  column_spec(column = 3:4, background = "#b3ccff", width = "10em") |>
+  kable_styling(font_size = 40, bootstrap_options = "basic")
+```
+
+<br>
+
+::: {.fragment}
+- Play 10 rounds
+
+- No negotiation / no talking
+
+- Your goal is to maximize YOUR points
+:::
+
+
+::: notes
+
+I've updated the outcomes table since the last time we played.
+
+<br>
+
+**Everybody still clear on how to read this game board?**
+
+<br>
+
+In short, I've maintained the same Nash Equilibrium that gives us a dominant strategy of defection
+
+- However, I've also increased the margins so each play of the game has bigger consequences for the players
+
+<br>
+
+**REVEAL**: As a warm-up let's pair off and play this new PD table
+
+- Pairs, I'd like you to play the game 10 times and we'll see who can accrue the most points in the class
+
+- For this version of the game there is no talking / negotiating allowed between or during rounds
+
+- Your goal is to maximize your points
+
+    - Our work today is focused on tactics, NOT differences in actor preferences
+
+<br>
+
+**SLIDE**: Here's how to track the game
+:::
+
+
+
+## A Prisoner's Dilemma {background-image="Images/background-worldmap4.png" .center .smaller}
+
+<br>
+
+:::: {.columns}
+::: {.column width="50%"}
+```{r}
+tibble(
+  col1 = c("Player 1", ""),
+  col2 = c("Cooperate", "Defect"),
+  Cooperate = c("+2, +2", "+4, -6"),
+  Defect = c("-6, +4", "-1, -1")
+) |>
+  kbl(align = c("l", "l", "c", "c"), col.names = c("", "", "Cooperate", "Defect")) |>
+  add_header_above(c(" " = 2, "Player 2" = 2)) |>
+  column_spec(column = 1:2, bold = TRUE) |>
+  column_spec(column = 3:4, background = "#b3ccff") |>
+  kable_styling(font_size = 24, bootstrap_options = "basic")
+```
+
+<br>
+
+- Play 10 rounds
+
+- No negotiation / no talking
+
+- Your goal is to maximize YOUR points
+:::
+
+::: {.column width="50%"}
+```{r}
+tibble(
+  x1 = 1:10,
+  Decision = "",
+  Points = ""
+) |>
+  kbl(align = "c", col.names = c("Round", "Your Choice", "Your Points")) |>
+  kable_styling(font_size = 24)
+```
+:::
+::::
+
+::: notes
+
+EACH player needs their own sheet of paper for tracking the game
+
+- On your sheet make a list from 1-10 with space for your decision and points earned each round
+
+- Each round each player makes their decision, defect or cooperate, and writes it on the paper next to the number for the round
+
+- **Both written down THEN simultaneously reveal your choices**
+
+- Tally up the points and move to the next round
+
+<br>
+
+Key here is that there is NO NEGOTIATING allowed!
+
+- We're exploring tactics today focused on the rules of the game itself.
+
+<br>
+
+**Questions on the task?**
+
+- Go!
+
+<br>
+
+**Who were the top point getters in the class?**
+
+- **What did you try?**
+:::
+
+
+
+## {background-image="Images/background-worldmap4.png" .center}
+
+::: {.r-fit-text}
+**Can we solve the prisoner's dilemma?**
+
+::: {.incremental}
+1. Always cooperate
+
+2. Always defect
+
+3. The grim trigger
+
+4. Tit for tat
+
+5. Mixed
+:::
+:::
+
+::: notes
+Game theorists of every stripe, e.g. political scientists, economists, etc, have been working to untangle the prisoner's dilemma for years
+
+- Tons of research, experiments, computer simulations and new theory have been thrown at the problem in an effort to "solve" the dilemma
+
+<br>
+
+Let's discuss five "pure" strategies to the Prisoner's dilemma.
+
+- **REVEAL x 5**
+
+1. Always cooperate means you cooperate every round, no matter what.
+
+2. Always defect means you defect every round, no matter what.
+
+3. The grim trigger means you cooperate in round 1 and then keep cooperating UNTIL the other side defects
+
+    - Once the other side defects, you defect FOREVER
+
+    - Defection triggers a grim outcome, no?
+    
+4. Tit for tat means you cooperate in the first round and then, starting in round 2, you do whatever the other person did last round
+
+    - If they cooperated in round 1, you cooperate in round 2
+
+    - If they defected in round 1, you defect in round 2
+
+5. In a mixed strategy you randomize your choice of cooperate and defect each round regardless of what the other player does
+
+    - This can be done by assigning a probability distribution to your choices (e.g. 50-50, 60-40, 70-30, etc)
+
+<br>
+
+**Is everybody clear on how to implement each of these strategies?**
+
+- **If I assigned you one, do you understand how it would make you play the game?**
+
+<br>
+
+*Split the class into FIVE groups, one group per strategy*
+
+<br>
+
+Go sit with your groups and make sure you have space on the board for recording results
+:::
+
+
+
+## Prisoner's Dilemma Strategies {background-image="Images/background-worldmap4.png" .center}
+
+<br>
+
+:::: {.columns}
+::: {.column width="45%"}
+```{r}
+tibble(
+  col1 = c("Player 1", ""),
+  col2 = c("Cooperate", "Defect"),
+  Cooperate = c("+2, +2", "+4, -6"),
+  Defect = c("-6, +4", "-1, -1")
+) |>
+  kbl(align = c("l", "l", "c", "c"), col.names = c("", "", "Cooperate", "Defect")) |>
+  add_header_above(c(" " = 2, "Player 2" = 2)) |>
+  column_spec(column = 1:2, bold = TRUE) |>
+  column_spec(column = 3:4, background = "#b3ccff") |>
+  kable_styling(font_size = 22, bootstrap_options = "basic")
+```
+:::
+
+::: {.column width="10%"}
+
+:::
+
+::: {.column width="45%"}
+1. Always cooperate
+
+2. Always defect
+
+3. The grim trigger
+
+4. Tit for tat
+
+5. Mixed
+:::
+::::
+
+::: notes
+Groups, your job is to test YOUR strategy against all of the others
+
+- We need to know how many points YOUR strategy is worth when it goes up against each of the other strategies
+
+- I will ask you to test your strategy against each of the others 10x and record the result on the board
+
+- You should also test your strategy against itself!
+
+<br>
+
+**Big picture, does what I'm asking you to do make sense?**
+
+- You don't need to record the points "won" by the other group
+
+- **Mixed group, I will ask you to cooperate in round 1 and then alternate defect and cooperate each round after that**
+
+<br>
+
+**Questions?**
+
+- Get to work!
+
+<br>
+
+*Results table at bottom so you can check their work as they go*
+
+<br>
+
+*When everyone is done have each group analyze their results BEFORE reporting back*
+
+- **SLIDE**: Before you report back, let me ask for some specific analyses!
+
+<br>
+
+*NOTES*
+
+```{r, echo=FALSE}
+tab1 <- tibble(
+  You = c("Cooperate", "Defect", "Grim Trigger", "Tit for Tat", "Mixed"),
+  All_Coop = c(20, 40, 20, 20, 30),
+  All_Def = c(-60, -10, -15, -15, -35),
+  GT = c(20, -5, 20, 20, -22),
+  TT = c(20, -5, 20, 20, -2),
+  Mixed = c(-20, 15, 8, -12, 5)
+)
+
+tab1 |>
+  kbl(col.names = c("Strategy", "Cooperate", "Defect", "Grim Trigger", "Tit for Tat", "Mixed"), align = c("l", rep("c", 6))) |>
+  kable_styling(bootstrap_options = c("striped", "hover"), font_size = 35)
+```
+:::
+
+
+
+## Prisoner's Dilemma Strategies {background-image="Images/background-worldmap4.png" .center}
+
+<br>
+
+::: {.r-fit-text}
+
+For your strategy:
+
+1. Who do you want to play against (positive outcomes)?
+
+2. Who do you want to avoid (negative outcomes)?
+
+3. How many types give you a positive return?
+
+4. Best and worst case results?
+
+:::
+
+::: notes
+
+Groups, get ready to report back your findings on these four questions.
+
+- Go!
+
+<br>
+
+*ON BOARD: Track how often each strategy is mentioned as worth challenging or avoiding in the analyses*
+
+- *Rows: Cooperate, Defect, Grim, Tit for Tat, Mixed 50%*
+
+- *Cols: Good partners vs Avoid them*
+
+<br>
+
+*PRESENT and DISCUSS each*
+
+<br>
+
+**SLIDE**: Overall table and discussion
+
+<br>
+
+*NOTES*
+
+**Results Table**
+
+```{r, echo=FALSE}
+tab1 <- tibble(
+  You = c("Cooperate", "Defect", "Grim Trigger", "Tit for Tat", "Mixed (50%)"),
+  All_Coop = c(20, 40, 20, 20, 30),
+  All_Def = c(-60, -10, -15, -15, -35),
+  GT = c(20, -5, 20, 20, -22),
+  TT = c(20, -5, 20, 20, -2),
+  Mixed = c(-20, 15, 8, -12, 5)
+)
+
+tab1 |>
+  kbl(col.names = c("Strategy", "Cooperate", "Defect", "Grim Trigger", "Tit for Tat", "Mixed"), align = c("l", rep("c", 6))) |>
+  kable_styling(bootstrap_options = c("striped", "hover"), font_size = 35)
+```
+
+**Play vs Avoid Table**
+
+- Strategy, Play vs Avoid
+- Cooperate, 5 vs 0
+- Defect, 0 vs 5
+- Grim, 3 vs 2
+- TT, 3 vs 2
+- Mixed, 3 vs 2
+
+:::
+
+
+
+
+## {background-image="Images/background-worldmap4.png" .center}
+
+```{r}
+tab2 <- tab1 |>
+  mutate(
+    #Average = c(-4, 7, 10.6, 6.6, -4.8),
+    Minimum = c(-60, -10, -15, -15, -35),
+    Maximum = c(20, 40, 20, 20, 30),
+    Positive = c(3, 2, 4, 3, 2)
+  )
+
+tab2 |>
+  kbl(col.names = c("Strategy", "Cooperate", "Defect", "Grim Trigger", "Tit for Tat", "Mixed (50%)", "Minimum", "Maximum", "Positive"), align = c("l", rep("c", 8))) |>
+  kable_styling(bootstrap_options = c("striped", "hover"), font_size = 23) |>
+  add_header_above(c("", "Opponent's Strategy"= 5, "Results" = 3)) |>
+  column_spec(1, background = "lightgrey") |>
+  column_spec(2:6, background = "lightyellow") |>
+  column_spec(7:9, background = "orange")
+
+```
+
+::: notes
+
+Note: I implemented the "mixed" strategy here by simply flipping from co-op to defect each round
+
+- Not actually a random choice here...
+
+<br>
+
+**Groups, what is the minimum, the maximum and the mean result across the five strategies for you?**
+
+<br>
+
+**Ok, where do we end up?**
+
+- **Which is your best strategy if you don't know the "type" of your opponent?**
+
+<br>
+
+**Could we mix any of these strategies to make them more effective?**
+
+- **e.g. lengthen the punishment of tit for tat?**
+
+
+<br>
+
+**SLIDE**: Let's take these simulations into the real world!
+:::
+
+
+
+## {background-image="Images/10_1-Russia_out_G8.jpg"}
+
+<p style="color: white;">**Smale and Shear (2014)**</p>
+
+::: notes
+
+Smale, Alison and Shear, Michael D. (2014, Mar 24). [Russia Is Ousted From Group of 8 by U.S. and Allies](https://www.nytimes.com/2014/03/25/world/europe/obama-russia-crimea.html). *The New York Times*. Section A, Page 1 of the New York edition.
+
+<br>
+
+For pre-class today I asked each of you to analyze the events in the Smale and Shear article using the PD model
+
+- Assignment prompt: Use the interests, institutions and interactions of a Prisoner's Dilemma to explain the events in Smale and Shear (2014). (2+ sentences)
+
+<br>
+
+Discuss the event with your group and get ready to report back to me
+
+- **Is the PD model a useful way of explaining this event? Why or why not?**
+
+<br>
+
+**In what ways does this event match the assumptions of the PD theory?**
+
+- Rational actors pursuing gains?
+
+- No restrictions on choosing defect or cooperate?
+
+- High uncertainty (e.g. simultaneous decisions, unknown time horizons)?
+
+- Benefits depend on choices of all actors?
+
+- Biggest rewards for short-term defection OR long-term cooperation?
+
+- A risk averse actor’s dominant strategy is to defect?
+
+<br>
+
+**What strategies are being attempted here by each set of actors?**
+
+<br>
+
+**Did this act work to change Russian behavior? Why or why not?**
+
+<br>
+
+**Was this the right strategy given the features of this PD structure? Why or why not?**
+
+<br>
+
+**SLIDE**: Article 2 from canvas assignment
+
+:::
+
+
+## {background-image="Images/background-worldmap4.png"}
+
+::: {.r-fit-text}
+**Shkrum, Natalukha & Vasylenko (2023)**
+:::
+
+```{r, fig.align='center'}
+knitr::include_graphics("Images/10_1-UN_Resolution.png")
+```
+
+::: notes
+
+Shkrum, A, Natalukha, D. and Vasylenko, L. (2023, Feb 23). [Russia Doesn’t Belong in the United Nations](https://time.com/6256488/russia-united-nations-security-council-undeserved-seat/). *Time*.
+
+<br>
+
+Let's jump to the second international political event
+
+- Discuss the Shkrum, Natalukha and Vasylenko article with your group and get ready to report back to me
+
+- **Is the PD model a useful way of explaining this event? Why or why not?**
+
+<br>
+
+**At this point, should the world escalate its punishment strategy by kicking Russia out of the UN? Why or why not?**
+
+<br>
+
+**SLIDE**: Assignment for next class
+
+:::
+
+
+
+
+## Assignment for Next Class  {background-image="Images/background-worldmap4.png" .center}
+
+<br>
+
+Is the world free-riding on US contributions to the United Nations?
+
+1. Council on Foreign Relations Editors (2023, Mar 13)
+
+2. Bolton (2017)
+
+3. Martin (2017)
+
+::: notes
+Next class we explore a real-world collective action problem
+
+- Is the world free-riding on US contributions to the United Nations?
+
+- If so, what should we do about it?
+:::
+
+
+
+
+## Slides for other terms
+
+## Assignment for Next Class  {background-image="Images/background-worldmap4.png" .center}
+
+<br>
+
+::: {.r-fit-text}
+Writing Workshop
+:::
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

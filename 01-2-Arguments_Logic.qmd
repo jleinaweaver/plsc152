@@ -1,0 +1,784 @@
+---
+format: revealjs
+---
+
+## Today's Agenda {background-image="Images/background-worldmap4.png" .center}
+
+```{r}
+# background-size="1920px 1080px"
+library(tidyverse)
+library(readxl)
+```
+
+<br>
+
+::: {.r-fit-text}
+
+**I. Arguments, Evidence and International Relations**
+
+1. The elements of effective arguments
+    
+2. Evaluating our examples
+
+:::
+
+<br>
+
+::: r-stack
+Justin Leinaweaver (Spring 2026)
+:::
+
+::: notes
+Prep for Class
+
+1. Review Canvas submissions
+
+2. Readings
+    - Labossiere (2008) on the logic of arguments
+    - [Kramer (2025)](https://www.nytimes.com/2025/07/04/opinion/iran-israel-arrests.html) on Iran cracking down on dissent
+    - [Van Reybrouck (2025)](https://www.theguardian.com/commentisfree/2025/jun/28/world-age-old-ruthless-patriarchs-global-order) on the gerontocracy
+
+<br>
+
+Welcome back all!
+
+<br>
+
+**Before we dive in, any questions on the syllabus?**
+
+- Attendance cliff?
+
+- Participation assignments?
+
+- etc?
+:::
+
+
+## Unpacking an Argument {background-image="Images/background-worldmap4.png"  .center}
+
+![](Images/01_1-woman-desk-paperwork.webp){style="display: block; margin: 0 auto"}
+
+::: notes
+**Before we talk about the arguments themselves, how did the task go for you?**
+
+- **How often have you been asked to do this kind of exercise before?**
+
+<br>
+
+**SLIDE**: Let's start by talking about the quality of an argument.
+:::
+
+
+
+## {background-image="Images/01_2-Girl_yells_yak.jpg"  .center}
+
+::: notes
+
+Bad arguments are everywhere and are common in the political arena.
+
+- In fact, when you say "politics" I think many people's minds go to something like this.
+
+- Clearly this is not what we aspire to.
+
+<br>
+
+**How do you, personally, judge whether an argument is "good" or "bad"?**
+
+- **In other words, in your mind what are the characteristics of a good argument?**
+
+<br>
+
+In academic terms, our definition of a good argument tends to focus on whether it convinces you of its thesis
+
+- **What is a thesis?**
+
+    - (The central idea of your argument.)
+    
+    - The thing you want people to take away from it.
+
+<br>
+
+**When was the last time in your life someone changed your mind about something with an argument? Examples?**
+
+<br>
+
+**How specifically did they do it? Certain strategies employed?**
+
+<br>
+
+While being "convincing" is the goal, that's also a subjective test of quality.
+
+- In academia we have developed criteria that we argue are necessary for an argument to be convincing.
+
+:::
+ 
+
+## To be convincing an argument should be logical, clear, credible and critical {background-image="Images/background-worldmap4.png" .center}
+
+::: notes
+
+For the important arguments in our lives, concerning the issues we care most about, people demand you put in some serious work to shift their position.
+
+<br>
+
+Let's talk through each of these elements.
+
+- FYI this is the rubric I use when grading argument papers in my classes.
+:::
+
+
+## To be convincing an argument should be logical, clear, credible and critical {background-image="Images/background-worldmap4.png" .center}
+
+::: {.incremental}
+- **Logical** arguments support their conclusion with well specified premises.
+
+- **Clear** arguments are easy to read & understand.
+
+- **Credible** arguments use high quality evidence and citations.
+
+- **Critical** arguments acknowledge the limitations of evidence and address counter-arguments.
+:::
+
+::: notes
+
+The rubric is in the syllabus so you can consult it as you write and revise for this class.
+
+- The key is, a convincing academic argument must do ALL FOUR OF THESE THINGS well.
+
+<br>
+
+**What questions do you have about this rubric?**
+
+- **Which elements need more explanation?**
+
+<br>
+
+During the course of the semester we will spend time exploring each of these criteria.
+
+- For today our focus is primarily on logic and clarity.
+:::
+
+
+
+## Argument Basics: Logic {background-image="Images/background-worldmap4.png" .center}
+
+<br>
+
+![](Images/01_2-Labossiere-header.png){style="display: block; margin: 0 auto"}
+
+::: {.incremental}
+- Conclusion
+
+- Premise
+
+- Inductive Arguments
+:::
+
+::: notes
+I want to use the Labossiere reading to highlight the key components of a high quality argument.
+
+- Again, these are the elements you will need to write papers and make arguments in this class.
+
+<br>
+
+**REVEAL: According to Labossiere (2008), what is the conclusion of an argument?**
+
++ (This is the main point of the argument, e.g. the thesis or key takeaway)
+
+<br>
+
+**REVEAL: According to Labossiere (2008), what is a premise?**
+
++ (A premise is a claim given as evidence or a reason for accepting the conclusion.)
+
+- So, the basic structure of every logical argument is a series of premises that support a conclusion.
+
+<br>
+
+REVEAL: Induction represents how we think about the quality of the connection between our premises and our conclusion.
+
+- In this class, and throughout the social sciences, we tend to rely on inductive reasoning.
+
+- This is a form of reasoning that moves from the specific to the general
+
+- e.g. An argument that provides a series of empirical observations that all support a more general conclusion
+    
+<br>
+
+**SLIDE**: Let's look at some examples
+:::
+
+
+
+## Inductive Arguments {background-image="Images/background-worldmap4.png" .center}
+
+**From the Specific to the General**
+
+<br>
+
+- Premise 1
+
+- Premise 2
+
+- Premise 3
+
+Conclusion
+
+::: notes
+
+This is the structure we'll use for diagramming the logic of an argument in this class
+
+- A series of premises listed as bullets leading to a conclusion
+
+<br>
+
+**SLIDE**: Inductive example 1
+
+:::
+
+
+
+
+## Inductive Arguments {background-image="Images/background-worldmap4.png" .center}
+
+**From the Specific to the General**
+
+<br>
+
+- Every cat that you've observed purrs.
+
+Therefore, all cats purr.
+
+::: notes
+
+The premise comes from your specific experience.
+
+- All the cats you've seen have purred
+
+- Premises don't just have to be based on your experience, but this is how most reasoning you do day-to-day happens
+
+<br>
+
+The conclusion is you drawing an inference about the wider population from those experiences
+
+- Assuming the cats you've seen represent all the cats in the world, then you reach this inductive conclusion
+
+<br>
+
+**Make sense?**
+
+<br>
+
+**SLIDE**: Example 2
+
+:::
+
+
+
+## Inductive Arguments {background-image="Images/background-worldmap4.png" .center}
+
+**From the Specific to the General**
+
+<br>
+
+- All the children in this daycare center like to play with Lego. 
+
+Therefore, all children like to play with Lego.
+
+::: notes
+
+Again, we build the argument using a specific premise and use it to support a general, or broader, conclusion.
+
+<br>
+
+**Does everyone see how each of these arguments build from a specific premise to a general conclusion?**
+
+- Inductive arguments use specific premises to support a more general conclusion
+
+- Inductive arguments often make claims about the future based on the way things have typically happened in the past
+
+<br>
+
+**SLIDE** Strength of an inductive argument
+
+:::
+
+
+
+## {background-image="Images/background-worldmap4.png" .center}
+
+::: {.r-fit-text}
+**The Quality of Inductive Arguments: Weak to Strong**
+:::
+
+<br>
+
+- Every cat that you've observed purrs. 
+
+Therefore, all cats must purr.
+
+<br>
+
+- All the children in this daycare center like to play with Lego. 
+
+Therefore, all children like to play with Lego.
+
+::: notes
+
+Inductive arguments can also be classified along a continuum of weak to strong.
+
+<br>
+
+A "strong" inductive argument "succeeds in having its conclusion be probably true, given the truth of the premises" ([Critical thinking book](https://iu.pressbooks.pub/shockeyphilp102summer/chapter/inductive-arguments/)).
+
+- In other words, if we assume these premises are true is the conclusion more likely to be true.
+
+<br>
+
+**Are all of these "strong" inductive arguments? Why or why not?**
+
+- (**SLIDE**: Could be stronger with probabilistic language!)
+
+:::
+
+
+
+## {background-image="Images/background-worldmap4.png" .center}
+
+::: {.r-fit-text}
+**The Quality of Inductive Arguments: Weak to Strong**
+:::
+
+<br>
+
+- Every cat that you've observed purrs. 
+
+Therefore, ~~all~~ **most** cats **likely** purr.
+
+<br>
+
+- All the children in this daycare center like to play with Lego. 
+
+Therefore, ~~all~~ **most** children **probably** like to play with Lego.
+
+::: notes
+
+**Does everybody understand why these are stronger inductive arguments?**
+
+<br>
+
+Our premises in the social sciences can NEVER definitively prove something
+
+1. We build from evidence which means our arguments can always get stronger, and
+
+2. Human behavior is probabilistic, not deterministic
+
+    - Our theories focus on human tendencies not hard and fast rules
+    
+<br>
+
+Put these elements together and this means that our conclusions are ALWAYS uncertain
+
+<br>
+
+Keep in mind: strong inductive arguments DOES NOT MEAN convincing!
+
+- You're making an educated or informed guess based on the information or data that you have.
+
+- No amount of supporting observations can EVER prove an inductive argument.
+
+    - It's all about strength of the argument, never certainty
+    
+:::
+
+
+
+
+## To be convincing an argument should be logical, clear, credible and critical {background-image="Images/background-worldmap4.png" .center}
+
+<br>
+
+::: {.r-fit-text}
+
+The Components of a Logical Argument:
+
++ Conclusion
+
++ Premise(s)
+
++ Inductive Reasoning (in this class)
+:::
+
+::: notes
+
+So, this represents the crux of the "logic" portion of our class writing rubric.
+
+<br>
+
+The arguments you make in this class must be logical and that means they are:
+
+- Designed to advance a single, clear conclusion,
+
+- Built upon clear, well supported premises, and
+
+- Inductively strong.
+
+<br>
+
+**Questions on any of this?**
+
+<br>
+
+**SLIDE**: Let's apply these elements to the arguments I had you evaluate before class.
+:::
+
+
+## {background-image="Images/background-worldmap4.png" .center}
+
+![](Images/01_2-Kramer2025.png){style="display: block; margin: 0 auto"}
+
+::: notes
+
+Ok, the first argument we need to evaluate was written by Karen Kramer. [Bio](https://iranhumanrights.org/bio-karen-kramer/)
+
+- Ms. Kramer is deputy director of the Center for Human Rights in Iran.
+
+- She has previously taught Middle East politics, acted as a private consultant and served as executive editor of the MidEast Report
+
+<br>
+
+**ALWAYS important to think about who is making the argument and what motivates them!**
+
+<br>
+
+**Before digging into the argument itself, anything about this source we should keep in mind? Any concerns?**
+:::
+
+
+
+## {background-image="Images/background-worldmap4.png"}
+
+::: {.r-fit-text}
+What is the conclusion of this argument?
+:::
+
+![](Images/01_2-Kramer2025.png){style="display: block; margin: 0 auto"}
+
+::: notes
+
+Let's start by identifying the central conclusion in the argument.
+
+<br>
+
+**So, what's the conclusion of the argument?**
+
+- **What is she trying to convince us to do?**
+
+- (**SLIDE**)
+:::
+
+
+
+
+## {background-image="Images/background-worldmap4.png"}
+
+![](Images/01_2-Kramer2025.png){style="display: block; margin: 0 auto"}
+
+Therefore, the international community must immediately respond to the crackdown on dissent by Iran's government.
+
+::: notes
+
+This represents my summary of the central argument here.
+
+<br>
+
+**Everybody ok with using this as our target?**
+
+- **Any tweaks needed?**
+
+<br>
+
+Take a few minutes on your own to identify the THREE most important premises in the article.
+
+- Try to think about this from a 30,000 foot view
+- What are the big reasons he gives to support the conclusion?
+- Each paragraph in the argument either reveals a premise or explains and supports a premise.
+- Your first job is to find the premises.
+
+<br>
+
+**Questions?**
+
+Let's get to it!
+
+<br>
+
+Compare your list of premises to the person next to you.
+
+<br>
+
+Alright, let's get ideas up *ON THE BOARD*
+
+- *Call on people, chance to learn names*
+
+- **SLIDE**: My version
+
+<br>
+
+**Notes**
+
+- The current "crackdown" against dissent by the Iranian government violates many human rights
+    - Examples: No due process, no legal counsel, sham trials, targeting religious minorities, targeting ethnic minorities
+- Iran's parliament is now moving to "equate online activism and information sharing with terrorism and treason"
+    - "Anyone accused of undermining national security or sharing content with foreign media could face life imprisonment or death."
+- If the international community doesn't act then we are "[validating] the regime's strategy" and preventing the creation of a free Iran
+- The US has the leverage to act and tools to use: Sanctions, diplomatic isolation, pressure at the UN, universal jurisdiction to prosecute public officials
+- Therefore, the international community must immediately respond to the crackdown on dissent by Iran's government.
+:::
+
+
+
+## {background-image="Images/background-worldmap4.png" .center}
+
+- The Iranian government is attacking its own peoples' human rights
+
+- The Iranian parliament is about to make activism and information sharing terrorism / treason
+
+- If the Iranian government succeeds then they will have killed the roots of a free, future Iran
+
+- The US has the leverage to act and the international community has many tools available
+
+Therefore, the international community must immediately respond to the crackdown on dissent by Iran's government.
+
+::: notes
+**Per the rubric, are these premises clear?**
+
+**Is the argument inductively logical? Why or why not?**
+
+<br>
+
+Let's talk evidence.
+
+**What evidence does the author provide to support the first premise?**
+
+- **Is it high quality and cited appropriately?**
+
+*Repeat for each additional premise*
+
+<br>
+
+The final element of the rubric is critical analysis.
+
+**Is there any critical analysis in the argument (e.g. counter-arguments or acknowledging limitations in evidence)?**
+
+<br>
+
+Ok let's talk.
+
+**Are you convinced by this argument? Why or why not?**
+
+<br>
+
+**Any questions on the procedure for diagramming and evaluating an academic argument?**
+
+- **SLIDE**: Let's practice this again!
+:::
+
+
+
+## {background-image="Images/background-worldmap4.png" .center}
+
+![](Images/01_2-VanReybrouck.png){style="display: block; margin: 0 auto"}
+
+::: notes
+
+Our second argument comes from David Van Reybrouck, a philosopher and historian
+
+- Much published author and the official philosopher laureate of the Netherlands
+
+<br>
+
+**Before digging into the argument itself, anything about this source or type of source we should keep in mind?**
+
+- **Any concerns?**
+
+:::
+
+
+## {background-image="Images/background-worldmap4.png" .center}
+
+![](Images/01_2-VanReybrouck.png){style="display: block; margin: 0 auto"}
+
+::: {.r-fit-text}
+What is the **conclusion** in this argument?
+:::
+
+::: notes
+
+Just as we did before, let's start by identifying the conclusion.
+
+<br>
+
+**What is the conclusion to this argument?**
+
+- **What is he trying to convince us to believe?**
+:::
+
+
+## {background-image="Images/background-worldmap4.png" .center}
+
+![](Images/01_2-VanReybrouck.png){style="display: block; margin: 0 auto"}
+
+::: {.r-fit-text}
+Therefore, the world must do something about our gerontocracy 
+:::
+
+::: notes
+
+**Everybody ok with using this as our target?**
+
+- **Any tweaks needed or requested?**
+
+- (Gerontocracy: government based on rule by old people)
+
+<br>
+
+Alright, 30,000 foot view.
+
+**What are the key premises in this argument?**
+
+- *if enough time have them work on their own or in pairs first.*
+
+- *ON BOARD*
+
+<br>
+
+**SLIDE**: My version
+
+**Notes**
+
+- Leaders around the world are getting very, very old
+    - US, Russia, China, India, Israel, Iran, Turkey, Cameroon
+- As they age, these leaders have been more willing to do anything to tighten their grips on power
+    - Repression, violence, genocide, ecocide and contempt for international law
+- These leaders appear dismissive of the "rules-based international order" and will not live to see the harms they will breed (and do not care)
+    - Trump bullies NATO, Putin invades Ukraine, Netanyahu's "war" in Gaza, Xi's pressure on Taiwan
+- Nelson Mandela gave us a better model for the positive role an aging leader can have by relinquishing power
+- Therefore, the world must do something about our gerontocracy 
+
+:::
+
+
+
+## {background-image="Images/background-worldmap4.png" .center}
+
+- Leaders around the world are getting very, very old
+- These older leaders have been willing to do anything to tighten their grips on power
+- These older leaders will not live to see the harms they are doing come to fruition (and they don't seem to care)
+- Nelson Mandela gave us a better model for the positive role an aging leader can have by relinquishing power
+
+Therefore, the world must do something about our gerontocracy 
+
+::: notes
+
+**Per the rubric, are these premises clear?**
+
+<br>
+
+**Is the argument inductively logical? Why or why not?**
+
+<br>
+
+**What high quality evidence does the author provide to support each premise?**
+
+<br>
+
+**Is there any critical analysis in the argument (e.g. counter-arguments or acknowledging limitations in evidence)?**
+
+<br>
+
+Ok let's talk.
+
+**Are you convinced by this argument? Why or why not?**
+
+<br>
+
+We'll be doing this kind of exercise a LOT this semester so you'll get plenty of practice at it!
+
+- **Any questions on the procedure for diagramming and evaluating an academic argument?**
+:::
+
+
+
+## {background-image="Images/01_2-globe_and_lights.jpg"}
+
+::: notes
+
+Our job over the next three classes is to lay the foundations we need to study international relations this semester.
+
+- That will mean defining our key concepts, 
+
+- discussing the "science" in political science, and 
+
+- exploring the use of models for explaining events.
+
+<br>
+
+For next class we start by trying to define the most important concepts of our semester.
+
+- What are these "international political events" we are trying to explain?
+
+- In other words, what are we doing here?
+:::
+
+
+
+## For Next Class {background-image="Images/background-worldmap4.png" .center}
+
+<br>
+
+### Case Study:
+
+- Find and submit a recent "international political event"
+
+- Details on Canvas
+
+::: notes
+
+**Check the syllabus and Canvas modules and report back!**
+
+<br>
+
+Find a recent "international political event" described in the news. 
+- No overlapping events! First-come, first-served! 
+
+1. An APA citation for your source 
+
+2. Explain why this event is "international" (at least 1-2 sentences) 
+
+3. Explain why this event is "political" (at least 1-2 sentences) 
+
+4. Explain why this event is "specific" (at least 1-2 sentences).
+
+
+<br>
+
+**Has anybody ever used APA formatting for references and citations before?**
+
+That's what we'll be using in this class (and all the social sciences).
+
+- If you're not sure how, follow the link to the Purdue OWL in the syllabus!
+
+<br>
+
+Submit your chosen event to Canvas before class.
+
+- Answer must be specific and at least 2 complete sentences
+
+- NO OVERLAP!
+
+<br>
+
+**Questions?**
+
+:::

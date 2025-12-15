@@ -1,0 +1,878 @@
+---
+format: revealjs
+---
+
+
+
+## Today's Agenda {background-image="Images/background-worldmap4.png" .center}
+
+
+
+```{r}
+# background-size="1920px 1080px"
+library(tidyverse)
+library(readxl)
+library(kableExtra)
+```
+
+
+
+<br>
+
+**IV. What is the Future of Transnational Politics and IR?**
+
+- Krain (2012) on naming and shaming "bad" states
+
+<br>
+
+<br>
+
+::: r-stack
+Justin Leinaweaver (Spring 2026)
+:::
+
+::: notes
+Prep for Class
+
+1. Review Canvas submissions
+
+<br>
+
+**DISCUSS: Name me an international political event that has happened since we last met as a class.**
+
+<br>
+
+So, pertinent to the Krain paper we had an interesting dynamic play out in the media last year that I want to highlight.
+:::
+
+
+
+## {background-image="Images/background-worldmap4.png" .center}
+
+
+
+:::: {.columns}
+::: {.column width="40%"}
+
+
+```{r, fig.retina=3, fig.align='right', out.width='100%'}
+knitr::include_graphics("Images/15_3-Post_Article.png")
+```
+
+
+:::
+
+::: {.column width="60%"}
+
+
+```{r, fig.retina=3, fig.align='right', out.width='100%'}
+knitr::include_graphics("Images/15_3-Post_Article2.png")
+```
+
+
+:::
+::::
+
+::: notes
+Shortly after taking control of Afghanistan the Taliban proceeded to hunt down and kill anyone they suspected of having collaborated with the Americans or the former government.
+
+<br>
+
+### Out of curiosity, and relevant to the Krain article, do we count this newspaper report as a "win" for human rights watch? Why or why not?
+
+*DISCUSS*
+:::
+
+
+
+## {background-image="Images/background-worldmap4.png" .center}
+
+:::: {.columns}
+
+::: {.column width="50%"}
+
+
+```{r, fig.retina=3, fig.align='right', out.width='100%'}
+knitr::include_graphics("Images/15_3-NYT_UN.png")
+```
+
+
+:::
+
+::: {.column width="50%"}
+
+
+```{r, fig.retina=3, fig.align='right', out.width='100%'}
+knitr::include_graphics("Images/15_3-NYT_UN2.png")
+```
+
+
+:::
+::::
+
+::: notes
+Days later we saw big announcements come out of the UN General Assembly.
+
+### One hell of a coincidence, no?
+
+<br>
+
+### What evidence would you need to see to convince you that these two events are connected?
+
+#### - That Human Rights Watch succeeded in stopping the UN from recognizing the Taliban?
+
+*DISCUSS*
+
+<br>
+
+Bringing this forward in time:
+
+1. As of Dec 2023 the United Nations Credentials Committee had postponed the decision on handing over Afghanistan’s seat in the UN to the Taliban THREE times [LINK](https://www.afintl.com/en/202312197990)
+
+2. As of May 2024 "Afghanistan has lost its voting rights in the General Assembly due to unpaid membership dues and failure to provide reasonable explanations for the non-payment" [LINK](https://amu.tv/97702/)
+
+:::
+
+
+
+## {background-image="Images/15_2-krain_header.png" background-size='85%'}
+
+::: notes
+
+This week we've been exploring research by Matt Krain (2012).
+
+### What is the research question in the paper?
+(Does "naming and shaming" reduce the severity of genocide and politicides?)
+
+<br>
+
+### And what's the difference between genocide and politicide?
+(Both are mass killings, one targeting a "communal" group, the other political enemies)
+:::
+
+
+
+## {background-image="Images/background-worldmap4.png" .center .smaller}
+
+**Interests**
+
++ Leaders of states care about their reputations and legitimacy
++ NGOs / IOs want less genocide / politicide
+
+**Institutions**
+
++ Global norm: Genocide / Politicide is not legitimate
+
+**Interactions**, Naming and Shaming (N&S):
+
++ Exposes the crimes (public not private)
++ Raises the profile of the crimes (global not domestic)
++ May change perpetrators' self-perceptions
++ Activates bystanders
++ Encourages state sanctions
++ May cost the perpetrator state access to aid or trade
+
+::: notes
+
+Here are the interests, institutions and interactions we identified on Wednesday.
+
+### How convincing do you find these mechanisms in terms of their logic?
+
+#### - Are they sufficiently clear?
+
+#### - Do they connect sufficiently to the decision-making of the bad leader?
+
+<br>
+
+### Remind me also, how does this represent a test of the Constructivist model of politics?
+1. (The power of discourse!) AND
+2. (The importance of identity and your inability to control how others assign that identity to you)
+
+<br>
+
+### Ok, what are the big conclusions raised at the end of this paper?
+:::
+
+
+
+## Make an Argument {background-image="Images/background-worldmap4.png" .center}
+
+**Based on the data and methods used here do we have high, low or no confidence in each of these conclusions?**
+
+"The results suggest that naming and shaming by...
+
+1. NGOs
+2. the Northern media
+3. IOs
+
+...all have significant ameliorative effects on the severity of the most extreme atrocities" (14).
+
+::: notes
+
+We'll need to keep in mind that the answers to this question about our confidence may depend on which of the mechanisms we are focused on.
+
+- We may find that the argument about NGOs, the media or IOs is more convincing than the others.
+
+<br>
+
+Let's evaluate the analyses in order to clarify the conclusions and figure out how confident we are in them.
+
+- *Split class into small groups (3-4)*
+
+- Go sit with your group!
+:::
+
+
+## Krain (2012): Cases {background-image="Images/background-worldmap4.png" .center}
+
+
+
+```{r, fig.retina=3, fig.align='center', out.width='80%'}
+knitr::include_graphics("Images/15_3-Table1.png")
+```
+
+
+
+**Focus on footnote 7 (p578)**
+
+::: notes
+Let's start by trying to understand the case selection in the paper.
+
+- Groups, how did Krain select the cases to study? And what does "ongoing" mean in footnote 7?
+
+<br>
+
+*Report Back*
+
+<br>
+
+"Ongoing" means the genocide has begun.
+
+- This is not meant to be a test of whether N&S can prevent a genocide from beginning.
+
+<br>
+
+Also, seems to imply that we are supposed to ignore cases that wrapped up in less than a year.
+
+### What is the effect of eliminating short genocides from the paper? Why do this?
+
+<br>
+
+Makes sense if data analysis is year to year change BUT
+
+- Long genocides likely to invoke many, many different interests and pressures. Hard to isolate a press release, no?
+
+<br>
+
+### Assuming this is the "correct" list, are we confident the Table 1 list presents an equal test of the media, AI and the UNCHR?
+
+- Selection bias possible: Big variation in attention paid by "northern" media to different countries around the world, right?
+:::
+
+
+
+## Krain (2012): Outcome {background-image="Images/background-worldmap4.png" .center}
+
+
+
+```{r, fig.retina=3, fig.align='center', out.width='92%'}
+knitr::include_graphics("Images/15_3-Table2.png")
+```
+
+
+
+::: notes
+
+Table 2 summarizes how Krain measures the key outcome variable in this paper
+
+- e.g. the magnitude and severity of a genocide/politicide
+
+<br>
+
+Groups, discuss the strengths and weaknesses of measuring genocide in these 10 levels
+
+- Get ready to report back your findings.
+
+<br>
+
+*Report Back*
+
+<br>
+
+This is the variation the paper aims to explain.
+
+### Let's get it out of the way first, why not just use the actual numbers?
+(We simply don't know that precisely.)
+
+- Great uncertainty at the super-specific level
+
+<br>
+
+### Ok, groups, how does the operationalization and measurement of the outcome variable impact your level of confidence in the conclusion?
+
+(Problems identified:)
+
+1. Takes way more killings to move to the highest levels than to move across the low levels. Intervals not consistent.
+
+2. If not per capita (and Pakistan / Indonesia have way bigger populations) than this might not be an equal test across the cases.
+
+- Small number of deaths in a huge vs small state carries different seriousness, no?
+
+<br>
+
+### Do these specific grouping choices make it harder to identify small, but meaningful, effects?
+#### - To the disadvantage of one of our actors more than the others?
+:::
+
+
+
+## Krain (2012): Predictors {background-image="Images/background-worldmap4.png"}
+
+
+
+```{r, fig.align='center'}
+knitr::include_graphics("Images/15_3-key_predictors.png")
+```
+
+
+
+::: notes
+
+Ok, groups, same question applied to the operationalization and measurement of the key predictor variables.
+
+- Get ready to report back on these five measures
+
+- Do these do a "good" job measuring "naming and shaming"? Why or why not?
+
+<br>
+
+*Report Back*
+
+### Strengths and weaknesses here?
+:::
+
+
+
+## {background-image="Images/15_3-Appendix.png" background-size='88%'}
+
+::: notes
+
+As we've noted before, the descriptive statistics in the appendix are a useful way to think about how the world looks in this analysis.
+
+### Does everybody remember what the "mean" tells you?
+
+### What about the minimum and maximum?
+
+<br>
+
+### Based on the descriptive statistics, tell me about how the world looks in this sample.
+
+<br>
+
+#### - How brutal is the average abuse? 
+
+#### - How much media coverage? 
+- (Super low, .67 articles in a given 12 months)
+
+#### - How many AI reports get released on average? 
+- (6.49)
+
+#### - What proportion of cases are targeted by the UNCHR? 
+- (55% Politics in all things)
+
+#### - What proportion of cases are during the cold war? 
+- (79%)
+
+#### - Tell me about the breakdown of interventions: pro-perpetrator vs anti-perpetrator vs impartial. Does this make sense? 
+- (53% Pro perpetrator!)
+
+<br>
+
+### Does this tell us anything about what life is like in most dictatorships? Why or why not?
+:::
+
+
+
+## {background-image="Images/15_3-regression2.png"}
+
+::: notes
+
+Here are the regression results.
+
+<br>
+
+Don't stress what this represents in statistical terms, but think of it as an attempt to measure the effects while controlling for other important effects.
+
+- e.g. Control for magnitude if you believe that discourse works better or worse for really bad atrocities
+
+- e.g. Control for population if you believe that discourse works better or worse for countries with huge populations
+
+<br>
+
+Key here is that the estimated effect of each form of naming and shaming reduces the severity of ongoing atrocities (on average).
+
+- However, the effect is not significant for AI News Reports
+
+- AND the AI effects in general are super tiny
+
+<br>
+
+**SLIDE**: Tables 5, 6 and 8 give us an easier way to visualize the size of these effects.
+:::
+
+
+
+## {background-image="Images/15_3-Table5.png" background-size='88%'}
+
+::: notes
+
+Let's examine Table 5 together.
+
+- This focuses on naming and shaming efforts by media.
+
+- The columns represent different levels of media attention: no attention, average attention, 1 SD above average and the maximum level of observed attention.
+
+- The rows represent the number of people killed the next year after this naming and shaming has occurred.
+:::
+
+
+
+
+## {background-image="Images/background-worldmap4.png" .center}
+
+:::: {.columns}
+::: {.column width="50%"}
+
+
+```{r}
+knitr::include_graphics("Images/15_3-Krain_Table5_col1.png")
+```
+
+
+:::
+
+::: {.column width="50%"}
+
+
+```{r, fig.align='center', fig.asp=1, fig.width=5, cache=TRUE}
+# Input the data from Table 5
+mags1 <- c("<300", "300-1k", "1k-2k", "2k-4k", "4k-8k", "8k-16k", "16k-32k", "32k-64k", "64k-128k", "128k-256k", ">256k")
+
+# Actual table
+d <- tibble(
+  Magnitude = 0:10,
+  Magnitude_txt = factor(x = mags1, levels = mags1),
+  News_Reports_0 = c(.03,.03,.04,.05,.05,.15,.26,.23,.11,.04,.01),
+  News_Reports_12 = c(.67,.15,.07,.04,.02,.02,.02,.01,.002,.0005,.0002),
+  one_column_var = 1
+)
+
+# long version of the data
+d2 <- d %>%
+  pivot_longer(cols = News_Reports_0:News_Reports_12, names_to = "Reports", values_to = "Value")
+
+# Visualize the no news reports alone
+# bar plot needs to reverse order to match rows in Table 5
+d %>%
+  ggplot(aes(x = Magnitude_txt, y = News_Reports_0)) +
+  geom_col() +
+  coord_flip() +
+  labs(x = "", y = "", title = "Magnitude of Severity (# Killed, No News)") +
+  theme_minimal() +
+  scale_y_continuous(labels = scales::percent_format(accuracy = 1), breaks = seq(0, .3, .1)) +
+  scale_x_discrete(limits = rev(mags1))
+```
+
+
+:::
+::::
+
+::: notes
+
+Let's zoom in here on just the first column.
+
+- These numbers estimate the number of people killed in a state committing human rights violations and receiving no media attention.
+
+- The values are proportions that run from 0 to 1, or 0% to 100%.
+
+- This bar plot helps us visualize the data.
+
+- If you add all these proportions together you get 100%
+
+<br>
+
+### Does everybody understand the numbers in the red box and how those numbers become the bar plot on the side?
+
+<br>
+
+**So, what do we learn from this column of %'s?**
+
+- **In other words, if the media ignores an ongoing genocide / politicide what is the likely number of deaths next year?**
+
+- (Most likely, e.g. the three biggest proportions, is between 8k and 64k deaths!)
+
+- Does everybody see the bulk of this distribution on the medium to high end of the spectrum.
+
+<br>
+
+### So, based on this model of simulated outcomes how serious is any ongoing genocide or politicide likely to be?
+
+- (90% of ignored cases will result in more than 2k dead)
+
+- (75% of ignored cases will see more than 8k killed)
+
+- (Apprx 40% of ignored cases will see more than 32k killed)
+
+### Does that make sense?
+
+<br>
+
+**This model indicates that countries experiencing any degree of genocide or politicide are likely to spiral very rapidly.**
+:::
+
+
+
+## {background-image="Images/15_3-Table5_news.png" background-size='90%'}
+
+::: notes
+
+**So, what happens when we move from zero media attention to the maximum level observed (12 reports)?**
+
+:::
+
+
+
+## {background-image="Images/background-worldmap4.png" .center}
+
+
+
+```{r, fig.align='center', fig.width=9, fig.asp=.45, cache=TRUE}
+# Visualize both
+# histograms
+d2 %>%
+  mutate(
+    Reports = if_else(Reports == "News_Reports_0", "No News Reports", "Twelve News Reports")
+  ) %>%
+  ggplot(aes(x = Magnitude_txt, y = Value)) +
+  geom_col() +
+  facet_wrap(~ Reports) +
+  coord_flip() +
+  labs(x = "", y = "", title = "Magnitude of Severity (# Killed)") +
+  theme_minimal() +
+  scale_y_continuous(labels = scales::percent_format(accuracy = 1), breaks = seq(0, .6, .2))
+```
+
+
+
+::: notes
+
+NOTE! I've reversed the y-axis to make this more logical.
+
+- Moving up the y-axis should mean more killings, not less.
+
+<br>
+
+A striking result!
+- Increases in the number of media reports pushes the cases to the lower ends of the scale in some sizable ways.
+
+<br>
+
+In the "no news reports" cases, most observations between 8k and 64k killed per year.
+- That's an obscene number of deaths.
+
+<br>
+
+
+Shift to the maximum (12 reports) and now 67% of cases below 300 deaths!
+- So many lives apparently saved.
+
+<br>
+
+Now, the minimum to the maximum is probably not the effect we are most interested in.
+
+- It would be hard for an individual or group to convince the entire media to focus on one thing in one way.
+
+<br>
+
+**SLIDE**: However, increasing from one story (the mean) to two stories (mean + 1 sd) might be doable.
+:::
+
+
+
+## {background-image="Images/15_3-Table5-news2.png"  background-size='88%'}
+
+::: notes
+**Does everybody understand how to read this table of percentages?**
+
+- **What is the simulated effect of this smaller, but more realistic, shift?**
+:::
+
+
+## {background-image="Images/background-worldmap4.png" .center}
+
+
+
+```{r, fig.align='center', fig.width=9, fig.asp=.45, cache=TRUE}
+## Table 5 but use mean and mean + 1 sd
+# Actual table
+d3 <- tibble(
+  Magnitude = 0:10,
+  Magnitude_txt = factor(x = mags1, levels = mags1),
+  News_Reports_1 = c(.04,.04,.06,.07,.06,.17,.25,.19,.09,.03,.01),
+  News_Reports_2 = c(.05,.06,.08,.08,.07,.18,.23,.15,.06,.02,.01),
+  one_column_var = 1
+)
+
+# long version of the data
+d4 <- d3 %>%
+  pivot_longer(cols = News_Reports_1:News_Reports_2, names_to = "Reports", values_to = "Value")
+
+# histograms
+d4 %>%
+  mutate(
+    Reports = if_else(Reports == "News_Reports_1", "One News Report", "Two News Reports")
+  ) %>%
+  ggplot(aes(x = Magnitude_txt, y = Value)) +
+  geom_col() +
+  facet_wrap(~ Reports) +
+  coord_flip() +
+  labs(x = "", y = "", title = "Magnitude of Severity (# Killed)") +
+  theme_minimal() +
+  scale_y_continuous(labels = scales::percent_format(accuracy = 1), breaks = seq(0, .25, .05))
+```
+
+
+
+::: notes
+
+A small shift but hard to see this way.
+:::
+
+
+
+## {background-image="Images/background-worldmap4.png" .center}
+
+
+
+```{r, fig.align='center', fig.asp=.618, cache=FALSE}
+# Animate the shift
+library(gganimate)
+
+d4 |>
+  mutate(
+    Reports = if_else(Reports == "News_Reports_1", "One Media Report", "Two Media Reports")
+  ) |>
+  ggplot(aes(x = Magnitude_txt, y = Value)) +
+  geom_col(fill = "darkblue") + #
+  transition_states(Reports) +
+  labs(title = "Magnitude of Severity (# Killed): {closest_state}",
+       x = "", y = "") +
+  coord_flip() +
+  theme_minimal() +
+  scale_y_continuous(labels = scales::percent_format(accuracy = 1), breaks = seq(0, .25, .05))
+```
+
+
+
+::: notes
+**Animated bars**
+
+<br>
+
+Better, right?
+
+### So, according to this model how powerful is media attention for stopping human rights violators?
+
+- An increase of ONE additional news story can have a powerful effect on bad state behavior!
+:::
+
+
+## {background-image="Images/15_3-Table6.png" background-size='90%'}
+
+::: notes
+
+Table 6 focuses on the effect of Amnesty International reports.
+
+### How big is the effect of amnesty reports according to Table 6?
+
+- (**SLIDE**)
+:::
+
+
+
+## {background-image="Images/background-worldmap4.png" .center}
+
+
+
+```{r, fig.align='center', fig.asp=.618, cache=FALSE}
+## Table 6 but use mean and mean + 1 sd
+# Actual table
+d6 <- tibble(
+  Magnitude = 0:10,
+  Magnitude_txt = factor(x = mags1, levels = mags1),
+  News_Reports_1 = c(.0270, .0327, .0478, .0611, .0598, .1560, .2541, .2127, .1025, .0351, .0112),
+  News_Reports_2 = c(.0415, .0487, .0681, .0822, .0756, .1775, .2402, .1655, .0705, .0230, .0072),
+  one_column_var = 1
+)
+
+# long version of the data
+d6a <- d6 %>%
+  pivot_longer(cols = News_Reports_1:News_Reports_2, names_to = "Reports", values_to = "Value")
+
+d6a |>
+  mutate(
+    Reports = if_else(Reports == "News_Reports_1", "6 Amnesty International Reports", "14 Amnesty International Reports")
+  ) |>
+  ggplot(aes(x = Magnitude_txt, y = Value)) +
+  geom_col(fill = "darkblue") +
+  transition_states(Reports) +
+  labs(title = "Magnitude of Severity (# Killed): {closest_state}",
+       x = "", y = "") +
+  coord_flip() +
+  theme_minimal() +
+  scale_y_continuous(labels = scales::percent_format(accuracy = 1), breaks = seq(0, .25, .05))
+
+```
+
+
+
+::: notes
+
+**Animated bars**
+
+<br>
+
+Not as big as media at the extremes, BUT slightly bigger in the middle changes!
+
+- More realistic changes (mean + 1 sd)
+
+<br>
+
+### How confident should we be in these results?
+:::
+
+
+
+## {background-image="Images/15_3-Table8.png" background-size='90%'}
+
+::: notes
+**How big is the effect of the UN Human Rights Council's attention and targeting according to Table 8?**
+
+- (**SLIDE**)
+:::
+
+
+
+## {background-image="Images/background-worldmap4.png" .center}
+
+
+
+```{r, fig.align='center', fig.asp=.618, cache=FALSE}
+## Table 8
+# Actual table
+d8 <- tibble(
+  Magnitude = 0:10,
+  Magnitude_txt = factor(x = mags1, levels = mags1),
+  Not_Targeted = c(.0258, .0353, .0497, .0557, .0475, .1383, .2463, .2341, .1198, .038, .0094),
+  Mild_Sanctions = c(.0421, .0553, .0739, .0776, .0623, .1631, .2378, .1798, .0788, .0234, .0057),
+  Resolution_Passed = c(.0495, .0638, .0833, .0852, .0667, .168, .229, .1617, .068, .0199, .0048),
+  one_column_var = 1
+)
+
+# long version of the data
+d8a <- d8 %>%
+  pivot_longer(cols = Not_Targeted:Resolution_Passed, names_to = "Reports", values_to = "Value")
+
+d8a |>
+  mutate(
+    Reports = case_when(
+      Reports == "Not_Targeted" ~ "(0) Not Targeted",
+      Reports == "Mild_Sanctions" ~ "(3) Mild Sanctions",
+      Reports == "Resolution_Passed" ~ "(4) Resolution Passed"
+    )
+  ) |>
+  ggplot(aes(x = Magnitude_txt, y = Value)) +
+  geom_col(fill = "darkblue") +
+  transition_states(Reports) +
+  labs(title = "Magnitude of Severity (# Killed): {closest_state}",
+       x = "", y = "") +
+  coord_flip() +
+  theme_minimal() +
+  scale_y_continuous(labels = scales::percent_format(accuracy = 1), breaks = seq(0, .25, .05))
+```
+
+
+
+::: notes
+
+**Animated bars**
+
+<br>
+
+**How confident should we be in these results?**
+
+:::
+
+
+
+## Make an Argument {background-image="Images/background-worldmap4.png" .center}
+
+**Based on the data and methods used here do we have high, low or no confidence in each of these conclusions?**
+
+"The results suggest that naming and shaming by...
+
+1. NGOs
+2. the Northern media
+3. IOs
+
+...all have significant ameliorative effects on the severity of the most extreme atrocities" (14).
+
+::: notes
+
+**Ok, bottom line time, how confident are we in Krain's conclusions?**
+
+<br>
+
+### Does this research make you more or less suppportive of the work of groups like Human Rights Watch and Amnesty International?
+
+<br>
+
+### Would you be willing to send them money or support their work in other ways based on this? Why or why not?
+:::
+
+
+## {background-image="Images/12_3-Feminist_Protest.png"}
+
+::: notes
+
+Next week we explore feminist IR which can be oversimplified to mean the interaction of gender and international politics.
+
+- Although, as we'll see, it is so much more than that.
+:::
+
+
+
+## Assignment for Next Class  {background-image="Images/background-worldmap4.png" .center}
+
+<br>
+
+1. Find a current, or recent, international political event that **explicitly deals with issues of gender**
+
+2. **Before class** submit to our Canvas discussion board: 
+    - The APA citation for your evidence, and
+    
+    - A short explanation for why this case illustrates a gender issue in international politics
+
+::: notes
+
+Let's think broadly about this
+
+- Find us something that is motivated by gender, or shows an international impact that differs across the genders
+
+- Please avoid overlap, first-come, first-served.
+
+<br>
+
+### Questions on the assignment?
+:::
+

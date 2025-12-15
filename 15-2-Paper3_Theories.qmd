@@ -1,0 +1,156 @@
+---
+format: revealjs
+---
+
+## Today's Agenda {background-image="Images/background-worldmap4.png" .center}
+
+```{r}
+# background-size="1920px 1080px"
+library(tidyverse)
+library(readxl)
+library(kableExtra)
+```
+
+<br>
+
+::: {.r-fit-text}
+
+**Final Paper Preperations**
+
+- Applying and evaluating the models
+
+:::
+
+<br>
+
+::: r-stack
+Justin Leinaweaver (Spring 2026)
+:::
+
+::: notes
+Prep for Class
+
+1. Review submitted work on Canvas (notes from applying models to the cases)
+
+:::
+
+
+
+
+## Final Exam (Due May 6, 10am) {background-image="Images/background-worldmap4.png" .center}
+
+<br>
+
+Select a **NEW** international political event and make an argument that one of the IR theories / models we’ve studied in class this term “best” explains the event. 
+
+- Your paper must include a counter-argument that applies and evaluates a second theory to the case.
+
+- No double-dipping on realism/liberalism
+
+- At least one theory from the second half of class
+
+- No events used in the prior paper
+
+::: notes
+
+**Questions on the assignment?**
+
+<br>
+
+For today you have each:
+
+1. Broken your event down into its key components: Who is the actor? What is the action they performed that you are explaining?
+
+2. Briefly explained the event using THREE of the theories from class
+
+<br>
+
+Let's get and give feedback!
+
+- *Split class into groups of three*
+
+- Go sit with your group
+
+<br>
+
+By the end of class today you should have:
+
+- An international political event to explain supported by high quality evidence
+
+- A simple explanation of the event using three models of IR, and
+
+- A start on the strengths and weaknesses of each model applied to your event
+
+:::
+
+
+
+
+
+## {background-image="Images/background-worldmap4.png" .center}
+
+::: {.r-fit-text}
+**Focus on one paper at a time (15 mins)**
+:::
+
+1. Is it clear what specific actor and action is being explained?
+
+2. Is each theory applied correctly?
+
+3. Help them decide: Which theory is most useful and why?
+
+::: notes
+
+Focus on each paper for 15 minutes (use all the time!)
+
+- Review their event and their use of the three models to explain it
+
+- Help them brainstorm strengths and weaknesses for each model applied to this event
+
+<br>
+
+**Questions on the assignment?**
+
+- I'll tell you when to move to the next paper
+
+- Go!
+
+:::
+
+
+
+
+## For Friday: Outline {background-image="Images/background-worldmap4.png" .center .smaller}
+
+**Intro**
+
+- What is the question?
+- Why is the question important?
+- Thesis statement: Theory X is most useful because...
+
+**Premise 1: Theory 1 is most useful because... (with evidence)**
+
+**Premise 2: Theory 1 is most useful because... (with evidence)**
+
+**Premise 3: Theory 1 is most useful because... (with evidence)**
+
+**Counter-Argument: Theory 2**
+
+- What are the strengths of this explanation?
+- What are the weaknesses of this explanation?
+- Why is it not ultimately more useful than Theory 1?
+
+::: notes
+
+Outline due in class on Friday
+
+- Submit as an assignment, NOT a Canvas discussion posting
+
+- Bring your outline to class
+
+<br>
+
+### Questions?
+
+- Get to it!
+:::

@@ -1,0 +1,584 @@
+---
+format: revealjs
+---
+
+## Today's Agenda {background-image="Images/background-worldmap4.png" .center}
+
+```{r}
+# background-size="1920px 1080px"
+library(tidyverse)
+library(readxl)
+```
+
+<br>
+
+::: {.r-fit-text}
+
+**II. Why Are There Wars?**
+
+- Is peace worth the Economic Liberal price?
+
+:::
+
+<br>
+
+::: r-stack
+Justin Leinaweaver (Spring 2026)
+:::
+
+::: notes
+Prep for Class
+
+1. Check Canvas submissions
+
+2. NOTE: You made tweaks to the following during class in FA24 to set this up as splitting the class in half and having them work directly on the board
+
+3. NOTE 2: You removed the trade war stuff for now
+
+<br>
+
+*Depends on grading*
+
+SLIDE: R&R Prep
+
+**Optional R&R announcement**
+
+I think I'll have all the papers graded by this afternoon and so hope to have them released to you today.
+
+- **SLIDE**: With that in mind, let's talk next steps!
+
+OR
+
+### DISCUSS: Name me an international political event that has happened since we last met as a class.
+
+<br>
+
+### How could we explain that event using our theories of international relations?
+
+### - Neorealism, offensive realism, democratic peace theory or economic liberalism?
+
+<br>
+
+Last class we started digging into our next answer to the question, why do wars happen?
+
+### What is the answer according to Economic Liberals?
+
+- (**SLIDE**)
+
+:::
+
+
+
+## {background-image="Images/05_2-Peer_Review.png"}
+
+::: notes
+
+Congratulations all, you've completed the first step in building a convincing, academic argument.
+
+- You constructed a logical argument, supported it with evidence and worked to address expected critiques of it.
+
+<br>
+
+My job as the peer reviewer is to push back on all of it to help you make the strongest version of your argument possible.
+
+<br>
+
+Your next job is to reflect on that feedback and then to revise the paper to make it stronger.
+:::
+
+
+
+
+## Revise and Resubmit Paper 1 {background-image="Images/background-worldmap4.png" .center}
+
+<br>
+
+::: {.r-fit-text}
+
+**Submit to Canvas** a revision of your first draft that:
+
+1. Addresses **ALL** of the feedback, AND
+
+2. Highlights **ALL** of your changes.
+
+:::
+
+::: notes
+
+Arguably, THIS is the more important step in the process.
+
+- Learning to take on board feedback and strengthen your arguments will be key to developing your skills in making convincing, high quality arguments.
+
+<br>
+
+Revisions will be accepted for two weeks.
+
+### Questions on the revision process?
+
+<br>
+
+### OK, name me an international political event that has happened since we last met as a class!
+
+<br>
+
+### How could we explain that event using our theories of international relations?
+
+### - Neorealism, offensive realism, democratic peace theory or economic liberalism?
+
+<br>
+
+Last class we started digging into our next answer to the question, why do wars happen?
+
+### What is the answer according to Economic Liberals?
+
+- (**SLIDE**)
+:::
+
+
+
+## {background-image="Images/background-worldmap4.png" .center .smaller}
+
+::: {.r-fit-text}
+**Economic Liberalism (Rosecrance 1986)**
+:::
+
+**Interests**
+
+- States want growth
+
+**Institutions**
+
+- States may choose to start wars or seek trade (anarchy)
+
+**Interactions**
+
+- War is risky **and disrupts trade**
+- The returns to trade grow over time
+- **Specialized economies are dependent on trade for growth**
+- Therefore, increasing trade should reduce the occurrence of war.
+
+::: notes
+
+Trade -> specialization -> peace
+
+<br>
+
+### Remind me, what is specialization?
+- (The idea is that the world economy grows best when everyone focuses on doing the things they are best at.)
+    - You then buy the other stuff you need from the rest of the world.
+
+<br>
+
+### And why does specialization lead to interdependence?
+- (If you grow to depend on other states to provide you with what they do best so you can focus on your what you do best then you'd be crazy to start a war that disrupts the flow of trade.)
+
+<br>
+
+### In what kinds of cases does Rosecrance note that Economic Liberalism fail to promote peace?
+1. Where states are self-sufficient they will not be transformed by trade and therefore might still view war as a means to grow economically.
+2. Where resources are limited and rules do not exist, conflict over those resources is still likely.
+:::
+
+
+
+
+
+## {background-image="Images/background-watercolor_v2.png" .center}
+
+<br>
+
+**Is peace worth the price of international trade for the developing world?**
+
+<br>
+
+
+**Panagariya (2003)**
+
+vs
+
+**Rodrik (2001)**
+
+::: notes
+
+Today we're going to examine another important debate about trade.
+
+<br>
+
+Even if trade makes the world more peaceful, is it worth it for the developing world?
+
+- In other words, is increasing your exposure to international trade a good idea for developing states?
+
+<br>
+
+### What is the conclusion of Panagariya's argument?
+:::
+
+
+
+## {background-image="Images/background-watercolor_v2.png" .center}
+
+<br>
+
+**Is peace worth the price of international trade for the developing world?**
+
+<br>
+
+
+**Panagariya (2003)**
+
+- Therefore, trade benefits outweigh the costs for developing states.
+
+**Rodrik (2001)**
+
+- ?
+
+::: notes
+**And what is the conclusion of Rodrik's argument?**
+:::
+
+
+## {background-image="Images/background-watercolor_v2.png" .center}
+
+<br>
+
+**Is peace worth the price of international trade for the developing world?**
+
+<br>
+
+**Panagariya (2003)**
+
+- Therefore, trade benefits outweigh the costs for developing states.
+
+**Rodrik (2001)**
+
+- Therefore, developing countries should focus on growth through domestic investing and institutions, not trade.
+
+::: notes
+
+*Split class in half and get them working on the board*
+
+Panagariya (2003)
+
+- Rich countries generally more open than poor ones
+
+- Trade openness promotes growth (efficiency and technology)
+
+- Growth creates jobs, increases government's fiscal resources, raises incomes
+
+- Efficiency can promote environmental objectives (w/ pollution taxes)
+
+- Therefore, trade benefits outweigh the costs for developing states.
+
+Rodrik (2001)
+
+- Lowering barriers to trade does NOT guarantee growth
+
+- Trade success diverts money away from domestic needs
+
+- Trade "rules" benefit powerful states and undermine democratic institutions
+
+- Availability of foreign capital can encourage bad policies
+
+- Slow and steady domestic growth allows successful engagement with trade, not vice-versa
+
+- Therefore, developing countries should focus on growth through domestic investing and institutions, not trade.
+
+<br>
+
+SLIDES with your diagrams
+
+:::
+
+
+## Panagariya (2003) {background-image="Images/background-watercolor_v2.png" .center}
+
+- Rich countries generally more open than poor ones
+
+- Trade openness promotes growth (efficiency and technology)
+
+- Growth creates jobs, increases government's fiscal resources, raises incomes
+
+- Efficiency can promote environmental objectives (w/ pollution taxes)
+
+Therefore, trade benefits outweigh the costs for developing states.
+
+::: notes
+**Is this a logical argument? Why or why not?**
+
+<br>
+
+**Has Panagariya made a convincing argument? Why or why not?**
+:::
+
+
+
+## Rodrik (2001) {background-image="Images/background-watercolor_v2.png" .center}
+
+- Lowering barriers to trade does NOT guarantee growth
+
+- Trade success diverts money away from domestic needs
+
+- Trade "rules" benefit powerful states and undermine democratic institutions
+
+- Availability of foreign capital can encourage bad policies
+
+- Slow and steady domestic growth allows successful engagement with trade, not vice-versa
+
+Therefore, developing countries should focus on growth through domestic investing and institutions, not trade.
+
+::: notes
+**Is this a logical argument? Why or why not?**
+
+<br>
+
+### What evidence does Rodrik provide to support each premise?
+
+1. Empirical data does NOT show openness leads to growth; confounding variables are the culprit e.g. ineffective institutions, geography, inappropriate macroeconomic policies
+
+2. Requires (tax reform, social safety nets, administrative reform, labor market reform, training programs), Diverts from (education, health, industrial capacity and social cohesion)
+
+3. Many of trade's success stories were based on asian states (South Korea, China, India, Taiwan) liberalizing slowly, without requiring a complete re-structuring of their institutions.
+
+4. Not about increasing efficiency
+:::
+
+
+## {background-image="Images/background-watercolor_v2.png" .center}
+
+<br>
+
+**Is peace worth the price of international trade for the developing world?**
+
+<br>
+
+**Panagariya (2003)**
+
+- Therefore, trade benefits outweigh the costs for developing states.
+
+**Rodrik (2001)**
+
+- Therefore, developing countries should focus on growth through domestic investing and institutions, not trade.
+
+::: notes
+
+Ultimately, my interest is not in deciding that one or the other of these arguments is "right."
+
+- Both are describing empirically sound mechanisms related to international trade.
+
+<br>
+
+### The question for us to grapple with is: If these are the costs of trade, is peace (fewer wars) worth it? Why or why not?
+
+- *Force this discussion*
+
+<br>
+
+If class seems totally sold on Rodrik:
+
+#### 1. Are we biased to be convinced by single examples that disprove generalizations, rather than seeking the preponderance of the evidence?
+
+<br>
+
+#### 2. Panagariya ain't alone. Remember, Rodrik's plan might not be feasible if state is failed, corrupt or otherwise lacks the capacity to grow domestically in this way. In such a case, maybe opening to trade is better than nothing?
+:::
+
+
+
+## Assignment for Next Class {background-image="Images/background-worldmap4.png" .center}
+
+<br>
+
+::: {.r-fit-text}
+
+Get to work on those paper revisions!
+
+:::
+
+
+
+
+
+
+
+## OLD APPROACH
+
+## Panagariya (2003) {background-image="Images/background-watercolor_v2.png" .center}
+
+<br>
+
+- ???
+
+- ???
+
+- ???
+
+- ...
+
+Therefore, trade benefits outweigh the costs for developing states.
+
+::: notes
+
+Let's start with Panagariya (2003).
+
+<br>
+
+Everybody take five minutes to diagram this argument.
+
+- Pull out the key premises in this argument.
+
+<br>
+
+Now combine diagrams with the person next to you (small groups).
+
+- Consolidate to a single argument.
+
+<br>
+
+*ON BOARD*
+
+### Ok, give me premises, let's diagram this version of the argument.
+:::
+
+
+## Panagariya (2003) {background-image="Images/background-watercolor_v2.png" .center}
+
+- Rich countries generally more open than poor ones
+
+- Trade openness promotes growth (efficiency and technology)
+
+- Growth creates jobs, increases government's fiscal resources, raises incomes
+
+- Efficiency can promote environmental objectives (w/ pollution taxes)
+
+Therefore, trade benefits outweigh the costs for developing states.
+
+::: notes
+**Is this a logical argument? Why or why not?**
+
+<br>
+
+**Has Panagariya made a convincing argument? Why or why not?**
+:::
+
+
+
+## Rodrik (2001) {background-image="Images/background-watercolor_v2.png" .center}
+
+<br>
+
+- ???
+
+- ???
+
+- ???
+
+- ...
+
+Therefore, developing countries should focus on growth through domestic investing and institutions, not trade.
+
+::: notes
+
+Let's shift to Rodrik (2001)
+
+<br>
+
+Everybody take some time to diagram this argument.
+
+- Pull out the key premises in this argument.
+
+<br>
+
+Now combine diagrams with the person next to you (small groups).
+
+- Consolidate to a single argument.
+
+<br>
+
+*ON BOARD*
+
+- Ok, give me premises, let's diagram this version of the argument.
+:::
+
+
+## Rodrik (2001) {background-image="Images/background-watercolor_v2.png" .center}
+
+- Lowering barriers to trade does NOT guarantee growth
+
+- Trade success diverts money away from domestic needs
+
+- Trade "rules" benefit powerful states and undermine democratic institutions
+
+- Availability of foreign capital can encourage bad policies
+
+- Slow and steady domestic growth allows successful engagement with trade, not vice-versa
+
+Therefore, developing countries should focus on growth through domestic investing and institutions, not trade.
+
+::: notes
+**Is this a logical argument? Why or why not?**
+
+<br>
+
+### What evidence does Rodrik provide to support each premise?
+
+1. Empirical data does NOT show openness leads to growth; confounding variables are the culprit e.g. ineffective institutions, geography, inappropriate macroeconomic policies
+
+2. Requires (tax reform, social safety nets, administrative reform, labor market reform, training programs), Diverts from (education, health, industrial capacity and social cohesion)
+
+3. Many of trade's success stories were based on asian states (South Korea, China, India, Taiwan) liberalizing slowly, without requiring a complete re-structuring of their institutions.
+
+4. Not about increasing efficiency
+:::
+
+
+
+## {background-image="Images/background-watercolor_v2.png" .center}
+
+<br>
+
+**Is peace worth the price of international trade for the developing world?**
+
+<br>
+
+**Panagariya (2003)**
+
+- Therefore, trade benefits outweigh the costs for developing states.
+
+**Rodrik (2001)**
+
+- Therefore, developing countries should focus on growth through domestic investing and institutions, not trade.
+
+::: notes
+
+Ultimately, my interest is not in deciding that one or the other of these arguments is "right."
+
+- Both are describing empirically sound mechanisms related to international trade.
+
+<br>
+
+### The question for us to grapple with is: If these are the costs of trade, is peace (fewer wars) worth it? Why or why not?
+
+- *Force this discussion*
+
+<br>
+
+If class seems totally sold on Rodrik:
+
+#### 1. Are we biased to be convinced by single examples that disprove generalizations, rather than seeking the preponderance of the evidence?
+
+<br>
+
+#### 2. Panagariya ain't alone. Remember, Rodrik's plan might not be feasible if state is failed, corrupt or otherwise lacks the capacity to grow domestically in this way. In such a case, maybe opening to trade is better than nothing?
+:::
+
+
+
+## Assignment for Next Class {background-image="Images/background-worldmap4.png" .center}
+
+<br>
+
+::: {.r-fit-text}
+
+Get to work on those paper revisions!
+
+:::

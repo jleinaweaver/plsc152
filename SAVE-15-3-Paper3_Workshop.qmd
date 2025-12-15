@@ -1,0 +1,55 @@
+---
+format: revealjs
+---
+
+## Today's Agenda {background-image="Images/background-worldmap4.png" .center}
+
+```{r}
+# background-size="1920px 1080px"
+library(tidyverse)
+library(readxl)
+library(kableExtra)
+```
+
+<br>
+
+::: {.r-fit-text}
+
+**Final Paper Preparations**
+
+- Writing Workshop
+
+:::
+
+<br>
+
+::: r-stack
+Justin Leinaweaver (Spring 2026)
+:::
+
+::: notes
+Prep for Class
+
+1. Review submitted outlines on Canvas
+:::
+
+
+## Final Exam (Due Dec 10th, 10am) {background-image="Images/background-worldmap4.png" .center}
+
+<br>
+
+Select a **NEW** international political event and make an argument that one of the IR theories / models we've studied in class this term "best" explains the event. 
+
+Your paper must consider and evaluate how **THREE** of the IR theories from class explain your chosen event.
+
+- No double-dipping on realism/liberalism
+
+- At least one theory from the second half of class
+
+- No events used in the prior paper
+
+::: notes
+
+**Questions on the assignment?**
+
+:::

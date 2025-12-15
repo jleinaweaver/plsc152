@@ -1,0 +1,181 @@
+---
+format: revealjs
+---
+
+## Today's Agenda {background-image="Images/background-worldmap4.png" .center}
+
+```{r}
+# background-size="1920px 1080px"
+library(tidyverse)
+library(readxl)
+library(kableExtra)
+```
+
+<br>
+
+::: {.r-fit-text}
+
+**Final Paper Preparations**
+
+- Reviewing international political events
+
+:::
+
+<br>
+
+::: r-stack
+Justin Leinaweaver (Spring 2026)
+:::
+
+::: notes
+Prep for Class
+
+1. Review submitted cases and citations
+
+2. IDEA evals day
+
+<br>
+
+By the end of today EVERYONE must have their new international political event chosen.
+
+- Ideally, with time at the end to select the three theories you want to use in the paper!
+
+:::
+
+
+
+## IDEA Evaluations {background-image="Images/background-worldmap4.png" .center}
+
+<br>
+
+::: {.r-fit-text}
+[https://drury.campuslabs.com/eval-home/](https://drury.campuslabs.com/eval-home/)
+:::
+
+
+
+
+
+
+## Final Exam (Due May 6, 10am) {background-image="Images/background-worldmap4.png" .center}
+
+<br>
+
+Select a **NEW** international political event and make an argument that one of the IR theories / models we’ve studied in class this term “best” explains the event. 
+
+- Your paper must include a counter-argument that applies and evaluates a second theory to the case.
+
+- No double-dipping on realism/liberalism
+
+- At least one theory from the second half of class
+
+- No events used in the prior paper
+
+::: notes
+
+**Questions on the assignment?**
+
+:::
+
+
+
+## For Today {background-image="Images/background-worldmap4.png" .center}
+
+<br>
+
+Find a NEW international political event you want to focus on for the final paper
+
+1. Submit TWO pieces of evidence that each provide the basic details of the event (APA format)
+
+2. Explain the event you have chosen (2+ sentences)
+
+3. Make an argument this is an "international political event" (2+ sentences) 
+
+
+::: notes
+
+Our aim for today is to make sure everyone has an international political event picked out and ready to analyze in the paper.
+
+<br>
+
+*Split class into groups of three*
+
+- Go sit with your group!
+
+<br>
+
+**SLIDE**: Group Prompt
+:::
+
+
+
+## Present Each Event {background-image="Images/background-worldmap4.png" .center}
+
+<br>
+
+::: {.r-fit-text}
+
+1. Is this an international political event?
+
+2. Is the evidence high enough quality?
+
+:::
+
+::: notes
+
+SMALL GROUPS: Discuss each case and give the presenter feedback on these two points.
+
+<br>
+
+### Questions?
+
+- Get to it!
+
+<br>
+
+Alright, let's hear all the cases you've picked!
+
+<br>
+
+**SLIDE** Model brainstorming
+:::
+
+
+
+## For Next Class  {background-image="Images/background-worldmap4.png" .center}
+
+<br>
+
+::: {.r-fit-text}
+**Applying the Models to your Event**
+
+1. Unpack the event
+
+2. Explain the event using THREE theories from class
+:::
+
+::: notes
+
+Assignment for next class pushes you forward on your project!
+
+- Details on Canvas
+
+<br>
+
+**Questions on the assignment?**
+
+<br>
+
+Canvas: Paper 3 - Applying Models (8 pts)
+
+1. Break your event down into its key components and describe each:
+    - Who is the actor?
+    
+    - What is the action they performed that you are explaining?
+
+2. Briefly explain the event using THREE of the theories from class (note the assignment prompt for theory selection). 
+    - Each explanation must be a minimum of three sentences each. 
+    - Three theories x three sentences = minimum of nine sentences.
+
+:::
+

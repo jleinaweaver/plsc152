@@ -1,0 +1,602 @@
+---
+format: revealjs
+---
+
+
+## Today's Agenda {background-image="Images/background-worldmap4.png" .center}
+
+```{r}
+# background-size="1920px 1080px"
+library(tidyverse)
+library(readxl)
+library(kableExtra)
+```
+
+<br>
+
+::: {.r-fit-text}
+
+**III. Why is it so Hard to Cooperate with Other Countries?**
+
+- Interests, Institutions and Interactions
+
+:::
+
+<br>
+
+::: r-stack
+Justin Leinaweaver (Spring 2026)
+:::
+
+::: notes
+Prep for Class
+
+1. Review canvas submissions for participation
+
+2. Save time at end to discuss paper and outline
+
+3. Make sure to record per round choices on table in these slides
+
+<br>
+
+**ANNOUNCE**: Pizza and politics is this Friday
+
+<br>
+
+*Opening Discussion: From this point forward students need to practice identifying international political events everyday in class. These are more than just 'things happening far away'!*
+
+**DISCUSS: Name me an international political event that has happened since we last met as a class.**
+:::
+
+
+
+## A Prisoner's Dilemma {background-image="Images/background-cloth_v3.png" .center}
+
+<br>
+
++ Each round your group must choose to cooperate or defect.
+
++ Your reward depends on the choice made by the other group.
+
+::: notes
+
+Last class we simulated a Prisoner's Dilemma.
+
+<br>
+
+**SLIDE**: Before we discuss modeling the outcomes, let's dig into the "what happened" of it all!
+:::
+
+
+
+## A Prisoner's Dilemma {background-image="Images/background-cloth_v3.png" .center}
+
+**What did you learn about yourself from the game?**
+
+<br>
+
+```{r, fig.align='center', out.width='95%'}
+knitr::include_graphics("Images/08_2-Individual_Stick_Figures_v2.png")
+```
+
+::: notes
+
+Take a moment to reflect on this question.
+
+- Get ready to report back to me what you learned about yourself.
+
+<br>
+
+*Let them take the lead on reporting back and then...*
+
+<br>
+
+**How well did you work inside your group?**
+
+- **How did you see your role?**
+
+<br>
+
+**How did you personally weigh the risks and the rewards at stake in each round?**
+
+- **Which was more important to you? Why?**
+
+<br>
+
+**Was this a useful simulation for learning about yourself as a political decision-maker? Why or why not?**
+
+<br>
+
+As a budding social scientist I hope you are always on the lookout for opportunities to connect your lived experience in the world with ideas for how the world works.
+:::
+
+
+
+## A Prisoner's Dilemma {background-image="Images/background-cloth_v3.png" .center}
+
+**What did you learn about the people on your team?**
+
+<br>
+
+```{r, fig.align='center', out.width='90%'}
+knitr::include_graphics("Images/07_2-The_Team.png")
+```
+
+::: notes
+
+Your experience of the game was almost entirely a negotiation INSIDE your team, not with the other side.
+
+- So, your direct experience gives you the most insight into your own behavior and second to that, into your team's behavior.
+
+<br>
+
+Take a moment to reflect on this question.
+
+- Get ready to report back to me what you learned about yourself.
+
+<br>
+
+*Let them take the lead on reporting back and then...*
+
+<br>
+
+**Did you fall into certain kinds of roles?**
+
+- **Were you happy about those roles? Why or why not?**
+
+<br>
+
+**Did everyone in your team weight the risks and rewards the same way? Why or why not?**
+
+<br>
+
+**Do you have a better sense of who the people on your team are after the game?**
+
+- **e.g. a sense of their character?**
+:::
+
+
+
+## {background-image="Images/07_2-Negotiations_about_Iranian_Nuclear_Program.jpg"}
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+<p style="color: white;">**Does the class PD game reveal the true character of the other team's members (e.g. something about their nature, trustworthiness, reliability, etc)?**</p>
+
+::: notes
+
+Last big picture question!
+
+- So, what do you think of the members of the other team?
+
+- *Let them take the lead on reporting back and then...*
+
+<br>
+
+- **Do you have a good sense of who they are and what they value?**
+
+<br>
+
+- **How about their decision-making processes?**
+
+<br>
+
+**Bottom line, do you believe this simulation is a good test of a person's character? Why or why not?**
+:::
+
+
+
+
+## A Prisoner's Dilemma {background-image="Images/background-cloth_v3.png" .center}
+
+```{r}
+tribble(
+  ~Round, ~Group_A, ~Group_B,
+  1, "Defect", "Defect",
+  2, "Cooperate", "Defect",
+  3, "Defect", "Defect",
+  4, "Defect", "Defect",
+  5, "Defect", "Defect",
+  6, "Defect", "Defect",
+  7, "Defect", "Cooperate",
+  8, "Defect", "Defect",
+  9, "Defect", "Defect",
+  10, "Defect", "Defect",
+  11, "Defect", "Defect",
+  12, "Defect", "Defect"
+) |>
+  kbl(align = "c", col.names = c("Round", "Group A", "Group B")) |>
+  kable_styling(bootstrap_options = c("striped", "hover", "condensed", "responsive"), font_size = 25) |>
+  column_spec(2:3, width = '7em')
+```
+
+::: notes
+
+Now I'd like us to shift from broad reflections into more focused analyses of the simulation.
+
+<br>
+
+We need to start by getting this research team all working from the same page.
+
+- Before we can explain and predict, we have to agree on what happened
+
+<br>
+
+*ON BOARD (leave room for more columns to come)*
+
+### 1) Give me a short description of the "event" from our PD simulation.
+
+### - In other words, what was the "outcome" of the simulation?
+
+<br>
+
+### 2) What were the biggest obstacles to cooperation in the game in round 1? 
+
+<br>
+
+### 3) What were the biggest obstacles to cooperation in the game AFTER round 1?
+
+<br>
+
+### 4) In what specific ways could we change the game to make cooperation LESS likely?
+
+<br>
+
+### 5) In what specific ways could we change the game to make cooperation MORE likely?
+
+<br>
+
+**SLIDE**: Diagram the model!
+:::
+
+
+
+## A Prisoner's Dilemma {background-image="Images/background-cloth_v3.png" .center}
+
+<br>
+
+::: {.r-fit-text}
+**Let's build a model of this political event**
+
++ Interests
+
++ Institutions
+
++ Interactions
+
+:::
+
+::: notes
+
+Let's all work together to try and turn all of this excellent analysis into a model of the prisoner's dilemma.
+
+- Remember, the aim of a model is to give us a simplified map of an outcome!
+
+<br>
+
+Work in small groups to diagram the interests, institutions and interactions.
+
+- Use the excellent submissions on Canvas to guide you!
+
+<br>
+
+Ok, let's start with the interests!
+
+- **What did you focus in on?**
+
+- **Who is making the key decisions here?**
+
+- (**SLIDE**)
+
+:::
+
+
+
+## A Model of the Prisoner's Dilemma {background-image="Images/background-worldmap4.png" .smaller}
+
+<br>
+
+**Interests:** 
+
+- Rational individuals pursuing "gains"
+
+**Institutions:**
+
+- ?
+
+**Interactions:**
+
+- ?
+
+::: notes
+
+"Rational" = Acts in accordance with transitive and ordered preferences
+
+<br>
+
+**What are the institutions you identified?**
+
+- (**SLIDE**)
+
+:::
+
+
+
+## A Model of the Prisoner's Dilemma {background-image="Images/background-worldmap4.png" .smaller}
+
+<br>
+
+**Interests:** 
+
+- Rational individuals pursuing "gains"
+
+**Institutions:**
+
+- No restrictions on choosing defect or cooperate
+- High uncertainty (e.g. simultaneous decisions, unknown time horizons)
+- Benefits depend on choices of all actors
+
+**Interactions:**
+
+- ?
+
+::: notes
+
+Two sources of uncertainty: Unknown time horizons (how many rounds to play), simultaneous decision-making
+
+<br>
+
+**And what are the interactions you identified?**
+
+- (**SLIDE**)
+
+
+:::
+
+
+
+## A Model of the Prisoner's Dilemma {background-image="Images/background-worldmap4.png" .smaller}
+
+<br>
+
+**Interests:** 
+
+- Rational individuals pursuing "gains"
+
+**Institutions:**
+
+- No restrictions on choosing defect or cooperate
+- High uncertainty (e.g. simultaneous decisions, unknown time horizons)
+- Benefits depend on choices of all actors
+
+**Interactions:**
+
+- Biggest rewards for short-term defection OR long-term cooperation
+
+- A risk averse actor's dominant strategy is to defect
+
+::: notes
+
+**Questions on the diagram?**
+
+- **Want to make any modifications?**
+
+<br>
+
+As you know, Section 3 of our class is trying to answer a new question:
+- Why is it so Hard to Cooperate With Other Countries?
+
+<br>
+
+**Based on this model, why do PD scenarios make it so hard for countries to cooperate with each other?**
+
+- Some international problems are structured in such a way that they make cooperation very hard to achieve
+
+- Problems that look like THIS often lead to bad outcomes EVEN THOUGH all involved would like to cooperate!
+
+<br>
+
+Alright let's take this out of the hypothetical world and into the real world.
+
+**What is an international problem that is likely to represent a real world prisoner's dilemma?**
+
+- **Brainstorm with the people around you and then report back!**
+
+<br>
+
+*ON BOARD*
+
+- SHARE and DISCUSS
+
+<br>
+
+**SLIDE**: Example - GHG emissions leading to severe climate change
+:::
+
+
+## Real-World Prisoner's Dilemmas {background-image="Images/08_2-climate_change_v2.png"}
+
+<br>
+
+<br>
+
+<br>
+
+:::: {.columns}
+::: {.column width='50%'}
+```{r, fig.align='center', out.width='80%'}
+knitr::include_graphics("Images/08_2-cars_pollution.jpg")
+```
+:::
+
+::: {.column width='50%'}
+```{r, fig.align='center', out.width='75%'}
+knitr::include_graphics("Images/08_2-Business-Man-Walking-to-work.jpg")
+```
+:::
+::::
+
+::: notes
+
+We know that manmade GHG emissions are changing the climate system in some scary ways.
+
+- We'd all be better off to reduce our emissions but the effect only significant if EVERYONE gets on board.
+
+- If just you, then you pay the costs and others take the benefit!
+
+<br>
+
+A kind of prisoner's dilemma!
+
+- Long-term were all better off cooperating on this, BUT short term incentives are to defect!
+
+<br>
+
+**Make sense?**
+:::
+
+
+
+## A Model of the Prisoner's Dilemma {background-image="Images/background-worldmap4.png" .smaller}
+
+<br>
+
+**Interests:** 
+
+- Rational individuals pursuing "gains"
+
+**Institutions:**
+
+- No restrictions on choosing defect or cooperate
+- High uncertainty (e.g. simultaneous decisions, unknown time horizons)
+- Benefits depend on choices of all actors
+
+**Interactions:**
+
+- Biggest rewards for short-term defection OR long-term cooperation
+
+- A risk averse actor's dominant strategy is to defect
+
+::: notes
+
+**Given our model, what can we do to solve real-world problems that look like PDs?**
+
+- **Brainstorm strategies to change the game!**
+
+- (Raise the costs of mutual defection?)
+
+- (Raise the benefits of mutual cooperation?)
+
+- (Implement systems / oversight to deter defection?)
+
+- (Directly pay states to cooperate?)
+
+<br>
+
+Bottom line, my hope is that this work today has helped you think about our simulation more deeply.
+
+- Building models requires breaking complex situations down into their component pieces, and 
+
+- thinking carefully about how each piece works on its own and when colliding with the other pieces.
+
+<br>
+
+More important than that, I hope you are starting to see how these skills connect to the real world.
+
+- If you can get specific about the thing you are trying to explain (the outcome), thinking about the interests, institutions and interactions will help you structure ANY investigation.
+    - Why do wars happen?
+    - Can we stop international terrorism?
+    - What should we do about famine and global poverty?
+
+<br>
+
+Huge questions have to be broken down into smaller pieces.
+
+- We can then carefully examine these smaller pieces that explain some part of the outcome.
+
+- Once we identify these causal mechanisms we can then try to alter the outcomes we care about on the global stage.
+
+<br>
+
+**In other words, are you starting to see how models can be used to manipulate complex social systems?**
+
+- Scary powerful once you see the world this way...
+
+<br>
+
+**Any questions on this?**
+
+<br>
+
+**SLIDE**: Paper 2 prompt
+:::
+
+
+
+## Paper 2 {background-image="Images/background-worldmap4.png" .center}
+
+Make an argument that one of the IR theories / models we've studied in class so far this term is **the most useful explanation of the event you explored in Paper 1**. 
+
+- Options: Neorealism, Offensive Realism, Liberal Institutionalism, Economic Liberalism, and the Bargaining Model of War
+
+Your paper must include a counter-argument that applies and evaluates a second theory to the case.
+
+- Your counter-argument may not be from the same paradigm as the main argument
+
+::: notes
+
+Here is the prompt for the second paper.
+
+- **Any questions on it?**
+
+<br>
+
+**SLIDE**: Outline assignment due Friday
+:::
+
+
+## For Friday: Draft an Outline {background-image="Images/background-worldmap4.png" .smaller}
+
+**Intro**
+
+- What is the question?
+- Why is the question important?
+- Thesis statement: Theory X is most useful because...
+
+**Premise 1: Theory 1 is most useful because... (with evidence)**
+
+**Premise 2: Theory 1 is most useful because... (with evidence)**
+
+**Premise 3: Theory 1 is most useful because... (with evidence)**
+
+**Counter-Argument: Theory 2**
+
+- What are the strengths of this explanation?
+- What are the weaknesses of this explanation?
+- Why is it not ultimately more useful than Theory 1?
+
+::: notes
+
+As I introduced last week, this is the outline you have due tomorrow
+
+<br>
+
+**Questions on the assignment?**
+
+:::

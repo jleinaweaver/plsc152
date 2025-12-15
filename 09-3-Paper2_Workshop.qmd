@@ -1,0 +1,221 @@
+---
+format: revealjs
+---
+
+
+## Today's Agenda {background-image="Images/background-worldmap4.png" .center}
+
+```{r}
+# background-size="1920px 1080px"
+library(tidyverse)
+library(readxl)
+library(kableExtra)
+```
+
+<br>
+
+::: {.r-fit-text}
+
+**III. Why is it so Hard to Cooperate with Other Countries?**
+
+- Writing Workshop
+
+:::
+
+<br>
+
+::: r-stack
+Justin Leinaweaver (Spring 2026)
+:::
+
+::: notes
+Prep for Class
+
+1. They are not mature enough to be productive in a writing workshop, you have to steer the ship
+
+    - Good news is this went great today
+    
+    - You give them prompts then go around the room (you too!) reading and giving feedback!
+    
+<br>
+
+Today we work on the second papers which are due on Friday
+
+<br>
+
+**SLIDE**: First, assignment for next Monday
+:::
+
+
+
+
+
+## Assignment for Next Class  {background-image="Images/background-worldmap4.png" .center}
+
+<br>
+
+1. Read excerpt from Tomz (2007) "Domestic Audience Costs in International Relations: An Experimental Approach" 
+
+2. **Submit to Canvas** your reflections on the reading (prompts on Canvas)
+
+::: notes
+**Questions on the assignment?**
+
+<br>
+
+**SLIDE**: Paper 2 prompt
+:::
+
+
+
+
+## Paper 2 {background-image="Images/background-worldmap4.png" .center}
+
+Make an argument that one of the IR theories / models we've studied in class so far this term is **the most useful explanation of the event you explored in Paper 1**. 
+
+- Options: Neorealism, Offensive Realism, Liberal Institutionalism, Economic Liberalism, and the Bargaining Model of War
+
+Your paper must include a counter-argument that applies and evaluates a second theory to the case.
+
+- Your counter-argument may not be from the same paradigm as the main argument
+
+::: notes
+Paper is due Friday
+
+- **Any questions on the prompt or my expectations?**
+
+<br>
+
+**SLIDE**: Let's do some writing!
+
+:::
+
+
+
+## {background-image="Images/background-worldmap4.png" .center}
+
+::: {.r-fit-text}
+**Write your Introduction**
+
+- What is the question?
+
+- Why is the question important? (with evidence)
+
+- Thesis statement
+:::
+
+::: notes
+
+I'm going to give you ten minutes to revise your introduction paragraph
+
+- Make sure it nails these three elements
+
+<br>
+
+Ok, go read each other's introductions.
+
+- Does it grab your attention?
+
+- Does it make the thesis clear?
+
+<br>
+
+**SLIDE**: On to the counter argument
+
+:::
+
+
+
+## {background-image="Images/background-worldmap4.png" .center}
+
+**Write your Counter Argument**
+
+- One paragraph making the argument that a DIFFERENT theory usefully explains this event
+
+- Include THREE reasons
+
+::: notes
+
+Now, take 10 minutes to build the heart of your counter-argument
+
+- No straw-men!
+
+- What are the strongest reasons why this alternative theory is useful?
+
+<br>
+
+Read and give feedback
+
+<br>
+
+NOW add a few sentences rebutting the counter-argument!
+
+Read and give feedback
+
+<br>
+
+**SLIDE**: Alright, workshop time, keep going!
+
+:::
+
+
+
+
+## {background-image="Images/background-worldmap4.png" .smaller}
+
+**Intro**
+
+- What is the question?
+- Why is the question important?
+- Thesis statement: Theory X is most useful because...
+
+**Premise 1: Theory 1 is most useful because... (with evidence)**
+
+**Premise 2: Theory 1 is most useful because... (with evidence)**
+
+**Premise 3: Theory 1 is most useful because... (with evidence)**
+
+**Counter-Argument: Theory 2**
+
+- What are the strengths of this explanation?
+- What are the weaknesses of this explanation?
+- Why is it not ultimately more useful than Theory 1?
+
+::: notes
+
+
+:::
+
+
+
+
+
+
+## Slides to save
+
+
+
+## Assignment for Next Class  {background-image="Images/background-worldmap4.png" .center}
+
+<br>
+
+Is the world free-riding on US contributions to the United Nations?
+
+1. Council on Foreign Relations Editors (2023, Mar 13)
+
+2. Bolton (2017)
+
+3. Martin (2017)
+
+::: notes
+Next class we explore a real-world collective action problem
+
+- Is the world free-riding on US contributions to the United Nations?
+
+- If so, what should we do about it?
+:::
+
+
+
+
+

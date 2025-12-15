@@ -1,0 +1,315 @@
+---
+format: revealjs
+---
+
+## Today's Agenda {background-image="Images/background-worldmap4.png" .center}
+
+```{r}
+# background-size="1920px 1080px"
+library(tidyverse)
+library(readxl)
+```
+
+<br>
+
+::: {.r-fit-text}
+
+**I. Arguments, Evidence and International Relations**
+
+1. What makes evidence high quality?
+
+2. Brainstorming answers to our paper prompt
+
+:::
+
+<br>
+
+::: r-stack
+Justin Leinaweaver (Spring 2026)
+:::
+
+::: notes
+Prep for Class
+
+1. Review and record participation submissions
+
+2. Post paper 1 prompt on Canvas
+
+3. MAKE sure to save time after groups give each other feedback to save enough time to go around the room and hear all the ideas / shape them to ensure they are specific events in the past that will lead to interesting papers
+:::
+
+
+
+
+## Assignment for Today {background-image="Images/background-worldmap4.png" .center .smaller}
+
+<br>
+
+### Find an international political event from the last six months that you find interesting and would like to explore more deeply.
+
+::: notes
+
+This week we work on your first paper!
+
+- Prompt: Find an international political event from the last six months that you find interesting and would like to explore more deeply. Your selected event must be framed as a specific actor taking a specific action against a specific target. Your first paper must make an argument that it is important we understand why this event happened.
+
+<br>
+
+Our pre-class assignment prompt should have helped us collect a bunch of possible answers to the question.
+
+- Let's start off by reviewing all the submissions on Canvas.
+
+<br>
+
+**Any APA citations need to be cleaned up?**
+
+- Remember, the goal here is to help each other.
+
+- You're not calling anybody out!
+
+- We want everyone to format correctly!
+:::
+
+
+
+## What is HIGH QUALITY evidence? {background-image="Images/background-worldmap4.png" .center}
+
+<br>
+
+```{r, fig.align='center'}
+knitr::include_graphics("Images/03_1-engle2018.png")
+```
+
+::: notes
+
+Now let's talk high quality evidence.
+
+**What does it mean to say a source or piece of evidence is high quality?**
+
+<br>
+
+- (Focus on the "initial appraisal" section from the "Critically Analyzing Information Sources" reading.)
+
+- (High quality evidence:)
+    - Author: Credentials, Affiliation, Frequently cited by experts
+    - Date: Up-to-date is preferred
+    - Edition or revision: Multiple editions imply demand; Revisions imply being kept up-to-date
+    - Publisher (if book): University press
+    - Title of journal: Scholarly journal
+
+- ("Scholarly or peer-reviewed journal articles are written by scholars or professionals who are experts in their fields. In the sciences and social sciences, they often publish research results.")
+
+<br>
+
+My two-cents: The Engle piece is a little too hung up on quality "flags" like degree earned and publisher
+
+- High quality evidence should have the same qualities we expect from our own arguments
+
+- Is it logical, clear, credible, and critical?
+
+<br>
+
+Keep in mind, the quality of the evidence at least **partially depends on what you are using it to do**.
+
+- **SLIDE**: Let's put this big idea into practice
+:::
+
+
+
+## Assignment for Today {background-image="Images/background-worldmap4.png" .center}
+
+**Find an international political event from the last six months that you find interesting and would like to explore more deeply.**
+
+<br>
+
+Is the event:
+
+- international?
+
+- political?
+
+::: notes
+
+First things first, let's make sure everyone has selected an international political event.
+
+<br>
+
+**Refresh my memory, how did we define these key concepts in class?**
+
+<br>
+
+- (**SLIDE**)
+
+:::
+
+
+
+## {background-image="Images/background-worldmap4.png" .center}
+
+**Find an international political event from the last six months that you find interesting and would like to explore more deeply.**
+
+<br>
+
+The event must:
+
+- Be a thing or happening from the past, 
+
+- Have a global impact or involve more than one state,
+
+- Impact community decision-making, resource distribution or how rules are made or enforced
+
+- Must be explainable as actor X took action Y on date Z
+
+::: notes
+
+*Split class into small groups (x3)*
+
+<br>
+
+Small groups: Review each case and evaluate two things.
+
+1. Is the case an international political event per these definitions?
+
+2. Is this a past event and is it specific (e.g. actor X taking action Y on date Z)?
+
+3. Is the provided evidence sufficient to support the argument that it is all three of these things?
+
+<br>
+
+### Questions on the task?
+
+Get to it!
+
+<br>
+
+### Anybody have an example of a case that might not meet all three definitions? Let's discuss them!
+
+<br>
+
+### Does everybody have evidence that is high enough quality to make the case this an international political event?
+
+- I'm guessing yes!
+
+- Establishing basic facts? Newspaper/new report is probably sufficient.
+:::
+
+
+
+## Assignment for Today {background-image="Images/background-worldmap4.png" .center}
+
+**Find an international political event from the last six months that you find interesting and would like to explore more deeply.**
+
+<br>
+
+Evaluate the submitted evidence
+
+- Is this high quality enough to establish the basic elements?
+
+::: notes
+
+Time to do the harder thing!
+
+Small groups: Present the importance argument to each other and evaluate the evidence provided.
+
+- Is the evidence high quality enough to convince you that this intl pol event is IMPORTANT?
+
+<br>
+
+### Questions on the task?
+
+Get to it!
+
+<br>
+
+### Did everybody have evidence that was high enough quality to support this argument?
+
+Much higher threshold!
+
+- Evidence quality depends on aim of the argument
+
+- Using someone else's argument? Better be built on peer-reviewed research.
+
+<br>
+
+Is everybody clear on how evidence quality is incredibly important but depends on the context of the argument?
+
+- The Berlin Wall was torn down in 1991.
+
+    - The NYT works!
+
+- The Berlin Wall coming down signaled the end of the Cold War and transformed US-Soviet relations
+
+    - You better go get some HIGH quality academic sources and examples to support that argument!
+:::
+
+
+
+
+## Paper 1 {background-image="Images/background-worldmap4.png" .center}
+
+<br>
+
+What is the most important international political event to occur in the last six months?
+
+- Your selected event must be framed as a specific actor taking a specific action against a specific target. 
+
+::: notes
+
+Here is the prompt for your first paper.
+
+### Questions on the prompt?
+
+<br>
+
+Everybody write a thesis statement that presents your chosen event as the central argument of a paper.
+
+- Let's have everybody start with a super formulaic, but very clear style
+
+- e.g. Event X is an important international political event because...
+
+<br>
+
+Let's hear them all and give each other feedback!
+:::
+
+
+
+## For Next Class {background-image="Images/background-worldmap4.png" .center}
+
+<br>
+
+::: {.r-fit-text}
+
+1. Read Farrell (2010)
+
+2. Submit 10 possible premises for your argument
+
+:::
+
+::: notes
+
+1. Read Farrell (2010)
+
+2. **Before class** submit to our Canvas discussion board: 
+    - Your CHOSEN answer, and
+    
+    - Brainstorm a list of 10 premises supporting your importance argument
+
+<br>
+
+The Farrell (2010) reading is all about how to write a political science paper.
+
+- Super helpful advice in there!
+
+<br>
+
+Your assignment is to brainstorm ten reasons your chosen event is an important one for us to better understand.
+
+- I know this sounds like a lot of reasons, but I want you to push yourself to build a big list of possible premises.
+
+- You're going to narrow down to three or four in the end, but we want to intentionally start very broadly.
+
+<br>
+
+### Questions on the assignment?
+:::

@@ -1,0 +1,290 @@
+---
+format: revealjs
+---
+
+
+## Today's Agenda {background-image="Images/background-worldmap4.png" .center}
+
+```{r}
+# background-size="1920px 1080px"
+library(tidyverse)
+library(readxl)
+library(kableExtra)
+```
+
+<br>
+
+**III. Why is it so Hard to Cooperate with Other Countries?**
+
+- Do "audience costs" matter to state leaders?
+
+<br>
+
+<br>
+
+::: r-stack
+Justin Leinaweaver (Spring 2026)
+:::
+
+::: notes
+Prep for Class
+
+1. Get ready for PD game
+    
+    - Reserve the extra room(s) or use Meador Center
+    - Print your PD v2 notes
+    
+3. AFTER CLASS: Update slides for next class (10-2)
+
+    - Current EC points from attendance sheet
+    
+    - Results of this game
+
+4. Game notes
+    
+    - Group leaders MUST take a census (make a list of all members of their group at beginning of exercise)
+    
+    - You will need to record who is leader every round
+    
+    - Don't tell them the leader reward! Just that it is related to term in office
+    
+    - IMPORTANT: New groups need to mix up the PD v1 groups so the leaders have a harder task distributing points at end. More fun if inequality exists within each group
+:::
+
+
+
+## Do Audience Costs Matter? {background-image="Images/background-worldmap4.png" .center}
+
+![](Images/10_1-Trump_Putin.jpg){style="display: block; margin: 0 auto"}
+
+
+::: notes
+
+For today's class I had you read and reflect on a big ongoing debate in International Relations.
+
+1. Are audience costs real? e.g. do they influence how leaders make decisions?
+
+2. If they do "matter," then by how much? Is it a big or small effect?
+
+<br>
+
+### Per the Tomz (2007) reading, what are "audience costs"?
+- (Audience costs: "...shorthand for the surge in disapproval that would occur if a leader made commitments and did not follow through" (823).)
+
+<br>
+
+### Do both Trump and Putin have to worry about audience costs in the same way? Why or why not?
+
+<br>
+
+### According to Tomz (2007) what are the premises in the argument that concludes "audience costs" are real and substantial?
+1. ("hollow threats and promises undermine the country’s reputation") OR
+
+2. ("empty commitments are dishonorable and embarrassing") OR
+
+3. ("inconsistency is evidence of incompetence")
+
+<br>
+
+### According to Tomz (2007) what are the premises in the argument that concludes "audience costs" are not a serious factor in explaining leader behavior?
+1. (Citizens unlikely to punish a leader for backing down because some don't pay attention to foreign policy)
+
+2. (some focus on final outcomes not process)
+
+3. (others willing to accept that bluffing is a good strategy even if it sometimes fails)
+
+<br>
+
+### Based on your submissions to Canvas today, where did you come down on this question? Do "audience costs" matter for explaining leader behavior?
+
+<br>
+
+I'd like us to explore this debate about the importance of leaders and audiences in international politics this week
+
+- **SLIDE**: And to get us started I think we should play another game!
+:::
+
+
+
+## A Competitive Prisoner's Dilemma {background-image="Images/background-worldmap4.png" .center}
+
+<br>
+
++ A single game played across multiple rounds.
+
++ Each round your group must choose whether to cooperate or defect.
+
++ Your reward depends on the choice made by the other group.
+
++ Each group is a **democracy** with an **elected leader**
+
+::: notes
+
+Welcome to the prisoner's dilemma (mark 2)
+
+<br>
+
+Today's PD game has been updated to add additional elements that are crucial to thinking about international political events.
+
+1. Each group is a democratic country with an elected leader.
+
+2. Each round of the game is a negotiation between the two groups AND the two leaders
+    - Leader's Aim: Bring points back to your group.
+:::
+
+
+
+## Prisoner's Dilemma (v2) {background-image="Images/background-worldmap4.png" .center}
+
+<br>
+
+```{r}
+tibble(
+  col1 = c("Group 1", ""),
+  col2 = c("Cooperate", "Defect"),
+  Cooperate = c("+3, +3", "+5, -2"),
+  Defect = c("-2, +5", "-1, -1")
+) |>
+  kbl(align = c("l", "l", "c", "c"), col.names = c("", "", "Cooperate", "Defect")) |>
+  add_header_above(c(" " = 2, "Group 2" = 2)) |>
+  column_spec(column = 1:2, bold = TRUE, width = "20em") |>
+  column_spec(column = 3:4, background = "#b3ccff", width = "20em") |>
+  kable_styling(font_size = 40, bootstrap_options = "basic")
+```
+
+::: notes
+
+Here you can see I've updated the outcomes table since the last time we played.
+
+<br>
+
+### Everybody still clear on how to read this game board?
+
+- The table shows four possible outcomes for each round based on the choice made by each group.
+
+<br>
+
+### Any questions on the game board?
+
+- The reward: Bonus points on the final paper
+
+<br>
+
+Let's talk about the leaders.
+:::
+
+
+
+## Prisoner's Dilemma (v2) {background-image="Images/background-worldmap4.png" .center}
+
+:::: {.columns}
+::: {.column width='50%'}
+
+<br>
+
+**Your Fearless Leader**
+
++ Elected (50% + 1)
+
++ Negotiates
+
++ Distributes All Rewards
+
++ Receives Personal Benefits
+:::
+
+::: {.column width='50%'}
+
+![](Images/09_1-skipper.jpg)
+
+:::
+::::
+
+::: notes
+
+**Any questions on the powers of the leader?**
+
+- Negotiation is their option
+
+- At the end of the game they distribute the rewards as they see fit
+
+- Personal benefit: The longer your term, the bigger the reward
+
+:::
+
+
+
+## Prisoner's Dilemma (v2) {background-image="Images/background-worldmap4.png" .center}
+
+**Your Fearless (and TEMPORARY) Leader**
+
+```{r, fig.align='center'}
+knitr::include_graphics('Images/09_1-voting.png')
+```
+
+::: notes
+
+As I said, you are each a democracy.
+
+- Your first job will be to elect a leader using a simple majority rule (50% + 1).
+
+- And because you are a democracy, you may replace the leader by a simple vote at any point during the game.
+
+<br>
+
+### Any questions on this?
+
+<br>
+
+### Any questions before we start playing?
+
+<br>
+
+*Split class in half*
+
+- Ok, group A stay here, group B to the Poli Sci suite next door
+
+<br>
+
+When you get there:
+
+1. pick your leader,
+
+2. Leaders take a census (e.g. make a list of all citizens in your country), and 
+
+3. Get ready for round 1
+:::
+
+
+
+## {background-image="Images/09_1-patronage.jpg"}
+
+::: notes
+
+Alright leaders, you have a list of your citizens and the points you received from the negotiation.
+
+<br>
+
+On Wednesday I want you to announce how you will be distributing the spoils.
+:::
+
+
+
+## Assignment for Next Class  {background-image="Images/background-worldmap4.png" .center}
+
+<br>
+
+**Two-Level Games**
+
+- Read the Putnam (1988) excerpt (p427-435)
+
+
+::: notes
+**Questions on the assignment?**
+
+<br>
+
+*Different number of days, consider assigning the Landler 2021 again as an example*images
+
+:::
+

@@ -1,0 +1,352 @@
+---
+format: revealjs
+---
+
+## Today's Agenda {background-image="Images/background-worldmap4.png" .center}
+
+```{r}
+# background-size="1920px 1080px"
+library(tidyverse)
+library(readxl)
+library(kableExtra)
+```
+
+<br>
+
+::: {.r-fit-text}
+
+**IV. What is the Future of Transnational Politics and IR?**
+
+- Explore the intersection of gender and IR
+
+:::
+
+<br>
+
+::: r-stack
+Justin Leinaweaver (Spring 2026)
+:::
+
+::: notes
+Prep for Class
+
+1. Review cases submitted to Canvas
+
+2. Bring markers x 3
+
+3. Your Case: Patel, Kasha. (2021, Nov 8). How climate change is disproportionately affecting girls in low-income countries. *The Washington Post*. [LINK](https://www.washingtonpost.com/weather/2021/11/08/cop26-girls-education-climate-weather/)
+
+<br>
+
+Over time a series of "critical" approaches to International Relations have developed and I'd like us to explore one of them this week.
+
+- Specifically, this week we explore international political events using a Feminist approach to international relations
+:::
+
+
+
+## Assignment for Today  {background-image="Images/background-worldmap4.png" .center}
+
+<br>
+
+1. Find a current, or recent, international political event that **explicitly deals with issues of gender**
+
+2. **Before class** submit to our Canvas discussion board: 
+    - The APA citation for your evidence, and
+    
+    - A short explanation for why this case illustrates a gender issue in international politics
+
+::: notes
+Before we dig into the approach I'd like us to build up to it starting with case studies.
+
+- I think it's incredibly useful to begin discussions like this from a real-world perspective.
+
+- If we can identify a type of real-world case that our current theories fail to explain well then that will help us understand what a new theory needs to do to be useful.
+
+<br>
+
+For today I asked each of you to go find us a real-world case that includes an important gender dynamic.
+
+- I meant this to be very broad, so I'm super curious to see what you brought in.
+
+<br>
+
+**SLIDE**: I did the exercise too, so let's kick this off with my case!
+:::
+
+
+
+## {background-image="Images/13_1-gender_climate.avif"}
+
+::: notes
+As you may or may not know, my research tends to focus on international problem-solving using policy
+
+- I'm fascinated by instances of the global community trying to solve a massive problem simultaneously at the domestic and international levels.
+
+<br>
+
+One particular policy challenge I have been studying for a long time is the disproportionate impacts of climate and weather catastrophes
+
+- In short, what should we do when countries experience disasters not of their own making?
+
+<br>
+
+**SLIDE**: And that led me to this story
+
+:::
+
+
+
+## {background-image="Images/13_1-gender_climate.avif"}
+
+![](Images/13_1-Climate_Change_Gender1.png){.absolute left=0 width="5.3in" height="1.5in"}
+
+::: notes
+
+What is the event?
+
+- Just before the 26th Conference of the Parties to the UN Framework Convention on Climate Change a weather disaster struck Malawi (muh-laa-wee)
+
+- Specifically, a severe storm destroyed the schools in a number of villages
+
+<br>
+
+Why is this international?
+
+- Research growing in confidence that climate change is increasing the frequency and intensity of extreme weather events
+
+- So, countries are being made to pay dearly for the behavior of other countries
+
+<br>
+    
+Why is this political?
+
+- Many of the poorest countries who contributed almost nothing to the problem are being hit the hardest.
+
+- Countries with limited resources have to make VERY difficult decisions about where to spend to prevent this damage and where to spend to fix the damage
+
+<br>
+
+Why is gender important here?
+
+- Per UNESCO, before the storm, Malawi (muh-laa-wee) ONLY enrolls about 37% of eligible students in secondary school
+
+- In Malawi (muh-laa-wee), when serious storm damages occur, girls are:
+
+    - Often kept home to save money for food, 
+    
+    - Expected to work in the fields or by gathering water from long distances, or 
+    
+    - Married off to older men.
+
+<br>
+    
+So, bottom line: 
+
+- Behavior by other countries creates damage for the developing world,
+
+- Developing world climate damages disproportionately harm women and girls
+
+- Harm to women and girls in the developing world tends to harm the growth potential for these countries
+
+- THEREFORE, we CANNOT explain development in the developing world without analyzing gender!
+
+<br>
+
+**Does this case make sense?**
+
+:::
+
+
+## Gender Case Studies {background-image="Images/background-worldmap4.png" .center}
+
+::: {.r-fit-text}
+
+1. What is the "event"?
+
+2. Why is it "international"?
+
+3. Why is it "political"?
+
+4. What is the role of "gender" in this event?
+
+5. What are the implications of this case for IR theory?
+
+:::
+
+::: notes
+
+Ok, I want each of you to analyze your own case using these prompts
+
+- Take a few minutes to make sure you could introduce your case as an answer to these five questions
+
+- In a moment, you will be!
+
+<br>
+
+**SLIDE**: Our work
+
+:::
+
+
+
+## Gender Case Studies {background-image="Images/background-worldmap4.png" .center}
+
+:::: {.columns}
+::: {.column width="45%"}
+**The Cases**
+
+1. What is the "event"?
+
+2. Why is it "international"?
+
+3. Why is it "political"?
+
+4. What is the role of "gender" in this event?
+
+5. What are the implications of this case for IR theory?
+:::
+
+::: {.column width="7%"}
+:::
+
+::: {.column width="43%"}
+**IR Theories**
+
++ Neorealism
+
++ Offensive Realism
+
++ Bargaining Model of War
+
++ Liberal Institutionalism
+
++ Economic Liberalism
+
++ Two-Level Games
+
++ Constructivism
+
+:::
+::::
+
+::: notes
+
+Ok, we'll take turns introducing your cases to the class and then we'll evaluate them using our IR theories
+
+- Go!
+
+<br>
+
+*For Each Case:*
+
+- **Which theories do the best job with these cases? Why?**
+
+- **Which theories do the worst job? Why?**
+
+<br>
+
+**SLIDE**: As an argument 
+
+:::
+
+
+
+
+## Gender Case Studies {background-image="Images/background-worldmap4.png" .center}
+
+<br>
+
+- ?
+
+- ?
+
+- ?
+
+### Therefore, we cannot usefully explain ANY specific international political events without analyzing the role of gender
+
+::: notes
+
+Ok take all this on board and help me flesh out this argument
+
+- The conclusion of that argument is: we cannot usefully explain ANY specific international political events without analyzing the role of gender
+
+- Work in small groups and get ready to report back!
+
+<br>
+
+**Questions on the task?**
+
+- Go!
+
+<br>
+
+*PRESENT and DISCUSS each*
+
+<br>
+
+**SLIDE**: Our next question...
+:::
+
+
+
+## How difficult would it be to add a gender dynamic to these theories? {background-image="Images/background-worldmap4.png" .center}
+
++ Neorealism
+
++ Offensive Realism
+
++ Bargaining Model of War
+
++ Liberal Institutionalism
+
++ Economic Liberalism
+
++ Two-Level Games
+
++ Constructivism
+
+::: notes
+
+*Discuss*
+
+<br>
+
+### Is this an explicit argument in favor of Constructivism? Why or why not?
+
+<br>
+
+**SLIDE**: All that said, gender may be so central to the experience of human societies that we have no choice but to redesign our theories of IR.
+:::
+
+
+
+
+
+## Assignment for Next Class  {background-image="Images/background-worldmap4.png" .center}
+
+<br>
+
+1. Read Enloe (2014)
+
+2. **Before class** submit to our Canvas discussion board: 
+    - What are the strongest critiques of international relations made by Enloe (2014)?
+
+::: notes
+
+For Wednesday I want you to read the first chapter of an intriguing book by Cynthia Enloe that explores the arguments we have begun today.
+
+<br>
+
+In short, the question for you as you do the reading is, in order for us to be better students of global politics:
+
+- How should we approach gender dynamics?
+
+- Do our theories need to change?
+
+- Does our media coverage of global politics need to change?
+
+<br>
+
+### Questions on the assignment?
+:::

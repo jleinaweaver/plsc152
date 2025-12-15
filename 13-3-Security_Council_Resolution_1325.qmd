@@ -1,0 +1,477 @@
+---
+format: revealjs
+---
+
+## Today's Agenda {background-image="Images/background-worldmap4.png" .center}
+
+```{r}
+# background-size="1920px 1080px"
+library(tidyverse)
+library(readxl)
+library(kableExtra)
+```
+
+<br>
+
+**IV. What is the Future of Transnational Politics and IR?**
+
+- Puechguirbal, N. (2010). Discourses on Gender, Patriarchy and Resolution 1325: A Textual Analysis of UN Documents.
+
+<br>
+
+<br>
+
+::: r-stack
+Justin Leinaweaver (Spring 2026)
+:::
+
+::: notes
+Prep for Class
+
+1. See reading notes txt file in this folder
+    - 13-3-Puechguirbal2010_Notes.txt
+
+2. Pronounce author's name: Pweesh-gwhere-bal
+    - Introduced on [podcast](https://www.gcsp.ch/digital-hub/tea-1325-bonus-episode)
+
+3. **SAVE TIME AT THE END OF CLASS TO DIAGRAM FEMINIST THEORY AS A CLASS: INTERESTS, INSTITUTIONS AND INTERACTIONS**
+
+<br>
+
+For today I wanted to find us a research article that applies the ideas and tools we've been considering this week.
+
+<br>
+
+I think this article fits beautifully in our semester because:
+
+1. It's a great example of qualitative analysis
+    - e.g. digging deeply into a single case using process tracing, interviews, triangulation, etc.
+    - Not all research has to have numbers in it!
+
+2. It allows us to evaluate a specific action by the UN that many framed as a huge policy accomplishment (Resolution 1325), and
+
+3. Because I'm still thinking about the article's argument and I'm keen to see how you react to it.
+:::
+
+
+
+## Nadine Puechguirbal, PhD {background-image="Images/background-worldmap4.png" .center .smaller}
+
+:::: {.columns}
+::: {.column width="50%"}
+![](Images/13-3-author_photo.jpg){.absolute width='3.5in' height='5in'}
+:::
+
+::: {.column width="50%"}
+- Field practitioner with the International Movement of the Red Cross
+
+- Senior Gender Advisor to the The United Nations Office for the Coordination of Humanitarian Affairs (OCHA)
+
+- Senior Gender Advisor to the United Nations Department of Peacekeeping Operations (DPKO)
+
+- Has served in Chad, DRC, Haiti, Kenya, Laos, Malaysia, Rwanda, Somalia and FYROM
+
+- Coordinated the work of 14 UN entities on conflict-related sexual violence and gender-based violence in emergencies
+:::
+::::
+
+::: notes
+
+In addition to being a great fit for our class, I am also a big fan of this style of article because:
+
+1. Dr. Puechguirbal (Pweesh-gwhere-bal) has EXTENSIVE on-the-ground experience with these issues.
+    - Over a 20+ year career she has worked on gender issues related to peacekeeping in some of the toughest places on the planet.
+    
+    - She knows a TON about this topic and has extensive experience with these issues on the ground.
+
+2. Research articles written by practitioners are doubly fascinating.
+    - On one level it is an academic argument we need to analyze, but 
+    
+    - It is also a chance to learn how a specific organization frames the concepts and problems they are dealing with.
+    
+<br>
+
+In a sense, this makes her article a research article AND a primary source document for thinking about a practitioner's view of gender and security.
+
+<br>
+
+#### Notes cribbed from her syllabus
+[Link](https://genderandsecurity.org/sites/default/files/Gender%20Mainstreaming%20in%20Peacekeeping%20Operations-Nadine%20Puechguirbal%20%28University%20of%20Peace%29.pdf)
+
+Nadine Puechguirbal (puechguirbal@un.org) has been working as the Senior Gender Advisor for the UN Mission of Stabilisation in Haiti (MINUSTAH) since June 2004.
+
+She has acquired extended field experience over the years, first with the International Movement of the Red Cross (in Somalia, Former Yugoslavia, Kenya, Malaysia, Rwanda), later with the United Nations (in Haiti, Laos and the Democratic Republic of Congo).
+
+From 2000 to 2003, she worked for UN Office for the Coordination of Humanitarian Affairs (OCHA) and the UN Department of Peacekeeping Operations (DPKO) at the headquarters in New York. In 2003, she was seconded as the Deputy Gender Advisor to the UN Organization Mission in the Democratic Republic of the Congo (MONUC).
+
+In October 2006, Ms. Puechguirbal received her PhD on the subject “Gender
+perspectives in post conflict: comparative study between Somalia, Rwanda and Eritrea” at the Department of Political Sciences, University La Sorbonne, Paris, France.
+:::
+
+
+
+## {background-image="Images/13-3-unsc_r_1325.png"}
+
+::: notes
+
+Last detour!
+
+Before we shift to the article let's talk about the UN Resolution at the heart of the analysis.
+
+- I asked each of you to read it before class.
+
+- I know you don't have a lot of experience reading international law, but...
+
+<br>
+
+### What did you think of it? First impressions?
+
+<br>
+
+Skip past the very long preamble to the part of the resolution that is numbered.
+
+- That's where the meat in the meal really begins.
+
+<br>
+
+### What would you say are the "strongest" obligations in the resolution? e.g. Rules that should impact state behavior the most?
+
+- (**SLIDE**)
+:::
+
+
+## {background-image="Images/13-3-unsc_r_1325_described2.png" background-size='83%'}
+
+::: notes
+
+Most references to the resolution point to these elements.
+
+- They sound important and determinitive, BUT the language in the resolution implementing each of these provisions is weak.
+
+- In terms of international law, and domestic law really, rules using words like "must" and "shall" carry the most weight.
+
+- Although, "shall" is being replaced by "must" in domestic US law because "shall" can sometimes be taken as "may" and that gets confusing...
+
+<br>
+
+### How many instances of "shall" or "must" do we see in Resolution 1325?
+
+<br>
+
+### What action or obligation words does the resolution prefer?
+- (Instead this resolution uses a whole lot of "urges", "expresses" and "calls on" parties to behave in certain ways.)
+
+<br>
+
+Why does this matter?
+
+- (**SLIDE**)
+:::
+
+
+
+## {background-image="Images/13-3-sponge_bob-only-if-you-ask-nicely.jpg" background-size='68%'}
+
+::: notes
+
+Imagine if we wrote domestic laws this way.
+
+- Springfield PD **urges** you to stop at red lights.
+
+- The IRS **calls on** all citizens to pay their taxes.
+
+<br>
+
+Those are word choices that reflect a staggeringly low level of obligation.
+
+- No concrete explanations of what will happen if you don't comply.
+
+<br>
+
+### Make sense?
+:::
+
+
+
+## {background-image="Images/13-3-Abstract.png" background-size='75%'}
+
+::: notes
+So, why take this detour into a legal analysis of the UN Resolution before discussing the article?
+
+<br>
+
+Dr. Puechguirbal (Pweesh-gwhere-bal) is making an important argument rooted in her deep experience about the way power is defined and applied in UN Peacekeeping.
+
+- These are tough concepts to define and measure so identifying the causal mechanism here is going to be hard.
+
+- Try to keep in mind the specific language of Resolution 1325 as we examine her argument that it doesn't seem to be transforming UN peacekeeping.
+
+### Make sense?
+
+<br>
+
+Everybody turn to the conclusion of the article on p184.
+
+### Summarize this for me.
+
+#### - What is the big conclusion she wants us to accept?
+
+- (**SLIDE**)
+:::
+
+
+
+## Puechguirbal's (2010) Argument {background-image="Images/background-worldmap4.png" .center}
+
+<br>
+
+Therefore, and despite the high hopes attached to it, Resolution 1325 has failed to meaningfully incorporate gender issues into UN peace operations.
+
+::: notes
+
+I know there's a lot going on in the conclusion, but I think this is the bottom line.
+
+### Everybody see how I'm pulling this out?
+
+<br>
+
+### Is my summary missing any key pieces you want to add?
+:::
+
+
+
+## Puechguirbal's (2010) Argument {background-image="Images/background-worldmap4.png" .center}
+
+<br>
+
++ ?
+
++ ?
+
++ ?
+
+Therefore, and despite the high hopes attached to it, Resolution 1325 has failed to meaningfully incorporate gender issues into UN peace operations.
+
+::: notes
+
+Ok, everybody take a few minutes on your own to pull out what you think are the key premises in this argument.
+
+What are the most important pieces we need to identify and examine in order to evaluate this conclusion.
+
+<br>
+
+*Compare and consolidate notes with person next to you*
+
+<br>
+
+*ON BOARD*
+
+Ok, what do we have?
+
+- ?
+- ?
+- ?
+
+<br>
+
+(**SLIDE**: My Version (although lots still in the article))
+
+
+#### Longer pieces
+- Reports of the Secretary-General on Peacekeeping Operations adopt a "masculinist" language and perspective
+
+- Peacekeeping operations have adopted "criterion of success" that prioritize men's experiences and ignore womens' (174)
+
+- Resolution 1325 led to reports with an appendix on gender, NOT seeing gender "mainstreamed throughout the main body of the reports" (175).
+
+- Res 1325 has not led to the kinds of data tracking we need to represent women as more than just victims, e.g. "Not all women are civilians and not all men are combatants" (177).
+
+- "Women are not a homogeneous group who all have the same needs. By putting all women in the same basket of vulnerable individuals, one asserts that they are all victims, civilians and mothers with children, irrespective of their individual background, situation and capacity. UN actions then become solely about protection and "These UN practices have far-reaching implications for the women themselves who are trapped in the straitjacket of victimization" (178).
+
+- Res 1325 is missing a huge opportunity given that "Research has revealed that armed conflict is a time when patriarchal barriers break down, thus allowing a redefinition of gender roles: ‘Conflict, war and shifting social orders provide women with opportunities to break out of stereotypes and stifling societal patterns. . . . If women seize these opportunities, transformation is possible'" (180).
+
+- "There are no accountability mechanisms for resolution 1325 that keep track of how the top management of peacekeeping operations implements the resolution in its daily work" (181).
+
+- There is an obvious lack of political will and commitment within the UN hierarchy, which, permeated as it is with highly masculinized attitudes, exhibits a persistent resistance to change and power-sharing" (182).
+
+- "In all too many cases it would appear that reference to resolution 1325 has been used by UN decision-makers as a proxy for appearing to be concerned with gender-related issues in the country of mission without actually committing to its implementation" (182).
+:::
+
+
+
+## Puechguirbal's (2010) Argument {background-image="Images/background-worldmap4.png" .center}
+
+- Res 1325 language is sexist ("women and children syndrome")
+
+- Res 1325 has no "accountability mechanisms"
+
+- Res 1325 provides for no gender specific data tracking
+
+- Res 1325 leads to gender as an add-on in reports, not as a mainstream component
+
+- Res 1325 is blowing an incredible opportunity to achieve change
+
+Therefore, Res 1325 has failed to meaningfully incorporate gender issues into UN peace operations.
+
+::: notes
+
+- Res 1325 language is sexist ("women and children syndrome", women are victims or non-existent)
+- Res 1325 has no "accountability mechanisms"
+- UN leaders appear to pay only lip-service to 1325
+-- No gender specific data tracking (no measurement, no problem)
+-- Gender topics added as a separate section or appendix to reports, not mainstreamed throughout them
+- Res 1325 is missing a huge opportunity given that "Research has revealed that armed conflict is a time when patriarchal barriers break down, thus allowing a redefinition of gender roles: ‘Conflict, war and shifting social orders provide women with opportunities to break out of stereotypes and stifling societal patterns. . . . If women seize these opportunities, transformation is possible'" (180).
+:::
+
+
+
+## {background-image="Images/13-3-Abstract.png" background-size='75%'}
+
+::: notes
+**So, bottom line, how convinced are you by the argument?**
+
+<br>
+
+(Personally speaking, I'm fairly persuaded here)
+
+- Post-conflict scenarios that don't include a serious consideration of the viewpoint of 50+% of the population seem like a terrible idea.
+
+- The obligations language in the resolution itself seems far more aspirational than it does in creating meaningful new rules.
+
+<br>
+
+### Is this argument compatible with our analysis of the obligations in Resolution 1325?
+
+#### - In other words, does acknowledging the weakness in the resolution contradict Dr. Puechguirbal? Why or why not?
+
+<br>
+
+I don't think it does at all.
+
+- In fact, I think her article would be stronger if it addressed this aspect.
+
+- Assuming she is right about the entrenched nature of masculine power dynamics in the UN then "soft" international law will never work.
+
+- The harder the obstacles in the organization the greater the need for rules with teeth or this is the only outcome we should expect!
+
+<br>
+
+### Based on our work this week (or across the semester), do we have any sense of what might accomplish the goals Dr. Puechguirbal argues we need to aim for?
+
+#### - e.g. maintstreaming gender issues in peacekeeping
+
+<br>
+
+SLIDE: Diagramming the model...
+:::
+
+
+
+## Feminist Critical Theory (Enloe 2014) {background-image="Images/background-worldmap4.png" .center}
+
+**Interests**
+
+- ?
+
+**Institutions**
+
+- ?
+
+**Interactions**
+
+- ?
+
+::: notes
+
+Let's use all of our work from this week to start fleshing out a feminist critical theory of International Relations.
+
+- The case studies Monday showed us intl political events that have gone under-investigated / explained
+
+- Enloe's (2014) chapter Wednesday pushed us to explore a bunch of important questions and ideas
+
+- And then Puechguirbal's article today represents an attempt to use this perspective in a research paper
+
+<br>
+
+**So, what are the key elements or assumptions underpinning our work from this week?**
+
+- **In other words, what would this map of international political events need to include?**
+
+- Let's get some ideas on the board!
+
+<br>
+
+*Notes: they'll get another shot at this in a few weeks in class. Your general ideas follow:*
+
+Interests: 
+
+- Don’t forget to think about ALL the actors involved in the functioning of states, organizations movements
+- Who participated in decision-making?
+- Who are we ignoring?
+
+Institutions: 
+
+- Gender stereotypes as a kind of institution we should be aware of and how they structure interests and interactions
+- Is anarchy replaced by patriarchy?
+
+Interactions: 
+
+- Power is way more complicated and suffuses all interactions way more then the other theories think it does.
+
+:::
+
+
+
+## Assignment for Next Class  {background-image="Images/background-worldmap4.png" .center}
+
+<br>
+
+1. Vucetic and Persaud (2018) on race in International Relations
+
+2. **Before class** submit to Canvas: 
+    - What do Vucetic & Persaud mean by "race" in this reading? How does their definition of the concept compare to how "race" is used in the world around us?
+
+::: notes
+**Questions on the assignment?**
+:::
+
+
+
+
+
+
+## Slides for other terms
+
+## Assignment for Next Class  {background-image="Images/background-worldmap4.png" .center}
+
+<br>
+
+1. Find a current, or recent, international political event that **explicitly deals with issues of colonialism, exploitation by the strong against the weak or race**
+
+2. **Before class** submit to our Canvas discussion board: 
+    - The APA citation for your evidence, and
+    
+    - A short explanation for why this case illustrates an under-explored issue in international politics
+
+::: notes
+
+Next week we explore the work of postcolonial researchers in international relations.
+
+- Their work will challenge us to think more broadly about power, exploitation and control in world politics
+
+<br>
+
+Find us a real world case study that deals with, or is evidence of, these kinds of complications
+
+- This doesn't have to be explicitly racial in nature although it certainly can be
+
+- Look for events to help us unpack the idea that not all people and countries in the world are playing the same game as those in the western, rich world
+
+<br>
+
+Please avoid overlap, first-come, first-served.
+
+<br>
+
+### Questions on the assignment?
+:::

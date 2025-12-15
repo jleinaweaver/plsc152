@@ -1,0 +1,982 @@
+---
+format: revealjs
+---
+
+## Today's Agenda {background-image="Images/background-worldmap4.png" .center}
+
+```{r}
+# background-size="1920px 1080px"
+library(tidyverse)
+library(readxl)
+```
+
+<br>
+
+::: {.r-fit-text}
+
+**I. Arguments, Evidence and International Relations**
+
+1. What is "science"?
+
+2. What is "politics"?
+
+3. Can it be studied "scientifically"?
+
+:::
+
+<br>
+
+::: r-stack
+Justin Leinaweaver (Spring 2026)
+:::
+
+::: notes
+Prep for Class
+
+1. Review and record participation submissions
+
+2. Print "get out of jail free" cards for our distribution game (print from GDrive)
+
+3. Update with class notes from trying to define our concepts
+    - International: Involves the actions of more than one country
+    - Political: *we didn't really get to this*
+    - Event: A thing that happened
+    
+4. Note that you don't open today with refresher of last class, that comes in the middle of today's plan
+
+5. ALSO, move it along to get to the final exercise where they propose changes to the game and predict changes in the outcome. THAT'S to address the considerable skepticism raised in the discussion board about political "science"
+
+<br>
+
+Welcome back everybody!
+
+<br>
+
+Today we continue laying important foundations for the rest of the semester.
+
+- We need to make sure we're clear on what we're exploring and how we explore it.
+
+<br>
+
+For today you read Hoover and Donovan on "The Elements of Science."
+
+- Let's make sure it was clear.
+
+<br>
+
+**SLIDE**: Define what you see!
+
+:::
+
+
+
+
+## {background-image="Images/background-worldmap4.png" .center}
+
+:::: {.columns}
+::: {.column width="50%"}
+
+![](Images/02_1-chair_v2.png)
+
+:::
+
+::: {.column width="50%"}
+
+![](Images/02_1-scrooge.jpg)
+
+:::
+::::
+
+::: notes
+
+**What do you see on the slide?**
+
+- *Push them to name more than just a chair and a duck!*
+
+- Left: Chair, comfort, ease, wood, cheapness, ...
+
+- Right: Duck, cartoon, extreme wealth, art, money vault, special shoes for a duck, happiness
+
+<br>
+
+### Based on the reading, which of the things you named are concepts? 
+
+#### - Make your case!
+:::
+
+
+## {background-image="Images/background-worldmap4.png" .center .smaller}
+
+Concepts are "names for things, feelings and ideas generated or acquired by people in the course of relating to each other and to their environment" (13)
+
+:::: {.columns}
+::: {.column width="50%"}
+
+![](Images/02_1-chair_v2.png)
+
+:::
+
+::: {.column width="50%"}
+
+![](Images/02_1-scrooge.jpg)
+
+:::
+::::
+
+::: notes
+
+All of it.
+
+- All of them are concepts
+
+- They are names for things / ideas that allow us to communicate about the world.
+:::
+
+
+
+## {background-image="Images/02_1-scrooge2.jpg" .center}
+
+::: notes
+
+Where this gets complicated is when we disagree about the meaning of a specific concept.
+
+### How can "wealth" be a contested concept?
+
+<br>
+
+### - What are the different ways we could define "wealth" that might conflict with each other?
+:::
+
+
+
+## {background-image="Images/02_1-graffiti.jpg" .center}
+
+::: notes
+
+"Wealth" is clearly a contested concept.
+
+- To some people "wealth" is having family and friends.
+
+- To others it is owning a fancy house and car.
+
+- To still others it is having power to shape the world as they want it.
+
+<br>
+
+**The key here is to recognize that almost ALL important concepts are contested AND this is the source of MANY, if not most, fights in society.**
+:::
+
+
+
+## {background-image="Images/02_2-Types-of-Folding-Chairs.jpg" .center}
+
+::: notes
+
+### Ok, tougher test, how can a "chair" be a contested concept?
+
+### - Not just defined differently but in ways where those definitions conflict with each other!
+
++ (Examples?)
+:::
+
+
+
+
+## {background-image="Images/background-worldmap4.png"}
+
+![](Images/02_1-dog_toddler.png){style="display: block; margin: 0 auto"}
+
+::: notes
+
+I know this seems silly, but clearly these two members of society define a chair differently.
+
+### What are the stakes of this conflict?
+### - Is there anything we can learn from this photo about concepts and society?
+
+<br>
+
+Never forget, defining a concept is an expression of your power!
+
+- Get others to accept your definition means you have the ability to frame our use and understanding of that thing.
+
+<br>
+
+This small child will clearly be impacted if we all decide to accept the dog's definition of a chair.
+
+- And the parents were persuaded enough to stage and take the photo!
+
+<br>
+
+**Big point: Fights over defining concrete objects are not just silly!**
+:::
+
+
+
+## {background-image="Images/01-1-segregated_water_fountains.jpeg" .center}
+
+::: notes
+**How does this represent a political fight over defining a concept?**
+
+- **What concepts are being contested in the society depicted by this picture?**
+
+- (Who is a citizen?)
+
+- (Are all citizens "equal" even if kept "separate"?)
+
+- (Should public goods, paid for by public taxes, be available to all "persons"?)
+
+<br>
+
+These are huge ideas, but each of them plays out in very concrete ways
+
+- Many of the specific debates from this era were about very concrete things like water fountains, riding on public transit and going to public schools.
+
+<br>
+
+Let's bring this idea about conceptual fights to the current day.
+
+### Give me some examples of political fights we are having in society right now that are, at their core, fights about defining a concept.
+
+- (Abortion: The sanctity of life vs bodily autonomy for women)
+
+- (Immigration and asylum seekers: Illegal vs undocumented human beings)
+
+- (Israel in Gaza: Justifiable self-defense or the commission of war crimes?)
+
+<br>
+
+**SLIDE**: And just like our example with the dog and the toddler, whoever wins these arguments will have profound impacts on society
+:::
+
+
+
+## What should we do about the people trying to cross our southern border with Mexico? {background-image="Images/background-worldmap4.png" .center}
+
+::: notes
+This is a big policy problem facing the government right now.
+
+<br>
+
+BUT, what we should do about it depends entirely on how you define the problem.
+
+<br>
+
+**SLIDE**: One option...
+:::
+
+
+
+## {background-image="Images/background-worldmap4.png" .center}
+
+**What should we do about the people trying to cross our southern border with Mexico?**
+
+:::: {.columns}
+::: {.column width="50%"}
+
+<br>
+
+![](Images/02_1-anti_immigrant2.jpg)
+
+:::
+
+::: {.column width="50%"}
+
+![](Images/02_1-anti_immigrant.jpg)
+
+:::
+::::
+
+::: notes
+**What are the policy solutions that jump straight to your mind when you hear we have a problem with "illegal immigrants"?**
+
+- Society and the rule of law depend on equally enforcing the rules
+
+- Therefore, Illegal actions / actors must be punished!
+
+- Therefore the policy solution is more cops and more punishments to deter the bad acts (deportations?)
+
+<br>
+
+**SLIDE**: An alternative conceptual definition
+:::
+
+
+
+
+## {background-image="Images/background-worldmap4.png" .center}
+
+**What should we do about the people trying to cross our southern border with Mexico?**
+
+:::: {.columns}
+::: {.column width="50%"}
+
+![](Images/02_1-No_human_being_is_illegal.jpg)
+
+:::
+
+::: {.column width="50%"}
+
+![](Images/02_1-asylum_cropped.png)
+
+:::
+::::
+
+::: notes
+**What are the policy solutions that jump to your mind when you hear we have a problem with processing undocumented immigrants and asylum seekers?**
+
+- International law has long established that the ability to seek asylum is a human right
+
+- People who credibly fear for their lives have the right to be taken in by other countries for protection
+
+- Therefore, the policy solution is more processing capacity (bureaucracy)
+
+- We need more judges to process applications and funding to adapt to the demand at the southern border
+
+<br>
+
+**SLIDE**: When definitions conflict...
+:::
+
+
+## {background-image="Images/background-worldmap4.png" .center}
+
+**What should we do about the large number of people trying to cross our southern border with Mexico?**
+
+:::: {.columns}
+::: {.column width="50%"}
+
+![](Images/02_1-No_human_being_is_illegal.jpg)
+
+:::
+
+::: {.column width="50%"}
+
+![](Images/02_1-anti_immigrant.jpg)
+
+:::
+::::
+
+::: notes
+When fundamental definitions are incompatible, we end up just talking past each other
+
+- These two sides cannot possibly have a productive conversation about this topic.
+
+- They can't even agree on what the problem actually is, let alone how to solve it.
+
+<br>
+
+**Make sense?**
+
+<br>
+
+**SLIDE**: For the purposes of this class we really can't accomplish much if we don't first define a few key concepts!
+
+:::
+
+
+
+
+## {background-image="Images/background-worldmap4.png" .center}
+
+:::: {.columns}
+::: {.column width="40%"}
+**International**
+
++ ?
+
+**Political**
+
++ ?
+
+**Event**
+
++ ?
+:::
+
+::: {.column width="60%"}
+
+<br>
+
+![](Images/02_1-politics-word-cloud.webp)
+
+:::
+::::
+
+::: notes
+All of this is why we started with the case study exercise on Monday.
+
+<br>
+
+Remember, our aim is not to create the perfect definition.
+
+- That's practically impossible.
+
+<br>
+
+Our job is to agree on a shared definition we can use to begin exploring the world.
+
+<br>
+
+*IFF last class was case study exercise:*
+
+**Based on our case studies, what is our working definition of an "event"?**
+
+*IFF not:*
+
+**When you hear the word "event" what do you think of?**
+:::
+
+
+
+## {background-image="Images/background-worldmap4.png" .center}
+
+:::: {.columns}
+::: {.column width="40%"}
+**International**
+
++ ?
+
+**Political**
+
++ ?
+
+**Event**
+
++ A thing or happening
+:::
+
+::: {.column width="60%"}
+
+<br>
+
+![](Images/02_1-politics-word-cloud.webp)
+
+:::
+::::
+
+::: notes
+*IFF last class was case study exercise:*
+
+**Based on our case studies, what definition of "international" did we come up with?**
+
+*IFF not:*
+
+**When you hear the word "international" what do you think of?**
+:::
+
+
+
+## {background-image="Images/background-worldmap4.png" .center}
+
+:::: {.columns}
+::: {.column width="40%"}
+**International**
+
++ Global impact or
++ Involving > 1 state
+
+**Political**
+
++ ?
+
+**Event**
+
++ A thing or happening
+:::
+
+::: {.column width="60%"}
+
+<br>
+
+![](Images/02_1-politics-word-cloud.webp)
+
+:::
+::::
+
+::: notes
+Alright, now it's time for the hard one.
+
+*IFF last class was case study exercise:*
+
+**Based on our case studies, what definition of "political" did we come up with?**
+
+*IFF not:*
+
+**When you hear the word "political" what do you think of?**
+
+<br>
+
+*Discuss* and then *segue to the game*
+:::
+
+
+
+## {background-image="Images/02_1-politics_game_1.png" .center}
+
+::: notes
+
+Ok, let me see if I can help you get to how political scientists define "politics."
+
+<br>
+
+Let's play a game!
+
++ Here's the deal, it's pretty simple
+
++ As a class you have to distribute a couple of index cards.
+
+<br>
+
+*Notes on the game FOR YOU*
+
++ Class must distribute X "Get out of jail free" cards in ten minutes
+
++ Each card is worth a free excused absence, a two day extension to a paper deadline (not the final) OR 1/3 letter grade bump on any paper
+
++ Number of cards: 3 or maybe 25% of the class?
+
++ **No one can just claim them by walking up and taking it. Students must make an affirmative case why they should get one**. 
+    - I like this! A literal government hand out!
+
++ Final decisions must be reached by consensus.
+:::
+
+
+
+## {background-image="Images/02_1-politics_game_2.png" .center}
+
+::: notes
+
+Each of these is a "get out of jail free" card.
+
+- You can use one of these to help yourself out of a jam in this class this semester.
+
+- Miss a paper deadline? Add three days!
+
+- Miss a class? Get an excused absence!
+
+<br>
+
+Basic Rules
+
+1. The class must reach a consensus on the outcome
+
+2. You have 5 minutes to decide or I tear up the cards
+
+<br>
+
+**That's it, that's the game. Go!**
+:::
+
+
+
+## {background-image="Images/02-2-politics1.png"}
+
+**1. What was your strategy?**
+
+**2. What strategies did you observe?**
+
+**3. What was the outcome of the game?**
+
+::: notes
+In a moment I'm going to ask you to answer these three questions.
+
+- So, take two minutes to reflect on our game and get ready to answer.
+
+<br>
+
+REPORT BACK: Ok, what just happened?
+
+### 1. How did you approach this game? What was your strategy? 
+
+<br>
+
+### 2. What strategies did you observe from other people?
+
+<br>
+
+### 3. What was the outcome of the game?
+
+<br>
+
+### 4. Importantly, why did we end up with that outcome? Biggest reasons in your mind?
+
+<br>
+
+**SLIDE**: Assume for the moment that our game was a useful simulation of "politics"...
+:::
+
+
+
+## Define "Politics" {background-image="Images/02-2-politics1.png"}
+
+::: notes
+
+Think about your experience and our discussion and use all of that to write me a short definition of the concept: "politics."
+
+<br>
+
+Alright, let's hear what you came up with!
+
+*PRESENT and DISCUSS*
+
+<br>
+
+Games and simulations are often a useful tool for exploring politics.
+
+- What we just played was a fairly basic distribution game.
+
+- It highlights a ton of important stuff, but we'll just focus on the big idea for now.
+
+- SLIDE: Standard definitions...
+:::
+
+
+
+## Define "Politics" {background-image="Images/02-2-politics1_v2.png"}
+
+- **Decision-making in a community**
+
+::: notes
+
+In various textbooks you'll see politics defined as:
+
+Decision-making in a community
+
+- One important aspect of "politics" is the study of how groups make decisions.
+
+- Group decision-making is complex and it multilayered
+
+- It is also one of the fundamental building blocks of our society 
+
+<br>
+
+**SLIDE**: Or...
+:::
+
+
+## Define "Politics" {background-image="Images/02-2-politics1_v2.png"}
+
+- **Decision-making in a community**
+
+- **How we make and enforce "the rules"**
+
+::: notes
+    
+How we make and enforce "the rules"
+
+- Once a society has established rules, many political scientists study how those rules are interpreted, revised and enforced
+
+- The decision to punish a rule-breaker is a huge decision that often sends ripples out through a community
+
+<br>
+
+While these definitions seem pretty anodyne on their faces, these choices can be HUGE in impact!
+
+<br>
+
+### Out of curiosity, what would happen if today SGF police started pulling over EVERY car that exceeded the speed limit by even 1 mph?
+
+<br>
+
+### And what would happen if they completely stopped enforcing speed limits?
+
+<br>
+
+**SLIDE**: Or...
+:::
+
+
+## Define "Politics" {background-image="Images/02-2-politics1_v2.png"}
+
+- **Decision-making in a community**
+
+- **How we make and enforce "the rules"**
+
+- **Who gets what, when and how?**
+
+::: notes
+
+Who gets what, when and how?
+
+- Why do groups form? Often it is to produce greater resources than any individual could do on their own
+
+- This could be money, food, a division of labor, or collective security
+
+- HOWEVER, producing that good means someone has to pay and someone has to benefit
+
+- Who pays and who benefits is a constant tension in any society.
+
+<br>
+
+Bottom line, anytime a group of people have to come together to make a decision, a political scientist can be found who is interested in the process.
+
+- **Any questions on this broad definition of the concept "politics"?**
+
+<br>
+
+Now let's talk about the "science" part of our reading for today.
+
+- Hoover and Donovan do a really nice job laying out how social scientists can follow a process in order to generate useful knowledge about the world.
+
+- **What are the key elements of the scientific process according to the reading?**
+
+- (**SLIDE**)
+
+:::
+
+
+
+## {background-image="Images/background-worldmap4.png" .center}
+
+:::: {.columns}
+
+::: {.column width="50%"}
+
+::: {.r-fit-text}
+
+**Science**
+
+- A method, not a subject
+
+- Goal is inference
+
+- Uncertain conclusions
+
+- Procedures are public 
+
+:::
+:::
+
+::: {.column width="5%"}
+
+:::
+
+::: {.column width="45%"}
+![](Images/02_1-science_process_meme.png)
+:::
+
+::::
+
+::: notes
+
+The important takeaway for us.
+
+<br>
+
+Science is a process for generating knowledge, not a bucket of facts about the natural world.
+
+<br>
+
+The goal is to develop inferences about the world
+
+- e.g. derive generalizations from specific evidence
+
+- Key here is a reliance on “observable evidence”
+
+<br>
+
+All scientific conclusions are uncertain!
+
+- They depend on data, theory and method
+
+- And as you all noted in your Canvas discussions for today, all measurements include error!
+
+<br>
+
+Science is NEVER just about taking someone’s word for something.
+
+- Knowledge that cannot be independently confirmed is not useful.
+
+<br>
+
+Bottom line, you can study anything "scientifically."
+
+- Even politics!
+
+<br>
+
+**Make sense?**
+
+<br>
+
+**SLIDE**: For your participation point today I asked each of you to answer a fairly important question for me...
+
+:::
+
+
+
+## {background-image="Images/background-worldmap4.png" .center}
+
+![](Images/02_1-monkey_darts_politics.jpg){style="display: block; margin: 0 auto"}
+
+::: notes
+**Based on the reading, what do you think is the biggest challenge to doing political science as a "science"?**
+
+- You all submitted excellent attacks on my discipline to Canvas so let's discuss them!
+
+- *Give them time to explain and explore. Call on people if you must!*
+
+- *PRESENT and DISCUSS each*
+
+<br>
+
+You've all raised some concerns about whether or not theories of politics can be useful given how unpredictable human beings are
+
+- **SLIDE**: Let's consider that...
+
+:::
+
+
+
+
+## {background-image="Images/02_1-politics_game_2.png"}
+
+::: notes
+
+Imagine we were about to run the "get out of jail free" card distribution game in a different class.
+
+- Lets start with some predictions
+
+<br>
+
+Before we play the game I want you to make a series of predictions
+
+1. Will the class successfully distribute the cards before the time runs out?
+
+2. Who will get them?
+
+<br>
+
+I'm willing to give you any details about the class that you want to help you make your predictions.
+
+- **What specifically would you want to know? Why?**
+
+- *Force this discussion and connect each to an intuitive theory of group behavior*
+
+- *ON BOARD*
+
+<br>
+
+Now let's go the other way with this.
+
+- **How could we change the game itself (e.g. the rules) to get different outcomes?**
+
+<br>
+
+Prompts if helpful:
+
+1. Rules that prevent the class from deciding?
+
+2. Rules that ensure that a fight breaks out?
+
+3. Rules that ensure only male students get a card?
+
+<br>
+
+All of your ideas here on the board represent EITHER:
+
+1. A reflection of the theories/models in your head that guide your assessment of how politics works, OR
+
+2. the building blocks of new political science theories in the making.
+
+<br>
+
+I think that's super cool.
+:::
+
+
+
+## For Next Class {background-image="Images/background-worldmap4.png" .center}
+
+<br>
+
+### International Relations Theories
+
+- Read Mingst and Arreguin-Toft (2017)
+
+::: notes
+
+For next class you'll be reading a chapter that will introduce you to some of the big, grand-daddy theories of International Relations.
+
+<br>
+
+### Questions on anything from today?
+:::
+
+
+
+
+
+## Old slides
+
+
+
+
+## "Legitimate" government actions? {background-image="Images/02_1-us_capitol_v2.png"}
+
+::: notes
+**Name for me a "legitimate" government action.**
+
+- **Something you believe the government can do that is fully consistent with the law**
+
+- *ON BOARD*
+
+- (Protection against invasion by a foreign army?)
+
+- (Taxation?)
+
+- (Providing public goods e.g. building roads, maintaining safe air travel)
+:::
+
+
+
+## "Illegitimate" government actions? {background-image="Images/02_1-us_capitol_v2.png"}
+
+::: notes
+**Name for me an "illegitimate" government action**
+
+- **Something you believe the government should not do!**
+
+- *ON BOARD*
+
+<br>
+
+### Compare and contrast these lists for me!
+
+### - Does everybody in here define government legitimacy the same way?
+
+<br>
+
+### Questions on the importance and power of defining concepts?
+
+<br>
+
+For the purposes of this class we really can't accomplish much if we don't first define a few key concepts!
+:::
+
+
+
+## {background-image="Images/02_1-theory_defined.png"}
+
+::: notes
+
+Theory, per the reading, is "...a set of related propositions that suggest why events occur in the manner that they do" (p32).
+
+<br>
+
+**Any famous theories come to mind?**
+
++ (Relativity?)
++ (Gravity?)
++ (The big bang?)
+
+<br>
+
+In simple terms, theories are the arguments we use to explain why things happen.
+
+- You've all raised some concerns about whether or not theories of politics can be useful given how unpredictable human beings are
+
+- **SLIDE**: Let's consider that...
+
+:::
