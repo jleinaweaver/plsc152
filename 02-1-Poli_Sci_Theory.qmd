@@ -403,7 +403,7 @@ When fundamental definitions are incompatible, we end up just talking past each 
 ::::
 
 ::: notes
-All of this is why we started with the case study exercise on Monday.
+All of this is why we started with the case study exercise last class.
 
 <br>
 

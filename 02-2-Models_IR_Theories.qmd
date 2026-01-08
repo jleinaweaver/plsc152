@@ -648,8 +648,36 @@ If one explains event "A" and the other explains events "A" and "B" we would def
 
 Let me give you an example!
 
-- **SLIDE**: EITHER, NASA and a team of international scientists landed men on the moon, OR...
+- **SLIDE**: On July 20, 1969 the Apollo 11 mission landed on the moon
+
 :::
+
+
+
+## {background-image="Images/02_2-moon-landing.avif" .center}
+
+::: notes
+
+The effort to put a man on the moon was a massive national undertaking
+
+- A peak workforce of over 400,000 scientists, engineers, technicians, and managers from various companies and universities worked on the Apollo program.
+
+- A decade of intense work from 1961 to 1969, and
+
+- It required building entirely new systems from scratch, including the powerful Saturn V rocket, and developing new inventions and techniques that later became everyday technologies
+
+    - Fire resistant fabrics, microchips, scratch resistant glasses, cordless tools, water filtration, rechargable hearing aids, and so much more
+
+<br>
+
+So either the US government organized an incredible program of discovery that set the stage for US economic dominance, OR...
+
+- **SLIDE**
+
+
+:::
+
+
 
 
 
@@ -658,25 +686,26 @@ Let me give you an example!
 ::: notes
 The US government has undertaken the largest, most complicated hoax of all time.
 
-This required thousands of people to cooperate and keep their secrecy about:
+<br>
 
-- Hiding the actual filming,
+- The conspiracy involved 400,000 people ALL OF WHOM could keep this massive secret
 
-- Tricking the Russians to believe it happened,
+- We were able to completely fool the Russians who had their own spy program and space program focused on everything we were doing
 
-- Keeping all of the actors and crew quiet,
+- We somehow planted a mirror on the moon so experiments can be done from Earth,
 
-- Planting a mirror on the moon so experiments can be done from Earth,
-
-- Building the facilities where the shuttle and lander were built,
-
-- Writing 100ks of detailed plans, diagrams, budgets and other documents that currently exist and can be reviewed in archives showing the entirety of the project at every step of its development.
+- We wrote hundreds of thousands of detailed plans, diagrams, budgets and other documents that currently exist and can be reviewed in archives showing the entirety of the project at every step of its development.
 
 - etc.
 
 <br>
 
-### So, you know, 50-50, right?
+So, you know, 50-50, right?
+
+<br>
+
+**SLIDE**: That brings us back to evaluating theories by their usefulness
+
 :::
 
 
