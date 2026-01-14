@@ -82,12 +82,6 @@ Bad arguments are everywhere and are common in the political arena.
 
 <br>
 
-**How do you, personally, judge whether an argument is "good" or "bad"?**
-
-- **In other words, in your mind what are the characteristics of a good argument?**
-
-<br>
-
 In academic terms, our definition of a good argument tends to focus on whether it convinces you of its thesis
 
 - **What is a thesis?**
@@ -98,11 +92,11 @@ In academic terms, our definition of a good argument tends to focus on whether i
 
 <br>
 
-**When was the last time in your life someone changed your mind about something with an argument? Examples?**
+**When was the last time in your life someone changed your mind about something with an argument?**
 
-<br>
+- **Give me examples!**
 
-**How specifically did they do it? Certain strategies employed?**
+- **How specifically did they do it? Certain strategies employed?**
 
 <br>
 
@@ -121,41 +115,22 @@ For the important arguments in our lives, concerning the issues we care most abo
 
 <br>
 
-Let's talk through each of these elements.
+FYI, this is the top line of the rubric I use to grade your papers in this class
 
-- FYI this is the rubric I use when grading argument papers in my classes.
-:::
-
-
-## To be convincing an argument should be logical, clear, credible and critical {background-image="Images/background-worldmap4.png" .center}
-
-::: {.incremental}
-- **Logical** arguments support their conclusion with well specified premises.
-
-- **Clear** arguments are easy to read & understand.
-
-- **Credible** arguments use high quality evidence and citations.
-
-- **Critical** arguments acknowledge the limitations of evidence and address counter-arguments.
-:::
-
-::: notes
-
-The rubric is in the syllabus so you can consult it as you write and revise for this class.
-
-- The key is, a convincing academic argument must do ALL FOUR OF THESE THINGS well.
+- The details are in the syllabus and you should definitely read and consider them when writing your papers
 
 <br>
 
-**What questions do you have about this rubric?**
+Today in class we'll be focusing on the logic piece of a convincing argument
 
-- **Which elements need more explanation?**
+- The Labossiere reading gave you the basic elements, and
+
+- The newspaper op-eds will give us something to evaluate in these terms
 
 <br>
 
-During the course of the semester we will spend time exploring each of these criteria.
+**SLIDE**: Let's start with Labossiere and the basics
 
-- For today our focus is primarily on logic and clarity.
 :::
 
 
