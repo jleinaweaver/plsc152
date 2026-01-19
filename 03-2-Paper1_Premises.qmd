@@ -47,6 +47,13 @@ Let's start today by discussing the very excellent writing advice in Farrell (20
 1. Read the Requirements for the Assignment
 
 ::: notes
+
+As we go through this, let me encourage you to take notes!
+
+- This article is FULL of information that you need to succeed in this class AND as a writer of convincing arguments
+
+<br>
+
 **What's the advice in the "read the requirements for the assignment" section?**
 
 <br>
@@ -65,13 +72,38 @@ Also, don't try to kill two birds with one stone (e.g. one paper for two classes
 
 <br>
 
-Also, a good chance to reinforce our AI policy in this class (as specified by the syllabus)
+**SLIDE**: A good chance to reinforce our AI policy in this class (as specified by the syllabus and discussed in class)
 
-- You may not use AI tools on these papers
+:::
 
-- That includes both chatGPT style generators that write from scratch or Grammarly style tools that simply clean up your writing
 
-- One of my primary goals in this class is to help you become a better writer. I can't do that unless I see your actual writing in the assignments.
+
+
+## {background-image="Images/background-worldmap4.png" .center}
+
+![](Images/01_1-No_AI_Tools.jpg){style="display: block; margin: 0 auto"}
+
+::: notes
+
+Once again!
+
+- No AI search
+
+- No AI summaries of articles or books
+
+- No AI for outlining or writing
+
+- No AI for data analysis
+
+- No AI to simply clean up your grammar (e.g. Grammarly).
+
+<br>
+
+One of my primary goals in this class is to help you become a better writer. I can't do that unless I see your actual writing in the assignments.
+
+<br>
+
+**SLIDE**: Back to Farrell!
 :::
 
 
@@ -295,23 +327,13 @@ A weak argument with an awesome meso structure CAN still be effective.
 <br>
 
 ### Any questions on the advice in the Farrell reading?
-:::
-
-
-## To be convincing an argument should be logical, clear, credible and critical {background-image="Images/background-worldmap4.png" .center}
-
-::: notes
-
-All of this good advice is, hopefully, represented by our class writing rubric.
-
-- Remember, our class writing rubric tells you that a convincing an argument should be logical, clear, credible and critical.
 
 <br>
 
-I grade using this rubric.
+**SLIDE**: All of this good advice is, hopefully, captured by our class writing rubric.
 
-- **SLIDE**: Basically, I read your paper and then ask myself four questions.
 :::
+
 
 
 ## To be convincing an argument should be logical, clear, credible and critical {background-image="Images/background-worldmap4.png" .center}
@@ -330,9 +352,26 @@ I grade using this rubric.
 :::
 
 ::: notes
-A very good series of questions to ask yourself before submitting!
 
-### Any questions on the rubric or my expectations?
+Remember, our class writing rubric tells you that a convincing argument should be logical, clear, credible and critical.
+
+<br>
+
+Basically, I read your paper and then ask myself four questions.
+
+- **REVEAL x 4**
+
+<br>
+
+I think these represent a very good series of questions to ask yourself before submitting!
+
+<br>
+
+**Any questions on the rubric or my expectations?**
+
+<br>
+
+**SLIDE**: Assignment for today
 :::
 
 

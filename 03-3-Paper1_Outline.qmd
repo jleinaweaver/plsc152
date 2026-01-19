@@ -184,7 +184,7 @@ Person 2 gives feedback focused on helping person 1 make it more convincing
 - Is each item clear?
 - Is each premise logical?
 - Is each piece of evidence high enough quality?
-- **Identify a counter-argument for each premise**
+- **Design a counter-argument for this paper**
 
 ::: notes
 
@@ -197,31 +197,37 @@ Let's talk about that counter-argument piece (which is new!)
 Critical Analysis can be added to a paper with:
 
 1. A counter-argument
+
     - Author X (2020) argues that... However, ...
     - To be convincing it MUST always be the STRONGEST version of their argument
     - No straw men! No "Some people argue"...
     
 2. Discussions of the limitations of your evidence
+
     - All measurement is done with error
     - You can boost the depth of your argument by acknowledging how your evidence might be lacking, but making clear why that doesn't mess up your argument
     
 <br>
 
-For today, I want you to help each other brainstorm a counter-argument for each premise
+For today, I want you to help each other brainstorm a counter-argument for the paper
 
-- e.g. Here's why my argument might be wrong! And here's how I've addressed those concerns!
+- I am asking you to come up with an alternative "most important event" that would make a good counter for your specific paper
 
-- In the actual paper, you'll need to be able to cite evidence for the counter-arguments, but for today we can just generate them
-
-<br>
-
-The easiest way to attack this element for this paper is to think, what is a different recent event that meets this criteria as well? 
-
-- Make sure you're clear on why it meets the criteria AND why it doesn't change your argument
+- That means a second event that ALSO does well per the criteria you have established for importance
 
 <br>
 
-### Make sense?
+Let me come at this one more time for clarity
+
+- Your paper offers three premises or reasons your chosen event is the most important
+
+- A compelling counter-argument should propose a different event that also meets those criteria!
+
+- You will explain why that second event is also important AND why it isn't MORE important than yours
+
+<br>
+
+**Make sense?**
 
 <br>
 
