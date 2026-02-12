@@ -60,7 +60,7 @@ Prep for Class
 <br>
 
 ::: {.r-fit-text}
-<p style="color: white;">**Liberal Institutionalism**</p>
+<p style="color: white;">**Liberal Institutionalism (Keohane 1984)**</p>
 :::
 
 ::: notes
@@ -70,6 +70,18 @@ Last class we explored the roots of the democratic peace in Liberal Institutiona
 <br>
 
 **Refresh my memory, what are the key interests, institutions and interactions in this model of international politics?**
+
+- (*NOTE: Consider NOT showing them the next slide! Encourage them to rely on their notes BUT be willing to answer questions)
+
+<br>
+
+ANNOUNCE: Make sure you cite Keohane (1984) when using this model
+
+- The FLS chapter was meant to give you an easier set of examples for HOW and WHY institutions can make cooperation easier
+
+- BUT the real source for this model is Keohane's book
+
+
 
 - (**SLIDE**)
 :::
@@ -262,6 +274,8 @@ Very similar perspective to the realists
 <br>
 
 Groups, get ready to report back on the last one, what are the relevant interactions in this model?
+
+- Ask yourself, how does the system change if states choose war? How does it change if states choose trade?
 
 - Go!
 
