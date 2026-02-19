@@ -12,13 +12,9 @@ library(readxl)
 
 <br>
 
-::: {.r-fit-text}
-
 **II. Why Are There Wars?**
 
-- Is peace worth the Economic Liberal price?
-
-:::
+- Is peace worth the costs of embracing the logic of economic liberalism?
 
 <br>
 
@@ -31,108 +27,22 @@ Prep for Class
 
 1. Check Canvas submissions
 
-2. NOTE: You made tweaks to the following during class in FA24 to set this up as splitting the class in half and having them work directly on the board
-
-3. NOTE 2: You removed the trade war stuff for now
+2. **Save time for END of class to discuss revise and resubmit plan for paper 1**
 
 <br>
 
-*Depends on grading*
-
-SLIDE: R&R Prep
-
-**Optional R&R announcement**
-
-I think I'll have all the papers graded by this afternoon and so hope to have them released to you today.
-
-- **SLIDE**: With that in mind, let's talk next steps!
-
-OR
-
-### DISCUSS: Name me an international political event that has happened since we last met as a class.
+**Name me an international political event that has happened since we last met as a class.**
 
 <br>
 
-### How could we explain that event using our theories of international relations?
-
-### - Neorealism, offensive realism, democratic peace theory or economic liberalism?
+- **How could we explain that event using our theories of international relations? (e.g. neorealism, offensive realism, and economic liberalism)**
 
 <br>
 
-Last class we started digging into our next answer to the question, why do wars happen?
-
-### What is the answer according to Economic Liberals?
-
-- (**SLIDE**)
+**SLIDE**: Economic liberal model
 
 :::
 
-
-
-## {background-image="Images/05_2-Peer_Review.png"}
-
-::: notes
-
-Congratulations all, you've completed the first step in building a convincing, academic argument.
-
-- You constructed a logical argument, supported it with evidence and worked to address expected critiques of it.
-
-<br>
-
-My job as the peer reviewer is to push back on all of it to help you make the strongest version of your argument possible.
-
-<br>
-
-Your next job is to reflect on that feedback and then to revise the paper to make it stronger.
-:::
-
-
-
-
-## Revise and Resubmit Paper 1 {background-image="Images/background-worldmap4.png" .center}
-
-<br>
-
-::: {.r-fit-text}
-
-**Submit to Canvas** a revision of your first draft that:
-
-1. Addresses **ALL** of the feedback, AND
-
-2. Highlights **ALL** of your changes.
-
-:::
-
-::: notes
-
-Arguably, THIS is the more important step in the process.
-
-- Learning to take on board feedback and strengthen your arguments will be key to developing your skills in making convincing, high quality arguments.
-
-<br>
-
-Revisions will be accepted for two weeks.
-
-### Questions on the revision process?
-
-<br>
-
-### OK, name me an international political event that has happened since we last met as a class!
-
-<br>
-
-### How could we explain that event using our theories of international relations?
-
-### - Neorealism, offensive realism, democratic peace theory or economic liberalism?
-
-<br>
-
-Last class we started digging into our next answer to the question, why do wars happen?
-
-### What is the answer according to Economic Liberals?
-
-- (**SLIDE**)
-:::
 
 
 
@@ -163,18 +73,22 @@ Trade -> specialization -> peace
 
 <br>
 
-### Remind me, what is specialization?
+**Remind me, what is specialization?**
+
 - (The idea is that the world economy grows best when everyone focuses on doing the things they are best at.)
+
     - You then buy the other stuff you need from the rest of the world.
 
 <br>
 
-### And why does specialization lead to interdependence?
+**And why does specialization lead to interdependence?**
+
 - (If you grow to depend on other states to provide you with what they do best so you can focus on your what you do best then you'd be crazy to start a war that disrupts the flow of trade.)
 
 <br>
 
-### In what kinds of cases does Rosecrance note that Economic Liberalism fail to promote peace?
+**In what kinds of cases does Rosecrance note that Economic Liberalism fail to promote peace?**
+
 1. Where states are self-sufficient they will not be transformed by trade and therefore might still view war as a means to grow economically.
 2. Where resources are limited and rules do not exist, conflict over those resources is still likely.
 :::
@@ -340,6 +254,10 @@ Therefore, developing countries should focus on growth through domestic investin
 3. Many of trade's success stories were based on asian states (South Korea, China, India, Taiwan) liberalizing slowly, without requiring a complete re-structuring of their institutions.
 
 4. Not about increasing efficiency
+
+<br>
+
+**SLIDE**: Bottom line
 :::
 
 
@@ -380,7 +298,84 @@ If class seems totally sold on Rodrik:
 <br>
 
 #### 2. Panagariya ain't alone. Remember, Rodrik's plan might not be feasible if state is failed, corrupt or otherwise lacks the capacity to grow domestically in this way. In such a case, maybe opening to trade is better than nothing?
+
+<br>
+
+**SLIDE**: Before we wrap today let's talk about the first paper
+
 :::
+
+
+
+## {background-image="Images/05_2-Peer_Review.png"}
+
+::: notes
+
+**Optional R&R announcement**
+
+<br>
+
+Congratulations all, you've completed the first step in building a convincing, academic argument.
+
+- You constructed a logical argument, supported it with evidence and worked to address expected critiques of it.
+
+<br>
+
+My job as the peer reviewer is to push back on all of it to help you make the strongest version of your argument possible.
+
+<br>
+
+Your next job is to reflect on that feedback and then to revise the paper to make it stronger.
+
+<br>
+
+**SLIDE**: Next steps
+:::
+
+
+
+
+## {background-image="Images/background-worldmap4.png" .center}
+
+::: {.r-fit-text}
+**Revise & Resubmit Paper 1 (Due Feb 20)**
+:::
+
+<br>
+
+::: {.r-fit-text}
+
+**Submit to Canvas** a revision of your first draft that:
+
+1. Addresses **ALL** of the feedback, AND
+
+2. Highlights **ALL** of your changes.
+
+:::
+
+::: notes
+
+Arguably, THIS is the more important step in the process.
+
+- Learning to take on board feedback and strengthen your arguments will be key to developing your skills in making convincing, high quality arguments.
+
+<br>
+
+Revisions are due next week
+
+- Strike while the content is still fresh in your mind!
+
+<br>
+
+**Questions on the revision process?**
+
+<br>
+
+**SLIDE**: For next class
+
+:::
+
+
 
 
 
@@ -570,6 +565,8 @@ If class seems totally sold on Rodrik:
 
 #### 2. Panagariya ain't alone. Remember, Rodrik's plan might not be feasible if state is failed, corrupt or otherwise lacks the capacity to grow domestically in this way. In such a case, maybe opening to trade is better than nothing?
 :::
+
+
 
 
 

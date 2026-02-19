@@ -33,7 +33,7 @@ Prep for Class
 
     - Print and cut out cards in Google Drive, OR
 
-    - Sets of cards from multiple decks (**TEST** no aces and 2-9)
+    - Sets of cards from multiple decks (Ace to 9)
 
 2. Bring pennies or use paper to track scores
 
@@ -438,7 +438,7 @@ Your goal in this game is to have the most pennies at the end of five rounds.
 
 1. Find an opponent
 
-2. Make sure you have 10 pennies + 8 cards
+2. Make sure you have 10 pennies + 9 cards
 
 3. Complete five rounds, and 
 
