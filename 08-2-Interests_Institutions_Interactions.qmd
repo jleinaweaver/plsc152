@@ -209,20 +209,20 @@ Last big picture question!
 tribble(
   ~Round, ~Group_A, ~Group_B,
   1, "Defect", "Defect",
-  2, "Cooperate", "Defect",
-  3, "Defect", "Defect",
+  2, "Defect", "Defect",
+  3, "Cooperate", "Defect",
   4, "Defect", "Defect",
   5, "Defect", "Defect",
-  6, "Defect", "Defect",
-  7, "Defect", "Cooperate",
-  8, "Defect", "Defect",
-  9, "Defect", "Defect",
-  10, "Defect", "Defect",
-  11, "Defect", "Defect",
-  12, "Defect", "Defect"
+  6, "Cooperate", "Defect",
+  7, "Cooperate", "Defect"
+  # 8, "Defect", "Defect",
+  # 9, "Defect", "Defect",
+  # 10, "Defect", "Defect",
+  # 11, "Defect", "Defect",
+  # 12, "Defect", "Defect"
 ) |>
   kbl(align = "c", col.names = c("Round", "Group A", "Group B")) |>
-  kable_styling(bootstrap_options = c("striped", "hover", "condensed", "responsive"), font_size = 25) |>
+  kable_styling(bootstrap_options = c("striped", "hover", "condensed", "responsive"), font_size = 35) |>
   column_spec(2:3, width = '7em')
 ```
 
