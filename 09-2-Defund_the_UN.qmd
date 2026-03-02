@@ -393,13 +393,24 @@ The key here is that thinking in terms of theory can help us analyze what are on
 
 
 
-## Assignment for Next Class  {background-image="Images/background-worldmap4.png" .center}
+##  {background-image="Images/background-worldmap4.png" .center}
+
+::: {.r-fit-text}
+**Paper 2 is Due Friday**
 
 <br>
 
-::: {.r-fit-text}
-Writing Workshop
+**Pre-Class Assignment**
+
+- Submit a **COMPLETED** rough draft
+
+- Essay form (not bullets)
+
+- With in-text citations and a bibliography
+
 :::
+
+
 
 
 ## Slides for other terms

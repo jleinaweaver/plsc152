@@ -86,10 +86,62 @@ Paper is due Friday
 
 <br>
 
-**SLIDE**: Let's do some writing!
+**SLIDE**: Assignment for today
 
 :::
 
+
+
+##  {background-image="Images/background-worldmap4.png" .center}
+
+::: {.r-fit-text}
+**Paper 2 is due Today**
+
+<br>
+
+**Pre-Class Assignment**
+
+- Submit a **COMPLETED** rough draft
+
+- Essay form (not bullets)
+
+- With in-text citations and a bibliography
+
+:::
+
+::: notes
+
+PAIR off, exchange papers, get and give feedback!
+
+- Go!
+
+<br>
+
+REPEAT with a NEW PARTNER!
+
+- Go!
+
+<br>
+
+**SLIDE**: Ok, writing workshop time
+
+:::
+
+
+## Paper 2 {background-image="Images/background-worldmap4.png" .center}
+
+Make an argument that one of the IR theories / models we've studied in class so far this term is **the most useful explanation of the event you explored in Paper 1**. 
+
+- Options: Neorealism, Offensive Realism, Liberal Institutionalism, Economic Liberalism, and the Bargaining Model of War
+
+Your paper must include a counter-argument that applies and evaluates a second theory to the case.
+
+- Your counter-argument may not be from the same paradigm as the main argument
+
+
+
+
+## Slides to save
 
 
 ## {background-image="Images/background-worldmap4.png" .center}
@@ -185,13 +237,6 @@ Read and give feedback
 
 
 :::
-
-
-
-
-
-
-## Slides to save
 
 
 

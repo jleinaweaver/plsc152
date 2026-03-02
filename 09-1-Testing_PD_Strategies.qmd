@@ -37,6 +37,44 @@ Prep for Class
 
 <br>
 
+**SLIDE**: Reminder about paper deadline Friday
+
+:::
+
+
+
+## Paper 2 {background-image="Images/background-worldmap4.png" .center}
+
+Make an argument that one of the IR theories / models we've studied in class so far this term is **the most useful explanation of the event you explored in Paper 1**. 
+
+- Options: Neorealism, Offensive Realism, Liberal Institutionalism, Economic Liberalism, and the Bargaining Model of War
+
+Your paper must include a counter-argument that applies and evaluates a second theory to the case.
+
+- Your counter-argument may not be from the same paradigm as the main argument
+
+::: notes
+
+Your second paper is due on Friday
+
+- And a rough draft must be completed before class on Friday
+
+- **Any questions on the prompt or the draft assignment for Friday?**
+
+<br>
+
+**SLIDE**: Back to the PD
+
+:::
+
+
+
+## The Prisoner's Dilemma {background-image="Images/background-worldmap4.png" .center}
+
+![](Images/09_1-PD_Graphic.jpg){style="display: block; margin: 0 auto"}
+
+::: notes
+
 Today I'd like us to explore PD strategies and what those strategies tell us about real world situations.
 
 - My apologies for being vague...
@@ -46,13 +84,15 @@ Today I'd like us to explore PD strategies and what those strategies tell us abo
 **Refresh my memory, what is the dilemma that the Prisoner's Dilemma model is meant to help us understand?**
 
 - (Why is it so hard for groups to cooperate under certain conditions?)
+
 - (When goods are rivalrous and uncertainty is high, actors who prefer cooperation may still choose to defect!)
 
 <br>
 
-### What are the key assumptions in this model of IR?
+**What are the key assumptions in this model of IR?**
 
 - (**SLIDE**)
+
 :::
 
 

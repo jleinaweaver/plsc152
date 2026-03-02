@@ -33,6 +33,36 @@ Prep for Class
 2. Set up the other rooms with game board and tracking
 
 3. Make sure to record per round choices on table in next class slides
+
+<br>
+
+**SLIDE**: Reminder on Paper 2 prompt
+:::
+
+
+
+## Paper 2 {background-image="Images/background-worldmap4.png" .center}
+
+Make an argument that one of the IR theories / models we've studied in class so far this term is **the most useful explanation of the event you explored in Paper 1**. 
+
+- Options: Neorealism, Offensive Realism, Liberal Institutionalism, Economic Liberalism, and the Bargaining Model of War
+
+Your paper must include a counter-argument that applies and evaluates a second theory to the case.
+
+- Your counter-argument may not be from the same paradigm as the main argument
+
+::: notes
+
+**Questions on the prompt for the second paper?**
+
+<br>
+
+Don't forget, your outline of this paper is due at the end of the week.
+
+<br>
+
+**SLIDE**: Let's talk big picture about the semester
+
 :::
 
 
@@ -56,21 +86,7 @@ That's an impressive amount of stuff!
 :::
 
 
-## {background-image="Images/background-worldmap4.png" .center}
 
-**Make an argument that one of the IR theories we've studied in class so far this term "best" explains the event you analyzed in Paper 1**
-
-<br>
-
-![](Images/03_1-syllabus.png){style="display: block; margin: 0 auto"}
-
-::: notes
-Don't forget, your outline of the second paper is due at the end of the week.
-
-<br>
-
-### Questions on the assignment?
-:::
 
 
 ## Semester Outline {background-image="Images/background-worldmap4.png" .center}
