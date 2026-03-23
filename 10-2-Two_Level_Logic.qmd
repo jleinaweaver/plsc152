@@ -89,15 +89,16 @@ tribble(
   "4", "Cooperate", "Cooperate",
   "5", "Cooperate", "Cooperate",
   "6", "Cooperate", "Cooperate",
-  "7", "Cooperate", "Defect",
+  "7", "Defect", "Defect",
   "8", "Defect", "Defect",
-  "", "+15", "+22"
+  "9", "Defect", "Defect",
+  "", "+15", "+15"
 ) |>
   kbl(align = "c", col.names = c("Round", "Group A", "Group B")) |>
   kable_styling(bootstrap_options = c("striped", "hover", "condensed", "responsive"), font_size = 30) |>
   column_spec(2:3, width = '7em') |>
-  column_spec(2, background = c(rep("white", 7), rep("pink3", 1), "gold")) |>
-  column_spec(3, background = c(rep("white", 6), rep("pink3", 2), "gold"))
+  column_spec(2, background = c(rep("white", 6), rep("pink3", 3), "gold")) |>
+  column_spec(3, background = c(rep("white", 6), rep("pink3", 3), "gold"))
 ```
 
 ::: notes
@@ -365,15 +366,16 @@ Add it all up and let's say that this means your plan to distribute the bonus po
 ```{r}
 tribble(
   ~Name, ~EC,
-  "Grant", 2,
-  "Miya", 2,
-  "Jasper", 0,
-  "Corah", 2,
-  "Kylei", 0,
-  "Isabel", 2,
-  "Beau", 2,
-  "Owen", 2,
-  "Jack", 2
+  "Adam", 0,
+  "Emily", 0,
+  "Hali", 0,
+  "Alex", 9,
+  "Carly", 9,
+  "Eyal", 9,
+  "Braden", 9,
+  "TJ", 0,
+  "Sanjay", 0,
+  "Kristina", 0
 ) |>
   kbl(align = c('l', 'c')) |>
   kable_styling(bootstrap_options = c("striped", "hover", "condensed"), font_size = 33) |>
@@ -387,16 +389,16 @@ tribble(
 ```{r}
 tribble(
   ~Name, ~EC,
-  "Kai", 2,
-  "Yevheniia", 2,
-  "Topi", 0,
-  "Isaiah", 2,
-  "Tahrea", 2,
-  "Parker", 2,
-  "Brianna", 2,
-  "Jacob", 0,
-  "Bennett", 2,
-  "Killian", 0
+  "Rylee", 0,
+  "Sophia", 9,
+  "Caiden", 0,
+  "Mae", 0,
+  "Emmee", 9,
+  "Brooke", 9,
+  "Reagan", 0,
+  "Caroline", 9,
+  "Gabriel", 0,
+  "Jarrod", 9
 ) |>
   kbl(align = c('l', 'c')) |>
   kable_styling(bootstrap_options = c("striped", "hover", "condensed"), font_size = 33) |>

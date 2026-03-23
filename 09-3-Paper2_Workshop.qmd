@@ -33,13 +33,9 @@ Prep for Class
 
 1. They are not mature enough to be productive in a writing workshop, you have to steer the ship
 
-    - Good news is this went great today
-    
-    - You give them prompts then go around the room (you too!) reading and giving feedback!
-    
 <br>
 
-Today we work on the second papers which are due on Friday
+Today we finish up your second papers (which are due TODAY!)
 
 <br>
 
@@ -86,57 +82,44 @@ Paper is due Friday
 
 <br>
 
-**SLIDE**: Assignment for today
+For today I asked everyone to bring a completed rough draft to class
 
-:::
-
-
-
-##  {background-image="Images/background-worldmap4.png" .center}
-
-::: {.r-fit-text}
-**Paper 2 is due Today**
+- **We ready to go?**
 
 <br>
 
-**Pre-Class Assignment**
+Ok, first up, go read EVERYBODY'S introduction and conclusion paragraphs
 
-- Submit a **COMPLETED** rough draft
+- JUST those two
 
-- Essay form (not bullets)
+- Give feedback on how well their macro structure frames the paper
 
-- With in-text citations and a bibliography
+- Those two paragraphs should set up the whole argument AND land the proverbial plane!
 
-:::
+- Introduction
 
-::: notes
+    - Do you have a clear sense of why the question is important and what their argument is?
+    
+    - Is there a real-world example?
 
-PAIR off, exchange papers, get and give feedback!
+- Conclusion: Have they wrapped it up WITHOUT INTRODUCING NEW ARGUMENTS?
 
 - Go!
 
 <br>
 
-REPEAT with a NEW PARTNER!
+Now reflect on the feedback and revise your intro and conclusion!
 
-- Go!
+- A really strong introduction draws the reader in 
+
+- A really strong conclusion leaves the reader feeling satisfied by the argument! (even if not convinced)
 
 <br>
 
-**SLIDE**: Ok, writing workshop time
+Paper is due before midnight!
+
 
 :::
-
-
-## Paper 2 {background-image="Images/background-worldmap4.png" .center}
-
-Make an argument that one of the IR theories / models we've studied in class so far this term is **the most useful explanation of the event you explored in Paper 1**. 
-
-- Options: Neorealism, Offensive Realism, Liberal Institutionalism, Economic Liberalism, and the Bargaining Model of War
-
-Your paper must include a counter-argument that applies and evaluates a second theory to the case.
-
-- Your counter-argument may not be from the same paradigm as the main argument
 
 
 
