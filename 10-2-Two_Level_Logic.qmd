@@ -367,15 +367,15 @@ Add it all up and let's say that this means your plan to distribute the bonus po
 tribble(
   ~Name, ~EC,
   "Adam", 0,
-  "Emily", 0,
-  "Hali", 0,
-  "Alex", 9,
-  "Carly", 9,
-  "Eyal", 9,
+  "Alex", 9,  
   "Braden", 9,
-  "TJ", 0,
+  "Carly", 9,  
+  "Emily", 0,
+  "Eyal", 9,
+  "Hali", 0,
+  "Kristina", 0,
   "Sanjay", 0,
-  "Kristina", 0
+  "TJ", 0
 ) |>
   kbl(align = c('l', 'c')) |>
   kable_styling(bootstrap_options = c("striped", "hover", "condensed"), font_size = 33) |>
@@ -390,15 +390,15 @@ tribble(
 tribble(
   ~Name, ~EC,
   "Rylee", 0,
-  "Sophia", 9,
-  "Caiden", 0,
-  "Mae", 0,
-  "Emmee", 9,
   "Brooke", 9,
-  "Reagan", 0,
+  "Caiden", 0,
   "Caroline", 9,
+  "Emmee", 9,
   "Gabriel", 0,
-  "Jarrod", 9
+  "Jarrod", 9,
+  "Mae", 0,  
+  "Reagan", 0,  
+  "Sophia", 9
 ) |>
   kbl(align = c('l', 'c')) |>
   kable_styling(bootstrap_options = c("striped", "hover", "condensed"), font_size = 33) |>

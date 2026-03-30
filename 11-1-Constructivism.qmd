@@ -35,10 +35,6 @@ Prep for Class
 
 <br>
 
-### DISCUSS: Name me an international political event that has happened since we last met as a class.
-
-<br>
-
 This week we begin exploring a VERY different approach to explaining international political events.
 
 - Constructivism is going to push us to question everything.
@@ -55,19 +51,17 @@ Constructivism is a challenging view to summarize so, instead of summarizing, Ho
 
 <br>
 
-::: {.r-fit-text}
-
 **How do we explain international politics?**
 
 1. Who matters and what do they want?
 
 2. What is the effect of anarchy?
 
-3. What is power?
+3. What is the role of identity?
 
-4. What explains changes in the system?
+4. What is power?
 
-:::
+5. What explains changes in the system?
 
 ::: notes
 
@@ -77,78 +71,113 @@ Before we get to Hopf's answers to these questions and to exploring the construc
 
 **Based on our work over the last 10 weeks tell me, is this a useful way to organize an exploration of international politics? Why or why not?**
 
-- **In other words, is Hopf asking the right questions if what you want is to understand international politics?**
+- **In other words, is Hopf asking the right questions if what you want is to understand international politics? Why or why not?**
 
 <br>
 
+**SLIDE**: Compare to III
+
+:::
+
+
+
+## {background-image="Images/background-worldmap4.png" .center .smaller}
+
+::: {.r-fit-text}
+**How do we explain international politics?**
+:::
+
+<br>
+
+:::: {.columns}
+::: {.column width="50%"}
+**Hopf (1998)**
+
+1. Who matters and what do they want?
+
+2. What is the effect of anarchy?
+
+3. What is the role of identity?
+
+4. What is power?
+
+5. What explains changes in the system?
+
+:::
+
+::: {.column width="50%"}
+**Frieden, Lake and Schultz (2022)**
+
+- Interests
+
+- Institutions
+
+- Interactions
+
+
+:::
+::::
+
+::: notes
 I've encouraged you all semester to think about models of international politics in terms of interests, interactions and institutions.
 
-### Would Hopf be opposed to these shortcuts to model building? Why or why not?
+<br>
+
+Compare and contrast these two approaches for me
+
+- **In what ways do they overlap?**
+
+- **In what ways do they differ?**
+
+- **Which strikes you as more useful? Why?**
+
+<br>
+
+**If the FLS approach is a shortcut to model building, which elements of the III approach would Hopf object to most strongly?**
 
 <br>
 
 (It depends!)
 
-- So, a constructivist would say that, fundamentally, if you organize your theory of IR around anarchy or interests as fixed concepts you've badly missed the point.
+- A constructivist would say that, fundamentally, if you organize your theory of IR around anarchy or interests as fixed concepts you've badly missed the point.
 
-- **SLIDE**: Let's start with this first question, who matters and what do they want?
+<br>
+
+**SLIDE**: Let's start with this first question, who matters and what do they want?
+
 :::
 
 
-## 1. Actors and Structures are Mutually Constituted {background-image="Images/background-worldmap4.png" .center}
+
+## Constructivism (Hopf 1988)  {background-image="Images/background-worldmap4.png"}
+
+<br>
+
+### 1. Who matters and what do they want?
+
+- "Actors and Structures are Mutually Constituted"
+
+::: {.fragment}
+![](Images/13_1-circle.png){.absolute width="750" left=165}
+:::
 
 ::: notes
-Here is Hopf's answer to the question of who matters and what do they want.
 
-### What does this mean in English?
+Talk to the person next to you and get ready to report back on two questions:
 
-<br>
+1. **What does this mean?**
 
-Let's break this into its component parts.
-
-### What does he mean by "actors"?
-- (The units whose behavior we are trying to understand)
+2. **How is this different from the theories of IR we have studied so far?**
 
 <br>
 
-### What does he mean by "structures"?
-- ("a set of relatively unchangeable constraints on the behavior of states" p172.)
-- Sounds like our working definition of institutions, no?
+*GROUPS REPORT BACK*
 
 <br>
 
-### What does mutually mean? 
-- (with mutual action; experienced or done by each of two or more parties toward the other or others.)
+(**REVEAL**)
 
-<br>
-
-### What does constituted mean?
-- (combine to form; be a part of a whole)
-
-<br>
-
-### Ok, somebody put this together and explain to us the first assumption of Constructivism.
-
-### - And what does this tell us about how international politics works?
-
-- **SLIDE**...
-:::
-
-
-## {background-image="Images/background-worldmap4.png" .center}
-
-::: {.r-fit-text}
-**1. Actors and Structures are Mutually Constituted**
-:::
-
-<br>
-
-```{r, fig.align='center'}
-knitr::include_graphics("Images/13_1-circle.png")
-```
-
-::: notes
-Constructivists are advising us to think about politics as a series of interactions that cannot be understood in the absence of those interactions!
+Constructivists are encouraging us to think about politics as a series of interactions that cannot be understood in the absence of those interactions!
 
 - Actors create structures by taking action.
 
@@ -163,7 +192,9 @@ Neither can be understood without the other.
 <br>
 
 **SLIDE**: The movie theater...
+
 :::
+
 
 
 
@@ -187,13 +218,18 @@ Neither can be understood without the other.
 
 
 ::: notes
-**How does the movie theater example in the Hopf excerpt help us understand this first assumption of Constructivism?**
+
+**Explain the movie theater example in the reading to me**
+
+- **How does thinking about a fire breaking out help us understand what "Actors and Structures are Mutually Constituted" means?**
 
 <br>
 
-Reaction to the fire?
+Many possible reactions to a fire in a movie theater
 
-- Order or chaos? An orderly line forms or a mad rush for the doors? Women and children first? Violence and looting breaks out?
+- Order prevails: Everybody lines up, takes their time, ensures none are left behind
+
+- Chaos prevails: Mad rush for the doors, people getting hurt, trampled
 
 <br>
 
@@ -206,103 +242,85 @@ Peoples' reaction to the fire depends on the "culture, norms, institutions, proc
 **Do we buy this?**
 
 - **Would your personal reaction to the fire be influenced in those ways?**
+
+<br>
+
+**SLIDE**: Current events
+
 :::
 
 
 
-## {background-image="Images/11_1-Putin_v_Ukraine.jpg"}
-
-::: notes
-Let's try top tie this back to current events.
-
-### How have various stripes of realist tried to explain why Putin invaded Ukraine?
-- Neorealists: NATO expansion threatens security, creates security dilemma, Russia acts to re-establish safety.
-- Offensive realists: The path to Russian regional hegemony requires reclaiming former soviet territory.
+## Constructivism (Hopf 1988)  {background-image="Images/background-worldmap4.png"}
 
 <br>
 
-### How might Economic liberals seek to explain this?
-- Economic lib: Russia controls a scarce resource which Putin believed gave him flexibility to act without expecting sever, long-term punishment?
+### 1. Who matters and what do they want?
 
-<br>
+- "Actors and Structures are Mutually Constituted"
 
-### Now, what about a constructivist who focuses on how "Actors and Structures are Mutually Constituted"?
-
-- International law says you are not allowed to steal other country's lands, BUT...
-    - Russia destabilized Georgia and the world shrugged,
-    - Russia supported Syria with arms and the world shrugged,
-    - Russia annexed Crimea and the world shrugged...
-
-Ultimately, if the world refuses to enforce the rule against invasion then THERE IS NO RULE AGAINST INVASION.
-
-<br>
-
-### Does this make sense?
-:::
-
-
-
-## {background-image="Images/11_1-Putin_v_Ukraine2.png"}
-
-::: {.r-fit-text}
-**1. Actors and Structures are Mutually Constituted**
-:::
+![](Images/13_1-circle.png){.absolute width="750" left=165}
 
 ::: notes
 
-*FORCE THIS DISCUSSION/EXPLORATION*
+Ok, apply this for me to current events
+
+- **What is something going on in the world right now that this assumption can help us explain?**
+
+- *Force this discussion*
 
 <br>
 
-**1. Is this a useful assumption for explaining international politics?**
+**Bottom line, how different is this from our prior models of international politics?**
 
-- **What are the pros and cons of building from this premise?**
+- (The rules are not fixed, they come from our interactions.)
 
-<br>
+- (Which actors matter depends on the situation and the societal rules.)
 
-**2. How is this different from our prior models of international politics?**
+- (Structure is meaningless without societal context.)
 
-+ (The rules are not fixed, they come from our interactions.)
-+ (Which actors matter depends on the situation and the societal rules.)
-+ (Structure is meaningless without societal context.)
 
 <br>
 
-**SLIDE**: Hopf's second question, what is the effect of anarchy?
+**Good different or bad different?**
+
+- **In other words, is this a useful assumption for explaining international politics? Why or why not?**
+
+<br>
+
+**SLIDE**: Hopf's second question!
+
 :::
 
 
 
-## 2. Anarchy as Imagined Community {background-image="Images/background-worldmap4.png"}
-
-::: notes
-
-Hopf's second argument is that anarchy is an imagined community.
-
-### First, remind me, how do realists and liberals define anarchy?
-- The fact that there is no higher authority to appeal to, no supranational government.
-
-### Does this require any "imagination"?
-- Ummm, no.
+## Constructivism (Hopf 1988)  {background-image="Images/background-worldmap4.png"}
 
 <br>
 
-### So, what does Hopf mean by "imagined community"?
-- (The implications of anarchy depend on societal context.)
+### 2. What is the effect of anarchy?
+
+- "Anarchy as Imagined Community"
+
+::: {.fragment}
+![](Images/13_1-hippies.jpg){.absolute width="520" left=265}
 :::
 
+::: notes
 
+Talk to the person next to you and get ready to report back on two questions:
 
+1. **What does this mean?**
 
-## 2. Anarchy as Imagined Community {background-image="Images/background-worldmap4.png" .center}
+2. **How is this different from the theories of IR we have studied so far?**
 
 <br>
 
-```{r, fig.align='center', out.width='75%'}
-knitr::include_graphics("Images/13_1-hippies.jpg")
-```
+*GROUPS REPORT BACK*
 
-::: notes
+<br>
+
+(**REVEAL**)
 
 We might believe "anarchy" is a good descriptor for the international system.
 
@@ -320,18 +338,21 @@ Imagine you live on a commune and everyone shares everything and all rules are e
 
 <br>
 
-### Make sense?
+**SLIDE**: Alternatively
+
 :::
 
 
 
-## 2. Anarchy as Imagined Community {background-image="Images/background-worldmap4.png" .center}
+## Constructivism (Hopf 1988)  {background-image="Images/background-worldmap4.png"}
 
 <br>
 
-```{r, fig.align='center', out.width='75%'}
-knitr::include_graphics("Images/13_1-dark_street.png")
-```
+### 2. What is the effect of anarchy?
+
+- "Anarchy as Imagined Community"
+
+![](Images/13_1-dark_street.png){.absolute width="520" left=265}
 
 ::: notes
 
@@ -343,246 +364,337 @@ However, if you are walking alone at night down a dark street your sense of "ana
 
 <br>
 
-### Make sense?
-:::
-
-
-
-## 2. Anarchy as Imagined Community {background-image="Images/background-worldmap4.png" .center}
-
-<br>
-
-:::: {.columns}
-
-::: {.column width="50%"}
-
-![](Images/13_1-hippies.jpg)
-
-:::
-
-::: {.column width="50%"}
-
-![](Images/13_1-dark_street.png)
-
-:::
-
-::::
-
-::: notes
-
-Both scenarios exist under anarchy, BUT only one generates the fear response that is central to realist theories of international relations.
+Both scenarios are essentially anarchic, BUT only one generates a fear response
 
 - The point is that context matters for determining how you will react to anarchy.
 
-### Somebody give us a real-world example of a dispute in international politics where fear and obliteration are not at stake.
-
 <br>
 
-### Now give me an example of a dispute in international politics where anarchy is terrifying and infects state behavior.
+**SLIDE**: Let's evaluate this assumption
 
-<br>
-
-- **SLIDE**: Examples
 :::
 
 
 
-## {background-image="Images/13_1-us_canada.jpg"}
-
-::: notes
-
-Here we see the border between the US and Canada.
-
-- Ineternational border crossings are some of the most fraught and dangerous places in the world.
+## Constructivism (Hopf 1988)  {background-image="Images/background-worldmap4.png"}
 
 <br>
 
-### How would you describe this border crossing?
+### 2. What is the effect of anarchy?
 
-<br>
+- "Anarchy as Imagined Community"
 
-### Any sense that the anarchy on this line is changing state behavior in a defensive way?
-:::
-
-
-
-## {background-image="Images/13_1-korean_border.jpg"}
-
-::: notes
-
-Here we see the border between North and South Korea.
-
-### How would you describe this border crossing?
-:::
-
-
-
-## 2. Anarchy as Imagined Community {background-image="Images/background-worldmap4.png" .center}
-
-<br>
+::::: {.fragment}
 
 :::: {.columns}
-
 ::: {.column width="50%"}
-
 ![](Images/13_1-us_canada.jpg)
-
 :::
 
 ::: {.column width="50%"}
-
 ![](Images/13_1-korean_border.jpg)
-
 :::
-
 ::::
 
+:::::
+
 ::: notes
 
-*FORCE THIS DISCUSSION/EXPLORATION*
+Ok, apply this for me to current events
+
+- **What is something going on in the world right now that this assumption can help us explain?**
+
+- *Force this discussion*
+
+- (**REVEAL**: Comparison of US-Canada border to NK and SK)
+
+- International border crossings are some of the most fraught and dangerous places in the world.
+
+- And yet, here we compare the border crossing between the US and Canada and the border between North and South Korea
 
 <br>
 
-### Ok, what do we think of this as a second assumption in the approach?
+**Bottom line, how different is this from our prior models of international politics?**
 
-#### - Pros vs cons of building models using this?
+- (HUGE change)
+
+- Essentially all of the prior theories start from the key observation that the system is anarchic and this makes EVERYTHING harder
+
+- For Hopf and constructivists, that doesn't have to be true
+
+- The implications of anarchy depend on societal context
 
 <br>
 
-**SLIDE**: Hopf's third question, What is power?
+**Good different or bad different?**
+
+- **In other words, is this a useful assumption for explaining international politics? Why or why not?**
+
+<br>
+
+**SLIDE**: Hopf's third question!
+
 :::
 
 
 
-## 3. The Power of Practice {background-image="Images/background-worldmap4.png" .center}
+## Constructivism (Hopf 1988)  {background-image="Images/background-worldmap4.png"}
 
-::: {.r-fit-text}
+<br>
+
+### 3. What is the role of identity?
+
+- "Identities ensure predictability and order"
+
+::: {.fragment}
+
+![](Images/12_1-mean_girls.jpg){.absolute width="650" left=200}
+
+:::
+
+::: notes
+
+Talk to the person next to you and get ready to report back on two questions:
+
+1. **What does this mean?**
+
+2. **How is this different from the theories of IR we have studied so far?**
+
+<br>
+
+*GROUPS REPORT BACK*
+
+<br>
+
+(**REVEAL**)
+
+- (Identities tell others who you are and tell you who others are.)
+
+- (They are the source of our interests / preferences.)
+
+*Save the meat of this for norms on Wed*
+
+*Just: 1. What is your identity? 2. How does it influence your behavior?*
+
+<br>
+
+**What is your identity?**
+
+- We all have many identities: Human being, DU student, family member, MO, Springfieldian, American, etc.
+
+- e.g citizenship, residence, geographic origin, gender, class, politics, profession, employment, food habits, sports interests, taste in music, social commitments, etc.
+
+<br>
+
+**How does your identity influence your behavior? Do you behave the same way at home as you do on a night out with friends?**
+
+1. We all use identities as shortcuts to making judgements about other people.
+
+2. Helps us to define who is on our team and who is not.
+
+<br>
+
+**SLIDE**: Let's evaluate this assumption
+
+:::
+
+
+
+
+## Constructivism (Hopf 1988)  {background-image="Images/background-worldmap4.png"}
+
+<br>
+
+### 3. What is the role of identity?
+
+- "Identities ensure predictability and order"
+
+::: {.fragment}
+![](Images/12_1-gaddafi-and-berlusconi-handshake.jpg){.absolute width="550" left=230}
+:::
+
+::: notes
+
+Ok, apply this for me to current events
+
+- **What is something going on in the world right now that this assumption can help us explain?**
+
+- *Force this discussion*
+
+- (**REVEAL**)
+
+- Here we see the former elected PM of Italy, Silvio Berlusconi, shaking hands with Muammar Gaddafi the former dictator of Libya
+
+- Per Hopf: "The identity of a state implies its preferences and consequent actions" (p175).
+
+- Clearly identity matters to both of these leaders and they are trying to signal their identities in starkly different ways
+
+- The hope seems to be that this signal will be received and understood as part of their negotiations
+
+<br>
+
+**Bottom line, how different is this from our prior models of international politics?**
+
+<br>
+
+**Good different or bad different?**
+
+- **In other words, is this a useful assumption for explaining international politics? Why or why not?**
+
+<br>
+
+**SLIDE**: Hopf's fourth question!
+
+:::
+
+
+
+## Constructivism (Hopf 1988)  {background-image="Images/background-worldmap4.png"}
+
+<br>
+
+### 4. What is power?
+
+- "The Power of Practice"
+
+::: {.fragment}
+
 **Criteria to be a Great Power (Waltz 1979)**
 
-+ Size of population & territory
-
-+ Resource endowment
-
-+ Economic capability
-
-+ Military strength
-
-+ Political stability and competence
++ Size of population & territory, Resource endowment, Economic capability, Military strength, Political stability and competence
 
 :::
 
 ::: notes
 
-Here's a list of criteria Kenneth Waltz proposed for determining which states in the world are the "great" powers.
+Talk to the person next to you and get ready to report back on two questions:
+
+1. **What does this mean?**
+
+2. **How is this different from the theories of IR we have studied so far?**
+
+<br>
+
+*GROUPS REPORT BACK*
+
+<br>
+
+(**REVEAL**)
+
+- Here's a list of criteria Kenneth Waltz proposed for determining which states in the world are the "great" powers.
 
 - This is a list that is often used to think about what a superpower is in today's language.
 
 <br>
 
-### What do constructivists like Hopf (1998) add to traditional definitions of power?
+**What do constructivists like Hopf (1998) add to traditional definitions of power?**
+
+- (**SLIDE**)
+
 :::
 
 
 
-## {background-image="Images/13_1-MLK.jpg"}
+## Constructivism (Hopf 1988)  {background-image="Images/background-worldmap4.png"}
 
-::: {.r-fit-text}
-<p style="color: white;">**3. The Power of Practice**</p>
-:::
+<br>
+
+### 4. What is power?
+
+- "The Power of Practice"
+
+**Criteria to be a Great Power (Waltz 1979)**
+
+- Size of population & territory, Resource endowment, Economic capability, Military strength, Political stability and competence
+
+- **Discourse!**
 
 ::: notes
 
-**In what concrete ways was MLK powerful?**
-
-- **Are any of those ways reflected on Waltz's criteria?**
-
-:::
-
-
-
-## {background-image="Images/13_1-Gandhi_v2.png" .center}
-
-<br>
-
-<br>
-
-<br>
-
-<br>
-
-<br>
-
-<br>
-
-<br>
-
-<br>
-
-::: {.r-fit-text}
-**3. The Power of Practice**
-:::
-
-::: notes
-
-**In what concrete ways was Ghandi powerful?**
-
-- **Are any of those ways reflected on Waltz's criteria?**
-:::
-
-
-
-## 3. The Power of Practice {background-image="Images/background-worldmap4.png" .center}
-
-<br>
-
-+ Size of population & territory
-
-+ Resource endowment
-
-+ Economic capability
-
-+ Military strength
-
-+ Political stability and competence
-
-+ **Discourse (Hopf 1988)**
-
-::: notes
-
-Constructivists agree that power is all of these things, but adds DISCOURSE!
+Constructivists agree that power is all of these things, but they add DISCOURSE!
 
 - Constructivists believe that the other theories conceive of power far too narrowly.
 
 <br>
 
-### How does Hopf define discourse?
+**How does Hopf define discourse?**
+
 - (Knowledge, ideas, culture, ideology and language.)
 
-### Does "discourse" belong on this list? Why or why not?
-
 <br>
 
-*FORCE THIS DISCUSSION/EXPLORATION*
+**Give me examples of someone shaping or moving international political events through discourse**
 
-<br>
+- (**SLIDE**)
 
-### Ok, what do we think of this as a third assumption in the approach?
-
-#### - Pros vs cons of building models using this?
-
-<br>
-
-**SLIDE**: Hopf's 4th question, What explains changes in the system?
 :::
 
 
-## {background-image="Images/13_1-change.png"}
+
+## Constructivism (Hopf 1988)  {background-image="Images/background-worldmap4.png"}
+
+<br>
+
+### 4. What is power?
+
+- "The Power of Practice"
+
+![](Images/13_1-MLK.jpg){.absolute width="550" left=0 bottom=0}
+
+![](Images/12_1-Gandhi.jpeg){.absolute width="450" right=0 bottom=0}
 
 ::: notes
 
-**According to Hopf (1998), where does change in world politics come from?**
+**In what concrete ways were MLK and Ghandi powerful?**
+
+- **Are any of those ways reflected on Waltz's criteria?**
 
 <br>
+
+**Bottom line, how different is this from our prior models of international politics?**
+
+<br>
+
+**Good different or bad different?**
+
+- **In other words, is this a useful assumption for explaining international politics? Why or why not?**
+
+<br>
+
+**SLIDE**: Hopf's final question!
+
+:::
+
+
+
+
+## Constructivism (Hopf 1988)  {background-image="Images/background-worldmap4.png"}
+
+<br>
+
+### 5. What explains changes in the system?
+
+- "Social change is possible and difficult"
+
+::: {.fragment}
+![](Images/12_1-protest.webp){.absolute width="680" left=165}
+:::
+
+::: notes
+
+Talk to the person next to you and get ready to report back on two questions:
+
+1. **What does this mean?**
+
+2. **How is this different from the theories of IR we have studied so far?**
+
+<br>
+
+*GROUPS REPORT BACK*
+
+<br>
+
+(**REVEAL**)
 
 Change is inherent in constructivism (e.g. built into the theory) 
 
@@ -594,61 +706,40 @@ Change is inherent in constructivism (e.g. built into the theory)
 
 <br>
 
-*FORCE THIS DISCUSSION/EXPLORATION*
+HOWEVER, that doesn't mean it is easy!
+
+- "...actors reproduce daily their own constraints through ordinary practice" (p180)
 
 <br>
 
-### Ok, what do we think of this as a fourth assumption in the approach?
+Ok, apply this for me to current events
 
-#### - Pros vs cons of building models using this?
+- **What is something going on in the world right now that this assumption can help us explain?**
 
 <br>
 
-Think back to our Putin and Ukraine example.
+**Bottom line, how different is this from our prior models of international politics?**
 
-- According to Constructivists, what the world does right now to help or hinder Ukraine will have a MASSIVE impact on what wars we see in the next 10 years.
+- (HUGE)
 
-- The rules are constantly in flux, change is everywhere and if we want a world with fewer invasions we have to punish them when they happen.
+- All prior theories essentially assume that fundamental change does not ever happen
+
+- The system is anarchic, states want security/hegemony/growth/etc
+
+<br>
+
+**Good different or bad different?**
+
+- **In other words, is this a useful assumption for explaining international politics? Why or why not?**
+
+<br>
+
+**SLIDE**: IFF time remains, apply constructivism to IR puzzles
+
 :::
 
 
 
-## {background-image="Images/13_1-raphael.png"}
-
-::: notes
-
-**Finally, what role does identity play in Constructivist theory?**
-
-- (Identities tell others who you are and tell you who others are.)
-- (They are the source of our interests / preferences.)
-
-*Save the meat of this for norms on Wed*
-
-*Just: 1. What is your identity? 2. How does it influence your behavior?*
-
-<br>
-
-### What is your identity?
-
-- We all have many identities: Human being, DU student, family member, MO, Springfieldian, American, etc.
-- e.g citizenship, residence, geographic origin, gender, class, politics, profession, employment, food habits, sports interests, taste in music, social commitments, etc.
-
-<br>
-
-### How does your identity influence your behavior? Do you behave the same way at home as you do on a night out with friends?
-1. We all use identities as shortcuts to making judgements about other people.
-2. Helps us to define who is on our team and who is not.
-
-<br>
-
-*FORCE THIS DISCUSSION/EXPLORATION*
-
-<br>
-
-**Ok, what do we think of this as a fifth assumption in the approach?**
-
-- **Pros vs cons of building models using this?**
-:::
 
 
 
@@ -774,6 +865,7 @@ Hopf's second example focuses on what he calls neoliberal cooperation.
 + Change is possible, difficult and a normal part of the process
 
 ::: notes
+
 In sum.
 
 **What are the strengths and weaknesses of a Constructivist perspective on international politics?**
