@@ -338,7 +338,7 @@ SLIDE: The world in 2023...
 
 ## {background-image="Images/background-worldmap4.png" .center}
 
-![](Images/12_1-civil-liberties-index-2024.png)
+![](Images/12_1-civil-liberties-index-2025.png)
 
 ::: notes
 
@@ -380,7 +380,7 @@ Last big question for us today.
 
 
 
-## {background-image="Images/12_1-Fragile_States2024.png" background-size='85%'}
+## {background-image="Images/12_1-Fragile_States2025.png" background-size='85%'}
 
 ::: notes
 
