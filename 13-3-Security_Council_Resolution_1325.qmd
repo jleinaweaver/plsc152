@@ -38,6 +38,51 @@ Prep for Class
 
 <br>
 
+**SLIDE**: IDEA evals day
+
+:::
+
+
+
+## IDEA Evaluations {background-image="Images/background-worldmap4.png" .center}
+
+<br>
+
+::: {.r-fit-text}
+[https://drury.campuslabs.com/eval-home/](https://drury.campuslabs.com/eval-home/)
+:::
+
+
+
+
+
+
+
+## Today's Agenda {background-image="Images/background-worldmap4.png" .center}
+
+```{r}
+# background-size="1920px 1080px"
+library(tidyverse)
+library(readxl)
+library(kableExtra)
+```
+
+<br>
+
+**IV. What is the Future of Transnational Politics and IR?**
+
+- Puechguirbal, N. (2010). Discourses on Gender, Patriarchy and Resolution 1325: A Textual Analysis of UN Documents.
+
+<br>
+
+<br>
+
+::: r-stack
+Justin Leinaweaver (Spring 2026)
+:::
+
+::: notes
+
 For today I wanted to find us a research article that applies the ideas and tools we've been considering this week.
 
 <br>
