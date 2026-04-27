@@ -106,12 +106,24 @@ You don't have to select any of these four theories, but if you do you can't dou
 
 :::: {.columns}
 ::: {.column width="50%"}
-- 
-
+- US tariffs on India
+- NATO troops in Greenland
+- US threatens Europe over Greenland
+- Tump creates the Board of Peace
+- Israel–Hamas ceasefire
+- US kidnaps Maduro
+- US attacks Venezuela
+- US withdraws from Paris Agreement
 :::
 
 ::: {.column width="50%"}
-- 
+- US creates a Trump Gold Card
+- EU-India Trade Agreement
+- US-Iran nuclear negotiations
+- Russian incursions into Estonia
+- US attacks the Islamic State in Nigeria
+- Global aid to Ukraine
+- US bombs Iran (nuclear facilities)
 :::
 ::::
 
@@ -294,7 +306,8 @@ Groups get your diagram of this model up on the board
 
 Prisoner's Dilemma
 
-- **The nature of some institutions/interactions leads actors to choose sub-optimal outcomes, even if they really don't want to!**
+- **One sentence: Bad things often happen because of the structure of the game**
+- The nature of some institutions/interactions leads actors to choose sub-optimal outcomes, even if they really don't want to!
 - Interests: Rational actors pursuing positive return
 - Institutions: 1) Uncertainty is high (unknown time horizons, simultaneous decision-making); 2) Available resource is non-excludable (anyone can access it); 3) Biggest rewards for short-term defection OR long-term cooperation
 - Interactions: Rivalrous resource (Your use changes reward to other side)
@@ -302,7 +315,7 @@ Prisoner's Dilemma
 
 Two-Level Bargaining
 
-- **Domestic politics is vital for understanding international outcomes!**
+- **One sentence: Domestic politics is vital for understanding international outcomes!**
 - Interests: Leaders want political survival AND Constituents want specific policies
 - Institutions: Level I (International): Leader vs Leader for policy; Level II (Domestic): Leader vs Constituents for ratification/survival
 - Interactions: 1) Moves made on the Level I game board shift the pieces on Level II (and vice versa); 2) Larger Level I win-sets make agreement more likely; 3) Smaller Level II win-sets strengthen the leader; 4) Leaders can try to influence the size of the win-sets at home and abroad
@@ -310,12 +323,14 @@ Two-Level Bargaining
 
 Constructivism
 
-- **International politics is international interaction**
+- **One sentence: International politics is international interactions**
 - Interests: Depends on the institutions and interactions
 - Institutions: Depends on the interactions
 - Interactions: Constantly in flux, change is constant, power of norms and discourse, importance of identity, meanings depend on behavior and interpretation
 
 Feminist Theory
+
+- **One sentence: There are more people and rules involved in international politics than you think there are!**
 
 - Interests:
     - Unpack the state! Don’t forget to think about ALL the actors involved in the functioning of states, organizations movements
@@ -329,6 +344,8 @@ Feminist Theory
     - We cannot understand outcomes related to stability, security, crisis, development without exploring the interests and institutions above
 
 Postcolonial Theory
+
+- **One sentence: Powerful states will do monstrous things to remain powerful, e.g. exploitation, abuse, economic devastation, inventing fake science**
 
 Interests: **Challenges us to reconceptualize what states want: Exploitation, hierarchy, reinforcing the status quo.**
 
