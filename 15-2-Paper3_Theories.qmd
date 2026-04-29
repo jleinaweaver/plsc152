@@ -15,7 +15,7 @@ library(kableExtra)
 
 ::: {.r-fit-text}
 
-**Final Paper Preperations**
+**Final Paper Preparations**
 
 - Applying and evaluating the models
 
@@ -65,55 +65,51 @@ For today you have each:
 
 <br>
 
-Let's get and give feedback!
-
-- *Split class into groups of three*
-
-- Go sit with your group
-
-<br>
-
 By the end of class today you should have:
 
 - An international political event to explain supported by high quality evidence
 
-- A simple explanation of the event using three models of IR, and
+- THREE competing explanations of the event using models of IR, and
 
 - A start on the strengths and weaknesses of each model applied to your event
 
+<br>
+
+Today you are going to receive AND give useful feedback
+
+- Your job will be to pitch your work to EVERYONE else in the class in order to get their evaluation of it
+
+- **SLIDE**
+
 :::
-
-
 
 
 
 ## {background-image="Images/background-worldmap4.png" .center}
 
 ::: {.r-fit-text}
-**Focus on one paper at a time (15 mins)**
+**Practice & Feedback Time**
+
+1. Is the specific action being explained clearly enough?
+
+2. Is each theory being applied correctly?
+
+3. Which theory do YOU believe is MOST useful?
+
+4. Which theory do YOU believe is LEAST useful?
 :::
-
-1. Is it clear what specific actor and action is being explained?
-
-2. Is each theory applied correctly?
-
-3. Help them decide: Which theory is most useful and why?
 
 ::: notes
 
-Focus on each paper for 15 minutes (use all the time!)
+Your job will be to listen to everyone's proposals and then give them these four pieces of feedback
 
-- Review their event and their use of the three models to explain it
+- **Questions on the task?**
 
-- Help them brainstorm strengths and weaknesses for each model applied to this event
+- Go!
 
 <br>
 
-**Questions on the assignment?**
-
-- I'll tell you when to move to the next paper
-
-- Go!
+**SLIDE**: Pick your strongest two theories and submit an outline of the paper before class on Friday
 
 :::
 
