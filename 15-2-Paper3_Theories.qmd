@@ -1,0 +1,152 @@
+---
+format: revealjs
+---
+
+## Today's Agenda {background-image="Images/background-worldmap4.png" .center}
+
+```{r}
+# background-size="1920px 1080px"
+library(tidyverse)
+library(readxl)
+library(kableExtra)
+```
+
+<br>
+
+::: {.r-fit-text}
+
+**Final Paper Preparations**
+
+- Applying and evaluating the models
+
+:::
+
+<br>
+
+::: r-stack
+Justin Leinaweaver (Fall 2026)
+:::
+
+::: notes
+Prep for Class
+
+1. Review submitted work on Canvas (notes from applying models to the cases)
+
+:::
+
+
+
+
+## Final Exam (Due May 6, 10am) {background-image="Images/background-worldmap4.png" .center}
+
+<br>
+
+Select a **NEW** international political event and make an argument that one of the IR theories / models we’ve studied in class this term “best” explains the event. 
+
+- Your paper must include a counter-argument that applies and evaluates a second theory to the case.
+
+- No double-dipping on realism/liberalism
+
+- At least one theory from the second half of class
+
+- No events used in the prior paper
+
+::: notes
+
+**Questions on the assignment?**
+
+<br>
+
+For today you have each:
+
+1. Broken your event down into its key components: Who is the actor? What is the action they performed that you are explaining?
+
+2. Briefly explained the event using THREE of the theories from class
+
+<br>
+
+By the end of class today you should have:
+
+- An international political event to explain supported by high quality evidence
+
+- THREE competing explanations of the event using models of IR, and
+
+- A start on the strengths and weaknesses of each model applied to your event
+
+<br>
+
+Today you are going to receive AND give useful feedback
+
+- Your job will be to pitch your work to EVERYONE else in the class in order to get their evaluation of it
+
+- **SLIDE**
+
+:::
+
+
+
+## {background-image="Images/background-worldmap4.png" .center}
+
+::: {.r-fit-text}
+**Practice & Feedback Time**
+
+1. Is the specific action being explained clearly enough?
+
+2. Is each theory being applied correctly?
+
+3. Which theory do YOU believe is MOST useful?
+
+4. Which theory do YOU believe is LEAST useful?
+:::
+
+::: notes
+
+Your job will be to listen to everyone's proposals and then give them these four pieces of feedback
+
+- **Questions on the task?**
+
+- Go!
+
+<br>
+
+**SLIDE**: Pick your strongest two theories and submit an outline of the paper before class on Friday
+
+:::
+
+
+
+
+## For Next Class: Outline {background-image="Images/background-worldmap4.png" .center .smaller}
+
+**Intro**
+
+- What is the question?
+- Why is the question important?
+- Thesis statement: Theory X is most useful because...
+
+**Premise 1: Theory 1 is most useful because... (with evidence)**
+
+**Premise 2: Theory 1 is most useful because... (with evidence)**
+
+**Premise 3: Theory 1 is most useful because... (with evidence)**
+
+**Counter-Argument: Theory 2**
+
+- What are the strengths of this explanation?
+- What are the weaknesses of this explanation?
+- Why is it not ultimately more useful than Theory 1?
+
+::: notes
+
+Outline due in class on Friday
+
+- Submit as an assignment, NOT a Canvas discussion posting
+
+- Bring your outline to class
+
+<br>
+
+### Questions?
+
+- Get to it!
+:::
