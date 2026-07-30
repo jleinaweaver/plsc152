@@ -35,8 +35,10 @@ Prep for Class
 
 2. Readings
     - Labossiere (2008) on the logic of arguments
-    - [Kramer (2025)](https://www.nytimes.com/2025/07/04/opinion/iran-israel-arrests.html) on Iran cracking down on dissent
+
     - [Van Reybrouck (2025)](https://www.theguardian.com/commentisfree/2025/jun/28/world-age-old-ruthless-patriarchs-global-order) on the gerontocracy
+    
+    - []()
 
 <br>
 
@@ -408,158 +410,6 @@ The arguments you make in this class must be logical and that means they are:
 :::
 
 
-## {background-image="Images/background-worldmap4.png" .center}
-
-![](Images/01_2-Kramer2025.png){style="display: block; margin: 0 auto"}
-
-::: notes
-
-Ok, the first argument we need to evaluate was written by Karen Kramer. [Bio](https://iranhumanrights.org/bio-karen-kramer/)
-
-- Ms. Kramer is deputy director of the Center for Human Rights in Iran.
-
-- She has previously taught Middle East politics, acted as a private consultant and served as executive editor of the MidEast Report
-
-<br>
-
-**ALWAYS important to think about who is making the argument and what motivates them!**
-
-<br>
-
-**Before digging into the argument itself, anything about this source we should keep in mind? Any concerns?**
-:::
-
-
-
-## {background-image="Images/background-worldmap4.png"}
-
-::: {.r-fit-text}
-What is the conclusion of this argument?
-:::
-
-![](Images/01_2-Kramer2025.png){style="display: block; margin: 0 auto"}
-
-::: notes
-
-Let's start by identifying the central conclusion in the argument.
-
-<br>
-
-**So, what's the conclusion of the argument?**
-
-- **What is she trying to convince us to do?**
-
-- (**SLIDE**)
-:::
-
-
-
-
-## {background-image="Images/background-worldmap4.png"}
-
-![](Images/01_2-Kramer2025.png){style="display: block; margin: 0 auto"}
-
-Therefore, the international community must immediately respond to the crackdown on dissent by Iran's government.
-
-::: notes
-
-This represents my summary of the central argument here.
-
-<br>
-
-**Everybody ok with using this as our target?**
-
-- **Any tweaks needed?**
-
-<br>
-
-Take a few minutes on your own to identify the THREE most important premises in the article.
-
-- Try to think about this from a 30,000 foot view
-- What are the big reasons he gives to support the conclusion?
-- Each paragraph in the argument either reveals a premise or explains and supports a premise.
-- Your first job is to find the premises.
-
-<br>
-
-**Questions?**
-
-Let's get to it!
-
-<br>
-
-Compare your list of premises to the person next to you.
-
-<br>
-
-Alright, let's get ideas up *ON THE BOARD*
-
-- *Call on people, chance to learn names*
-
-- **SLIDE**: My version
-
-<br>
-
-**Notes**
-
-- The current "crackdown" against dissent by the Iranian government violates many human rights
-    - Examples: No due process, no legal counsel, sham trials, targeting religious minorities, targeting ethnic minorities
-- Iran's parliament is now moving to "equate online activism and information sharing with terrorism and treason"
-    - "Anyone accused of undermining national security or sharing content with foreign media could face life imprisonment or death."
-- If the international community doesn't act then we are "[validating] the regime's strategy" and preventing the creation of a free Iran
-- The US has the leverage to act and tools to use: Sanctions, diplomatic isolation, pressure at the UN, universal jurisdiction to prosecute public officials
-- Therefore, the international community must immediately respond to the crackdown on dissent by Iran's government.
-:::
-
-
-
-## {background-image="Images/background-worldmap4.png" .center}
-
-- The Iranian government is attacking its own peoples' human rights
-
-- The Iranian parliament is about to make activism and information sharing terrorism / treason
-
-- If the Iranian government succeeds then they will have killed the roots of a free, future Iran
-
-- The US has the leverage to act and the international community has many tools available
-
-Therefore, the international community must immediately respond to the crackdown on dissent by Iran's government.
-
-::: notes
-**Per the rubric, are these premises clear?**
-
-**Is the argument inductively logical? Why or why not?**
-
-<br>
-
-Let's talk evidence.
-
-**What evidence does the author provide to support the first premise?**
-
-- **Is it high quality and cited appropriately?**
-
-*Repeat for each additional premise*
-
-<br>
-
-The final element of the rubric is critical analysis.
-
-**Is there any critical analysis in the argument (e.g. counter-arguments or acknowledging limitations in evidence)?**
-
-<br>
-
-Ok let's talk.
-
-**Are you convinced by this argument? Why or why not?**
-
-<br>
-
-**Any questions on the procedure for diagramming and evaluating an academic argument?**
-
-- **SLIDE**: Let's practice this again!
-:::
-
-
 
 ## {background-image="Images/background-worldmap4.png" .center}
 
@@ -567,7 +417,7 @@ Ok let's talk.
 
 ::: notes
 
-Our second argument comes from David Van Reybrouck, a philosopher and historian
+Our first argument comes from David Van Reybrouck, a philosopher and historian
 
 - Much published author and the official philosopher laureate of the Netherlands
 
@@ -590,14 +440,19 @@ What is the **conclusion** in this argument?
 
 ::: notes
 
-Just as we did before, let's start by identifying the conclusion.
+Let's start by identifying the central conclusion in the argument.
 
 <br>
 
-**What is the conclusion to this argument?**
+**So, what's the conclusion of the argument?**
 
 - **What is he trying to convince us to believe?**
+
+- (**SLIDE**)
+
 :::
+
+
 
 
 ## {background-image="Images/background-worldmap4.png" .center}
@@ -618,13 +473,31 @@ Therefore, the world must do something about our gerontocracy
 
 <br>
 
-Alright, 30,000 foot view.
+Take a few minutes on your own to identify the THREE most important premises in the article.
 
-**What are the key premises in this argument?**
+- Try to think about this from a 30,000 foot view
 
-- *if enough time have them work on their own or in pairs first.*
+- What are the big reasons he gives to support the conclusion?
 
-- *ON BOARD*
+- Each paragraph in the argument either reveals a premise or explains and supports a premise.
+
+- Your first job is to find the premises.
+
+<br>
+
+**Questions?**
+
+Let's get to it!
+
+<br>
+
+Compare your list of premises to the person next to you.
+
+<br>
+
+Alright, let's get ideas up *ON THE BOARD*
+
+- *Call on people, chance to learn names*
 
 <br>
 
@@ -681,7 +554,170 @@ Ok let's talk.
 We'll be doing this kind of exercise a LOT this semester so you'll get plenty of practice at it!
 
 - **Any questions on the procedure for diagramming and evaluating an academic argument?**
+
+<br>
+
+**SLIDE**: Let's practice this again!
+
 :::
+
+
+
+
+## {background-image="Images/background-worldmap4.png" .center}
+
+![](Images/01_2-Russia_ICC.png){style="display: block; margin: 0 auto"}
+
+::: notes
+
+Ok, the second argument we need to evaluate was written by:
+
+- Iryna Mudra, the deputy head of the office of the president of Ukraine
+
+- Mykola Yurlov, a senior Ukrainian diplomat
+
+- Taras Semenyuk a communications adviser, and 
+
+- Mark Ellis, the executive director of the International Bar Association
+
+<br>
+
+**Before digging into the argument itself, anything about these sources we should keep in mind? Any concerns?**
+
+:::
+
+
+
+## {background-image="Images/background-worldmap4.png"}
+
+::: {.r-fit-text}
+What is the conclusion of this argument?
+:::
+
+![](Images/01_2-Russia_ICC.png){style="display: block; margin: 0 auto"}
+
+::: notes
+
+Let's start by identifying the central conclusion in the argument.
+
+<br>
+
+**So, what's the conclusion of the argument?**
+
+- **What are they trying to convince us to do?**
+
+- (**SLIDE**)
+:::
+
+
+
+
+## {background-image="Images/background-worldmap4.png"}
+
+![](Images/01_2-Russia_ICC.png){style="display: block; margin: 0 auto"}
+
+Therefore, the countries of the world should endorse the Special Tribunal for the Crime of Aggression Against Ukraine
+
+::: notes
+
+This represents my summary of the central argument here.
+
+<br>
+
+**Everybody ok with using this as our target?**
+
+- **Any tweaks needed?**
+
+<br>
+
+Take a few minutes on your own to identify the THREE most important premises in the article.
+
+- Try to think about this from a 30,000 foot view
+- What are the big reasons he gives to support the conclusion?
+- Each paragraph in the argument either reveals a premise or explains and supports a premise.
+- Your first job is to find the premises.
+
+<br>
+
+**Questions?**
+
+Let's get to it!
+
+<br>
+
+Compare your list of premises to the person next to you.
+
+<br>
+
+Alright, let's get ideas up *ON THE BOARD*
+
+- *Call on people, chance to learn names*
+
+- **SLIDE**: My version
+
+<br>
+
+**Notes**
+
+- 36 states have endorsed the Special Tribunal for the Crime of Aggression Against Ukraine
+- Since the trials after WWII, the world has failed to adjudicate the decision to start a war and the world has seen repeated wars of aggression that violate the UN charter 
+- The ICC has issued arrest warrants for Putin and his top commanders but they cannot reach them inside Russia
+- There are many critics and criticisms of international law, HOWEVER, even slow mechanisms of justice create a record and prevent the aggressor from "having the last word"
+- Each time the world creates "a working accountability mechanism" we make it harder for future leaders to wield "power without consequences"
+- "Impunity for Russian aggression against Georgia in 2008 made the Russian aggression against Crimea and the Donbas in Ukraine possible in 2014. Impunity for 2014 paved the way for 2022. If impunity is ever to end, the pushback must begin somewhere."
+- Judgements of accountability are separate from efforts to achieve a ceasefire. Ukraine needs a ceasefire, the world needs accountability.
+- The failure to pursue accountability after the Bosnian war planted the seeds that have continued to destabilize that region to this day
+- The creation of the Special Tribunal for the Crime of Aggression Against Ukraine serves as a warning to ALL leaders that aggression has costs.
+- This isn't about Ukraine, Countries should endorse the Special Tribunal to protect themselves from future aggression
+
+:::
+
+
+
+## {background-image="Images/background-worldmap4.png" .center .smaller}
+
+- Since the trials following WWII, the world has failed to adjudicate decisions to start wars
+
+- In the absence of clear judgements, wars of aggression have been repeatedly allowed to begin with little cost to the aggressors
+
+- International law has many problems, but each attempt to create accountability makes it harder for future leaders to wield "power without consequences"
+
+- Adjudicating Putin's aggression towards Ukraine is really about protecting all states from future acts of aggression
+
+Therefore, the countries of the world should endorse the Special Tribunal for the Crime of Aggression Against Ukraine
+
+::: notes
+**Per the rubric, are these premises clear?**
+
+**Is the argument inductively logical? Why or why not?**
+
+<br>
+
+Let's talk evidence.
+
+**What evidence does the author provide to support the first premise?**
+
+- **Is it high quality and cited appropriately?**
+
+*Repeat for each additional premise*
+
+<br>
+
+The final element of the rubric is critical analysis.
+
+**Is there any critical analysis in the argument (e.g. counter-arguments or acknowledging limitations in evidence)?**
+
+<br>
+
+Ok let's talk.
+
+**Are you convinced by this argument? Why or why not?**
+
+
+:::
+
+
+
 
 
 

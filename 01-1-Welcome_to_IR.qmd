@@ -32,8 +32,6 @@ Prep for Class
 
 2. Make sure this week's modules visible in Canvas
 
-3. Log into Canvas on classroom PC
-
 <br>
 
 *As students come in*
@@ -58,7 +56,9 @@ Welcome all.
 :::
 
 
-## Introductions {background-image="Images/background-worldmap4.png"  .center}
+
+
+##  {background-image="Images/background-worldmap4.png"  .center}
 
 ::: {.r-fit-text}
 
@@ -68,25 +68,25 @@ Welcome all.
 
 3. Major
 
-4. "Important" international events are...
+4. Primary source(s) of news
 
 :::
 
 ::: notes
 
-My aim with this last one is to get a sense for how the class thinks about "importance" on the world stage
+My aim with this last one is to get a sense for where your inputs come from
 
-- In other words, what kinds of events should we be paying attention to? Why?
+- If good science depends on measuring the world, let's see what data you are all working with!
 
 <br>
 
 1. Name: I'm Dr. Leinaweaver.
 
-2. Year in school: 13th year at Drury
+2. Year in school: 15th year at Drury
 
 3. Major: Political scientist with primary research interests in international policy-making and problem-solving
 
-4. **Let's see what you guys think!**
+4. News: Wall Street Journal, NY Times, and Foreign Policy
 
 <br>
 
@@ -122,59 +122,14 @@ Welcome to International Relations (IR).
 
 Our job this semester is to analyze "politics" happening at the international level.
 
-- What does that mean? We'll get there!
-
 <br>
 
-Today's Agenda: Set up our class and plan for the semester
+And, what does that mean? 
+
+- **SLIDE**: We'll explore this task by dividing our semester into four sections
+
 :::
 
-
-## Learning Outcomes {background-image="Images/background-worldmap4.png"  .center}
-
-<br>
-
-### Explaining international political events like an IR scholar requires learning...
-
-::: {.r-fit-text}
-::: {.incremental}
-- LO 1: The big ideas and basic definitions of the field
-
-- LO 2 & 3: To use the tools of social scientists
-
-- LO 4: To write convincing arguments
-:::
-:::
-
-::: notes
-
-Big picture, we have four learning outcomes this semester.
-
-- All four are in the syllabus, but let me simplify them for you.
-
-<br>
-
-1. Content Knowledge
-    - Learn the big ideas and basic definitions you need to explain international political events.
-
-2. Methods Knowledge
-    - Learn to use the tools of social scientists for analyzing international political events.
-
-3. Critical Thinking & Problem Solving Skills
-    - Practice applying social science tools to solve big problems and answer important questions.
-
-4. Communication Skills
-    - Practice writing logical, clear, credible and critical arguments so good that they will convince smart people you are right!
-
-<br>
-
-### Everybody good with these?
-
-<br>
-
-**SLIDE**: To make progress on these LOs I've divided the semester into four sections.
-
-:::
 
 
 
@@ -216,6 +171,7 @@ Once this is done we can start digging into the BIG questions that inspired the 
 
 
 
+
 ## {background-image="Images/01_1-Putin.jpg"}
 
 ::: notes
@@ -226,11 +182,59 @@ Once this is done we can start digging into the BIG questions that inspired the 
 
 <br>
 
-**And why has old Vladdy been in the news so much over the last few years?**
+**And what country did old Vladdy launch an invasion of most recently?**
 
-- (SLIDE: Dude just will not stop invading Ukraine!)
+- (SLIDE: Poor Ukraine)
 
 :::
+
+
+
+## {background-image="Images/05_2-putin_ukraine.jpg"}
+
+::: notes
+
+**From what you've heard, why did Russia invade Ukraine?**
+
+<br>
+
+*ON BOARD: Putin Invades Ukraine*
+
+- Power? 
+- Personality? 
+- Territory/Resources? 
+- Threats from Alliances?
+
+<br>
+
+**SLIDE**: One more time!
+
+:::
+
+
+
+
+## {background-image="Images/01_1-Trump_war_Iran.webp"}
+
+::: notes
+
+**From what you've heard, why did President Trump launch a war with Iran?**
+
+<br>
+
+*ON BOARD: Trump Attacks Iran*
+
+- Power? 
+- Personality? 
+- Territory/Resources? 
+- Threats from Alliances?
+
+<br>
+
+**SLIDE**: Section 2 of the class
+
+:::
+
 
 
 
@@ -240,9 +244,7 @@ Once this is done we can start digging into the BIG questions that inspired the 
 
 **Why Are There Wars?**
 
-```{r, fig.align='center'}
-knitr::include_graphics('Images/05_2-putin_ukraine.jpg')
-```
+![](Images/01_1-soldiers_rubble.webp){style="display: block; margin: 0 auto"}
 
 ::: notes
 
@@ -252,14 +254,11 @@ In Section 2 of our we explore the grand-daddy of all IR research questions.
 
 <br>
 
-**From what you've heard, why did Russia invade Ukraine?**
+**When we compare these two lists do we see any similarities?**
 
-*ON BOARD*
+<br>
 
-- Power? 
-- Personality? 
-- Territory/Resources? 
-- Threats from Alliances?
+**What are the key differences?**
 
 <br>
 
@@ -269,116 +268,56 @@ In Section 2 of our we explore the grand-daddy of all IR research questions.
 
 <br>
 
-**SLIDE**: Let's kick off our next question with another old dude!
+**SLIDE**: Let's kick off our next question with another world leader
 
 :::
 
 
 
-
-## {background-image="Images/01_1-Khamenei.png"}
+## {background-image="Images/01_1-Kim_Jong_Un.jpg"}
 
 ::: notes
 
-**Anybody recognize this kindly looking fella? Or the flag behind him?**
+**And who is this handsome fella?**
 
-- (Supreme Leader of Iran, Ali Khamenei)
+- (Kim Jong Un, the dear leader of the Democratic People's Republic of Korea)
 
 <br>
 
-**SLIDE**
+**And why is the world annoyed and scared of this guy?**
+
+- (**SLIDE**: Dude has nukes and seems to be a little nuts)
 
 :::
 
 
 
-## {background-image="Images/01_1-Kahmeni_khomeni.jpg"}
+
+## {background-image="Images/01_1-kim-jong-un-nukes.jpg"}
 
 ::: notes
 
-To be clear, this on the left is Ali Khamenei, the current Supreme Leader of Iran
+**Anybody know how many nukes North Korea is estimated to have currently?**
 
-- Not to be confused with his predecessor Ruhollah Khomeini, the former supreme leader...
+- (Per the Arms Control Association:)
 
-- Not confusing at all.
-
-<br>
-
-**And what are some of the MANY reasons this guy, and his country, have been in the news over the last few years?**
-
-- Nuclear weapons program / nuclear enrichment
-
-- Providing aid and weapons to terror groups like Hamas, Hezbollah and the Houthi fighters in Yemen
-
-- Suppressing pro-democracy protests at home
-
-- Launching missile/drone attacks against Israel
-
-- Supporting groups that target American bases and troops in Iraq
-
-- and on and on and on...
+    - North Korea is estimated to have assembled 50 nuclear warheads, as of January 2024, and
+    
+    - They have enough fissile material for an estimated 70-90 MORE nuclear weapons
 
 <br>
 
-SLIDE: militia support, houthi support, nuke program
+Making this choice has led North Korea to be cut off from basically all international trade and opportunities for growth.
 
-:::
-
-
-
-## {background-image="Images/background-worldmap4.png"}
-
-![](Images/01_1-Iranian_Militias_Economist_2024.png){.absolute top=0 left=0 width="450"}
-
-::: {.fragment}
-
-![](Images/01_1-Houthi_Attacks.webp){.absolute top=0 right=0 width="550"}
-
-:::
-
-::: {.fragment}
-
-![](Images/01_1-Iranian_nukes.jpg){.absolute bottom=0 right=200 width="550"}
-
-:::
-
-::: notes
-
-Iran has definitely been an active participant in Middle East politics for a long time, and to the extreme annoyance of many of its neighbors!
-
-- REVEAL: Offering support in terms of money, arms and expertise to militias throughout the region
-
-- REVEAL: The houthis in Yemen have used Iranian support to destabilize global trade using missile strikes against shipping in the Red Sea
-
-- REVEAL: And, of course, their threatened nuclear program!
+- The country is cartoonishly impoverished and the people outside the elite suffer massively.
 
 <br>
 
-**From what you've heard, why is Iran working so hard to destabilize the Middle East?**
-
-- **Why won't they simply "play nice" with their neighbors?**
+**Why on Earth would a country's leadership choose to impoverish themselves in order to develop a weapon they couldn't ever possibly use without inviting their own destruction?**
 
 <br>
 
-*ON BOARD*
-
-- Pushing back against the US-led order?
-
-- Asserting their own domestic security?
-
-- Supporting their allies in the region / those with a similar view to their own?
-
-- Power projection?
-
-- Technological advancement?
-
-<br>
-
-**If you were the President of the US, what would you do to get Iran to act differently?**
-
-<br>
-
-**Setting aside threats and violence, what would you be willing to offer Iran to change its behavior? Anything?**
+**SLIDE**: Section 3 research question
 
 :::
 
@@ -387,7 +326,7 @@ Iran has definitely been an active participant in Middle East politics for a lon
 ## Semester Outline: Section 3 {background-image="Images/background-worldmap4.png" .center}
 
 ```{r, fig.align='center'}
-knitr::include_graphics("Images/01_1-Iranian_nukes.jpg")
+knitr::include_graphics("Images/01_1-Trump_and_Kim.jpeg")
 ```
 
 ::: {.r-fit-text}
@@ -494,7 +433,9 @@ In Section 4 of the class I want us to ask if 80 years later these institutions 
 
 Alright, so that's our plan for the semester.
 
-### Questions on this?
+<br>
+
+**Questions on this?**
 
 :::
 
@@ -515,7 +456,13 @@ We will kick off most classes with current events discussions.
 - Skim the international section of a good news site everyday.
 
 - Let's make sure we always have current events we can draw on in our discussions!
+
+<br>
+
+**SLIDE**: Everybody now log into our class page on Canvas
+
 :::
+
 
 
 
@@ -526,90 +473,138 @@ knitr::include_graphics("Images/01_1-Canvas_Homepage.png")
 ```
 
 ::: notes
-Everybody log into Canvas with me and let's get oriented in our class infrastructure!
+
+Everything you need to succeed in this class is hosted on our class Canvas page
+
+- All the readings,
+
+- All the assignments,
+
+- All your grades, and
+
+- All of our class policies are in the syllabus
 
 <br>
 
-*Log into Canvas, set to student view and step them through the main pages*
+**SLIDE**: Let me make sure to draw your attention to some of the important class policies in the syllabus
 
-- Home page,
-
-- Grades,
-
-- Assignments,
-
-- Modules (with readings and assignment for Thursday)
 :::
 
 
 
-## The answer is in the syllabus  {background-image="Images/background-worldmap4.png" .center}
 
-```{r, fig.align='center'}
-knitr::include_graphics("Images/01_1-Course_Syllabus.png")
-```
+## The answer is in the syllabus (part 1) {background-image="Images/background-worldmap4.png" .center}
+
+<br>
+
+::: {.r-fit-text}
+::: {.incremental}
+
+**Learning Outcomes**
+
+- LO 1: The big ideas and basic definitions of the field
+
+- LO 2 & 3: To use the tools of social scientists
+
+- LO 4: To write convincing arguments
+:::
+:::
 
 ::: notes
 
-Everybody open the syllabus and let's hit the highlights!
+First page of the syllabus lists our learning outcomes for the semester
 
-- *Give them time to do this*
-
-<br>
-
-1. **Any questions about the LOs or components of your grade?**
-
-2. **Any questions about the attendance policy?**
-    
-    - Attendance cliff (> 3 unexcused absences = Grade cap of 'C')
-    
-    - YOU are required to contact me by email for excused absences
-    
-    - Coach emails alone DO NOT COUNT
-
-3. **Any questions about the participation points?**
-
-    - MOST classes have short pre-class assignments that must be submitted to Canvas
-    
-    - Other ways to lose participation: Lateness, distracting classmates
-
-4. **Any questions about the Submission Requirements for the Argument Papers?**
+- Let me simplify them for you.
 
 <br>
 
-The Modules page of our Canvas site is where I will provide all of the readings and links to the daily assignments.
+1. Content Knowledge
+    - Learn the big ideas and basic definitions you need to explain international political events.
 
-- **Any question on the Modules page?**
+2. Methods Knowledge
+    - Learn to use the tools of social scientists for analyzing international political events.
 
-<br>
+3. Critical Thinking & Problem Solving Skills
+    - Practice applying social science tools to solve big problems and answer important questions.
 
-Bottom line, please keep me in the loop this semester!
-
-- I genuinely want you to make progress on our learning outcomes
-
-- So, if things are getting rough for you please come talk to me.
-
-- I will always offer you flexibility in the face of struggle IF YOU COME TO ME BEFORE DEADLINES HAVE PASSED!
+4. Communication Skills
+    - Practice writing logical, clear, credible and critical arguments so good that they will convince smart people you are right!
 
 <br>
 
-**Questions on this?**
+### Everybody good with these?
 
 <br>
 
-**SLIDE**: AI policy
+**SLIDE**: Your final grade
 
 :::
 
 
 
-## {background-image="Images/background-worldmap4.png" .center}
+
+## The answer is in the syllabus (part 2) {background-image="Images/background-worldmap4.png" .center}
+
+![](Images/01_1-Syllabus_pg1.png)
+
+::: notes
+
+Final grade is a mix of written papers and daily participation assignments that help to get you ready for our daily seminar
+
+<br>
+
+**Any questions on the big picture here?**
+
+<br>
+
+**SLIDE**: Let's unpack what I mean when I call this a seminar
+
+:::
+
+
+
+## The answer is in the syllabus (part 3) {background-image="Images/background-worldmap4.png" .center}
+
+![](Images/01_1-Syllabus_pg2.png)
+
+::: notes
+
+Everybody read these points and then let's discuss them.
+
+<br>
+
+**Any questions about the attendance cliff?**
+
+- If you're not in class then I can't ensure you make progress on our LOs
+
+<br>
+
+**Any questions about how to request an excused absence?**
+
+- Coaches emails DO NOT cover you!
+
+<br>
+
+**Any questions about the participation points policy?**
+
+<br>
+
+**SLIDE**: Syllabus part 4
+
+:::
+
+
+
+
+## The answer is in the syllabus (part 4) {background-image="Images/background-worldmap4.png" .center}
 
 ![](Images/01_1-No_AI_Tools.jpg){style="display: block; margin: 0 auto"}
 
 ::: notes
 
-You may not use any AI tools in this class. Any AI use will be treated as plagiarism.
+You may not use any AI tools in this class. 
+
+- Any AI use will be treated as plagiarism.
 
 <br>
 
