@@ -262,13 +262,17 @@ In Section 2 of our we explore the grand-daddy of all IR research questions.
 
 <br>
 
-**Is this a "good" list if our aim is to be able to explain where wars are likely to start in the future?**
+Let's say I want to be able to predict where future wars are going to happen
 
-- **In other words, would knowing just these things about a random country help you predict the likelihood of war? Why or why not?**
+- **Is there any item on these lists you think are predictive of war?**
+
+- **In other words, if a country has this then war is more likely to happen?**
 
 <br>
 
-**SLIDE**: Let's kick off our next question with another world leader
+Section 3 of our class moves to a new question
+
+- **SLIDE**: Let's kick that off with another world leader
 
 :::
 
@@ -284,7 +288,7 @@ In Section 2 of our we explore the grand-daddy of all IR research questions.
 
 <br>
 
-**And why is the world annoyed and scared of this guy?**
+**And why is the world annoyed by, and a little frightened, of this guy?**
 
 - (**SLIDE**: Dude has nukes and seems to be a little nuts)
 
@@ -297,13 +301,30 @@ In Section 2 of our we explore the grand-daddy of all IR research questions.
 
 ::: notes
 
-**Anybody know how many nukes North Korea is estimated to have currently?**
+The North Korean nuclear program has existed, in some form or another, since the early 1960s.
+
+- The international community has repeatedly tried to convince the Kim family to give up their pursuit of nuclear weapons
+
+- Sometimes we have used "carrots": Subsidized oil, food, economic aid, etc
+
+- Often we have used "sticks": Sever economic sanctions
+
+<br>
+
+**And, in sum, how effective have we been?**
+
+- **Anybody know how many nukes North Korea is estimated to have currently?**
 
 - (Per the Arms Control Association:)
 
     - North Korea is estimated to have assembled 50 nuclear warheads, as of January 2024, and
     
     - They have enough fissile material for an estimated 70-90 MORE nuclear weapons
+
+<br>
+
+
+
 
 <br>
 
@@ -314,6 +335,8 @@ Making this choice has led North Korea to be cut off from basically all internat
 <br>
 
 **Why on Earth would a country's leadership choose to impoverish themselves in order to develop a weapon they couldn't ever possibly use without inviting their own destruction?**
+
+- *Brainstorm ideas*
 
 <br>
 
@@ -339,9 +362,11 @@ In Section 3 of the class we ask why is it so Hard to Cooperate with Other Count
 
 <br>
 
-Most countries would prefer to live in a world where Iran stops doing all this destabilizing stuff, but for so many reasons it's hard to get to that world!
+Most countries would prefer to live in a world where everyone feels safe and happy
 
-- We have a good start here to mapping out the challenges of cooperation when the stakes are so high!
+- Seems like a recipe for peace and growth!
+
+- BUT for so many reasons it's hard to get to that world!
 
 <br>
 
@@ -374,6 +399,8 @@ Clearly the world has changed a lot since 1945.
 
 - **What are the biggest differences between today and 1945?**
 
+- *Brainstorm ideas*
+
 :::
 
 
@@ -392,17 +419,17 @@ What is the Future of Transnational Politics and IR?
 
 Here's the thing, most of the world's international infrastructure was designed at the end of WWII
 
-- The United Nations was designed to maintain peace 
+- In 1945 we created the United Nations to maintain global peace 
 
-- The International Court of Justice was designed to help countries settle disputes without fighting
+- In 1946 we created the International Court of Justice to allow countries to settle disputes without violence or invasion
 
-- The World Bank was designed to reduce poverty and promote long-term economic development
+- In 1944 we created the World Bank to reduce poverty and promote long-term economic development around the world
 
-- The International Monetary Fund was designed to do a bunch of stuff related to promoting trade and growth
+- In 1947 we created the International Monetary Fund to promote global trade and economic growth
 
 <br>
 
-Basically all of these, and more, were founded in around 1944/1945
+Basically all of these, and more, were founded 80 years ago in a VERY different era
 
 <br>
 
@@ -486,7 +513,11 @@ Everything you need to succeed in this class is hosted on our class Canvas page
 
 <br>
 
-**SLIDE**: Let me make sure to draw your attention to some of the important class policies in the syllabus
+Our class syllabus is the FIRST place you should go when you have questions!
+
+- It has LOTS of the answers you need to succeed this semester
+
+- **SLIDE**: For example
 
 :::
 
@@ -498,15 +529,17 @@ Everything you need to succeed in this class is hosted on our class Canvas page
 <br>
 
 ::: {.r-fit-text}
-::: {.incremental}
 
 **Learning Outcomes**
+
+::: {.fragment}
 
 - LO 1: The big ideas and basic definitions of the field
 
 - LO 2 & 3: To use the tools of social scientists
 
 - LO 4: To write convincing arguments
+
 :::
 :::
 
@@ -514,7 +547,13 @@ Everything you need to succeed in this class is hosted on our class Canvas page
 
 First page of the syllabus lists our learning outcomes for the semester
 
-- Let me simplify them for you.
+- The LOs are INCREDIBLY important and you should review them for ALL of your classes
+
+- They tell you, in big picture, how the professor has designed the course
+
+<br>
+
+**REVEAL**: Let me simplify them for you.
 
 <br>
 
@@ -532,11 +571,11 @@ First page of the syllabus lists our learning outcomes for the semester
 
 <br>
 
-### Everybody good with these?
+**Everybody good with these?**
 
 <br>
 
-**SLIDE**: Your final grade
+**SLIDE**: The syllabus has all the details on your final grade
 
 :::
 
@@ -549,7 +588,15 @@ First page of the syllabus lists our learning outcomes for the semester
 
 ::: notes
 
-Final grade is a mix of written papers and daily participation assignments that help to get you ready for our daily seminar
+Your final grade in this class has two main components:
+
+1. Your daily attendance and participation makes up almost half the grade!
+
+    - I want to incentivize you to come to class and to do the work
+
+2. The other half of the grade is made up of three papers
+
+    - Each requiring you to make a high quality argument
 
 <br>
 
@@ -557,7 +604,7 @@ Final grade is a mix of written papers and daily participation assignments that 
 
 <br>
 
-**SLIDE**: Let's unpack what I mean when I call this a seminar
+**SLIDE**: The syllabus has the information you need to get your participation points!
 
 :::
 
@@ -622,21 +669,51 @@ That means:
 
 <br>
 
-Think of this class like training to play a sport
+**SLIDE**: Think of this class like training to play a sport
 
-- The time you spend in the gym getting stronger and more flexible makes you a better athlete regardless of the sport you end up playing. 
+:::
+
+
+
+## This Course is Training for your Brain {background-image="Images/background-worldmap4.png" .center}
+
+![](Images/01_1-lifting_weights.gif){style="display: block; margin: 0 auto"}
+
+::: notes
+
+The time you spend in the gym getting stronger and more flexible makes you a better athlete regardless of the sport you end up playing. 
 
 - That's what we're doing in this class when we learn to critically analyze texts and become better writers.
 
 - I'm getting you ready to succeed out in the real world
 
-- Using AI tools is like bringing a forklift into the weight room. Yeah, you lifted the weights, but it was a waste of your time.
+<br>
+
+Using AI tools is like bringing a forklift into the weight room. 
+
+- Yeah, you lifted the weights, but it was a waste of your time.
 
 <br>
 
-Other key point: Lots of people are worried about AI taking their jobs, e.g. replacing them in the workforce. 
+**SLIDE**: Other key point
 
-- If you use AI to do your thinking for you then you are literally replacing yourself with AI
+:::
+
+
+
+## {background-image="Images/background-worldmap4.png" .center}
+
+![](Images/01_1-AI_dumber.png){style="display: block; margin: 0 auto"}
+
+::: notes
+
+Lots of people are worried about AI taking their jobs
+
+- e.g. replacing them in the workforce. 
+
+<br>
+
+If you use AI to do your thinking for you then you are literally replacing yourself with AI
 
 - You are setting yourself up with skills that are basically without value
 

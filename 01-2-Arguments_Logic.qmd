@@ -38,7 +38,7 @@ Prep for Class
 
     - [Van Reybrouck (2025)](https://www.theguardian.com/commentisfree/2025/jun/28/world-age-old-ruthless-patriarchs-global-order) on the gerontocracy
     
-    - []()
+    - [Mudra, Yurlov, Semenyuk & Ellis (2026)](https://www.nytimes.com/2026/07/28/opinion/conquest-justice-putin.html)
 
 <br>
 
@@ -46,13 +46,44 @@ Welcome back all!
 
 <br>
 
-**Before we dive in, any questions on the syllabus?**
+**SLIDE**: Before we dive in, let's make sure everybody's ready to go!
 
-- Attendance cliff?
+:::
 
-- Participation assignments?
 
-- etc?
+
+## The Answers are in the Syllabus {background-image="Images/background-worldmap4.png" .smaller}
+
+<br>
+
+::: {.panel-tabset}
+
+### LOs
+
+![](Images/01_02-LOs.png)
+
+### Final Grades
+
+![](Images/01_1-Syllabus_pg1.png)
+
+### Participation
+
+![](Images/01_1-Syllabus_pg2.png)
+
+### NO AI
+
+![](Images/01_1-No_AI_Tools.jpg){width="500"}
+
+:::
+
+::: notes
+
+**Any questions on the course, its structure or the policies in the syllabus?**
+
+<br>
+
+**SLIDE**: Ok, let's turn our attention to making and evaluating arguments
+
 :::
 
 
