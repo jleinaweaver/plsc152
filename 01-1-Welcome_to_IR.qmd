@@ -649,6 +649,10 @@ Everybody read these points and then let's discuss them.
 
 ::: notes
 
+**Does everybody see the AI policy in the syllabus?**
+
+<br>
+
 You may not use any AI tools in this class. 
 
 - Any AI use will be treated as plagiarism.
