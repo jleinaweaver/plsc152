@@ -31,7 +31,11 @@ Prep for Class
 
 1. Review Canvas submissions
 
-2. Readings
+2. There is A LOT of material to get through so keep things moving
+
+    - Make sure to save time for diagramming Keohane!
+
+3. Readings
     - Kant on perpetual peace
     - FLS ch2 on institutions
     
@@ -164,24 +168,6 @@ The excerpt I gave you from the Frieden, Lake and Schultz text introduces you to
 
 <br>
 
-**What example does the chapter give of an institution "setting standards of behavior?**
-
-- ()
-
-**And verifying compliance?**
-
-- ()
-
-**And reducing the costs of joint decision making?**
-
-- ()
-
-**And resolving disputes?**
-
-- ()
-
-<br>
-
 **Any questions on these causal mechanisms?**
 
 - e.g. ways institutions can change state interactions?
@@ -248,11 +234,11 @@ The question is, how close does Kant get us to achieving that goal?
 
 ### Would the world be more peaceful (fewer wars) if every country adopted this article?
 
-1. What specific institutions does this article create?
+1. What NEW institutions does this article require?
 
-2. Why might it work? (connect to FLS ch2)
+2. What mechanism from FLS ch2 is this?
 
-3. Why might it fail?
+3. Will it work?
 
 ::: notes
 
@@ -287,13 +273,11 @@ Groups, you have 10 minutes to prepare an answer to this question:
 
 <br>
 
-### Would the world be more peaceful (fewer wars) if every country adopted this article?
+1. What NEW institutions does this article require?
 
-1. What specific institutions does this article create?
+2. What mechanism from FLS ch2 is this?
 
-2. Why might it work? (connect to FLS ch2)
-
-3. Why might it fail?
+3. Will adopting these institutions make the world more peaceful? Why or why not?
 
 ::: notes
 
@@ -720,13 +704,11 @@ I am using Kant to show you that **HOW** the government does these things matter
 
 <br>
 
-### Would the world be more peaceful (fewer wars) if every country adopted this article?
+1. What NEW institutions does this article require?
 
-1. What specific institutions does this article create?
+2. What mechanism from FLS ch2 is this?
 
-2. Why might it work? (connect to FLS ch2)
-
-3. Why might it fail?
+3. Will adopting these institutions make the world more peaceful? Why or why not?
 
 ::: notes
 
@@ -761,13 +743,11 @@ I am using Kant to show you that **HOW** the government does these things matter
 
 <br>
 
-### Would the world be more peaceful (fewer wars) if every country adopted this article?
+1. What NEW institutions does this article require?
 
-1. What specific institutions does this article create?
+2. What mechanism from FLS ch2 is this?
 
-2. Why might it work? (connect to FLS ch2)
-
-3. Why might it fail?
+3. Will adopting these institutions make the world more peaceful? Why or why not?
 
 ::: notes
 
@@ -801,13 +781,11 @@ Ok, Group 2, you're up!
 
 <br>
 
-### Would the world be more peaceful (fewer wars) if every country adopted this article?
+1. What NEW institutions does this article require?
 
-1. What specific institutions does this article create?
+2. What mechanism from FLS ch2 is this?
 
-2. Why might it work? (connect to FLS ch2)
-
-3. Why might it fail?
+3. Will adopting these institutions make the world more peaceful? Why or why not?
 
 ::: notes
 
@@ -837,43 +815,10 @@ Generally speaking, Doyle seems enthusiastic when reframing the third article to
 
 - Trade means the greatest benefit comes from working together
 - States no longer have to meddle in production and distribution questions, leave it to the businesses!
-:::
-
-
-## Would this work? Why or why not? {background-image="Images/background-worldmap4.png" .center .smaller}
 
 <br>
 
-**The First Definitive Article for Perpetual Peace**
-
-- "The Civil Constitution of Every State Should Be Republican"
-
-**The Second Definitive Article for Perpetual Peace**
-
-- "The Law of Nations Shall be Founded on a Federation of Free States"
-
-**The Third Definitive Article for Perpetual Peace**
-
-- "The Law of World Citizenship Shall Be Limited to Conditions of Universal Hospitality"
-
-::: notes
-**All in all, which side do you find more convincing? Why?**
-
-<br>
-
-**What are the strongest part's of Kant's argument?**
-
-- **Which would be the easiest one to implement? Why?**
-
-<br>
-
-**What are the weakest parts?**
-
-- **Which would be the hardest to implement? Why?**
-
-<br>
-
-**SLIDE**: Model time!
+**SLIDE**: Ok, enough Kant, it's model time!
 
 :::
 
@@ -899,7 +844,7 @@ The material on institutions from the Frieden, Lake and Schultz book chapter for
 
 **Everybody have that written down?**
 
-- In future, cite Keohand for liberal institutionalism
+- In future, cite Keohane for liberal institutionalism
 
 :::
 

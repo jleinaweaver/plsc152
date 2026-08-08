@@ -120,7 +120,7 @@ Now that you've heard a BUNCH of arguments and gotten feedback on yours it's tim
 ##  {background-image="Images/background-worldmap4.png" .center}
 
 ::: {.r-fit-text}
-**Paper 2 is due Friday, March 20th**
+**Paper 2 is due Friday, Oct 16th**
 
 <br>
 
