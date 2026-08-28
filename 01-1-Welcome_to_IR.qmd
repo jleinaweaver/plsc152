@@ -590,11 +590,11 @@ First page of the syllabus lists our learning outcomes for the semester
 
 Your final grade in this class has two main components:
 
-1. Your daily attendance and participation makes up almost half the grade!
+1. Your daily attendance and participation makes up MORE than half the grade!
 
     - I want to incentivize you to come to class and to do the work
 
-2. The other half of the grade is made up of three papers
+2. The other portion of the grade is made up of three papers
 
     - Each requiring you to make a high quality argument
 
@@ -643,42 +643,6 @@ Everybody read these points and then let's discuss them.
 
 
 
-## The answer is in the syllabus (part 4) {background-image="Images/background-worldmap4.png" .center}
-
-![](Images/01_1-No_AI_Tools.jpg){style="display: block; margin: 0 auto"}
-
-::: notes
-
-**Does everybody see the AI policy in the syllabus?**
-
-<br>
-
-You may not use any AI tools in this class. 
-
-- Any AI use will be treated as plagiarism.
-
-<br>
-
-That means: 
-
-- No AI search
-
-- No AI summaries of articles or books
-
-- No AI for outlining or writing
-
-- No AI for data analysis
-
-- No AI to simply clean up your grammar (e.g. Grammarly).
-
-<br>
-
-**SLIDE**: Think of this class like training to play a sport
-
-:::
-
-
-
 ## This Course is Training for your Brain {background-image="Images/background-worldmap4.png" .center}
 
 ![](Images/01_1-lifting_weights.gif){style="display: block; margin: 0 auto"}
@@ -693,6 +657,18 @@ The time you spend in the gym getting stronger and more flexible makes you a bet
 
 <br>
 
+**SLIDE**: Don't cheat yourself
+
+:::
+
+
+
+## This is Not the Exercise you Need {background-image="Images/background-worldmap4.png" .center}
+
+![](Images/01_1-forklift.gif){style="display: block; margin: 0 auto"}
+
+::: notes
+
 Using AI tools is like bringing a forklift into the weight room. 
 
 - Yeah, you lifted the weights, but it was a waste of your time.
@@ -705,7 +681,8 @@ Using AI tools is like bringing a forklift into the weight room.
 
 
 
-## {background-image="Images/background-worldmap4.png" .center}
+
+## This Course is Training for your Brain {background-image="Images/background-worldmap4.png" .center}
 
 ![](Images/01_1-AI_dumber.png){style="display: block; margin: 0 auto"}
 

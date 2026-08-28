@@ -16,9 +16,9 @@ library(readxl)
 
 **I. Arguments, Evidence and International Relations**
 
-1. The elements of effective arguments
+1. The components of an effective argument
     
-2. Evaluating our examples
+2. Diagramming our examples
 
 :::
 
@@ -78,50 +78,44 @@ Welcome back all!
 
 ::: notes
 
-**Any questions on the course, its structure or the policies in the syllabus?**
+*Since new students have likely joined hit these components on the slide*
+
+- *AND DON'T FORGET, you have to click the tabs on the slide, not on your version of it*
 
 <br>
 
-**SLIDE**: Ok, let's turn our attention to making and evaluating arguments
+1. **Any questions on the components of your grade in this class?**
+
+2. **Is everybody clear on the attendace and participation policies?**
+
+3. **Any questions on the AI usage policy in this class?*
+
+<br>
+
+**SLIDE**: Ok, today we focus on diagramming and evaluating arguments
 
 :::
 
 
-## Unpacking an Argument {background-image="Images/background-worldmap4.png"  .center}
-
-![](Images/01_1-woman-desk-paperwork.webp){style="display: block; margin: 0 auto"}
-
-::: notes
-**Before we talk about the arguments themselves, how did the task go for you?**
-
-- **How often have you been asked to do this kind of exercise before?**
-
-<br>
-
-**SLIDE**: Let's start by talking about the quality of an argument.
-:::
 
 
+## What is an Argument? {background-image="Images/background-worldmap4.png"  .center}
 
-## {background-image="Images/01_2-Girl_yells_yak.jpg"  .center}
+![](Images/01_2-Girl_yells_yak.jpg){style="display: block; margin: 0 auto"}
 
 ::: notes
 
-Bad arguments are everywhere and are common in the political arena.
+**Ok, big picture, what is "an argument"?**
 
-- In fact, when you say "politics" I think many people's minds go to something like this.
+*Spitballing*
 
-- Clearly this is not what we aspire to.
+- (Two or more viewpoints clashing on a topic?)
 
-<br>
+- (An effort to convince another person of your viewpoint?)
 
-In academic terms, our definition of a good argument tends to focus on whether it convinces you of its thesis
+- (A screaming match?)
 
-- **What is a thesis?**
-
-    - (The central idea of your argument.)
-    
-    - The thing you want people to take away from it.
+- (A competition?)
 
 <br>
 
@@ -133,36 +127,60 @@ In academic terms, our definition of a good argument tends to focus on whether i
 
 <br>
 
-While being "convincing" is the goal, that's also a subjective test of quality.
-
-- In academia we have developed criteria that we argue are necessary for an argument to be convincing.
+**SLIDE**: The aim of science
 
 :::
- 
 
-## To be convincing an argument should be logical, clear, credible and critical {background-image="Images/background-worldmap4.png" .center}
+
+
+## Science and Arguments {background-image="Images/background-worldmap4.png"  .center}
+
+![](Images/01_2-quote-millions-saw-the-apple-fall.jpg){style="display: block; margin: 0 auto"}
 
 ::: notes
 
-For the important arguments in our lives, concerning the issues we care most about, people demand you put in some serious work to shift their position.
+At a fundamental level, our aim in this class and in any science class is to explain *why*
+
+- Why do the things we see in the empirical world happen as they do?
 
 <br>
 
-FYI, this is the top line of the rubric I use to grade your papers in this class
+The challenge is that "why" answers can never be proved using inductive reasoning
 
-- The details are in the syllabus and you should definitely read and consider them when writing your papers
+- This means that ALL scientific conversations are arguments
 
-<br>
+- Each argument represents an idea that, hopefully, explains some "why" in the world
 
-Today in class we'll be focusing on the logic piece of a convincing argument
-
-- The Labossiere reading gave you the basic elements, and
-
-- The newspaper op-eds will give us something to evaluate in these terms
+- Your job as a scientist is to show your work in order to convince others that your answer is useful!
 
 <br>
 
-**SLIDE**: Let's start with Labossiere and the basics
+**Does that make sense?**
+
+<br>
+
+**SLIDE**: This means we need to develop tools for understanding and analyzing arguments
+
+:::
+
+
+
+
+## Diagramming an Argument {background-image="Images/background-worldmap4.png"  .center}
+
+![](Images/01_1-woman-desk-paperwork.webp){style="display: block; margin: 0 auto"}
+
+::: notes
+
+For today I asked you to read and evaluate two op-ed style arguments
+
+- **How did this go for you?**
+
+- **How often have you been asked to do this kind of exercise before?**
+
+<br>
+
+**SLIDE**: Let's start with the Labossiere reading on the key components of an argument
 
 :::
 
