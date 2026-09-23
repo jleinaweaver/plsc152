@@ -6,8 +6,8 @@
 <script src="06-2-Bargaining_Model_War_files/libs/quarto-html/tippy.umd.min.js"></script>
 <link href="06-2-Bargaining_Model_War_files/libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="06-2-Bargaining_Model_War_files/libs/quarto-html/light-border.css" rel="stylesheet">
-<link href="06-2-Bargaining_Model_War_files/libs/quarto-html/quarto-syntax-highlighting-7b89279ff1a6dce999919e0e67d4d9ec.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
-  <meta name="generator" content="quarto-1.8.25">
+<link href="06-2-Bargaining_Model_War_files/libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
+  <meta name="generator" content="quarto-1.10.18">
 
   <title>bargaining_model_war</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
@@ -16,10 +16,16 @@
   <link rel="stylesheet" href="06-2-Bargaining_Model_War_files/libs/revealjs/dist/reset.css">
   <link rel="stylesheet" href="06-2-Bargaining_Model_War_files/libs/revealjs/dist/reveal.css">
   <style>
-    code{white-space: pre-wrap;}
+    /* Default styles provided by pandoc.
+    ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+    */
     span.smallcaps{font-variant: small-caps;}
-    div.columns{display: flex; gap: min(4vw, 1.5em);}
-    div.column{flex: auto; overflow-x: auto;}
+    div.columns{display: flex; gap: 1.5em;}
+    div.column{flex: auto;}
+    @media screen {
+    div.columns{gap: min(4vw, 1.5em);}
+    div.column{overflow-x: auto;}
+    }
     div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
     ul.task-list{list-style: none;}
     ul.task-list li input[type="checkbox"] {
@@ -28,7 +34,7 @@
       vertical-align: middle;
     }
   </style>
-  <link rel="stylesheet" href="06-2-Bargaining_Model_War_files/libs/revealjs/dist/theme/quarto-534cd8e3a96973385dffff3f4709048d.css">
+  <link rel="stylesheet" href="06-2-Bargaining_Model_War_files/libs/revealjs/dist/theme/quarto-2740581606dc327e82f18f789b69d8a0.css">
   <link href="06-2-Bargaining_Model_War_files/libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
   <link href="06-2-Bargaining_Model_War_files/libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
   <link href="06-2-Bargaining_Model_War_files/libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
@@ -175,10 +181,10 @@
 <p><br></p>
 <h3 id="so-what-do-we-see-here-in-overall-results">So, what do we see here in overall results?</h3>
 <ul>
-<li><p>8 pairs fought zero wars in their five rounds together.</p></li>
-<li><p>1 pairs fought in all five rounds they played together.</p></li>
-<li><p>Out of 40 pairings and 200 possible conflicts we observed 80 wars.</p></li>
-<li><p>So, 40% of the time your conflicts led to war.</p></li>
+<li><p>14 pairs fought zero wars in their five rounds together.</p></li>
+<li><p>0 pairs fought in all five rounds they played together.</p></li>
+<li><p>Out of 44 pairings and 220 possible conflicts we observed 72 wars.</p></li>
+<li><p>So, 32.7% of the time your conflicts led to war.</p></li>
 </ul>
 <style type="text/css">
         span.MJX_Assistive_MathML {
@@ -205,7 +211,7 @@
 <li><p>So, let’s use these outcomes as a puzzle for us to explain.</p></li>
 </ul>
 <p><br></p>
-<h3 id="how-can-you-explain-why-we-saw-40-of-the-rounds-end-in-war">How can you explain why we saw 40% of the rounds end in war?</h3>
+<h3 id="how-can-you-explain-why-we-saw-32.7-of-the-rounds-end-in-war">How can you explain why we saw 32.7% of the rounds end in war?</h3>
 <ul>
 <li>Talk to the person next to you and get ready to report back to me how some specific interests, institutions, or interactions explain this outcome</li>
 </ul>
@@ -262,7 +268,7 @@
 <pre><code># A tibble: 1 × 5
   Version  pairings  wars possible proportion
   &lt;chr&gt;       &lt;int&gt; &lt;dbl&gt;    &lt;dbl&gt;      &lt;dbl&gt;
-1 Version1       10    26       50       0.52</code></pre>
+1 Version1       11    28       55      0.509</code></pre>
 </div>
 </div>
 <p><br></p>
@@ -300,7 +306,7 @@
 <pre><code># A tibble: 1 × 5
   Version  pairings  wars possible proportion
   &lt;chr&gt;       &lt;int&gt; &lt;dbl&gt;    &lt;dbl&gt;      &lt;dbl&gt;
-1 Version4       10     5       50        0.1</code></pre>
+1 Version4       11     0       55          0</code></pre>
 </div>
 </div>
 <p><br></p>
@@ -335,10 +341,10 @@
 <pre><code># A tibble: 4 × 4
   Uncertainty_f                     wars possible proportion
   &lt;fct&gt;                            &lt;dbl&gt;    &lt;dbl&gt;      &lt;dbl&gt;
-1 High Uncertainty (All Hidden)       26       50       0.52
-2 Medium Uncertainty (Most Hidden)    28       50       0.56
-3 Low Uncertainty (One Hidden)        21       50       0.42
-4 No Uncertainty                       5       50       0.1 </code></pre>
+1 High Uncertainty (All Hidden)       28       55       0.51
+2 Medium Uncertainty (Most Hidden)    23       55       0.42
+3 Low Uncertainty (One Hidden)        21       55       0.38
+4 No Uncertainty                       0       55       0   </code></pre>
 </div>
 </div>
 <p><br></p>

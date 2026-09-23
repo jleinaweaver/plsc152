@@ -31,13 +31,13 @@ Prep for Class
 
 1. Fix end slide if next class is liberalism or writing workshop
 
-2. NOTE: Made tweaks before class FA23 and created a saved version of prior plan with replay of game ("SAVE-04-3-Offensive_Realism.Rmd")
+2. Markers x 4
 
-3. Markers x 4
+3. *Save current events talk for recapping neorealism*
 
 <br>
 
-**Any new international political events catching your eye this week? What's going on out there?**
+**SLIDE**: Section 2 of the class
 
 :::
 
@@ -81,11 +81,15 @@ Last class we began exploring the next section of our class: Why Are There Wars?
 
 ::: notes
 
-Let's refresh our work from last class:
+So, war is a puzzle that needs to be explained
+
+- This list represents the competing theories of international relations that we are going to explore to explain this puzzle
 
 <br>
 
-**What does it mean to say that scientific models are like maps? What does that mean is true of all the models on this list?**
+**Remind me, what does it mean to say that scientific models are like maps?**
+
+- **What does that mean is true for all of these theories?**
 
 <br>
 
@@ -95,17 +99,25 @@ So, all of these models are simplifications of reality that are neither true nor
 
 <br>
 
-Last class I introduced you to interests, institutions and interactions as a way to diagram and analyze a model.
+In order to help you come to understand these theories we will be breaking them down into three key components
 
-- **Refresh my memory, what are the "interests" in a model?**
+- **What are those three components or characteristics of an IR theory?**
 
-- **What are the "institutions" in a model?**
-
-- **What are the "interactions" in a model?**
+- (interests, institutions and interactions)
 
 <br>
 
-**Ok, put this all together for me, what is the map of international political events provided by neorealism?**
+Good, let's now use those three components to analyze neorealism
+
+<br>
+
+**What does it mean to identify the "interests" in a theory?**
+
+- (The actors making the key decisions and their preferences)
+
+<br>
+
+**And, according to neorealism, who are the interests we should focus on to explain international political events?**
 
 - (**SLIDE**)
 
@@ -115,26 +127,78 @@ Last class I introduced you to interests, institutions and interactions as a way
 
 ## Neorealism (Waltz 1988) {background-image="Images/background-worldmap4.png" .center}
 
+<br>
+
 **Interests**
 
 - Unitary states want security, not power
 
+::: {.fragment}
+
 **Institutions**
 
 - International anarchy
+
+:::
+
+::: {.fragment}
 
 **Interactions**
 
 - You must fend for yourself (threats are everywhere)
 - Security dilemmas dominate
 
+:::
+
 ::: notes
 
-**Name an international political event that this model explains really well.**
+Clarifying questions
+
+- **What does "unitary" mean?**
+
+- **Why security and not power?**
 
 <br>
 
-**Name an international political event that this model does NOT explain well.**
+**Ok, second component, what does it mean to identify the "institutions" in a theory?**
+
+- (The rules of the game)
+
+<br>
+
+**And, what are the key institutions in neorealism?**
+
+- (**REVEAL**)
+
+- **What does anarchy mean in this context?**
+
+- (No supranational authority, e.g. a power above states)
+
+<br>
+
+**Finally, what does it mean to identify the "interactions" in a theory?**
+
+- (“The ways in which the choices of two or more actors combine to produce political outcomes” (51).)
+
+<br>
+
+**And, what are the key interactions in neorealism?**
+
+- (**REVEAL**)
+
+- **What is the dilemma in a security dilemma?**
+
+- (No such thing as purely defensive actions; if you get more secure, I get less secure!)
+
+<br>
+
+Excellent, put all this together for me.
+
+- **What is an international political event that this model explains really well?**
+
+<br>
+
+**And what is an international political event that this model does NOT explain well?**
 
 <br>
 
@@ -165,7 +229,7 @@ Let's diagram the model!
 
 ::: notes
 
-On your own, 5 mins, diagram Neorealism as an answer to these three questions
+On your own, 5 mins, diagram offensive realism as an answer to these three questions
 
 - Force yourself to write this down!
 
@@ -280,7 +344,7 @@ So, for Mearsheimer world politics are not a security dilemma, they are driven b
 
 Before we dig into the theory, let's explore the idea of "greatness" here
 
-- *Split class into groups of 5*
+- *Split class into four groups (maximize board space)*
 
 - Go sit with your group!
 
@@ -301,6 +365,9 @@ On the Board:
 
 2. Give us ten countries that pass your test
 
+::: {.fragment}
+3. Rank the ten!
+:::
 :::
 
 ::: notes
@@ -309,7 +376,13 @@ Groups I want you to put two things on the board:
 
 1. Create a list of criteria that make a country "great", and
 
-2. Name 8 countries that meet your definition of "great"
+2. Name 10 countries that meet your definition of "great"
+
+<br>
+
+*After working for a while*
+
+- **REVEAL**: Rank them!
 
 <br>
 
@@ -442,13 +515,17 @@ This dude is hard core.
 
 
 
-## Assignment for Next Class {background-image="Images/background-worldmap4.png" .center}
+## Reminders {background-image="Images/background-worldmap4.png" .center}
 
 <br>
 
-1. Liberal institutionalist readings in the syllabus
+Paper 1 is due today (before midnight!)
 
-2. **Before class** submit to your analyses of the readings to Canvas
+<br>
+
+Monday we analyze liberal institutionalism
+
+- Readings on Canvas and a reflection due before class
 
 ::: notes
 

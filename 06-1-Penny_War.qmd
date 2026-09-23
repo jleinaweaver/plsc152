@@ -93,13 +93,10 @@ knitr::include_graphics("Images/06_1-Offensive_world.webp")
 ## The Liberal Institutionalist Answer {background-image="Images/06_1-ICC_v2.png"}
 
 ::: notes
-**What is the Democratic Peace answer?**
+**What is the liberal institutionalist answer to the question?**
 
-- Kant argues we need republican constitutions, a federation of free states and hospitality to all
+- (Why wars? States pursuing absolute gains in an anarchic world will try to create institutions to overcome cooperation dilemmas, but sometimes they will fail)
 
-- Clearly this model has been updated since 1800...
-
-- A: If we could all agree on a few rules everything would be fine e.g. republican democracy and respect for sovereignty (in other words, anarchy is bad but we can deal with it!)
 :::
 
 
@@ -199,6 +196,12 @@ d |> ggplot(aes(x = x, y = y)) +
 - Both players ante up 1 "penny" into the pot, and draw three cards from their deck.
 
 - The penny you pay to start represents the cost of running your country
+
+<br>
+
+At this point decide who gets to be player 1
+
+- In future rounds you will alternate as P1
 :::
 
 
@@ -224,9 +227,19 @@ d |> ggplot(aes(x = x, y = y)) +
 
 **2. P1 Choice: Give up or fight!**
 
-- If P1 concedes, P2 gets the pot and the round ends
+<br>
 
-- If P1 demands the pot (war), P2 gets a choice...
+If P1 decides not to fight, the round ends and P2 gets all the pennies in the pot
+
+<br>
+
+If P1 decides to fight, then they declare war!
+
+<br>
+
+HOWEVER, declaring war is not the same thing as being in a war!
+
+- P2 has a choice to make
 :::
 
 
@@ -257,9 +270,20 @@ d |> ggplot(aes(x = x, y = y)) +
 
 **3. Choice shifts to P2: Give up or fight!**
 
-- If P2 concedes, P1 gets the pot and the round ends
+<br>
 
-- If P2 resists, you go to war!
+Player 2, your opponent has just declared war on you
+
+<br>
+
+If you don't want to fight, you can give up and they win the pennies
+
+- That would end the round with nobody actually going to war
+
+<br>
+
+If you DO want to fight, then player 2 may also declare war!
+
 :::
 
 
@@ -285,25 +309,89 @@ d |> ggplot(aes(x = x, y = y)) +
          annotate("text", x = 9, y = 3, label = "Declare war", color = "green4", size=4.5) +
          annotate("segment", x = 7.5, xend = 6.5, y = 5.5, yend = 3.75, arrow = arrow(length = unit(.1, "in")))  +
          annotate("segment", x = 7.5, xend = 8.5, y = 5.5, yend = 3.75, arrow = arrow(length = unit(.1, "in"))) +
-         annotate("text", x = 5, y = 1, label = "War: Both pay the costs of war (1 more penny) and\n the strongest hand wins", size = 5.25, color = "red1")
+         annotate("text", x = 5, y = 1, label = "ONLY if BOTH sides declare war does a war happen", size = 5.25, color = "red1")
+
+# "If BOTH sides declare war, then pay 1 more penny and\n the strongest hand wins"
+# "ONLY if BOTH sides declare war does a war happen\n War: Pay 1 MORE penny and the strongest hand wins"
 ```
 
 ::: notes
 **4. War**
 
-If both players declare war:
+Let me be VERY clear here.
 
-- Cost of war: You have to pay for the tanks and losses to your economy!
+- ONLY if BOTH players declare war does a war actually happen
 
-- Show your cards, stronger side wins
+- Both players have the option to avoid war if they do not want to fight
 
 <br>
 
-Each round you'll alternate being P1 and we'll play five rounds.
+**Does that make sense?**
+
+:::
+
+
+
+
+## {background-image="Images/background-triangles_grey_v2.png"}
+
+```{r, fig.align='center', fig.asp=0.618, fig.width=6}
+d |> ggplot(aes(x = x, y = y)) +
+         geom_blank() +
+         coord_cartesian(xlim = c(0,10), ylim = c(0,10)) +
+         theme_void() +
+         scale_x_continuous(breaks = 0:10) +
+         scale_y_continuous(breaks = 0:10) +
+         annotate("text", x = 1, y = 9.5, label = "The Penny War", size=5) +
+         annotate("text", x = 5, y = 9.5, label = "Ante up:\nBoth pay 1 penny and\ndraw 3 cards", size=4.5) +
+         annotate("text", x = 0.5, y = 6, label = "P1's Choice:", color = "blue4", size=4.5) +
+         annotate("text", x = 2.5, y = 6, label = "Give up\n(P2 wins)", color = "blue4", size=4.5) +
+         annotate("text", x = 7.5, y = 6, label = "Declare war", color = "blue4", size=4.5) +
+         annotate("segment", x = 5, xend = 3.5, y = 8, yend = 6.5, arrow = arrow(length = unit(.1, "in")))  +
+         annotate("segment", x = 5, xend = 6.5, y = 8, yend = 6.5, arrow = arrow(length = unit(.1, "in"))) +
+         annotate("text", x = 4, y = 3, label = "P2's Choice:", color = "green4", size=4.5) +
+         annotate("text", x = 6, y = 3, label = "Give up\n(P1 wins)", color = "green4", size=4.5) +
+         annotate("text", x = 9, y = 3, label = "Declare war", color = "green4", size=4.5) +
+         annotate("segment", x = 7.5, xend = 6.5, y = 5.5, yend = 3.75, arrow = arrow(length = unit(.1, "in")))  +
+         annotate("segment", x = 7.5, xend = 8.5, y = 5.5, yend = 3.75, arrow = arrow(length = unit(.1, "in"))) +
+         annotate("text", x = 5, y = 1, label = "ONLY if BOTH sides declare war does a war happen\n War costs EACH player 1 MORE penny", size = 5.25, color = "red1")
+
+# "If BOTH sides declare war, then pay 1 more penny and\n the strongest hand wins"
+# "ONLY if BOTH sides declare war does a war happen\n War: Pay 1 MORE penny and the strongest hand wins"
+```
+
+::: notes
+
+If both players declare war then you have to pay for the tanks and losses to your economy!
+
+- Each player must pay one more penny
+
+<br>
+
+**Quick check, how big is the pot of pennies you can win if NO war happens?**
+
+- (The original two pennies from the start of the game)
+
+<br>
+
+**And how big is the pot of pennies you can win if a war happens?**
+
+- (Four pennies)
+
+<br>
+
+The winner of the war is the player with the stronger hand of cards
+
+- Show your cards to the other player, stronger side wins
+
+<br>
+
+**If both sides have the same card strength then NOBODY wins and the pennies are lost forever**
 
 <br>
 
 **Questions on the game?**
+
 :::
 
 
@@ -329,7 +417,7 @@ d |> ggplot(aes(x = x, y = y)) +
          annotate("text", x = 9, y = 3, label = "Declare war", color = "green4", size=4.5) +
          annotate("segment", x = 7.5, xend = 6.5, y = 5.5, yend = 3.75, arrow = arrow(length = unit(.1, "in")))  +
          annotate("segment", x = 7.5, xend = 8.5, y = 5.5, yend = 3.75, arrow = arrow(length = unit(.1, "in"))) +
-         annotate("text", x = 5, y = 1, label = "War: Both pay the costs of war (1 more penny) and\n the strongest hand wins", size = 5.25, color = "red1")
+         annotate("text", x = 5, y = 1, label = "ONLY if BOTH sides declare war does a war happen\n War costs EACH player 1 MORE penny", size = 5.25, color = "red1")
 ```
 
 ::: notes
@@ -348,11 +436,11 @@ Shuffle your cards, pay the ante and THEN draw three
 
 **What's the strongest hand you can have in this game?**
 
-- 24
+- `r 10+9+8`
 
 **And the weakest?**
 
-- 9
+- `r 1+2+3`
 
 <br>
 
@@ -383,10 +471,73 @@ Both sides pay the costs of war!
 <br>
 
 **Everybody clear on how to play the game?**
+
+<br>
+
+**SLIDE**: Important note
+
 :::
 
 
-## {background-image="Images/background-triangles_grey_v2.png"}
+
+## {background-image="Images/background-triangles_grey_v2.png" .center}
+
+::: {.r-fit-text}
+**The Bargaining Model of War**
+
+::: {.incremental}
+1. Actors are rational and strategic
+
+2. There are costs to fighting a war
+
+3. There are benefits for winning a war
+
+4. Winning is more likely if you are strong
+
+5. Winning is more likely if your opponent is weak
+:::
+:::
+::: notes
+
+Let me be super clear here.
+
+- This simulation is meant to help us unpack the bargaining model of war
+
+- And to do that we will adopt these five assumptions
+
+- **REVEAL x 5**
+
+<br>
+
+**Is everybody clear on these assumptions you are agreeing to test?**
+
+<br>
+
+- **Are you taking the simulation seriously if you go to war every time, no matter what cards you are holding?**
+
+- **Are you taking the simulation seriously if you NEVER go to war no matter what cards you are holding?**
+
+<br>
+
+Your goal in this game is to have the most pennies at the end of five rounds.
+
+- Please be strategic and try to maximize your pennies
+
+<br>
+
+**Questions on the game?**
+
+- **SLIDE**: Let's play
+:::
+
+
+
+
+## {background-image="Images/background-triangles_grey_v2.png" .center}
+
+1. Play **FIVE** rounds (alternating P1)
+
+2. **RECORD**: Out of FIVE rounds, how many wars did you fight?
 
 ```{r, fig.align='center', fig.asp=0.618, fig.width=6}
 d |> ggplot(aes(x = x, y = y)) +
@@ -407,76 +558,77 @@ d |> ggplot(aes(x = x, y = y)) +
          annotate("text", x = 9, y = 3, label = "Declare war", color = "green4", size=4.5) +
          annotate("segment", x = 7.5, xend = 6.5, y = 5.5, yend = 3.75, arrow = arrow(length = unit(.1, "in")))  +
          annotate("segment", x = 7.5, xend = 8.5, y = 5.5, yend = 3.75, arrow = arrow(length = unit(.1, "in"))) +
-         annotate("text", x = 5, y = 1, label = "War: Both pay the costs of war (1 more penny) and\n the strongest hand wins", size = 5.25, color = "red1")
+         annotate("text", x = 5, y = 1, label = "ONLY if BOTH sides declare war does a war happen\n War costs EACH player 1 MORE penny", size = 5.25, color = "red1")
 ```
 
 ::: notes
 
-Let me be super clear here.
-
-- This simulation is meant to help us unpack the bargaining model of war
-
-- To do that I need you to take it seriously.
-
-<br>
-
-Your goal in this game is to have the most pennies at the end of five rounds.
-
-<br>
-
-**Questions on the game?**
-:::
-
-
-
-
-## Simulating the Bargaining Model {background-image="Images/background-triangles_grey_v2.png" .center}
-
-<br>
-
-::: {.r-fit-text}
+Ok, let's test this model
 
 1. Find an opponent
 
-2. Make sure you have 10 pennies + 9 cards
+2. Decide who will be player 1 in the first round
 
-3. Complete five rounds, and 
+3. Play FIVE rounds
 
-4. **Write down how many wars you fought**
-:::
-
-::: notes
-
-Alternate who is P1 each round and keep score.
-
-Ok, play the game.
-
-*Back to our seats!*
+4. RECORD: How many wars did you fight?
 
 <br>
 
-Each pair tell us your final score and how many wars you fought.
+SUPER IMPORTANT: The ONLY data we need from each pair is how many wars you fought
 
-**YOU RECORD ON NOTES, not the board yet: sum of all wars in class that round**
-:::
+- The bargaining model of war is mean to help us explain war, NOT who wins a war
 
+- **Make sense?**
 
-
-## Simulating the Bargaining Model {background-image="Images/background-triangles_grey_v2.png" .center}
+- Let me know if you have questions, and go!
 
 <br>
 
-::: {.r-fit-text}
+Each pair tell us, how many wars did you fight.
 
-**Version 2**
-
-+ Find a new opponent, and
-
-+ Keep **ONE** card face up each round (random choice).
+- *YOU RECORD ON NOTES, not the board yet: sum of all wars in class that round*
 
 :::
 
+
+
+
+## {background-image="Images/background-triangles_grey_v2.png" .center}
+
+1. Play **FIVE** rounds against a **NEW** opponent
+
+2. Keep **ONE** card face up each round (random)
+
+3. **RECORD**: Out of FIVE rounds, how many wars did you fight?
+
+```{r, fig.align='center', fig.asp=0.618, fig.width=6}
+d |> ggplot(aes(x = x, y = y)) +
+         geom_blank() +
+         coord_cartesian(xlim = c(0,10), ylim = c(0,10)) +
+         theme_void() +
+         scale_x_continuous(breaks = 0:10) +
+         scale_y_continuous(breaks = 0:10) +
+         annotate("text", x = 1, y = 9.5, label = "The Penny War", size=5) +
+         annotate("text", x = 5, y = 9.5, label = "Ante up:\nBoth pay 1 penny and\ndraw 3 cards", size=4.5) +
+         annotate("text", x = 0.5, y = 6, label = "P1's Choice:", color = "blue4", size=4.5) +
+         annotate("text", x = 2.5, y = 6, label = "Give up\n(P2 wins)", color = "blue4", size=4.5) +
+         annotate("text", x = 7.5, y = 6, label = "Declare war", color = "blue4", size=4.5) +
+         annotate("segment", x = 5, xend = 3.5, y = 8, yend = 6.5, arrow = arrow(length = unit(.1, "in")))  +
+         annotate("segment", x = 5, xend = 6.5, y = 8, yend = 6.5, arrow = arrow(length = unit(.1, "in"))) +
+         annotate("text", x = 4, y = 3, label = "P2's Choice:", color = "green4", size=4.5) +
+         annotate("text", x = 6, y = 3, label = "Give up\n(P1 wins)", color = "green4", size=4.5) +
+         annotate("text", x = 9, y = 3, label = "Declare war", color = "green4", size=4.5) +
+         annotate("segment", x = 7.5, xend = 6.5, y = 5.5, yend = 3.75, arrow = arrow(length = unit(.1, "in")))  +
+         annotate("segment", x = 7.5, xend = 8.5, y = 5.5, yend = 3.75, arrow = arrow(length = unit(.1, "in"))) +
+         annotate("text", x = 5, y = 1, label = "ONLY if BOTH sides declare war does a war happen\n War costs EACH player 1 MORE penny", size = 5.25, color = "red1")
+```
+
 ::: notes
+
+Version 2
+
+<br>
 
 Ok, let's change it up this time.
 
@@ -492,81 +644,114 @@ Ok, let's change it up this time.
 
 **Everybody clear on the rule change?**
 
-Go!
-
-*Back to our seats!*
+- Go!
 
 <br>
 
-Each pair tell us your final score and how many wars you fought.
+Each pair tell us, how many wars did you fight.
 
-*YOU RECORD ON NOTES, not the board yet: sum of all wars in class that round 
+- *YOU RECORD ON NOTES, not the board yet: sum of all wars in class that round*
+
 :::
 
 
 
-## Simulating the Bargaining Model {background-image="Images/background-triangles_grey_v2.png" .center}
 
-<br>
+## {background-image="Images/background-triangles_grey_v2.png" .center}
 
-::: {.r-fit-text}
+1. Play **FIVE** rounds against a **NEW** opponent
 
-**Version 3**
+2. Keep **TWO** cards face up each round (random)
 
-+ Find a new opponent, and
+3. **RECORD**: Out of FIVE rounds, how many wars did you fight?
 
-+ Keep **TWO** cards face up each round (random choice).
-
-:::
+```{r, fig.align='center', fig.asp=0.618, fig.width=6}
+d |> ggplot(aes(x = x, y = y)) +
+         geom_blank() +
+         coord_cartesian(xlim = c(0,10), ylim = c(0,10)) +
+         theme_void() +
+         scale_x_continuous(breaks = 0:10) +
+         scale_y_continuous(breaks = 0:10) +
+         annotate("text", x = 1, y = 9.5, label = "The Penny War", size=5) +
+         annotate("text", x = 5, y = 9.5, label = "Ante up:\nBoth pay 1 penny and\ndraw 3 cards", size=4.5) +
+         annotate("text", x = 0.5, y = 6, label = "P1's Choice:", color = "blue4", size=4.5) +
+         annotate("text", x = 2.5, y = 6, label = "Give up\n(P2 wins)", color = "blue4", size=4.5) +
+         annotate("text", x = 7.5, y = 6, label = "Declare war", color = "blue4", size=4.5) +
+         annotate("segment", x = 5, xend = 3.5, y = 8, yend = 6.5, arrow = arrow(length = unit(.1, "in")))  +
+         annotate("segment", x = 5, xend = 6.5, y = 8, yend = 6.5, arrow = arrow(length = unit(.1, "in"))) +
+         annotate("text", x = 4, y = 3, label = "P2's Choice:", color = "green4", size=4.5) +
+         annotate("text", x = 6, y = 3, label = "Give up\n(P1 wins)", color = "green4", size=4.5) +
+         annotate("text", x = 9, y = 3, label = "Declare war", color = "green4", size=4.5) +
+         annotate("segment", x = 7.5, xend = 6.5, y = 5.5, yend = 3.75, arrow = arrow(length = unit(.1, "in")))  +
+         annotate("segment", x = 7.5, xend = 8.5, y = 5.5, yend = 3.75, arrow = arrow(length = unit(.1, "in"))) +
+         annotate("text", x = 5, y = 1, label = "ONLY if BOTH sides declare war does a war happen\n War costs EACH player 1 MORE penny", size = 5.25, color = "red1")
+```
 
 ::: notes
+
+Version 3
 
 Do it again BUT this time you have to keep TWO of your cards face up the whole time.
 
-### Everybody clear on the rule change?
+- **Everybody clear on the rule change?**
 
-Go!
-
-*Back to our seats!*
+- Go!
 
 <br>
 
-Each pair tell us your final score and how many wars you fought.
+Each pair tell us, how many wars did you fight.
 
-* YOU RECORD ON NOTES, not the board yet: sum of all wars in class that round 
+- *YOU RECORD ON NOTES, not the board yet: sum of all wars in class that round*
+
 :::
 
 
 
-## Simulating the Bargaining Model {background-image="Images/background-triangles_grey_v2.png" .center}
+## {background-image="Images/background-triangles_grey_v2.png" .center}
 
-<br>
+1. Play **FIVE** rounds against a **NEW** opponent
 
-::: {.r-fit-text}
+2. Keep **ALL THREE** cards face up each round
 
-**Version 4**
+3. **RECORD**: Out of FIVE rounds, how many wars did you fight?
 
-+ Find a new opponent, and
-
-+ Keep **ALL** cards face up each round.
-
-:::
+```{r, fig.align='center', fig.asp=0.618, fig.width=6}
+d |> ggplot(aes(x = x, y = y)) +
+         geom_blank() +
+         coord_cartesian(xlim = c(0,10), ylim = c(0,10)) +
+         theme_void() +
+         scale_x_continuous(breaks = 0:10) +
+         scale_y_continuous(breaks = 0:10) +
+         annotate("text", x = 1, y = 9.5, label = "The Penny War", size=5) +
+         annotate("text", x = 5, y = 9.5, label = "Ante up:\nBoth pay 1 penny and\ndraw 3 cards", size=4.5) +
+         annotate("text", x = 0.5, y = 6, label = "P1's Choice:", color = "blue4", size=4.5) +
+         annotate("text", x = 2.5, y = 6, label = "Give up\n(P2 wins)", color = "blue4", size=4.5) +
+         annotate("text", x = 7.5, y = 6, label = "Declare war", color = "blue4", size=4.5) +
+         annotate("segment", x = 5, xend = 3.5, y = 8, yend = 6.5, arrow = arrow(length = unit(.1, "in")))  +
+         annotate("segment", x = 5, xend = 6.5, y = 8, yend = 6.5, arrow = arrow(length = unit(.1, "in"))) +
+         annotate("text", x = 4, y = 3, label = "P2's Choice:", color = "green4", size=4.5) +
+         annotate("text", x = 6, y = 3, label = "Give up\n(P1 wins)", color = "green4", size=4.5) +
+         annotate("text", x = 9, y = 3, label = "Declare war", color = "green4", size=4.5) +
+         annotate("segment", x = 7.5, xend = 6.5, y = 5.5, yend = 3.75, arrow = arrow(length = unit(.1, "in")))  +
+         annotate("segment", x = 7.5, xend = 8.5, y = 5.5, yend = 3.75, arrow = arrow(length = unit(.1, "in"))) +
+         annotate("text", x = 5, y = 1, label = "ONLY if BOTH sides declare war does a war happen\n War costs EACH player 1 MORE penny", size = 5.25, color = "red1")
+```
 
 ::: notes
 
-Last time, BUT now you have to keep ALL of your cards face up the whole time.
+Version 4
 
-### Everybody clear on the rule change?
+Do it again BUT this time you have to keep ALL of your cards face up the whole time.
 
-Go!
+- **Everybody clear on the rule change?**
 
-*Back to our seats!*
+- Go!
 
 <br>
 
-Each pair tell us your final score and how many wars you fought.
+Each pair tell us, how many wars did you fight.
 
-* YOU RECORD ON NOTES, not the board yet: sum of all wars in class that round 
+- *YOU RECORD ON NOTES, not the board yet: sum of all wars in class that round*
 
 <br>
 
@@ -587,24 +772,29 @@ Alright, let's talk about what just happened.
 
 <br>
 
-### Talk to me about how you played.
-#### - Why did you play the way you did?
+**Talk to me about how you played.**
+
+- **Why did you play the way you did?**
 
 <br>
 
-### Anybody try bluffing? Why or why not?
+**Anybody try bluffing? Why or why not?**
 
 <br> 
 
-### Did anybody go to war with a weak hand? Why?
+**Did anybody go to war with a weak hand? Why?**
 
 <br>
 
-### In what ways is this a useful model of war?
+**In what ways is this a useful model of war?**
 
 <br>
 
-### In what ways do you think it is a problematic model of war?
+**In what ways do you think it is a problematic model of war?**
+
+<br>
+
+**SLIDE**: For next class
 :::
 
 

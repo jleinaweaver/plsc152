@@ -6,8 +6,8 @@
 <script src="06-1-Penny_War_files/libs/quarto-html/tippy.umd.min.js"></script>
 <link href="06-1-Penny_War_files/libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="06-1-Penny_War_files/libs/quarto-html/light-border.css" rel="stylesheet">
-<link href="06-1-Penny_War_files/libs/quarto-html/quarto-syntax-highlighting-7b89279ff1a6dce999919e0e67d4d9ec.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
-  <meta name="generator" content="quarto-1.8.25">
+<link href="06-1-Penny_War_files/libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
+  <meta name="generator" content="quarto-1.10.18">
 
   <title>penny_war</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
@@ -16,10 +16,16 @@
   <link rel="stylesheet" href="06-1-Penny_War_files/libs/revealjs/dist/reset.css">
   <link rel="stylesheet" href="06-1-Penny_War_files/libs/revealjs/dist/reveal.css">
   <style>
-    code{white-space: pre-wrap;}
+    /* Default styles provided by pandoc.
+    ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+    */
     span.smallcaps{font-variant: small-caps;}
-    div.columns{display: flex; gap: min(4vw, 1.5em);}
-    div.column{flex: auto; overflow-x: auto;}
+    div.columns{display: flex; gap: 1.5em;}
+    div.column{flex: auto;}
+    @media screen {
+    div.columns{gap: min(4vw, 1.5em);}
+    div.column{overflow-x: auto;}
+    }
     div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
     ul.task-list{list-style: none;}
     ul.task-list li input[type="checkbox"] {
@@ -28,7 +34,7 @@
       vertical-align: middle;
     }
   </style>
-  <link rel="stylesheet" href="06-1-Penny_War_files/libs/revealjs/dist/theme/quarto-534cd8e3a96973385dffff3f4709048d.css">
+  <link rel="stylesheet" href="06-1-Penny_War_files/libs/revealjs/dist/theme/quarto-2740581606dc327e82f18f789b69d8a0.css">
   <link href="06-1-Penny_War_files/libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
   <link href="06-1-Penny_War_files/libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
   <link href="06-1-Penny_War_files/libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
@@ -231,11 +237,9 @@
 <section id="the-liberal-institutionalist-answer" class="slide level2" data-background-image="Images/06_1-ICC_v2.png">
 <h2>The Liberal Institutionalist Answer</h2>
 <aside class="notes">
-<p><strong>What is the Democratic Peace answer?</strong></p>
+<p><strong>What is the liberal institutionalist answer to the question?</strong></p>
 <ul>
-<li><p>Kant argues we need republican constitutions, a federation of free states and hospitality to all</p></li>
-<li><p>Clearly this model has been updated since 1800…</p></li>
-<li><p>A: If we could all agree on a few rules everything would be fine e.g.&nbsp;republican democracy and respect for sovereignty (in other words, anarchy is bad but we can deal with it!)</p></li>
+<li>(Why wars? States pursuing absolute gains in an anarchic world will try to create institutions to overcome cooperation dilemmas, but sometimes they will fail)</li>
 </ul>
 <style type="text/css">
         span.MJX_Assistive_MathML {
@@ -337,6 +341,11 @@
 <li><p>Both players ante up 1 “penny” into the pot, and draw three cards from their deck.</p></li>
 <li><p>The penny you pay to start represents the cost of running your country</p></li>
 </ul>
+<p><br></p>
+<p>At this point decide who gets to be player 1</p>
+<ul>
+<li>In future rounds you will alternate as P1</li>
+</ul>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -354,9 +363,14 @@
 
 <img data-src="06-1-Penny_War_files/figure-revealjs/unnamed-chunk-5-1.png" class="quarto-figure quarto-figure-center r-stretch" width="576"><aside class="notes">
 <p><strong>2. P1 Choice: Give up or fight!</strong></p>
+<p><br></p>
+<p>If P1 decides not to fight, the round ends and P2 gets all the pennies in the pot</p>
+<p><br></p>
+<p>If P1 decides to fight, then they declare war!</p>
+<p><br></p>
+<p>HOWEVER, declaring war is not the same thing as being in a war!</p>
 <ul>
-<li><p>If P1 concedes, P2 gets the pot and the round ends</p></li>
-<li><p>If P1 demands the pot (war), P2 gets a choice…</p></li>
+<li>P2 has a choice to make</li>
 </ul>
 <style type="text/css">
         span.MJX_Assistive_MathML {
@@ -375,10 +389,15 @@
 
 <img data-src="06-1-Penny_War_files/figure-revealjs/unnamed-chunk-6-1.png" class="quarto-figure quarto-figure-center r-stretch" width="576"><aside class="notes">
 <p><strong>3. Choice shifts to P2: Give up or fight!</strong></p>
+<p><br></p>
+<p>Player 2, your opponent has just declared war on you</p>
+<p><br></p>
+<p>If you don’t want to fight, you can give up and they win the pennies</p>
 <ul>
-<li><p>If P2 concedes, P1 gets the pot and the round ends</p></li>
-<li><p>If P2 resists, you go to war!</p></li>
+<li>That would end the round with nobody actually going to war</li>
 </ul>
+<p><br></p>
+<p>If you DO want to fight, then player 2 may also declare war!</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -396,15 +415,13 @@
 
 <img data-src="06-1-Penny_War_files/figure-revealjs/unnamed-chunk-7-1.png" class="quarto-figure quarto-figure-center r-stretch" width="576"><aside class="notes">
 <p><strong>4. War</strong></p>
-<p>If both players declare war:</p>
+<p>Let me be VERY clear here.</p>
 <ul>
-<li><p>Cost of war: You have to pay for the tanks and losses to your economy!</p></li>
-<li><p>Show your cards, stronger side wins</p></li>
+<li><p>ONLY if BOTH players declare war does a war actually happen</p></li>
+<li><p>Both players have the option to avoid war if they do not want to fight</p></li>
 </ul>
 <p><br></p>
-<p>Each round you’ll alternate being P1 and we’ll play five rounds.</p>
-<p><br></p>
-<p><strong>Questions on the game?</strong></p>
+<p><strong>Does that make sense?</strong></p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -421,6 +438,45 @@
 <h2></h2>
 
 <img data-src="06-1-Penny_War_files/figure-revealjs/unnamed-chunk-8-1.png" class="quarto-figure quarto-figure-center r-stretch" width="576"><aside class="notes">
+<p>If both players declare war then you have to pay for the tanks and losses to your economy!</p>
+<ul>
+<li>Each player must pay one more penny</li>
+</ul>
+<p><br></p>
+<p><strong>Quick check, how big is the pot of pennies you can win if NO war happens?</strong></p>
+<ul>
+<li>(The original two pennies from the start of the game)</li>
+</ul>
+<p><br></p>
+<p><strong>And how big is the pot of pennies you can win if a war happens?</strong></p>
+<ul>
+<li>(Four pennies)</li>
+</ul>
+<p><br></p>
+<p>The winner of the war is the player with the stronger hand of cards</p>
+<ul>
+<li>Show your cards to the other player, stronger side wins</li>
+</ul>
+<p><br></p>
+<p><strong>If both sides have the same card strength then NOBODY wins and the pennies are lost forever</strong></p>
+<p><br></p>
+<p><strong>Questions on the game?</strong></p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="section-5" class="slide level2" data-background-image="Images/background-triangles_grey_v2.png">
+<h2></h2>
+
+<img data-src="06-1-Penny_War_files/figure-revealjs/unnamed-chunk-9-1.png" class="quarto-figure quarto-figure-center r-stretch" width="576"><aside class="notes">
 <p><strong>Let’s practice this once real quick, everybody pair off!</strong></p>
 <p><br></p>
 <p>Shuffle your cards, pay the ante and THEN draw three</p>
@@ -429,11 +485,11 @@
 <p><em>Make everybody on your left of each pair P1</em></p>
 <p><strong>What’s the strongest hand you can have in this game?</strong></p>
 <ul>
-<li>24</li>
+<li>27</li>
 </ul>
 <p><strong>And the weakest?</strong></p>
 <ul>
-<li>9</li>
+<li>6</li>
 </ul>
 <p><br></p>
 <p>Alright, P1s you all decide your hand is strong so you declare war!</p>
@@ -454,6 +510,8 @@
 <p><strong>Ok, who wins the pot?</strong></p>
 <p><br></p>
 <p><strong>Everybody clear on how to play the game?</strong></p>
+<p><br></p>
+<p><strong>SLIDE</strong>: Important note</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -466,49 +524,42 @@
           display:block!important;
       }</style></aside>
 </section>
-<section id="section-5" class="slide level2" data-background-image="Images/background-triangles_grey_v2.png">
+<section id="section-6" class="slide level2 center" data-background-image="Images/background-triangles_grey_v2.png">
 <h2></h2>
-
-<img data-src="06-1-Penny_War_files/figure-revealjs/unnamed-chunk-9-1.png" class="quarto-figure quarto-figure-center r-stretch" width="576"><aside class="notes">
-<p>Let me be super clear here.</p>
-<ul>
-<li><p>This simulation is meant to help us unpack the bargaining model of war</p></li>
-<li><p>To do that I need you to take it seriously.</p></li>
-</ul>
-<p><br></p>
-<p>Your goal in this game is to have the most pennies at the end of five rounds.</p>
-<p><br></p>
-<p><strong>Questions on the game?</strong></p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section id="simulating-the-bargaining-model-1" class="slide level2 center" data-background-image="Images/background-triangles_grey_v2.png">
-<h2>Simulating the Bargaining Model</h2>
-<p><br></p>
 <div class="r-fit-text">
+<p><strong>The Bargaining Model of War</strong></p>
 <ol type="1">
-<li><p>Find an opponent</p></li>
-<li><p>Make sure you have 10 pennies + 9 cards</p></li>
-<li><p>Complete five rounds, and</p></li>
-<li><p><strong>Write down how many wars you fought</strong></p></li>
+<li class="fragment"><p>Actors are rational and strategic</p></li>
+<li class="fragment"><p>There are costs to fighting a war</p></li>
+<li class="fragment"><p>There are benefits for winning a war</p></li>
+<li class="fragment"><p>Winning is more likely if you are strong</p></li>
+<li class="fragment"><p>Winning is more likely if your opponent is weak</p></li>
 </ol>
 </div>
 <aside class="notes">
-<p>Alternate who is P1 each round and keep score.</p>
-<p>Ok, play the game.</p>
-<p><em>Back to our seats!</em></p>
+<p>Let me be super clear here.</p>
+<ul>
+<li><p>This simulation is meant to help us unpack the bargaining model of war</p></li>
+<li><p>And to do that we will adopt these five assumptions</p></li>
+<li><p><strong>REVEAL x 5</strong></p></li>
+</ul>
 <p><br></p>
-<p>Each pair tell us your final score and how many wars you fought.</p>
-<p><strong>YOU RECORD ON NOTES, not the board yet: sum of all wars in class that round</strong></p>
+<p><strong>Is everybody clear on these assumptions you are agreeing to test?</strong></p>
+<p><br></p>
+<ul>
+<li><p><strong>Are you taking the simulation seriously if you go to war every time, no matter what cards you are holding?</strong></p></li>
+<li><p><strong>Are you taking the simulation seriously if you NEVER go to war no matter what cards you are holding?</strong></p></li>
+</ul>
+<p><br></p>
+<p>Your goal in this game is to have the most pennies at the end of five rounds.</p>
+<ul>
+<li>Please be strategic and try to maximize your pennies</li>
+</ul>
+<p><br></p>
+<p><strong>Questions on the game?</strong></p>
+<ul>
+<li><strong>SLIDE</strong>: Let’s play</li>
+</ul>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -521,17 +572,56 @@
           display:block!important;
       }</style></aside>
 </section>
-<section id="simulating-the-bargaining-model-2" class="slide level2 center" data-background-image="Images/background-triangles_grey_v2.png">
-<h2>Simulating the Bargaining Model</h2>
+<section id="section-7" class="slide level2 center" data-background-image="Images/background-triangles_grey_v2.png">
+<h2></h2>
+<ol type="1">
+<li><p>Play <strong>FIVE</strong> rounds (alternating P1)</p></li>
+<li><p><strong>RECORD</strong>: Out of FIVE rounds, how many wars did you fight?</p></li>
+</ol>
+
+<img data-src="06-1-Penny_War_files/figure-revealjs/unnamed-chunk-10-1.png" class="quarto-figure quarto-figure-center r-stretch" width="576"><aside class="notes">
+<p>Ok, let’s test this model</p>
+<ol type="1">
+<li><p>Find an opponent</p></li>
+<li><p>Decide who will be player 1 in the first round</p></li>
+<li><p>Play FIVE rounds</p></li>
+<li><p>RECORD: How many wars did you fight?</p></li>
+</ol>
 <p><br></p>
-<div class="r-fit-text">
-<p><strong>Version 2</strong></p>
+<p>SUPER IMPORTANT: The ONLY data we need from each pair is how many wars you fought</p>
 <ul>
-<li><p>Find a new opponent, and</p></li>
-<li><p>Keep <strong>ONE</strong> card face up each round (random choice).</p></li>
+<li><p>The bargaining model of war is mean to help us explain war, NOT who wins a war</p></li>
+<li><p><strong>Make sense?</strong></p></li>
+<li><p>Let me know if you have questions, and go!</p></li>
 </ul>
-</div>
-<aside class="notes">
+<p><br></p>
+<p>Each pair tell us, how many wars did you fight.</p>
+<ul>
+<li><em>YOU RECORD ON NOTES, not the board yet: sum of all wars in class that round</em></li>
+</ul>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="section-8" class="slide level2 center" data-background-image="Images/background-triangles_grey_v2.png">
+<h2></h2>
+<ol type="1">
+<li><p>Play <strong>FIVE</strong> rounds against a <strong>NEW</strong> opponent</p></li>
+<li><p>Keep <strong>ONE</strong> card face up each round (random)</p></li>
+<li><p><strong>RECORD</strong>: Out of FIVE rounds, how many wars did you fight?</p></li>
+</ol>
+
+<img data-src="06-1-Penny_War_files/figure-revealjs/unnamed-chunk-11-1.png" class="quarto-figure quarto-figure-center r-stretch" width="576"><aside class="notes">
+<p>Version 2</p>
+<p><br></p>
 <p>Ok, let’s change it up this time.</p>
 <ul>
 <li><p>Everybody make sure they have ten pennies</p></li>
@@ -541,11 +631,14 @@
 </ul>
 <p><br></p>
 <p><strong>Everybody clear on the rule change?</strong></p>
-<p>Go!</p>
-<p><em>Back to our seats!</em></p>
+<ul>
+<li>Go!</li>
+</ul>
 <p><br></p>
-<p>Each pair tell us your final score and how many wars you fought.</p>
-<p>*YOU RECORD ON NOTES, not the board yet: sum of all wars in class that round</p>
+<p>Each pair tell us, how many wars did you fight.</p>
+<ul>
+<li><em>YOU RECORD ON NOTES, not the board yet: sum of all wars in class that round</em></li>
+</ul>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -558,25 +651,25 @@
           display:block!important;
       }</style></aside>
 </section>
-<section id="simulating-the-bargaining-model-3" class="slide level2 center" data-background-image="Images/background-triangles_grey_v2.png">
-<h2>Simulating the Bargaining Model</h2>
-<p><br></p>
-<div class="r-fit-text">
-<p><strong>Version 3</strong></p>
-<ul>
-<li><p>Find a new opponent, and</p></li>
-<li><p>Keep <strong>TWO</strong> cards face up each round (random choice).</p></li>
-</ul>
-</div>
-<aside class="notes">
+<section id="section-9" class="slide level2 center" data-background-image="Images/background-triangles_grey_v2.png">
+<h2></h2>
+<ol type="1">
+<li><p>Play <strong>FIVE</strong> rounds against a <strong>NEW</strong> opponent</p></li>
+<li><p>Keep <strong>TWO</strong> cards face up each round (random)</p></li>
+<li><p><strong>RECORD</strong>: Out of FIVE rounds, how many wars did you fight?</p></li>
+</ol>
+
+<img data-src="06-1-Penny_War_files/figure-revealjs/unnamed-chunk-12-1.png" class="quarto-figure quarto-figure-center r-stretch" width="576"><aside class="notes">
+<p>Version 3</p>
 <p>Do it again BUT this time you have to keep TWO of your cards face up the whole time.</p>
-<h3 id="everybody-clear-on-the-rule-change">Everybody clear on the rule change?</h3>
-<p>Go!</p>
-<p><em>Back to our seats!</em></p>
-<p><br></p>
-<p>Each pair tell us your final score and how many wars you fought.</p>
 <ul>
-<li>YOU RECORD ON NOTES, not the board yet: sum of all wars in class that round</li>
+<li><p><strong>Everybody clear on the rule change?</strong></p></li>
+<li><p>Go!</p></li>
+</ul>
+<p><br></p>
+<p>Each pair tell us, how many wars did you fight.</p>
+<ul>
+<li><em>YOU RECORD ON NOTES, not the board yet: sum of all wars in class that round</em></li>
 </ul>
 <style type="text/css">
         span.MJX_Assistive_MathML {
@@ -590,25 +683,25 @@
           display:block!important;
       }</style></aside>
 </section>
-<section id="simulating-the-bargaining-model-4" class="slide level2 center" data-background-image="Images/background-triangles_grey_v2.png">
-<h2>Simulating the Bargaining Model</h2>
-<p><br></p>
-<div class="r-fit-text">
-<p><strong>Version 4</strong></p>
+<section id="section-10" class="slide level2 center" data-background-image="Images/background-triangles_grey_v2.png">
+<h2></h2>
+<ol type="1">
+<li><p>Play <strong>FIVE</strong> rounds against a <strong>NEW</strong> opponent</p></li>
+<li><p>Keep <strong>ALL THREE</strong> cards face up each round</p></li>
+<li><p><strong>RECORD</strong>: Out of FIVE rounds, how many wars did you fight?</p></li>
+</ol>
+
+<img data-src="06-1-Penny_War_files/figure-revealjs/unnamed-chunk-13-1.png" class="quarto-figure quarto-figure-center r-stretch" width="576"><aside class="notes">
+<p>Version 4</p>
+<p>Do it again BUT this time you have to keep ALL of your cards face up the whole time.</p>
 <ul>
-<li><p>Find a new opponent, and</p></li>
-<li><p>Keep <strong>ALL</strong> cards face up each round.</p></li>
+<li><p><strong>Everybody clear on the rule change?</strong></p></li>
+<li><p>Go!</p></li>
 </ul>
-</div>
-<aside class="notes">
-<p>Last time, BUT now you have to keep ALL of your cards face up the whole time.</p>
-<h3 id="everybody-clear-on-the-rule-change-1">Everybody clear on the rule change?</h3>
-<p>Go!</p>
-<p><em>Back to our seats!</em></p>
 <p><br></p>
-<p>Each pair tell us your final score and how many wars you fought.</p>
+<p>Each pair tell us, how many wars did you fight.</p>
 <ul>
-<li>YOU RECORD ON NOTES, not the board yet: sum of all wars in class that round</li>
+<li><em>YOU RECORD ON NOTES, not the board yet: sum of all wars in class that round</em></li>
 </ul>
 <p><br></p>
 <p><strong>ON BOARD: Total wars per round</strong></p>
@@ -630,16 +723,20 @@
 <img data-src="Images/06_1-kennedy-khruschev2.png" class="quarto-figure quarto-figure-center r-stretch"><aside class="notes">
 <p>Alright, let’s talk about what just happened.</p>
 <p><br></p>
-<h3 id="talk-to-me-about-how-you-played.">Talk to me about how you played.</h3>
-<h4 id="why-did-you-play-the-way-you-did">- Why did you play the way you did?</h4>
+<p><strong>Talk to me about how you played.</strong></p>
+<ul>
+<li><strong>Why did you play the way you did?</strong></li>
+</ul>
 <p><br></p>
-<h3 id="anybody-try-bluffing-why-or-why-not">Anybody try bluffing? Why or why not?</h3>
+<p><strong>Anybody try bluffing? Why or why not?</strong></p>
 <p><br></p>
-<h3 id="did-anybody-go-to-war-with-a-weak-hand-why">Did anybody go to war with a weak hand? Why?</h3>
+<p><strong>Did anybody go to war with a weak hand? Why?</strong></p>
 <p><br></p>
-<h3 id="in-what-ways-is-this-a-useful-model-of-war">In what ways is this a useful model of war?</h3>
+<p><strong>In what ways is this a useful model of war?</strong></p>
 <p><br></p>
-<h3 id="in-what-ways-do-you-think-it-is-a-problematic-model-of-war">In what ways do you think it is a problematic model of war?</h3>
+<p><strong>In what ways do you think it is a problematic model of war?</strong></p>
+<p><br></p>
+<p><strong>SLIDE</strong>: For next class</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
