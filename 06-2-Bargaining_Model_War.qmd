@@ -33,9 +33,11 @@ Prep for Class
 
 2. **Remember, we don't diagram this model using III until next Friday**
 
+3. Save current events discussion for the end of class as a test of the model
+
 <br>
 
-**DISCUSS: Name me an international political event that has happened since we last met as a class.**
+**SLIDE**: On Monday we ran a simulation in class to help us think carefully about the causes of war.
 :::
 
 
@@ -100,10 +102,6 @@ d2 %>%
 
 ::: notes
 
-On Monday we ran a simulation in class to help us think carefully about the causes of war.
-
-<br>
-
 Here are the overall results from our simulation.
 
 - The x-axis represents the number of wars fought by one pair of students.
@@ -112,11 +110,11 @@ Here are the overall results from our simulation.
 
 <br>
 
-### Does the visualization make sense?
+**Does the visualization make sense?**
 
 <br>
 
-### So, what do we see here in overall results?
+**So, what do we see here in overall results?**
 
 - `r sum(da$Wars == 0)` pairs fought zero wars in their five rounds together.
 
@@ -160,7 +158,7 @@ Remember we use models to explain international political events
 
 <br>
 
-### How can you explain why we saw `r round(sum(da$Wars)/(nrow(da) * 5), 3) * 100`% of the rounds end in war?
+**How can you explain why we saw `r round(sum(da$Wars)/(nrow(da) * 5), 3) * 100`% of the rounds end in war?**
 
 - Talk to the person next to you and get ready to report back to me how some specific interests, institutions, or interactions explain this outcome
 
@@ -252,19 +250,19 @@ Here are the results for just version 1 of the game.
 
 <br>
 
-### Any suprises here? Is this consistent with the interests, institutions and interactions we just flagged?
+**Any suprises here? Is this consistent with the interests, institutions and interactions we just flagged?**
 
 <br>
 
-### How did you approach version 1 of the game? Did you have a strategy?
+**How did you approach version 1 of the game? Did you have a strategy?**
 
 <br>
 
-### What strategies did you observe in your opponents? Purely random decision-making or something else?
+**What strategies did you observe in your opponents? Purely random decision-making or something else?**
 
 <br>
 
-### How did your strategy adapt or evolve from playing the game?
+**How did your strategy adapt or evolve from playing the game?**
 :::
 
 
@@ -328,19 +326,19 @@ Here are the results for just version 4 of the game.
 
 <br>
 
-### Any suprises here? Is this consistent with the interests, institutions and interactions we just flagged?
+**Any suprises here? Is this consistent with the interests, institutions and interactions we just flagged?**
 
 <br>
 
-### How did you approach version 4 of the game? Did you have a strategy?
+**How did you approach version 4 of the game? Did you have a strategy?**
 
 <br>
 
-### What strategies did you observe in your opponents? Purely random decision-making or something else?
+**What strategies did you observe in your opponents? Purely random decision-making or something else?**
 
 <br>
 
-### How did your strategy adapt or evolve from playing the game?
+**How did your strategy adapt or evolve from playing the game?**
 :::
 
 
@@ -398,7 +396,7 @@ tab1 |>
   scale_y_continuous(limits = c(0, 1), labels = scales::percent_format()) +
   scale_x_continuous(labels = labs1, limits = c(.7,4.2), breaks = 1:4) +
   theme_bw() +
-  labs(x = "", y = "Risk of War", title = "The risks of war fell (?) as we reduced the uncertainty in the game") +
+  labs(x = "", y = "Risk of War", title = "The risks of war fell as we reduced the uncertainty in the game") +
   ggrepel::geom_text_repel(aes(label = str_c(100*labs2, "%")))
 
 
@@ -458,9 +456,9 @@ Let's start where we always should: The Research Question!
 
 <br>
 
-### What is Fearon's big research question?
+**What is Fearon's big research question?**
 
-### - What are the three reasons he argues war should be unappealing as a strategy to get what you want?
+- **What are the three reasons he argues war should be unappealing as a strategy to get what you want?**
 
 (**SLIDE**)
 :::
@@ -481,11 +479,11 @@ If wars are **costly**, **risky** and **inefficient** why do they happen?
 
 - (Costly: Requires resources to fight)
 
-### According to Fearon why is war risky?
+**According to Fearon why is war risky?**
 
 - (Risky: You might lose, no guarantees)
 
-### According to Fearon why is war inefficient?
+**According to Fearon why is war inefficient?**
 
 - (Inefficient: Fighting is costly, bargains are not (or are less so))
 
@@ -493,13 +491,14 @@ If wars are **costly**, **risky** and **inefficient** why do they happen?
 
 This is a huge first assumption in this paper, so let's evaluate it.
 
-### Are you persuaded that war is costly, risky and inefficient? why or why not?
+- **Are you persuaded that war is costly, risky and inefficient? why or why not?**
 
 <br>
 
-### Any current events examples we could draw on?
+**Any current events examples we could draw on?**
 
 (US 20 year war in Afghanistan?)
+
 - Destabilization of the region
 - Distraction away from other global threats
 - Has created fractures with our allies in NATO
@@ -543,9 +542,9 @@ Whatever outcome they reach represents a point along this line
 
 Let's start with just these elements that set the stage.
 
-### What are the key assumptions in this model? 
+**What are the key assumptions in this model?**
 
-### - In other words, as a "map" of war, what does Fearon choose to focus on?
+- **In other words, as a "map" of war, what does Fearon choose to focus on?**
 :::
 
 
@@ -567,11 +566,11 @@ Let's reflect on this as a model for a sec.
 
 <br>
 
-### When you think about a state's decision to go to war, how well does this set of assumptions cover the elements you think would be important?
+**When you think about a state's decision to go to war, how well does this set of assumptions cover the elements you think would be important?**
 
-### - Leaving anything important out? Why or why not?
+- **Leaving anything important out? Why or why not?**
 
-*encourage this discussion*
+- *encourage this discussion*
 
 <br>
 
@@ -653,7 +652,7 @@ The first pirate knows that for 20 gold he can buy a gun that will allow him to 
 
 <br>
 
-### At that moment, before the gun is purchased, is there any amount of gold the second pirate could offer the first to avoid being killed?
+**At that moment, before the gun is purchased, is there any amount of gold the second pirate could offer the first to avoid being killed?**
 
 (81 gold!)
 - The treasure is worth 100 gold but the gun will cost 20 which nets you 80 gold.
@@ -797,9 +796,9 @@ In this case it's really simple to use.
 
 <br>
 
-### So, what is the first really important thing this model helps us understand about the decision to start a war?
+**So, what is the first really important thing this model helps us understand about the decision to start a war?**
 
-(**SLIDE**)
+- (**SLIDE**)
 :::
 
 
@@ -824,13 +823,14 @@ Actual Outcome = Treasure - Costs of Fighting
 
 Also, this isn't just a vague expression, the model helps us think precisely about how the impact is felt.
 
-### Make sense?
+- **Make sense?**
 
 <br>
 
-### How could we have tested this by modifying our simulation on Monday?
+**How could we have tested this by modifying our simulation on Monday?**
 
-(Increase the cost of going to war and see what happens!)
+- (Increase the cost of going to war and see what happens!)
+
 - I'm guessing many fewer wars!
 :::
 
@@ -878,7 +878,9 @@ Imagine the gun for sale is actually an old flint lock pistol.
 
 <br>
 
-### At that moment, is there any amount of gold the second pirate could offer the first to avoid him buying a gun?
+**At that moment, is there any amount of gold the second pirate could offer the first to avoid him buying a gun?**
+
+- (**SLIDE**)
 :::
 
 
@@ -943,9 +945,9 @@ Imagine the gun for sale is actually an old flint lock pistol.
 
 <br>
 
-### And what does this mean is the second important reason this model is useful?
+**And what does this mean is the second important reason this model is useful?**
 
-(**SLIDE**)
+- (**SLIDE**)
 :::
 
 
@@ -968,11 +970,11 @@ Expected Outcome = p(Winning Reward) + p(Losing Reward)
 
 <br>
 
-### Make sense?
+**Make sense?**
 
 <br>
 
-### How could we have tested this by modifying our simulation on Monday?
+**How could we have tested this by modifying our simulation on Monday?**
 
 - (More cards in your hand?)
 
@@ -992,7 +994,7 @@ Because wars are **costly**, **risky** and **inefficient**, there should **ALWAY
 
 Fearon's first big idea!
 
-### Based on our simulation on Monday and discussion today, are you convinced this is a useful model for explaining the decision to go to war? Why or why not?
+**Based on our simulation on Monday and discussion today, are you convinced this is a useful model for explaining the decision to go to war? Why or why not?**
 
 <br>
 
@@ -1000,11 +1002,15 @@ Fearon's first big idea!
 :::
 
 
-## Fearon (1995): The Argument {background-image="Images/background-worldmap4.png" .center .smaller}
+## Fearon (1995) {background-image="Images/background-worldmap4.png" .center .smaller}
+
+### The Argument
 
 Because wars are **costly**, **risky** and **inefficient**, there should **ALWAYS** be a non-war outcome that both sides would prefer.
 
 <br>
+
+### The Assumptions
 
 1. Only 2 actors, 
 2. Dispute on a single dimension, 
@@ -1021,62 +1027,124 @@ Because wars are **costly**, **risky** and **inefficient**, there should **ALWAY
 
 <br>
 
-### Ok, what are Fearon's conclusions?
+**Ok, what are Fearon's conclusions?**
 
-### - If his model is useful, why do wars keep happening?
+- **In other words, if Fearon's model is useful, why do wars keep happening?**
 :::
 
 
 
-## Fearon (1995): The Argument {background-image="Images/background-worldmap4.png" .center}
+## Fearon (1995): The Conclusions {background-image="Images/background-worldmap4.png" .center}
 
 **Argument 1**
 
 - Therefore, war occurs because of private information and the incentive to misrepresent.
 
+::: {.fragment}
 **Argument 2**
 
 - Therefore, war occurs as a consequence of commitment problems.
+:::
 
+::: {.fragment}
 **Argument 3**
 
 - Therefore, war occurs due to "issue indivisibilities"
+:::
+::: notes
+
+Fearon draws out three big hypotheses or expected outcomes from his bargaining model that help us understand war in the real world.
+
+<br>
+
+**REVEAL**: Therefore, war occurs because of private information and the incentive to misrepresent.
+
+1. **Did anybody try bluffing in the game on Monday?**
+
+    - **Did bluffing make war more or less likely in your experience of the game?**
+
+2. **Give me an example from current events or recent history of Argument 1 in action**
+
+<br>
+
+**REVEAL**: Therefore, war occurs as a consequence of commitment problems.
+
+1. **What would you have done in our game if your opponent had promised not to go to war no matter what cards they drew?**
+
+    - **Would that have made you more likely to avoid war or to start one? Why?**
+
+2. **Give me an example from current events or recent history of Argument 2 in action**
+
+<br>
+
+**REVEAL**: Therefore, war occurs due to "issue indivisibilities"
+
+1. **How would you have played our game on Monday if you had no pennies but each time you declared war you could take pennies from the pot?**
+
+    - **Would you have been more aggressive in the game?**
+
+2. **Give me an example from current events or recent history of Argument 3 in action**
+
+<br>
+
+These three arguments really help to show why the bargaining model is incredibly useful in the real world
+
+- **SLIDE**: The utility of the bargaining model
+
+:::
+
+
+
+## {background-image="Images/background-worldmap4.png" .center}
+
+::: {.r-fit-text}
+**How do we reduce the probability of war?**
+:::
+
+::: {.incremental}
+- Neorealism
+
+- Offensive realism
+
+- Liberal institutionalism
+
+- Economic liberalism
+
+- Bargaining model of war (Fearon 1995)
+
+:::
 
 ::: notes
 
-Fearon draws out three big hypotheses from his bargaining model.
-
-- *Step through each*
-
-<br>
-
-**Arg 1: Did anybody try bluffing in the game on Monday? How did that go?**
-
-<br>
-
-**Arg 2: What would you have done in the game if your opponent had promised not to go to war? Would that assure peaceful outcomes? Why or why not?**
-
-<br>
-
 I think this model shines in terms of its usefulness!
 
-- **If you are a neorealist, what is your best advice for lowering the risks of war around the world?** (Nothing: War is inevitable due to security dilemmas)
+- **REVEAL: If you are a neorealist, what is your best advice for lowering the risks of war around the world?**
 
-- **If you are an offensive realist, what is your best advice for lowering the risks of war around the world?** (Nothing: War is inevitable due to power competition and the pursuit of hegemony)
+    - (Nothing: War is inevitable due to security dilemmas)
 
-- **If you are a liberal institutionalist, what is your best advice for lowering the risks of war around the world?** (Better, more empowered international orgs and rules)
+- **REVEAL: If you are an offensive realist, what is your best advice for lowering the risks of war around the world?**
 
-- **If you are an economic liberal, what is your best advice for lowering the risks of war around the world?** (More trade! Even if it exploits the developing world!)
+    - (Nothing: War is inevitable due to power competition and the pursuit of hegemony)
+
+- **REVEAL: If you are a liberal institutionalist, what is your best advice for lowering the risks of war around the world?** 
+
+    - (Better, more empowered international orgs and rules)
+
+- **REVEAL: If you are an economic liberal, what is your best advice for lowering the risks of war around the world?** 
+
+    - (More trade! Even if it exploits the developing world!)
 
 <br>
 
-Ok, now let's talk Fearon's bargaining model!
+**REVEAL**: Ok, now let's talk Fearon's bargaining model!
 
 - **What specific things can we do to reduce the risks of war?**
 
 <br>
 
-- Lib inst isn't wrong, but let's give the international laws some bite
+Lib inst isn't wrong, but we have to make sure our international institutions focus on the right things
+
+1. Give our international laws and organizations some bite!
 
     - Adopt universal jurisdiction
     
@@ -1084,17 +1152,17 @@ Ok, now let's talk Fearon's bargaining model!
     
     - Eliminate the P5 veto at the UN
     
-- More transparency
+2. Use our international laws and organizations to produce more transparency
 
     - Fully fund and support the IEA and its inspectors
     
     - Encourage security cooperation and coalitions to produce and manage arms procurement
     
-- More and better adjudication
+3. Provide options for states to settle disputes outside of war
 
     - Empower the ICJ and lower the barriers standing
     
-- Give the UN blue helmets the ability to enforce and maintain peace!
+4. Give the UN blue helmets the ability to enforce and maintain peace!
 
 - etc.
 
