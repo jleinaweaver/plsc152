@@ -29,13 +29,16 @@ Justin Leinaweaver (Fall 2026)
 ::: notes
 Prep for Class
 
-1. Timings - Revised for SP27
-    - Introduce paper 2
-    - Guided writing exercise: Apply each model (x4) to your case
-    - Pairs: Share work and get feedback
-    - Class: Any theories hard to apply to your case?
-    - You introduce bargaining model diagram
-    - They apply it to their case
+1. Bring markers x 4
+
+2. Timings
+    - Groups: Diagram models we've covered thoroughly and practice applying all (30 mins)
+    - Groups: Diagram bargaining model (10 mins)
+    - Review assignment for NEXT Friday (5 mins)
+    
+3. Options for applying the models
+    - Find and assign a current event from today's paper, OR
+    - Have the class apply each model to their own Paper 1 events
 
 <br>
 
@@ -74,80 +77,66 @@ Just like Paper 1, this paper also requires a counter-argument
 
 **Questions on the prompt?**
 
-<br>
-
-In this case you're argument will be drawing on two types of evidence
-
-1. You must cite the readings we used in class for each theory
-
-    - Keep your work with a theory focused on our class work
-    
-2. You must cite outside evidence to show how you are connecting the chosen theory to the real world
-
-<br>
-
-**Make sense?**
-
-<br>
-
-**SLIDE**: Ok, let's work on this paper today!
-
 :::
 
 
 
+## {background-image="Images/background-worldmap4.png" .center}
 
-## Brainstorming Paper 2 {background-image="Images/background-worldmap4.png" .center}
+::: {.r-fit-text}
+**Models of International Relations (so far)**
 
-::: {.incremental}
+- Neorealism
 
-1. Open a blank document (or take out a piece of paper)
+- Offensive Realism
 
-2. Write your international political event across the top
+- Liberal Institutionalism
 
-3. Neorealism explains this event because...
+- Economic Liberalism
 
-4. Offensive realism explains this event because...
-
-5. Liberal institutionalism explains this event because...
-
-6. Economic liberalism explains this event because...
+- *Bargaining Model of War*
 
 :::
 
 ::: notes
 
-Let's get set up
+*Split class into 4 groups*
 
-- **REVEAL x 2**
+Groups each take one of the models from class so far and get a diagram up on the board
 
-<br>
-
-**REVEAL**: Ok, you have five minutes to write down AT LEAST three reasons why neorealism can explain your event
-
-- **Make sense?**
-
-- Go!
+- **NOT INCLUDING the bargaining model!**
 
 <br>
 
-*REVEAL and REPEAT for the other three theories: 5 mins each*
+GROUPS:
+
+1. Diagram your model on the board, and then
+
+2. Make sure each of you can use THAT model to explain your international political event
+
+    - Help each other!
 
 <br>
 
-Ok, share your work with the person next to you
+**Questions?**
 
-- GET and GIVE feedback
-
-- Are all of your arguments on the page convincing? How could you make each one stronger?
-
-- Give us a head's up if you're really struggling with one of these!
-
-- *10 mins for pairs and class discussions*
+- Get to it!
 
 <br>
 
-**SLIDE**: One more theory to consider
+GROUPS, move to the next theory diagram
+
+1. Any edits needed to the model diagram?
+
+2. Make sure each of you can use THAT model to explain your international political event
+
+<br>
+
+*REPEAT x 2*
+
+<br>
+
+**SLIDE:** Bargaining model time
 
 <br>
 
@@ -191,8 +180,6 @@ Economic Liberalism
 
 
 
-
-
 ## Bargaining Model (Fearon 1995) {background-image="Images/background-worldmap4.png" .center}
 
 <br>
@@ -211,13 +198,15 @@ Economic Liberalism
 
 ::: notes
 
-Ok, let's tackle the Bargaining Model of War together!
+GROUPS, now tackle the Bargaining Model of War!
+
+- DIAGRAM on the BOARD!
 
 <br>
 
-**Who are the key interests in Fearon's (1995) model?**
+PRESENT and DISCUSS each
 
-- (**SLIDE**)
+- **SLIDE x 3**: Reveal my version...
 
 :::
 
@@ -258,9 +247,7 @@ Relative gains follow from the other Fearon assumptions
 
 <br>
 
-**Who are the key institutions in Fearon's (1995) model?**
-
-- (**SLIDE**)
+**SLIDE**: Institutions
 
 :::
 
@@ -284,9 +271,7 @@ Relative gains follow from the other Fearon assumptions
 
 ::: notes
 
-**And what are the key interactions in Fearon's (1995) model?**
 
-- (**SLIDE**)
 
 :::
 
@@ -322,43 +307,15 @@ Expectations
 
 <br>
 
-Ok, everybody take five minutes to apply this theory to your event
+GROUPS, give this theory a test run as well!
 
-- Write down three reasons this model can explain your event
+- Practice using it to explain each of your events
 
-- Go!
-
-<br>
-
-*Share work in pairs*
+- Help each other do it!
 
 <br>
 
-**SLIDE**: Steps for succeeding on the second paper
-:::
-
-
-
-## For Next Class {background-image="Images/background-worldmap4.png" .center}
-
-<br>
-
-**Planning For Paper 2**
-
-1. What is the international political event you analyzed for the first paper? 
-
-2. Which of the IR theories will be the central argument of your second paper?
-
-3. What are three reasons the theory you have chosen is useful for explaining your international political event?
-
-::: notes
-
-Step 1: Monday we make sure everybody has a basic argument mapped out
-
-<br>
-
-**SLIDE**: Step 2
-
+**SLIDE**: Outline due next Friday
 :::
 
 
@@ -405,7 +362,7 @@ With the rest of our time today you have work to do:
 
 <br>
 
-**Questions?**
+### Questions?
 
 - Get to it!
 
