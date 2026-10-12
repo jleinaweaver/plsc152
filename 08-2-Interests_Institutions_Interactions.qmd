@@ -39,10 +39,6 @@ Prep for Class
 
 <br>
 
-**ANNOUNCE**: Pizza and politics is this Friday
-
-<br>
-
 *Opening Discussion: From this point forward students need to practice identifying international political events everyday in class. These are more than just 'things happening far away'!*
 
 **DISCUSS: Name me an international political event that has happened since we last met as a class.**
@@ -203,27 +199,29 @@ Last big picture question!
 
 
 
-## A Prisoner's Dilemma {background-image="Images/background-cloth_v3.png" .center}
+## {background-image="Images/background-cloth_v3.png" .center}
 
 ```{r}
 tribble(
   ~Round, ~Group_A, ~Group_B,
-  1, "Defect", "Defect",
-  2, "Defect", "Defect",
-  3, "Cooperate", "Defect",
-  4, "Defect", "Defect",
-  5, "Defect", "Defect",
-  6, "Cooperate", "Defect",
-  7, "Cooperate", "Defect"
-  # 8, "Defect", "Defect",
-  # 9, "Defect", "Defect",
-  # 10, "Defect", "Defect",
+  1, "Cooperate", "Cooperate",
+  2, "Cooperate", "Cooperate",
+  3, "Cooperate", "Cooperate",
+  4, "Defect", "Cooperate",
+  5, "Defect", "Cooperate",
+  6, "Defect", "Defect",
+  7, "Defect", "Defect",
+  8, "Defect", "Defect",
+  9, "Defect", "Defect",
+  10, "Defect", "Defect"
   # 11, "Defect", "Defect",
   # 12, "Defect", "Defect"
 ) |>
   kbl(align = "c", col.names = c("Round", "Group A", "Group B")) |>
   kable_styling(bootstrap_options = c("striped", "hover", "condensed", "responsive"), font_size = 35) |>
-  column_spec(2:3, width = '7em')
+  #column_spec(2:3, width = '7em') |>
+  column_spec(2, width = '7em', background = c(rep("green3", 3), rep("red3", 7))) |>
+  column_spec(3, width = '7em', background = c(rep("green3", 5), rep("red3", 5)))
 ```
 
 ::: notes
@@ -240,25 +238,25 @@ We need to start by getting this research team all working from the same page.
 
 *ON BOARD (leave room for more columns to come)*
 
-### 1) Give me a short description of the "event" from our PD simulation.
+1. **Give me a short description of the "event" from our PD simulation.**
 
-### - In other words, what was the "outcome" of the simulation?
-
-<br>
-
-### 2) What were the biggest obstacles to cooperation in the game in round 1? 
+- **In other words, what was the "outcome" of the simulation?**
 
 <br>
 
-### 3) What were the biggest obstacles to cooperation in the game AFTER round 1?
+2. **What were the biggest obstacles to cooperation in the game in round 1?**
 
 <br>
 
-### 4) In what specific ways could we change the game to make cooperation LESS likely?
+3. **What were the biggest obstacles to cooperation in the game AFTER round 1?**
 
 <br>
 
-### 5) In what specific ways could we change the game to make cooperation MORE likely?
+4. **In what specific ways could we change the game to make cooperation LESS likely?**
+
+<br>
+
+5. **In what specific ways could we change the game to make cooperation MORE likely?**
 
 <br>
 

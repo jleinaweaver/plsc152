@@ -516,30 +516,49 @@ tab1 |>
 
 ## {background-image="Images/background-worldmap4.png" .center}
 
-```{r}
-tab2 <- tab1 |>
+```{r, echo=FALSE}
+tab1 |>
+  kbl(col.names = c("Strategy", "Cooperate", "Defect", "Grim Trigger", "Tit for Tat", "Mixed"), align = c("l", rep("c", 6))) |>
+  kable_styling(bootstrap_options = c("striped", "hover"), font_size = 25)
+```
+
+```{r, fig.align='center', fig.asp=.618}
+# Split line segment at zero and add 2x, once for red and once for blue
+tab1 |>
   mutate(
-    #Average = c(-4, 7, 10.6, 6.6, -4.8),
+    Mean = rowMeans(tab1[, 2:6]),
     Minimum = c(-60, -10, -15, -15, -35),
     Maximum = c(20, 40, 20, 20, 30),
     Positive = c(3, 2, 4, 3, 2)
-  )
-
-tab2 |>
-  kbl(col.names = c("Strategy", "Cooperate", "Defect", "Grim Trigger", "Tit for Tat", "Mixed (50%)", "Minimum", "Maximum", "Positive"), align = c("l", rep("c", 8))) |>
-  kable_styling(bootstrap_options = c("striped", "hover"), font_size = 23) |>
-  add_header_above(c("", "Opponent's Strategy"= 5, "Results" = 3)) |>
-  column_spec(1, background = "lightgrey") |>
-  column_spec(2:6, background = "lightyellow") |>
-  column_spec(7:9, background = "orange")
+  ) |>
+  select(You, Mean:Positive) |>
+  mutate(
+    breakpoint = 0
+  ) |>
+  ggplot(aes(x = Mean, y = You)) +
+  geom_vline(xintercept = 0, linetype = "dashed") +
+  geom_segment(aes(x = Minimum, xend = breakpoint), color = "red") +
+  geom_segment(aes(x = Maximum, xend = breakpoint), color = "blue") +
+  geom_point(color = c("red", "blue", "blue", "blue", "red"), size = 3) +
+  theme_bw() +
+  scale_x_continuous(limits = c(-60, 40)) +
+  labs(x = "Points Earned After 10 Rounds", y = "Strategies vs All")
 
 ```
 
 ::: notes
 
-Note: I implemented the "mixed" strategy here by simply flipping from co-op to defect each round
+Notes: 
 
-- Not actually a random choice here...
+1. I implemented the "mixed" strategy here by simply flipping from co-op to defect each round
+
+    - Not actually a random choice here...
+    
+2. Viz: 
+
+    - Each point represents the mean points earned
+    
+    - Each line runs from the best case to the worst case scenario
 
 <br>
 

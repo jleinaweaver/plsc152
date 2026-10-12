@@ -77,7 +77,7 @@ Your paper must include a counter-argument that applies and evaluates a second t
 
 **Counter-Argument: Theory 2**
 
-- What are the strengths of this explanation?
+- What are the strengths of this explanation? (with evidence)
 - What are the weaknesses of this explanation?
 - Why is it not ultimately more useful than Theory 1?
 
@@ -111,10 +111,16 @@ Now that you've heard a BUNCH of arguments and gotten feedback on yours it's tim
 
 <br>
 
-**SLIDE**: Next steps
+*Before Class Ends Announce*
+
+- The paper is due NEXT Friday, October 16th
+
+- Next Wednesday you must bring a completed rough draft to class for a writing workshop!
 
 :::
 
+
+## OLD
 
 
 ##  {background-image="Images/background-worldmap4.png" .center}
