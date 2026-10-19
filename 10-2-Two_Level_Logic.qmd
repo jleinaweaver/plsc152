@@ -83,22 +83,20 @@ On Monday we re-played our prisoners' dilemma from a few weeks ago but with a fe
 ```{r}
 tribble(
   ~Round, ~Group_A, ~Group_B,
-  "1", "Cooperate", "Cooperate",
-  "2", "Cooperate", "Cooperate",
+  "1", "Cooperate", "Defect",
+  "2", "Defect", "Cooperate",
   "3", "Cooperate", "Cooperate",
   "4", "Cooperate", "Cooperate",
   "5", "Cooperate", "Cooperate",
   "6", "Cooperate", "Cooperate",
-  "7", "Defect", "Defect",
-  "8", "Defect", "Defect",
-  "9", "Defect", "Defect",
-  "", "+15", "+15"
+  "7", "Cooperate", "Defect",
+  "", "+13", "+20"
 ) |>
-  kbl(align = "c", col.names = c("Round", "Group A", "Group B")) |>
-  kable_styling(bootstrap_options = c("striped", "hover", "condensed", "responsive"), font_size = 30) |>
+  kbl(align = "c", col.names = c("Round", "Classroom", "Meador Center")) |>
+  kable_styling(bootstrap_options = c("striped", "hover", "condensed", "responsive"), font_size = 35) |>
   column_spec(2:3, width = '7em') |>
-  column_spec(2, background = c(rep("white", 6), rep("pink3", 3), "gold")) |>
-  column_spec(3, background = c(rep("white", 6), rep("pink3", 3), "gold"))
+  column_spec(2, background = c("white", "pink3", rep("white", 5), "gold")) |>
+  column_spec(3, background = c("pink3", rep("white", 5), "pink3", "gold"))
 ```
 
 ::: notes
@@ -366,19 +364,20 @@ Add it all up and let's say that this means your plan to distribute the bonus po
 ```{r}
 tribble(
   ~Name, ~EC,
-  "Adam", 0,
-  "Alex", 9,  
-  "Braden", 9,
-  "Carly", 9,  
-  "Emily", 0,
-  "Eyal", 9,
-  "Hali", 0,
-  "Kristina", 0,
-  "Sanjay", 0,
-  "TJ", 0
+  "Reza", 1,
+  "Carson", 9,
+  "Kaleb", 9,  
+  "Russell", 9,
+  "Mason", 9,  
+  "Morgan", 9,
+  "Eliott", 1,
+  "Ike", 1,
+  "Briar", 0,
+  "Justin", 0,
+  "Jacob", 0
 ) |>
   kbl(align = c('l', 'c')) |>
-  kable_styling(bootstrap_options = c("striped", "hover", "condensed"), font_size = 33) |>
+  kable_styling(bootstrap_options = c("striped", "hover", "condensed"), font_size = 30) |>
   column_spec(1, width = '8em') |>
   row_spec(1, background = "gold") #|>
   #row_spec(2:6, background = "yellow3")
@@ -389,21 +388,24 @@ tribble(
 ```{r}
 tribble(
   ~Name, ~EC,
-  "Rylee", 0,
-  "Brooke", 9,
-  "Caiden", 0,
+  "Charlotte", 1,
+  "Donte", 0,
+  "Ryno", 9,
+  "Isold", 9,
+  "Melanie", 9,
   "Caroline", 9,
-  "Emmee", 9,
-  "Gabriel", 0,
-  "Jarrod", 9,
-  "Mae", 0,  
-  "Reagan", 0,  
-  "Sophia", 9
+  "Sophie", 1,
+  "Dylan", 1,  
+  "Sam", 1,
+  "Sofiia", 1,
+  "Shrebi", 1,
+  "Kyshin", 0
 ) |>
   kbl(align = c('l', 'c')) |>
-  kable_styling(bootstrap_options = c("striped", "hover", "condensed"), font_size = 33) |>
+  kable_styling(bootstrap_options = c("striped", "hover", "condensed"), font_size = 30) |>
   column_spec(1, width = '8em') |>
-  row_spec(1, background = "gold")
+  row_spec(1, background = "gold") |>
+  row_spec(2, background = "gold3")
 ```
 :::
 ::::
