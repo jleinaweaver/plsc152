@@ -38,7 +38,7 @@ Prep for Class
 
 3. **Run slides on laptop IN CLASS and, at the start of class, REMOVE anybody who doesn't come to class today from member list (no attendance, no citizenship, no points)**
 
-4. YOU need to decide the leadership rewards AFTER hearing how much each valued being the leader
+4. REMEMBER, leader reward is based on the "value of office" from Hollyer and Rosendorff (2011); It is intangible and psychological!
 
 <br>
 
@@ -432,15 +432,105 @@ Leaders, please take a moment to reflect on your proposal
 
 <br>
 
-**Leaders, bottom-line, if we played the game again in the future, how hard would you fight to be chosen leader?**
+**SLIDE**: Now let's talk about the reward for the leaders
 
-- *Use these answers to announce hypothetical leader rewards then invite discussion of whether these points accurately reflect the motivations of the leaders*
+:::
 
-- *If they wouldn't, no reward (0 points)*
 
-- *If they passed it around the room to spread "the wealth" then it wasn't valuable, was it? (0 points)*
 
-- *If they loved it, make it kind of obscene... (5 points?)*
+## It's good to be the king... {background-image="./Images/background-scales_justice_v3.png"}
+
+![](Images/10_2-Gold_Fort_Knox.jpg){.absolute width="320" left=0 bottom=170}
+
+::: {.fragment}
+![](Images/10_2-Kim_Jong_Un_Security.gif){.absolute width="400" left=220 bottom=0}
+:::
+::: {.fragment}
+![](Images/09_1-patronage.jpg){.absolute width="430" right=180 bottom=200}
+:::
+::: {.fragment}
+![](Images/10_2-political_prosecutions.avif){.absolute width="300" right=0 bottom=0}
+:::
+
+::: notes
+
+Typically, when we think about the rewards of office we think about the direct, monetary benefits
+
+- **REVEAL**: This can be the money you extract from the people (e.g. taxes)
+
+- **REVEAL**: This can be the perks you get for being the leader (e.g. security, travel)
+
+- **REVEAL**: This can be the jobs you can give to your friends and supporters (e.g. patronage)
+
+- **REVEAL**: This can be the punishments you reserve for your enemies
+
+<br>
+
+But it turns out that's not a big enough assumption to explain the behavior of leaders around the world
+
+- I'm not saying these aren't appealing benefits, but we have cases where these perks are limited and people still fight like hell to become the leader
+
+<br>
+
+**SLIDE**: The "why" for this variation is often represented as the value of office
+
+:::
+
+
+
+
+## It's good to be the king... {background-image="./Images/background-scales_justice_v3.png" .center}
+
+(Hollyer & Rosendorff 2011)
+
+<br>
+
+:::: {.columns}
+
+::: {.column width="50%"}
+**The Benefits of Office**
+
+![](Images/10_2-Gold_Fort_Knox.jpg){width="350"}
+:::
+
+::: {.column width="50%"}
+
+**The Value of Office**
+
+![](Images/10_2-marine_le_pen.webp){width="450"}
+
+:::
+::::
+
+::: notes
+
+The value of office is something else
+
+- It represents a much harder to quantify urge amongst those who struggle for leadership
+
+- This is, in essence, the psychological benefit you derive from being in charge
+
+<br>
+
+This could be so many things:
+
+- For some it may be status-seeking (e.g. a desire to be respected as an authority, or to be the center of attention)
+
+- For some it may be morality-imposing (e.g. you believe you know what is "best" and want that to be implemented in society)
+
+- For some it may be control-seeking (e.g. a desire for control and agency over one's environment)
+
+<br>
+
+**Leaders, how substantial was the value of office for you in this simulation?**
+
+<br>
+
+- **If not very high, what was it about the structure of the simulation that reduced the value of office for you?**
+
+<br>
+
+*NOTE: To be clear, there are no additional points. That's not what the value of office represents!*
 
 <br>
 

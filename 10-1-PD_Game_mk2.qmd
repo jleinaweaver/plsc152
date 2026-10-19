@@ -46,7 +46,12 @@ Prep for Class
     
     - You will need to record who is leader every round
     
-    - Don't tell them the leader reward! Just that it is related to term in office
+    - Don't tell them the leader reward!
+    
+        - Think of this like Hollyer and Rosendorff (2011)
+        - Leaders derive a value from office and benefits of office
+        - Benefits are the points to distribute (e.g. money and perks)
+        - Value is much more intangible (psychological benefit of being the leader, being in charge)
     
     - IMPORTANT: New groups need to mix up the PD v1 groups so the leaders have a harder task distributing points at end. More fun if inequality exists within each group
 :::
@@ -188,12 +193,16 @@ Let's talk about the leaders.
 
 + Negotiates
 
-+ Distributes All Rewards
++ Decides how to distribute all rewards
 
-+ Receives Personal Benefits
++ Receives personal benefits from being leader
 :::
 
-::: {.column width='50%'}
+::: {.column width='10%'}
+
+:::
+
+::: {.column width='40%'}
 
 ![](Images/09_1-skipper.jpg)
 
@@ -208,7 +217,7 @@ Let's talk about the leaders.
 
 - At the end of the game they distribute the rewards as they see fit
 
-- Personal benefit: The longer your term, the bigger the reward
+- Being the leader carries benefits beyond just what points are to being distributed
 
 :::
 
