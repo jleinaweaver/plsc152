@@ -106,24 +106,24 @@ You don't have to select any of these four theories, but if you do you can't dou
 
 :::: {.columns}
 ::: {.column width="50%"}
-- US tariffs on India
-- NATO troops in Greenland
-- US threatens Europe over Greenland
-- Tump creates the Board of Peace
-- Israel–Hamas ceasefire
-- US kidnaps Maduro
-- US attacks Venezuela
-- US withdraws from Paris Agreement
+- The US blockade of Iran
+- US vs Iran in the Strait of Hormuz
+- Israel capturing / killing the leaders of Hamas
+- Russia invading / bombing Ukraine
+- 2026 G7 Summit
+- The UAE suspending trade with Iran
+- The UK providing missile technology to Ukraine
+- The US / Canada trade war
 :::
 
 ::: {.column width="50%"}
-- US creates a Trump Gold Card
-- EU-India Trade Agreement
-- US-Iran nuclear negotiations
-- Russian incursions into Estonia
-- US attacks the Islamic State in Nigeria
-- Global aid to Ukraine
-- US bombs Iran (nuclear facilities)
+- Ongoing conflict between Pakistan and Afghanistan
+- US and Israel bombing Iranian nuclear sites
+- US bombing Iran's Larak Island
+- States providing aid after the floods in Nepal
+- US "leaking" Russian plans
+- States cooperating during the Artemis II mission
+- Qatar mediating between the US and Iran
 :::
 ::::
 
