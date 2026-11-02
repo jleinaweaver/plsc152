@@ -7,8 +7,6 @@ format: revealjs
 ```{r}
 # background-size="1920px 1080px"
 library(tidyverse)
-library(readxl)
-library(kableExtra)
 ```
 
 <br>
@@ -28,13 +26,15 @@ Justin Leinaweaver (Fall 2026)
 ::: notes
 Prep for Class
 
-1. IN CLASS: Review Canvas submissions AND track which articles claimed to be most problematic (line 237-ish)
-    
-    - Update slides as needed
+1. Review Canvas submissions
 
-2. Bring markers x 4
+2. BEFORE CLASS: Take votes from Canvas and build bar plot focused on US (line 237-ish)
 
-3. Post link to Google Sheet for claiming countries on Canvas
+3. IN CLASS: Convert ratings on boards to visualization
+
+4. Bring markers x 4
+
+5. Post link to Google Sheet for claiming countries on Canvas
     - First name, Last name, Country 1 - Dictatorship, Country 2 - Democracy
     - Plus include a list of each beside table (see FA23 version)
     
@@ -176,23 +176,33 @@ Let's now examine the UN DHR
 
 ## {background-image="Images/background-worldmap4.png" .center}
 
-::: {.r-fit-text}
-**The UN’s Universal Declaration of Human Rights (1948)**
-:::
+**Evaluating the UN’s Universal Declaration of Human Rights**
 
-![](Images/13_2-norm_life_cycle.png){style="display: block; margin: 0 auto"}
+<br>
+
+::: {.incremental}
+
+1. Which articles have been fully internalized at the global level?
+
+2. Which articles should the global community focus on internalizing over the next ten years?
+
+3. Which articles should the US focus on internalizing over the next ten years?
+
+:::
 
 ::: notes
 
-Groups, three columns on the board: emergence, cascade, internalized
+Groups, I want you to discuss the articles in the DHR in order to make three lists ON THE BOARD
 
-- Your job is to classify each article in the UN DHR by where it currently sits in this process
+- **REVEAL x 3**
 
-- Don't set the stage 3 bar too high!
+<br>
 
-    - A norm can be internalized even if broken occasionally
+Don't set the stage 3 bar too high!
+
+- A norm can be internalized even if broken occasionally
     
-    - Think about the efforts China and Russia go to in order to justify certain problematic behaviors as consistent with international law
+- Think about the efforts China and Russia go to in order to justify certain problematic behaviors as consistent with international law
 
 <br>
 
@@ -204,10 +214,27 @@ Groups, three columns on the board: emergence, cascade, internalized
 
 *Report Back and Discuss*
 
+**What has the world successfully internalized?**
+
+- **Any doubts on these?**
+
+<br>
+
+**What do you think should be the priority focus for the global community over the next ten years? Why?**
+
+<br>
+
+**And what about for the US specifically?**
+
+- **Where do we need to focus our efforts?**
+
 <br>
 
 **SLIDE**: The US case
 :::
+
+
+
 
 
 
@@ -239,7 +266,6 @@ Groups, three columns on the board: emergence, cascade, internalized
 
 
 
-
 ## {background-image="Images/background-worldmap4.png" .center}
 
 ::: {.r-fit-text}
@@ -249,13 +275,31 @@ Groups, three columns on the board: emergence, cascade, internalized
 
 :::
 
-- One Vote: Articles 9, 10, 11, 18, 19
+```{r, fig.align='center', fig.asp=.618, fig.width=7}
+# Create object
+d1 <- tibble(
+  Article = 1:30,
+  Votes = 0
+  )
 
-- Two Votes: Articles 5, 12, 13, 21
+# fill in votes
+d1$Votes[d1$Article %in% c(2, 4, 5, 9, 12, 13, 14, 15, 19, 21)] <- 1
+d1$Votes[d1$Article %in% c(22)] <- 3
+d1$Votes[d1$Article %in% c(26)] <- 6
+d1$Votes[d1$Article %in% c(23)] <- 15
+d1$Votes[d1$Article %in% c(24)] <- 17
+d1$Votes[d1$Article %in% c(25)] <- 19
 
-- Three Votes: Articles 28
+# Output
+d1 |>
+  ggplot(aes(x = Article, y = Votes)) +
+  geom_col() +
+  theme_bw() +
+  labs(x = "Articles in the UN Declaration of Human Rights", y = "Class Votes",
+       title = "Identifying the most problematic articles in the UN DHR") +
+  scale_x_continuous(breaks = 1:30)
 
-- More Votes: Articles 14, 22, 23, 24, 25, 26, 29
+```
 
 ::: notes
 
@@ -313,7 +357,7 @@ Claim a democracy and a dictatorship (first-come, first-served) and review their
 2. The country reports by Amnesty International
 3. The country reports by Human Rights Watch
 
-Submit a summary of each country to Canvas before class (2-3 sentences each)
+Submit reflections on Canvas
 
 ::: notes
 

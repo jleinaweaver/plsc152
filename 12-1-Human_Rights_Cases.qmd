@@ -167,9 +167,11 @@ I'll be totally honest with you here: Each of these sources has its own problems
 **So, what is our best bet for establishing "high confidence" facts from these three sources?**
 
 (Most confident where all three reports agree with each other?)
+
 - This assumes all three asking the same question, right?
 
 (Least confident when:)
+
 - only one mentions something,
 - when a "fact" lies at the heart of the source's bias,
 
@@ -208,11 +210,25 @@ Groups, your first job is to define the tool
 
 *Present and DISCUSS each*
 
-- **Groups, is your scale more similar to the State Department (e.g. measuring against a baseline) or the NGOs (e.g. measuring against an ideal type)? Why?**
+- (Human rights respect as)
+
+    - number of violations? 
+    
+    - severity of violations?
+    
+    - efforts by the state to correct/prevent violations?
+    
+    - measuring against a baseline or against an ideal type?
+    
+<br>
+
+**Bottom line, where do we end up?**
+
+- *Force the class to adopt ONE common scale*
 
 <br>
 
-**SLIDE**: Ok, let's apply it
+**SLIDE**: Ok, let's apply our new instrument!
 
 :::
 
@@ -239,32 +255,6 @@ Work directly on the board!
 - Assume the summaries submitted by your classmates are accurate
 
 - Your job is to compare and contrast the democracy cases and get ready to report back your findings.
-
-<br>
-
-**REVEAL**: Before you get to work let's make sure we're clear on the "ruler" we're using!
-
-- **GROUPS, take a moment to get on the same page re how to apply this short Likert scale.**
-
-- **Get ready to report back to the class how you plan on classifying a country on this scale**
-
-<br>
-
-*REPORT back and DISCUSS*
-
-- (Human rights respect as)
-
-    - number of violations? 
-    
-    - severity of violations?
-    
-    - efforts by the state to correct/prevent violations?
-
-<br>
-
-Ok, get to work!
-
-- Work directly on the board!
 
 <br>
 
@@ -382,7 +372,7 @@ For example, these are the broad components of a measure they have constructed c
 
 <br>
 
-SLIDE: The world in 2023...
+SLIDE: The world as of the latest data
 
 :::
 
@@ -395,7 +385,7 @@ SLIDE: The world in 2023...
 
 ::: notes
 
-Here are the V-Dem measurements of civil liberties around the world in 2023.
+Here are the V-Dem measurements of civil liberties around the world using their latest data
 
 - Each country gets a score running from 0 (low) to 1 (high)
 
