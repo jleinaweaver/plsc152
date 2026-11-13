@@ -32,8 +32,54 @@ Prep for Class
 
 <br>
 
-**DISCUSS: Name me an international political event that has happened since we last met as a class.**
+**SLIDE**: The election happened!
+
+**SLIDE**: Announce advising session
+
 :::
+
+
+
+## {background-image="Images/background-worldmap4.png" .center}
+
+![](Images/00-FA26-Election.png){style="display: block; margin: 0 auto"}
+
+::: notes
+
+**Did everybody vote yesterday?**
+
+<br>
+
+**What happened yesterday?**
+
+- **Early takeaways?**
+
+<br>
+
+**What do these results means for American foreign policy over the next two months while Republicans hold all the levers of power?**
+
+<br>
+
+**How about over the next two years once Congress is controlled by the Democrats?**
+
+<br>
+
+We'll have to keep an eye on things!
+
+- **SLIDE**: As long as we're discussing the future, let's talk Spring scheduling!
+
+:::
+
+
+
+## {background-image="Images/background-worldmap4.png" .center}
+
+![](Images/00-Advising_Announcement-FA26.png){style="display: block; margin: 0 auto"}
+
+
+
+
+
 
 
 
@@ -60,7 +106,9 @@ On Monday we explored a series of case studies describing human rights abuses ar
 
 
 
-## {background-image="Images/15_2-krain_header.png" background-size='85%'}
+## {background-image="Images/background-worldmap4.png" .center}
+
+![](Images/15_2-krain_header.png)
 
 ::: notes
 
@@ -92,7 +140,13 @@ Let's clarify a few elements of this before diagramming the model in this paper.
 
 
 
-## {background-image="Images/15_2-discourse.png"}
+## Discourse as Power {background-image="Images/background-worldmap4.png"}
+
+![](Images/12_2-keith-ellison-voting-quotes-1572901394.avif){.absolute width="400" left=0 top=75}
+
+![](Images/12_2-john_lewis.jpg){.absolute width="650" right=0 bottom=100}
+
+
 
 ::: notes
 
@@ -109,10 +163,15 @@ Let's clarify a few elements of this before diagramming the model in this paper.
 - We assume states commit violent acts for reasons they feel strongly about.
 
 - The intriguing question is, can the discourse power overcome those reasons?
+
 :::
 
 
-## {background-image="Images/15_2-china-scs.png"}
+
+
+## The Power of Global Norms {background-image="Images/background-worldmap4.png" .center}
+
+![](Images/15_2-china-scs.png)
 
 ::: notes
 
@@ -143,7 +202,11 @@ So, Krain (2012) is playing with mechanisms that constructivism makes clear shou
 
 
 
-## {background-image="Images/15_2-krain_header.png" background-size='85%'}
+
+## {background-image="Images/background-worldmap4.png" .center}
+
+![](Images/15_2-krain_header.png)
+
 
 ::: notes
 
@@ -291,7 +354,6 @@ Work in small groups with the people around you
 **Interests**
 
 + Leaders of states care about their reputations and legitimacy
-+ NGOs / IOs want less genocide / politicide
 
 ::: {.fragment}
 
@@ -303,7 +365,9 @@ Work in small groups with the people around you
 
 ::: {.fragment}
 
-**Interactions**, e.g. Naming and Shaming (N&S):
+**Interactions**
+
+Naming and shaming (N&S) by NGOs or IOs:
 
 + Exposes the crimes (public not private)
 + Raises the profile of the crimes (global not domestic)
@@ -320,9 +384,17 @@ Ok, talk to me about this modeling choice.
 
 - Remember, the aim of the Krain model is to explain how discourse could reduce political violence
 
+- That means the key choice we are explaining is focused on leaders and whether or not they commit atrocities
+
 - **So, what are the strengths and weaknesses of analyzing political violence by focusing exclusively on these actors?**
 
-- **Any other actors mentioned in the theory section?**
+<br>
+
+**Why don't we include NGOs or IOs as an interest in this model?**
+
+- (We aren't trying to explain their decision to name and shame)
+
+- (We are trying to explain what happens to leader decision-making when they do!)
 
 <br>
 
@@ -367,13 +439,14 @@ Back to your small groups!
 **Interests**
 
 + Leaders of states care about their reputations and legitimacy
-+ NGOs / IOs want less genocide / politicide
 
 **Institutions**
 
 + Global norm: Genocide / Politicide is not legitimate
 
-**Interactions**, e.g. Naming and Shaming (N&S):
+**Interactions**
+
+Naming and shaming (N&S) by NGOs or IOs:
 
 + Exposes the crimes (public not private)
 + Raises the profile of the crimes (global not domestic)

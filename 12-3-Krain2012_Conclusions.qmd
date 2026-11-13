@@ -2,6 +2,14 @@
 format: revealjs
 ---
 
+
+## {background-image="Images/background-worldmap4.png" .center}
+
+![](Images/00-Advising_Announcement-FA26.png){style="display: block; margin: 0 auto"}
+
+
+
+
 ## Today's Agenda {background-image="Images/background-worldmap4.png" .center}
 
 ```{r}
@@ -41,6 +49,7 @@ So, pertinent to the Krain paper we had an interesting dynamic play out in the m
 
 
 
+
 ## {background-image="Images/background-worldmap4.png" .center}
 
 
@@ -64,9 +73,9 @@ Shortly after taking control of Afghanistan the Taliban proceeded to hunt down a
 
 <br>
 
-### Out of curiosity, and relevant to the Krain article, do we count this newspaper report as a "win" for human rights watch? Why or why not?
+**Out of curiosity, and relevant to the Krain article, do we count this newspaper report as a "win" for human rights watch? Why or why not?**
 
-*DISCUSS*
+- *DISCUSS*
 :::
 
 
@@ -91,15 +100,15 @@ knitr::include_graphics("Images/15_3-NYT_UN2.png")
 ::: notes
 Days later we saw big announcements come out of the UN General Assembly.
 
-### One hell of a coincidence, no?
+**One hell of a coincidence, no?**
 
 <br>
 
-### What evidence would you need to see to convince you that these two events are connected?
+**What evidence would you need to see to convince you that these two events are connected?**
 
-#### - That Human Rights Watch succeeded in stopping the UN from recognizing the Taliban?
+- **That Human Rights Watch succeeded in stopping the UN from recognizing the Taliban?**
 
-*DISCUSS*
+- *DISCUSS*
 
 <br>
 
@@ -119,13 +128,16 @@ Bringing this forward in time:
 
 This week we've been exploring research by Matt Krain (2012).
 
-### What is the research question in the paper?
-(Does "naming and shaming" reduce the severity of genocide and politicides?)
+<br>
+
+**What is the research question in the paper?**
+- (Does "naming and shaming" reduce the severity of genocide and politicides?)
 
 <br>
 
-### And what's the difference between genocide and politicide?
-(Both are mass killings, one targeting a "communal" group, the other political enemies)
+**And what's the difference between genocide and politicide?**
+
+- (Both are mass killings, one targeting a "communal" group, the other political enemies)
 :::
 
 
@@ -135,13 +147,14 @@ This week we've been exploring research by Matt Krain (2012).
 **Interests**
 
 + Leaders of states care about their reputations and legitimacy
-+ NGOs / IOs want less genocide / politicide
 
 **Institutions**
 
 + Global norm: Genocide / Politicide is not legitimate
 
-**Interactions**, Naming and Shaming (N&S):
+**Interactions**
+
+Naming and shaming (N&S) by NGOs or IOs:
 
 + Exposes the crimes (public not private)
 + Raises the profile of the crimes (global not domestic)
@@ -154,21 +167,25 @@ This week we've been exploring research by Matt Krain (2012).
 
 Here are the interests, institutions and interactions we identified on Wednesday.
 
-### How convincing do you find these mechanisms in terms of their logic?
+**How convincing do you find these mechanisms in terms of their logic?**
 
-#### - Are they sufficiently clear?
+- **Are they sufficiently clear?**
 
-#### - Do they connect sufficiently to the decision-making of the bad leader?
+- **Do they connect sufficiently to the decision-making of the bad leader?**
 
 <br>
 
-### Remind me also, how does this represent a test of the Constructivist model of politics?
+**Remind me also, how does this represent a test of the Constructivist model of politics?**
+
 1. (The power of discourse!) AND
+
 2. (The importance of identity and your inability to control how others assign that identity to you)
 
 <br>
 
-### Ok, what are the big conclusions raised at the end of this paper?
+**Ok, what are the big conclusions raised at the end of this paper?**
+
+- (**SLIDE**)
 :::
 
 
@@ -228,7 +245,7 @@ Let's start by trying to understand the case selection in the paper.
 
 Also, seems to imply that we are supposed to ignore cases that wrapped up in less than a year.
 
-### What is the effect of eliminating short genocides from the paper? Why do this?
+- **What is the effect of eliminating short genocides from the paper? Why do this?**
 
 <br>
 
@@ -238,7 +255,7 @@ Makes sense if data analysis is year to year change BUT
 
 <br>
 
-### Assuming this is the "correct" list, are we confident the Table 1 list presents an equal test of the media, AI and the UNCHR?
+**Assuming this is the "correct" list, are we confident the Table 1 list presents an equal test of the media, AI and the UNCHR?**
 
 - Selection bias possible: Big variation in attention paid by "northern" media to different countries around the world, right?
 :::
@@ -271,27 +288,30 @@ Groups, discuss the strengths and weaknesses of measuring genocide in these 10 l
 
 This is the variation the paper aims to explain.
 
-### Let's get it out of the way first, why not just use the actual numbers?
-(We simply don't know that precisely.)
+**Let's get it out of the way first, why not just use the actual numbers?**
+
+- (We simply don't know that precisely.)
 
 - Great uncertainty at the super-specific level
 
 <br>
 
-### Ok, groups, how does the operationalization and measurement of the outcome variable impact your level of confidence in the conclusion?
+**Ok, groups, how does the operationalization and measurement of the outcome variable impact your level of confidence in the conclusion?**
 
-(Problems identified:)
-
-1. Takes way more killings to move to the highest levels than to move across the low levels. Intervals not consistent.
-
-2. If not per capita (and Pakistan / Indonesia have way bigger populations) than this might not be an equal test across the cases.
+- (Problems identified:)
+  
+    1. Takes way more killings to move to the highest levels than to move across the low levels. Intervals not consistent.
+    
+    2. If not per capita (and Pakistan / Indonesia have way bigger populations) than this might not be an equal test across the cases.
 
 - Small number of deaths in a huge vs small state carries different seriousness, no?
 
 <br>
 
-### Do these specific grouping choices make it harder to identify small, but meaningful, effects?
-#### - To the disadvantage of one of our actors more than the others?
+**Do these specific grouping choices make it harder to identify small, but meaningful, effects?**
+
+- **To the disadvantage of one of our actors more than the others?**
+
 :::
 
 
@@ -314,7 +334,7 @@ Ok, groups, same question applied to the operationalization and measurement of t
 
 *Report Back*
 
-### Strengths and weaknesses here?
+- **Strengths and weaknesses here?**
 :::
 
 
@@ -325,36 +345,38 @@ Ok, groups, same question applied to the operationalization and measurement of t
 
 As we've noted before, the descriptive statistics in the appendix are a useful way to think about how the world looks in this analysis.
 
-### Does everybody remember what the "mean" tells you?
+**Does everybody remember what the "mean" tells you?**
 
-### What about the minimum and maximum?
-
-<br>
-
-### Based on the descriptive statistics, tell me about how the world looks in this sample.
+**What about the minimum and maximum?**
 
 <br>
 
-#### - How brutal is the average abuse? 
+Based on the descriptive statistics, tell me about how the world looks in this sample.
 
-#### - How much media coverage? 
-- (Super low, .67 articles in a given 12 months)
+- **How brutal is the average abuse?**
 
-#### - How many AI reports get released on average? 
-- (6.49)
+- **How much media coverage?**
 
-#### - What proportion of cases are targeted by the UNCHR? 
-- (55% Politics in all things)
+    - (Super low, .67 articles in a given 12 months)
 
-#### - What proportion of cases are during the cold war? 
-- (79%)
+- **How many AI reports get released on average?**
+    - (6.49)
 
-#### - Tell me about the breakdown of interventions: pro-perpetrator vs anti-perpetrator vs impartial. Does this make sense? 
-- (53% Pro perpetrator!)
+- **What proportion of cases are targeted by the UNCHR?**
+    
+    - (55% Politics in all things)
+
+- **What proportion of cases are during the cold war?**
+
+    - (79%)
+
+- **Tell me about the breakdown of interventions: pro-perpetrator vs anti-perpetrator vs impartial. Does this make sense?**
+
+    - (53% Pro perpetrator!)
 
 <br>
 
-### Does this tell us anything about what life is like in most dictatorships? Why or why not?
+**Does this tell us anything about what life is like in most dictatorships? Why or why not?**
 :::
 
 
@@ -459,7 +481,7 @@ Let's zoom in here on just the first column.
 
 <br>
 
-### Does everybody understand the numbers in the red box and how those numbers become the bar plot on the side?
+**Does everybody understand the numbers in the red box and how those numbers become the bar plot on the side?**
 
 <br>
 
@@ -473,7 +495,7 @@ Let's zoom in here on just the first column.
 
 <br>
 
-### So, based on this model of simulated outcomes how serious is any ongoing genocide or politicide likely to be?
+**So, based on this model of simulated outcomes how serious is any ongoing genocide or politicide likely to be?**
 
 - (90% of ignored cases will result in more than 2k dead)
 
@@ -481,7 +503,9 @@ Let's zoom in here on just the first column.
 
 - (Apprx 40% of ignored cases will see more than 32k killed)
 
-### Does that make sense?
+<br>
+
+**Does that make sense?**
 
 <br>
 
@@ -627,7 +651,7 @@ d4 |>
 
 Better, right?
 
-### So, according to this model how powerful is media attention for stopping human rights violators?
+**So, according to this model how powerful is media attention for stopping human rights violators?**
 
 - An increase of ONE additional news story can have a powerful effect on bad state behavior!
 :::
@@ -639,7 +663,9 @@ Better, right?
 
 Table 6 focuses on the effect of Amnesty International reports.
 
-### How big is the effect of amnesty reports according to Table 6?
+<br>
+
+**How big is the effect of amnesty reports according to Table 6?**
 
 - (**SLIDE**)
 :::
@@ -690,7 +716,7 @@ Not as big as media at the extremes, BUT slightly bigger in the middle changes!
 
 <br>
 
-### How confident should we be in these results?
+**How confident should we be in these results?**
 :::
 
 
@@ -771,11 +797,11 @@ d8a |>
 
 <br>
 
-### Does this research make you more or less suppportive of the work of groups like Human Rights Watch and Amnesty International?
+**Does this research make you more or less suppportive of the work of groups like Human Rights Watch and Amnesty International?**
 
 <br>
 
-### Would you be willing to send them money or support their work in other ways based on this? Why or why not?
+**Would you be willing to send them money or support their work in other ways based on this? Why or why not?**
 :::
 
 
