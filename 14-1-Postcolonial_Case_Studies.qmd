@@ -44,6 +44,12 @@ Prep for Class
 
 <br>
 
+**ANNOUNCE**: Extra credit opportunity
+
+- Wednesday at 9am in this room: Dr. Andrew Hom - “Existential Struggles and the Rise of Radical Right Politics”
+
+<br>
+
 Today I want to briefly introduce you to a second strand of critical IR theory: Postcolonial Approaches to IR
 
 - These scholars focus on the effects of colonialism and race on international political events
@@ -55,18 +61,14 @@ Today I want to briefly introduce you to a second strand of critical IR theory: 
 
 
 
-## Feminist IR Theory (Enloe 2014) {background-image="Images/background-worldmap4.png" .center}
+
+## Feminist Critical Theory (Enloe 2014) {background-image="Images/background-worldmap4.png" .center .smaller}
+
+<br>
 
 :::: {.columns}
 ::: {.column width="50%"}
-```{r, out.width='80%'}
-knitr::include_graphics('Images/13-1-Enloe_Book_Cover.jpg')
-```
-:::
-
-::: {.column width="50%"}
-
-<br>
+**Enloe 2014**
 
 1. Where Does Power Operate?
 
@@ -77,6 +79,21 @@ knitr::include_graphics('Images/13-1-Enloe_Book_Cover.jpg')
 4. Where Are the Men?
 
 5. Beyond the Global Victim
+
+:::
+
+::: {.column width="50%"}
+**Interests**
+
+- ?
+
+**Institutions**
+
+- ?
+
+**Interactions**
+
+- ?
 :::
 ::::
 
@@ -88,6 +105,28 @@ knitr::include_graphics('Images/13-1-Enloe_Book_Cover.jpg')
 <br>
 
 **SLIDE**: Today we shift to a new set of case studies to discuss and reflect on!
+
+<br>
+
+*My Notes*
+
+Interests: 
+
+- Decision-making depends on lots of inputs
+- Don’t forget to think about ALL the actors involved in the functioning of states, organizations, and movements
+- Who participated in decision-making? Who are we ignoring?
+
+Institutions: 
+
+- Replace "anarchy" with a "gendered hierarchy"
+- There IS a supranational structure and it is rooted in gender norms!
+- Gender stereotypes as a kind of institution we should be aware of and how they structure interests and interactions
+
+Interactions: 
+
+- Power is way more complicated and suffuses all interactions way more then the other theories think it does.
+- Actors are constrained by norms more than they realize
+- Institutions are often organized to reinforce those norms (UNSCR 1325)
 
 :::
 
@@ -194,7 +233,7 @@ Ok, I want each of you to analyze your own case using these prompts
 
 3. Why is it "political"?
 
-4. What is the role of "gender" in this event?
+4. Why did you choose this case? (e.g. colonialism, exploitation, race, etc?)
 
 5. What are the implications of this case for IR theory?
 :::
